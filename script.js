@@ -1,0 +1,3345 @@
+
+let allBoats = [];
+let allRoutes = [];
+let allMissionTemplates = [];
+let builtInSearchProfiles = [];
+let comparisonBoatIDs = [];
+let boatRegistry = null;
+let taxonomyRegistry = null;
+let knowledgeLayer = null;
+
+function escapeHtml(value) {
+    return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+// =====================================================
+// APPLICATION INITIALIZATION
+// =====================================================
+
+/**
+ * Receives validated application data from BScoutBootstrap.
+ * Data retrieval and startup sequencing intentionally live outside this UI module.
+ */
+function initializeBScoutApplication(data) {
+    const payload = data || {};
+
+    allBoats = Array.isArray(payload.boats) ? payload.boats : [];
+    allRoutes = Array.isArray(payload.routes) ? payload.routes : [];
+    allMissionTemplates = Array.isArray(payload.missionTemplates) ? payload.missionTemplates : [];
+    builtInSearchProfiles = Array.isArray(payload.searchProfiles) ? payload.searchProfiles : [];
+    window.BScoutMarketplaceSources = Array.isArray(payload.marketplaceSources) ? payload.marketplaceSources : [];
+    window.BScoutModelSearchAliases = Array.isArray(payload.modelSearchAliases) ? payload.modelSearchAliases : [];
+    window.BScoutMarketplaceSourceValidation = Array.isArray(payload.marketplaceSourceValidation) ? payload.marketplaceSourceValidation : [];
+    // Temporary compatibility alias for older renderers.
+    window.BScoutBrokerSourceValidation = window.BScoutMarketplaceSourceValidation;
+
+    if (window.BScoutBoatRegistry && typeof window.BScoutBoatRegistry.createRegistry === "function") {
+        boatRegistry = window.BScoutBoatRegistry.createRegistry({
+            manufacturers: payload.manufacturers,
+            boats: payload.boatRegistry
+        });
+        window.BScoutRegistry = boatRegistry;
+        const registryValidation = boatRegistry.validateSourceBoats(allBoats);
+        if (!registryValidation.valid) {
+            console.warn("Boat Registry validation requires review:", registryValidation);
+        }
+    }
+
+    console.log(`Loaded ${allBoats.length} boats`);
+    console.log(`Loaded ${allRoutes.length} routes`);
+    console.log(`Loaded ${allMissionTemplates.length} templates`);
+    console.log(`Loaded ${builtInSearchProfiles.length} built-in Search Profiles`);
+    console.log(`Loaded ${window.BScoutMarketplaceSources.length} marketplace sources`);
+    console.log(`Loaded ${window.BScoutModelSearchAliases.length} model search alias records`);
+    console.log(`Loaded ${window.BScoutMarketplaceSourceValidation.length} marketplace source validation records`);
+
+    if (window.BScoutManufacturerKnowledgeRepository && typeof window.BScoutManufacturerKnowledgeRepository.createRepository === "function") {
+        window.BScoutManufacturerKnowledge = window.BScoutManufacturerKnowledgeRepository.createRepository(payload.manufacturerKnowledge);
+    }
+
+    if (window.BScoutTaxonomyRegistry && typeof window.BScoutTaxonomyRegistry.createRegistry === "function") {
+        taxonomyRegistry = window.BScoutTaxonomyRegistry.createRegistry({
+            fuelTypes: payload.fuelTypes,
+            propulsionTypes: payload.propulsionTypes,
+            hullForms: payload.hullForms,
+            hullConfigurations: payload.hullConfigurations,
+            styleFamilies: payload.styleFamilies
+        });
+        window.BScoutTaxonomy = taxonomyRegistry;
+        const taxonomyIssues = allBoats.flatMap(boat => taxonomyRegistry.validateBoat(boat).map(issue => ({
+            BoatModelID: boat.BoatModelID,
+            ...issue
+        })));
+        if (taxonomyIssues.length) console.warn("Taxonomy validation requires review:", taxonomyIssues);
+    }
+
+    if (window.BScoutKnowledgeLayerRepository && typeof window.BScoutKnowledgeLayerRepository.createKnowledgeIndex === "function") {
+        knowledgeLayer = window.BScoutKnowledgeLayerRepository.createKnowledgeIndex({
+            facts: payload.facts,
+            evidence: payload.evidence,
+            contradictions: payload.contradictions,
+            relationships: payload.relationships,
+            knowledgeCoverage: payload.knowledgeCoverage
+        });
+        window.BScoutKnowledgeLayer = knowledgeLayer;
+        const knowledgeValidation = window.BScoutKnowledgeLayerRepository.validateKnowledgeData({
+            facts: payload.facts,
+            evidence: payload.evidence,
+            contradictions: payload.contradictions,
+            relationships: payload.relationships,
+            knowledgeCoverage: payload.knowledgeCoverage
+        }, allBoats.map(boat => boat.BoatModelID));
+        if (!knowledgeValidation.valid) console.warn("Knowledge Layer validation requires review:", knowledgeValidation);
+    }
+
+    if (window.BScoutSearchOrchestrator) {
+        window.BScoutSearchOrchestrator.configure({
+            boats: allBoats,
+            routes: allRoutes,
+            render: displayBoats,
+            relationshipResolver: getBoatRelationship
+        });
+    }
+
+    displayBoats(allBoats);
+    initMissionTemplates();
+    initSearchProfiles();
+
+    return {
+        boatCount: allBoats.length,
+        routeCount: allRoutes.length,
+        missionTemplateCount: allMissionTemplates.length,
+        searchProfileCount: builtInSearchProfiles.length,
+        marketplaceSourceCount: window.BScoutMarketplaceSources.length,
+        modelSearchAliasCount: window.BScoutModelSearchAliases.length,
+        marketplaceValidationCount: window.BScoutMarketplaceSourceValidation.length,
+        registeredBoatIdentityCount: boatRegistry ? boatRegistry.listBoats().length : 0,
+        manufacturerRegistryCount: boatRegistry ? boatRegistry.listManufacturers().length : 0,
+        taxonomyReady: Boolean(taxonomyRegistry),
+        knowledgeLayerReady: Boolean(knowledgeLayer),
+        knowledgeFactCount: Array.isArray(payload.facts) ? payload.facts.length : 0
+    };
+}
+
+window.initializeBScoutApplication = initializeBScoutApplication;
+
+// =====================================================
+// SEARCH PROFILE CONTROL BINDING
+// =====================================================
+
+function resetSearchControls() {
+    document.querySelectorAll(".search-panel input, .search-panel select").forEach(element => {
+        if (element.id === "searchProfileSelect") return;
+        if (element.type === "checkbox") element.checked = false;
+        else element.value = "";
+    });
+}
+
+function applySearchSettingsToControls(settings) {
+    const values = settings || {};
+    resetSearchControls();
+    const setValue = (id, value) => { const element = document.getElementById(id); if (element && value !== undefined && value !== null) element.value = value; };
+    const setCheckedValues = (selector, selected) => {
+        const wanted = new Set((selected || []).map(String));
+        document.querySelectorAll(selector).forEach(element => { element.checked = wanted.has(String(element.value)); });
+    };
+    setValue("textSearch", values.textSearch || ""); setValue("maxLength", values.maxLength ?? ""); setValue("maxBeam", values.maxBeam ?? "");
+    setValue("flybridgeFilter", values.flybridge || ""); setValue("sideDeckFilter", values.sideDecks || ""); setValue("trailerFilter", values.trailerable || ""); setValue("loopFilter", values.greatLoop || "");
+    setValue("crewComposition", values.crewComposition || ""); setValue("tallestCrewHeight", values.tallestCrewHeight ?? ""); setValue("guestFrequency", values.guestFrequency || "");
+    setCheckedValues(".routeFilter", values.routes); setCheckedValues(".styleFilter", values.styles); setCheckedValues(".familyFilter", values.boatFamilies);
+    setCheckedValues(".configurationFilter", values.configurations); setCheckedValues(".constructionFilter", values.constructionMaterials);
+    setCheckedValues(".hullFilter", values.hullTypes); setCheckedValues(".fuelFilter", values.fuels); setCheckedValues(".propulsionFilter", values.propulsion);
+    document.querySelectorAll(".featurePriority").forEach(element => { element.value = (values.featurePriorities || {})[element.dataset.feature] || ""; });
+}
+
+function describeSearchProfile(settings) {
+    const s = settings || {}; const lines = [];
+    if (s.textSearch) lines.push(`Search: ${s.textSearch}`); if (s.routes?.length) lines.push(`Routes: ${s.routes.join(", ")}`);
+    if (s.maxLength) lines.push(`Maximum length: ${s.maxLength} ft`); if (s.maxBeam) lines.push(`Maximum beam: ${s.maxBeam} ft`);
+    if (s.fuels?.length) lines.push(`Fuel: ${s.fuels.join(", ")}`); if (s.boatFamilies?.length) lines.push(`Boat family: ${s.boatFamilies.join(", ")}`);
+    if (s.configurations?.length) lines.push(`Sub-Family: ${s.configurations.join(", ")}`); if (s.hullTypes?.length) lines.push(`Hull behaviour: ${s.hullTypes.join(", ")}`);
+    if (s.constructionMaterials?.length) lines.push(`Construction: ${s.constructionMaterials.join(", ")}`); if (s.propulsion?.length) lines.push(`Propulsion: ${s.propulsion.join(", ")}`);
+    if (s.sideDecks) lines.push(`Side decks: ${s.sideDecks}`); return lines;
+}
+
+function updateSearchProfileSummary() {
+    const summary = document.getElementById("searchProfileSummary"); if (!summary) return;
+    const settings = window.BScoutSearchState ? window.BScoutSearchState.readFromDocument(document) : buildUserProfile();
+    const lines = describeSearchProfile(settings);
+    summary.innerHTML = `<strong>${escapeHtml(currentSearchProfile?.ProfileName || "New Search")}${isCurrentProfileDirty ? " — unsaved changes" : ""}</strong>` +
+        (lines.length ? lines.map(line => `<span class="profile-summary-item">${escapeHtml(line)}</span>`).join("") : "<span>No search criteria applied.</span>");
+}
+
+function initMissionTemplates() { /* Retained startup hook; preset templates were replaced by Search Profiles. */ }
+
+// ===========================================
+// Mission Evaluation (Tier 1 Filtering)
+// ===========================================
+
+function evaluateMissionHardConstraint(boat, mission) {
+
+    let result = {
+        passed: true,
+        confidence: 100,
+        issues: []
+    };
+
+
+    // Length Check
+
+    if (
+        boat.LOA_ft !== undefined &&
+        boat.LOA_ft !== "" &&
+        mission.MissionMaxLengthFt !== undefined &&
+        mission.MissionMaxLengthFt !== ""
+    ) {
+
+        if (Number(boat.LOA_ft) > Number(mission.MissionMaxLengthFt)) {
+
+            result.passed = false;
+
+            result.issues.push(
+                "Length exceeds mission limit"
+            );
+
+        }
+
+    } else {
+
+        result.confidence -= 10;
+
+    }
+
+
+    // Beam Check
+
+    if (
+        boat.Beam_ft !== undefined &&
+        boat.Beam_ft !== "" &&
+        mission.MissionMaxBeamFt !== undefined &&
+        mission.MissionMaxBeamFt !== ""
+    ) {
+
+        if (Number(boat.Beam_ft) > Number(mission.MissionMaxBeamFt)) {
+
+            result.passed = false;
+
+            result.issues.push(
+                "Beam exceeds mission limit"
+            );
+
+        }
+
+    } else {
+
+        result.confidence -= 10;
+
+    }
+
+
+    // Draft Check
+
+    if (
+        boat.Draft_ft !== undefined &&
+        boat.Draft_ft !== "" &&
+        mission.MissionMaxDraftFt !== undefined &&
+        mission.MissionMaxDraftFt !== ""
+    ) {
+
+        if (Number(boat.Draft_ft) > Number(mission.MissionMaxDraftFt)) {
+
+            result.passed = false;
+
+            result.issues.push(
+                "Draft exceeds mission limit"
+            );
+
+        }
+
+    } else {
+
+        result.confidence -= 10;
+
+    }
+
+
+    // Air Draft Check
+
+    if (
+        boat.AirDraft_ft !== undefined &&
+        boat.AirDraft_ft !== "" &&
+        mission.MissionMaxAirDraftFt !== undefined &&
+        mission.MissionMaxAirDraftFt !== ""
+    ) {
+
+        if (Number(boat.AirDraft_ft) > Number(mission.MissionMaxAirDraftFt)) {
+
+            result.passed = false;
+
+            result.issues.push(
+                "Air draft exceeds mission limit"
+            );
+
+        }
+
+    } else {
+
+        result.confidence -= 10;
+
+    }
+
+
+    return result;
+
+}
+
+// ===========================================
+// Tier 2 - Mission Suitability Score
+// ===========================================
+
+function calculateMissionFit(boat, mission) {
+
+    let score = 50;
+    let reasons = [];
+
+
+    // Fuel
+
+    if (boat.Fuel === "Diesel") {
+
+        score += 10;
+        reasons.push("Diesel");
+
+    }
+
+
+    // Hull Type
+
+    if (
+        boat.HullType === "Displacement" ||
+        boat.HullType === "Semi-Displacement"
+    ) {
+
+        score += 10;
+        reasons.push("Cruising hull");
+
+    }
+
+
+    // Shower
+
+  if (boat.Shower === true) {
+
+    score += 3;
+    reasons.push("Shower");
+
+}
+
+
+    // Fresh water
+
+    if (boat.WaterCapacity !== undefined) {
+
+        if (boat.WaterCapacity >= 100) {
+
+            score += 5;
+            reasons.push("Large fresh water capacity");
+
+        }
+
+        else if (boat.WaterCapacity >= 50) {
+
+            score += 2;
+
+        }
+
+    }
+
+
+    // Black water
+
+    if (boat.HoldingCapacity !== undefined) {
+
+        if (boat.HoldingCapacity >= 50) {
+
+            score += 5;
+            reasons.push("Large holding tank");
+
+        }
+
+    }
+
+
+    // Limit score
+
+    if (score > 100) {
+        score = 100;
+    }
+
+    if (score < 0) {
+        score = 0;
+    }
+
+
+    return {
+
+        score: score,
+        reasons: reasons
+
+    };
+
+}
+
+// =====================================================
+// B-SCOUT SUITABILITY SCORING
+// =====================================================
+
+function calculateBScoutScore(boat) {
+
+
+    let score = 50;
+
+    let reasons = [];
+
+    let unknowns = [];
+
+
+
+    // Fuel
+
+    if (
+        boat.Fuel &&
+        boat.Fuel.toLowerCase().includes("diesel")
+    ) {
+
+        score += 10;
+
+        reasons.push("✓ Diesel power");
+
+    }
+
+    else if (!boat.Fuel) {
+
+        unknowns.push("? Fuel unknown");
+
+    }
+
+
+
+    // Hull
+
+    if (
+        boat.HullType === "Full Displacement" ||
+        boat.HullType === "Semi-Displacement"
+    ) {
+
+        score += 10;
+
+        reasons.push("✓ Cruising hull design");
+
+    }
+
+    else if (!boat.HullType) {
+
+        unknowns.push("? Hull type unknown");
+
+    }
+
+
+
+    // Propulsion
+
+    if (
+        boat.Propulsion &&
+        boat.Propulsion.toLowerCase().includes("shaft")
+    ) {
+
+        score += 10;
+
+        reasons.push("✓ Inboard shaft propulsion");
+
+    }
+
+    else if (!boat.Propulsion) {
+
+        unknowns.push("? Propulsion unknown");
+
+    }
+
+
+
+    // Side decks
+
+    if (boat.SideDecks === "Wide") {
+
+        score += 8;
+
+        reasons.push("✓ Wide side decks");
+
+    }
+
+    else if (boat.SideDecks === "Moderate") {
+
+        score += 5;
+
+        reasons.push("✓ Moderate side decks");
+
+    }
+
+    else if (boat.SideDecks === "Limited") {
+
+        score += 3;
+
+        reasons.push("✓ Limited side access");
+
+    }
+
+    else if (boat.SideDecks === "Narrow") {
+
+        score += 2;
+
+        reasons.push("✓ Narrow side access");
+
+    }
+
+
+
+    // Documentation
+
+    if (boat.Strengths) {
+
+        score += 5;
+
+        reasons.push("✓ Documented strengths");
+
+    }
+
+
+
+    if (boat.CommonProblems) {
+
+        score += 5;
+
+        reasons.push("✓ Known issues documented");
+
+    }
+
+
+
+    if (score > 100) {
+
+        score = 100;
+
+    }
+
+
+
+    return {
+
+        score,
+
+        reasons,
+
+        unknowns
+
+    };
+
+
+}
+
+
+
+
+
+// =====================================================
+// DISPLAY BOAT CARDS
+// =====================================================
+
+function renderDecisionSummary(relationship, boat) {
+    const currentStatus = (relationship && relationship.Status) ? relationship.Status : "None";
+    const notebook = relationship && relationship.Research ? relationship.Research : {};
+    const rating = notebook.Rating || 0;
+    const tags = notebook.Tags && notebook.Tags.trim() ? notebook.Tags.trim() : "None";
+    let lastUpdatedStr = "Not started";
+    if (relationship && relationship.LastUpdated) {
+        const date = new Date(relationship.LastUpdated);
+        if (!isNaN(date.getTime())) lastUpdatedStr = date.toLocaleDateString();
+    }
+    const stars = rating ? "★".repeat(rating) + "☆".repeat(5 - rating) : "Not rated";
+    return `
+<div class="decision-summary-section">
+    <hr class="decision-summary-divider">
+    <h3 class="decision-summary-heading">Decision Summary</h3>
+    <div class="boat-status-container">
+        <label for="status-${boat.BoatModelID}">Evaluation stage</label>
+        <select class="boat-status-select status-${currentStatus.toLowerCase()}" data-id="${boat.BoatModelID}" id="status-${boat.BoatModelID}">
+            <option value="None" ${currentStatus === "None" ? "selected" : ""}>Unreviewed</option>
+            <option value="Favorite" ${currentStatus === "Favorite" ? "selected" : ""}>Favorite</option>
+            <option value="Candidate" ${currentStatus === "Candidate" ? "selected" : ""}>Candidate</option>
+            <option value="Research" ${currentStatus === "Research" ? "selected" : ""}>Evaluating</option>
+            <option value="Rejected" ${currentStatus === "Rejected" ? "selected" : ""}>Rejected</option>
+        </select>
+    </div>
+    <div class="decision-summary-row"><strong>Buyer rating:</strong> <span class="stars-rating">${stars}</span></div>
+    <div class="decision-summary-row"><strong>Tags:</strong> <span>${tags}</span></div>
+    <div class="decision-summary-row"><strong>Notebook updated:</strong> <span>${lastUpdatedStr}</span></div>
+    <hr class="decision-summary-divider">
+</div>`;
+}
+
+function normalizeFeatureLabel(value) {
+    return String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function renderPreferenceMatchSummary(boat) {
+    const settings = window.BScoutSearchState?.getState?.().searchSettings || {};
+    const assessment = window.BScoutFilterEngine?.preferenceAssessment
+        ? window.BScoutFilterEngine.preferenceAssessment(boat, settings)
+        : { score: 0, matches: 0, total: 0, unknown: 0, preferences: [] };
+    if (!assessment.total) return "";
+    const matchedLabels = assessment.preferences.filter(item => item.matched).map(item => item.label);
+    const unknownText = assessment.unknown ? ` · ${assessment.unknown} unknown` : "";
+    return `<div class="preference-match-summary">
+        <div class="preference-score"><strong>Preference Match ${assessment.score}%</strong></div>
+        <div class="preference-count">Matches ${assessment.matches} of ${assessment.total} Preferences${unknownText}</div>
+        ${matchedLabels.length ? `<div class="preference-labels">${matchedLabels.map(label => `<span>${escapeHtml(label)}</span>`).join("")}</div>` : ""}
+    </div>`;
+}
+
+function displayBoats(boats) {
+
+
+    const container =
+        document.getElementById("boat-listings");
+
+
+    if (!container) {
+
+        console.error("Missing boat-listings container");
+
+        return;
+
+    }
+
+    // Filter out rejected boats from normal listings
+    const normalBoats = boats.filter(boat => {
+        const rel = getBoatRelationship(boat.BoatModelID);
+        return !rel || rel.Status !== "Rejected";
+    });
+
+    // Update Results section counts
+    const totalCountElem = document.getElementById("totalBoatsCount");
+    const currentCountElem = document.getElementById("currentBoatsCount");
+    if (totalCountElem) {
+        totalCountElem.textContent = allBoats.length;
+    }
+    if (currentCountElem) {
+        currentCountElem.textContent = normalBoats.length;
+    }
+
+    // Update the Buyer Workspace counts
+    updateBuyerWorkspaceCounts();
+
+    container.innerHTML = "";
+
+
+
+    normalBoats.forEach(boat => {
+
+        const rel = getBoatRelationship(boat.BoatModelID);
+
+        const evaluation =
+            calculateBScoutScore(boat);
+
+
+
+        const card =
+            document.createElement("div");
+
+
+
+        card.className = "boat-card";
+
+
+
+        const title = [
+
+            boat.Manufacturer,
+
+            boat.Model,
+
+            boat.Variant
+
+        ]
+
+        .filter(Boolean)
+
+        .join(" ");
+
+
+
+
+
+        card.innerHTML = `
+
+<img src="${ImageAssetManager.resolveBoatImage(boat)}" class="boat-image" alt="${title}" onerror="ImageAssetManager.applyImageFallback(this)">
+
+
+<h2>
+
+${title || "Unknown Boat"}
+
+</h2>
+
+<div class="boat-card-buttons">
+<button
+
+class="details-button intelligence-btn"
+
+data-id="${boat.BoatModelID}"
+
+>
+
+Workspace
+
+</button>
+
+<button
+
+class="details-button research-btn"
+
+data-id="${boat.BoatModelID}"
+
+>
+
+Notebook
+
+</button>
+
+<button
+
+class="details-button compare-btn"
+
+data-id="${boat.BoatModelID}"
+
+>
+
+Compare
+
+</button>
+</div>
+
+${renderDecisionSummary(rel, boat)}
+
+${renderPreferenceMatchSummary(boat)}
+
+${window.BScoutIntelligenceLayer ? window.BScoutIntelligenceLayer.renderModelKnowledgeSummary(window.BScoutIntelligenceLayer.buildModelKnowledgeSummary(boat), { compact: true }) : ""}
+
+<div class="card-fit-summary">
+    <p class="hard-filter-pass"><strong>✓ Meets all known hard filters</strong></p>
+    <p class="unknown-data">${evaluation.unknowns.slice(0, 3).join("<br>") || "No key data gaps identified"}</p>
+</div>
+
+<hr>
+<strong>Specifications</strong>
+<p>
+Length: ${boat.LOA_ft || "Unknown"} ft<br>
+Beam: ${boat.Beam_ft || "Unknown"} ft<br>
+Draft: ${boat.Draft_ft || "Unknown"} ft<br>
+Air Draft: ${boat.AirDraft_ft || "Unknown"} ft
+</p>
+
+
+`;
+
+
+
+        container.appendChild(card);
+
+
+
+    });
+
+
+
+    // Attach intelligence buttons
+
+document
+.querySelectorAll(".intelligence-btn")
+.forEach(button => {
+
+
+    button.addEventListener("click", function(){
+
+
+        const boat =
+            allBoats.find(
+                b => String(b.BoatModelID) === String(this.dataset.id)
+            );
+
+
+        if (boat) {
+
+            showBoatDetails(boat);
+
+        }
+
+
+    });
+
+
+});
+
+    // Attach research buttons
+
+document
+.querySelectorAll(".research-btn")
+.forEach(button => {
+
+
+    button.addEventListener("click", function(){
+
+
+        const boat = allBoats.find(b => String(b.BoatModelID) === String(this.dataset.id));
+        if (boat && window.BScoutBoatWorkspace) {
+            window.BScoutBoatWorkspace.open(boat, "notebook");
+        } else {
+            showResearchPanel(this.dataset.id);
+        }
+
+
+    });
+
+
+});
+
+    // Attach compare buttons
+
+document
+.querySelectorAll(".compare-btn")
+.forEach(button => {
+
+
+    button.addEventListener("click", function(){
+
+
+        toggleCompareBoat(this.dataset.id);
+
+
+    });
+
+
+});
+
+
+    updateCompareButtonsState();
+    updateFloatingCompareButton();
+
+}
+// =====================================================
+// BOAT INTELLIGENCE MODAL
+// =====================================================
+
+function showBoatDetails(boat) {
+
+    window.BScoutWorkspaceReturnModal = "";
+    if (window.BScoutBoatWorkspace && typeof window.BScoutBoatWorkspace.open === "function") {
+        window.BScoutBoatWorkspace.open(boat, "overview");
+        return;
+    }
+
+    const evaluation =
+        calculateBScoutScore(boat);
+
+
+
+    const modal =
+        document.getElementById("boatModal");
+
+
+    if (!modal) {
+
+        console.error("Missing boatModal element");
+
+        return;
+
+    }
+
+
+
+    // Title
+
+    const title =
+        document.getElementById("modalTitle");
+
+
+    if (title) {
+
+        title.innerHTML =
+        [
+
+            boat.Manufacturer,
+
+            boat.Model,
+
+            boat.Variant
+
+        ]
+
+        .filter(Boolean)
+
+        .join(" ");
+
+    }
+
+
+
+
+
+    // Image
+
+    const image =
+        document.getElementById("modalImage");
+
+
+    if (image) {
+
+
+        image.src = ImageAssetManager.resolveBoatImage(boat);
+        image.style.display = "block";
+        ImageAssetManager.applyImageFallback(image);
+
+    }
+
+
+
+
+
+    // Score
+
+    const modalScore =
+        document.getElementById("modalScore");
+
+
+    if (modalScore) {
+        const searchSettings = window.BScoutSearchState ? window.BScoutSearchState.getState().searchSettings : {};
+        const hasBuyerCriteria = Boolean(
+            searchSettings.textSearch || searchSettings.maxLength || searchSettings.maxBeam ||
+            (searchSettings.routes || []).length || (searchSettings.styles || []).length || (searchSettings.boatFamilies || []).length || (searchSettings.configurations || []).length || (searchSettings.constructionMaterials || []).length ||
+            (searchSettings.hullTypes || []).length || (searchSettings.fuels || []).length ||
+            (searchSettings.propulsion || []).length || searchSettings.flybridge || searchSettings.sideDecks ||
+            searchSettings.trailerable || searchSettings.crewComposition || searchSettings.tallestCrewHeight ||
+            searchSettings.guestFrequency || Object.keys(searchSettings.featurePriorities || {}).length
+        );
+        const section = modalScore.closest(".modal-section");
+        if (section) section.style.display = hasBuyerCriteria ? "block" : "none";
+        modalScore.innerHTML = hasBuyerCriteria ? `<strong>Hard-filter status:</strong> Meets all known hard filters.<br><br>${evaluation.unknowns.join("<br>") || "No key data gaps identified."}` : "";
+    }
+
+
+
+
+
+
+
+    // Overview
+
+    const modalOverview =
+        document.getElementById("modalOverview");
+
+
+    if (modalOverview) {
+
+
+        modalOverview.innerHTML =
+
+        `
+
+        Manufacturer:
+        ${boat.Manufacturer || "Unknown"}
+
+        <br>
+
+
+        Years:
+        ${boat.FirstYear || "?"}
+
+        -
+
+        ${boat.LastYear || "?"}
+
+
+        <br>
+
+
+        Designer:
+        ${boat.Designer || "Unknown"}
+
+
+        <br>
+
+
+        Mission:
+        ${boat.TypicalMission || "Unknown"}
+
+        `;
+
+    }
+
+
+
+
+
+
+
+
+    // Specifications
+
+    const modalSpecifications =
+        document.getElementById("modalSpecifications");
+
+
+    if (modalSpecifications) {
+
+
+        modalSpecifications.innerHTML =
+
+        `
+
+        Length:
+        ${boat.LOA_ft || "Unknown"} ft
+
+        <br>
+
+
+        Beam:
+        ${boat.Beam_ft || "Unknown"} ft
+
+
+        <br>
+
+
+        Draft:
+        ${boat.Draft_ft || "Unknown"} ft
+
+
+        <br>
+
+
+        Displacement:
+        ${boat.Displacement_lb || "Unknown"} lb
+
+
+        `;
+
+    }
+
+
+
+
+
+
+
+
+    // Configuration
+
+    const modalConfiguration =
+        document.getElementById("modalConfiguration");
+
+
+    if (modalConfiguration) {
+
+
+        modalConfiguration.innerHTML =
+
+        `
+
+        Style:
+        ${boat.Style || "Unknown"}
+
+
+        <br>
+
+
+        Hull:
+        ${boat.HullType || "Unknown"}
+
+
+        <br>
+
+
+        Fuel:
+        ${boat.Fuel || "Unknown"}
+
+
+        <br>
+
+
+        Propulsion:
+        ${boat.Propulsion || "Unknown"}
+
+
+        <br>
+
+
+        Flybridge:
+        ${boat.Flybridge || "Unknown"}
+
+
+        <br>
+
+
+        Side Decks:
+        ${boat.SideDecks || "Unknown"}
+
+
+        `;
+
+
+    }
+
+
+
+
+
+
+
+
+    // Accommodation
+
+    const modalAccommodation =
+        document.getElementById("modalAccommodation");
+
+
+    if (modalAccommodation) {
+
+
+        modalAccommodation.innerHTML =
+
+        `
+
+        Berths:
+        ${boat.Berths || "Unknown"}
+
+
+        <br>
+
+
+        Cabins:
+        ${boat.Cabins || "Unknown"}
+
+
+        <br>
+
+
+        Heads:
+        ${boat.Heads || "Unknown"}
+
+
+        <br>
+
+
+        Shower:
+        ${boat.Shower || "Unknown"}
+
+
+        `;
+
+
+    }
+
+
+
+
+
+
+
+
+    // Strengths
+
+    const strengths =
+        document.getElementById("modalStrengths");
+
+
+    if (strengths) {
+
+        strengths.innerHTML =
+            boat.Strengths || "Not supplied";
+
+    }
+
+
+
+
+
+
+
+    // Weaknesses
+
+    const weaknesses =
+        document.getElementById("modalWeaknesses");
+
+
+    if (weaknesses) {
+
+        weaknesses.innerHTML =
+            boat.Weaknesses || "Not supplied";
+
+    }
+
+
+
+
+
+
+
+    // Problems
+
+    const problems =
+        document.getElementById("modalProblems");
+
+
+    if (problems) {
+
+        problems.innerHTML =
+            boat.CommonProblems || "Not supplied";
+
+    }
+
+
+
+
+
+
+
+    // Mission
+
+    const mission =
+        document.getElementById("modalMission");
+
+
+    if (mission) {
+
+        mission.innerHTML =
+            boat.TypicalMission || "Not supplied";
+
+    }
+
+
+
+
+
+
+
+    // Avoid
+
+    const avoid =
+        document.getElementById("modalAvoid");
+
+
+    if (avoid) {
+
+        avoid.innerHTML =
+            boat.AvoidIf || "Not supplied";
+
+    }
+
+
+
+
+
+
+
+    modal.style.display = "block";
+
+
+}
+
+// =====================================================
+// SEARCH STATE & FILTERING ORCHESTRATION
+// =====================================================
+
+const searchButton = document.getElementById("searchButton");
+
+function runCurrentSearch() {
+    if (!window.BScoutSearchOrchestrator || !window.BScoutSearchState) {
+        buildUserProfile();
+        displayBoats(allBoats);
+        return;
+    }
+
+    const result = window.BScoutSearchOrchestrator.searchFromDocument(document);
+    if (currentSearchProfile) {
+        currentSearchProfile.SearchSettings = result.state.searchSettings;
+    }
+    return result;
+}
+
+window.runCurrentSearch = runCurrentSearch;
+
+if (searchButton) {
+    searchButton.addEventListener("click", runCurrentSearch);
+}
+
+// =====================================================
+// CLEAR FILTERS
+// =====================================================
+
+const clearButton = document.getElementById("clearButton");
+
+if (clearButton) {
+    clearButton.addEventListener("click", function() {
+        const defaults = currentSearchProfile?.SearchSettings || {};
+        resetSearchControls();
+        applySearchSettingsToControls(defaults);
+        if (window.BScoutSearchState) window.BScoutSearchState.setSearchSettings(defaults, { source: "reset-current-profile" });
+        setProfileDirty(false);
+        updateSearchProfileSummary();
+        runCurrentSearch();
+    });
+}
+
+const hideModelsWithoutImages = document.getElementById("hideModelsWithoutImages");
+if (hideModelsWithoutImages) {
+    hideModelsWithoutImages.addEventListener("change", function() {
+        if (window.BScoutSearchOrchestrator) {
+            window.BScoutSearchOrchestrator.execute();
+        } else {
+            displayBoats(allBoats);
+        }
+    });
+}
+
+// =====================================================
+// GENERAL TEXT SEARCH CONTROLS
+// =====================================================
+
+const clearTextSearch =
+    document.getElementById("clearTextSearch");
+
+if (clearTextSearch) {
+
+
+    clearTextSearch.addEventListener("click", function() {
+
+
+        const textSearchInput =
+            document.getElementById("textSearch");
+
+
+        if (textSearchInput) {
+
+            textSearchInput.value = "";
+
+        }
+
+
+        if (searchButton) {
+
+            searchButton.click();
+
+        }
+
+
+    });
+
+
+}
+
+const textSearchInput =
+    document.getElementById("textSearch");
+
+if (textSearchInput) {
+
+
+    textSearchInput.addEventListener("keydown", function(event) {
+
+
+        if (event.key === "Enter") {
+
+            event.preventDefault();
+
+
+            if (searchButton) {
+
+                searchButton.click();
+
+            }
+
+        }
+
+
+    });
+
+
+}
+
+
+
+
+
+
+
+
+// =====================================================
+// MODAL CLOSE CONTROLS
+// =====================================================
+
+const closeModal =
+    document.getElementById("closeModal");
+
+
+
+if (closeModal) {
+
+
+closeModal.addEventListener("click", function(){
+
+
+    document
+
+    .getElementById("boatModal")
+
+    .style.display = "none";
+
+
+});
+
+
+}
+
+
+
+
+
+
+
+
+// Close clicking outside modal
+
+window.onclick = function(event){
+
+
+
+    const modal =
+        document.getElementById("boatModal");
+
+    const researchModal =
+        document.getElementById("researchModal");
+
+    const comparisonModal =
+        document.getElementById("comparisonModal");
+
+    const rejectModal =
+        document.getElementById("rejectModal");
+
+    const rejectedBoatsModal =
+        document.getElementById("rejectedBoatsModal");
+
+
+
+    if (
+
+        modal &&
+
+        event.target === modal
+
+    ) {
+
+
+        modal.style.display = "none";
+
+
+    }
+
+    if (
+
+        researchModal &&
+
+        event.target === researchModal
+
+    ) {
+
+
+        researchModal.style.display = "none";
+
+
+    }
+
+    if (
+
+        comparisonModal &&
+
+        event.target === comparisonModal
+
+    ) {
+
+
+        comparisonModal.style.display = "none";
+
+
+    }
+
+    if (
+
+        rejectModal &&
+
+        event.target === rejectModal
+
+    ) {
+
+
+        rejectModal.style.display = "none";
+
+
+    }
+
+    if (
+
+        rejectedBoatsModal &&
+
+        event.target === rejectedBoatsModal
+
+    ) {
+
+
+        rejectedBoatsModal.style.display = "none";
+
+
+    }
+
+
+};
+
+
+
+
+
+
+
+
+// Escape key closes modal
+
+document.addEventListener(
+
+"keydown",
+
+function(event){
+
+
+
+    if (
+
+        event.key === "Escape"
+
+    ) {
+
+
+        const modal =
+            document.getElementById("boatModal");
+
+        const researchModal =
+            document.getElementById("researchModal");
+
+        const comparisonModal =
+            document.getElementById("comparisonModal");
+
+        const rejectModal =
+            document.getElementById("rejectModal");
+
+        const rejectedBoatsModal =
+            document.getElementById("rejectedBoatsModal");
+
+
+
+        if (modal) {
+
+
+            modal.style.display = "none";
+
+
+        }
+
+        if (researchModal) {
+
+
+            researchModal.style.display = "none";
+
+
+        }
+
+        if (comparisonModal) {
+
+
+            comparisonModal.style.display = "none";
+
+
+        }
+
+        if (rejectModal) {
+
+
+            rejectModal.style.display = "none";
+
+
+        }
+
+        if (rejectedBoatsModal) {
+
+
+            rejectedBoatsModal.style.display = "none";
+
+
+        }
+
+
+    }
+
+
+
+});
+
+
+// =====================================================
+// COLLAPSIBLE SECTIONS TOGGLE LOGIC
+// =====================================================
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Overriding the value getter/setter of Flybridge and Trailerable checkboxes
+    // to map to "Yes" / "" for full backward-compatibility with userProfile.js
+    const checkboxIds = ["flybridgeFilter", "trailerFilter"];
+    checkboxIds.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+            Object.defineProperty(el, 'value', {
+                get() {
+                    return this.checked ? "Yes" : "";
+                },
+                set(val) {
+                    const isTrue = (val === "Yes" || val === "yes" || val === true || val === "true");
+                    this.checked = isTrue;
+                },
+                configurable: true,
+                enumerable: true
+            });
+        }
+    });
+
+    document.querySelectorAll(".filter-header").forEach(function(header) {
+        header.addEventListener("click", function() {
+            const group = header.closest(".filter-group");
+            if (group) {
+                group.classList.toggle("active");
+            }
+        });
+    });
+});
+
+// =====================================================
+// SEARCH PROFILE FRAMEWORK
+// =====================================================
+
+let isCurrentProfileDirty = false;
+
+function setProfileDirty(dirty) {
+    isCurrentProfileDirty = dirty;
+    updateSaveButtonState();
+    updateProfileDropdownVisualIndicator();
+    updateSearchProfileSummary();
+}
+
+function updateSaveButtonState() {
+    const saveBtn = document.getElementById("saveProfileBtn");
+    if (saveBtn) {
+        saveBtn.disabled = !isCurrentProfileDirty;
+    }
+}
+
+function updateProfileDropdownVisualIndicator() {
+    const selectEl = document.getElementById("searchProfileSelect");
+    if (!selectEl) return;
+
+    const selectedId = selectEl.value;
+    const profilesById = new Map(
+        getAllSearchProfiles().map(profile => [profile.ProfileID, profile])
+    );
+
+    Array.from(selectEl.options).forEach(option => {
+        if (!option.value) {
+            option.textContent = "New Search (empty)";
+            return;
+        }
+
+        const profile = profilesById.get(option.value);
+        if (!profile) return;
+
+        const lockedMarker = profile.Locked ? "  🔒" : "";
+        const dirtyMarker = option.value === selectedId && isCurrentProfileDirty ? " *" : "";
+        option.textContent = `${profile.ProfileName}${lockedMarker}${dirtyMarker}`;
+    });
+}
+
+function getSavedProfiles() {
+    return window.BScoutSearchProfiles
+        ? window.BScoutSearchProfiles.loadUserProfiles(localStorage)
+        : [];
+}
+
+function saveProfiles(profiles) {
+    return window.BScoutSearchProfiles
+        ? window.BScoutSearchProfiles.saveUserProfiles(profiles, localStorage)
+        : localStorage.setItem("bscout_search_profiles", JSON.stringify(profiles || []));
+}
+
+function getAllSearchProfiles() {
+    return window.BScoutSearchProfiles
+        ? window.BScoutSearchProfiles.allProfiles(builtInSearchProfiles, localStorage)
+        : getSavedProfiles();
+}
+
+function populateProfileDropdown() {
+    const selectEl = document.getElementById("searchProfileSelect");
+    if (!selectEl) return;
+    const currentVal = selectEl.value;
+    selectEl.innerHTML = '<option value="">New Search (empty)</option>';
+    const all = getAllSearchProfiles();
+    const builtIns = all.filter(profile => profile.Locked);
+    const userProfiles = all.filter(profile => !profile.Locked);
+    const appendGroup = (label, profiles) => {
+        if (!profiles.length) return;
+        const group = document.createElement("optgroup");
+        group.label = label;
+        profiles.forEach(profile => {
+            const option = document.createElement("option");
+            option.value = profile.ProfileID;
+            option.textContent = profile.ProfileName + (profile.Locked ? "  🔒" : "");
+            group.appendChild(option);
+        });
+        selectEl.appendChild(group);
+    };
+    appendGroup("Built-in Profiles", builtIns);
+    appendGroup("My Profiles", userProfiles);
+    if (all.some(profile => profile.ProfileID === currentVal)) selectEl.value = currentVal;
+    updateProfileDropdownVisualIndicator();
+}
+
+
+function renderProfileManager() {
+    const modal = document.getElementById("profileManagerModal");
+    const builtInList = document.getElementById("builtInProfileList");
+    const userList = document.getElementById("userProfileList");
+    if (!modal || !builtInList || !userList) return;
+    const profiles = getAllSearchProfiles();
+    const builtIns = profiles.filter(profile => profile.Locked);
+    const users = profiles.filter(profile => !profile.Locked);
+    document.getElementById("builtInProfileCount").textContent = `(${builtIns.length})`;
+    document.getElementById("userProfileCount").textContent = `(${users.length})`;
+
+    const card = profile => {
+        const actions = profile.Locked
+            ? `<button type="button" data-profile-action="open" data-profile-id="${escapeHtml(profile.ProfileID)}">Open</button><button type="button" data-profile-action="duplicate" data-profile-id="${escapeHtml(profile.ProfileID)}">Duplicate</button>`
+            : `<button type="button" data-profile-action="open" data-profile-id="${escapeHtml(profile.ProfileID)}">Open</button><button type="button" data-profile-action="edit" data-profile-id="${escapeHtml(profile.ProfileID)}">Edit</button><button type="button" data-profile-action="rename" data-profile-id="${escapeHtml(profile.ProfileID)}">Rename</button><button type="button" data-profile-action="duplicate" data-profile-id="${escapeHtml(profile.ProfileID)}">Duplicate</button><button type="button" class="danger-button" data-profile-action="delete" data-profile-id="${escapeHtml(profile.ProfileID)}">Delete</button>`;
+        return `<article class="profile-manager-card"><div class="profile-card-icon" aria-hidden="true">${escapeHtml(profile.Icon || "search")}</div><div class="profile-card-copy"><div class="profile-card-title"><strong>${escapeHtml(profile.ProfileName)}</strong>${profile.Locked ? '<span class="locked-badge">Locked</span>' : ''}</div><p>${escapeHtml(profile.Description || "No description provided.")}</p></div><div class="profile-card-actions">${actions}</div></article>`;
+    };
+    builtInList.innerHTML = builtIns.map(card).join("");
+    userList.innerHTML = users.length ? users.map(card).join("") : '<p class="empty-profile-message">No personal profiles yet. Duplicate a built-in profile or save a New Search.</p>';
+}
+
+function openSearchProfile(profileId, closeManager = true) {
+    const selectEl = document.getElementById("searchProfileSelect");
+    if (!selectEl) return;
+    selectEl.value = profileId || "";
+    selectEl.dispatchEvent(new Event("change", { bubbles: true }));
+    if (closeManager) document.getElementById("profileManagerModal")?.setAttribute("hidden", "");
+}
+
+function duplicateSearchProfile(profile) {
+    if (!profile || !window.BScoutSearchProfiles) return;
+    const requested = prompt("Name the duplicated Search Profile:", `${profile.ProfileName} Copy`);
+    if (requested === null || !requested.trim()) return;
+    const copy = window.BScoutSearchProfiles.duplicate(profile, requested.trim());
+    const profiles = getSavedProfiles(); profiles.push(copy); saveProfiles(profiles);
+    populateProfileDropdown(); renderProfileManager(); openSearchProfile(copy.ProfileID, false);
+}
+
+function initProfileManager() {
+    const modal = document.getElementById("profileManagerModal");
+    const manage = document.getElementById("manageProfilesBtn");
+    const close = document.getElementById("closeProfileManagerBtn");
+    if (!modal || !manage) return;
+    manage.addEventListener("click", () => { renderProfileManager(); modal.removeAttribute("hidden"); });
+    close?.addEventListener("click", () => modal.setAttribute("hidden", ""));
+    modal.addEventListener("click", event => { if (event.target === modal) modal.setAttribute("hidden", ""); });
+    modal.addEventListener("click", event => {
+        const button = event.target.closest("[data-profile-action]"); if (!button) return;
+        const profile = getAllSearchProfiles().find(item => item.ProfileID === button.dataset.profileId); if (!profile) return;
+        const action = button.dataset.profileAction;
+        if (action === "open") return openSearchProfile(profile.ProfileID);
+        if (action === "duplicate") return duplicateSearchProfile(profile);
+        if (profile.Locked) return alert("Built-in profiles are read-only. Duplicate the profile to edit it.");
+        if (action === "edit") { openSearchProfile(profile.ProfileID); return; }
+        if (action === "rename") {
+            const name = prompt("Rename Search Profile:", profile.ProfileName); if (name === null || !name.trim()) return;
+            const profiles = getSavedProfiles(); const index = profiles.findIndex(item => item.ProfileID === profile.ProfileID);
+            profiles[index] = window.BScoutSearchProfiles.update(profiles[index], { ProfileName: name.trim() }); saveProfiles(profiles); populateProfileDropdown(); renderProfileManager(); return;
+        }
+        if (action === "delete") {
+            if (!confirm(`Delete "${profile.ProfileName}"?`)) return;
+            const updated = window.BScoutSearchProfiles.remove(getSavedProfiles(), profile.ProfileID); saveProfiles(updated);
+            if (document.getElementById("searchProfileSelect")?.value === profile.ProfileID) openSearchProfile("", false);
+            populateProfileDropdown(); renderProfileManager();
+        }
+    });
+}
+
+const DEVELOPMENT_REFERENCE_FLEET_IDS = [
+    "GRBK-32-CL", "GRBK-36-CL", "CAMA-31-TR", "CAMA-28-GN", "NDTG-26", "NDTG-32",
+    "MNSH-34-MK1", "MNSH-30-PI", "MONK-36-TR", "CHBY-34-SE", "MRTR-34-DO", "KDKR-36-MA",
+    "WILL-30-VE", "CHLY-28", "ROSB-246-WH", "ALBN-27-FC", "ALBN-28-FL", "ALBN-30-FC",
+    "NMBL-32-WA", "RNGR-27-RT", "RNGR-29-CLASSIC", "NMBS-3003", "CPDR-28-PH", "NPAC-28", "KDKR-42"
+];
+const BUYER_WORKSPACE_STORAGE_KEY = "bscout_buyer_workspace";
+const BUYER_WORKSPACE_PROFILE_ID = "__buyer_workspace__";
+let currentBuyerWorkspace = null;
+
+function createBuyerWorkspace() {
+    const nowIso = new Date().toISOString();
+    return {
+        ProfileID: BUYER_WORKSPACE_PROFILE_ID,
+        ProfileName: "My Boats",
+        Created: nowIso,
+        Modified: nowIso,
+        SearchSettings: {},
+        BoatRelationships: [],
+        Listings: [],
+        DemoFleetSeeded: false
+    };
+}
+
+function loadBuyerWorkspace() {
+    let workspace = null;
+    try {
+        const raw = localStorage.getItem(BUYER_WORKSPACE_STORAGE_KEY);
+        workspace = raw ? JSON.parse(raw) : null;
+    } catch (error) {
+        console.warn("Buyer workspace could not be read; using a fresh workspace.", error);
+    }
+    if (!workspace || typeof workspace !== "object") workspace = createBuyerWorkspace();
+    workspace.ProfileID = BUYER_WORKSPACE_PROFILE_ID;
+    workspace.ProfileName = "My Boats";
+    workspace.SearchSettings = {};
+    if (!Array.isArray(workspace.BoatRelationships)) workspace.BoatRelationships = [];
+    if (!Array.isArray(workspace.Listings)) workspace.Listings = [];
+    // Seed the demonstration fleet once for new or legacy workspaces. Do not
+    // re-favourite boats on every refresh after the user changes their status.
+    if (workspace.DemoFleetSeeded !== true) {
+        seedDevelopmentReferenceFleet(workspace);
+        workspace.DemoFleetSeeded = true;
+        saveBuyerWorkspace(workspace);
+    }
+    return workspace;
+}
+
+function saveBuyerWorkspace(workspace) {
+    if (!workspace) return;
+    workspace.Modified = new Date().toISOString();
+    localStorage.setItem(BUYER_WORKSPACE_STORAGE_KEY, JSON.stringify(workspace));
+}
+
+function getActiveBuyerWorkspace() {
+    if (!currentBuyerWorkspace) currentBuyerWorkspace = loadBuyerWorkspace();
+    return currentBuyerWorkspace;
+}
+
+function activateBuyerWorkspace(forceSearchDetach = false) {
+    currentBuyerWorkspace = loadBuyerWorkspace();
+    if (forceSearchDetach || !currentSearchProfile || currentSearchProfile.ProfileID === BUYER_WORKSPACE_PROFILE_ID) {
+        currentSearchProfile = currentBuyerWorkspace;
+    }
+    return currentBuyerWorkspace;
+}
+
+function seedDevelopmentReferenceFleet(profile) {
+    if (!profile) return profile;
+    if (!Array.isArray(profile.BoatRelationships)) profile.BoatRelationships = [];
+    const nowIso = new Date().toISOString();
+    DEVELOPMENT_REFERENCE_FLEET_IDS.forEach(boatModelId => {
+        let relationship = profile.BoatRelationships.find(item => String(item.BoatModelID) === boatModelId);
+        if (!relationship) {
+            relationship = { BoatModelID: boatModelId, Status: "Favorite", Created: nowIso, LastUpdated: nowIso, Research: { Rating: 0, Notes: "", Tags: "Reference Fleet", BrokerLinks: "" } };
+            profile.BoatRelationships.push(relationship);
+        } else if (!relationship.Status || relationship.Status === "None") {
+            relationship.Status = "Favorite";
+            relationship.LastUpdated = nowIso;
+        }
+    });
+    return profile;
+}
+
+function syncActiveProfile() {
+    const selectEl = document.getElementById("searchProfileSelect");
+    if (!selectEl || !selectEl.value) { currentSearchProfile = null; return null; }
+    const profile = getAllSearchProfiles().find(item => item.ProfileID === selectEl.value);
+    currentSearchProfile = profile ? JSON.parse(JSON.stringify(profile)) : null;
+    return currentSearchProfile;
+}
+
+function initSearchProfiles() {
+    initProfileManager();
+    const selectEl = document.getElementById("searchProfileSelect");
+    const newBtn = document.getElementById("newProfileBtn");
+    const saveBtn = document.getElementById("saveProfileBtn");
+    const renameBtn = document.getElementById("renameProfileBtn");
+    const duplicateBtn = document.getElementById("duplicateProfileBtn");
+    const deleteBtn = document.getElementById("deleteProfileBtn");
+
+    if (!selectEl) return;
+
+    // Populate initially from localStorage
+    populateProfileDropdown();
+    
+    // Start each refresh with a clean, unbound search workspace.
+    // Saved profiles load only after explicit user selection.
+    selectEl.value = "";
+    activateBuyerWorkspace(true);
+    resetSearchControls();
+    updateSearchProfileSummary();
+    updateAllBoatStatusSelects();
+    updateBuyerWorkspaceCounts();
+
+    // Monitor for changes on profile select
+    selectEl.addEventListener("change", function() {
+        syncActiveProfile();
+        applySearchSettingsToControls(currentSearchProfile?.SearchSettings || {});
+        const description = document.getElementById("cruisingProfileDescription");
+        if (description) description.textContent = currentSearchProfile?.Description || "New Search uses an empty filter set and does not affect My Boats.";
+        const locked = Boolean(currentSearchProfile?.Locked);
+        if (saveBtn) saveBtn.disabled = locked || !currentSearchProfile;
+        if (renameBtn) renameBtn.disabled = locked || !currentSearchProfile;
+        if (deleteBtn) deleteBtn.disabled = locked || !currentSearchProfile;
+        if (duplicateBtn) duplicateBtn.disabled = !currentSearchProfile;
+        setProfileDirty(false);
+        runCurrentSearch();
+        updateAllBoatStatusSelects();
+        updateBuyerWorkspaceCounts();
+    });
+
+    // Monitor for any search control changes inside search-panel to mark as dirty
+    const searchPanel = document.querySelector(".search-panel");
+    if (searchPanel) {
+        const handleSearchControlChange = function(e) {
+            // Ignore if change is on the search profile selector itself
+            if (e.target && e.target.id === "searchProfileSelect") return;
+            setProfileDirty(true);
+            updateSearchProfileSummary();
+        };
+        searchPanel.addEventListener("input", handleSearchControlChange);
+        searchPanel.addEventListener("change", handleSearchControlChange);
+    }
+
+    // New Search starts with an empty filter set and leaves Buyer Workspace untouched.
+    if (newBtn) {
+        newBtn.addEventListener("click", function() {
+            currentSearchProfile = null;
+            selectEl.value = "";
+            resetSearchControls();
+            if (window.BScoutSearchState) window.BScoutSearchState.clear({ source: "new-search" });
+            setProfileDirty(false);
+            updateSearchProfileSummary();
+            runCurrentSearch();
+        });
+    }
+
+    // Save Button
+    if (saveBtn) {
+        saveBtn.addEventListener("click", function() {
+            let selectedId = selectEl.value;
+            if (currentSearchProfile?.Locked) { alert("Built-in profiles are read-only. Duplicate this profile to edit it."); return; }
+
+            // Ensure settings are fully up-to-date from controls before saving.
+            const currentSettings = buildUserProfile();
+            const profiles = getSavedProfiles();
+            let profile = profiles.find(p => p.ProfileID === selectedId);
+
+            // A clean buyer workspace is intentionally not shown as a saved profile.
+            // Saving from it creates a named profile instead of failing silently.
+            if (!profile && !selectedId) {
+                const requestedName = prompt("Name this Search Profile:");
+                if (requestedName === null) return;
+                const profileName = requestedName.trim();
+                if (!profileName) {
+                    alert("Profile name cannot be empty.");
+                    return;
+                }
+                selectedId = "profile_" + Date.now() + "_" + Math.random().toString(36).slice(2, 11);
+                const nowIso = new Date().toISOString();
+                profile = {
+                    ProfileID: selectedId,
+                    ProfileName: profileName,
+                    Created: nowIso,
+                    Modified: nowIso,
+                    SearchSettings: currentSettings
+                };
+                profiles.push(profile);
+                saveProfiles(profiles);
+                populateProfileDropdown();
+                selectEl.value = selectedId;
+                currentSearchProfile = profile;
+            }
+            if (!profile) {
+                alert("Selected profile not found.");
+                return;
+            }
+
+            profile.SearchSettings = currentSettings;
+            currentSearchProfile = profile;
+            profile.Modified = new Date().toISOString();
+            saveProfiles(profiles);
+            
+            // Clear dirty state on success
+            setProfileDirty(false);
+            updateSearchProfileSummary();
+            
+            alert(`Profile "${profile.ProfileName}" saved successfully.`);
+        });
+    }
+
+    // Rename Button
+    if (renameBtn) {
+        renameBtn.addEventListener("click", function() {
+            const selectedId = selectEl.value;
+            if (selectedId === "default") {
+                alert("The Default profile cannot be renamed.");
+                return;
+            }
+
+            const profiles = getSavedProfiles();
+            const profile = profiles.find(p => p.ProfileID === selectedId);
+            if (!profile) {
+                alert("Selected profile not found.");
+                return;
+            }
+
+            const newName = prompt("Enter a new name for the profile:", profile.ProfileName);
+            if (newName === null) return; // User cancelled
+            const trimmedName = newName.trim();
+            if (!trimmedName) {
+                alert("Profile name cannot be empty.");
+                return;
+            }
+
+            profile.ProfileName = trimmedName;
+            profile.Modified = new Date().toISOString();
+            saveProfiles(profiles);
+
+            // Update dropdown and restore selection and dirty status view
+            populateProfileDropdown();
+            selectEl.value = selectedId;
+            syncActiveProfile();
+            updateProfileDropdownVisualIndicator();
+        });
+    }
+
+    // Duplicate Button
+    if (duplicateBtn) {
+        duplicateBtn.addEventListener("click", function() {
+            const selectedId = selectEl.value;
+            let sourceSearchSettings = {};
+            let sourceName = "Default";
+
+            if (selectedId !== "default") {
+                const profiles = getAllSearchProfiles();
+                const profile = profiles.find(p => p.ProfileID === selectedId);
+                if (!profile) {
+                    alert("Selected profile not found.");
+                    return;
+                }
+                sourceSearchSettings = JSON.parse(JSON.stringify(profile.SearchSettings || {}));
+                sourceName = profile.ProfileName;
+            }
+
+            const newName = prompt("Enter a name for the duplicated profile:", sourceName + " Copy");
+            if (newName === null) return; // User cancelled
+            const trimmedName = newName.trim();
+            if (!trimmedName) {
+                alert("Profile name cannot be empty.");
+                return;
+            }
+
+            const newProfileId = "profile_" + Date.now() + "_" + Math.random().toString(36).substr(2, 9);
+            const nowIso = new Date().toISOString();
+
+            const newProfile = {
+                ProfileID: newProfileId,
+                ProfileName: trimmedName,
+                Created: nowIso,
+                Modified: nowIso,
+                Description: currentSearchProfile?.Description || "",
+                Icon: currentSearchProfile?.Icon || "search",
+                Locked: false,
+                SearchSettings: sourceSearchSettings,
+                SortPreferences: currentSearchProfile?.SortPreferences || { field: null, direction: "asc" },
+                DefaultLayout: currentSearchProfile?.DefaultLayout || null
+            };
+
+            const profiles = getSavedProfiles();
+            profiles.push(newProfile);
+            saveProfiles(profiles);
+
+            populateProfileDropdown();
+            selectEl.value = newProfileId;
+            syncActiveProfile();
+
+            // Mark duplicated profile as clean
+            setProfileDirty(false);
+            updateAllBoatStatusSelects();
+        });
+    }
+
+    // Delete Button
+    if (deleteBtn) {
+        deleteBtn.addEventListener("click", function() {
+            const selectedId = selectEl.value;
+            if (currentSearchProfile?.Locked) { alert("Built-in profiles cannot be deleted."); return; }
+
+            const profiles = getSavedProfiles();
+            const profile = profiles.find(p => p.ProfileID === selectedId);
+            if (!profile) {
+                alert("Selected profile not found.");
+                return;
+            }
+
+            const confirmDelete = confirm(`Are you sure you want to delete the profile "${profile.ProfileName}"?`);
+            if (!confirmDelete) return;
+
+            const updatedProfiles = profiles.filter(p => p.ProfileID !== selectedId);
+            saveProfiles(updatedProfiles);
+
+            populateProfileDropdown();
+            syncActiveProfile();
+            // Switched back to default, mark clean
+            setProfileDirty(false);
+            updateAllBoatStatusSelects();
+        });
+    }
+}
+
+function updateAllBoatStatusSelects() {
+    const selects = document.querySelectorAll(".boat-status-select");
+    selects.forEach(selectEl => {
+        const boatId = selectEl.getAttribute("data-id");
+        let currentStatus = "None";
+        const workspace = getActiveBuyerWorkspace();
+        if (!Array.isArray(workspace.BoatRelationships)) workspace.BoatRelationships = [];
+        const rel = workspace.BoatRelationships.find(r => String(r.BoatModelID) === String(boatId));
+        if (rel) currentStatus = rel.Status || "None";
+        selectEl.value = currentStatus;
+    });
+}
+
+function getBoatRelationship(boatModelId) {
+    const workspace = getActiveBuyerWorkspace();
+
+    if (!workspace.BoatRelationships) {
+        workspace.BoatRelationships = [];
+    }
+
+    let rel = workspace.BoatRelationships.find(r => String(r.BoatModelID) === String(boatModelId));
+    if (!rel) {
+        const nowIso = new Date().toISOString();
+        rel = {
+            BoatModelID: boatModelId,
+            Status: "None",
+            Created: nowIso,
+            LastUpdated: nowIso,
+            Research: {
+                Rating: 0,
+                Notes: "",
+                Tags: "",
+                BrokerLinks: ""
+            },
+            History: [{
+                Type: "created",
+                Label: "Added to buyer workspace",
+                Timestamp: nowIso
+            }]
+        };
+        workspace.BoatRelationships.push(rel);
+    } else {
+        // Ensure keys exist
+        if (!rel.Created) {
+            rel.Created = new Date().toISOString();
+        }
+        if (!rel.LastUpdated) {
+            rel.LastUpdated = new Date().toISOString();
+        }
+        if (!Array.isArray(rel.History)) rel.History = [];
+        if (!rel.Research) {
+            rel.Research = {
+                Rating: 0,
+                Notes: "",
+                Tags: "",
+                BrokerLinks: ""
+            };
+        } else {
+            // Ensure fields in Research exist
+            if (rel.Research.Rating === undefined) rel.Research.Rating = 0;
+            if (rel.Research.Notes === undefined) rel.Research.Notes = "";
+            if (rel.Research.Tags === undefined) rel.Research.Tags = "";
+            if (rel.Research.BrokerLinks === undefined) rel.Research.BrokerLinks = "";
+        }
+    }
+    return rel;
+}
+
+function appendDecisionHistory(rel, type, label, detail) {
+    if (!rel) return;
+    if (!Array.isArray(rel.History)) rel.History = [];
+    rel.History.push({
+        Type: type || "update",
+        Label: label || "Decision updated",
+        Detail: detail || "",
+        Timestamp: new Date().toISOString()
+    });
+}
+
+function persistCurrentSearchProfile() {
+    const workspace = getActiveBuyerWorkspace();
+    saveBuyerWorkspace(workspace);
+    if (!currentSearchProfile || currentSearchProfile.ProfileID === BUYER_WORKSPACE_PROFILE_ID) return;
+    const profiles = getSavedProfiles();
+    const existingProfileIdx = profiles.findIndex(p => p.ProfileID === currentSearchProfile.ProfileID);
+    if (existingProfileIdx === -1) profiles.push(currentSearchProfile);
+    else profiles[existingProfileIdx] = currentSearchProfile;
+    saveProfiles(profiles);
+}
+
+function loadDemoFleetData() {
+    const workspace = getActiveBuyerWorkspace();
+    seedDevelopmentReferenceFleet(workspace);
+    workspace.DemoFleetSeeded = true;
+    saveBuyerWorkspace(workspace);
+    updateAllBoatStatusSelects();
+    updateBuyerWorkspaceCounts();
+    return workspace;
+}
+window.loadDemoFleetData = loadDemoFleetData;
+window.getActiveBuyerWorkspace = getActiveBuyerWorkspace;
+window.persistCurrentSearchProfile = persistCurrentSearchProfile;
+window.getBoatRelationship = getBoatRelationship;
+
+let currentResearchBoatId = null;
+
+let notebookListingSearchCache = null;
+
+async function renderNotebookListingSearches(boatId) {
+    const container = document.getElementById("notebookListingSearches");
+    if (!container) return;
+    try {
+        if (!notebookListingSearchCache) {
+            const response = await fetch("knowledge/data/listingsearches.json");
+            notebookListingSearchCache = response.ok ? await response.json() : [];
+        }
+        const record = (notebookListingSearchCache || []).find(item => String(item?.identity?.boatModelId) === String(boatId));
+        const listings = Array.isArray(record?.listings) ? record.listings : [];
+        if (!listings.length) { container.textContent = "No model-specific listing searches are available."; return; }
+        container.innerHTML = `<ul class="notebook-link-list">${listings.map(item => `<li><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title || item.sourceLabel || "Listing search"}</a><span>${item.sourceLabel || "Marketplace"}</span></li>`).join("")}</ul>`;
+    } catch (error) {
+        container.textContent = "Listing searches could not be loaded.";
+    }
+}
+
+function showResearchPanel(boatId) {
+    currentResearchBoatId = boatId;
+    renderNotebookListingSearches(boatId);
+    const boat = allBoats.find(b => String(b.BoatModelID) === String(boatId));
+    if (!boat) return;
+
+    const rel = getBoatRelationship(boatId);
+
+    const boatNameEl = document.getElementById("researchBoatName");
+    if (boatNameEl) {
+        boatNameEl.textContent = [boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ") + (boat.Nickname ? ` ("${boat.Nickname}")` : "");
+    }
+
+    const statusEl = document.getElementById("researchBoatStatus");
+    if (statusEl) {
+        statusEl.textContent = STATUS_LABELS[rel.Status] || rel.Status || "Unreviewed";
+    }
+
+    const ratingEl = document.getElementById("researchRating");
+    if (ratingEl) {
+        ratingEl.value = rel.Research.Rating || "0";
+    }
+
+    const notesEl = document.getElementById("researchNotes");
+    if (notesEl) {
+        notesEl.value = rel.Research.Notes || "";
+    }
+
+    const tagsEl = document.getElementById("researchTags");
+    if (tagsEl) {
+        tagsEl.value = rel.Research.Tags || "";
+    }
+
+    const linksEl = document.getElementById("researchBrokerLinks");
+    if (linksEl) {
+        linksEl.value = rel.Research.BrokerLinks || "";
+    }
+
+    const modal = document.getElementById("researchModal");
+    if (modal) {
+        modal.style.display = "block";
+    }
+}
+
+// Save research details
+const saveResearchBtn = document.getElementById("saveResearchBtn");
+if (saveResearchBtn) {
+    saveResearchBtn.addEventListener("click", function() {
+        if (!currentResearchBoatId) return;
+
+        const rel = getBoatRelationship(currentResearchBoatId);
+        
+        const ratingEl = document.getElementById("researchRating");
+        const notesEl = document.getElementById("researchNotes");
+        const tagsEl = document.getElementById("researchTags");
+        const linksEl = document.getElementById("researchBrokerLinks");
+
+        rel.Research.Rating = ratingEl ? parseInt(ratingEl.value, 10) : 0;
+        rel.Research.Notes = notesEl ? notesEl.value : "";
+        rel.Research.Tags = tagsEl ? tagsEl.value : "";
+        rel.Research.BrokerLinks = linksEl ? linksEl.value : "";
+        
+        rel.LastUpdated = new Date().toISOString();
+        appendDecisionHistory(rel, "notebook", "Notebook updated", rel.Research.Tags || "Notes, rating or links changed");
+
+        persistCurrentSearchProfile();
+
+        // Close modal
+        const modal = document.getElementById("researchModal");
+        if (modal) {
+            modal.style.display = "none";
+        }
+
+        // Re-render immediately without clearing the active search or filters.
+        const savedScrollY = window.scrollY;
+        runCurrentSearch();
+        if (document.getElementById("decisionWorkspaceModal")?.style.display === "block") renderDecisionWorkspace();
+        window.requestAnimationFrame(() => window.scrollTo(0, savedScrollY));
+        
+        currentResearchBoatId = null;
+    });
+}
+
+// Cancel research details
+const cancelResearchBtn = document.getElementById("cancelResearchBtn");
+if (cancelResearchBtn) {
+    cancelResearchBtn.addEventListener("click", function() {
+        const modal = document.getElementById("researchModal");
+        if (modal) {
+            modal.style.display = "none";
+        }
+        currentResearchBoatId = null;
+    });
+}
+
+// Close research details modal with cross button
+const closeResearchModal = document.getElementById("closeResearchModal");
+if (closeResearchModal) {
+    closeResearchModal.addEventListener("click", function() {
+        const modal = document.getElementById("researchModal");
+        if (modal) {
+            modal.style.display = "none";
+        }
+        currentResearchBoatId = null;
+    });
+}
+
+function updateBoatRelationship(boatModelId, status) {
+    if (typeof currentSearchProfile === "undefined" || !currentSearchProfile) activateBuyerWorkspace();
+
+    let rel = getBoatRelationship(boatModelId);
+    const previousStatus = rel.Status || "None";
+    rel.Status = status;
+    rel.LastUpdated = new Date().toISOString();
+    if (previousStatus !== status) {
+        appendDecisionHistory(rel, "status", `Stage changed to ${STATUS_LABELS[status] || status}`, `Previously ${STATUS_LABELS[previousStatus] || previousStatus}`);
+    }
+
+    persistCurrentSearchProfile();
+    updateBuyerWorkspaceCounts();
+}
+
+// Event delegation for status select change
+document.addEventListener("change", function(e) {
+    if (e.target && e.target.classList.contains("boat-status-select")) {
+        const boatModelId = e.target.getAttribute("data-id");
+        const newStatus = e.target.value;
+        if (newStatus === "Rejected") {
+            // Revert select visual state first, so if they cancel, it remains as before
+            const rel = getBoatRelationship(boatModelId);
+            e.target.value = rel ? (rel.Status || "None") : "None";
+            openRejectModal(boatModelId);
+        } else {
+            updateBoatRelationship(boatModelId, newStatus);
+            // If they change it away from Rejected, decision data would be removed if it was previously rejected.
+            // But since normal displays hide rejected, they can't change it via card dropdown easily.
+            // Still, it's good practice.
+            if (searchButton) {
+                searchButton.click();
+            } else {
+                displayBoats(allBoats);
+            }
+        }
+    }
+});
+
+// =====================================================
+// REJECTED BOAT MANAGEMENT LOGIC
+// =====================================================
+
+let currentRejectBoatId = null;
+
+const STATUS_LABELS = {
+    "None": "Unreviewed",
+    "Favorite": "Favorite",
+    "Candidate": "Candidate",
+    "Research": "Evaluating",
+    "Rejected": "Rejected"
+};
+
+function updateBuyerWorkspaceCounts() {
+    const favoriteElem = document.getElementById("favoriteBoatsCount");
+    const candidateElem = document.getElementById("candidateBoatsCount");
+    const researchingElem = document.getElementById("researchingBoatsCount");
+    const rejectedElem = document.getElementById("rejectedBoatsCount");
+
+    let favoriteCount = 0;
+    let candidateCount = 0;
+    let researchingCount = 0;
+    let rejectedCount = 0;
+
+    const workspace = getActiveBuyerWorkspace();
+    if (workspace && workspace.BoatRelationships) {
+        workspace.BoatRelationships.forEach(r => {
+            if (r.Status === "Favorite") {
+                favoriteCount++;
+            } else if (r.Status === "Candidate") {
+                candidateCount++;
+            } else if (r.Status === "Research" || r.Status === "Evaluating") {
+                researchingCount++;
+            } else if (r.Status === "Rejected") {
+                rejectedCount++;
+            }
+        });
+    }
+
+    if (favoriteElem) favoriteElem.textContent = favoriteCount;
+    if (candidateElem) candidateElem.textContent = candidateCount;
+    if (researchingElem) researchingElem.textContent = researchingCount;
+    if (rejectedElem) rejectedElem.textContent = rejectedCount;
+}
+
+function showWorkspaceStatus(status) {
+    if (window.BScoutTaxonomyRegistry && typeof window.BScoutTaxonomyRegistry.createRegistry === "function") {
+        taxonomyRegistry = window.BScoutTaxonomyRegistry.createRegistry({
+            fuelTypes: payload.fuelTypes,
+            propulsionTypes: payload.propulsionTypes,
+            hullForms: payload.hullForms,
+            hullConfigurations: payload.hullConfigurations,
+            styleFamilies: payload.styleFamilies
+        });
+        window.BScoutTaxonomy = taxonomyRegistry;
+        const taxonomyIssues = allBoats.flatMap(boat => taxonomyRegistry.validateBoat(boat).map(issue => ({
+            BoatModelID: boat.BoatModelID,
+            ...issue
+        })));
+        if (taxonomyIssues.length) console.warn("Taxonomy validation requires review:", taxonomyIssues);
+    }
+
+    if (window.BScoutKnowledgeLayerRepository && typeof window.BScoutKnowledgeLayerRepository.createKnowledgeIndex === "function") {
+        knowledgeLayer = window.BScoutKnowledgeLayerRepository.createKnowledgeIndex({
+            facts: payload.facts,
+            evidence: payload.evidence,
+            contradictions: payload.contradictions,
+            relationships: payload.relationships,
+            knowledgeCoverage: payload.knowledgeCoverage
+        });
+        window.BScoutKnowledgeLayer = knowledgeLayer;
+        const knowledgeValidation = window.BScoutKnowledgeLayerRepository.validateKnowledgeData({
+            facts: payload.facts,
+            evidence: payload.evidence,
+            contradictions: payload.contradictions,
+            relationships: payload.relationships,
+            knowledgeCoverage: payload.knowledgeCoverage
+        }, allBoats.map(boat => boat.BoatModelID));
+        if (!knowledgeValidation.valid) console.warn("Knowledge Layer validation requires review:", knowledgeValidation);
+    }
+
+    if (window.BScoutSearchOrchestrator) {
+        return window.BScoutSearchOrchestrator.showWorkspaceStatus(status);
+    }
+
+    const filteredBoats = allBoats.filter(boat => {
+        const rel = getBoatRelationship(boat.BoatModelID);
+        if (!rel) return false;
+        if (status === "Research" || status === "Evaluating") {
+            return rel.Status === "Research" || rel.Status === "Evaluating";
+        }
+        return rel.Status === status;
+    });
+    displayBoats(filteredBoats);
+    return { boats: filteredBoats, count: filteredBoats.length };
+}
+
+function openRejectModal(boatId) {
+    currentRejectBoatId = boatId;
+    const boat = allBoats.find(b => String(b.BoatModelID) === String(boatId));
+    if (!boat) return;
+
+    const nameEl = document.getElementById("rejectModalBoatName");
+    if (nameEl) {
+        nameEl.textContent = [boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ");
+    }
+
+    const reasonEl = document.getElementById("rejectReason");
+    if (reasonEl) {
+        reasonEl.value = "";
+    }
+
+    const notesEl = document.getElementById("rejectNotes");
+    if (notesEl) {
+        notesEl.value = "";
+    }
+
+    const modal = document.getElementById("rejectModal");
+    if (modal) {
+        modal.style.display = "block";
+    }
+}
+
+function rejectBoat(boatId, reason, notes) {
+    getActiveBuyerWorkspace();
+
+    let rel = getBoatRelationship(boatId);
+    
+    // Save previous status
+    const prevStatus = rel.Status || "None";
+    if (prevStatus !== "Rejected") {
+        rel.PreviousStatus = prevStatus;
+    }
+    
+    // Set Status
+    rel.Status = "Rejected";
+    
+    // Set Decision details
+    rel.Decision = {
+        Reason: reason,
+        Notes: notes || ""
+    };
+    
+    rel.LastUpdated = new Date().toISOString();
+    appendDecisionHistory(rel, "rejected", "Boat rejected", [reason, notes].filter(Boolean).join(": "));
+
+    // Persist
+    persistCurrentSearchProfile();
+    updateBuyerWorkspaceCounts();
+    if (document.getElementById("decisionWorkspaceModal")?.style.display === "block") renderDecisionWorkspace();
+}
+
+function restoreBoat(boatId) {
+    getActiveBuyerWorkspace();
+
+    let rel = getBoatRelationship(boatId);
+    if (!rel) return;
+
+    const prevStatus = rel.PreviousStatus;
+    if (prevStatus) {
+        rel.Status = prevStatus;
+    } else {
+        rel.Status = "None";
+    }
+
+    // Remove Decision data and PreviousStatus
+    delete rel.Decision;
+    delete rel.PreviousStatus;
+
+    rel.LastUpdated = new Date().toISOString();
+    appendDecisionHistory(rel, "restored", `Restored to ${STATUS_LABELS[rel.Status] || rel.Status}`);
+
+    // Persist to search profiles
+    persistCurrentSearchProfile();
+
+    // Update UI elements
+    updateBuyerWorkspaceCounts();
+    renderRejectedBoatsList();
+    if (document.getElementById("decisionWorkspaceModal")?.style.display === "block") renderDecisionWorkspace();
+    
+    // Refresh the search view
+    if (searchButton) {
+        searchButton.click();
+    } else {
+        displayBoats(allBoats);
+    }
+}
+
+function renderRejectedBoatsList() {
+    const tbody = document.getElementById("rejectedBoatsTableBody");
+    if (!tbody) return;
+
+    tbody.innerHTML = "";
+
+    const workspace = getActiveBuyerWorkspace();
+    if (!workspace || !workspace.BoatRelationships) {
+        tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; padding: 20px;">No rejected boats found.</td></tr>`;
+        return;
+    }
+
+    const rejectedRels = workspace.BoatRelationships.filter(r => r.Status === "Rejected");
+
+    if (rejectedRels.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; padding: 20px;">No rejected boats found.</td></tr>`;
+        return;
+    }
+
+    rejectedRels.forEach(rel => {
+        const boat = allBoats.find(b => String(b.BoatModelID) === String(rel.BoatModelID));
+        if (!boat) return;
+
+        const boatName = [boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ");
+        const originalStatus = rel.PreviousStatus || "None";
+        const reason = rel.Decision ? (rel.Decision.Reason || "") : "";
+        const notes = rel.Decision ? (rel.Decision.Notes || "") : "";
+
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0; font-weight: bold;">${boatName}</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><span class="status-badge" style="background: #e2e8f0; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold; color: #475569;">${STATUS_LABELS[originalStatus] || originalStatus}</span></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0; color: #dc2626; font-weight: bold;">${reason}</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0; max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${notes}">${notes}</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: center; white-space: nowrap;">
+                <button class="details-button restore-btn" data-id="${boat.BoatModelID}" style="padding: 6px 10px; font-size: 12px; background: #10b981; margin: 0; width: auto; display: inline-block;">Restore</button>
+            </td>
+        `;
+        tbody.appendChild(tr);
+    });
+
+    // Attach button listeners inside table
+    tbody.querySelectorAll(".restore-btn").forEach(button => {
+        button.addEventListener("click", function() {
+            restoreBoat(this.dataset.id);
+        });
+    });
+}
+
+// Hook up Reject and Rejected Boats modals controls
+function initRejectControls() {
+    // Save Reject button
+    const saveRejectBtn = document.getElementById("saveRejectBtn");
+    if (saveRejectBtn) {
+        saveRejectBtn.addEventListener("click", function() {
+            if (!currentRejectBoatId) return;
+
+            const reasonEl = document.getElementById("rejectReason");
+            const notesEl = document.getElementById("rejectNotes");
+
+            const reason = reasonEl ? reasonEl.value : "";
+            const notes = notesEl ? notesEl.value : "";
+
+            if (!reason) {
+                alert("Please select a reason for rejection.");
+                return;
+            }
+
+            rejectBoat(currentRejectBoatId, reason, notes);
+
+            // Close modal
+            const modal = document.getElementById("rejectModal");
+            if (modal) {
+                modal.style.display = "none";
+            }
+
+            currentRejectBoatId = null;
+
+            // Refresh normal view
+            if (searchButton) {
+                searchButton.click();
+            } else {
+                displayBoats(allBoats);
+            }
+        });
+    }
+
+    // Cancel Reject button
+    const cancelRejectBtn = document.getElementById("cancelRejectBtn");
+    if (cancelRejectBtn) {
+        cancelRejectBtn.addEventListener("click", function() {
+            const modal = document.getElementById("rejectModal");
+            if (modal) {
+                modal.style.display = "none";
+            }
+            currentRejectBoatId = null;
+        });
+    }
+
+    // Close Reject Modal (X)
+    const closeRejectModal = document.getElementById("closeRejectModal");
+    if (closeRejectModal) {
+        closeRejectModal.addEventListener("click", function() {
+            const modal = document.getElementById("rejectModal");
+            if (modal) {
+                modal.style.display = "none";
+            }
+            currentRejectBoatId = null;
+        });
+    }
+
+    // Buyer Workspace buttons
+    const viewFavoriteBoatsBtn = document.getElementById("viewFavoriteBoatsBtn");
+    if (viewFavoriteBoatsBtn) {
+        viewFavoriteBoatsBtn.addEventListener("click", function() {
+            showWorkspaceStatus("Favorite");
+        });
+    }
+
+    const viewCandidateBoatsBtn = document.getElementById("viewCandidateBoatsBtn");
+    if (viewCandidateBoatsBtn) {
+        viewCandidateBoatsBtn.addEventListener("click", function() {
+            showWorkspaceStatus("Candidate");
+        });
+    }
+
+    const viewEvaluatingBoatsBtn = document.getElementById("viewResearchingBoatsBtn");
+    if (viewEvaluatingBoatsBtn) {
+        viewEvaluatingBoatsBtn.addEventListener("click", function() {
+            showWorkspaceStatus("Evaluating");
+        });
+    }
+
+    const viewRejectedBoatsBtn = document.getElementById("viewRejectedBoatsBtn");
+    if (viewRejectedBoatsBtn) {
+        viewRejectedBoatsBtn.addEventListener("click", function() {
+            renderRejectedBoatsList();
+            const modal = document.getElementById("rejectedBoatsModal");
+            if (modal) {
+                modal.style.display = "block";
+            }
+        });
+    }
+
+    // Close Rejected Boats modal (X)
+    const closeRejectedBoatsModal = document.getElementById("closeRejectedBoatsModal");
+    if (closeRejectedBoatsModal) {
+        closeRejectedBoatsModal.addEventListener("click", function() {
+            const modal = document.getElementById("rejectedBoatsModal");
+            if (modal) {
+                modal.style.display = "none";
+            }
+        });
+    }
+}
+
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initRejectControls);
+} else {
+    initRejectControls();
+}
+
+
+// =====================================================
+// LISTING REGISTRY — FIRST-CLASS CANDIDATE BOATS (v6.13)
+// =====================================================
+
+let activeListingId = null;
+let activeListingBoatId = null;
+let myBoatsListingStatus = "All";
+
+function listingHash(value) {
+    let hash = 2166136261;
+    for (const ch of String(value || "")) { hash ^= ch.charCodeAt(0); hash = Math.imul(hash, 16777619); }
+    return (hash >>> 0).toString(36).toUpperCase();
+}
+
+function ensureProfileListings() {
+    const workspace = getActiveBuyerWorkspace();
+    if (!Array.isArray(workspace.Listings)) workspace.Listings = [];
+    migrateLegacyListingLinks();
+    return workspace.Listings;
+}
+
+function migrateLegacyListingLinks() {
+    const workspace = getActiveBuyerWorkspace();
+    if (!Array.isArray(workspace.BoatRelationships)) return;
+    if (!Array.isArray(workspace.Listings)) workspace.Listings = [];
+    const known = new Set(workspace.Listings.map(item => `${item.BoatModelID}|${item.URL}`));
+    let changed = false;
+    workspace.BoatRelationships.forEach(rel => {
+        parseSavedListingLinks(rel.Research?.BrokerLinks).forEach((url, index) => {
+            const key = `${rel.BoatModelID}|${url}`;
+            if (known.has(key)) return;
+            const now = new Date().toISOString();
+            workspace.Listings.push({
+                ListingID: `LST-${listingHash(key)}`,
+                BoatModelID: rel.BoatModelID,
+                URL: url,
+                Title: "",
+                Status: rel.Status === "Research" ? "Evaluating" : (rel.Status === "Candidate" ? "Candidate" : "Watching"),
+                Currency: "CAD",
+                Source: "Legacy saved link",
+                Notes: "",
+                InspectionNotes: "",
+                SurveyNotes: "",
+                OfferHistory: "",
+                RepairEstimates: "",
+                Created: now,
+                LastUpdated: now,
+                MigratedFromBrokerLinks: true,
+                LegacyLinkIndex: index
+            });
+            known.add(key); changed = true;
+        });
+    });
+    if (changed) persistCurrentSearchProfile();
+}
+
+function getListingsForBoat(boatModelId) {
+    return ensureProfileListings().filter(item => String(item.BoatModelID) === String(boatModelId));
+}
+
+function getListingById(listingId) {
+    return ensureProfileListings().find(item => String(item.ListingID) === String(listingId)) || null;
+}
+
+function formatListingPrice(listing) {
+    const amount = Number(listing?.Price);
+    if (!Number.isFinite(amount) || amount <= 0) return "Price unknown";
+    const currency = listing.Currency || "CAD";
+    try { return new Intl.NumberFormat("en-CA", { style: "currency", currency, maximumFractionDigits: 0 }).format(amount); }
+    catch (_) { return `${currency} ${amount.toLocaleString("en-CA")}`; }
+}
+
+function listingDisplayTitle(listing, boat) {
+    if (listing?.Title) return listing.Title;
+    const model = [listing?.Year, boat?.Manufacturer, boat?.Model, boat?.Variant].filter(Boolean).join(" ");
+    return model || "Specific candidate boat";
+}
+
+function openListingWorkspace(listingId, boatModelId) {
+    const listing = listingId ? getListingById(listingId) : null;
+    activeListingId = listing?.ListingID || null;
+    activeListingBoatId = listing?.BoatModelID || boatModelId;
+    const boat = allBoats.find(item => String(item.BoatModelID) === String(activeListingBoatId));
+    if (!boat) return;
+    const values = listing || { BoatModelID: activeListingBoatId, Status: "Watching", Currency: "CAD" };
+    document.getElementById("listingWorkspaceTitle").textContent = listingDisplayTitle(values, boat);
+    document.getElementById("listingWorkspaceModel").textContent = `${[boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ")} · Listing-specific information`;
+    const fields = {
+        listingTitle: values.Title || "", listingStatus: values.Status || "Watching", listingYear: values.Year || "",
+        listingPrice: values.Price || "", listingCurrency: values.Currency || "CAD", listingLocation: values.Location || "",
+        listingBroker: values.Broker || "", listingSource: values.Source || "", listingUrl: values.URL || "",
+        listingNotes: values.Notes || "", listingInspection: values.InspectionNotes || "", listingSurvey: values.SurveyNotes || "",
+        listingOffer: values.OfferHistory || "", listingRepairs: values.RepairEstimates || ""
+    };
+    Object.entries(fields).forEach(([id, value]) => { const el = document.getElementById(id); if (el) el.value = value; });
+    const external = document.getElementById("openExternalListing");
+    if (external) { external.href = values.URL || "#"; external.style.display = values.URL ? "inline-flex" : "none"; }
+    const del = document.getElementById("deleteListingWorkspace"); if (del) del.style.display = listing ? "inline-flex" : "none";
+    document.getElementById("listingWorkspaceModal").style.display = "block";
+}
+
+function saveListingWorkspaceRecord() {
+    if (!activeListingBoatId) return;
+    const listings = ensureProfileListings();
+    let listing = activeListingId ? listings.find(item => item.ListingID === activeListingId) : null;
+    const now = new Date().toISOString();
+    if (!listing) {
+        listing = { ListingID: `LST-${listingHash(`${activeListingBoatId}|${now}|${Math.random()}`)}`, BoatModelID: activeListingBoatId, Created: now };
+        listings.push(listing); activeListingId = listing.ListingID;
+    }
+    const val = id => document.getElementById(id)?.value?.trim?.() || "";
+    Object.assign(listing, {
+        BoatModelID: activeListingBoatId, Title: val("listingTitle"), Status: val("listingStatus") || "Watching",
+        Year: val("listingYear") ? Number(val("listingYear")) : "", Price: val("listingPrice") ? Number(val("listingPrice")) : "",
+        Currency: val("listingCurrency") || "CAD", Location: val("listingLocation"), Broker: val("listingBroker"),
+        Source: val("listingSource"), URL: val("listingUrl"), Notes: val("listingNotes"),
+        InspectionNotes: val("listingInspection"), SurveyNotes: val("listingSurvey"), OfferHistory: val("listingOffer"),
+        RepairEstimates: val("listingRepairs"), LastUpdated: now
+    });
+    const rel = getBoatRelationship(activeListingBoatId);
+    if (rel && rel.Status === "None") rel.Status = "Candidate";
+    if (rel) { rel.LastUpdated = now; appendDecisionHistory(rel, "listing", "Candidate listing saved", listingDisplayTitle(listing, allBoats.find(b => String(b.BoatModelID) === String(activeListingBoatId)))); }
+    persistCurrentSearchProfile();
+    document.getElementById("listingWorkspaceStatusMessage").textContent = "Listing saved.";
+    renderDecisionWorkspace();
+    if (window.BScoutBoatWorkspace?.refreshActiveTab) window.BScoutBoatWorkspace.refreshActiveTab();
+}
+
+function deleteListingWorkspaceRecord() {
+    if (!activeListingId) return;
+    const workspace = getActiveBuyerWorkspace();
+    workspace.Listings = ensureProfileListings().filter(item => item.ListingID !== activeListingId);
+    persistCurrentSearchProfile();
+    document.getElementById("listingWorkspaceModal").style.display = "none";
+    activeListingId = null;
+    renderDecisionWorkspace();
+    if (window.BScoutBoatWorkspace?.refreshActiveTab) window.BScoutBoatWorkspace.refreshActiveTab();
+}
+
+if (typeof window !== "undefined") {
+    window.getListingsForBoat = getListingsForBoat;
+    window.openListingWorkspace = openListingWorkspace;
+}
+
+// =====================================================
+// DECISION WORKSPACE
+// =====================================================
+
+let decisionWorkspaceStatus = "All";
+let decisionWorkspaceSelectedBoatId = null;
+
+function escapeWorkspaceHtml(value) {
+    return String(value == null ? "" : value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+function getDecisionWorkspaceRows(status = decisionWorkspaceStatus) {
+    const workspace = getActiveBuyerWorkspace();
+    if (!Array.isArray(workspace.BoatRelationships)) return [];
+    return workspace.BoatRelationships
+        .filter(rel => rel.Status && rel.Status !== "None")
+        .filter(rel => status === "All" || (status === "Research"
+            ? rel.Status === "Research" || rel.Status === "Evaluating"
+            : rel.Status === status))
+        .map(rel => ({ rel, boat: allBoats.find(boat => String(boat.BoatModelID) === String(rel.BoatModelID)) }))
+        .filter(item => item.boat)
+        .sort((a, b) => new Date(b.rel.LastUpdated || 0) - new Date(a.rel.LastUpdated || 0));
+}
+
+function renderDecisionTimeline(boatId) {
+    const container = document.getElementById("decisionTimeline");
+    if (!container) return;
+    const rel = getBoatRelationship(boatId);
+    const boat = allBoats.find(item => String(item.BoatModelID) === String(boatId));
+    if (!rel || !boat) {
+        container.textContent = "Select a boat to view its history.";
+        return;
+    }
+    const title = [boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ");
+    let history = Array.isArray(rel.History) ? rel.History.slice() : [];
+    if (!history.length && rel.Created) {
+        history.push({ Label: "Added to buyer workspace", Timestamp: rel.Created });
+        if (rel.LastUpdated && rel.LastUpdated !== rel.Created) history.push({ Label: "Decision record updated", Timestamp: rel.LastUpdated });
+    }
+    history.sort((a, b) => new Date(b.Timestamp || 0) - new Date(a.Timestamp || 0));
+    container.innerHTML = `<h4>${escapeWorkspaceHtml(title)}</h4>${history.length ? `<ol class="decision-timeline-list">${history.map(event => {
+        const date = event.Timestamp ? new Date(event.Timestamp) : null;
+        const dateLabel = date && !isNaN(date.getTime()) ? date.toLocaleString() : "Date unavailable";
+        return `<li><strong>${escapeWorkspaceHtml(event.Label || "Decision updated")}</strong><span>${escapeWorkspaceHtml(event.Detail || "")}</span><time>${escapeWorkspaceHtml(dateLabel)}</time></li>`;
+    }).join("")}</ol>` : "<p>No decision history recorded yet.</p>"}`;
+}
+
+function updateWorkspaceCompareButton() {
+    const button = document.getElementById("compareWorkspaceSelectionBtn");
+    if (!button) return;
+    const count = comparisonBoatIDs.length;
+    button.textContent = `Compare Selected (${count})`;
+    button.disabled = count < 2;
+}
+
+
+function parseSavedListingLinks(value) {
+    return String(value || "").split(/\r?\n/).map(item => item.trim()).filter(Boolean);
+}
+
+function renderMyBoatsListings() {
+    const container = document.getElementById("myBoatsListings");
+    if (!container) return;
+    const allListings = ensureProfileListings().slice().sort((a,b) => new Date(b.LastUpdated || 0) - new Date(a.LastUpdated || 0));
+    const closedStatuses = new Set(["Rejected", "Sold", "Archived"]);
+    const activeStatuses = new Set(["Watching", "Candidate", "Evaluating", "Offer"]);
+    const setCount = (id, value) => { const element = document.getElementById(id); if (element) element.textContent = value; };
+    setCount("listingTotalCount", allListings.length);
+    setCount("listingActiveCount", allListings.filter(item => activeStatuses.has(item.Status || "Watching")).length);
+    setCount("listingOfferCount", allListings.filter(item => item.Status === "Offer").length);
+    setCount("listingClosedCount", allListings.filter(item => closedStatuses.has(item.Status)).length);
+
+    const listings = allListings.filter(listing => {
+        if (myBoatsListingStatus === "All") return true;
+        if (myBoatsListingStatus === "Closed") return closedStatuses.has(listing.Status);
+        return (listing.Status || "Watching") === myBoatsListingStatus;
+    });
+    if (!allListings.length) {
+        container.innerHTML = '<p class="decision-workspace-empty">No specific candidate listings have been saved. Open a model Workspace, choose Listings, and add an individual boat.</p>';
+        return;
+    }
+    if (!listings.length) {
+        container.innerHTML = '<p class="decision-workspace-empty">No listings match this lifecycle filter.</p>';
+        return;
+    }
+    const groups = new Map();
+    listings.forEach(listing => {
+        const key = String(listing.BoatModelID);
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(listing);
+    });
+    container.innerHTML = [...groups.entries()].map(([boatId, modelListings]) => {
+        const boat = allBoats.find(item => String(item.BoatModelID) === boatId);
+        if (!boat) return "";
+        const modelTitle = [boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ");
+        return `<section class="my-boats-model-group"><header><div><span class="listing-count">${modelListings.length} listing${modelListings.length === 1 ? "" : "s"}</span><h4>${escapeWorkspaceHtml(modelTitle)}</h4></div><button type="button" class="listing-model-workspace-btn" data-id="${escapeWorkspaceHtml(boatId)}">Model Workspace</button></header><div class="my-boats-model-listings">${modelListings.map(listing => `<article class="my-boats-listing-card">
+          <div><span class="listing-source">${escapeWorkspaceHtml(listing.Source || "Saved listing")}</span><h5>${escapeWorkspaceHtml(listingDisplayTitle(listing, boat))}</h5><p>${escapeWorkspaceHtml(formatListingPrice(listing))} · ${escapeWorkspaceHtml(listing.Location || "Location unknown")} · ${escapeWorkspaceHtml(listing.Status || "Watching")}</p></div>
+          <div class="listing-card-actions"><button type="button" class="open-listing-workspace-btn" data-listing-id="${escapeWorkspaceHtml(listing.ListingID)}">Listing Workspace</button>${listing.URL ? `<a href="${escapeWorkspaceHtml(listing.URL)}" target="_blank" rel="noopener noreferrer">Original Listing</a>` : ""}</div>
+        </article>`).join("")}</div></section>`;
+    }).join("");
+    container.querySelectorAll(".listing-model-workspace-btn").forEach(button => button.addEventListener("click", () => {
+        const boat = allBoats.find(item => String(item.BoatModelID) === String(button.dataset.id));
+        if (!boat || !window.BScoutBoatWorkspace) return;
+        window.BScoutWorkspaceReturnModal = "decisionWorkspaceModal";
+        document.getElementById("decisionWorkspaceModal").style.display = "none";
+        window.BScoutBoatWorkspace.open(boat, "listings");
+    }));
+    container.querySelectorAll(".open-listing-workspace-btn").forEach(button => button.addEventListener("click", () => openListingWorkspace(button.dataset.listingId)));
+}
+
+function renderDecisionWorkspace() {
+    renderMyBoatsListings();
+    const tbody = document.getElementById("decisionWorkspaceTableBody");
+    if (!tbody) return;
+    const profileLabel = document.getElementById("decisionWorkspaceProfileName");
+    if (profileLabel) profileLabel.textContent = currentSearchProfile?.ProfileName || "Default Search Profile";
+    const rows = getDecisionWorkspaceRows();
+    if (!rows.length) {
+        tbody.innerHTML = '<tr><td colspan="6" class="decision-workspace-empty">No boats are saved at this stage.</td></tr>';
+        renderDecisionTimeline(null);
+        updateWorkspaceCompareButton();
+        return;
+    }
+    tbody.innerHTML = rows.map(({ rel, boat }) => {
+        const id = String(boat.BoatModelID);
+        const title = [boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ");
+        const rating = rel.Research?.Rating ? "★".repeat(Number(rel.Research.Rating)) : "Unrated";
+        const updated = rel.LastUpdated ? new Date(rel.LastUpdated).toLocaleDateString() : "Unknown";
+        return `<tr class="${decisionWorkspaceSelectedBoatId === id ? "selected" : ""}" data-workspace-boat-id="${escapeWorkspaceHtml(id)}">
+            <td><input type="checkbox" class="workspace-compare-checkbox" data-id="${escapeWorkspaceHtml(id)}" ${comparisonBoatIDs.includes(id) ? "checked" : ""} aria-label="Compare ${escapeWorkspaceHtml(title)}"></td>
+            <td><button type="button" class="workspace-boat-link" data-id="${escapeWorkspaceHtml(id)}">${escapeWorkspaceHtml(title)}</button></td>
+            <td><select class="workspace-status-select" data-id="${escapeWorkspaceHtml(id)}">
+                <option value="Favorite" ${rel.Status === "Favorite" ? "selected" : ""}>Favorite</option>
+                <option value="Candidate" ${rel.Status === "Candidate" ? "selected" : ""}>Candidate</option>
+                <option value="Research" ${rel.Status === "Research" || rel.Status === "Evaluating" ? "selected" : ""}>Evaluating</option>
+                <option value="Rejected" ${rel.Status === "Rejected" ? "selected" : ""}>Rejected</option>
+                <option value="None">Unreviewed</option>
+            </select></td>
+            <td>${rating}</td><td>${escapeWorkspaceHtml(updated)}</td>
+            <td><button type="button" class="workspace-notebook-btn" data-id="${escapeWorkspaceHtml(id)}">Notebook</button></td>
+        </tr>`;
+    }).join("");
+    tbody.querySelectorAll(".workspace-boat-link").forEach(button => button.addEventListener("click", () => {
+        const boat = allBoats.find(item => String(item.BoatModelID) === String(button.dataset.id));
+        if (!boat || !window.BScoutBoatWorkspace) return;
+        window.BScoutWorkspaceReturnModal = "decisionWorkspaceModal";
+        document.getElementById("decisionWorkspaceModal").style.display = "none";
+        window.BScoutBoatWorkspace.open(boat, "overview");
+    }));
+    tbody.querySelectorAll(".workspace-notebook-btn").forEach(button => button.addEventListener("click", () => {
+        const boat = allBoats.find(item => String(item.BoatModelID) === String(button.dataset.id));
+        if (boat && window.BScoutBoatWorkspace) {
+            window.BScoutWorkspaceReturnModal = "decisionWorkspaceModal";
+            document.getElementById("decisionWorkspaceModal").style.display = "none";
+            window.BScoutBoatWorkspace.open(boat, "notebook");
+        } else {
+            showResearchPanel(button.dataset.id);
+        }
+    }));
+    tbody.querySelectorAll(".workspace-compare-checkbox").forEach(input => input.addEventListener("change", () => {
+        toggleCompareBoat(input.dataset.id);
+        renderDecisionWorkspace();
+    }));
+    tbody.querySelectorAll(".workspace-status-select").forEach(select => select.addEventListener("change", () => {
+        if (select.value === "Rejected") {
+            openRejectModal(select.dataset.id);
+            select.value = getBoatRelationship(select.dataset.id)?.Status || "None";
+        } else {
+            updateBoatRelationship(select.dataset.id, select.value);
+            renderDecisionWorkspace();
+            renderDecisionTimeline(select.dataset.id);
+        }
+    }));
+    if (!decisionWorkspaceSelectedBoatId || !rows.some(item => String(item.boat.BoatModelID) === decisionWorkspaceSelectedBoatId)) {
+        decisionWorkspaceSelectedBoatId = String(rows[0].boat.BoatModelID);
+    }
+    renderDecisionTimeline(decisionWorkspaceSelectedBoatId);
+    updateWorkspaceCompareButton();
+}
+
+function openDecisionWorkspace() {
+    renderDecisionWorkspace();
+    const modal = document.getElementById("decisionWorkspaceModal");
+    if (modal) modal.style.display = "block";
+}
+
+function initDecisionWorkspaceControls() {
+    document.getElementById("openDecisionWorkspaceBtn")?.addEventListener("click", openDecisionWorkspace);
+    document.querySelectorAll(".listing-filter-btn").forEach(button => button.addEventListener("click", () => {
+        myBoatsListingStatus = button.dataset.listingStatus || "All";
+        document.querySelectorAll(".listing-filter-btn").forEach(item => item.classList.toggle("active", item === button));
+        renderMyBoatsListings();
+    }));
+    document.getElementById("closeDecisionWorkspaceModal")?.addEventListener("click", () => {
+        const modal = document.getElementById("decisionWorkspaceModal");
+        if (modal) modal.style.display = "none";
+    });
+    document.querySelectorAll(".decision-filter-btn").forEach(button => button.addEventListener("click", () => {
+        decisionWorkspaceStatus = button.dataset.status || "All";
+        document.querySelectorAll(".decision-filter-btn").forEach(item => item.classList.toggle("active", item === button));
+        renderDecisionWorkspace();
+    }));
+    document.getElementById("compareWorkspaceSelectionBtn")?.addEventListener("click", () => {
+        if (comparisonBoatIDs.length < 2) return;
+        renderComparisonTable();
+        const modal = document.getElementById("comparisonModal");
+        if (modal) modal.style.display = "block";
+    });
+}
+
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initDecisionWorkspaceControls);
+else initDecisionWorkspaceControls();
+
+// =====================================================
+// COMPARE BOATS LOGIC
+// =====================================================
+
+function toggleCompareBoat(boatId) {
+    boatId = String(boatId);
+    const idx = comparisonBoatIDs.indexOf(boatId);
+    if (idx !== -1) {
+        comparisonBoatIDs.splice(idx, 1);
+    } else {
+        if (comparisonBoatIDs.length >= 4) {
+            alert("Maximum selection: 4 boats. Please deselect another boat first.");
+            return;
+        }
+        comparisonBoatIDs.push(boatId);
+    }
+
+    // Update buttons and floating comparison controls
+    updateCompareButtonsState();
+    updateFloatingCompareButton();
+
+    // Update modal if open
+    const compModal = document.getElementById("comparisonModal");
+    if (compModal && compModal.style.display === "block") {
+        renderComparisonTable();
+    }
+}
+
+window.toggleCompareBoat = toggleCompareBoat;
+
+function updateCompareButtonsState() {
+    document.querySelectorAll(".compare-btn").forEach(button => {
+        const id = String(button.dataset.id);
+        if (comparisonBoatIDs.includes(id)) {
+            button.classList.add("selected");
+            button.textContent = "Comparing";
+        } else {
+            button.classList.remove("selected");
+            button.textContent = "Compare";
+        }
+    });
+}
+
+function updateFloatingCompareButton() {
+    const floatBtn = document.getElementById("floatingCompareBtn");
+    if (!floatBtn) return;
+
+    const count = comparisonBoatIDs.length;
+    if (count >= 2) {
+        floatBtn.textContent = `Compare (${count})`;
+        floatBtn.style.display = "block";
+    } else {
+        floatBtn.style.display = "none";
+    }
+    updateWorkspaceCompareButton();
+}
+
+function renderComparisonTable() {
+    const table = document.getElementById("comparisonTable");
+    if (!table) return;
+
+    // Fetch selected boats
+    const selectedBoats = comparisonBoatIDs.map(id => {
+        return allBoats.find(b => String(b.BoatModelID) === String(id));
+    }).filter(Boolean);
+
+    if (selectedBoats.length === 0) {
+        table.innerHTML = "<tr><td style='text-align: center; padding: 20px;'>No boats selected for comparison.</td></tr>";
+        return;
+    }
+
+    // Rows to build
+    const rows = [
+        { label: "Image / Remove", key: "header_card" },
+        { label: "Manufacturer", key: "Manufacturer" },
+        { label: "Model", key: "Model" },
+        { label: "First Year", key: "FirstYear" },
+        { label: "Last Year", key: "LastYear" },
+        { label: "Search Fit Score", key: "search_fit_score" },
+        { label: "Status", key: "status" },
+        { label: "Research Rating", key: "research_rating" },
+        { label: "LOA", key: "LOA_ft", suffix: " ft" },
+        { label: "Beam", key: "Beam_ft", suffix: " ft" },
+        { label: "Draft", key: "Draft_ft", suffix: " ft" },
+        { label: "Air Draft", key: "AirDraft_ft", suffix: " ft" },
+        { label: "Displacement", key: "Displacement_lb", suffix: " lb" },
+        { label: "Hull Type", key: "HullType" },
+        { label: "Boat Style", key: "Style" },
+        { label: "Fuel Type", key: "Fuel" },
+        { label: "Propulsion Type", key: "Propulsion" },
+        { label: "Flybridge", key: "Flybridge" },
+        { label: "Aft Cabin", key: "AftCabin" },
+        { label: "Side Decks", key: "SideDecks" },
+        { label: "Fuel Capacity", key: "FuelCapacity", suffix: " gal" },
+        { label: "Water Capacity", key: "WaterCapacity", suffix: " gal" },
+        { label: "Holding Capacity", key: "HoldingCapacity", suffix: " gal" },
+        { label: "Berths", key: "Berths" },
+        { label: "Cabins", key: "Cabins" },
+        { label: "Heads", key: "Heads" },
+        { label: "Shower", key: "Shower" },
+        { label: "Trailerable", key: "Trailerable" },
+        { label: "B-Scout Verdict", key: "bscout_verdict" },
+        { label: "Best For", key: "best_for" },
+        { label: "Avoid If", key: "avoid_if" },
+        { label: "Inspection Focus", key: "inspection_focus" },
+        { label: "Knowledge Confidence", key: "knowledge_confidence" },
+        { label: "Research Notes", key: "research_notes" },
+        { label: "Strengths", key: "Strengths" },
+        { label: "Trade-offs", key: "Weaknesses" }
+    ];
+
+    let html = "";
+
+    rows.forEach(row => {
+        html += `<tr>`;
+        html += `<td>${row.label}</td>`;
+
+        selectedBoats.forEach(boat => {
+            const rel = getBoatRelationship(boat.BoatModelID);
+            let val = "";
+
+            if (row.key === "header_card") {
+                const title = [boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ");
+                val = `
+                    <div class="comparison-header-card">
+                        <button class="remove-compare-btn" onclick="toggleCompareBoat('${boat.BoatModelID}')">×</button>
+                        <img src="${ImageAssetManager.resolveBoatImage(boat)}" alt="${title}" onerror="ImageAssetManager.applyImageFallback(this)">
+                        <h4>${title}</h4>
+                    </div>
+                `;
+            } else if (row.key === "search_fit_score") {
+                const fit = calculateFitScore(boat, currentSearchProfile ? currentSearchProfile.SearchSettings : {});
+                val = `<strong>${fit.score || 100}%</strong>`;
+            } else if (row.key === "status") {
+                val = rel ? (STATUS_LABELS[rel.Status] || rel.Status || "Unreviewed") : "Unreviewed";
+            } else if (row.key === "research_rating") {
+                if (rel && rel.Research && rel.Research.Rating) {
+                    val = "⭐".repeat(rel.Research.Rating);
+                } else {
+                    val = "Unrated";
+                }
+            } else if (["bscout_verdict", "best_for", "avoid_if", "inspection_focus", "knowledge_confidence"].includes(row.key)) {
+                const summary = window.BScoutIntelligenceLayer
+                    ? window.BScoutIntelligenceLayer.buildModelKnowledgeSummary(boat)
+                    : null;
+                if (!summary) {
+                    val = "Unknown";
+                } else if (row.key === "bscout_verdict") {
+                    val = `<strong>${escapeHtml(summary.verdictLevel)}</strong><br>${escapeHtml(summary.verdict)}`;
+                } else if (row.key === "best_for") {
+                    val = escapeHtml(summary.bestFor || summary.positives[0] || "Unknown");
+                } else if (row.key === "avoid_if") {
+                    val = escapeHtml(summary.avoidIf || summary.cautions[0] || "Unknown");
+                } else if (row.key === "inspection_focus") {
+                    val = summary.inspectionFocus.length ? summary.inspectionFocus.map(escapeHtml).join("<br>") : "Unknown";
+                } else {
+                    val = `${escapeHtml(summary.confidence)} confidence`;
+                }
+            } else if (row.key === "research_notes") {
+                if (rel && rel.Research && rel.Research.Notes) {
+                    val = `<div class="comparison-notes-summary">${rel.Research.Notes}</div>`;
+                } else {
+                    val = "<em>No notebook notes yet</em>";
+                }
+            } else {
+                let rawVal = boat[row.key];
+                if (rawVal === undefined || rawVal === null || rawVal === "") {
+                    val = "Unknown";
+                } else if (typeof rawVal === "boolean") {
+                    val = rawVal ? "Yes" : "No";
+                } else {
+                    val = rawVal + (row.suffix || "");
+                }
+            }
+
+            html += `<td>${val}</td>`;
+        });
+
+        html += `</tr>`;
+    });
+
+    table.innerHTML = html;
+}
+
+// Hook up comparison modal trigger and close controls
+function initComparisonControls() {
+    const floatBtn = document.getElementById("floatingCompareBtn");
+    if (floatBtn) {
+        floatBtn.addEventListener("click", function() {
+            renderComparisonTable();
+            const modal = document.getElementById("comparisonModal");
+            if (modal) modal.style.display = "block";
+        });
+    }
+
+    const closeBtn = document.getElementById("closeComparisonModal");
+    if (closeBtn) {
+        closeBtn.addEventListener("click", function() {
+            const modal = document.getElementById("comparisonModal");
+            if (modal) modal.style.display = "none";
+        });
+    }
+}
+
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initComparisonControls);
+} else {
+    initComparisonControls();
+}
+
+
+if (typeof window !== "undefined") {
+    window.applySearchSettingsToControls = applySearchSettingsToControls;
+    window.describeSearchProfile = describeSearchProfile;
+    window.updateSearchProfileSummary = updateSearchProfileSummary;
+}
+
+
+// v6.13 listing workspace bindings
+if (typeof document !== "undefined") {
+    document.getElementById("closeListingWorkspaceModal")?.addEventListener("click", () => { document.getElementById("listingWorkspaceModal").style.display = "none"; });
+    document.getElementById("saveListingWorkspace")?.addEventListener("click", saveListingWorkspaceRecord);
+    document.getElementById("deleteListingWorkspace")?.addEventListener("click", deleteListingWorkspaceRecord);
+    document.getElementById("listingOpenModelBtn")?.addEventListener("click", () => {
+        const boat = allBoats.find(item => String(item.BoatModelID) === String(activeListingBoatId));
+        document.getElementById("listingWorkspaceModal").style.display = "none";
+        if (boat && window.BScoutBoatWorkspace) window.BScoutBoatWorkspace.open(boat, "overview");
+    });
+}

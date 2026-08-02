@@ -1,0 +1,237 @@
+[
+  {
+    "ProfileID": "builtin:WEEKEND_WANDERER",
+    "ProfileName": "Weekend Wanderer",
+    "Description": "Short weekend trips close to home with family and friends.",
+    "Icon": "anchor",
+    "Locked": true,
+    "SearchSettings": {
+      "maxLength": 32,
+      "hullTypes": [
+        "Planing",
+        "Semi-Displacement"
+      ],
+      "fuels": [
+        "Gas",
+        "Diesel"
+      ],
+      "propulsion": [
+        "Outboard",
+        "Stern Drive",
+        "Shaft"
+      ]
+    },
+    "SortPreferences": {
+      "field": "matchScore",
+      "direction": "desc"
+    },
+    "DefaultLayout": "cards"
+  },
+  {
+    "ProfileID": "builtin:COASTAL_CRUISER",
+    "ProfileName": "Coastal Cruiser",
+    "Description": "Exploring coastal waters, harbors, and islands with overnight comfort.",
+    "Icon": "compass",
+    "Locked": true,
+    "SearchSettings": {
+      "maxLength": 40,
+      "hullTypes": [
+        "Semi-Displacement",
+        "Full Displacement"
+      ],
+      "fuels": [
+        "Diesel"
+      ],
+      "propulsion": [
+        "Shaft"
+      ]
+    },
+    "SortPreferences": {
+      "field": "matchScore",
+      "direction": "desc"
+    },
+    "DefaultLayout": "cards"
+  },
+  {
+    "ProfileID": "builtin:LONG_RANGE_CRUISER",
+    "ProfileName": "Long Range Cruiser",
+    "Description": "Passage making across major oceans or remote coastlines with ultimate self-sufficiency.",
+    "Icon": "globe",
+    "Locked": true,
+    "SearchSettings": {
+      "maxLength": 50,
+      "hullTypes": [
+        "Full Displacement"
+      ],
+      "fuels": [
+        "Diesel"
+      ],
+      "propulsion": [
+        "Shaft"
+      ]
+    },
+    "SortPreferences": {
+      "field": "matchScore",
+      "direction": "desc"
+    },
+    "DefaultLayout": "cards"
+  },
+  {
+    "ProfileID": "builtin:WEEKENDER_EXPRESS",
+    "ProfileName": "Weekender Express",
+    "Description": "Fast, fun weekend getaways on express-style cruisers with quick transit times.",
+    "Icon": "gauge",
+    "Locked": true,
+    "SearchSettings": {
+      "maxLength": 32,
+      "hullTypes": [
+        "Planing"
+      ],
+      "fuels": [
+        "Gas",
+        "Diesel"
+      ],
+      "propulsion": [
+        "Outboard",
+        "Stern Drive",
+        "Pod Drive"
+      ]
+    },
+    "SortPreferences": {
+      "field": "matchScore",
+      "direction": "desc"
+    },
+    "DefaultLayout": "cards"
+  },
+  {
+    "ProfileID": "builtin:ICW_EXPLORER",
+    "ProfileName": "ICW Explorer",
+    "Description": "Comfortable coastal cruising optimized for the Intracoastal Waterway's depth and bridge constraints.",
+    "Icon": "water",
+    "Locked": true,
+    "SearchSettings": {
+      "maxLength": 40,
+      "routes": [
+        "ICW"
+      ],
+      "hullTypes": [
+        "Semi-Displacement",
+        "Full Displacement"
+      ],
+      "fuels": [
+        "Diesel"
+      ],
+      "propulsion": [
+        "Shaft"
+      ]
+    },
+    "SortPreferences": {
+      "field": "matchScore",
+      "direction": "desc"
+    },
+    "DefaultLayout": "cards"
+  },
+  {
+    "ProfileID": "builtin:EXTENDED_COASTAL_CRUISER",
+    "ProfileName": "Extended Coastal Cruiser",
+    "Description": "Extended living aboard while cruising extensive coastal networks and island groups.",
+    "Icon": "home",
+    "Locked": true,
+    "SearchSettings": {
+      "maxLength": 50,
+      "hullTypes": [
+        "Semi-Displacement",
+        "Full Displacement"
+      ],
+      "fuels": [
+        "Diesel"
+      ],
+      "propulsion": [
+        "Shaft"
+      ]
+    },
+    "SortPreferences": {
+      "field": "matchScore",
+      "direction": "desc"
+    },
+    "DefaultLayout": "cards"
+  },
+  {
+    "ProfileID": "builtin:WEEKEND_PERFORMANCE_CRUISER",
+    "ProfileName": "Weekend Performance Cruiser",
+    "Description": "Fast, agile cruiser built for performance and thrilling weekend getaways.",
+    "Icon": "bolt",
+    "Locked": true,
+    "SearchSettings": {
+      "maxLength": 32,
+      "hullTypes": [
+        "Planing"
+      ],
+      "fuels": [
+        "Gas",
+        "Diesel"
+      ],
+      "propulsion": [
+        "Outboard",
+        "Pod Drive"
+      ]
+    },
+    "SortPreferences": {
+      "field": "matchScore",
+      "direction": "desc"
+    },
+    "DefaultLayout": "cards"
+  },
+  {
+    "ProfileID": "builtin:FAST_COASTAL_CRUISER",
+    "ProfileName": "Fast Coastal Cruiser",
+    "Description": "Cruising coastal routes at higher speeds with high comfort and overnight amenities.",
+    "Icon": "wind",
+    "Locked": true,
+    "SearchSettings": {
+      "maxLength": 40,
+      "hullTypes": [
+        "Planing",
+        "Semi-Displacement"
+      ],
+      "fuels": [
+        "Diesel"
+      ],
+      "propulsion": [
+        "Shaft",
+        "Pod Drive"
+      ]
+    },
+    "SortPreferences": {
+      "field": "matchScore",
+      "direction": "desc"
+    },
+    "DefaultLayout": "cards"
+  },
+  {
+    "ProfileID": "builtin:FAST_PASSAGE_CRUISER",
+    "ProfileName": "Fast Passage Cruiser",
+    "Description": "High-speed ocean passage making and long distance capability without sacrificing transit speeds.",
+    "Icon": "navigation",
+    "Locked": true,
+    "SearchSettings": {
+      "maxLength": 50,
+      "hullTypes": [
+        "Planing",
+        "Semi-Displacement"
+      ],
+      "fuels": [
+        "Diesel"
+      ],
+      "propulsion": [
+        "Shaft",
+        "Pod Drive"
+      ]
+    },
+    "SortPreferences": {
+      "field": "matchScore",
+      "direction": "desc"
+    },
+    "DefaultLayout": "cards"
+  }
+]

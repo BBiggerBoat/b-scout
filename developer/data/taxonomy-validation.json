@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-02T19:33:52.070Z",
+  "boatCount": 287,
+  "normalizedCoverage": {
+    "NormalizedFuel": 287,
+    "NormalizedPropulsion": 287,
+    "NormalizedHullForm": 278,
+    "NormalizedHullConfiguration": 286,
+    "NormalizedStyle": 286
+  },
+  "canonicalValueCounts": {
+    "NormalizedFuel": {
+      "Diesel": 207,
+      "Gasoline": 78,
+      "Mixed Diesel/Gasoline": 2
+    },
+    "NormalizedPropulsion": {
+      "Shaft": 224,
+      "Outboard": 39,
+      "Sterndrive": 15,
+      "Saildrive": 3,
+      "Pod": 3,
+      "Shaft/V-Drive": 2,
+      "Mixed Outboard/Shaft": 1
+    },
+    "NormalizedHullForm": {
+      "Displacement": 37,
+      "Semi-Displacement": 146,
+      "Planing": 95,
+      "Unknown": 9
+    },
+    "NormalizedHullConfiguration": {
+      "Monohull": 278,
+      "Catamaran": 8,
+      "Unknown": 1
+    },
+    "NormalizedStyle": {
+      "Motor Yacht": 24,
+      "Trawler": 81,
+      "Cruiser": 93,
+      "Downeast": 36,
+      "Catamaran": 6,
+      "Other": 2,
+      "Motorsailer": 13,
+      "Passagemaker": 2,
+      "Sportfisher": 1,
+      "Canal/River Cruiser": 1,
+      "Houseboat": 2,
+      "Unknown": 1,
+      "Tug Cruiser": 25
+    }
+  }
+}

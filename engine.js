@@ -1,0 +1,93 @@
+const routeChecks = [
+    {
+        boatField: "AirDraft_ft",
+        routeField: "MaxAirDraftFt",
+        label: "Air Draft"
+    },
+    {
+        boatField: "Draft_ft",
+        routeField: "MaxDraftFt",
+        label: "Draft"
+    },
+    {
+        boatField: "Beam_ft",
+        routeField: "MaxBeamFt",
+        label: "Beam"
+    },
+    {
+        boatField: "LOA_ft",
+        routeField: "MaxLengthFt",
+        label: "Length"
+    }
+];
+
+function failsLimit(boatValue, routeLimit) {
+    if (routeLimit === undefined || routeLimit === null || String(routeLimit).trim() === "") {
+        return false;
+    }
+    if (boatValue === undefined || boatValue === null || String(boatValue).trim() === "") {
+        return false;
+    }
+    return Number(boatValue) > Number(routeLimit);
+}
+
+function passesRouteCompatibility(boat, userProfile, routes) {
+    if (!userProfile || !userProfile.routes || !Array.isArray(userProfile.routes) || userProfile.routes.length === 0) {
+        return true;
+    }
+    if (!routes || !Array.isArray(routes)) {
+        return true;
+    }
+
+    for (const selectedRouteID of userProfile.routes) {
+        const matchedRoute = routes.find(r => {
+            const rID = r.RouteID !== undefined ? r.RouteID : r.id;
+            return rID !== undefined && String(rID).trim().toUpperCase() === String(selectedRouteID).trim().toUpperCase();
+        });
+
+        if (!matchedRoute) {
+            continue;
+        }
+
+        for (const check of routeChecks) {
+            const boatValue = boat[check.boatField];
+            let routeLimit = matchedRoute[check.routeField];
+            if (routeLimit === undefined) {
+                routeLimit = matchedRoute["Route" + check.routeField];
+            }
+
+            if (failsLimit(boatValue, routeLimit)) {
+                return false;
+            }
+        }
+    }
+
+    return true;
+}
+
+function passesHardFilters(boat, userProfile) {
+    return true;
+}
+
+function calculateFitScore(boat, userProfile) {
+    return {
+        score: 100,
+        reasons: [],
+        unknowns: []
+    };
+}
+
+if (typeof window !== "undefined") {
+    window.passesRouteCompatibility = passesRouteCompatibility;
+    window.passesHardFilters = passesHardFilters;
+    window.calculateFitScore = calculateFitScore;
+}
+
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = {
+        failsLimit,
+        passesRouteCompatibility,
+        passesHardFilters,
+        calculateFitScore
+    };
+}

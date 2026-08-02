@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-02T19:33:52.070Z",
+  "boatCount": 287,
+  "factCount": 9567,
+  "evidenceCount": 293,
+  "contradictionCount": 0,
+  "relationshipCount": 539,
+  "coverage": {
+    "records": 287,
+    "average": 0
+  },
+  "policy": "Known undesirable information may eliminate. Unknown information remains eligible and reduces confidence."
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "TaxonomyID": "HULLFORM-DISPLACEMENT",
+    "CanonicalValue": "Displacement",
+    "Aliases": [
+      "Full Displacement"
+    ],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "HULLFORM-SEMI",
+    "CanonicalValue": "Semi-Displacement",
+    "Aliases": [
+      "Semidisplacement"
+    ],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "HULLFORM-PLANING",
+    "CanonicalValue": "Planing",
+    "Aliases": [],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "HULLFORM-UNKNOWN",
+    "CanonicalValue": "Unknown",
+    "Aliases": [],
+    "Status": "Active"
+  }
+]

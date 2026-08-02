@@ -1,0 +1,58 @@
+[
+  {
+    "TaxonomyID": "PROP-SHAFT",
+    "CanonicalValue": "Shaft",
+    "Aliases": [
+      "Inboard Shaft"
+    ],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "PROP-OUTBOARD",
+    "CanonicalValue": "Outboard",
+    "Aliases": [],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "PROP-STERNDRIVE",
+    "CanonicalValue": "Sterndrive",
+    "Aliases": [
+      "Stern Drive"
+    ],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "PROP-POD",
+    "CanonicalValue": "Pod",
+    "Aliases": [
+      "Pod Drive"
+    ],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "PROP-SAILDRIVE",
+    "CanonicalValue": "Saildrive",
+    "Aliases": [],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "PROP-SHAFT-VDRIVE",
+    "CanonicalValue": "Shaft/V-Drive",
+    "Aliases": [],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "PROP-MIXED-OUTBOARD-SHAFT",
+    "CanonicalValue": "Mixed Outboard/Shaft",
+    "Aliases": [
+      "Outboard/Shaft"
+    ],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "PROP-UNKNOWN",
+    "CanonicalValue": "Unknown",
+    "Aliases": [],
+    "Status": "Active"
+  }
+]

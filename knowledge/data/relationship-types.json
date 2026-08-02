@@ -1,0 +1,27 @@
+[
+  {
+    "RelationshipType": "ComparableModel",
+    "Direction": "Undirected",
+    "Description": "A generated or reviewed alternative with materially similar characteristics."
+  },
+  {
+    "RelationshipType": "Predecessor",
+    "Direction": "Directed",
+    "Description": "Earlier model or generation in the same lineage."
+  },
+  {
+    "RelationshipType": "Successor",
+    "Direction": "Directed",
+    "Description": "Later model or generation in the same lineage."
+  },
+  {
+    "RelationshipType": "SharedHull",
+    "Direction": "Undirected",
+    "Description": "Models documented as sharing a hull platform."
+  },
+  {
+    "RelationshipType": "SiblingModel",
+    "Direction": "Undirected",
+    "Description": "Models in the same recognized product family."
+  }
+]

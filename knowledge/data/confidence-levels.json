@@ -1,0 +1,32 @@
+[
+  {
+    "ConfidenceID": "Unknown",
+    "Rank": 0,
+    "Meaning": "No reliable confidence assessment is available."
+  },
+  {
+    "ConfidenceID": "Low",
+    "Rank": 1,
+    "Meaning": "Claim is provisional or supported only by weak/unverified evidence."
+  },
+  {
+    "ConfidenceID": "Moderate",
+    "Rank": 2,
+    "Meaning": "Claim is plausible and supported, but not fully verified."
+  },
+  {
+    "ConfidenceID": "High",
+    "Rank": 3,
+    "Meaning": "Claim is supported by strong evidence or authoritative sources."
+  },
+  {
+    "ConfidenceID": "Verified",
+    "Rank": 4,
+    "Meaning": "Claim has been directly checked against authoritative evidence."
+  },
+  {
+    "ConfidenceID": "Conflicting",
+    "Rank": -1,
+    "Meaning": "Material sources disagree and no preferred resolution is approved."
+  }
+]

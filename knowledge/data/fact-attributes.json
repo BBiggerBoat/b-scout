@@ -1,0 +1,274 @@
+[
+  {
+    "AttributeID": "Manufacturer",
+    "Category": "Identity",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": true,
+    "Active": true
+  },
+  {
+    "AttributeID": "Model",
+    "Category": "Identity",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": true,
+    "Active": true
+  },
+  {
+    "AttributeID": "Variant",
+    "Category": "Identity",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": true,
+    "Active": true
+  },
+  {
+    "AttributeID": "FirstYear",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "year",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "LastYear",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "year",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "LOA_ft",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "ft",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "LWL_ft",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "ft",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Beam_ft",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "ft",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Draft_ft",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "ft",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "AirDraft_ft",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "ft",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Displacement_lb",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "lb",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "FuelCapacity",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "gal",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "WaterCapacity",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "gal",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "HoldingCapacity",
+    "Category": "Specifications",
+    "DataType": "number",
+    "Unit": "gal",
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Berths",
+    "Category": "Accommodation",
+    "DataType": "number",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Cabins",
+    "Category": "Accommodation",
+    "DataType": "number",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Heads",
+    "Category": "Accommodation",
+    "DataType": "number",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Shower",
+    "Category": "Accommodation",
+    "DataType": "boolean",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "HullType",
+    "Category": "Configuration",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Construction",
+    "Category": "Configuration",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "KeelType",
+    "Category": "Configuration",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Fuel",
+    "Category": "Propulsion",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "EngineConfiguration",
+    "Category": "Propulsion",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Propulsion",
+    "Category": "Propulsion",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Flybridge",
+    "Category": "Features",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "AftCabin",
+    "Category": "Features",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "SideDecks",
+    "Category": "Features",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "GreatLoopSuitable",
+    "Category": "Suitability",
+    "DataType": "boolean",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "Trailerable",
+    "Category": "Suitability",
+    "DataType": "boolean",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "NormalizedFuel",
+    "Category": "Taxonomy",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "NormalizedPropulsion",
+    "Category": "Taxonomy",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "NormalizedHullForm",
+    "Category": "Taxonomy",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "NormalizedHullConfiguration",
+    "Category": "Taxonomy",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  },
+  {
+    "AttributeID": "NormalizedStyle",
+    "Category": "Taxonomy",
+    "DataType": "string",
+    "Unit": null,
+    "PreferredFactRequired": false,
+    "Active": true
+  }
+]

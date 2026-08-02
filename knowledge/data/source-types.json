@@ -1,0 +1,52 @@
+[
+  {
+    "SourceType": "ManufacturerDocument",
+    "DefaultWeight": 100,
+    "Active": true
+  },
+  {
+    "SourceType": "ArchivedManufacturerMaterial",
+    "DefaultWeight": 90,
+    "Active": true
+  },
+  {
+    "SourceType": "OwnerAssociation",
+    "DefaultWeight": 80,
+    "Active": true
+  },
+  {
+    "SourceType": "TechnicalReview",
+    "DefaultWeight": 75,
+    "Active": true
+  },
+  {
+    "SourceType": "BrokerageDocument",
+    "DefaultWeight": 60,
+    "Active": true
+  },
+  {
+    "SourceType": "Listing",
+    "DefaultWeight": 45,
+    "Active": true
+  },
+  {
+    "SourceType": "OwnerReport",
+    "DefaultWeight": 40,
+    "Active": true
+  },
+  {
+    "SourceType": "Forum",
+    "DefaultWeight": 25,
+    "Active": true
+  },
+  {
+    "SourceType": "LegacyDataset",
+    "DefaultWeight": 20,
+    "Active": true
+  },
+  {
+    "SourceType": "AIInference",
+    "DefaultWeight": 10,
+    "Active": true
+  }
+]

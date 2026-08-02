@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 4,
+  "release": "v6.6 Marketplace Discovery v1",
+  "purpose": "Document authoritative runtime data, generated outputs, archives, and retired transitional datasets.",
+  "principles": [
+    "Known undesirable information may eliminate a candidate.",
+    "Unknown information remains eligible and reduces confidence rather than causing elimination.",
+    "Each fact should have one authoritative managed source; summaries and validation reports should be generated."
+  ],
+  "managed": [
+    {
+      "path": "boatmodels.json",
+      "role": "Canonical boat model specifications, normalized classifications and model-level research metadata."
+    },
+    {
+      "path": "data/model-schema.json",
+      "role": "Primary boat-model field definitions, controlled values, ownership and retired-field migration rules."
+    },
+    {
+      "path": "routes.json",
+      "role": "Canonical physical route constraints used by filtering and route compatibility."
+    },
+    {
+      "path": "data/missionTemplates.json",
+      "role": "Reusable user mission and search configurations; not route data."
+    },
+    {
+      "path": "data/priority-fleet.json",
+      "role": "Curated development and research priority fleet."
+    },
+    {
+      "path": "data/search-profiles.json",
+      "role": "Built-in search profiles."
+    },
+    {
+      "path": "data/marketplace-sources.json",
+      "role": "Canonical marketplace and brokerage source registry."
+    },
+    {
+      "path": "data/registry/manufacturers.json",
+      "role": "Canonical manufacturer identities."
+    },
+    {
+      "path": "data/registry/boat-registry.json",
+      "role": "Canonical model identity registry, aliases and relationships."
+    },
+    {
+      "path": "data/taxonomy/fuel-types.json",
+      "role": "Controlled fuel taxonomy."
+    },
+    {
+      "path": "data/taxonomy/propulsion-types.json",
+      "role": "Controlled propulsion taxonomy."
+    },
+    {
+      "path": "data/taxonomy/hull-forms.json",
+      "role": "Controlled hull-form taxonomy."
+    },
+    {
+      "path": "data/taxonomy/hull-configurations.json",
+      "role": "Controlled hull-configuration taxonomy."
+    },
+    {
+      "path": "data/taxonomy/style-families.json",
+      "role": "Controlled style-family taxonomy."
+    },
+    {
+      "path": "knowledge/data/boatintelligence.json",
+      "role": "Model-level interpretation, ownership trade-offs and recommendations."
+    },
+    {
+      "path": "knowledge/data/confidence-levels.json",
+      "role": "Controlled confidence definitions."
+    },
+    {
+      "path": "knowledge/data/contradictions.json",
+      "role": "Known conflicts between evidence or claims."
+    },
+    {
+      "path": "knowledge/data/curatedresources.json",
+      "role": "Curated manuals, videos, owner groups and research links."
+    },
+    {
+      "path": "knowledge/data/evidence.json",
+      "role": "Evidence records supporting structured facts."
+    },
+    {
+      "path": "knowledge/data/fact-attributes.json",
+      "role": "Controlled fact attribute definitions."
+    },
+    {
+      "path": "knowledge/data/facts.json",
+      "role": "Structured model facts and their confidence."
+    },
+    {
+      "path": "knowledge/data/listingsearches.json",
+      "role": "Marketplace search resources by model."
+    },
+    {
+      "path": "knowledge/data/manufacturerknowledge.json",
+      "role": "Manufacturer-level research awaiting fuller runtime integration."
+    },
+    {
+      "path": "knowledge/data/relationship-types.json",
+      "role": "Controlled relationship definitions."
+    },
+    {
+      "path": "knowledge/data/relationships.json",
+      "role": "Relationships between boat models."
+    },
+    {
+      "path": "knowledge/data/source-types.json",
+      "role": "Controlled source-type definitions."
+    },
+    "knowledge/data/knowledgeannotations.json",
+    "data/model-search-aliases.json",
+    "data/marketplace-source-validation.json"
+  ],
+  "generated": [
+    {
+      "path": "data/imageassets.json",
+      "role": "Generated image asset registry."
+    },
+    {
+      "path": "knowledge/data/knowledge-coverage.json",
+      "role": "Generated model knowledge coverage summary."
+    },
+    {
+      "path": "knowledge/data/knowledgecards.json",
+      "role": "Generated presentation view composed from authoritative knowledge sources."
+    }
+  ],
+  "developerReports": [
+    {
+      "path": "developer/data/boat-registry-validation.json",
+      "role": "Generated current registry integrity report."
+    },
+    {
+      "path": "developer/data/identity-code-audit.json",
+      "role": "Generated current identity-code audit."
+    },
+    {
+      "path": "developer/data/taxonomy-validation.json",
+      "role": "Generated current taxonomy validation report."
+    },
+    {
+      "path": "developer/data/knowledge-layer-summary.json",
+      "role": "Generated current knowledge-layer summary."
+    }
+  ],
+  "retired": [
+    {
+      "path": "missions.json",
+      "replacement": "routes.json and data/missionTemplates.json",
+      "reason": "Duplicated route records using inconsistent string types and contained an empty record."
+    },
+    {
+      "path": "data/registry/boat-registry-validation.json",
+      "replacement": "developer/data/boat-registry-validation.json",
+      "reason": "Exact duplicate generated report."
+    },
+    {
+      "path": "data/registry/identity-code-audit.json",
+      "replacement": "developer/data/identity-code-audit.json",
+      "reason": "Exact duplicate generated report."
+    },
+    {
+      "path": "data/taxonomy/taxonomy-validation.json",
+      "replacement": "developer/data/taxonomy-validation.json",
+      "reason": "Exact duplicate generated report."
+    },
+    {
+      "path": "knowledge/data/knowledge-layer-summary.json",
+      "replacement": "developer/data/knowledge-layer-summary.json",
+      "reason": "Exact duplicate generated report."
+    },
+    {
+      "path": "data/registry/legacy-id-map.json",
+      "replacement": "data/registry/boat-registry.json aliases",
+      "reason": "All current IDs are migrated; legacy identifiers are resolved directly through canonical registry aliases."
+    }
+  ],
+  "knowledgeOwnership": {
+    "boatmodels.json": "Canonical model identity and core specifications",
+    "knowledge/data/boatintelligence.json": "Canonical interpretive model intelligence",
+    "knowledge/data/curatedresources.json": "Canonical model resources",
+    "knowledge/data/listingsearches.json": "Canonical marketplace discovery links",
+    "knowledge/data/knowledgeannotations.json": "Canonical model cautions, missing-information notes and editorial relationships",
+    "knowledge/data/knowledgecards.json": "Generated presentation view; do not edit manually",
+    "knowledge/data/manufacturerknowledge.json": "Canonical manufacturer and family knowledge, available through the runtime manufacturer knowledge repository",
+    "data/marketplace-sources.json": "Canonical marketplace and brokerage source registry"
+  },
+  "archives": [
+    {
+      "path": "developer/archive/identity-migration-archive.json",
+      "role": "Historical legacy-ID map and registry migration/audit metadata; not loaded at runtime."
+    }
+  ]
+}

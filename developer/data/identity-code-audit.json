@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-02T19:33:52.070Z",
+  "reviewStatus": "Complete",
+  "summary": {
+    "manufacturerCount": 79,
+    "boatIdentityCount": 287,
+    "manufacturerCodeCollisions": 0,
+    "invalidBoatModelIDs": 0
+  },
+  "collisions": [],
+  "invalidBoatModelIDs": [],
+  "note": "Historical migration decisions are archived in developer/archive/identity-migration-archive.json."
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "release": "v6.6-phase2-primary-model-schema",
+  "entity": "BoatModel",
+  "principles": [
+    "Known undesirable values may eliminate a candidate.",
+    "Unknown or missing values remain eligible and reduce confidence.",
+    "Each field has one defined owner and meaning."
+  ],
+  "controlledValues": {
+    "DataConfidence": [
+      "Unknown",
+      "Low",
+      "Moderate",
+      "High",
+      "Verified",
+      "Conflicting"
+    ],
+    "ResearchStatus": [
+      "NotStarted",
+      "Initial",
+      "PartiallyReviewed",
+      "Reviewed",
+      "Verified"
+    ]
+  },
+  "fieldOwnership": {
+    "boatmodels.json": [
+      "BoatModelID",
+      "ManufacturerID",
+      "Manufacturer",
+      "Model",
+      "Variant",
+      "Nickname",
+      "FirstYear",
+      "LastYear",
+      "LOA_ft",
+      "HullLength_ft",
+      "LWL_ft",
+      "Configuration",
+      "DataConfidence",
+      "ResearchStatus",
+      "ResearchNotes"
+    ],
+    "data/registry/boat-registry.json": [
+      "Aliases",
+      "LegacyBoatModelIDs",
+      "Resolution",
+      "ResolutionNotes",
+      "AuditDisposition",
+      "IdentityStatus",
+      "RedirectTo"
+    ]
+  },
+  "definitions": {
+    "LOA_ft": "Published length overall used for display and dimensional filtering.",
+    "HullLength_ft": "Molded or nominal hull length only when materially distinct from LOA; otherwise omitted.",
+    "LWL_ft": "Length at waterline.",
+    "Configuration": "Physical layout or version, such as Sedan, Flybridge, Aft Cabin, or Classic Trawler.",
+    "DataConfidence": "Confidence in the model-level data. Unknown is explicit and must not cause exclusion.",
+    "ResearchStatus": "Progress of the model research workflow, independent of suitability."
+  },
+  "retiredFields": {
+    "YearStart": "Merged into FirstYear.",
+    "YearEnd": "Merged into LastYear.",
+    "Length_ft": "Retired in favour of LOA_ft; unique hull-length distinctions retained in HullLength_ft.",
+    "BoatSubFamily": "Exact duplicate of Configuration.",
+    "Confidence": "Replaced by controlled DataConfidence.",
+    "FeatureDataStatus": "Replaced by calculated field completeness.",
+    "Aliases": "Moved to boat registry.",
+    "LegacyBoatModelIDs": "Moved to boat registry.",
+    "IdentityResolution": "Moved to boat registry as Resolution.",
+    "IdentityResolutionNotes": "Moved to boat registry as ResolutionNotes.",
+    "AuditDisposition": "Moved to boat registry."
+  }
+}

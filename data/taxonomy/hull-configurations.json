@@ -1,0 +1,25 @@
+[
+  {
+    "TaxonomyID": "HULLCONFIG-MONO",
+    "CanonicalValue": "Monohull",
+    "Aliases": [],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "HULLCONFIG-CAT",
+    "CanonicalValue": "Catamaran",
+    "Aliases": [
+      "Power Cat",
+      "Power Catamaran",
+      "Sailing Catamaran",
+      "Trawler Cat"
+    ],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "HULLCONFIG-UNKNOWN",
+    "CanonicalValue": "Unknown",
+    "Aliases": [],
+    "Status": "Active"
+  }
+]

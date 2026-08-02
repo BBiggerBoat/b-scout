@@ -1,0 +1,118 @@
+[
+  {
+    "BoatModelID": "BAYL-3270",
+    "CanonicalName": "Bayliner 3270",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "3270",
+      "3270 Motoryacht",
+      "3270 Motor Yacht",
+      "3270 Explorer",
+      "Explorer 3270"
+    ],
+    "SourceModelTerms": {
+      "YACHTWORLD_CA": "3270 Motoryacht",
+      "YACHTWORLD_US": "3270 Motoryacht",
+      "BOATS_COM_CA": "3270",
+      "BOATS_COM_US": "3270",
+      "BOATDEALERS_CA": "3270",
+      "BOATTRADER": "3270"
+    }
+  },
+  {
+    "BoatModelID": "RNGR-R-29",
+    "CanonicalName": "Ranger Tugs R-29 Sedan",
+    "ManufacturerTerms": [
+      "Ranger Tugs",
+      "Ranger Tug",
+      "Ranger"
+    ],
+    "ModelTerms": [
+      "R-29 Sedan",
+      "R29 Sedan",
+      "29 Sedan",
+      "R-29",
+      "R29",
+      "29"
+    ],
+    "SourceModelTerms": {
+      "BOATS_COM_US": "R-29",
+      "BOATTRADER": "R-29",
+      "BOATS_COM_CA": "R-29",
+      "YACHTWORLD_CA": "R-29",
+      "YACHTWORLD_US": "R-29",
+      "BOATDEALERS_CA": "R-29"
+    }
+  },
+  {
+    "BoatModelID": "RNGR-29-CB",
+    "CanonicalName": "Ranger Tugs R-29 Command Bridge",
+    "ManufacturerTerms": [
+      "Ranger Tugs",
+      "Ranger Tug",
+      "Ranger"
+    ],
+    "ModelTerms": [
+      "R-29 Command Bridge",
+      "R29 Command Bridge",
+      "R-29 CB",
+      "R29 CB",
+      "29 Command Bridge"
+    ],
+    "SourceModelTerms": {
+      "BOATS_COM_US": "R-29",
+      "BOATTRADER": "R-29",
+      "BOATS_COM_CA": "R-29",
+      "YACHTWORLD_CA": "R-29",
+      "YACHTWORLD_US": "R-29",
+      "BOATDEALERS_CA": "R-29"
+    }
+  },
+  {
+    "BoatModelID": "GRBK-32-CL",
+    "CanonicalName": "Grand Banks 32 Classic",
+    "ManufacturerTerms": [
+      "Grand Banks",
+      "GB"
+    ],
+    "ModelTerms": [
+      "32 Classic",
+      "32",
+      "GB32",
+      "32 Sedan"
+    ],
+    "SourceModelTerms": {
+      "BOATS_COM_US": "32 Classic",
+      "BOATTRADER": "32 Classic",
+      "BOATS_COM_CA": "32 Classic",
+      "YACHTWORLD_CA": "32 Classic",
+      "YACHTWORLD_US": "32 Classic",
+      "BOATDEALERS_CA": "32 Classic"
+    }
+  },
+  {
+    "BoatModelID": "MNSH-34-MK1",
+    "CanonicalName": "Mainship 34 MK I",
+    "ManufacturerTerms": [
+      "Mainship"
+    ],
+    "ModelTerms": [
+      "34 MK I",
+      "34 Mk 1",
+      "34 Mark I",
+      "34 Diesel Cruiser",
+      "34 Motor Cruiser",
+      "34"
+    ],
+    "SourceModelTerms": {
+      "BOATS_COM_US": "34",
+      "BOATTRADER": "34",
+      "BOATS_COM_CA": "34",
+      "YACHTWORLD_CA": "34",
+      "YACHTWORLD_US": "34",
+      "BOATDEALERS_CA": "34"
+    }
+  }
+]

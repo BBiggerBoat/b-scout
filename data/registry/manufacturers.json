@@ -1,0 +1,973 @@
+[
+  {
+    "ManufacturerCode": "ALBN",
+    "CanonicalName": "Albin",
+    "LegacyManufacturerIDs": [
+      "ALBIN"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 11,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "AMTG",
+    "CanonicalName": "American Tug",
+    "LegacyManufacturerIDs": [
+      "AMERICAN"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 5,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "ATLB",
+    "CanonicalName": "Atlantic",
+    "LegacyManufacturerIDs": [
+      "ATLANTIC"
+    ],
+    "Aliases": [
+      "Atlantic Boat"
+    ],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 3,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "ATLS",
+    "CanonicalName": "Atlas",
+    "LegacyManufacturerIDs": [
+      "ATLAS"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 4,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "BKCV",
+    "CanonicalName": "Back Cove",
+    "LegacyManufacturerIDs": [
+      "BACK",
+      "BACKCOVE"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 10,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner",
+    "LegacyManufacturerIDs": [
+      "BAYLINER"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 13,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "BENE",
+    "CanonicalName": "Beneteau",
+    "LegacyManufacturerIDs": [
+      "BENETEAU"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 14,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "BHMB",
+    "CanonicalName": "BHM",
+    "LegacyManufacturerIDs": [
+      "BHM"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "BRRO",
+    "CanonicalName": "Bruce Roberts",
+    "LegacyManufacturerIDs": [
+      "BRUCE"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 4,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CALF",
+    "CanonicalName": "Californian",
+    "LegacyManufacturerIDs": [
+      "CALIFORNIAN"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CAMA",
+    "CanonicalName": "Camano",
+    "LegacyManufacturerIDs": [
+      "CAMANO"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 7,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CAPD",
+    "CanonicalName": "Cape Dory",
+    "LegacyManufacturerIDs": [
+      "CAPEDORY"
+    ],
+    "Aliases": [
+      "Cape Dory Yachts"
+    ],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 10,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CPIS",
+    "CanonicalName": "Cape Islander",
+    "LegacyManufacturerIDs": [
+      "CAPEISL"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CARV",
+    "CanonicalName": "Carver",
+    "LegacyManufacturerIDs": [
+      "CARVER"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 11,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CDRY",
+    "CanonicalName": "C-Dory",
+    "LegacyManufacturerIDs": [
+      "CDORY"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 7,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CHBB",
+    "CanonicalName": "CHB",
+    "LegacyManufacturerIDs": [
+      "CHB"
+    ],
+    "Aliases": [
+      "Chien Hwa Boatbuilding"
+    ],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 5,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CHLY",
+    "CanonicalName": "Cheoy Lee",
+    "LegacyManufacturerIDs": [
+      "CHEOY"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 4,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CORB",
+    "CanonicalName": "Corbin",
+    "LegacyManufacturerIDs": [
+      "CORBIN"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts",
+    "LegacyManufacturerIDs": [
+      "CRUISERS"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 9,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "CUTW",
+    "CanonicalName": "Cutwater",
+    "LegacyManufacturerIDs": [
+      "CUTWATER"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 12,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "DEFE",
+    "CanonicalName": "DeFever",
+    "LegacyManufacturerIDs": [
+      "DEFEVER"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 8,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "DUFF",
+    "CanonicalName": "Duffy",
+    "LegacyManufacturerIDs": [
+      "DUFFY"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 6,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "EAGL",
+    "CanonicalName": "Eagle",
+    "LegacyManufacturerIDs": [
+      "EAGLE"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "ENDE",
+    "CanonicalName": "Endeavour",
+    "LegacyManufacturerIDs": [
+      "ENDEAVOUR"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "FISH",
+    "CanonicalName": "Fisher",
+    "LegacyManufacturerIDs": [
+      "FISHER"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 3,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "FJRD",
+    "CanonicalName": "Fjord",
+    "LegacyManufacturerIDs": [
+      "FJORD"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 4,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "FORT",
+    "CanonicalName": "Fortier",
+    "LegacyManufacturerIDs": [
+      "FORTIER"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 3,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "GEMI",
+    "CanonicalName": "Gemini",
+    "LegacyManufacturerIDs": [
+      "GEMINI"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "GOZZ",
+    "CanonicalName": "Gozzard",
+    "LegacyManufacturerIDs": [
+      "GOZZARD"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "GRBK",
+    "CanonicalName": "Grand Banks",
+    "LegacyManufacturerIDs": [
+      "GRAND"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 6,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "GRTH",
+    "CanonicalName": "Great Harbour",
+    "LegacyManufacturerIDs": [
+      "GREAT"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "GRNL",
+    "CanonicalName": "Greenline",
+    "LegacyManufacturerIDs": [
+      "GREENLINE"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 3,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "GULF",
+    "CanonicalName": "Gulfstar",
+    "LegacyManufacturerIDs": [
+      "GULFSTAR"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 5,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "HELM",
+    "CanonicalName": "Helmsman",
+    "LegacyManufacturerIDs": [
+      "HELMSMAN"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 4,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "HLMN",
+    "CanonicalName": "Holiday Mansion",
+    "LegacyManufacturerIDs": [
+      "HOLIDAY"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7",
+    "CodeReviewNotes": "More recognizable Holiday Mansion abbreviation."
+  },
+  {
+    "ManufacturerCode": "HUNT",
+    "CanonicalName": "Hunt Yachts",
+    "LegacyManufacturerIDs": [
+      "HUNT"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "ISGY",
+    "CanonicalName": "Island Gypsy",
+    "LegacyManufacturerIDs": [
+      "ISLANDGYPSY"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 9,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "ISPK",
+    "CanonicalName": "Island Packet",
+    "LegacyManufacturerIDs": [
+      "ISLANDPACKET"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "JEAU",
+    "CanonicalName": "Jeanneau",
+    "LegacyManufacturerIDs": [
+      "JEANNEAU"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 12,
+    "CodeReview": "ApprovedV7",
+    "CodeReviewNotes": "More recognizable Jeanneau abbreviation and matches the approved JEAU-795 identity direction."
+  },
+  {
+    "ManufacturerCode": "KDKR",
+    "CanonicalName": "Kadey-Krogen",
+    "LegacyManufacturerIDs": [
+      "KROGEN"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 6,
+    "CodeReview": "ApprovedV7",
+    "CodeReviewNotes": "More recognizable Kadey-Krogen abbreviation; avoids an opaque doubled initial."
+  },
+  {
+    "ManufacturerCode": "LUHR",
+    "CanonicalName": "Luhrs",
+    "LegacyManufacturerIDs": [
+      "LUHRS"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "MNSH",
+    "CanonicalName": "Mainship",
+    "LegacyManufacturerIDs": [
+      "MAINSHIP"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 6,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "MTRA",
+    "CanonicalName": "Marine Trader",
+    "LegacyManufacturerIDs": [
+      "MARINETRADER"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 8,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "MARN",
+    "CanonicalName": "Mariner",
+    "LegacyManufacturerIDs": [
+      "MARINER"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "MERI",
+    "CanonicalName": "Meridian",
+    "LegacyManufacturerIDs": [
+      "MERIDIAN"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "MONK",
+    "CanonicalName": "Monk",
+    "LegacyManufacturerIDs": [
+      "MONK"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "NAUT",
+    "CanonicalName": "Nauticat",
+    "LegacyManufacturerIDs": [
+      "NAUTICAT"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 3,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "NMBL",
+    "CanonicalName": "Nimble",
+    "LegacyManufacturerIDs": [
+      "NIMBLE"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 3,
+    "CodeReview": "ApprovedV7",
+    "CodeReviewNotes": "Clearly distinguishes Nimble from Nimbus."
+  },
+  {
+    "ManufacturerCode": "NMBS",
+    "CanonicalName": "Nimbus",
+    "LegacyManufacturerIDs": [
+      "NIMBUS",
+      ""
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7",
+    "CodeReviewNotes": "Clearly distinguishes Nimbus from Nimble."
+  },
+  {
+    "ManufacturerCode": "NRDH",
+    "CanonicalName": "Nordhavn",
+    "LegacyManufacturerIDs": [
+      "NORDHAVN"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "NDTG",
+    "CanonicalName": "Nordic Tug",
+    "LegacyManufacturerIDs": [
+      "NORDIC",
+      "NORDIC_TUG"
+    ],
+    "Aliases": [
+      "Nordic Tugs"
+    ],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 9,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "NDST",
+    "CanonicalName": "Nord Star",
+    "LegacyManufacturerIDs": [
+      "NORD_STAR"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "NPAC",
+    "CanonicalName": "North Pacific",
+    "LegacyManufacturerIDs": [
+      "NORTH"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "OCAL",
+    "CanonicalName": "Ocean Alexander",
+    "LegacyManufacturerIDs": [
+      "OCEAN"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "PDQB",
+    "CanonicalName": "PDQ",
+    "LegacyManufacturerIDs": [
+      "PDQ"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "PRAI",
+    "CanonicalName": "Prairie",
+    "LegacyManufacturerIDs": [
+      "PRAIRIE"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs",
+    "LegacyManufacturerIDs": [
+      "RANGER_TUGS"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 16,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "ROSB",
+    "CanonicalName": "Rosborough",
+    "LegacyManufacturerIDs": [
+      "ROSBOROUGH"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 5,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SABR",
+    "CanonicalName": "Sabre",
+    "LegacyManufacturerIDs": [
+      "SABRE"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SAGA",
+    "CanonicalName": "Saga",
+    "LegacyManufacturerIDs": [
+      "SAGA"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SEAR",
+    "CanonicalName": "Sea Ray",
+    "LegacyManufacturerIDs": [
+      "SEA"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7",
+    "CodeReviewNotes": "Direct, recognizable Sea Ray abbreviation."
+  },
+  {
+    "ManufacturerCode": "SEAH",
+    "CanonicalName": "Seahorse",
+    "LegacyManufacturerIDs": [
+      "SEAHORSE"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SEAP",
+    "CanonicalName": "SeaPiper",
+    "LegacyManufacturerIDs": [
+      "SEAPIPER"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SSPT",
+    "CanonicalName": "Seasport",
+    "LegacyManufacturerIDs": [
+      "SEASPORT"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 3,
+    "CodeReview": "ApprovedV7",
+    "CodeReviewNotes": "Recognizable SeaSport abbreviation and avoids confusion with generic sea-related names."
+  },
+  {
+    "ManufacturerCode": "SEAW",
+    "CanonicalName": "Seaway",
+    "LegacyManufacturerIDs": [
+      "SEAWAY"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 4,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SWND",
+    "CanonicalName": "Seawind",
+    "LegacyManufacturerIDs": [
+      "SEAWIND"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SHAN",
+    "CanonicalName": "Shannon",
+    "LegacyManufacturerIDs": [
+      "SHANNON"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SILV",
+    "CanonicalName": "Silverton",
+    "LegacyManufacturerIDs": [
+      "SILVERTON"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 4,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SISU",
+    "CanonicalName": "Sisu",
+    "LegacyManufacturerIDs": [
+      "SISU"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SPEN",
+    "CanonicalName": "Spencer",
+    "LegacyManufacturerIDs": [
+      "SPENCER"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "STTR",
+    "CanonicalName": "Steel Trawler",
+    "LegacyManufacturerIDs": [
+      "STEEL"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "TOLL",
+    "CanonicalName": "Tollycraft",
+    "LegacyManufacturerIDs": [
+      "TOLLYCRAFT"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "TROJ",
+    "CanonicalName": "Trojan",
+    "LegacyManufacturerIDs": [
+      "TROJAN"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "TRUN",
+    "CanonicalName": "True North",
+    "LegacyManufacturerIDs": [
+      "TRUE"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "UNIF",
+    "CanonicalName": "Uniflite",
+    "LegacyManufacturerIDs": [
+      "UNIFLITE"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "UNIV",
+    "CanonicalName": "Universal",
+    "LegacyManufacturerIDs": [
+      "UNIVERSAL"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "WILL",
+    "CanonicalName": "Willard",
+    "LegacyManufacturerIDs": [
+      "WILLARD"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 5,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "TPMC",
+    "CanonicalName": "Transpacific Marine",
+    "LegacyManufacturerIDs": [
+      "TRANSPACIFIC"
+    ],
+    "Aliases": [
+      "Eagle Marine",
+      "Marine Eagle"
+    ],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SEAL",
+    "CanonicalName": "Sealord",
+    "LegacyManufacturerIDs": [
+      "SEALORD"
+    ],
+    "Aliases": [
+      "Sea Lord"
+    ],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  }
+]

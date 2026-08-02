@@ -1,0 +1,906 @@
+[
+  {
+    "BoatModelID": "CAMA-31-TR",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Camano 31 Troll listings on YachtWorld",
+        "url": "https://www.yachtworld.com/boats-for-sale/make-camano/model-31-troll/",
+        "sourceLabel": "YachtWorld",
+        "resourceType": "Marketplace search",
+        "verificationStatus": "Search page verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-23"
+      },
+      {
+        "title": "Search Camano 31 Troll listings on boats.com",
+        "url": "https://ca.boats.com/boats-for-sale/?make=camano&model=31-troll",
+        "sourceLabel": "boats.com",
+        "resourceType": "Marketplace search",
+        "verificationStatus": "Search page verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-23"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace search links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Bayliner 3270 Motoryacht listings on YachtWorld",
+        "url": "https://www.yachtworld.com/boats-for-sale/make-bayliner/model-3270-motoryacht/",
+        "sourceLabel": "YachtWorld",
+        "resourceType": "Marketplace search",
+        "verificationStatus": "Search page verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory changes continuously",
+        "lastChecked": "2026-07-24"
+      },
+      {
+        "title": "Search Bayliner 3270 Motoryacht listings across Canadian brokers",
+        "url": "https://www.google.com/search?q=Bayliner+3270+Motoryacht+Canada+broker+for+sale",
+        "sourceLabel": "Google",
+        "resourceType": "Broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-24"
+      },
+      {
+        "title": "Search Bayliner 3270 Motoryacht listings on Boat Trader",
+        "url": "https://www.boattrader.com/boats/make-bayliner/?model=3270",
+        "sourceLabel": "Boat Trader",
+        "resourceType": "Marketplace search",
+        "verificationStatus": "Search URL provided; inventory not guaranteed",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-24"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific broker and marketplace searches",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-24"
+  },
+  {
+    "BoatModelID": "MNSH-34-MK1",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Mainship 34 Mk I Trawler listings on YachtWorld",
+        "url": "https://www.yachtworld.com/boats-for-sale/make-mainship/model-34-trawler/",
+        "sourceLabel": "YachtWorld",
+        "resourceType": "Marketplace search",
+        "verificationStatus": "Search page verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory changes continuously",
+        "lastChecked": "2026-07-24"
+      },
+      {
+        "title": "Search Mainship 34 Mk I Trawler listings across Canadian brokers",
+        "url": "https://www.google.com/search?q=Mainship+34+Mk+I+Trawler+Canada+broker+for+sale",
+        "sourceLabel": "Google",
+        "resourceType": "Broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-24"
+      },
+      {
+        "title": "Search Mainship 34 Mk I Trawler listings on Boat Trader",
+        "url": "https://www.boattrader.com/boats/make-mainship/?model=34",
+        "sourceLabel": "Boat Trader",
+        "resourceType": "Marketplace search",
+        "verificationStatus": "Search URL provided; inventory not guaranteed",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-24"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific broker and marketplace searches",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "GRBK-32-CL",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Grand Banks 32 Sedan listings in Canada",
+        "url": "https://www.google.com/search?q=%22Grand+Banks+32+Sedan%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Grand Banks 32 Sedan listings across North America",
+        "url": "https://www.google.com/search?q=%22Grand+Banks+32+Sedan%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "GRBK-36-CL",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Grand Banks 36 Classic listings in Canada",
+        "url": "https://www.google.com/search?q=%22Grand+Banks+36+Classic%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Grand Banks 36 Classic listings across North America",
+        "url": "https://www.google.com/search?q=%22Grand+Banks+36+Classic%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "CAMA-28-GN",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Camano 28 Gnome listings in Canada",
+        "url": "https://www.google.com/search?q=%22Camano+28+Gnome%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Camano 28 Gnome listings across North America",
+        "url": "https://www.google.com/search?q=%22Camano+28+Gnome%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "NDTG-26",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Nordic Tugs 26 listings in Canada",
+        "url": "https://www.google.com/search?q=%22Nordic+Tugs+26%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Nordic Tugs 26 listings across North America",
+        "url": "https://www.google.com/search?q=%22Nordic+Tugs+26%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "NDTG-32",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Nordic Tug 32 listings in Canada",
+        "url": "https://www.google.com/search?q=%22Nordic+Tug+32%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Nordic Tug 32 listings across North America",
+        "url": "https://www.google.com/search?q=%22Nordic+Tug+32%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "MNSH-30-PI",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Mainship 30 Pilot listings in Canada",
+        "url": "https://www.google.com/search?q=%22Mainship+30+Pilot%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Mainship 30 Pilot listings across North America",
+        "url": "https://www.google.com/search?q=%22Mainship+30+Pilot%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "MONK-36-TR",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Monk 36 Trawler listings in Canada",
+        "url": "https://www.google.com/search?q=%22Monk+36+Trawler%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Monk 36 Trawler listings across North America",
+        "url": "https://www.google.com/search?q=%22Monk+36+Trawler%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "CHBY-34-SE",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search CHB 34 Sedan listings in Canada",
+        "url": "https://www.google.com/search?q=%22CHB+34+Sedan%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search CHB 34 Sedan listings across North America",
+        "url": "https://www.google.com/search?q=%22CHB+34+Sedan%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "MRTR-34-DO",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Marine Trader 34 Double Cabin listings in Canada",
+        "url": "https://www.google.com/search?q=%22Marine+Trader+34+Double+Cabin%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Marine Trader 34 Double Cabin listings across North America",
+        "url": "https://www.google.com/search?q=%22Marine+Trader+34+Double+Cabin%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "KDKR-36-MA",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Kadey-Krogen 36 Manatee listings in Canada",
+        "url": "https://www.google.com/search?q=%22Kadey-Krogen+36+Manatee%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Kadey-Krogen 36 Manatee listings across North America",
+        "url": "https://www.google.com/search?q=%22Kadey-Krogen+36+Manatee%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "WILL-30-VE",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Willard Vega 30 Horizon listings in Canada",
+        "url": "https://www.google.com/search?q=%22Willard+Vega+30+Horizon%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Willard Vega 30 Horizon listings across North America",
+        "url": "https://www.google.com/search?q=%22Willard+Vega+30+Horizon%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "CHLY-28",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Cheoy Lee 28 Trawler listings in Canada",
+        "url": "https://www.google.com/search?q=%22Cheoy+Lee+28+Trawler%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Cheoy Lee 28 Trawler listings across North America",
+        "url": "https://www.google.com/search?q=%22Cheoy+Lee+28+Trawler%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "ROSB-246-WH",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Rosborough 246 Custom Wheelhouse listings in Canada",
+        "url": "https://www.google.com/search?q=%22Rosborough+246+Custom+Wheelhouse%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Rosborough 246 Custom Wheelhouse listings across North America",
+        "url": "https://www.google.com/search?q=%22Rosborough+246+Custom+Wheelhouse%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "ALBN-27-FC",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Albin 27 Family Cruiser listings in Canada",
+        "url": "https://www.google.com/search?q=%22Albin+27+Family+Cruiser%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Albin 27 Family Cruiser listings across North America",
+        "url": "https://www.google.com/search?q=%22Albin+27+Family+Cruiser%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "ALBN-28-FL",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Albin 28 Tournament Express — Flush Deck listings in Canada",
+        "url": "https://www.google.com/search?q=%22Albin+28+Tournament+Express+%E2%80%94+Flush+Deck%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Albin 28 Tournament Express — Flush Deck listings across North America",
+        "url": "https://www.google.com/search?q=%22Albin+28+Tournament+Express+%E2%80%94+Flush+Deck%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "ALBN-30-FC",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Albin 30 Family Cruiser listings in Canada",
+        "url": "https://www.google.com/search?q=%22Albin+30+Family+Cruiser%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Albin 30 Family Cruiser listings across North America",
+        "url": "https://www.google.com/search?q=%22Albin+30+Family+Cruiser%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "NMBL-32-WA",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Nimble 32 Wanderer Pilothouse listings in Canada",
+        "url": "https://www.google.com/search?q=%22Nimble+32+Wanderer+Pilothouse%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Nimble 32 Wanderer Pilothouse listings across North America",
+        "url": "https://www.google.com/search?q=%22Nimble+32+Wanderer+Pilothouse%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "RNGR-27-RT",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Ranger Tug R-27 Classic listings in Canada",
+        "url": "https://www.google.com/search?q=%22Ranger+Tug+R-27+Classic%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Ranger Tug R-27 Classic listings across North America",
+        "url": "https://www.google.com/search?q=%22Ranger+Tug+R-27+Classic%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "RNGR-29-CLASSIC",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Ranger Tug R-29 Classic listings in Canada",
+        "url": "https://www.google.com/search?q=%22Ranger+Tug+R-29+Classic%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Ranger Tug R-29 Classic listings across North America",
+        "url": "https://www.google.com/search?q=%22Ranger+Tug+R-29+Classic%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "NMBS-3003",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Nimbus 3003 listings in Canada",
+        "url": "https://www.google.com/search?q=%22Nimbus+3003%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Nimbus 3003 listings across North America",
+        "url": "https://www.google.com/search?q=%22Nimbus+3003%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "CPDR-28-PH",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Cape Dory 28 Pilothouse listings in Canada",
+        "url": "https://www.google.com/search?q=%22Cape+Dory+28+Pilothouse%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Cape Dory 28 Pilothouse listings across North America",
+        "url": "https://www.google.com/search?q=%22Cape+Dory+28+Pilothouse%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "NPAC-28",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search North Pacific 28 listings in Canada",
+        "url": "https://www.google.com/search?q=%22North+Pacific+28%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search North Pacific 28 listings across North America",
+        "url": "https://www.google.com/search?q=%22North+Pacific+28%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "KDKR-42",
+    "schemaVersion": 1,
+    "listings": [
+      {
+        "title": "Search Kadey-Krogen 42 listings in Canada",
+        "url": "https://www.google.com/search?q=%22Kadey-Krogen+42%22+boat+for+sale+Canada",
+        "sourceLabel": "Google",
+        "resourceType": "Canadian broker search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      },
+      {
+        "title": "Search Kadey-Krogen 42 listings across North America",
+        "url": "https://www.google.com/search?q=%22Kadey-Krogen+42%22+boat+for+sale+broker",
+        "sourceLabel": "Google",
+        "resourceType": "Broker and marketplace search",
+        "verificationStatus": "Search link verified",
+        "discoveryType": "MarketplaceSearch",
+        "inventoryStatus": "Live inventory not verified",
+        "lastChecked": "2026-07-27"
+      }
+    ],
+    "sources": [
+      {
+        "type": "ListingDiscoverySet",
+        "label": "B-Scout model-specific marketplace discovery links",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "updatedAt": "2026-07-27"
+  }
+]

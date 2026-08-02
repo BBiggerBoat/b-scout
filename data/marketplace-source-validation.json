@@ -1,0 +1,183 @@
+[
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "MAPLE_LEAF",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "UNITED_CITY",
+    "Status": "ViableListing",
+    "MatchCount": 1,
+    "Message": "One current Bayliner 3270 listing was found.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate",
+    "ListingURL": "https://unitedcityyachts.com/listing-landing/?id=9301"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "SUNNYBROOK",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "MARINE_360",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "CALIBRE",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "NORTH_SOUTH",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "HARRIS_ELLIS",
+    "Status": "BrokerUnresponsive",
+    "MatchCount": null,
+    "Message": "The broker website has a certificate or connection problem and is not opened from B-Scout.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Low"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "YACHTWORLD_CA",
+    "Status": "PossibleMatches",
+    "MatchCount": 3,
+    "Message": "The linked YachtWorld Canada search currently returns 3 possible matches.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "BOATS_COM_CA",
+    "Status": "PossibleMatches",
+    "MatchCount": 4,
+    "Message": "The linked boats.com Canada search currently returns 4 possible matches.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "UNITED_YACHT",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "CURTIS_STOKES",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "DENISON",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "SEATTLE_YACHTS",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "SYS",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "MARINEMAX",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "POP_YACHTS",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "SI_YACHTS",
+    "Status": "NoListingFound",
+    "MatchCount": 0,
+    "Message": "No current model listing found during the latest check.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "YACHTWORLD_US",
+    "Status": "PossibleMatches",
+    "MatchCount": 4,
+    "Message": "The linked YachtWorld USA search currently returns 4 possible matches.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "BOATS_COM_US",
+    "Status": "PossibleMatches",
+    "MatchCount": 5,
+    "Message": "The linked boats.com USA search currently returns 5 possible matches.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "SourceID": "BOATTRADER",
+    "Status": "PossibleMatches",
+    "MatchCount": 7,
+    "Message": "The linked Boat Trader search currently returns 7 possible matches.",
+    "LastChecked": "2026-08-02",
+    "Confidence": "Moderate"
+  }
+]

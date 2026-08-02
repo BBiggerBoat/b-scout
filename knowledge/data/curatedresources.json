@@ -1,0 +1,1848 @@
+[
+  {
+    "BoatModelID": "ALBN-27-FC",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "YouTube walkthroughs and projects: Albin 27 Family Cruiser",
+        "url": "https://www.youtube.com/results?search_query=Albin+27+Family+Cruiser+walkthrough",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Albin 27 history and original-document archive",
+        "url": "https://albin27.com/albin-27-history/",
+        "sourceLabel": "Albin 27 Owners Club",
+        "resourceType": "History and document archive",
+        "verificationStatus": "Owner-club source verified"
+      },
+      {
+        "title": "Albin 27 FAQ and engine guidance",
+        "url": "https://albin27.com/albin-27-history/albin-27-faq/",
+        "sourceLabel": "Albin 27 Owners Club",
+        "resourceType": "Technical FAQ",
+        "verificationStatus": "Owner-club source verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Albin 27 Owners Club",
+        "url": "https://albin27.com/",
+        "sourceLabel": "Albin 27 Owners Club",
+        "resourceType": "Dedicated owner community",
+        "verificationStatus": "Community verified"
+      },
+      {
+        "title": "Albin Owners Group",
+        "url": "https://albinowners.com/",
+        "sourceLabel": "Albin Owners Group",
+        "resourceType": "Owner community",
+        "verificationStatus": "Community link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout curated Albin 27 Family Cruiser resources",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "ALBN-28-FL",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Albin 28 Tournament Express — Flush Deck walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Albin+28+Tournament+Express+%E2%80%94+Flush+Deck+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Albin 28 configuration discussion",
+        "url": "https://albinowners.net/aog/viewtopic.php?t=9785",
+        "sourceLabel": "Albin Owners Group",
+        "resourceType": "Owner configuration discussion",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Albin 28 Tournament Express flush-deck review",
+        "url": "https://www.boatsales.com.au/editorial/details/albin-28-tournament-express-8687/",
+        "sourceLabel": "BoatSales",
+        "resourceType": "Review and specifications",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Albin Owners Group",
+        "url": "https://albinowners.net/aog/",
+        "sourceLabel": "Albin Owners Group",
+        "resourceType": "Owner forum",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "ALBN-28-TE-EB",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Albin 28 configuration discussion",
+        "url": "https://albinowners.net/aog/viewtopic.php?t=9785",
+        "sourceLabel": "Albin Owners Group",
+        "resourceType": "Owner configuration discussion",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Albin 28 Tournament Express model review",
+        "url": "https://www.boatsales.com.au/editorial/details/albin-28-tournament-express-8687/",
+        "sourceLabel": "BoatSales",
+        "resourceType": "Review and construction reference",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Albin Owners Group",
+        "url": "https://albinowners.net/aog/",
+        "sourceLabel": "Albin Owners Group",
+        "resourceType": "Owner forum",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "YouTube walkthroughs: Bayliner 3270 Motoryacht",
+        "url": "https://www.youtube.com/results?search_query=Bayliner+3270+Motoryacht+walkthrough",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      },
+      {
+        "title": "YouTube owner and maintenance videos: Bayliner 3270 Motoryacht",
+        "url": "https://www.youtube.com/results?search_query=Bayliner+3270+Motoryacht+walkthrough+owner+maintenance",
+        "sourceLabel": "YouTube",
+        "resourceType": "Owner and service video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Bayliner Documents and Manuals",
+        "url": "https://www.bayliner.com/us/en/resources/documents-and-manuals",
+        "sourceLabel": "Bayliner",
+        "resourceType": "Manufacturer manuals portal",
+        "verificationStatus": "Official source verified"
+      },
+      {
+        "title": "Bayliner Owners Corner",
+        "url": "https://www.bayliner.com/global/en/owners",
+        "sourceLabel": "Bayliner",
+        "resourceType": "Manufacturer owner support",
+        "verificationStatus": "Official source verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Bayliner Owners Club — 3270 discussions",
+        "url": "https://www.google.com/search?q=site%3Abaylinerownersclub.org+Bayliner+3270",
+        "sourceLabel": "Bayliner Owners Club",
+        "resourceType": "Owner forum search",
+        "verificationStatus": "Search link verified"
+      },
+      {
+        "title": "Trawler Forum — Bayliner 3270 discussions",
+        "url": "https://www.google.com/search?q=site%3Atrawlerforum.com+Bayliner+3270",
+        "sourceLabel": "Trawler Forum",
+        "resourceType": "Owner discussion search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout curated resources for Bayliner 3270 Motoryacht",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-24"
+  },
+  {
+    "BoatModelID": "CAMA-28-GN",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Camano 28 Gnome walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Camano+28+Gnome+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Camano history, construction and specifications",
+        "url": "https://www.camanopacific.com/about",
+        "sourceLabel": "Camano Pacific Region Owners Group",
+        "resourceType": "Owner-group reference",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Camano 28/31 model guide",
+        "url": "https://www.hmy.com/yachting/powerboat-guide/camano/28-31-1990-2007",
+        "sourceLabel": "HMY Powerboat Guide",
+        "resourceType": "Model guide",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Camano 28 Gnome owner discussions",
+        "url": "https://www.google.com/search?q=%22Camano+28+Gnome%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "CAMA-31-TR",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Camano 31 Troll Trawler Boat Tour (2003)",
+        "url": "https://www.youtube.com/watch?v=LlwV44e3jso",
+        "sourceLabel": "BoatSnoop",
+        "resourceType": "Walkthrough",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "2000 Camano 31 Troll — Pau Hana Walkthrough",
+        "url": "https://www.youtube.com/watch?v=2FlpLGafb7Q",
+        "sourceLabel": "Broker walkthrough",
+        "resourceType": "Vessel example",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Camano Troll 31 yacht information PDF",
+        "url": "https://www.huckinsyacht.com/photos/yachtDocs/50.pdf",
+        "sourceLabel": "Huckins Yacht",
+        "resourceType": "Reference document",
+        "verificationStatus": "Document opened"
+      },
+      {
+        "title": "Camano 28/31 collected articles PDF",
+        "url": "https://www.salts.ca/media/documents/boat-dono/camano-28-articles.pdf",
+        "sourceLabel": "SALTS",
+        "resourceType": "Collected articles",
+        "verificationStatus": "Document opened"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Camano owner discussions on Trawler Forum",
+        "url": "https://www.trawlerforum.com/threads/first-time-camano-owner.57424/",
+        "sourceLabel": "Trawler Forum",
+        "resourceType": "Owner discussion",
+        "verificationStatus": "Thread verified"
+      },
+      {
+        "title": "Camano owner advice on Cruisers Forum",
+        "url": "https://www.cruisersforum.com/forums/f9/need-advice-from-camano-owners-50948.html",
+        "sourceLabel": "Cruisers Forum",
+        "resourceType": "Owner discussion",
+        "verificationStatus": "Thread verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified Camano Troll research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "MNSH-30-PI",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "YouTube walkthroughs: Mainship Pilot 30",
+        "url": "https://www.youtube.com/results?search_query=Mainship+Pilot+30+walkthrough",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Mainship 30 Pilot model review and specifications",
+        "url": "https://www.hmy.com/yachting/powerboat-guide/mainship/30-pilot-1998-2008",
+        "sourceLabel": "HMY Powerboat Guide",
+        "resourceType": "Model review and specifications",
+        "verificationStatus": "Page verified"
+      },
+      {
+        "title": "Mainship 30 Pilot Sedan model review and specifications",
+        "url": "https://www.hmy.com/yachting/powerboat-guide/mainship/30-pilot-sedan-1999-2008",
+        "sourceLabel": "HMY Powerboat Guide",
+        "resourceType": "Variant review and specifications",
+        "verificationStatus": "Page verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Mainship discussions on Trawler Forum",
+        "url": "https://www.google.com/search?q=site%3Atrawlerforum.com+Mainship+30+Pilot",
+        "sourceLabel": "Trawler Forum",
+        "resourceType": "Owner discussion search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout curated Mainship Pilot 30 resources",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "MNSH-34-MK1",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "YouTube walkthroughs: Mainship 34 Mk I Trawler",
+        "url": "https://www.youtube.com/results?search_query=Mainship+34+Mk+I+trawler+walkthrough",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      },
+      {
+        "title": "YouTube owner and maintenance videos: Mainship 34 Mk I Trawler",
+        "url": "https://www.youtube.com/results?search_query=Mainship+34+Mk+I+trawler+walkthrough+owner+maintenance",
+        "sourceLabel": "YouTube",
+        "resourceType": "Owner and service video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Mainship 34 Mk I specifications",
+        "url": "https://www.34mainship.com/mainship-specs.html",
+        "sourceLabel": "34Mainship.com",
+        "resourceType": "Model specification reference",
+        "verificationStatus": "Page verified"
+      },
+      {
+        "title": "Search for Mainship 34 manuals and brochures",
+        "url": "https://www.google.com/search?q=Mainship+34+Mk+I+manual+brochure+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Trawler Forum — Mainship 34 Mk I discussions",
+        "url": "https://www.google.com/search?q=site%3Atrawlerforum.com+Mainship+34+Mk+I",
+        "sourceLabel": "Trawler Forum",
+        "resourceType": "Owner discussion search",
+        "verificationStatus": "Search link verified"
+      },
+      {
+        "title": "Mainship owner discussions",
+        "url": "https://www.google.com/search?q=Mainship+34+owner+forum",
+        "sourceLabel": "Owner communities",
+        "resourceType": "Owner forum search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout curated resources for Mainship 34 Mk I Trawler",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "MNSH-34-MK2",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "YouTube walkthroughs: Mainship 34 II",
+        "url": "https://www.youtube.com/results?search_query=Mainship+34+II+walkthrough",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Mainship 34 II model review, floor plan and specifications",
+        "url": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-ii-1979-82",
+        "sourceLabel": "HMY / PowerBoat Guide",
+        "resourceType": "Model review",
+        "verificationStatus": "Page verified"
+      },
+      {
+        "title": "Mainship 34 evolution overview",
+        "url": "https://soundingsonline.com/boats/classic-boats/classic-boat-mainship-34/",
+        "sourceLabel": "Soundings",
+        "resourceType": "Model history",
+        "verificationStatus": "Page verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Trawler Forum — Mainship II discussions",
+        "url": "https://www.google.com/search?q=site%3Atrawlerforum.com+%22Mainship+34+II%22",
+        "sourceLabel": "Trawler Forum",
+        "resourceType": "Owner discussion search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout curated Mainship 34 II model-evolution resources",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "NDST-31P",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Nord Star 31+ specifications",
+        "url": "https://www.nordstaruk.com/the-range/nord-star-31-",
+        "sourceLabel": "Nord Star UK",
+        "resourceType": "Official distributor specifications",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "NMBS-3003",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Nimbus 3003 walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Nimbus+3003+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Nimbus 3003 specifications and broker reference",
+        "url": "https://www.devalk.nl/en/yachtbrokerage/52892/Nimbus-3003.html",
+        "sourceLabel": "De Valk Yacht Brokers",
+        "resourceType": "Specifications and vessel reference",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Nimbus 3003 layout and equipment reference",
+        "url": "https://valwyattmarine.co.uk/boats-recently-sold/nimbus-3003/",
+        "sourceLabel": "Val Wyatt Marine",
+        "resourceType": "Layout and equipment reference",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Nimbus 3003 owner discussions",
+        "url": "https://www.google.com/search?q=%22Nimbus+3003%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "NDTG-26-PH",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Nordic Tug 26 specifications",
+        "url": "https://www.wildeyachts.com/26.html",
+        "sourceLabel": "Wilde Yacht Sales",
+        "resourceType": "Manufacturer-dealer specifications",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Nordic Tug 26 review and historical specifications",
+        "url": "https://www.yachtworld.com/research/nordic-tug-26-mini-trawler-huge-popularity/",
+        "sourceLabel": "YachtWorld",
+        "resourceType": "Model review",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-21-CLASSIC",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tug R-21 Classic official model resource",
+        "url": "https://www.rangertugs.com/past-models/r-21-classic",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-21-EC",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tug R-21 EC official model resource",
+        "url": "https://www.rangertugs.com/past-models/r-21-ec",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-25-CLASSIC",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tug R-25 Classic official model resource",
+        "url": "https://www.rangertugs.com/past-models/r-25-classic",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-25-SC",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tug R-25 SC official model resource",
+        "url": "https://www.rangertugs.com/past-models/r-25-sc",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-27-OB",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tugs R-27 NW/LE official model resource",
+        "url": "https://www.rangertugs.com/past-models/r-27-nwle",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-27-RT",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Ranger Tug R-27 Classic walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Ranger+Tug+R-27+Classic+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Ranger Tug R-27 Classic official model resource",
+        "url": "https://www.rangertugs.com/past-models/r-27-classic",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "RNGR-29-CB",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Sedan and Command Bridge explanation",
+        "url": "https://www.rangertugs.com/blog/next-level-boating-on-a-command-bridge",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official configuration explanation",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community resources",
+        "url": "https://www.rangertugs.com/ownership-experience",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official ownership resources",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-29-CLASSIC",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Ranger Tug R-29 Classic walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Ranger+Tug+R-29+Classic+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Ranger Tug R-29 Classic official model resource",
+        "url": "https://www.rangertugs.com/past-models/r-29-classic",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "RNGR-31-CB",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tugs R-31 Command Bridge official model resource",
+        "url": "https://www.rangertugs.com/models/model-category/r-31-cb",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-43-CB",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tugs R-43 Command Bridge official model resource",
+        "url": "https://www.rangertugs.com/models/model-category/r-43-cb",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-43-S",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tugs R-43 Sedan official model resource",
+        "url": "https://www.rangertugs.com/models/model-category/r-43-s",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-R-23",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tugs R-23 official model resource",
+        "url": "https://www.rangertugs.com/spec-sheets/r-23",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-R-25",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tugs R-25 official model resource",
+        "url": "https://www.rangertugs.com/spec-sheets/r-25",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-R-27",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tugs R-27 official model resource",
+        "url": "https://www.rangertugs.com/spec-sheets/r-27",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-R-29",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "R-29 S official specifications",
+        "url": "https://www.rangertugs.com/spec-sheets/r-29-s",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community resources",
+        "url": "https://www.rangertugs.com/ownership-experience",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official ownership resources",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-R-31",
+    "schemaVersion": 1,
+    "videos": [],
+    "documents": [
+      {
+        "title": "Ranger Tugs R-31 Sedan official model resource",
+        "url": "https://www.rangertugs.com/spec-sheets/r-31-s",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official specifications or past-model archive",
+        "verificationStatus": "Link verified"
+      },
+      {
+        "title": "Ranger Tugs owner manuals and training",
+        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official manuals and training",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Ranger Tugs community and Tugnuts",
+        "url": "https://www.rangertugs.com/ownership-experience/community",
+        "sourceLabel": "Ranger Tugs",
+        "resourceType": "Official community portal",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "WILL-30-VE",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Willard Vega 30 Horizon walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Willard+Vega+30+Horizon+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Willard owner manual archive",
+        "url": "https://willardboats.org/book-page/manuals",
+        "sourceLabel": "Willard Boats Owners Group",
+        "resourceType": "Manual archive",
+        "verificationStatus": "Link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Willard Vega 30 Horizon owner discussions",
+        "url": "https://www.google.com/search?q=%22Willard+Vega+30+Horizon%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout manually verified research links",
+        "verificationStatus": "Links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "GRBK-32-CL",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Grand Banks 32 Sedan walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Grand+Banks+32+Sedan+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Grand Banks 32 Sedan manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Grand+Banks+32+Sedan%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Grand Banks 32 Sedan owner discussions",
+        "url": "https://www.google.com/search?q=%22Grand+Banks+32+Sedan%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "GRBK-36-CL",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Grand Banks 36 Classic walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Grand+Banks+36+Classic+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Grand Banks 36 Classic manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Grand+Banks+36+Classic%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Grand Banks 36 Classic owner discussions",
+        "url": "https://www.google.com/search?q=%22Grand+Banks+36+Classic%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "NDTG-26",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Nordic Tugs 26 walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Nordic+Tugs+26+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Nordic Tugs 26 manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Nordic+Tugs+26%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Nordic Tugs 26 owner discussions",
+        "url": "https://www.google.com/search?q=%22Nordic+Tugs+26%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "NDTG-32",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Nordic Tug 32 walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Nordic+Tug+32+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Nordic Tug 32 manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Nordic+Tug+32%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Nordic Tug 32 owner discussions",
+        "url": "https://www.google.com/search?q=%22Nordic+Tug+32%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "MONK-36-TR",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Monk 36 Trawler walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Monk+36+Trawler+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Monk 36 Trawler manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Monk+36+Trawler%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Monk 36 Trawler owner discussions",
+        "url": "https://www.google.com/search?q=%22Monk+36+Trawler%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "CHBY-34-SE",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "CHB 34 Sedan walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=CHB+34+Sedan+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "CHB 34 Sedan manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22CHB+34+Sedan%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "CHB 34 Sedan owner discussions",
+        "url": "https://www.google.com/search?q=%22CHB+34+Sedan%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "MRTR-34-DO",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Marine Trader 34 Double Cabin walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Marine+Trader+34+Double+Cabin+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Marine Trader 34 Double Cabin manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Marine+Trader+34+Double+Cabin%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Marine Trader 34 Double Cabin owner discussions",
+        "url": "https://www.google.com/search?q=%22Marine+Trader+34+Double+Cabin%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "KDKR-36-MA",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Kadey-Krogen 36 Manatee walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Kadey-Krogen+36+Manatee+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Kadey-Krogen 36 Manatee manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Kadey-Krogen+36+Manatee%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Kadey-Krogen 36 Manatee owner discussions",
+        "url": "https://www.google.com/search?q=%22Kadey-Krogen+36+Manatee%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "CHLY-28",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Cheoy Lee 28 Trawler walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Cheoy+Lee+28+Trawler+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Cheoy Lee 28 Trawler manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Cheoy+Lee+28+Trawler%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Cheoy Lee 28 Trawler owner discussions",
+        "url": "https://www.google.com/search?q=%22Cheoy+Lee+28+Trawler%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "ROSB-246-WH",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Rosborough 246 Custom Wheelhouse walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Rosborough+246+Custom+Wheelhouse+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Rosborough 246 Custom Wheelhouse manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Rosborough+246+Custom+Wheelhouse%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Rosborough 246 Custom Wheelhouse owner discussions",
+        "url": "https://www.google.com/search?q=%22Rosborough+246+Custom+Wheelhouse%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "ALBN-30-FC",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Albin 30 Family Cruiser walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Albin+30+Family+Cruiser+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Albin 30 Family Cruiser manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Albin+30+Family+Cruiser%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Albin 30 Family Cruiser owner discussions",
+        "url": "https://www.google.com/search?q=%22Albin+30+Family+Cruiser%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "NMBL-32-WA",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Nimble 32 Wanderer Pilothouse walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Nimble+32+Wanderer+Pilothouse+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Nimble 32 Wanderer Pilothouse manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Nimble+32+Wanderer+Pilothouse%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Nimble 32 Wanderer Pilothouse owner discussions",
+        "url": "https://www.google.com/search?q=%22Nimble+32+Wanderer+Pilothouse%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "CPDR-28-PH",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Cape Dory 28 Pilothouse walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Cape+Dory+28+Pilothouse+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Cape Dory 28 Pilothouse manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Cape+Dory+28+Pilothouse%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Cape Dory 28 Pilothouse owner discussions",
+        "url": "https://www.google.com/search?q=%22Cape+Dory+28+Pilothouse%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "NPAC-28",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "North Pacific 28 walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=North+Pacific+28+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "North Pacific 28 manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22North+Pacific+28%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "North Pacific 28 owner discussions",
+        "url": "https://www.google.com/search?q=%22North+Pacific+28%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "BoatModelID": "KDKR-42",
+    "schemaVersion": 1,
+    "videos": [
+      {
+        "title": "Kadey-Krogen 42 walkthroughs and owner videos",
+        "url": "https://www.youtube.com/results?search_query=Kadey-Krogen+42+walkthrough+owner+review",
+        "sourceLabel": "YouTube",
+        "resourceType": "Model-specific video search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Kadey-Krogen 42 manuals, brochures and specifications",
+        "url": "https://www.google.com/search?q=%22Kadey-Krogen+42%22+manual+brochure+specifications+PDF",
+        "sourceLabel": "Google",
+        "resourceType": "Document and manual search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "ownerCommunities": [
+      {
+        "title": "Kadey-Krogen 42 owner discussions",
+        "url": "https://www.google.com/search?q=%22Kadey-Krogen+42%22+owner+forum+trawler+forum",
+        "sourceLabel": "Google",
+        "resourceType": "Owner-community search",
+        "verificationStatus": "Search link verified"
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Scout demo-fleet resource set",
+        "verificationStatus": "Search links checked July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-27"
+  }
+]

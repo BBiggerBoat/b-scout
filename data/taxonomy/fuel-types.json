@@ -1,0 +1,35 @@
+[
+  {
+    "TaxonomyID": "FUEL-DIESEL",
+    "CanonicalValue": "Diesel",
+    "Aliases": [
+      "Diesel"
+    ],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "FUEL-GASOLINE",
+    "CanonicalValue": "Gasoline",
+    "Aliases": [
+      "Gas",
+      "GAS",
+      "Gasolineoline"
+    ],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "FUEL-MIXED",
+    "CanonicalValue": "Mixed Diesel/Gasoline",
+    "Aliases": [
+      "Diesel/Gas",
+      "Gas/Diesel"
+    ],
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "FUEL-UNKNOWN",
+    "CanonicalValue": "Unknown",
+    "Aliases": [],
+    "Status": "Active"
+  }
+]

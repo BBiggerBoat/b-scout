@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 3,
+  "generatedAt": "2026-08-02T19:33:52.070Z",
+  "status": "Passed",
+  "summary": {
+    "manufacturerCount": 79,
+    "boatIdentityCount": 287,
+    "aliasCount": 578,
+    "duplicateBoatModelIDs": 0,
+    "unregisteredBoatModelIDs": 0,
+    "orphanRegistryIDs": 0
+  },
+  "issues": {
+    "unregisteredBoatIds": [],
+    "orphanRegistryIds": []
+  },
+  "releaseGate": {
+    "approved": true,
+    "message": "Runtime registry matches the canonical model database."
+  }
+}

@@ -1,0 +1,3812 @@
+[
+  {
+    "BoatModelID": "ALBN-27-FC",
+    "schemaVersion": 3,
+    "intelligence": {
+      "designPhilosophy": "A narrow-beam diesel pocket cruiser that trades conventional open-cockpit space for two separated sleeping zones and practical trailerable-scale dimensions.",
+      "personality": "Ingenious, economical and unconventional, with unusually high accommodation density for 27 feet.",
+      "idealOwner": "A small family or couple who accepts an enclosed aft sleeping cabin in exchange for separation, diesel economy and compact cruising capability.",
+      "marketAvailability": "Limited; supported by active specialist owner communities.",
+      "partsAvailability": "Good for replacement marine systems; original model-specific components may require adaptation.",
+      "bestMissions": [
+        "Weekend and multi-week inland cruising",
+        "Family cruising with separated berths",
+        "Economical displacement-speed travel"
+      ],
+      "lessSuitableMissions": [
+        "Crew uncomfortable in enclosed aft cabins",
+        "Owners expecting modern headroom throughout",
+        "High-speed cruising"
+      ],
+      "strengths": [
+        "Two distinct sleeping areas",
+        "Single-diesel economy",
+        "Strong owner knowledge network"
+      ],
+      "tradeoffs": [
+        "Aft cabin access and enclosure are highly personal",
+        "Interior ergonomics require physical inspection by tall owners",
+        "Many boats now have non-original engines and systems"
+      ],
+      "inspectionPriorities": [
+        "Engine installation and repower quality",
+        "Aft-cabin moisture and ventilation",
+        "Fuel, exhaust, steering and shaft systems"
+      ],
+      "commonUpgrades": [
+        "Modern diesel repower",
+        "Pilothouse window and ventilation improvements",
+        "Electrical and anchoring modernization"
+      ],
+      "comparableModels": [
+        "Nimble Wanderer 32",
+        "Nordic Tug 26",
+        "Rosborough RF-246"
+      ],
+      "ownershipEase": "High",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Identity and core dimensions are linked to the B-Scout model record.",
+        "evidenceType": "StructuredDatabase",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Qualitative guidance is a curated editorial synthesis supported by the linked manufacturer and owner resources.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "public/knowledge/data/curatedresources.json"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "ALBN-28-FL",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Later Albin 28 configuration with a flatter cockpit and direct shaft arrangement for fishing and coastal cruising.",
+      "designPhilosophy": "A protected-helm Downeast cruiser reorganized around an open working cockpit and under-seat machinery.",
+      "personality": "Later Albin 28 configuration with a flatter cockpit and direct shaft arrangement for fishing and coastal cruising.",
+      "idealOwner": "A couple or angler who values cockpit continuity, weather protection and single-diesel economy.",
+      "buyerProfile": "A couple or angler who values cockpit continuity, weather protection and single-diesel economy.",
+      "lessSuitableIf": [
+        "Buyers wanting effortless machinery access",
+        "Crews needing a separate shower or multiple cabins",
+        "Owners seeking low-speed displacement behaviour"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by region, configuration and condition.",
+      "partsAvailability": "Major systems remain serviceable; model-specific trim, glazing and obsolete components require verification.",
+      "bestMissions": [
+        "Coastal cruising",
+        "Couple cruising",
+        "All-weather operation"
+      ],
+      "lessSuitableMissions": [
+        "Buyers wanting effortless machinery access",
+        "Crews needing a separate shower or multiple cabins",
+        "Owners seeking low-speed displacement behaviour"
+      ],
+      "strengths": [
+        "Flat working cockpit",
+        "Direct shaft drive with protected running gear",
+        "Strong all-weather utility"
+      ],
+      "tradeoffs": [
+        "Machinery access is less immediate than engine-box boats",
+        "Compact accommodations",
+        "High-speed diesel systems require disciplined maintenance"
+      ],
+      "inspectionPriorities": [
+        "Engine access panels and mounts",
+        "Deck core and cockpit drains",
+        "Exhaust, aftercooler and cooling service",
+        "Fuel tank and shaft seal"
+      ],
+      "commonUpgrades": [
+        "Bow thruster where absent",
+        "Modern charging and battery monitoring",
+        "Improved cockpit seating or enclosure"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Engine access panels and mounts",
+          "Deck core and cockpit drains"
+        ],
+        "recommended": [
+          "Bow thruster where absent",
+          "Modern charging and battery monitoring"
+        ],
+        "optional": [
+          "Improved cockpit seating or enclosure"
+        ]
+      },
+      "comparableModels": [
+        "Albin 28 TE Engine Box",
+        "Mainship Pilot 30",
+        "Rosborough RF-246"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Albin 28 TE Engine Box",
+          "Mainship Pilot 30"
+        ],
+        "alternativeIf": [
+          "An open cockpit is a priority"
+        ],
+        "stepUpFrom": [
+          "Smaller Downeast cuddy cruisers"
+        ]
+      },
+      "bScoutNotes": [
+        "Flush Deck and Engine Box should remain separate B-Scout models.",
+        "Verify whether a listing photograph actually shows the advertised configuration."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A couple or angler who values cockpit continuity, weather protection and single-diesel economy."
+        ],
+        "cautions": [
+          "Buyers wanting effortless machinery access",
+          "Crews needing a separate shower or multiple cabins",
+          "Owners seeking low-speed displacement behaviour"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v3"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "ALBN-28-TE-EB",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Rugged Downeast fish-cruiser whose central engine box trades cockpit continuity for machinery access and a useful work surface.",
+      "designPhilosophy": "A single-diesel coastal boat combining a protected helm, fishing cockpit and compact cruising cabin.",
+      "personality": "Rugged Downeast fish-cruiser whose central engine box trades cockpit continuity for machinery access and a useful work surface.",
+      "idealOwner": "A couple wanting a sturdy multipurpose diesel boat for fishing, commuting and short cruises.",
+      "buyerProfile": "A couple wanting a sturdy multipurpose diesel boat for fishing, commuting and short cruises.",
+      "lessSuitableIf": [
+        "Crews needing a flat unobstructed cockpit",
+        "Buyers wanting a separate shower or broad side decks",
+        "Owners avoiding older V-drive installations"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by region, configuration and condition.",
+      "partsAvailability": "Major systems remain serviceable; model-specific trim, glazing and obsolete components require verification.",
+      "bestMissions": [
+        "Coastal cruising",
+        "Couple cruising",
+        "All-weather operation"
+      ],
+      "lessSuitableMissions": [
+        "Crews needing a flat unobstructed cockpit",
+        "Buyers wanting a separate shower or broad side decks",
+        "Owners avoiding older V-drive installations"
+      ],
+      "strengths": [
+        "Strong tracking and protected running gear",
+        "Useful hardtop helm and large cockpit",
+        "Engine access is comparatively direct"
+      ],
+      "tradeoffs": [
+        "Engine box divides the cockpit",
+        "Compact cabin and wet head",
+        "Equipment and construction changed during production"
+      ],
+      "inspectionPriorities": [
+        "V-drive, shaft and steering alignment",
+        "Fuel tank and deck core",
+        "Exhaust, aftercooler and cooling service",
+        "Cockpit drainage and transom door"
+      ],
+      "commonUpgrades": [
+        "Bow thruster where absent",
+        "Modern charging and battery monitoring",
+        "Cockpit enclosure renewal"
+      ],
+      "refitPriority": {
+        "essential": [
+          "V-drive, shaft and steering alignment",
+          "Fuel tank and deck core"
+        ],
+        "recommended": [
+          "Bow thruster where absent",
+          "Modern charging and battery monitoring"
+        ],
+        "optional": [
+          "Cockpit enclosure renewal"
+        ]
+      },
+      "comparableModels": [
+        "Albin 28 TE Flush Deck",
+        "Mainship Pilot 30",
+        "Rosborough RF-246"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Albin 28 TE Flush Deck",
+          "Mainship Pilot 30"
+        ],
+        "alternativeIf": [
+          "Machinery access matters more than a flat cockpit"
+        ],
+        "stepUpFrom": [
+          "Smaller Downeast cuddy cruisers"
+        ]
+      },
+      "bScoutNotes": [
+        "The engine box is a defining configuration, not a minor option.",
+        "Do not transfer flush-deck drivetrain assumptions to this version."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A couple wanting a sturdy multipurpose diesel boat for fishing, commuting and short cruises."
+        ],
+        "cautions": [
+          "Crews needing a flat unobstructed cockpit",
+          "Buyers wanting a separate shower or broad side decks",
+          "Owners avoiding older V-drive installations"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v3"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "schemaVersion": 3,
+    "intelligence": {
+      "designPhilosophy": "A compact, high-volume motoryacht using a two-level interior and twin inboards to deliver separate sleeping areas and substantial accommodation within roughly 32 feet.",
+      "personality": "Practical, spacious and family-oriented rather than minimalist or mechanically simple.",
+      "idealOwner": "A buyer who values two sleeping areas, interior volume and twin-engine handling more than open salon space, engine access or single-diesel economy.",
+      "marketAvailability": "Regularly appears in North American used-boat markets, but condition and configuration vary widely.",
+      "partsAvailability": "General marine components remain serviceable; support for Hino and other legacy engines depends on region, engine model and specialist availability.",
+      "bestMissions": [
+        "Family cruising",
+        "Frequent overnight guests",
+        "Protected-water and coastal cruising"
+      ],
+      "lessSuitableMissions": [
+        "Minimalist couple cruising",
+        "Owners prioritizing easy mechanical access",
+        "Buyers requiring verified tall-person headroom throughout"
+      ],
+      "strengths": [
+        "Two distinct sleeping areas",
+        "High accommodation volume for length",
+        "Lower helm plus flybridge",
+        "Twin-engine low-speed manoeuvrability"
+      ],
+      "tradeoffs": [
+        "The second sleeping area consumes space a couple may prefer in the salon",
+        "Two engines increase service burden",
+        "Headroom and berth dimensions require physical verification",
+        "Older examples vary greatly in refit quality"
+      ],
+      "inspectionPriorities": [
+        "Moisture around windows, decks and structural cores",
+        "Fuel tanks, exhausts and cooling systems",
+        "Both engines, gears, shafts and skegs",
+        "Electrical and sanitation-system condition"
+      ],
+      "commonUpgrades": [
+        "Electrical and charging modernization",
+        "Window and deck leak remediation",
+        "Improved ventilation and moisture control",
+        "Navigation electronics"
+      ],
+      "comparableModels": [
+        "Mainship 34 Mk I Trawler",
+        "Bayliner 3288 Motoryacht",
+        "Carver 3207"
+      ],
+      "crewFit": {
+        "bestFor": [
+          "Family or frequent guests",
+          "Owners wanting separate sleeping zones",
+          "Buyers prioritizing accommodation density"
+        ],
+        "cautions": [
+          "Cruising couple that rarely hosts overnight guests",
+          "Tall owners until headroom is measured",
+          "Owners seeking single-engine simplicity"
+        ]
+      },
+      "ownershipEase": "Low",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "Dimensions and capacities are normalized from model references and should be verified against the specific hull.",
+        "evidenceType": "StructuredResearch",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "public/boatmodels.json",
+          "public/knowledge/data/knowledgecards.json"
+        ]
+      },
+      {
+        "claim": "Crew-fit guidance is editorial and does not exclude the boat.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Session A reference comparison"
+        ]
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-24",
+    "revision": 2
+  },
+  {
+    "BoatModelID": "CAMA-28-GN",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Low-profile Camano using the Troll hull and interior without the flybridge.",
+      "designPhilosophy": "A simpler, lower-windage expression of the Camano pocket-trawler concept, retaining the lower helm and compact single-diesel package.",
+      "personality": "Low-profile Camano using the Troll hull and interior without the flybridge.",
+      "idealOwner": "A couple who values lower air draft, reduced windage and simpler exterior maintenance more than an elevated helm.",
+      "buyerProfile": "A couple who values lower air draft, reduced windage and simpler exterior maintenance more than an elevated helm.",
+      "lessSuitableIf": [
+        "Buyers who strongly prefer flybridge visibility",
+        "Large-cockpit entertaining",
+        "High-speed cruising"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 3,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by region and condition.",
+      "partsAvailability": "Generally available for major systems; model-specific trim and glazing require verification.",
+      "bestMissions": [
+        "Canal and inland cruising",
+        "Coastal couple cruising",
+        "Low-profile marina and bridge environments"
+      ],
+      "lessSuitableMissions": [
+        "Buyers who strongly prefer flybridge visibility",
+        "Large-cockpit entertaining",
+        "High-speed cruising"
+      ],
+      "strengths": [
+        "Lower windage and exterior maintenance than Troll",
+        "Excellent lower-helm visibility",
+        "Efficient single-diesel simplicity"
+      ],
+      "tradeoffs": [
+        "No elevated helm option",
+        "Small cockpit",
+        "Rare market availability"
+      ],
+      "inspectionPriorities": [
+        "Moisture around windows and deck fittings",
+        "Engine cooling and exhaust",
+        "Keel and running gear",
+        "Tankage and steering"
+      ],
+      "commonUpgrades": [
+        "Bow thruster",
+        "Updated navigation electronics",
+        "Improved ventilation and heating"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Moisture around windows and deck fittings",
+          "Engine cooling and exhaust"
+        ],
+        "recommended": [
+          "Bow thruster",
+          "Updated navigation electronics"
+        ],
+        "optional": [
+          "Improved ventilation and heating"
+        ]
+      },
+      "comparableModels": [
+        "Camano Troll 31",
+        "Nordic Tug 26",
+        "Rosborough RF-246"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Camano Troll 31",
+          "Nordic Tug 26"
+        ],
+        "alternativeIf": [
+          "Lower air draft or simpler exterior maintenance is important"
+        ],
+        "stepDownFrom": [
+          "Camano Troll 31 flybridge complexity"
+        ]
+      },
+      "bScoutNotes": [
+        "The lack of flybridge materially changes air draft, windage and exterior upkeep.",
+        "Do not treat Gnome and Troll images or listings as interchangeable."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A couple who values lower air draft, reduced windage and simpler exterior maintenance more than an elevated helm."
+        ],
+        "cautions": [
+          "Buyers who strongly prefer flybridge visibility",
+          "Large-cockpit entertaining",
+          "High-speed cruising"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated model references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Owner-experience and buyer-fit guidance is editorial and should be verified against the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v2"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 2
+  },
+  {
+    "BoatModelID": "CAMA-31-TR",
+    "schemaVersion": 3,
+    "intelligence": {
+      "designPhilosophy": "A compact single-diesel pocket trawler designed to combine economical displacement-speed cruising with a practical pilothouse and manageable dimensions.",
+      "personality": "Purposeful, economical and compact rather than luxurious or fast.",
+      "idealOwner": "A couple prioritizing economical extended cruising, straightforward systems and easy handling over high speed or maximum interior volume.",
+      "marketAvailability": "Common in established trawler markets; regionally variable.",
+      "partsAvailability": "Generally good for common diesel and marine systems; model-specific components require verification.",
+      "bestMissions": [
+        "Great Loop and inland-waterway cruising",
+        "Coastal cruising",
+        "Extended couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "High-speed day cruising",
+        "Large-family liveaboard use"
+      ],
+      "strengths": [
+        "Single-diesel simplicity",
+        "Efficient low-speed operation",
+        "Compact footprint with useful pilothouse"
+      ],
+      "tradeoffs": [
+        "Limited interior volume compared with wider twin-engine cruisers",
+        "Modest cruising speed",
+        "Model-specific construction details vary by year"
+      ],
+      "inspectionPriorities": [
+        "Moisture around windows, deck fittings and flybridge penetrations",
+        "Engine installation, cooling system and service history",
+        "Steering, rudder and running gear"
+      ],
+      "commonUpgrades": [
+        "Modern navigation electronics",
+        "Improved anchoring equipment",
+        "Electrical and charging-system modernization"
+      ],
+      "comparableModels": [
+        "Grand Banks 32 Classic",
+        "Nordic Tug 26",
+        "Rosborough RF-28"
+      ],
+      "ownershipEase": "High",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Identity and core configuration are linked to the B-Scout BoatModels record.",
+        "evidenceType": "StructuredDatabase",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Qualitative guidance is an initial editorial assessment and requires model-specific source expansion.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v1"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-23",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "GRBK-32-CL",
+    "schemaVersion": 3,
+    "intelligence": {
+      "designPhilosophy": "A traditional semi-displacement cruising trawler centered on seaworthy proportions, teak-rich craftsmanship and long-duration cruising at modest speed.",
+      "personality": "Traditional, capable and character-rich, with more systems and upkeep than a minimalist pocket trawler.",
+      "idealOwner": "An owner who values classic trawler design, established cruising capability and craftsmanship, and is prepared for the maintenance demands of an older premium boat.",
+      "marketAvailability": "Common relative to other classic trawlers, especially in established Great Lakes and coastal markets.",
+      "partsAvailability": "Good for standard mechanical systems; original joinery and model-specific hardware may require specialist work.",
+      "bestMissions": [
+        "Great Lakes and coastal cruising",
+        "Great Loop cruising where dimensions permit",
+        "Long-duration couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Low-maintenance ownership",
+        "High-speed cruising"
+      ],
+      "strengths": [
+        "Proven traditional trawler layout",
+        "Strong resale recognition",
+        "Comfortable displacement-speed cruising"
+      ],
+      "tradeoffs": [
+        "Teak and aging systems can demand substantial upkeep",
+        "Older examples vary widely in condition",
+        "Slower and heavier than modern planing cruisers"
+      ],
+      "inspectionPriorities": [
+        "Teak decks, deck cores, windows and cabin sides for moisture",
+        "Fuel tanks, plumbing and electrical modernization",
+        "Engine, running gear and structural condition"
+      ],
+      "commonUpgrades": [
+        "Tank replacement or refurbishment",
+        "Modern electrical and charging systems",
+        "Deck and window remediation"
+      ],
+      "comparableModels": [
+        "Camano Troll 31",
+        "Marine Trader 34",
+        "CHB 34"
+      ],
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "Identity and core configuration are linked to the B-Scout BoatModels record.",
+        "evidenceType": "StructuredDatabase",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Qualitative guidance is an initial editorial assessment and requires model-specific source expansion.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v1"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-23",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "LUHR-30",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Straightforward narrow-beam cockpit cruiser offering usable cabin space and inboard simplicity without trawler bulk.",
+      "designPhilosophy": "A practical open-cockpit cruiser aimed at day use, fishing and modest overnight cruising.",
+      "personality": "Straightforward narrow-beam cockpit cruiser offering usable cabin space and inboard simplicity without trawler bulk.",
+      "idealOwner": "A buyer wanting a simple 30-foot cockpit boat with inboard propulsion and lower acquisition cost than newer pilothouse cruisers.",
+      "buyerProfile": "A buyer wanting a simple 30-foot cockpit boat with inboard propulsion and lower acquisition cost than newer pilothouse cruisers.",
+      "lessSuitableIf": [
+        "Long-duration liveaboard use",
+        "Buyers requiring a fully enclosed all-weather pilothouse",
+        "Those unwilling to verify repowers and older systems"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 3,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by region and condition.",
+      "partsAvailability": "Generally available for major systems; model-specific trim and glazing require verification.",
+      "bestMissions": [
+        "Weekend cruising",
+        "Fishing and day use",
+        "Protected-water coastal cruising"
+      ],
+      "lessSuitableMissions": [
+        "Long-duration liveaboard use",
+        "Buyers requiring a fully enclosed all-weather pilothouse",
+        "Those unwilling to verify repowers and older systems"
+      ],
+      "strengths": [
+        "Useful cockpit",
+        "Manageable beam",
+        "Simple conventional running gear"
+      ],
+      "tradeoffs": [
+        "Documentation is thinner than for major trawler brands",
+        "Propulsion varies by boat",
+        "Weather protection and accommodation are modest"
+      ],
+      "inspectionPriorities": [
+        "Engine identity and installation",
+        "Fuel tanks",
+        "Deck/stringer moisture",
+        "Exhaust and shaft system"
+      ],
+      "commonUpgrades": [
+        "Repower documentation and gauges",
+        "Canvas or hardtop improvements",
+        "Electrical modernization"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Engine identity and installation",
+          "Fuel tanks"
+        ],
+        "recommended": [
+          "Repower documentation and gauges",
+          "Canvas or hardtop improvements"
+        ],
+        "optional": [
+          "Electrical modernization"
+        ]
+      },
+      "comparableModels": [
+        "Mainship Pilot 30",
+        "Albin 28 Tournament Express",
+        "Nimbus 3003"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Mainship Pilot 30",
+          "Albin 28 Tournament Express"
+        ],
+        "alternativeIf": [
+          "Cockpit utility and price matter more than refined interior finish"
+        ],
+        "stepUpFrom": [
+          "Smaller open express cruisers"
+        ]
+      },
+      "bScoutNotes": [
+        "Treat engine type as vessel-specific, not model-assumed.",
+        "This remains a developing Knowledge Card; unknowns should reduce confidence, not eliminate the model."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A buyer wanting a simple 30-foot cockpit boat with inboard propulsion and lower acquisition cost than newer pilothouse cruisers."
+        ],
+        "cautions": [
+          "Long-duration liveaboard use",
+          "Buyers requiring a fully enclosed all-weather pilothouse",
+          "Those unwilling to verify repowers and older systems"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated model references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Owner-experience and buyer-fit guidance is editorial and should be verified against the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v2"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 2
+  },
+  {
+    "BoatModelID": "MNSH-30-PI",
+    "schemaVersion": 3,
+    "intelligence": {
+      "designPhilosophy": "A Downeast-inspired express cruiser designed to provide useful cruising speed, a protected helm and manageable accommodations in a straightforward single-diesel package.",
+      "personality": "Sportier and faster than a traditional trawler while remaining practical for weekends and short cruises.",
+      "idealOwner": "An owner who values protected-helm day cruising and the ability to cover more distance, while accepting less interior volume than a full trawler layout.",
+      "marketAvailability": "Common in eastern North American used markets.",
+      "partsAvailability": "Generally good for production hardware and common diesel packages; exact support depends on year and engine.",
+      "bestMissions": [
+        "Day cruising and weekends",
+        "Coastal and Great Lakes cruising",
+        "Owners wanting moderate cruising speed"
+      ],
+      "lessSuitableMissions": [
+        "Maximum liveaboard volume",
+        "Very slow ultra-economical passagemaking"
+      ],
+      "strengths": [
+        "Protected helm and practical cockpit",
+        "Single-diesel configuration",
+        "Higher speed potential than displacement trawlers"
+      ],
+      "tradeoffs": [
+        "Less interior volume than full-height trawlers",
+        "Performance and fuel use depend strongly on engine and loading",
+        "Some systems access can be tight"
+      ],
+      "inspectionPriorities": [
+        "Engine, exhaust, cooling and service history",
+        "Deck hardware, windows and cockpit drainage",
+        "Fuel system and running gear"
+      ],
+      "commonUpgrades": [
+        "Updated electronics",
+        "Improved helm seating and canvas",
+        "Electrical and charging upgrades"
+      ],
+      "comparableModels": [
+        "Albin 28 Tournament Express",
+        "Camano Troll 31",
+        "Rosborough RF-28"
+      ],
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Identity and core configuration are linked to the B-Scout BoatModels record.",
+        "evidenceType": "StructuredDatabase",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Qualitative guidance is an initial editorial assessment and requires model-specific source expansion.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v1"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-23",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "MNSH-34-MK1",
+    "schemaVersion": 3,
+    "intelligence": {
+      "designPhilosophy": "An economical single-diesel sedan trawler designed around a large open salon, forward cabin, wide side decks and modest displacement-speed cruising.",
+      "personality": "Straightforward, roomy for a couple and traditional, with age-related refit demands.",
+      "idealOwner": "A cruising couple—particularly taller owners—who values salon space, practical circulation, economical speed and simple propulsion over a second private cabin.",
+      "marketAvailability": "Regularly appears in North American used-boat markets, but condition and configuration vary widely.",
+      "partsAvailability": "Standard marine hardware is generally obtainable; Perkins support is broad but exact legacy parts availability should be confirmed locally.",
+      "bestMissions": [
+        "Extended couple cruising",
+        "Inland and Great Lakes cruising",
+        "Economical displacement-speed travel"
+      ],
+      "lessSuitableMissions": [
+        "Families needing two private cabins",
+        "Frequent overnight guests requiring privacy",
+        "High-speed cruising"
+      ],
+      "strengths": [
+        "Open salon uses interior volume efficiently for two people",
+        "Generally favourable standing headroom for its era",
+        "Single-diesel simplicity and economy",
+        "Wide side decks and protected keel"
+      ],
+      "tradeoffs": [
+        "Only one primary private cabin",
+        "Slow compared with planing cruisers",
+        "Age and prior refits dominate condition",
+        "Published headroom must still be confirmed aboard"
+      ],
+      "inspectionPriorities": [
+        "Aluminum fuel tanks and fuel plumbing",
+        "Deck, flybridge and window moisture",
+        "Perkins or repower cooling and exhaust systems",
+        "Electrical, sanitation and steering refits"
+      ],
+      "commonUpgrades": [
+        "Fuel-tank replacement",
+        "Electrical and charging modernization",
+        "Window and deck remediation",
+        "Bow thruster or handling aids where desired"
+      ],
+      "comparableModels": [
+        "Bayliner 3270 Motoryacht",
+        "Grand Banks 32 Classic",
+        "Marine Trader 34"
+      ],
+      "crewFit": {
+        "bestFor": [
+          "Cruising couple",
+          "Tall owners after onboard measurement",
+          "Owners prioritizing living space over spare berths",
+          "Economy-focused cruisers"
+        ],
+        "cautions": [
+          "Families requiring separate cabins",
+          "Frequent overnight guests",
+          "Buyers unwilling to undertake age-related refit"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "Dimensions and capacities are normalized from model references and should be verified against the specific hull.",
+        "evidenceType": "StructuredResearch",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "public/boatmodels.json",
+          "public/knowledge/data/knowledgecards.json"
+        ]
+      },
+      {
+        "claim": "Crew-fit guidance is editorial and does not exclude the boat.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Session A reference comparison"
+        ]
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-24",
+    "revision": 2
+  },
+  {
+    "BoatModelID": "MNSH-34-MK2",
+    "schemaVersion": 3,
+    "intelligence": {
+      "designPhilosophy": "A cockpit-focused evolution of the early Mainship 34, trading salon volume for a substantially larger working cockpit while retaining economical single-diesel cruising.",
+      "personality": "Practical, simple and cockpit-oriented rather than spacious or luxurious.",
+      "idealOwner": "A cruising couple who values fishing, gear handling or outdoor cockpit space more than a large salon.",
+      "marketAvailability": "Scarce and frequently misidentified in listings.",
+      "partsAvailability": "Good for generic marine systems; model-specific trim and glazing require fabrication or used parts.",
+      "bestMissions": [
+        "Inland and protected coastal cruising",
+        "Fishing-oriented couple cruising",
+        "Great Loop use after condition and clearance verification"
+      ],
+      "lessSuitableMissions": [
+        "Buyers prioritizing salon volume",
+        "Crew with difficulty using a steep flybridge ladder",
+        "High-speed cruising"
+      ],
+      "strengths": [
+        "Large approximately 70 sq ft cockpit",
+        "Separate stall shower",
+        "Wide side decks and protected running gear"
+      ],
+      "tradeoffs": [
+        "Compact salon compared with Mk I",
+        "Very steep flybridge ladder",
+        "Age-related refit burden"
+      ],
+      "inspectionPriorities": [
+        "Confirm the boat is actually a Mainship II rather than Mk I or III",
+        "Survey deck and flybridge core",
+        "Inspect aluminum fuel tanks, exhaust and cooling systems"
+      ],
+      "commonUpgrades": [
+        "Modern electrical and charging systems",
+        "Bow thruster where maneuvering needs justify it",
+        "Improved flybridge access and rail safety"
+      ],
+      "comparableModels": [
+        "Mainship 34 Mk I Motor Cruiser",
+        "Mainship 34 III",
+        "Marine Trader 34 Sedan"
+      ],
+      "ownershipEase": "High",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "The Mk II uses the early 34 hull but has a much larger cockpit and smaller salon.",
+        "evidenceType": "PublishedModelHistory",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/knowledge/data/curatedresources.json"
+        ]
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "NDST-31P",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Fast Finnish all-weather pilothouse cruiser combining full walkaround decks, two cabins and serious cold-climate capability.",
+      "designPhilosophy": "A high-performance patrol-derived family cruiser designed for year-round northern coastal operation.",
+      "personality": "Fast Finnish all-weather pilothouse cruiser combining full walkaround decks, two cabins and serious cold-climate capability.",
+      "idealOwner": "A well-funded couple or family prioritizing speed, weather protection, deck security and two-cabin flexibility.",
+      "buyerProfile": "A well-funded couple or family prioritizing speed, weather protection, deck security and two-cabin flexibility.",
+      "lessSuitableIf": [
+        "Buyers prioritizing low fuel burn or simple shaft-drive maintenance",
+        "Owners wanting displacement-speed tranquillity",
+        "Budget-sensitive refit buyers"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 2,
+        "maintenanceEase": 2,
+        "partsAvailability": 3,
+        "diyFriendliness": 2,
+        "operatingAffordability": 2
+      },
+      "marketAvailability": "Used-market availability varies by region, configuration and condition.",
+      "partsAvailability": "Major systems remain serviceable; model-specific trim, glazing and obsolete components require verification.",
+      "bestMissions": [
+        "Coastal cruising",
+        "Couple cruising",
+        "All-weather operation"
+      ],
+      "lessSuitableMissions": [
+        "Buyers prioritizing low fuel burn or simple shaft-drive maintenance",
+        "Owners wanting displacement-speed tranquillity",
+        "Budget-sensitive refit buyers"
+      ],
+      "strengths": [
+        "Full walkaround decks and side doors",
+        "Two-cabin layout",
+        "High-speed all-weather capability"
+      ],
+      "tradeoffs": [
+        "Twin sterndrive complexity",
+        "Higher operating cost",
+        "Fast-cruising hull may be less relaxed at displacement speeds"
+      ],
+      "inspectionPriorities": [
+        "Sterndrives, transom assemblies and corrosion protection",
+        "Heating, glazing and door seals",
+        "Electrical integration and thrusters",
+        "Hull and deck hardware"
+      ],
+      "commonUpgrades": [
+        "Preventive sterndrive service",
+        "Battery and charging monitoring",
+        "Heating and demisting upgrades"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Sterndrives, transom assemblies and corrosion protection",
+          "Heating, glazing and door seals"
+        ],
+        "recommended": [
+          "Preventive sterndrive service",
+          "Battery and charging monitoring"
+        ],
+        "optional": [
+          "Heating and demisting upgrades"
+        ]
+      },
+      "comparableModels": [
+        "Nimbus 305 Coupé",
+        "Ranger Tugs R-29 Sedan",
+        "Paragon 31 Cabin"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Nimbus 305 Coupé",
+          "Ranger Tugs R-29 Sedan"
+        ],
+        "alternativeIf": [
+          "Speed and all-weather deck access dominate"
+        ],
+        "stepUpFrom": [
+          "Smaller pilothouse commuters"
+        ]
+      },
+      "bScoutNotes": [
+        "This is a fundamentally different ownership proposition from a slow trawler.",
+        "The 31+ designation should not be collapsed into earlier Nord Star 31 records without verification."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A well-funded couple or family prioritizing speed, weather protection, deck security and two-cabin flexibility."
+        ],
+        "cautions": [
+          "Buyers prioritizing low fuel burn or simple shaft-drive maintenance",
+          "Owners wanting displacement-speed tranquillity",
+          "Budget-sensitive refit buyers"
+        ]
+      },
+      "ownershipEase": "Low",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v3"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "NMBS-3003",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Compact Scandinavian all-weather cruiser with unusually flexible sleeping accommodation for its length.",
+      "designPhilosophy": "A protected-helm family cruiser designed around efficient northern-European coastal use, practical cockpit living and multiple sleeping zones.",
+      "personality": "Compact Scandinavian all-weather cruiser with unusually flexible sleeping accommodation for its length.",
+      "idealOwner": "A couple or small family wanting enclosed-helm weather protection, diesel economy and separate sleeping areas in a compact footprint.",
+      "buyerProfile": "A couple or small family wanting enclosed-helm weather protection, diesel economy and separate sleeping areas in a compact footprint.",
+      "lessSuitableIf": [
+        "Buyers needing a large open cockpit",
+        "Owners requiring simple single-level accommodation",
+        "Those avoiding aft-cabin access steps"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 3,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by region and condition.",
+      "partsAvailability": "Generally available for major systems; model-specific trim and glazing require verification.",
+      "bestMissions": [
+        "Coastal and inland cruising",
+        "Extended couple cruising",
+        "Cool-weather shoulder-season use"
+      ],
+      "lessSuitableMissions": [
+        "Buyers needing a large open cockpit",
+        "Owners requiring simple single-level accommodation",
+        "Those avoiding aft-cabin access steps"
+      ],
+      "strengths": [
+        "Protected helm and good all-weather usability",
+        "Separate aft cabin increases sleeping privacy",
+        "Efficient single-diesel shaft-drive arrangement"
+      ],
+      "tradeoffs": [
+        "Aft-cabin access and ventilation require personal evaluation",
+        "Older Volvo installations demand careful service-history review",
+        "Interior circulation can feel segmented"
+      ],
+      "inspectionPriorities": [
+        "Window frames and deck penetrations",
+        "Aft-cabin moisture and ventilation",
+        "Cooling and exhaust system",
+        "Fuel tank and steering system"
+      ],
+      "commonUpgrades": [
+        "Bow thruster where absent",
+        "Modern charging and battery monitoring",
+        "Diesel heating and ventilation improvements"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Window frames and deck penetrations",
+          "Aft-cabin moisture and ventilation"
+        ],
+        "recommended": [
+          "Bow thruster where absent",
+          "Modern charging and battery monitoring"
+        ],
+        "optional": [
+          "Diesel heating and ventilation improvements"
+        ]
+      },
+      "comparableModels": [
+        "Camano Troll 31",
+        "Albin 28 Tournament Express",
+        "Mainship Pilot 30"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Camano Troll 31",
+          "Albin 28 Tournament Express"
+        ],
+        "alternativeIf": [
+          "All-weather helm protection is a priority"
+        ],
+        "stepUpFrom": [
+          "Smaller Scandinavian cuddy cruisers"
+        ]
+      },
+      "bScoutNotes": [
+        "The aft cabin is a defining buyer-fit feature, not merely an equipment item.",
+        "Confirm whether the segmented sleeping arrangement suits the crew before valuing the extra berth count."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A couple or small family wanting enclosed-helm weather protection, diesel economy and separate sleeping areas in a compact footprint."
+        ],
+        "cautions": [
+          "Buyers needing a large open cockpit",
+          "Owners requiring simple single-level accommodation",
+          "Those avoiding aft-cabin access steps"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated model references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Owner-experience and buyer-fit guidance is editorial and should be verified against the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v2"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 2
+  },
+  {
+    "BoatModelID": "NMBL-32-WA",
+    "schemaVersion": 3,
+    "intelligence": {
+      "designPhilosophy": "A narrow-beam, efficient pilothouse cruiser intended to reach shallow, constrained and less-accessible waterways while retaining extended-cruising capability.",
+      "personality": "Individualistic, expedition-minded and space-efficient.",
+      "idealOwner": "An experienced or self-reliant cruiser who values access, efficiency and distinctive design more than conventional interior volume or broad market support.",
+      "marketAvailability": "Rare.",
+      "partsAvailability": "Mixed: standard systems may be supportable, while builder-specific parts and documentation can be difficult.",
+      "bestMissions": [
+        "Narrow waterways and canal cruising",
+        "Shallow-water exploration",
+        "Extended couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Buyers needing broad dealer support",
+        "Large-family accommodation"
+      ],
+      "strengths": [
+        "Narrow beam and access-oriented dimensions",
+        "Distinctive pilothouse cruising layout",
+        "Efficient mission-focused design"
+      ],
+      "tradeoffs": [
+        "Rare-market support and limited comparable inventory",
+        "Unconventional layout may not suit all buyers",
+        "Specifications can vary among examples"
+      ],
+      "inspectionPriorities": [
+        "Verify exact dimensions and configuration for the individual hull",
+        "Confirm documentation, systems access and custom modifications",
+        "Inspect hull, deck, windows and propulsion installation"
+      ],
+      "commonUpgrades": [
+        "Documentation and systems labelling",
+        "Modern electronics and electrical systems",
+        "Ground-tackle and cruising-equipment updates"
+      ],
+      "comparableModels": [
+        "North Pacific 28",
+        "Nordic Tug 26",
+        "Rosborough RF-28"
+      ],
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Identity and core configuration are linked to the B-Scout BoatModels record.",
+        "evidenceType": "StructuredDatabase",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Qualitative guidance is an initial editorial assessment and requires model-specific source expansion.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v1"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-23",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "NDTG-26-PH",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Compact tug-style cruiser with genuine pilothouse protection and a strong reputation for economical couple cruising.",
+      "designPhilosophy": "A narrow-beam pilothouse cruiser balancing displacement-speed economy, weather protection and manageable size.",
+      "personality": "Compact tug-style cruiser with genuine pilothouse protection and a strong reputation for economical couple cruising.",
+      "idealOwner": "A couple prioritizing pilothouse visibility, economical operation and compact dimensions over large living spaces.",
+      "buyerProfile": "A couple prioritizing pilothouse visibility, economical operation and compact dimensions over large living spaces.",
+      "lessSuitableIf": [
+        "Owners needing a separate shower",
+        "Two-couple cruising",
+        "Buyers expecting automobile-like trailerability"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 3,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by region and condition.",
+      "partsAvailability": "Generally available for major systems; model-specific trim and glazing require verification.",
+      "bestMissions": [
+        "Weekend and multi-week cruising",
+        "Great Loop and inland waterways",
+        "Pacific Northwest or cool-weather coastal use"
+      ],
+      "lessSuitableMissions": [
+        "Owners needing a separate shower",
+        "Two-couple cruising",
+        "Buyers expecting automobile-like trailerability"
+      ],
+      "strengths": [
+        "Protected pilothouse",
+        "Narrow 9 ft 6 in beam",
+        "Strong resale identity and owner community"
+      ],
+      "tradeoffs": [
+        "Compact head and sleeping spaces",
+        "Generation differences can confuse comparisons",
+        "Loaded towing weight is substantial"
+      ],
+      "inspectionPriorities": [
+        "Generation and engine identification",
+        "Window and deck moisture",
+        "Fuel and water tank condition",
+        "Shaft, rudder and keel"
+      ],
+      "commonUpgrades": [
+        "Bow thruster where absent",
+        "Electrical modernization",
+        "Heating and ventilation upgrades"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Generation and engine identification",
+          "Window and deck moisture"
+        ],
+        "recommended": [
+          "Bow thruster where absent",
+          "Electrical modernization"
+        ],
+        "optional": [
+          "Heating and ventilation upgrades"
+        ]
+      },
+      "comparableModels": [
+        "Camano Gnome 28/31",
+        "Ranger Tug R-27 diesel",
+        "Rosborough RF-246"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Camano Gnome 28/31",
+          "Ranger Tug R-27 diesel"
+        ],
+        "alternativeIf": [
+          "Beam and pilothouse protection are priorities"
+        ],
+        "stepUpFrom": [
+          "Small cuddy and weekender cruisers"
+        ]
+      },
+      "bScoutNotes": [
+        "At 6 ft 1 in or taller, personally test berth length, pilothouse clearance and head usability.",
+        "Trailerable does not mean casually towable; loaded weight and jurisdictional rules matter."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A couple prioritizing pilothouse visibility, economical operation and compact dimensions over large living spaces."
+        ],
+        "cautions": [
+          "Owners needing a separate shower",
+          "Two-couple cruising",
+          "Buyers expecting automobile-like trailerability"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated model references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Owner-experience and buyer-fit guidance is editorial and should be verified against the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v2"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 2
+  },
+  {
+    "BoatModelID": "RNGR-21-CLASSIC",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Minimalist pocket diesel tug with genuine traditional character and very modest cruising accommodations.",
+      "designPhilosophy": "The original compact Ranger concept; separate from the later EC.",
+      "personality": "Minimalist pocket diesel tug with genuine traditional character and very modest cruising accommodations.",
+      "idealOwner": "Solo owner or couple prioritizing economy and simplicity over interior volume.",
+      "buyerProfile": "Solo owner or couple prioritizing economy and simplicity over interior volume.",
+      "lessSuitableIf": [
+        "Extended liveaboard use",
+        "Crews needing a full enclosed cruising interior"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Extended liveaboard use",
+        "Crews needing a full enclosed cruising interior"
+      ],
+      "strengths": [
+        "Low fuel burn",
+        "Traditional shaft drive",
+        "Very compact footprint"
+      ],
+      "tradeoffs": [
+        "Limited accommodation",
+        "Slow speed",
+        "Age-related refit risk"
+      ],
+      "inspectionPriorities": [
+        "Hull and deck moisture",
+        "Diesel installation and exhaust",
+        "Fuel tank and wiring",
+        "Steering and rudder gear"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Hull and deck moisture",
+          "Diesel installation and exhaust"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tug R-21 EC",
+        "Nordic Tug 21"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tug R-21 EC",
+          "Nordic Tug 21"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-21 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "Medium",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Solo owner or couple prioritizing economy and simplicity over interior volume."
+        ],
+        "cautions": [
+          "Extended liveaboard use",
+          "Crews needing a full enclosed cruising interior"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/past-models/r-21-classic"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-21-EC",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Tiny trailerable diesel tug whose enclosed cabin makes day boating and simple overnighting unusually accessible.",
+      "designPhilosophy": "An extended-cabin evolution of the R-21 concept.",
+      "personality": "Tiny trailerable diesel tug whose enclosed cabin makes day boating and simple overnighting unusually accessible.",
+      "idealOwner": "Solo cruiser or close couple wanting a simple, low-cost diesel pocket tug.",
+      "buyerProfile": "Solo cruiser or close couple wanting a simple, low-cost diesel pocket tug.",
+      "lessSuitableIf": [
+        "Long-duration cruising",
+        "Tall crews needing generous headroom"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Long-duration cruising",
+        "Tall crews needing generous headroom"
+      ],
+      "strengths": [
+        "Trailerability",
+        "Economical shaft diesel",
+        "Strong owner community"
+      ],
+      "tradeoffs": [
+        "Very limited berth and head space",
+        "Low cruising speed",
+        "Payload sensitivity"
+      ],
+      "inspectionPriorities": [
+        "Engine and cooling service",
+        "Cockpit drains",
+        "Deck hardware and moisture",
+        "Trailer condition"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Engine and cooling service",
+          "Cockpit drains"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tug R-21 Classic",
+        "Rosborough RF-18"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tug R-21 Classic",
+          "Rosborough RF-18"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-21 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "Medium",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Solo cruiser or close couple wanting a simple, low-cost diesel pocket tug."
+        ],
+        "cautions": [
+          "Long-duration cruising",
+          "Tall crews needing generous headroom"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/past-models/r-21-ec"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-25-CLASSIC",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Early trailerable diesel cruiser that established the Ranger formula of compact systems-rich couple cruising.",
+      "designPhilosophy": "The original diesel R-25 generation, not interchangeable with later SC or outboard boats.",
+      "personality": "Early trailerable diesel cruiser that established the Ranger formula of compact systems-rich couple cruising.",
+      "idealOwner": "Couple wanting a used trailerable diesel cruiser with traditional Ranger character.",
+      "buyerProfile": "Couple wanting a used trailerable diesel cruiser with traditional Ranger character.",
+      "lessSuitableIf": [
+        "Buyers expecting current-model space or speed",
+        "Owners avoiding legacy-system refits"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Buyers expecting current-model space or speed",
+        "Owners avoiding legacy-system refits"
+      ],
+      "strengths": [
+        "Diesel economy",
+        "Trailerable beam",
+        "Protected pilothouse"
+      ],
+      "tradeoffs": [
+        "Older systems",
+        "Compact engine access",
+        "Generation-specific parts"
+      ],
+      "inspectionPriorities": [
+        "Diesel and cooling service",
+        "Fuel tank and exhaust",
+        "Thruster and wiring",
+        "Core moisture"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Diesel and cooling service",
+          "Fuel tank and exhaust"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tug R-25 SC",
+        "Ranger Tug R-27 Classic"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tug R-25 SC",
+          "Ranger Tug R-27 Classic"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-25 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "Medium",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple wanting a used trailerable diesel cruiser with traditional Ranger character."
+        ],
+        "cautions": [
+          "Buyers expecting current-model space or speed",
+          "Owners avoiding legacy-system refits"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/past-models/r-25-classic"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-25-SC",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Diesel R-25 evolution with a more useful cockpit and a practical balance of road transport and couple cruising.",
+      "designPhilosophy": "Sport Cockpit evolution of the classic R-25.",
+      "personality": "Diesel R-25 evolution with a more useful cockpit and a practical balance of road transport and couple cruising.",
+      "idealOwner": "Couple wanting diesel economy with more cockpit utility than the Classic.",
+      "buyerProfile": "Couple wanting diesel economy with more cockpit utility than the Classic.",
+      "lessSuitableIf": [
+        "Buyers needing a separate shower",
+        "Crews wanting wide side decks"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Buyers needing a separate shower",
+        "Crews wanting wide side decks"
+      ],
+      "strengths": [
+        "Useful cockpit",
+        "Diesel shaft drive",
+        "Trailerable beam"
+      ],
+      "tradeoffs": [
+        "Compact wet head",
+        "Asymmetric access",
+        "Aging integrated systems"
+      ],
+      "inspectionPriorities": [
+        "Diesel cooling and exhaust",
+        "Thruster and batteries",
+        "Cockpit drains",
+        "Windows and roof fittings"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Diesel cooling and exhaust",
+          "Thruster and batteries"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tug R-25 Classic",
+        "Ranger Tug R-27 Classic"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tug R-25 Classic",
+          "Ranger Tug R-27 Classic"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-25 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "Medium",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple wanting diesel economy with more cockpit utility than the Classic."
+        ],
+        "cautions": [
+          "Buyers needing a separate shower",
+          "Crews wanting wide side decks"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/past-models/r-25-sc"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-27-OB",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Single-outboard R-27 generation that brought more speed and stern accessibility while retaining trailerable beam.",
+      "designPhilosophy": "NW and LE equipment packages precede the current twin-outboard generation.",
+      "personality": "Single-outboard R-27 generation that brought more speed and stern accessibility while retaining trailerable beam.",
+      "idealOwner": "Couple wanting fast trailerable cruising and a proven single-outboard layout.",
+      "buyerProfile": "Couple wanting fast trailerable cruising and a proven single-outboard layout.",
+      "lessSuitableIf": [
+        "Diesel-only buyers",
+        "Owners wanting the newest twin-engine redundancy"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Diesel-only buyers",
+        "Owners wanting the newest twin-engine redundancy"
+      ],
+      "strengths": [
+        "Trailerable beam",
+        "Package-specific climate equipment",
+        "Good cockpit utility"
+      ],
+      "tradeoffs": [
+        "Single-outboard generation differs from current R-27",
+        "Package variation",
+        "Compact circulation"
+      ],
+      "inspectionPriorities": [
+        "Outboard and steering service",
+        "Package-specific HVAC or heater",
+        "Thruster and electrical system",
+        "Cockpit and roof seals"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Outboard and steering service",
+          "Package-specific HVAC or heater"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-27 current",
+        "Ranger Tug R-27 Classic"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-27 current",
+          "Ranger Tug R-27 Classic"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-27 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "Medium",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple wanting fast trailerable cruising and a proven single-outboard layout."
+        ],
+        "cautions": [
+          "Diesel-only buyers",
+          "Owners wanting the newest twin-engine redundancy"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/past-models/r-27-nwle"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-27-RT",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Highly regarded trailerable diesel Ranger that adds meaningful cruising room without abandoning the 8 ft 6 in beam.",
+      "designPhilosophy": "The diesel Classic generation; separate from all outboard R-27s.",
+      "personality": "Highly regarded trailerable diesel Ranger that adds meaningful cruising room without abandoning the 8 ft 6 in beam.",
+      "idealOwner": "Couple wanting a shaft-diesel Great Loop and coastal cruiser that can still be transported by road.",
+      "buyerProfile": "Couple wanting a shaft-diesel Great Loop and coastal cruiser that can still be transported by road.",
+      "lessSuitableIf": [
+        "Buyers wanting current outboard performance",
+        "Crews needing wide side decks"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Buyers wanting current outboard performance",
+        "Crews needing wide side decks"
+      ],
+      "strengths": [
+        "Diesel range",
+        "Trailerable beam",
+        "Good couple-cruising capability"
+      ],
+      "tradeoffs": [
+        "Dense machinery access",
+        "Compact interior circulation",
+        "Aging systems"
+      ],
+      "inspectionPriorities": [
+        "Diesel service and cooling",
+        "Fuel and exhaust systems",
+        "Thrusters",
+        "Moisture around glazing and deck fittings"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Diesel service and cooling",
+          "Fuel and exhaust systems"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tug R-25 SC",
+        "Ranger Tugs R-29 Sedan"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tug R-25 SC",
+          "Ranger Tugs R-29 Sedan"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-27 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "Medium",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple wanting a shaft-diesel Great Loop and coastal cruiser that can still be transported by road."
+        ],
+        "cautions": [
+          "Buyers wanting current outboard performance",
+          "Crews needing wide side decks"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/past-models/r-27-classic"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-29-CB",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "The R-29 cruising platform with a complete upper helm for open-air operation and improved sightlines.",
+      "designPhilosophy": "A systems-rich tug cruiser that adds a second fully functional helm rather than a simple observation flybridge.",
+      "personality": "The R-29 cruising platform with a complete upper helm for open-air operation and improved sightlines.",
+      "idealOwner": "A couple wanting the R-29 accommodation plan plus open-air command and dual-helm flexibility.",
+      "buyerProfile": "A couple wanting the R-29 accommodation plan plus open-air command and dual-helm flexibility.",
+      "lessSuitableIf": [
+        "Crews avoiding ladders or elevated helm access",
+        "Routes requiring the lowest possible air draft",
+        "Owners seeking minimal exterior maintenance"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 2,
+        "maintenanceEase": 2,
+        "partsAvailability": 4,
+        "diyFriendliness": 2,
+        "operatingAffordability": 2
+      },
+      "marketAvailability": "Used-market availability varies by region, configuration and condition.",
+      "partsAvailability": "Major systems remain serviceable; model-specific trim, glazing and obsolete components require verification.",
+      "bestMissions": [
+        "Coastal cruising",
+        "Couple cruising",
+        "All-weather operation"
+      ],
+      "lessSuitableMissions": [
+        "Crews avoiding ladders or elevated helm access",
+        "Routes requiring the lowest possible air draft",
+        "Owners seeking minimal exterior maintenance"
+      ],
+      "strengths": [
+        "Complete second helm",
+        "Excellent elevated visibility",
+        "Same compact cruising accommodations as the sedan"
+      ],
+      "tradeoffs": [
+        "Higher air draft and windage",
+        "Bridge access affects mobility fit",
+        "More canvas, controls and exterior systems"
+      ],
+      "inspectionPriorities": [
+        "Bridge structure, drains and controls",
+        "Volvo service records and cooling system",
+        "Thrusters and electrical integration",
+        "Glazing and deck penetrations"
+      ],
+      "commonUpgrades": [
+        "Bridge canvas renewal",
+        "Battery-health monitoring",
+        "Preventive cooling-system service"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Bridge structure, drains and controls",
+          "Volvo service records and cooling system"
+        ],
+        "recommended": [
+          "Bridge canvas renewal",
+          "Battery-health monitoring"
+        ],
+        "optional": [
+          "Preventive cooling-system service"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-29 Sedan",
+        "Nimbus 305 Coupé",
+        "Camano Troll 31"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-29 Sedan",
+          "Camano Troll 31"
+        ],
+        "alternativeIf": [
+          "Elevated helm visibility is a priority"
+        ],
+        "stepUpFrom": [
+          "Ranger Tugs R-27"
+        ]
+      },
+      "bScoutNotes": [
+        "Command Bridge and Sedan are separate buyer-fit models.",
+        "The upper helm must be evaluated for safe access, seating and route clearance."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A couple wanting the R-29 accommodation plan plus open-air command and dual-helm flexibility."
+        ],
+        "cautions": [
+          "Crews avoiding ladders or elevated helm access",
+          "Routes requiring the lowest possible air draft",
+          "Owners seeking minimal exterior maintenance"
+        ]
+      },
+      "ownershipEase": "Low",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v3"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-29-CLASSIC",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Early ten-foot-beam R-29 that moved Ranger from trailerable pocket cruisers toward true extended-couple accommodation.",
+      "designPhilosophy": "Classic generation predating current Sedan and Command Bridge forms.",
+      "personality": "Early ten-foot-beam R-29 that moved Ranger from trailerable pocket cruisers toward true extended-couple accommodation.",
+      "idealOwner": "Couple wanting more interior volume and diesel efficiency in a manageable used Ranger.",
+      "buyerProfile": "Couple wanting more interior volume and diesel efficiency in a manageable used Ranger.",
+      "lessSuitableIf": [
+        "Buyers assuming current R-29 specifications",
+        "Owners seeking simple systems"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Buyers assuming current R-29 specifications",
+        "Owners seeking simple systems"
+      ],
+      "strengths": [
+        "Diesel shaft drive",
+        "More accommodation than R-27",
+        "Strong owner network"
+      ],
+      "tradeoffs": [
+        "Generation-specific layout",
+        "Older systems",
+        "Road transport planning"
+      ],
+      "inspectionPriorities": [
+        "Diesel and cooling system",
+        "Thrusters and electrical integration",
+        "Moisture and glazing",
+        "Tankage and sanitation"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Diesel and cooling system",
+          "Thrusters and electrical integration"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-29 Sedan",
+        "Camano Troll 31"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-29 Sedan",
+          "Camano Troll 31"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-29 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "Medium",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple wanting more interior volume and diesel efficiency in a manageable used Ranger."
+        ],
+        "cautions": [
+          "Buyers assuming current R-29 specifications",
+          "Owners seeking simple systems"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/past-models/r-29-classic"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-31-CB",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "R-31 extended-cruising platform with a retractable command bridge that preserves road-transport capability at the cost of height and complexity.",
+      "designPhilosophy": "Command Bridge counterpart to the R-31 Sedan.",
+      "personality": "R-31 extended-cruising platform with a retractable command bridge that preserves road-transport capability at the cost of height and complexity.",
+      "idealOwner": "Couple wanting dual helms and open-air operation while retaining ten-foot beam.",
+      "buyerProfile": "Couple wanting dual helms and open-air operation while retaining ten-foot beam.",
+      "lessSuitableIf": [
+        "Crews avoiding ladders or bridge maintenance",
+        "Owners prioritizing lowest air draft"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 2,
+        "maintenanceEase": 2,
+        "partsAvailability": 4,
+        "diyFriendliness": 2,
+        "operatingAffordability": 2
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Crews avoiding ladders or bridge maintenance",
+        "Owners prioritizing lowest air draft"
+      ],
+      "strengths": [
+        "Dual helms",
+        "Two staterooms and heads",
+        "Retractable bridge"
+      ],
+      "tradeoffs": [
+        "Bridge access and weather exposure",
+        "Higher air draft",
+        "More systems"
+      ],
+      "inspectionPriorities": [
+        "Bridge structure and controls",
+        "Volvo and thrusters",
+        "Folding mechanisms",
+        "Deck penetrations"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Bridge structure and controls",
+          "Volvo and thrusters"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-31 Sedan",
+        "Ranger Tugs R-29 Command Bridge"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-31 Sedan",
+          "Ranger Tugs R-29 Command Bridge"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-31 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "Medium",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple wanting dual helms and open-air operation while retaining ten-foot beam."
+        ],
+        "cautions": [
+          "Crews avoiding ladders or bridge maintenance",
+          "Owners prioritizing lowest air draft"
+        ]
+      },
+      "ownershipEase": "Low",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/models/model-category/r-31-cb"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-43-CB",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Ranger flagship with a full command bridge, twin IPS propulsion and yacht-scale accommodations for extended cruising and entertaining.",
+      "designPhilosophy": "Command Bridge flagship distinct from the Sedan in height, access and exterior helm experience.",
+      "personality": "Ranger flagship with a full command bridge, twin IPS propulsion and yacht-scale accommodations for extended cruising and entertaining.",
+      "idealOwner": "Experienced owner wanting dual helms, major social space and yacht-level systems.",
+      "buyerProfile": "Experienced owner wanting dual helms, major social space and yacht-level systems.",
+      "lessSuitableIf": [
+        "Crews avoiding bridge stairs",
+        "Buyers constrained by air draft, beam or operating cost"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 2,
+        "maintenanceEase": 2,
+        "partsAvailability": 4,
+        "diyFriendliness": 2,
+        "operatingAffordability": 2
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Crews avoiding bridge stairs",
+        "Buyers constrained by air draft, beam or operating cost"
+      ],
+      "strengths": [
+        "Full upper helm",
+        "Two private staterooms",
+        "Large entertaining spaces"
+      ],
+      "tradeoffs": [
+        "Highest complexity in the line",
+        "Bridge maintenance and access",
+        "High capital and operating cost"
+      ],
+      "inspectionPriorities": [
+        "Bridge controls and structure",
+        "IPS and joystick systems",
+        "Generator and HVAC",
+        "Electrical and navigation integration"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Bridge controls and structure",
+          "IPS and joystick systems"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-43 Sedan",
+        "Ranger Tugs R-31 Command Bridge"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-43 Sedan",
+          "Ranger Tugs R-31 Command Bridge"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-43 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "Medium",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Experienced owner wanting dual helms, major social space and yacht-level systems."
+        ],
+        "cautions": [
+          "Crews avoiding bridge stairs",
+          "Buyers constrained by air draft, beam or operating cost"
+        ]
+      },
+      "ownershipEase": "Low",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/models/model-category/r-43-cb"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-43-S",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Large twin-IPS sedan that carries Ranger’s turnkey cruising philosophy into a true two-stateroom, two-head yacht.",
+      "designPhilosophy": "The flagship sedan; no longer meaningfully trailerable or comparable to the pocket-tug models.",
+      "personality": "Large twin-IPS sedan that carries Ranger’s turnkey cruising philosophy into a true two-stateroom, two-head yacht.",
+      "idealOwner": "Couple or family seeking yacht-level comfort, joystick handling and factory-integrated systems.",
+      "buyerProfile": "Couple or family seeking yacht-level comfort, joystick handling and factory-integrated systems.",
+      "lessSuitableIf": [
+        "Buyers constrained by beam, cost or canal limits",
+        "DIY owners seeking mechanical simplicity"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 2,
+        "maintenanceEase": 2,
+        "partsAvailability": 4,
+        "diyFriendliness": 2,
+        "operatingAffordability": 2
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Buyers constrained by beam, cost or canal limits",
+        "DIY owners seeking mechanical simplicity"
+      ],
+      "strengths": [
+        "Two private staterooms",
+        "Two en suite heads",
+        "Large social salon"
+      ],
+      "tradeoffs": [
+        "Very high purchase and operating cost",
+        "IPS complexity",
+        "Fourteen-foot beam"
+      ],
+      "inspectionPriorities": [
+        "IPS service history",
+        "Generator and HVAC",
+        "Electrical integration",
+        "Hull openings and glazing"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "IPS service history",
+          "Generator and HVAC"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-43 Command Bridge",
+        "Nordic Tug 44"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-43 Command Bridge",
+          "Nordic Tug 44"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-43 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "Medium",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple or family seeking yacht-level comfort, joystick handling and factory-integrated systems."
+        ],
+        "cautions": [
+          "Buyers constrained by beam, cost or canal limits",
+          "DIY owners seeking mechanical simplicity"
+        ]
+      },
+      "ownershipEase": "Low",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/models/model-category/r-43-s"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-R-23",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Bright, trailerable outboard cruiser that combines family-dayboat speed with genuine compact overnight capability.",
+      "designPhilosophy": "Maximum usable accommodation within an 8 ft 6 in trailerable beam.",
+      "personality": "Bright, trailerable outboard cruiser that combines family-dayboat speed with genuine compact overnight capability.",
+      "idealOwner": "Couple or small family wanting fast, trailerable cruising and modern factory support.",
+      "buyerProfile": "Couple or small family wanting fast, trailerable cruising and modern factory support.",
+      "lessSuitableIf": [
+        "Buyers insisting on diesel shaft drive",
+        "Crews requiring broad interior circulation"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Buyers insisting on diesel shaft drive",
+        "Crews requiring broad interior circulation"
+      ],
+      "strengths": [
+        "Trailerable beam",
+        "Bright pilothouse",
+        "Useful multi-berth layout"
+      ],
+      "tradeoffs": [
+        "Outboard occupies stern space",
+        "Compact head and berths",
+        "High equipment density"
+      ],
+      "inspectionPriorities": [
+        "Outboard service records",
+        "Fuel system",
+        "Thruster and electrical systems",
+        "Roof glazing and seals"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Outboard service records",
+          "Fuel system"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-25",
+        "Cutwater C-24"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-25",
+          "Cutwater C-24"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-23 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple or small family wanting fast, trailerable cruising and modern factory support."
+        ],
+        "cautions": [
+          "Buyers insisting on diesel shaft drive",
+          "Crews requiring broad interior circulation"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/spec-sheets/r-23"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-R-25",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Modern 8 ft 6 in beam outboard cruiser with a private stateroom, enclosed head and highly usable clear-path stern platform.",
+      "designPhilosophy": "A current outboard platform, fundamentally different from diesel R-25 generations.",
+      "personality": "Modern 8 ft 6 in beam outboard cruiser with a private stateroom, enclosed head and highly usable clear-path stern platform.",
+      "idealOwner": "Couple wanting trailerability, modern speed and a private forward cabin.",
+      "buyerProfile": "Couple wanting trailerability, modern speed and a private forward cabin.",
+      "lessSuitableIf": [
+        "Diesel-only buyers",
+        "Owners seeking low equipment complexity"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Diesel-only buyers",
+        "Owners seeking low equipment complexity"
+      ],
+      "strengths": [
+        "Clear-path swim platform",
+        "Private forward cabin",
+        "Trailerable beam"
+      ],
+      "tradeoffs": [
+        "Outboard generation differs from diesel predecessors",
+        "Compact side access",
+        "Complex factory systems"
+      ],
+      "inspectionPriorities": [
+        "Outboard service and rigging",
+        "Lithium and charging system",
+        "Thruster",
+        "Glazing and deck penetrations"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Outboard service and rigging",
+          "Lithium and charging system"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-23",
+        "Ranger Tugs R-27"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-23",
+          "Ranger Tugs R-27"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-25 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple wanting trailerability, modern speed and a private forward cabin."
+        ],
+        "cautions": [
+          "Diesel-only buyers",
+          "Owners seeking low equipment complexity"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/spec-sheets/r-25"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-R-27",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Current twin-outboard R-27 combines 8 ft 6 in trailerability with redundancy, speed and a feature-rich cruising interior.",
+      "designPhilosophy": "Twin-outboard redesign superseding the single-outboard NW/LE generation.",
+      "personality": "Current twin-outboard R-27 combines 8 ft 6 in trailerability with redundancy, speed and a feature-rich cruising interior.",
+      "idealOwner": "Couple or family wanting fast trailerable cruising with twin-engine redundancy.",
+      "buyerProfile": "Couple or family wanting fast trailerable cruising with twin-engine redundancy.",
+      "lessSuitableIf": [
+        "Diesel-only buyers",
+        "Owners prioritizing low fuel burn at displacement speed"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 4,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Diesel-only buyers",
+        "Owners prioritizing low fuel burn at displacement speed"
+      ],
+      "strengths": [
+        "Twin-engine redundancy",
+        "Trailerable beam",
+        "Bright all-weather cabin"
+      ],
+      "tradeoffs": [
+        "Higher fuel and service burden",
+        "Outboards constrain stern geometry",
+        "Dense systems"
+      ],
+      "inspectionPriorities": [
+        "Twin outboard service records",
+        "Steering and controls",
+        "Thruster and lithium systems",
+        "Hull and deck fittings"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Twin outboard service records",
+          "Steering and controls"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-25",
+        "Ranger Tugs R-29 Sedan"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-25",
+          "Ranger Tugs R-29 Sedan"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-27 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple or family wanting fast trailerable cruising with twin-engine redundancy."
+        ],
+        "cautions": [
+          "Diesel-only buyers",
+          "Owners prioritizing low fuel burn at displacement speed"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/spec-sheets/r-27"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-R-29",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Feature-dense ten-foot-beam diesel cruiser that compresses extended-cruising systems into a compact sedan package.",
+      "designPhilosophy": "A modern tug-styled couple cruiser emphasizing all-weather comfort, cockpit adaptability and turnkey equipment.",
+      "personality": "Feature-dense ten-foot-beam diesel cruiser that compresses extended-cruising systems into a compact sedan package.",
+      "idealOwner": "A couple wanting an extensively equipped Great Loop and coastal cruiser without a command bridge.",
+      "buyerProfile": "A couple wanting an extensively equipped Great Loop and coastal cruiser without a command bridge.",
+      "lessSuitableIf": [
+        "Owners seeking simple systems or low maintenance",
+        "Buyers needing broad symmetrical side decks",
+        "Crews uncomfortable with compact multi-level interiors"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 2,
+        "maintenanceEase": 2,
+        "partsAvailability": 4,
+        "diyFriendliness": 2,
+        "operatingAffordability": 2
+      },
+      "marketAvailability": "Used-market availability varies by region, configuration and condition.",
+      "partsAvailability": "Major systems remain serviceable; model-specific trim, glazing and obsolete components require verification.",
+      "bestMissions": [
+        "Coastal cruising",
+        "Couple cruising",
+        "All-weather operation"
+      ],
+      "lessSuitableMissions": [
+        "Owners seeking simple systems or low maintenance",
+        "Buyers needing broad symmetrical side decks",
+        "Crews uncomfortable with compact multi-level interiors"
+      ],
+      "strengths": [
+        "Protected sedan helm",
+        "Island berth and additional sleeping zones",
+        "Bow and stern thrusters plus extensive standard equipment"
+      ],
+      "tradeoffs": [
+        "High systems density",
+        "Road transport requires planning",
+        "Access and circulation must be tested by the actual crew"
+      ],
+      "inspectionPriorities": [
+        "Volvo service records and cooling system",
+        "Thrusters and integrated electrical systems",
+        "Glazing and deck penetrations",
+        "Cockpit drains and steering"
+      ],
+      "commonUpgrades": [
+        "Battery-health monitoring",
+        "Preventive cooling-system service",
+        "Cockpit shade or enclosure"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Volvo service records and cooling system",
+          "Thrusters and integrated electrical systems"
+        ],
+        "recommended": [
+          "Battery-health monitoring",
+          "Preventive cooling-system service"
+        ],
+        "optional": [
+          "Cockpit shade or enclosure"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-29 Command Bridge",
+        "Nimbus 305 Coupé",
+        "Camano Troll 31"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-29 Command Bridge",
+          "Nimbus 305 Coupé"
+        ],
+        "alternativeIf": [
+          "Lower air draft and single helm are preferred"
+        ],
+        "stepUpFrom": [
+          "Ranger Tugs R-27"
+        ]
+      },
+      "bScoutNotes": [
+        "The sedan avoids bridge access but does not make the boat mechanically simple.",
+        "Evaluate the mid-berth and cabin circulation in person."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A couple wanting an extensively equipped Great Loop and coastal cruiser without a command bridge."
+        ],
+        "cautions": [
+          "Owners seeking simple systems or low maintenance",
+          "Buyers needing broad symmetrical side decks",
+          "Crews uncomfortable with compact multi-level interiors"
+        ]
+      },
+      "ownershipEase": "Low",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v3"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "RNGR-R-31",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Trailerable ten-foot-beam diesel sedan with two staterooms, two heads and unusually extensive extended-cruising capability for its footprint.",
+      "designPhilosophy": "Sedan counterpart to the retractable Command Bridge model.",
+      "personality": "Trailerable ten-foot-beam diesel sedan with two staterooms, two heads and unusually extensive extended-cruising capability for its footprint.",
+      "idealOwner": "Couple wanting serious extended cruising accommodations without bridge access.",
+      "buyerProfile": "Couple wanting serious extended cruising accommodations without bridge access.",
+      "lessSuitableIf": [
+        "Owners seeking simple systems",
+        "Buyers needing broad side decks"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 2,
+        "maintenanceEase": 2,
+        "partsAvailability": 4,
+        "diyFriendliness": 2,
+        "operatingAffordability": 2
+      },
+      "marketAvailability": "Used-market availability varies by generation, propulsion and region.",
+      "partsAvailability": "Factory support and owner community are strengths; model-specific legacy components still require verification.",
+      "bestMissions": [
+        "Protected coastal cruising",
+        "Great Loop",
+        "Couple cruising"
+      ],
+      "lessSuitableMissions": [
+        "Owners seeking simple systems",
+        "Buyers needing broad side decks"
+      ],
+      "strengths": [
+        "Two staterooms",
+        "Two heads",
+        "Strong equipment package"
+      ],
+      "tradeoffs": [
+        "High systems density",
+        "Heavy road transport",
+        "Compact service access"
+      ],
+      "inspectionPriorities": [
+        "Volvo service and cooling",
+        "Thrusters and electrical system",
+        "Powered engine hatch",
+        "Glazing and deck penetrations"
+      ],
+      "commonUpgrades": [
+        "Battery monitoring",
+        "Modern electronics where dated",
+        "Canvas or cockpit weather protection"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Volvo service and cooling",
+          "Thrusters and electrical system"
+        ],
+        "recommended": [
+          "Battery monitoring",
+          "Cooling-system service"
+        ],
+        "optional": [
+          "Canvas or cockpit weather protection"
+        ]
+      },
+      "comparableModels": [
+        "Ranger Tugs R-31 Command Bridge",
+        "Ranger Tugs R-29 Sedan"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Ranger Tugs R-31 Command Bridge",
+          "Ranger Tugs R-29 Sedan"
+        ],
+        "alternativeIf": [
+          "A different Ranger generation better matches propulsion, budget or space priorities"
+        ],
+        "stepUpFrom": []
+      },
+      "bScoutNotes": [
+        "Identify the exact R-31 generation before applying specifications.",
+        "Factory packages and owner modifications can materially change equipment and weight."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "Couple wanting serious extended cruising accommodations without bridge access."
+        ],
+        "cautions": [
+          "Owners seeking simple systems",
+          "Buyers needing broad side decks"
+        ]
+      },
+      "ownershipEase": "Low",
+      "maintenanceEase": "Low"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and model identity are tied to official Ranger Tugs resources where available.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "https://www.rangertugs.com/spec-sheets/r-31-s"
+        ]
+      },
+      {
+        "claim": "Buyer-fit observations are editorial and must be checked aboard the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Ranger family expansion"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "ROSB-246",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Rugged Canadian pocket cruiser whose buyer fit depends heavily on the exact wheelhouse and propulsion variant.",
+      "designPhilosophy": "A compact workboat-influenced cruiser designed for protected-water and coastal utility, with many owner- and builder-specific configurations.",
+      "personality": "Rugged Canadian pocket cruiser whose buyer fit depends heavily on the exact wheelhouse and propulsion variant.",
+      "idealOwner": "A buyer prioritizing ruggedness, manageable beam and trailer-based access to multiple cruising regions.",
+      "buyerProfile": "A buyer prioritizing ruggedness, manageable beam and trailer-based access to multiple cruising regions.",
+      "lessSuitableIf": [
+        "Buyers expecting one standardized interior",
+        "Two-couple accommodation",
+        "Those unwilling to verify custom construction details"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 3,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by region and condition.",
+      "partsAvailability": "Generally available for major systems; model-specific trim and glazing require verification.",
+      "bestMissions": [
+        "Weekend cruising",
+        "Trailer cruising",
+        "Fishing and utility use",
+        "Protected-water coastal cruising"
+      ],
+      "lessSuitableMissions": [
+        "Buyers expecting one standardized interior",
+        "Two-couple accommodation",
+        "Those unwilling to verify custom construction details"
+      ],
+      "strengths": [
+        "Rugged compact platform",
+        "8 ft 6 in beam supports practical trailering",
+        "Strong cockpit and utility orientation"
+      ],
+      "tradeoffs": [
+        "Variants are easy to misidentify",
+        "Cabin and head ergonomics vary substantially",
+        "Propulsion-specific maintenance differs widely"
+      ],
+      "inspectionPriorities": [
+        "Confirm exact variant and builder",
+        "Transom/bracket and engine installation",
+        "Deck and wheelhouse moisture",
+        "Trailer condition and loaded weight"
+      ],
+      "commonUpgrades": [
+        "Windlass and anchoring improvements",
+        "Heating and ventilation",
+        "Electrical and battery modernization"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Confirm exact variant and builder",
+          "Transom/bracket and engine installation"
+        ],
+        "recommended": [
+          "Windlass and anchoring improvements",
+          "Heating and ventilation"
+        ],
+        "optional": [
+          "Electrical and battery modernization"
+        ]
+      },
+      "comparableModels": [
+        "Nordic Tug 26",
+        "Ranger Tug R-25",
+        "Camano Gnome 28/31"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Nordic Tug 26",
+          "Ranger Tug R-25"
+        ],
+        "alternativeIf": [
+          "Trailerability and rugged cockpit utility are priorities"
+        ],
+        "stepUpFrom": [
+          "Smaller cabin fishing boats"
+        ]
+      },
+      "bScoutNotes": [
+        "The variant is part of the model identity; photographs and specifications must not be shared indiscriminately.",
+        "Personally test helm, berth and head ergonomics because custom interiors vary."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A buyer prioritizing ruggedness, manageable beam and trailer-based access to multiple cruising regions."
+        ],
+        "cautions": [
+          "Buyers expecting one standardized interior",
+          "Two-couple accommodation",
+          "Those unwilling to verify custom construction details"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated model references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Owner-experience and buyer-fit guidance is editorial and should be verified against the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v2"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 2
+  },
+  {
+    "BoatModelID": "ROSB-246-LS",
+    "schemaVersion": 3,
+    "intelligence": {
+      "designPhilosophy": "A rugged compact pilothouse cruiser emphasizing practical all-weather operation, manageable dimensions and flexible coastal or inland use.",
+      "personality": "Workboat-influenced, sturdy and practical rather than polished or spacious.",
+      "idealOwner": "A hands-on cruiser seeking a compact, capable pilothouse boat with straightforward utility and access to smaller waterways.",
+      "marketAvailability": "Uncommon but regionally relevant in eastern Canada and the northeastern United States.",
+      "partsAvailability": "Generally good for standard outboard or diesel systems; model-specific fittings require verification.",
+      "bestMissions": [
+        "Coastal and Great Lakes cruising",
+        "Canal and inland-waterway use",
+        "Compact expedition-style cruising"
+      ],
+      "lessSuitableMissions": [
+        "Owners prioritizing luxury interior volume",
+        "Large-party entertaining"
+      ],
+      "strengths": [
+        "Rugged pilothouse configuration",
+        "Manageable footprint",
+        "Strong all-weather practicality"
+      ],
+      "tradeoffs": [
+        "Compact accommodations",
+        "Different propulsion configurations complicate comparisons",
+        "Limited inventory"
+      ],
+      "inspectionPriorities": [
+        "Confirm exact propulsion and model configuration",
+        "Inspect hull, deck, windows and pilothouse structure",
+        "Review modifications, wiring and systems installation"
+      ],
+      "commonUpgrades": [
+        "Cruising electrical system",
+        "Heating and ventilation",
+        "Navigation and anchoring equipment"
+      ],
+      "comparableModels": [
+        "Nimble Wanderer 32",
+        "Nordic Tug 26",
+        "Mainship Pilot 30"
+      ],
+      "ownershipEase": "High",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Identity and core configuration are linked to the B-Scout BoatModels record.",
+        "evidenceType": "StructuredDatabase",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Qualitative guidance is an initial editorial assessment and requires model-specific source expansion.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v1"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-23",
+    "revision": 1
+  },
+  {
+    "BoatModelID": "WILL-30-VE",
+    "schemaVersion": 3,
+    "intelligence": {
+      "signature": "Heavy-displacement pocket passagemaker emphasizing economy, durability and sea-kindly motion rather than speed.",
+      "designPhilosophy": "A compact full-displacement cruiser built around modest power, robust proportions and long-duration economy.",
+      "personality": "Heavy-displacement pocket passagemaker emphasizing economy, durability and sea-kindly motion rather than speed.",
+      "idealOwner": "A patient and mechanically engaged cruising couple comfortable with older systems and displacement speeds.",
+      "buyerProfile": "A patient and mechanically engaged cruising couple comfortable with older systems and displacement speeds.",
+      "lessSuitableIf": [
+        "Buyers wanting 12+ knot cruising",
+        "Owners unwilling to manage older-boat refit risk",
+        "Large-group entertaining"
+      ],
+      "ownershipScores": {
+        "mechanicalSimplicity": 3,
+        "maintenanceEase": 3,
+        "partsAvailability": 3,
+        "diyFriendliness": 3,
+        "operatingAffordability": 3
+      },
+      "marketAvailability": "Used-market availability varies by region and condition.",
+      "partsAvailability": "Generally available for major systems; model-specific trim and glazing require verification.",
+      "bestMissions": [
+        "Extended coastal cruising",
+        "Great Loop at displacement speed",
+        "Economical long-duration ownership"
+      ],
+      "lessSuitableMissions": [
+        "Buyers wanting 12+ knot cruising",
+        "Owners unwilling to manage older-boat refit risk",
+        "Large-group entertaining"
+      ],
+      "strengths": [
+        "Full-displacement economy",
+        "Robust traditional hull form",
+        "Strong owner-maintained knowledge base"
+      ],
+      "tradeoffs": [
+        "Very slow by modern standards",
+        "Older examples vary widely in refit quality",
+        "Interior ergonomics are generation and modification dependent"
+      ],
+      "inspectionPriorities": [
+        "Fuel tanks and fuel system",
+        "Deck core and window leakage",
+        "Exhaust and cooling",
+        "Steering and shaft alignment"
+      ],
+      "commonUpgrades": [
+        "Tank and hose renewal",
+        "Electrical and charging modernization",
+        "Heating, insulation and ventilation"
+      ],
+      "refitPriority": {
+        "essential": [
+          "Fuel tanks and fuel system",
+          "Deck core and window leakage"
+        ],
+        "recommended": [
+          "Tank and hose renewal",
+          "Electrical and charging modernization"
+        ],
+        "optional": [
+          "Heating, insulation and ventilation"
+        ]
+      },
+      "comparableModels": [
+        "Nordic Tug 26",
+        "Grand Banks 32 Classic",
+        "Nimble Wanderer 32"
+      ],
+      "knowledgeRelationships": {
+        "comparableTo": [
+          "Nordic Tug 26",
+          "Grand Banks 32 Classic"
+        ],
+        "alternativeIf": [
+          "Economy and sea-kindly motion outrank speed"
+        ],
+        "stepUpFrom": [
+          "Smaller displacement pocket cruisers"
+        ]
+      },
+      "bScoutNotes": [
+        "Condition and refit history matter more than cosmetic presentation.",
+        "The correct Vega variant must be identified before applying specifications or layout assumptions."
+      ],
+      "sectionConfidence": {
+        "specifications": "High",
+        "ownerExperience": "Medium",
+        "commonProblems": "Medium",
+        "productionHistory": "Medium",
+        "marketValue": "Unknown"
+      },
+      "crewFit": {
+        "bestFor": [
+          "A patient and mechanically engaged cruising couple comfortable with older systems and displacement speeds."
+        ],
+        "cautions": [
+          "Buyers wanting 12+ knot cruising",
+          "Owners unwilling to manage older-boat refit risk",
+          "Large-group entertaining"
+        ]
+      },
+      "ownershipEase": "Moderate",
+      "maintenanceEase": "Moderate"
+    },
+    "evidence": [
+      {
+        "claim": "Specifications and identity are linked to curated model references and the B-Scout BoatModels record.",
+        "evidenceType": "CuratedReference",
+        "confidence": "High",
+        "sourceRefs": [
+          "public/boatmodels.json"
+        ]
+      },
+      {
+        "claim": "Owner-experience and buyer-fit guidance is editorial and should be verified against the actual vessel.",
+        "evidenceType": "EditorialAssessment",
+        "confidence": "Medium",
+        "sourceRefs": [
+          "B-Scout Reference Fleet v2"
+        ]
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25",
+    "revision": 2
+  }
+]

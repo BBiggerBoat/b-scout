@@ -1,0 +1,2157 @@
+[
+  {
+    "BoatModelID": "ALBN-28-FL",
+    "knownIssues": [
+      {
+        "title": "Under-seat machinery access",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Deck core and cockpit drains",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel tank and exhaust system",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Aftercooler and cooling maintenance",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Albin 28 TE Engine Box",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Mainship Pilot 30",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Rosborough RF-246",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Exact production split",
+        "reason": "Published sources describe a transition rather than one universal cutover year."
+      },
+      {
+        "field": "Hardtop and transom options",
+        "reason": "Verify original versus owner-added equipment."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Albin Owners Group configuration discussion",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "Albin 28 TE flush-deck review",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "ALBN-28-TE-EB",
+    "knownIssues": [
+      {
+        "title": "V-drive and alignment",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Deck core and cockpit drains",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel tank and exhaust system",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Configuration-specific machinery access",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Albin 28 TE Flush Deck",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Mainship Pilot 30",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Rosborough RF-246",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Exact production split",
+        "reason": "Engine-box and flush-deck years overlap; verify each hull."
+      },
+      {
+        "field": "Engine options",
+        "reason": "Many engines were offered or repowered."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Albin Owners Group configuration discussion",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "Published Albin 28 TE specifications",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "BAYL-3270",
+    "knownIssues": [
+      {
+        "title": "Moisture intrusion and core condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel tanks, exhaust systems and cooling circuits",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Age-related systems require verification"
+      },
+      {
+        "title": "Engine access and service history for both engines",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Configuration-specific verification required"
+      },
+      {
+        "title": "Underwater blistering reported on some older examples",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Not universal; survey required"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Mainship 34 Mk I Trawler",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Actual headroom",
+        "reason": "Measure the specific listing; published model-wide headroom is inconsistent."
+      },
+      {
+        "field": "Installed engines and performance",
+        "reason": "The model was sold with different engine packages and repowers are common."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Bayliner owner documents and manuals",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "B-Scout normalized model database",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "Current marketplace model searches",
+        "verificationStatus": "Search pages verified July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-24"
+  },
+  {
+    "BoatModelID": "CAMA-28-GN",
+    "knownIssues": [
+      {
+        "title": "Cored deck and cabin penetrations",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Window leakage",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Volvo service history",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel tank condition and configuration",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Camano Troll 31",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Nordic Tug 26",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Rosborough RF-246",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Production range",
+        "reason": "Some later listings use Gnome terminology inconsistently."
+      },
+      {
+        "field": "Air draft",
+        "reason": "Verify mast, antennas and added equipment."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Camano Pacific owners group history",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "HMY Camano 28/31 guide",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "CAMA-31-TR",
+    "knownIssues": [
+      {
+        "title": "Moisture at cored deck and cabin penetrations",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Volvo cooling, exhaust and service history",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel tank configuration by hull number",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Keel, running gear and rudder condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Camano Gnome 28/31",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Nordic Tug 26",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tug R-27",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Tankage by hull number",
+        "reason": "Published figures changed during production and should be verified on the actual boat."
+      },
+      {
+        "field": "Bridge clearance",
+        "reason": "Arch, mast and electronics vary materially by vessel."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Camano Pacific owners group history and specifications",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "GRBK-32-CL",
+    "knownIssues": [
+      {
+        "title": "Wood structure and fastenings on wood-built examples",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Deck-core moisture on fiberglass examples",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel tanks, windows and teak deck condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Engine installation and repower documentation",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Mainship 34 Mk I Motor Cruiser",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Willard Vega 30",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Marine Trader 34",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Year-specific specifications",
+        "reason": "The 32 Classic evolved over decades; dimensions, construction and layouts must be tied to production year."
+      },
+      {
+        "field": "Headroom and berth dimensions",
+        "reason": "Measure the actual boat for tall-owner fit."
+      }
+    ],
+    "sources": [
+      {
+        "type": "ManufacturerHeritage",
+        "label": "Grand Banks heritage and construction history",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "LUHR-30",
+    "knownIssues": [
+      {
+        "title": "Engine type and repower documentation",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel tank condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Cockpit deck and stringer moisture",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Exhaust and running gear",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Mainship Pilot 30",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Albin 28 Tournament Express",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Nimbus 3003",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Engine specification",
+        "reason": "Listings show materially different propulsion installations."
+      },
+      {
+        "field": "Production details",
+        "reason": "Reliable model-specific documentation remains limited."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "B-Scout model record and market-reference review",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Low",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "MNSH-30-PI",
+    "knownIssues": [
+      {
+        "title": "Fuel tank and exhaust condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Cockpit deck and structural moisture",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Engine access and service history",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Windshield, hatch and port leaks",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Albin 28 Tournament Express",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Nimbus 3003",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Rosborough 28",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Variant",
+        "reason": "Open and Sedan versions differ materially in weather protection and cabin arrangement."
+      },
+      {
+        "field": "Engine package",
+        "reason": "Performance and service access vary by engine and installation."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "PowerBoat Guide model review and variant history",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "MNSH-34-MK1",
+    "knownIssues": [
+      {
+        "title": "Original aluminum fuel-tank condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "High-priority age-related check"
+      },
+      {
+        "title": "Deck, flybridge and window moisture",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Survey and moisture testing required"
+      },
+      {
+        "title": "Cooling, exhaust and engine service history",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Engine-specific verification required"
+      },
+      {
+        "title": "Electrical, plumbing and sanitation-system modernization",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Condition varies by refit history"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Bayliner 3270 Motoryacht",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Actual headroom",
+        "reason": "Measure the specific boat at helm, salon, galley, head and berth access."
+      },
+      {
+        "field": "Holding tank capacity",
+        "reason": "Published values are inconsistent and installations may have changed."
+      },
+      {
+        "field": "Installed engine and performance",
+        "reason": "Repowers and configuration differences materially affect speed, fuel burn and parts support."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "34Mainship model specification reference",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "B-Scout normalized model database",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "Current marketplace model searches",
+        "verificationStatus": "Search pages verified July 2026"
+      }
+    ],
+    "confidence": "High",
+    "updatedAt": "2026-07-24"
+  },
+  {
+    "BoatModelID": "MNSH-34-MK2",
+    "knownIssues": [
+      {
+        "title": "Deck and flybridge core moisture",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Aluminum fuel tank condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Exhaust, cooling and electrical systems",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Flybridge ladder security and cockpit drainage",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Mainship 34 Mk I Motor Cruiser",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Mainship 34 III",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Marine Trader 34 Sedan",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model designation",
+        "reason": "Broker listings frequently mix Mk I, II, III and later 34 Trawler models; verify layout and year."
+      },
+      {
+        "field": "Installed engine",
+        "reason": "Repowers are common and performance depends on the actual installation."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "PowerBoat Guide model history and specifications",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "Soundings Mainship 34 evolution overview",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "NDST-31P",
+    "knownIssues": [
+      {
+        "title": "Sterndrives and transom assemblies",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Heating, glazing and door seals",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thrusters and electrical integration",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Deck hardware and drainage",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Nimbus 305 Coupé",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tugs R-29 Sedan",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Paragon 31 Cabin",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "North American equipment",
+        "reason": "Factory packages vary by market."
+      },
+      {
+        "field": "Air draft",
+        "reason": "Confirm actual mast and electronics installation."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Nord Star 31+ official range specifications",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "Nord Star 31 Patrol published specifications",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "NMBS-3003",
+    "knownIssues": [
+      {
+        "title": "Window and hatch sealing",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Aft-cabin ventilation and moisture",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Volvo cooling, exhaust and service history",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Teak and cockpit drainage condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Camano Troll 31",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Mainship Pilot 30",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Albin 28 Tournament Express",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Production changes",
+        "reason": "Published specifications vary by year and market."
+      },
+      {
+        "field": "Headroom and berth dimensions",
+        "reason": "Confirm aboard; published owner-level measurements are incomplete."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "De Valk Nimbus 3003 specifications",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "Val Wyatt Nimbus 3003 layout and inventory",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "NMBL-32-WA",
+    "knownIssues": [
+      {
+        "title": "Trailer, structural supports and weight verification",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Deckhouse and window leakage",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel, exhaust, steering and aging systems",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Forward berth geometry and bulkhead access",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "North Pacific 28",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tug R-27",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Rosborough 28",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Powerboat versus motorsailer records",
+        "reason": "Some online specification sources describe the related motorsailer; verify the exact powerboat variant."
+      },
+      {
+        "field": "Actual trailering weight",
+        "reason": "Published displacement excludes cruising equipment and trailer weight."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ted Brewer design and brokerage specification references",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "NDTG-26-PH",
+    "knownIssues": [
+      {
+        "title": "Generation-specific engine and tankage differences",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Pilothouse window and deck sealing",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Running gear and keel condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Trailer and towing assumptions",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Camano Gnome 28/31",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tug R-27 diesel",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Rosborough RF-246",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Generation",
+        "reason": "Early and reintroduced boats differ materially."
+      },
+      {
+        "field": "Trailerability",
+        "reason": "Legal towing requirements vary and loaded weight must be measured."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Nordic Tug 26 official/dealer specifications",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "YachtWorld Nordic Tug 26 review",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-21-CLASSIC",
+    "knownIssues": [
+      {
+        "title": "Hull and deck moisture",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Diesel installation and exhaust",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel tank and wiring",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Steering and rudder gear",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tug R-21 EC",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Nordic Tug 21",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tug R-21 Classic official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-21-EC",
+    "knownIssues": [
+      {
+        "title": "Engine and cooling service",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Cockpit drains",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Deck hardware and moisture",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Trailer condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tug R-21 Classic",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Rosborough RF-18",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tug R-21 EC official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-25-CLASSIC",
+    "knownIssues": [
+      {
+        "title": "Diesel and cooling service",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel tank and exhaust",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thruster and wiring",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Core moisture",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tug R-25 SC",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tug R-27 Classic",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tug R-25 Classic official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-25-SC",
+    "knownIssues": [
+      {
+        "title": "Diesel cooling and exhaust",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thruster and batteries",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Cockpit drains",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Windows and roof fittings",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tug R-25 Classic",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tug R-27 Classic",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tug R-25 SC official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-27-OB",
+    "knownIssues": [
+      {
+        "title": "Outboard and steering service",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Package-specific HVAC or heater",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thruster and electrical system",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Cockpit and roof seals",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-27 current",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tug R-27 Classic",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs R-27 NW/LE official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-27-RT",
+    "knownIssues": [
+      {
+        "title": "Diesel service and cooling",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel and exhaust systems",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thrusters",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Moisture around glazing and deck fittings",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tug R-25 SC",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tugs R-29 Sedan",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tug R-27 Classic official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-29-CB",
+    "knownIssues": [
+      {
+        "title": "Command-bridge structure and controls",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Volvo service history",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thrusters and integrated electronics",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Glazing and deck penetrations",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-29 Sedan",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Nimbus 305 Coupé",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Camano Troll 31",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Exact year-by-year dimensions",
+        "reason": "Confirm against the specific factory manual."
+      },
+      {
+        "field": "Bridge clearance",
+        "reason": "Measure actual antenna and mast arrangement."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs Command Bridge explanation",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs owner manuals",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-29-CLASSIC",
+    "knownIssues": [
+      {
+        "title": "Diesel and cooling system",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thrusters and electrical integration",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Moisture and glazing",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Tankage and sanitation",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-29 Sedan",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Camano Troll 31",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tug R-29 Classic official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-31-CB",
+    "knownIssues": [
+      {
+        "title": "Bridge structure and controls",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Volvo and thrusters",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Folding mechanisms",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Deck penetrations",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-31 Sedan",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tugs R-29 Command Bridge",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs R-31 Command Bridge official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-43-CB",
+    "knownIssues": [
+      {
+        "title": "Bridge controls and structure",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "IPS and joystick systems",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Generator and HVAC",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Electrical and navigation integration",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-43 Sedan",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tugs R-31 Command Bridge",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs R-43 Command Bridge official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-43-S",
+    "knownIssues": [
+      {
+        "title": "IPS service history",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Generator and HVAC",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Electrical integration",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Hull openings and glazing",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-43 Command Bridge",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Nordic Tug 44",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs R-43 Sedan official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-R-23",
+    "knownIssues": [
+      {
+        "title": "Outboard service records",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel system",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thruster and electrical systems",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Roof glazing and seals",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-25",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Cutwater C-24",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs R-23 official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-R-25",
+    "knownIssues": [
+      {
+        "title": "Outboard service and rigging",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Lithium and charging system",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thruster",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Glazing and deck penetrations",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-23",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tugs R-27",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs R-25 official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-R-27",
+    "knownIssues": [
+      {
+        "title": "Twin outboard service records",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Steering and controls",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thruster and lithium systems",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Hull and deck fittings",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-25",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tugs R-29 Sedan",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs R-27 official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-R-29",
+    "knownIssues": [
+      {
+        "title": "Volvo service history",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thrusters and integrated electronics",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Glazing and roof penetrations",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Cockpit drains and steering",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-29 Command Bridge",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Nimbus 305 Coupé",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Camano Troll 31",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Generation boundaries",
+        "reason": "Earlier R-29s differ from the current specification."
+      },
+      {
+        "field": "Option packages",
+        "reason": "Northwest and Luxury equipment varied by model year."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs current R-29 S specifications",
+        "verificationStatus": "Verified July 2026"
+      },
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs owner manuals",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "RNGR-R-31",
+    "knownIssues": [
+      {
+        "title": "Volvo service and cooling",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Thrusters and electrical system",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Powered engine hatch",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Glazing and deck penetrations",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Ranger Tugs R-31 Command Bridge",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tugs R-29 Sedan",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Model-year equipment",
+        "reason": "Factory packages and owner modifications vary by year."
+      },
+      {
+        "field": "Crew fit",
+        "reason": "Berth, head and access dimensions require an onboard check."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Ranger Tugs R-31 Sedan official model resource",
+        "verificationStatus": "Official or owner resource verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "ROSB-246",
+    "knownIssues": [
+      {
+        "title": "Variant and propulsion identification",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Transom or bracket structure",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Deck and cabin moisture",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Fuel system and wiring quality",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Nordic Tug 26",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Ranger Tug R-25",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Camano Gnome 28/31",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Variant dimensions",
+        "reason": "RF-246, LS Sedan and custom wheelhouse records must remain separate."
+      },
+      {
+        "field": "Loaded towing weight",
+        "reason": "Measure actual boat, engine, fuel and trailer."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Rosborough model records and variant references",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "BoatModelID": "ROSB-246-LS",
+    "missingInformation": [
+      {
+        "field": "ExternalEvidence",
+        "reason": "Add model-specific manufacturer, survey, owner and service sources to raise confidence."
+      }
+    ],
+    "sources": [
+      {
+        "type": "ReferenceFleetSeed",
+        "label": "B-Scout Reference Fleet v1 identity seed",
+        "verificationStatus": "Structured database match"
+      }
+    ],
+    "confidence": "Low",
+    "updatedAt": "2026-07-23"
+  },
+  {
+    "BoatModelID": "WILL-30-VE",
+    "knownIssues": [
+      {
+        "title": "Fuel tank corrosion or contamination",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Deck and cabin moisture",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Exhaust and cooling condition",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      },
+      {
+        "title": "Steering and running gear",
+        "sourceLabel": "B-Scout survey focus",
+        "resourceType": "Inspection priority",
+        "verificationStatus": "Model-level caution; inspect actual vessel"
+      }
+    ],
+    "similarModels": [
+      {
+        "title": "Nordic Tug 26",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Grand Banks 32 Classic",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      },
+      {
+        "title": "Nimble Wanderer 32",
+        "sourceLabel": "B-Scout comparison set",
+        "resourceType": "Comparable model",
+        "verificationStatus": "Curated"
+      }
+    ],
+    "missingInformation": [
+      {
+        "field": "Variant identification",
+        "reason": "Vega, Vega Horizon and related deck arrangements must not be merged."
+      },
+      {
+        "field": "Tankage",
+        "reason": "Owner modifications and replacement tanks are common."
+      }
+    ],
+    "sources": [
+      {
+        "type": "CuratedReference",
+        "label": "Willard Boats owner manual archive",
+        "verificationStatus": "Verified July 2026"
+      }
+    ],
+    "confidence": "Medium",
+    "updatedAt": "2026-07-25"
+  }
+]

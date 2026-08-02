@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>B-Scout</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     FIXED HEADER
+==================================================== -->
+
+<header class="site-header">
+
+    <div class="header-brand">
+        <div class="header-logo">
+            <img src="images/bscout-wordmark-wave.svg" alt="B-Scout">
+        </div>
+        <div class="header-positioning" aria-label="B-Scout positioning statement">
+            <span class="header-tagline">Boat Knowledge for <em>Better Decisions</em></span>
+        </div>
+    </div>
+
+    <nav class="top-nav" aria-label="Primary navigation">
+        <a href="#home" data-app-action="home">Home</a>
+        <a href="#about" data-app-action="about">About B-Scout</a>
+        <a href="#contact" data-app-action="contact">Contact</a>
+        <a href="#my-boats" data-app-action="my-boats">My Boats</a>
+        <a href="developer/enrichment.html">Data Enrichment</a>
+        <a href="developer/model-audit.html">Model Audit</a>
+    </nav>
+
+</header>
+
+
+
+
+<!-- =====================================================
+     MAIN APPLICATION AREA
+===================================================== -->
+
+
+<div class="app-layout">
+
+
+
+<!-- =====================================================
+     SEARCH COLUMN
+===================================================== -->
+
+
+<aside class="search-panel">
+
+
+<h2>Search & Filters</h2>
+
+
+<div class="buyer-workspace-container" style="margin-bottom: 20px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
+    <h3 style="font-size: 14px; font-weight: bold; margin-bottom: 8px; text-transform: uppercase; color: #64748b;">My Boats</h3>
+    <button id="viewFavoriteBoatsBtn" class="workspace-status-btn" type="button">
+        <span>⭐ Favorites</span>
+        <span id="favoriteBoatsCount">0</span>
+    </button>
+    <button id="viewCandidateBoatsBtn" class="workspace-status-btn" type="button">
+        <span>📌 Candidates</span>
+        <span id="candidateBoatsCount">0</span>
+    </button>
+    <button id="viewResearchingBoatsBtn" class="workspace-status-btn" type="button">
+        <span>🔎 Evaluating</span>
+        <span id="researchingBoatsCount">0</span>
+    </button>
+    <button id="viewRejectedBoatsBtn" class="workspace-status-btn" type="button">
+        <span>🚫 Rejected</span>
+        <span id="rejectedBoatsCount">0</span>
+    </button>
+    <button id="openDecisionWorkspaceBtn" class="workspace-primary-btn" type="button">Open My Boats</button>
+</div>
+
+
+
+<div class="filter-group active search-profile-group">
+    <button type="button" class="filter-header">
+        <span>Search Profile</span>
+        <span class="arrow-icon">▼</span>
+    </button>
+    <div class="filter-content">
+        <div class="search-profile-container">
+            <p id="cruisingProfileDescription" class="profile-description">Built-in and personal searches are managed together. Locked profiles can be opened or duplicated.</p>
+            <div id="searchProfileSummary" class="search-profile-summary" aria-live="polite">
+                <strong>Current profile</strong>
+                <span>No search criteria applied.</span>
+            </div>
+
+            
+            <div class="profile-select-row">
+                <select id="searchProfileSelect" aria-label="Search Profile">
+                    <option value="">New Search (empty)</option>
+                </select>
+            </div>
+            <div class="search-profile-buttons">
+                <button id="newProfileBtn" type="button">New</button>
+                <button id="saveProfileBtn" type="button" disabled>Save</button>
+                <button id="duplicateProfileBtn" type="button">Duplicate</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="search-buttons primary-search-actions">
+    <button id="searchButton">Search</button>
+    <button id="clearButton">Clear</button>
+</div>
+<div class="sidebar-results-summary" aria-live="polite">
+    <span>Results</span>
+    <strong id="currentBoatsCount">0</strong>
+    <small>of <span id="totalBoatsCount">0</span> models</small>
+</div>
+<label class="temporary-image-filter" for="hideModelsWithoutImages">
+    <input type="checkbox" id="hideModelsWithoutImages">
+    Hide Models Without Images
+</label>
+
+<h2 class="search-section-heading filters-heading">FILTERS</h2>
+
+<div class="filter-group active">
+    <button type="button" class="filter-header">
+        <span>Routes</span>
+        <span class="arrow-icon">▼</span>
+    </button>
+    <div class="filter-content">
+        <section class="filter-section">
+            <h3>Routes</h3>
+            <label>
+                <input type="checkbox" class="routeFilter" value="RC"> Rideau Canal
+            </label>
+            <label>
+                <input type="checkbox" class="routeFilter" value="TSW"> Trent-Severn Waterway
+            </label>
+            <label>
+                <input type="checkbox" class="routeFilter" value="ICW"> Intracoastal Waterway
+            </label>
+            <label>
+                <input type="checkbox" class="routeFilter" value="EC"> Erie Canal
+            </label>
+            <label>
+                <input type="checkbox" class="routeFilter" value="HR"> Hudson River
+            </label>
+            <label>
+                <input type="checkbox" class="routeFilter" value="MRS"> Mississippi River System
+            </label>
+            <label>
+                <input type="checkbox" class="routeFilter" value="SLR"> St. Lawrence River
+            </label>
+            <label>
+                <input type="checkbox" class="routeFilter" value="CSR"> Columbia & Snake Rivers
+            </label>
+        </section>
+    </div>
+</div>
+
+
+<div class="filter-group active">
+    <button type="button" class="filter-header">
+        <span>Dimensions</span>
+        <span class="arrow-icon">▼</span>
+    </button>
+    <div class="filter-content">
+        <section class="filter-section compact-number-row">
+            <label for="maxLength">Max Length (ft)</label>
+            <input type="number" id="maxLength" inputmode="decimal" placeholder="33">
+        </section>
+        <section class="filter-section compact-number-row">
+            <label for="maxBeam">Max Beam (ft)</label>
+            <input type="number" id="maxBeam" inputmode="decimal" placeholder="10.5">
+        </section>
+    </div>
+</div>
+
+
+<div class="filter-group active">
+    <button type="button" class="filter-header">
+        <span>Characteristics</span>
+        <span class="arrow-icon">▼</span>
+    </button>
+    <div class="filter-content">
+        <section class="filter-section taxonomy-section">
+            <h3 class="show-header">Family</h3>
+            <div class="compact-option-grid">
+                <label><input type="checkbox" class="familyFilter" value="Trawler"> Trawler</label>
+                <label><input type="checkbox" class="familyFilter" value="Cruiser"> Cruiser</label>
+                <label><input type="checkbox" class="familyFilter" value="Tug"> Tug</label>
+                <label><input type="checkbox" class="familyFilter" value="Downeast"> Downeast</label>
+                <label><input type="checkbox" class="familyFilter" value="Sportfisher"> Sportfisher</label>
+                <label><input type="checkbox" class="familyFilter" value="Motor Yacht"> Motor Yacht</label>
+            </div>
+        </section>
+        <section class="filter-section taxonomy-section">
+            <h3 class="show-header">Sub-Family</h3>
+            <div class="compact-option-grid">
+                <label><input type="checkbox" class="configurationFilter" value="Classic Trawler"> Classic Trawler</label>
+                <label><input type="checkbox" class="configurationFilter" value="Pilothouse Trawler"> Pilothouse Trawler</label>
+                <label><input type="checkbox" class="configurationFilter" value="Raised Pilothouse"> Raised Pilothouse</label>
+                <label><input type="checkbox" class="configurationFilter" value="Express Cruiser"> Express Cruiser</label>
+                <label><input type="checkbox" class="configurationFilter" value="Aft Cabin Cruiser"> Aft Cabin Cruiser</label>
+                <label><input type="checkbox" class="configurationFilter" value="Family Cruiser"> Family Cruiser</label>
+            </div>
+        </section>
+        <section class="filter-section taxonomy-section">
+            <h3 class="show-header">Hull Behaviour</h3>
+            <div class="compact-option-grid">
+                <label><input type="checkbox" class="hullFilter" value="Full Displacement"> Full Displacement</label>
+                <label><input type="checkbox" class="hullFilter" value="Semi-Displacement"> Semi-Displacement</label>
+                <label><input type="checkbox" class="hullFilter" value="Planing"> Planing</label>
+            </div>
+        </section>
+        <section class="filter-section taxonomy-section">
+            <h3 class="show-header">Construction Material</h3>
+            <div class="compact-option-grid">
+                <label><input type="checkbox" class="constructionFilter" value="Fiberglass"> Fiberglass</label>
+                <label><input type="checkbox" class="constructionFilter" value="Aluminum"> Aluminum</label>
+                <label><input type="checkbox" class="constructionFilter" value="Steel"> Steel</label>
+                <label><input type="checkbox" class="constructionFilter" value="Wood"> Wood</label>
+            </div>
+        </section>
+        <section class="filter-section">
+            <h3 class="show-header">Fuel & Propulsion</h3>
+            <div class="compact-option-grid">
+                <label><input type="checkbox" class="fuelFilter" value="Diesel"> Diesel</label>
+                <label><input type="checkbox" class="fuelFilter" value="Gas"> Gas</label>
+                <label><input type="checkbox" class="propulsionFilter" value="Shaft"> Shaft Drive</label>
+                <label><input type="checkbox" class="propulsionFilter" value="Outboard"> Outboard</label>
+                <label><input type="checkbox" class="propulsionFilter" value="Stern Drive"> Outdrive / Stern Drive</label>
+            </div>
+        </section>
+    </div>
+</div>
+
+<h2 class="search-section-heading preferences-heading">PREFERENCES</h2>
+
+<div class="filter-group active preference-group">
+    <button type="button" class="filter-header">
+        <span>Standard</span>
+        <span class="arrow-icon">▼</span>
+    </button>
+    <div class="filter-content">
+        <section class="filter-section feature-priority-list">
+            <h3 class="show-header">Layout and Access</h3>
+            <div class="feature-priority-row"><span>Walkthrough transom</span><select class="featurePriority" data-feature="Walkthrough Transom"><option value="">Not selected</option><option value="Required">High</option><option value="Preferred">Medium</option><option value="Bonus">Low</option></select></div>
+            <div class="feature-priority-row"><span>Wide side decks</span><select class="featurePriority" data-feature="Wide Side Decks"><option value="">Not selected</option><option value="Required">High</option><option value="Preferred">Medium</option><option value="Bonus">Low</option></select></div>
+            <div class="feature-priority-row"><span>Side helm door</span><select class="featurePriority" data-feature="Side Helm Door"><option value="">Not selected</option><option value="Required">High</option><option value="Preferred">Medium</option><option value="Bonus">Low</option></select></div>
+            <div class="feature-priority-row"><span>Galley up with helm</span><select class="featurePriority" data-feature="Galley Up with Helm"><option value="">Not selected</option><option value="Required">High</option><option value="Preferred">Medium</option><option value="Bonus">Low</option></select></div>
+            <div class="feature-priority-row"><span>Separate shower</span><select class="featurePriority" data-feature="Separate Shower"><option value="">Not selected</option><option value="Required">High</option><option value="Preferred">Medium</option><option value="Bonus">Low</option></select></div>
+            <div class="feature-priority-row"><span>Aft cabin</span><select class="featurePriority" data-feature="Aft Cabin"><option value="">Not selected</option><option value="Required">High</option><option value="Preferred">Medium</option><option value="Bonus">Low</option></select></div>
+            <div class="feature-priority-row"><span>Removable flybridge</span><select class="featurePriority" data-feature="Removable Flybridge"><option value="">Not selected</option><option value="Required">High</option><option value="Preferred">Medium</option><option value="Bonus">Low</option></select></div>
+            <h3 class="show-header">Hull and Transport</h3>
+            <div class="feature-priority-row"><span>Long keel</span><select class="featurePriority" data-feature="Long Keel"><option value="">Not selected</option><option value="Required">High</option><option value="Preferred">Medium</option><option value="Bonus">Low</option></select></div>
+            <div class="feature-priority-row"><span>Skeg-hung rudder</span><select class="featurePriority" data-feature="Skeg-Hung Rudder"><option value="">Not selected</option><option value="Required">High</option><option value="Preferred">Medium</option><option value="Bonus">Low</option></select></div>
+            <div class="feature-priority-row"><span>Trailerable</span><select class="featurePriority" data-feature="Trailerable"><option value="">Not selected</option><option value="Required">High</option><option value="Preferred">Medium</option><option value="Bonus">Low</option></select></div>
+        </section>
+    </div>
+</div>
+
+<div class="filter-group active preference-group">
+    <button type="button" class="filter-header">
+        <span>Crew Fit</span>
+        <span class="arrow-icon">▼</span>
+    </button>
+    <div class="filter-content">
+        <section class="filter-section crew-preference-list">
+            <div class="feature-priority-row"><span>Primary Crew</span><select id="crewComposition"><option value="">Not specified</option><option value="Solo">Solo cruiser</option><option value="Couple">Cruising couple</option><option value="TwoCouples">Two couples</option><option value="Family">Family</option></select></div>
+            <div class="feature-priority-row"><span>Tallest Crew</span><input type="number" id="tallestCrewHeight" min="48" max="90" inputmode="numeric" placeholder="74" aria-label="Tallest Crew in inches"></div>
+            <div class="feature-priority-row"><span>Overnight Guests</span><select id="guestFrequency"><option value="">Not specified</option><option value="Rarely">Rarely</option><option value="Sometimes">Sometimes</option><option value="Often">Often</option></select></div>
+        </section>
+        <div class="crew-guidance-note">Crew Fit preferences improve ranking when model data confirms a match. Unknown data does not exclude a boat.</div>
+    </div>
+</div>
+
+<div class="filter-group active preference-group">
+    <button type="button" class="filter-header">
+        <span>Text Search</span>
+        <span class="arrow-icon">▼</span>
+    </button>
+    <div class="filter-content">
+        <section class="filter-section">
+            <div class="search-input-group">
+                <input type="text" id="textSearch" placeholder="Models, engines, strengths, features...">
+                <button id="clearTextSearch" type="button" title="Clear search text">✕</button>
+            </div>
+            <div class="crew-guidance-note">Matching text improves preference ranking. It does not exclude boats.</div>
+        </section>
+    </div>
+</div>
+
+
+
+
+
+
+</aside>
+
+
+
+
+
+
+
+
+<!-- =====================================================
+     RESULTS AREA
+===================================================== -->
+
+
+<main class="results-area" id="home">
+
+<div class="results-header">
+    <div>
+        <h2>Available Boats</h2>
+        <p class="results-principle">Known poor fits are eliminated; incomplete boats remain visible.</p>
+    </div>
+    <button type="button" class="secondary-action compact-action" id="loadDemoFleetBtn">Load Demo Fleet</button>
+</div>
+
+
+
+
+<div id="boat-listings" class="boat-grid">
+
+
+<!-- JavaScript inserts boat cards here -->
+
+
+</div>
+
+
+
+<footer class="site-footer">
+  <span><strong>B-Scout</strong> — Boat knowledge for better decisions.</span>
+  <nav aria-label="Footer navigation">
+    <a href="#about" data-app-action="about">About</a>
+    <a href="#contact" data-app-action="contact">Contact</a>
+    <a href="#privacy" data-app-action="privacy">Privacy</a>
+  </nav>
+  <span>Version 6.42</span>
+</footer>
+</main>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+     BOAT WORKSPACE — MODEL KNOWLEDGE
+===================================================== -->
+<div id="boatModal" class="modal">
+  <div class="modal-content boat-workspace-modal-content">
+    <button id="closeModal" class="modal-close" aria-label="Close boat workspace">×</button>
+    <button type="button" class="context-back-button" data-close-modal="boatModal">← Back</button>
+    <header class="boat-workspace-header">
+      <div>
+        <p class="workspace-eyebrow">Boat Model Workspace</p>
+        <h2 id="modalTitle">Boat Workspace</h2>
+        <p id="workspaceIdentitySummary" class="workspace-subtitle"></p>
+      </div>
+      <img id="modalImage" class="modal-image workspace-boat-image" style="display:none;" alt="">
+    </header>
+    <nav class="boat-workspace-tabs" role="tablist" aria-label="Boat workspace sections">
+      <button type="button" class="boat-workspace-tab active" data-workspace-tab="overview" role="tab" aria-selected="true" tabindex="0" aria-controls="workspacePanelOverview">Overview</button>
+      <button type="button" class="boat-workspace-tab" data-workspace-tab="knowledge" role="tab" aria-selected="false" tabindex="-1" aria-controls="workspacePanelKnowledge">Knowledge</button>
+      <button type="button" class="boat-workspace-tab" data-workspace-tab="intelligence" role="tab" aria-selected="false" tabindex="-1" aria-controls="workspacePanelIntelligence">Intelligence</button>
+      <button type="button" class="boat-workspace-tab" data-workspace-tab="resources" role="tab" aria-selected="false" tabindex="-1" aria-controls="workspacePanelResources">Resources</button>
+      <button type="button" class="boat-workspace-tab" data-workspace-tab="evidence" role="tab" aria-selected="false" tabindex="-1" aria-controls="workspacePanelEvidence">Evidence</button>
+      <button type="button" class="boat-workspace-tab" data-workspace-tab="progress" role="tab" aria-selected="false" tabindex="-1" aria-controls="workspacePanelProgress">Progress</button>
+      <button type="button" class="boat-workspace-tab" data-workspace-tab="buy" role="tab" aria-selected="false" tabindex="-1" aria-controls="workspacePanelBuy">Buy This Boat</button>
+      <button type="button" class="boat-workspace-tab" data-workspace-tab="listings" role="tab" aria-selected="false" tabindex="-1" aria-controls="workspacePanelListings">Listings</button>
+      <button type="button" class="boat-workspace-tab" data-workspace-tab="notebook" role="tab" aria-selected="false" tabindex="-1" aria-controls="workspacePanelNotebook">Notes</button>
+    </nav>
+    <div id="boatWorkspaceStatus" class="workspace-status-message" aria-live="polite"></div>
+    <section id="workspacePanelOverview" role="tabpanel" class="boat-workspace-panel active" data-workspace-panel="overview"></section>
+    <section id="workspacePanelKnowledge" role="tabpanel" class="boat-workspace-panel" data-workspace-panel="knowledge"></section>
+    <section id="workspacePanelIntelligence" role="tabpanel" class="boat-workspace-panel" data-workspace-panel="intelligence"></section>
+    <section id="workspacePanelResources" role="tabpanel" class="boat-workspace-panel" data-workspace-panel="resources"></section>
+    <section id="workspacePanelEvidence" role="tabpanel" class="boat-workspace-panel" data-workspace-panel="evidence"></section>
+    <section id="workspacePanelProgress" role="tabpanel" class="boat-workspace-panel" data-workspace-panel="progress"></section>
+    <section id="workspacePanelBuy" role="tabpanel" class="boat-workspace-panel" data-workspace-panel="buy"></section>
+    <section id="workspacePanelListings" role="tabpanel" class="boat-workspace-panel" data-workspace-panel="listings"></section>
+    <section id="workspacePanelNotebook" role="tabpanel" class="boat-workspace-panel" data-workspace-panel="notebook"></section>
+  </div>
+</div>
+
+<!-- =====================================================
+     NOTEBOOK MODAL
+===================================================== -->
+
+<div id="researchModal" class="modal">
+
+    <div class="modal-content">
+
+        <button id="closeResearchModal" class="modal-close">×</button>
+
+        <h2 id="researchModalTitle">Model Notes</h2>
+
+        <div class="modal-section">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">Boat</label>
+            <div id="researchBoatName" style="font-size: 1.2em; margin-bottom: 10px;"></div>
+        </div>
+
+        <div class="modal-section">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">Status (Read-only)</label>
+            <div id="researchBoatStatus" style="padding: 8px; background: #f3f4f6; border-radius: 4px;"></div>
+        </div>
+
+        <div class="modal-section">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">Rating (1–5 stars)</label>
+            <select id="researchRating">
+                <option value="0">Unrated</option>
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+            </select>
+        </div>
+
+        <div class="modal-section">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">Model Notes</label>
+            <textarea id="researchNotes" rows="5" style="width: 100%; padding: 8px; border: 1px solid #bbb; border-radius: 4px;"></textarea>
+        </div>
+
+        <div class="modal-section">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">Tags (comma-separated)</label>
+            <input type="text" id="researchTags" placeholder="e.g. offshore, weekend, family">
+        </div>
+
+        <div class="modal-section legacy-listing-compatibility">
+            <h3>Listing Discovery</h3>
+            <p class="field-help">Marketplace discovery belongs in My Boats. These links are shown here only for compatibility with existing saved work.</p>
+            <div id="notebookListingSearches" class="notebook-listing-searches">No model-specific listing searches are available.</div>
+        </div>
+
+        <div class="modal-section legacy-listing-compatibility">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">Legacy Saved Listing Links</label>
+            <textarea id="researchBrokerLinks" rows="3" style="width: 100%; padding: 8px; border: 1px solid #bbb; border-radius: 4px;"></textarea>
+        </div>
+
+        <div style="margin-top: 20px; display: flex; gap: 10px;">
+            <button id="saveResearchBtn">Save</button>
+            <button id="cancelResearchBtn" style="background: #94a3b8;">Cancel</button>
+        </div>
+
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- =====================================================
+     DECISION WORKSPACE MODAL
+===================================================== -->
+<div id="decisionWorkspaceModal" class="modal">
+    <div class="modal-content decision-workspace-modal-content">
+        <button id="closeDecisionWorkspaceModal" class="modal-close">×</button>
+        <button type="button" class="context-back-button" data-close-modal="decisionWorkspaceModal">← Back to search</button>
+        <div class="decision-workspace-header">
+            <div>
+                <h2>My Boats</h2>
+                <p id="decisionWorkspaceProfileName">Saved models and specific candidate listings</p>
+            </div>
+            <button id="compareWorkspaceSelectionBtn" type="button" disabled>Compare Selected (0)</button>
+        </div>
+        <div class="decision-workspace-filters" role="group" aria-label="Decision workspace status filters">
+            <button type="button" class="decision-filter-btn active" data-status="All">All</button>
+            <button type="button" class="decision-filter-btn" data-status="Favorite">Favorites</button>
+            <button type="button" class="decision-filter-btn" data-status="Candidate">Candidates</button>
+            <button type="button" class="decision-filter-btn" data-status="Research">Evaluating</button>
+            <button type="button" class="decision-filter-btn" data-status="Rejected">Rejected</button>
+        </div>
+        <section class="my-boats-listings-panel">
+            <div class="my-boats-listings-header">
+                <div><h3>Specific Candidate Listings</h3><p>Each listing is tied to one boat model and retains its own market details and notebook.</p></div>
+            </div>
+            <div class="listing-lifecycle-summary" aria-label="Listing lifecycle summary">
+                <span><strong id="listingTotalCount">0</strong> Total</span>
+                <span><strong id="listingActiveCount">0</strong> Active</span>
+                <span><strong id="listingOfferCount">0</strong> Offers</span>
+                <span><strong id="listingClosedCount">0</strong> Closed</span>
+            </div>
+            <div class="listing-lifecycle-filters" role="group" aria-label="Filter specific listings">
+                <button type="button" class="listing-filter-btn active" data-listing-status="All">All</button>
+                <button type="button" class="listing-filter-btn" data-listing-status="Watching">Watching</button>
+                <button type="button" class="listing-filter-btn" data-listing-status="Candidate">Candidates</button>
+                <button type="button" class="listing-filter-btn" data-listing-status="Evaluating">Evaluating</button>
+                <button type="button" class="listing-filter-btn" data-listing-status="Offer">Offers</button>
+                <button type="button" class="listing-filter-btn" data-listing-status="Closed">Closed</button>
+            </div>
+            <div id="myBoatsListings" class="my-boats-listings"></div>
+        </section>
+        <section class="saved-models-heading"><h3>Saved Models</h3><p>Shared model knowledge remains separate from individual boats for sale.</p></section>
+        <div class="decision-workspace-layout">
+            <div class="decision-workspace-table-wrapper">
+                <table class="decision-workspace-table">
+                    <thead><tr><th>Compare</th><th>Boat</th><th>Stage</th><th>Rating</th><th>Updated</th><th>Actions</th></tr></thead>
+                    <tbody id="decisionWorkspaceTableBody"></tbody>
+                </table>
+            </div>
+            <aside class="decision-timeline-panel">
+                <h3>Research Timeline</h3>
+                <div id="decisionTimeline">Select a boat to view its history.</div>
+            </aside>
+        </div>
+    </div>
+</div>
+
+<!-- =====================================================
+     LISTING WORKSPACE — INDIVIDUAL CANDIDATE BOAT
+===================================================== -->
+<div id="listingWorkspaceModal" class="modal">
+  <div class="modal-content listing-workspace-modal-content">
+    <button id="closeListingWorkspaceModal" class="modal-close" aria-label="Close listing workspace">×</button>
+    <header class="listing-workspace-header">
+      <div><p class="workspace-eyebrow">Specific Candidate Boat</p><h2 id="listingWorkspaceTitle">Listing Workspace</h2><p id="listingWorkspaceModel" class="workspace-subtitle"></p></div>
+      <button id="listingOpenModelBtn" type="button" class="workspace-secondary-action">Model Workspace</button>
+    </header>
+    <div class="listing-workspace-grid">
+      <section class="workspace-card"><h3>Listing Summary</h3>
+        <div class="listing-form-grid">
+          <label>Listing title<input id="listingTitle" type="text"></label>
+          <label>Status<select id="listingStatus"><option value="Watching">Watching</option><option value="Candidate">Candidate</option><option value="Evaluating">Evaluating</option><option value="Offer">Offer</option><option value="Rejected">Rejected</option><option value="Sold">Sold</option><option value="Archived">Archived</option></select></label>
+          <label>Year<input id="listingYear" type="number" min="1900" max="2100"></label>
+          <label>Price<input id="listingPrice" type="number" min="0" step="1"></label>
+          <label>Currency<select id="listingCurrency"><option value="CAD">CAD</option><option value="USD">USD</option><option value="EUR">EUR</option><option value="GBP">GBP</option><option value="Other">Other</option></select></label>
+          <label>Location<input id="listingLocation" type="text" placeholder="Kingston, Ontario"></label>
+          <label>Broker or seller<input id="listingBroker" type="text"></label>
+          <label>Source<input id="listingSource" type="text" placeholder="Brokerage or marketplace"></label>
+        </div>
+        <label class="workspace-field-label">Listing URL<input id="listingUrl" type="url" placeholder="https://..."></label>
+      </section>
+      <section class="workspace-card"><h3>Listing Notebook</h3><p class="field-help">These observations apply only to this individual boat.</p>
+        <label class="workspace-field-label">Notes<textarea id="listingNotes" rows="5"></textarea></label>
+        <label class="workspace-field-label">Inspection notes<textarea id="listingInspection" rows="4"></textarea></label>
+        <label class="workspace-field-label">Survey notes<textarea id="listingSurvey" rows="4"></textarea></label>
+        <label class="workspace-field-label">Offer history<textarea id="listingOffer" rows="3"></textarea></label>
+        <label class="workspace-field-label">Repair estimates<textarea id="listingRepairs" rows="3"></textarea></label>
+      </section>
+    </div>
+    <div class="workspace-form-actions"><button id="saveListingWorkspace" type="button">Save Listing</button><button id="deleteListingWorkspace" type="button" class="danger-action">Delete Listing</button><a id="openExternalListing" target="_blank" rel="noopener noreferrer">Open Original Listing</a></div>
+    <div id="listingWorkspaceStatusMessage" class="workspace-status-message" aria-live="polite"></div>
+  </div>
+</div>
+
+<!-- =====================================================
+     COMPARISON MODAL & FLOATING BUTTON
+===================================================== -->
+
+<button id="floatingCompareBtn" class="floating-compare-btn">Compare (0)</button>
+
+<div id="comparisonModal" class="modal">
+    <div class="modal-content compare-modal-content">
+        <button id="closeComparisonModal" class="modal-close">×</button>
+        <button type="button" class="context-back-button" data-close-modal="comparisonModal" data-open-modal="decisionWorkspaceModal">← Back to My Boats</button>
+        <h2>Compare Boats</h2>
+        <div class="comparison-table-wrapper">
+            <table class="comparison-table" id="comparisonTable">
+                <!-- Columns populated dynamically -->
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- =====================================================
+     REJECT MODAL
+===================================================== -->
+<div id="rejectModal" class="modal">
+    <div class="modal-content" style="max-width: 500px;">
+        <button id="closeRejectModal" class="modal-close">×</button>
+        <h2>Reject Boat</h2>
+        <div class="modal-section">
+            <h3 id="rejectModalBoatName" style="margin-top: 0; color: #1e293b;"></h3>
+        </div>
+        <div class="modal-section">
+            <label for="rejectReason" style="display: block; font-weight: bold; margin-bottom: 5px;">Reason</label>
+            <select id="rejectReason" required style="width: 100%; padding: 8px; border: 1px solid #bbb; border-radius: 4px;">
+                <option value="">-- Select a Reason --</option>
+                <option value="Too expensive">Too expensive</option>
+                <option value="Too large">Too large</option>
+                <option value="Too wide">Too wide</option>
+                <option value="Wrong hull type">Wrong hull type</option>
+                <option value="Poor layout">Poor layout</option>
+                <option value="Not suitable for mission">Not suitable for mission</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="modal-section">
+            <label for="rejectNotes" style="display: block; font-weight: bold; margin-bottom: 5px;">Notes (Optional)</label>
+            <textarea id="rejectNotes" rows="4" style="width: 100%; padding: 8px; border: 1px solid #bbb; border-radius: 4px;" placeholder="Add details..."></textarea>
+        </div>
+        <div style="margin-top: 20px; display: flex; gap: 10px;">
+            <button id="saveRejectBtn">Save Decision</button>
+            <button id="cancelRejectBtn" style="background: #94a3b8;">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<!-- =====================================================
+     REJECTED BOATS LIST MODAL
+===================================================== -->
+<div id="rejectedBoatsModal" class="modal">
+    <div class="modal-content" style="max-width: 1000px; width: 95%;">
+        <button id="closeRejectedBoatsModal" class="modal-close">×</button>
+        <button type="button" class="context-back-button" data-close-modal="rejectedBoatsModal">← Back to search</button>
+        <h2>Rejected Boats</h2>
+        <div class="comparison-table-wrapper" style="margin-top: 20px;">
+            <table class="comparison-table" style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr style="background: #f1f5f9; text-align: left;">
+                        <th style="padding: 12px; border-bottom: 2px solid #cbd5e1;">Boat Name</th>
+                        <th style="padding: 12px; border-bottom: 2px solid #cbd5e1;">Previous Status</th>
+                        <th style="padding: 12px; border-bottom: 2px solid #cbd5e1;">Reject Reason</th>
+                        <th style="padding: 12px; border-bottom: 2px solid #cbd5e1;">Reject Notes</th>
+                        <th style="padding: 12px; border-bottom: 2px solid #cbd5e1; text-align: center;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="rejectedBoatsTableBody">
+                    <!-- Dynamic content -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div id="informationModal" class="modal" aria-hidden="true">
+  <div class="modal-content information-modal-content">
+    <button id="closeInformationModal" class="modal-close" aria-label="Close">×</button>
+    <button type="button" class="context-back-button" data-close-modal="informationModal">← Back to B-Scout</button>
+    <div id="informationModalContent"></div>
+  </div>
+</div>
+
+<script src="datarepository.js"></script>
+<script src="boatregistry.js"></script>
+<script src="taxonomyregistry.js"></script>
+<script src="imageassetmanager.js"></script>
+<script src="userProfile.js"></script>
+<script src="searchstatemanager.js"></script>
+<script src="valuenormalizer.js"></script>
+<script src="searchprofilemanager.js"></script>
+<script src="filterengine.js"></script>
+<script src="searchorchestrator.js"></script>
+<script src="engine.js"></script>
+<script src="knowledge/knowledgeengine.js"></script>
+<script src="knowledge/boatintelligencerepository.js"></script>
+<script src="knowledge/manufacturerknowledgerepository.js"></script>
+<script src="knowledge/knowledgelayerrepository.js"></script>
+<script src="knowledge/providers/boatintelligenceprovider.js"></script>
+<script src="knowledge/providers/curatedresourceprovider.js"></script>
+<script src="knowledge/providers/listingdiscoveryprovider.js"></script>
+<script src="knowledge/knowledgecardui.js"></script>
+<script src="boatintelligence.js"></script>
+<script src="evaluationrules.js"></script>
+<script src="actionmodel.js"></script>
+<script src="decisionreport.js"></script>
+<script src="intelligencelayer.js"></script>
+<script src="recommendationengine.js"></script>
+<script src="boatworkspace.js"></script>
+<script src="script.js"></script>
+<script src="appbootstrap.js"></script>
+<script src="applicationpolish.js"></script>
+
+
+
+</body>
+
+
+</html>

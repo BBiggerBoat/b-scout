@@ -1,0 +1,890 @@
+[
+  {
+    "ManufacturerID": "GRBK",
+    "Manufacturer": "Grand Banks",
+    "FamilyName": "Grand Banks Heritage Series",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-26",
+    "SharedKnowledge": {
+      "History": "American Marine introduced the Grand Banks cruising-yacht concept in the 1960s. Early Heritage boats were built in Philippine mahogany; the principal transition to fiberglass occurred during 1973. Classic, Europa and Motor Yacht layouts must remain separate.",
+      "Construction": "Traditional semi-displacement hulls with long keels and protected running gear; extensive teak interiors and, on many boats, teak exterior decks and trim. Construction and dimensions changed during long production runs.",
+      "OwnershipPriorities": [
+        "Teak deck fasteners and moisture intrusion",
+        "Window and deck leaks",
+        "Steel fuel-tank corrosion",
+        "Exhaust and cooling systems",
+        "Legacy wiring and plumbing changes",
+        "Stabilizer and hydraulic-system condition where fitted"
+      ],
+      "ResearchRule": "Apply shared family intelligence only when the model generation and layout are affected; missing evidence remains unknown."
+    },
+    "Models": [
+      "GRBK-32-CL",
+      "GRBK-36-CL",
+      "GRBK-36-EU",
+      "GRBK-42-CL",
+      "GRBK-46-CL",
+      "GRBK-49-MY"
+    ]
+  },
+  {
+    "ManufacturerID": "ALBN",
+    "Manufacturer": "Albin",
+    "FamilyName": "Albin Powerboat Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-26",
+    "SharedKnowledge": {
+      "History": "Albin began in Sweden as a marine-engine manufacturer and developed compact fiberglass family cruisers such as the Per Brohäll-designed Albin 25. Albin Marine USA later developed American-market diesel cruisers, fishing boats and Taiwan-built trawlers. Swedish compact cruisers, American express/command-bridge models and Asian-built trawlers must not inherit one another’s construction assumptions.",
+      "Construction": "The Albin name spans materially different builders and eras: Swedish displacement cruisers, American-market solid-fiberglass and cored-deck family cruisers and express boats, and traditional Taiwan-built semi-displacement trawlers with extensive teak. Model and generation evidence is required before applying shared guidance.",
+      "OwnershipPriorities": [
+        "Confirm model identity and production era",
+        "Moisture in cored decks, pilothouses and window surrounds where applicable",
+        "Fuel-tank condition and access",
+        "Exhaust and raw-water cooling systems",
+        "Shaft, V-drive, rudder and prop-protection gear",
+        "Legacy wiring, plumbing, repowers and owner modifications",
+        "Exterior teak and underlying deck core on traditional trawlers",
+        "Parts support for original Swedish engines and obsolete equipment"
+      ],
+      "ResearchRule": "Treat Albin as several related product families rather than one uniform construction tradition. Apply shared ownership intelligence only to documented model generations; missing information reduces confidence and does not eliminate a candidate."
+    },
+    "ModelGroups": {
+      "SwedishCompactCruisers": [
+        "ALBN-25"
+      ],
+      "AmericanFamilyCruisers": [
+        "ALBN-27-FC",
+        "ALBN-27-SP",
+        "ALBN-30-FC"
+      ],
+      "TournamentExpress": [
+        "ALBN-28-TE-EB",
+        "ALBN-28-FL"
+      ],
+      "CommandBridgeFamily": [
+        "ALBN-32-SF",
+        "ALBN-32-PL"
+      ],
+      "TraditionalTrawlers": [
+        "ALBN-36-CL",
+        "ALBN-40-TR"
+      ],
+      "IdentityUnverified": []
+    },
+    "Models": [
+      "ALBN-25",
+      "ALBN-27-FC",
+      "ALBN-27-SP",
+      "ALBN-28-TE-EB",
+      "ALBN-28-FL",
+      "ALBN-30-FC",
+      "ALBN-32-SF",
+      "ALBN-32-PL",
+      "ALBN-36-CL",
+      "ALBN-40-TR"
+    ],
+    "Sources": [
+      {
+        "Title": "Albin 25 original owner handbook and brochure archive",
+        "URL": "https://manuals.plus/m/759fa01ba60c7fc2ac6ff80b4fa38dcbb351a431f786ed2060284811bc3ffc10"
+      },
+      {
+        "Title": "Albin 27 Owners Club historical documents",
+        "URL": "https://albin27.com/albin-27-history/albin-27-historical-documents-photos/"
+      },
+      {
+        "Title": "Albin 30 Family Cruiser model review and specifications",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/albin/30-family-cruiser-2004-07"
+      },
+      {
+        "Title": "Albin 32+2 Command Bridge model review and specifications",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/albin/322-command-bridge-1989-2003"
+      },
+      {
+        "Title": "Albin 36 Trawler model review and specifications",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/albin/36-trawler-1979-93"
+      },
+      {
+        "Title": "Albin 40 Trawler model review and specifications",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/albin/40-trawler-1987-93"
+      }
+    ],
+    "RelatedModelsNotInDatabase": [
+      "ALBN-38-TE"
+    ],
+    "RelatedModelGroupsNotInDatabase": {
+      "IdentityUnverified": [
+        "ALBN-38-TE"
+      ]
+    }
+  },
+  {
+    "ManufacturerID": "MNSH",
+    "Manufacturer": "Mainship",
+    "FamilyName": "Mainship Cruising Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-26",
+    "SharedKnowledge": {
+      "History": "Mainship emerged in the late 1970s with the economical 34 Diesel Cruiser and later produced several distinct American cruising families, including early single-diesel cruisers, Pilot-series Downeast boats and higher-volume performance trawlers. Model names and marketed lengths changed repeatedly, so identity must be tied to production years and hull family rather than the badge alone.",
+      "Construction": "Mainship commonly used solid fiberglass hull structures with cored deck and superstructure areas, but construction details differ by model and era. The early 34 family, Pilot series and 350/390/400 trawlers must not automatically inherit one another’s structural assumptions.",
+      "OwnershipPriorities": [
+        "Confirm exact model, marketing name, year and hull family",
+        "Moisture around foredecks, windows, rails, flybridges and other cored structures",
+        "Fuel tanks, hoses and access",
+        "Exhaust risers and raw-water cooling systems",
+        "Shaft seals, alignment, rudders and protected-running-gear structures",
+        "Steering, bow-thruster and hydraulic equipment where fitted",
+        "Legacy wiring, plumbing, repowers and owner modifications",
+        "Engine-package suitability, access, noise and service history"
+      ],
+      "ResearchRule": "Apply family guidance only to documented model generations. Rebadged models such as the 350/390 and 400/41 Expedition/414 require year-specific identity checks; unknown information reduces confidence and does not eliminate a candidate."
+    },
+    "ModelGroups": {
+      "EarlyDieselCruisers": [
+        "MNSH-34-MK1",
+        "MNSH-34-MK2"
+      ],
+      "PilotSeries": [
+        "MNSH-30-PI"
+      ],
+      "PerformanceTrawlers": [
+        "MNSH-350-TR",
+        "MNSH-390-TR",
+        "MNSH-400-TR"
+      ]
+    },
+    "Models": [
+      "MNSH-30-PI",
+      "MNSH-34-MK1",
+      "MNSH-34-MK2",
+      "MNSH-350-TR",
+      "MNSH-390-TR",
+      "MNSH-400-TR"
+    ],
+    "Sources": [
+      {
+        "Title": "Mainship 30 Pilot (1998–2008) specifications and review",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/mainship/30-pilot-1998-2008"
+      },
+      {
+        "Title": "Mainship 34 Diesel Cruiser (1978–82) specifications and review",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-diesel-cruiser-1978-82"
+      },
+      {
+        "Title": "Mainship 34 II (1980–82) specifications and review",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-ii-1979-82"
+      },
+      {
+        "Title": "Mainship 350–390 Trawler (1996–2005) specifications and review",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005"
+      },
+      {
+        "Title": "Mainship 400 / 41 Expedition / 414 Trawler (2003–12) specifications and review",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/mainship/400-trawler-414-trawler-2003-12"
+      },
+      {
+        "Title": "Mainship 34 owner specifications archive",
+        "URL": "https://www.34mainship.com/mainship-specs.html"
+      }
+    ]
+  },
+  {
+    "ManufacturerID": "CAMANO",
+    "Manufacturer": "Camano",
+    "FamilyName": "Camano Keelform Trawler Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-26",
+    "SharedKnowledge": {
+      "History": "Vancouver naval architect and builder Bob Warman developed the original Camano in 1988. The shared 28-foot hull was marketed over time as the Camano 28, 30 and 31, while the Gnome designation identified the no-flybridge sistership. Tooling and production passed through several British Columbia owners; the design was later revived by Helmsman Trawlers. A separate Camano 41 appeared briefly for 2006–2007.",
+      "Construction": "The core 28/31 family uses Warman’s distinctive semi-displacement Keelform hull with a broad propeller-protecting keel and low engine placement. Published references describe cored hull sides and deck structures; exact laminates, tankage and equipment must be checked by year. The Camano 41 is a separate larger design and must not inherit 28/31 specifications.",
+      "OwnershipPriorities": [
+        "Confirm marketed model name against hull length and production year",
+        "Moisture around windows, deck hardware and cored penetrations",
+        "Fuel, water and holding tanks plus access and sender condition",
+        "Exhaust, raw-water cooling and engine installation history",
+        "Shaft, cutless bearing, alignment, rudder and steering gear",
+        "Plastic through-hulls and fittings where present",
+        "Bow-thruster, generator and electrical modifications where fitted",
+        "Flybridge ladder, helm controls, mast and bridge-clearance configuration"
+      ],
+      "ResearchRule": "Treat 28, 30 and 31 badges as year-dependent names for the same core hull unless evidence shows otherwise. Gnome means the no-flybridge sistership. Apply Camano 41 intelligence separately. Unsupported model identities remain in the database with low confidence rather than being deleted."
+    },
+    "ModelGroups": {
+      "KeelformCoreFamily": [
+        "CAMA-28-GN",
+        "CAMA-31-TR"
+      ],
+      "LargeTrawler": [
+        "CAMA-41"
+      ],
+      "IdentityUnverified": []
+    },
+    "Models": [
+      "CAMA-28-GN",
+      "CAMA-31-TR",
+      "CAMA-41"
+    ],
+    "Sources": [
+      {
+        "Title": "Camano 28–31 model history and specifications",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/camano/28-31-1990-2007"
+      },
+      {
+        "Title": "Pacific Yachting review of the revived Helmsman 31 Camano",
+        "URL": "https://doczz.net/doc/1827838/helmsman-trawlers-31-camano"
+      },
+      {
+        "Title": "Camano 41 manufacturer brochure archive",
+        "URL": "https://boatbrochure.com/products/camano-41-brochure"
+      },
+      {
+        "Title": "Camano 41 detailed brokerage specification archive",
+        "URL": "https://studylib.net/doc/18298312/a-printable-pdf-brochure-of-specifications-and-images"
+      }
+    ],
+    "RelatedModelsNotInDatabase": [
+      "CAMA-34",
+      "CAMA-35",
+      "CAMA-36",
+      "CAMA-42"
+    ],
+    "RelatedModelGroupsNotInDatabase": {
+      "IdentityUnverified": [
+        "CAMA-34",
+        "CAMA-35",
+        "CAMA-36",
+        "CAMA-42"
+      ]
+    }
+  },
+  {
+    "ManufacturerID": "ROSBOROUGH",
+    "Manufacturer": "Rosborough",
+    "FamilyName": "Rosborough RF-246 Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-26",
+    "SharedKnowledge": {
+      "History": "Rosborough Boats began in Halifax in the mid-1950s under wooden-boat designer and builder James “Doug” Rosborough. His son James “Bob” Rosborough developed fiberglass prototypes in the early 1980s and delivered the first RF-246 in 1987. After roughly 25 years and almost 500 boats, the RF-246 molds transferred to Eastern Boats in Milton, New Hampshire, which continues the design.",
+      "Construction": "The RF-246 is a shallow-draft, trailerable, semi-displacement pilothouse hull rather than a conventional full-keel trawler. Current Eastern-built versions use a hand-laid hull, a one-piece stringer grid and foam flotation; the hull is described as solid fiberglass except for the transom. Legacy Rosborough-built boats were highly customizable and may differ in propulsion, structure, tankage and layout.",
+      "OwnershipPriorities": [
+        "Confirm builder era, exact layout and propulsion before comparing specifications",
+        "Inspect pilothouse windows, sliding doors, deck hardware and penetrations for leaks or core moisture",
+        "Inspect aluminum fuel tank, filler and vent hoses, filters and access",
+        "Inspect transom, outboard bracket or sterndrive transom assembly according to propulsion",
+        "Check cockpit scuppers, drainage and flotation-compartment access",
+        "Check hydraulic steering, trim tabs, wiring, shore power and owner modifications",
+        "Verify trailer capacity, brakes, tires, bearings and legal towing dimensions",
+        "For legacy diesels, inspect cooling, exhaust, sterndrive corrosion, bellows and parts support"
+      ],
+      "ResearchRule": "Treat RF-246 as one long-running hull family with major generation, propulsion and layout variation. Current Halifax, Yarmouth and Digby names identify interior layouts; Custom Wheelhouse is a documented factory configuration. Do not infer a diesel, shaft, shower or tankage package across the entire family. Unsupported RF-23 identities remain low-confidence placeholders."
+    },
+    "ModelGroups": {
+      "LegacyDieselSterndrive": [
+        "ROSB-246-LS"
+      ],
+      "CurrentOutboardCruisers": [
+        "ROSB-246"
+      ],
+      "CurrentCustomWheelhouse": [
+        "ROSB-246-WH"
+      ],
+      "IdentityUnverified": []
+    },
+    "Models": [
+      "ROSB-246",
+      "ROSB-246-LS",
+      "ROSB-246-WH"
+    ],
+    "Sources": [
+      {
+        "Title": "Eastern Boat Works — Rosborough legacy and RF-246 history",
+        "URL": "https://easternboats.com/our-legacy/"
+      },
+      {
+        "Title": "Eastern Boat Works — Rosborough 246 Yarmouth specifications",
+        "URL": "https://easternboats.com/boats/rosborough-246-yarmouth/"
+      },
+      {
+        "Title": "Eastern Boat Works — Rosborough 246 Halifax specifications",
+        "URL": "https://easternboats.com/boats/rosborough-246-halifax/"
+      },
+      {
+        "Title": "Eastern Boat Works — Rosborough 246 Digby specifications",
+        "URL": "https://easternboats.com/boats/rosborough-246-digby/"
+      },
+      {
+        "Title": "Eastern Boat Works — Rosborough 246 Custom Wheelhouse specifications",
+        "URL": "https://easternboats.com/boats/rosborough-246-custom-wheelhouse/"
+      },
+      {
+        "Title": "RF-246 owner community — construction and family overview",
+        "URL": "https://rf-246.com/about"
+      },
+      {
+        "Title": "Documented 2000 RF-246 Sedan Cruiser diesel/sterndrive example",
+        "URL": "https://www.yachtworld.co.uk/yacht/2000-rosborough-246-sedan-cruiser-diesel-8385824/"
+      }
+    ],
+    "RelatedModelsNotInDatabase": [
+      "ROSB-23-C",
+      "ROSB-23-RF"
+    ],
+    "RelatedModelGroupsNotInDatabase": {
+      "IdentityUnverified": [
+        "ROSB-23-C",
+        "ROSB-23-RF"
+      ]
+    }
+  },
+  {
+    "ManufacturerID": "MONK",
+    "Manufacturer": "Monk",
+    "FamilyName": "Monk 36 Trawler Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-26",
+    "SharedKnowledge": {
+      "History": "The production Monk 36 was designed by Ed Monk Jr. Production began in Taiwan in 1982, shifted to Nova Scotia in 1992 and continued through 2007. More than 250 hulls were built. The long production run and active Monk 36 Owners Association make it one of the best-documented classic cruising-trawler families.",
+      "Construction": "Solid-fiberglass semi-displacement hull with full keel and protected propeller and rudder. Taiwan-built boats generally use more exterior teak. Nova Scotia-built boats reduced exterior teak and incorporated interior revisions, so construction and maintenance assumptions must remain generation-specific.",
+      "OwnershipPriorities": [
+        "Confirm Taiwan-built versus Nova Scotia-built generation and exact engine installation",
+        "Inspect deck, flybridge, rail and mast penetrations for moisture",
+        "Inspect windows, exterior teak and cabin-side leaks, especially on early boats",
+        "Inspect fuel tanks, fills, vents and accessible tank supports",
+        "Inspect exhaust risers, raw-water cooling, engine mounts and service history",
+        "Check shaft alignment, cutless bearing, stuffing box, rudder and steering gear",
+        "Audit shore power, charging, plumbing and owner-added equipment accumulated over decades",
+        "Verify mast-down and fixed air draft for intended routes",
+        "Use the owner association to confirm hull-number and year-specific differences"
+      ],
+      "ResearchRule": "Treat Monk 36 as one long-running product family with two major production eras. Do not generalize early exterior teak, bathtub-equipped aft heads, engine packages or later interior revisions across all years. Published 18,000 lb is a standard dry figure; equipped displacement can be materially higher."
+    },
+    "ModelGroups": {
+      "TaiwanProduction": [
+        "MONK-36-TR"
+      ],
+      "NovaScotiaProduction": [
+        "MONK-36-TR"
+      ]
+    },
+    "Models": [
+      "MONK-36-TR"
+    ],
+    "Sources": [
+      {
+        "Title": "Soundings — Monk 36 Trawler history, design and production",
+        "URL": "https://soundingsonline.com/boats/monk-36-trawler/"
+      },
+      {
+        "Title": "Soundings — Monk 36 Owners Keep a Classic Trawler Alive",
+        "URL": "https://soundingsonline.com/features/monk-36-owners-keep-a-classic-trawler-alive/"
+      },
+      {
+        "Title": "HMY Powerboat Guide — Monk 36 Trawler specifications and generation changes",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/monk/36-trawler-1982-2007"
+      },
+      {
+        "Title": "Monk 36 Owners Association",
+        "URL": "https://monk36.com/"
+      },
+      {
+        "Title": "Documented 1987 Monk 36 listing with standard dimensions and tankage",
+        "URL": "https://www.yachtworld.com/yacht/1987-monk-36-trawler-9995533/"
+      }
+    ]
+  },
+  {
+    "ManufacturerID": "WILLARD",
+    "Manufacturer": "Willard",
+    "FamilyName": "Willard Recreational Trawler Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-27",
+    "SharedKnowledge": {
+      "History": "Willard Marine evolved from Bill Tighe and Willard Buchanan’s late-1950s boatbuilding work into a pioneer of production fiberglass trawler yachts. The William Garden-designed Vega 36 began in 1961. Hale Field-designed Vega 30 and Vega 40 families followed in the 1970s. Around 1975–1977 Willard replaced fiberglass-over-plywood deckhouses with molded cored-fiberglass superstructures on the later Willard 30 and 40 generations. Commercial and military work became dominant, and recreational-yacht production ended in the early 2000s.",
+      "Construction": "The early Vega families generally combined solid-fiberglass displacement hulls with fiberglass-over-plywood topsides or deckhouses. Later Willard 30 and Willard 40 generations used molded cored-fiberglass superstructures. This distinction is central to moisture inspection and must not be blurred across generations.",
+      "OwnershipPriorities": [
+        "Confirm exact hull family, variant, build year and HIN",
+        "Inspect plywood-backed early deckhouses or cored later superstructures for moisture",
+        "Inspect windows, rails, mast steps and deck penetrations",
+        "Inspect original black-iron or steel fuel tanks and access",
+        "Inspect exhaust, raw-water cooling and repower workmanship",
+        "Inspect shaft, cutless bearing, stuffing box, rudder and steering gear",
+        "Audit legacy AC/DC wiring, plumbing and owner modifications",
+        "Verify bridge clearance, rig handling and side-deck arrangement by variant"
+      ],
+      "ResearchRule": "Do not apply a generic Willard 30, 36 or 40 specification across variants or generations. Known differences eliminate incorrect assumptions; missing hull-specific data remains unknown and lowers confidence rather than excluding the boat."
+    },
+    "GenerationMap": [
+      {
+        "Family": "Vega 36",
+        "Years": "1961–1970",
+        "Designer": "William Garden",
+        "Production": "39 hulls",
+        "DocumentedVariants": [
+          "Standard Cruiser / flybridge sedan",
+          "Aft Pilothouse / North Sea style",
+          "Motorsailer and sailing configurations"
+        ],
+        "Construction": "Early fiberglass displacement hull; configuration-specific deckhouses",
+        "DatabaseRecords": [
+          "WILL-36-TR"
+        ]
+      },
+      {
+        "Family": "Vega 30",
+        "Years": "1972–1975",
+        "Designer": "Hale Field",
+        "Production": "110 hulls across production variants",
+        "DocumentedVariants": [
+          "Searcher workboat/fishboat",
+          "Nomad sedan",
+          "Voyager raised pilothouse",
+          "Horizon motorsailer"
+        ],
+        "NotBuilt": [
+          "Enterprise was advertised but no production hull is documented"
+        ],
+        "DatabaseRecords": [
+          "WILL-30-VE",
+          "WILL-30-VO"
+        ]
+      },
+      {
+        "Family": "Willard 30 derivatives",
+        "Years": "1975–2001",
+        "DocumentedVariants": [
+          "8-Ton Cutter",
+          "30/4 Mark IV flybridge sedan",
+          "Late pilothouse",
+          "One liveaboard adaptation"
+        ],
+        "Construction": "Mark IV and later versions use molded cored-fiberglass superstructures",
+        "DatabaseRecords": [],
+        "CoverageNote": "Mapped at manufacturer level; no separate permanent BoatModelIDs currently exist."
+      },
+      {
+        "Family": "Vega 40",
+        "Years": "1973–1977",
+        "Designer": "Hale Field / Willard Marine",
+        "Production": "Six documented boats",
+        "DocumentedVariants": [
+          "Nomad flybridge sedan — 3",
+          "Voyager raised pilothouse — 2",
+          "Motorsailer — 1"
+        ],
+        "Construction": "Solid-fiberglass hull with fiberglass-over-plywood widebody superstructure",
+        "DatabaseRecords": [
+          "WILL-40-NO"
+        ]
+      },
+      {
+        "Family": "Willard 40",
+        "Years": "1977–2003",
+        "DocumentedVariants": [
+          "Flybridge Sedan",
+          "Pilothouse",
+          "Redesigned pilothouse introduced around 2001"
+        ],
+        "Construction": "Molded cored-fiberglass superstructure with walk-around side decks",
+        "ProductionConflict": "Owner-registry summaries disagree on the exact total and flybridge-sedan count; no single count is promoted as verified.",
+        "DatabaseRecords": [],
+        "CoverageNote": "Mapped separately from the Vega 40; no dedicated permanent BoatModelID currently exists."
+      },
+      {
+        "Family": "Dover 47 custom yachts",
+        "Years": "1960s",
+        "DocumentedExamples": [
+          "Klatawa",
+          "Nereid",
+          "Northern Explorer"
+        ],
+        "Production": "Custom or limited-series yachts, not a standardized trawler model family",
+        "DatabaseRecords": []
+      }
+    ],
+    "ModelGroups": {
+      "CoreDatabaseRecords": [
+        "WILL-30-VE",
+        "WILL-30-VO",
+        "WILL-36-TR",
+        "WILL-40-NO"
+      ],
+      "IdentityUnverified": [],
+      "DocumentedButNotIndividuallyCatalogued": []
+    },
+    "Models": [
+      "WILL-30-VE",
+      "WILL-30-VO",
+      "WILL-36-TR",
+      "WILL-40-NO"
+    ],
+    "Sources": [
+      {
+        "Title": "Willard Marine — Legacy Recreational & Historical Models",
+        "URL": "https://willardmarine.com/boats/legacy-models/"
+      },
+      {
+        "Title": "Willard Boats — Manufacturer and model-family history",
+        "URL": "https://willardboats.org/about"
+      },
+      {
+        "Title": "Willard Boats — Vega 30 registry and history",
+        "URL": "https://willardboats.org/boats/vega30"
+      },
+      {
+        "Title": "Willard Boats — Vega 36 registry and history",
+        "URL": "https://willardboats.org/boats/vega36"
+      },
+      {
+        "Title": "Willard Boats — Vega/Willard 40 registry and history",
+        "URL": "https://willardboats.org/boats/vega40"
+      },
+      {
+        "Title": "Willard Boats — Factory manuals archive",
+        "URL": "https://willardboats.org/book-page/manuals"
+      }
+    ],
+    "RelatedModelsNotInDatabase": [
+      "WILL-38-TR"
+    ],
+    "RelatedModelGroupsNotInDatabase": {
+      "IdentityUnverified": [
+        "WILL-38-TR"
+      ],
+      "DocumentedButNotIndividuallyCatalogued": [
+        "Vega 30 Searcher",
+        "Vega 30 Nomad",
+        "Willard 30/4 Mark IV",
+        "Willard 30 Pilothouse",
+        "Willard 30 8-Ton Cutter",
+        "Vega 40 Voyager",
+        "Vega 40 Motorsailer",
+        "Willard 40 Flybridge Sedan",
+        "Willard 40 Pilothouse",
+        "Dover 47 custom yachts"
+      ]
+    }
+  },
+  {
+    "ManufacturerID": "TRANSPACIFIC",
+    "Manufacturer": "Transpacific Marine",
+    "FamilyName": "Transpacific Marine Eagle Trawler Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-27",
+    "SharedKnowledge": {
+      "History": "Taiwan-built Eagle trawlers were imported under Transpacific Marine branding. Surviving 32-foot listings show classic pilothouse-trawler layouts and Ford Lehman diesels, but model documentation is fragmented.",
+      "Construction": "Fiberglass hull/deck construction with extensive wood interior and era-typical teak and cored-structure inspection needs.",
+      "OwnershipPriorities": [
+        "Confirm builder plate, HIN and exact Eagle model",
+        "Inspect deck and window moisture",
+        "Verify tank material and capacity",
+        "Inspect Ford Lehman cooling, exhaust and mounts",
+        "Inspect shaft, rudder and steering",
+        "Audit owner electrical and propane modifications"
+      ],
+      "ResearchRule": "Treat listing-level tankage and machinery as hull-specific; missing values lower confidence rather than excluding the boat."
+    },
+    "Models": [
+      "TPMC-32-EA"
+    ],
+    "Sources": [
+      {
+        "Title": "Boats.com — 1989 Eagle Pilothouse",
+        "URL": "https://www.boats.com/power-boats/1989-eagle-pilothouse-9870405/"
+      },
+      {
+        "Title": "Bronte Shore — 1986 Transpacific Marine Eagle 32",
+        "URL": "https://bronteshore.ca/current_listings/1986-eagle-marine-trawler/"
+      }
+    ]
+  },
+  {
+    "ManufacturerID": "ISLANDGYPSY",
+    "Manufacturer": "Island Gypsy",
+    "FamilyName": "Island Gypsy 32 Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-27",
+    "SharedKnowledge": {
+      "History": "Halvorsen-associated Island Gypsy trawlers were built in Asia for international markets. The 32-foot family included Sedan, Europa and Fisherman configurations.",
+      "Construction": "Solid fiberglass hulls with extensive teak interiors; many older examples have teak-over-fiberglass decks and teak-framed openings.",
+      "OwnershipPriorities": [
+        "Confirm 32 variant and engine package",
+        "Inspect teak decks and deck cores",
+        "Inspect windows and exterior joinery",
+        "Inspect tanks and sanitation system",
+        "Inspect exhaust, raw-water cooling and shaft gear",
+        "Audit electrical upgrades"
+      ],
+      "ResearchRule": "Do not transfer accommodations or performance between Sedan, Europa and Fisherman variants."
+    },
+    "Models": [
+      "ISGY-32-SE",
+      "ISGY-32-EU",
+      "ISGY-32-FI"
+    ],
+    "Sources": [
+      {
+        "Title": "HMY PowerBoat Guide — Island Gypsy 32 Sedan",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-sedan-1981-2000"
+      },
+      {
+        "Title": "HMY PowerBoat Guide — Island Gypsy 32 Europa",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-europa-1989-2003"
+      },
+      {
+        "Title": "HMY PowerBoat Guide — Island Gypsy 32 Fisherman",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-fisherman-1982-97"
+      }
+    ]
+  },
+  {
+    "ManufacturerID": "SEALORD",
+    "Manufacturer": "Sealord",
+    "FamilyName": "Sealord / Chien Hwa Trawler Identities",
+    "ResearchStatus": "PartialFamilyReviewed",
+    "ReviewedAt": "2026-07-27",
+    "SharedKnowledge": {
+      "History": "Sealord appears on Taiwan-built trawler listings and at least one documented Chien Hwa-built 34-foot tri-cabin. A standardized 32-foot model family has not yet been verified.",
+      "Construction": "Treat as era-typical Taiwan trawler construction until HIN and yard documentation establish the specific hull.",
+      "OwnershipPriorities": [
+        "Verify builder plate, HIN, LOA and layout",
+        "Do not infer CHB specifications from similar appearance",
+        "Inspect teak decks, deckhouse and windows",
+        "Inspect tanks and machinery installation",
+        "Audit wiring and prior structural repairs"
+      ],
+      "ResearchRule": "Keep plausible listing identities, but mark unsupported model families IdentityUnverified and leave specifications blank."
+    },
+    "Models": [
+      "SEAL-34-TC"
+    ],
+    "Sources": [
+      {
+        "Title": "BoatDealers.ca — 1987 Sealord Tri-Cabin",
+        "URL": "https://www.boatdealers.ca/boats-for-sale/542099/sealord-tricabin-hamilton-ontario"
+      }
+    ],
+    "RelatedModelsNotInDatabase": [
+      "SEAL-32-TR"
+    ]
+  },
+  {
+    "ManufacturerID": "CHB",
+    "Manufacturer": "CHB",
+    "FamilyName": "CHB Taiwan Trawler Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-27",
+    "SharedKnowledge": {
+      "History": "CHB identifies Chien Hwa Boatbuilding and related Taiwan-built trawlers sold under multiple importer labels. The 34-foot family commonly appears in sedan and tri-cabin forms.",
+      "Construction": "Fiberglass semi-displacement hulls with significant variation by yard, importer and year; teak-over-plywood decks, wood window frames and older deckhouses are recurring risk areas.",
+      "OwnershipPriorities": [
+        "Confirm HIN, yard, importer and actual layout",
+        "Moisture-map decks, cabin sides and flybridge",
+        "Inspect windows and exterior teak",
+        "Inspect steel or iron fuel tanks",
+        "Inspect exhaust, shaft, rudder and steering",
+        "Audit electrical and plumbing modifications"
+      ],
+      "ResearchRule": "Do not assume every visually similar Taiwan trawler is a CHB or apply one 34-foot specification to sedan and tri-cabin layouts."
+    },
+    "Models": [
+      "CHBB-34-SE",
+      "CHBB-34-TC"
+    ],
+    "Sources": [
+      {
+        "Title": "Rabbet — CHB 34 Trawler Guide",
+        "URL": "https://rabbetboats.com/guides/trawlers/chb/34-trawler"
+      },
+      {
+        "Title": "Boats.com — 1978 CHB 34",
+        "URL": "https://ca.boats.com/power-boats/1978-chb-34-9961706/"
+      }
+    ]
+  },
+  {
+    "ManufacturerID": "MARINETRADER",
+    "Manufacturer": "Marine Trader",
+    "FamilyName": "Marine Trader 34 Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-27",
+    "SharedKnowledge": {
+      "History": "Marine Trader was a major importer label for Taiwan-built trawlers. The 34 Sedan had a long production run with meaningful construction and styling updates.",
+      "Construction": "Solid fiberglass hulls; early fiberglass-over-plywood superstructures and teak decks/windows require different inspection priorities from later molded-fiberglass boats.",
+      "OwnershipPriorities": [
+        "Confirm year and generation",
+        "Inspect early plywood superstructure and teak decks",
+        "Inspect windows and deck fittings",
+        "Inspect fuel tanks",
+        "Inspect Lehman/Cummins cooling and exhaust",
+        "Inspect shaft, rudder and steering",
+        "Audit AC/DC wiring"
+      ],
+      "ResearchRule": "Treat Europa naming cautiously unless factory or HIN documentation supports it; do not use later-generation construction assumptions on early boats."
+    },
+    "Models": [
+      "MTRA-34-SE",
+      "MTRA-34-EU"
+    ],
+    "Sources": [
+      {
+        "Title": "HMY PowerBoat Guide — Marine Trader 34 Sedan",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/34-sedan-1973-2001"
+      }
+    ]
+  },
+  {
+    "ManufacturerID": "CAPEDORY",
+    "Manufacturer": "Cape Dory",
+    "FamilyName": "Cape Dory Powerboat Family",
+    "ResearchStatus": "PartialFamilyReviewed",
+    "ReviewedAt": "2026-07-27",
+    "SharedKnowledge": {
+      "History": "Cape Dory expanded beyond its sailboats into New England-style powerboats. The 30 Flybridge was produced in 1990–91; molds later went to Nauset Marine.",
+      "Construction": "The 30 Flybridge uses a modified-V fiberglass hull with balsa-cored hull sides and a full-length keel.",
+      "OwnershipPriorities": [
+        "Confirm powerboat identity, not sailboat model",
+        "Moisture-map cored hull sides and decks",
+        "Inspect windows and cockpit structure",
+        "Inspect Volvo cooling and exhaust",
+        "Inspect shaft, rudder and steering",
+        "Verify bridge clearance and tankage"
+      ],
+      "ResearchRule": "Do not confuse Cape Dory sailboat specifications with powerboat records. Preserve sparse records for unverified power variants until dedicated evidence is available."
+    },
+    "Models": [
+      "CAPD-30-FB",
+      "CAPD-28-CR"
+    ],
+    "Sources": [
+      {
+        "Title": "HMY PowerBoat Guide — Cape Dory 30 Flybridge",
+        "URL": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/30-flybridge-1990-91"
+      }
+    ]
+  },
+  {
+    "ManufacturerID": "NORDIC",
+    "Manufacturer": "Nordic Tugs",
+    "FamilyName": "Nordic Tug Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-27",
+    "SharedKnowledge": {
+      "History": "Nordic Tugs was founded in 1979 around Lynn Senour's semi-displacement pleasure-tug concept. The 26 debuted in 1980, the 32 in 1985, and larger 37-, 42- and 52-foot boats followed; later naming and transom-platform changes produced the 34, 39 and 54 lineages.",
+      "Construction": "Builder documentation describes stitched fiberglass reinforcement, vinylester resin, reinforced hull/deck and major-component bonds, tinned-copper wiring and stainless reinforcement at critical running-gear structures.",
+      "OwnershipPriorities": [
+        "Confirm model lineage and year-specific specifications",
+        "Inspect pilothouse and saloon window sealing",
+        "Check deck penetrations and core moisture",
+        "Inspect exhaust, cooling, shaft, rudder and steering systems",
+        "Inspect thrusters and owner-added electrical systems where fitted"
+      ],
+      "ResearchRule": "Pilothouse is standard architecture, not a separate variant. Treat 26, 32/34 and 37/39 as generation-sensitive lineages; never apply current-model specifications backward without hull-year evidence."
+    },
+    "ModelGroups": {
+      "Compact": [
+        "NDTG-26-PH"
+      ],
+      "Lineage32_34": [
+        "NDTG-32",
+        "NDTG-32-PH",
+        "NDTG-34"
+      ],
+      "Lineage37_39": [
+        "NDTG-37",
+        "NDTG-37-PH",
+        "NDTG-39"
+      ],
+      "Larger": [
+        "NDTG-42-PH"
+      ]
+    },
+    "Models": [
+      "NDTG-26-PH",
+      "NDTG-32",
+      "NDTG-32-PH",
+      "NDTG-34",
+      "NDTG-37",
+      "NDTG-37-PH",
+      "NDTG-39",
+      "NDTG-42-PH"
+    ],
+    "Sources": [
+      {
+        "Title": "Nordic Tugs history",
+        "URL": "https://www.nordictugs.com/history"
+      },
+      {
+        "Title": "Nordic Tugs model archive",
+        "URL": "https://www.nordictugs.com/vessels"
+      },
+      {
+        "Title": "Nordic Tugs current models",
+        "URL": "https://www.nordictugs.com/models"
+      }
+    ]
+  },
+  {
+    "ManufacturerID": "KROGEN",
+    "Manufacturer": "Kadey-Krogen",
+    "FamilyName": "Kadey-Krogen Family",
+    "ResearchStatus": "FamilyReviewed",
+    "ReviewedAt": "2026-07-27",
+    "SharedKnowledge": {
+      "History": "Art Kadey and naval architect James S. Krogen founded the company around the Krogen 42, launched in 1977. The line expanded through the 38 Cutter, 36 Manatee, 54, 48 Whaleback, 48 North Sea, 39 and later 44 and current passagemakers.",
+      "Construction": "Early builder history describes heavy hand-laid fiberglass sandwich construction with closed-cell PVC foam core, teak joinery and commercial-trawler inspiration. Later models evolved to solid fiberglass below the waterline, Corecell in topsides and superstructure, protected propellers, reinforced collision structures and increasingly integrated systems.",
+      "OwnershipPriorities": [
+        "Confirm exact model generation and hull-specific specifications",
+        "Inspect deck, cabin and window moisture pathways",
+        "Inspect fuel, water and holding tanks by age and material",
+        "Review exhaust, raw-water cooling, steering and running gear",
+        "Inspect stabilizers, paravanes, thrusters, hydraulics and generators where fitted",
+        "Audit decades of owner-added electrical and navigation equipment"
+      ],
+      "ResearchRule": "Separate the coastal Manatee and sailing 38 Cutter from the Pure Full Displacement passagemaker line. Do not apply current 44 AE or 48 AE specifications backward to earlier 42 or 48 North Sea hulls."
+    },
+    "ModelGroups": {
+      "Coastal": [
+        "KDKR-36-MA"
+      ],
+      "Sailing": [
+        "KDKR-38-CT"
+      ],
+      "CompactPassagemaker": [
+        "KDKR-39"
+      ],
+      "LegacyPassagemakers": [
+        "KDKR-42",
+        "KDKR-48-NS"
+      ],
+      "ModernPassagemaker": [
+        "KDKR-44"
+      ]
+    },
+    "Models": [
+      "KDKR-36-MA",
+      "KDKR-38-CT",
+      "KDKR-39",
+      "KDKR-42",
+      "KDKR-44",
+      "KDKR-48-NS"
+    ],
+    "Sources": [
+      {
+        "Title": "Kadey-Krogen history",
+        "URL": "https://www.kadeykrogen.com/our-history/"
+      },
+      {
+        "Title": "Kadey-Krogen builder partnership and Krogen 42 history",
+        "URL": "https://www.kadeykrogen.com/portfolio/built-on-trust/"
+      },
+      {
+        "Title": "Krogen 44 AE specifications",
+        "URL": "https://www.kadeykrogen.com/tour/krogen-44-ae/"
+      },
+      {
+        "Title": "Kadey-Krogen passagemaking philosophy",
+        "URL": "https://www.kadeykrogen.com/passagemaking/"
+      }
+    ]
+  }
+]

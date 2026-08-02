@@ -1,0 +1,67 @@
+[
+  {
+    "TaxonomyID": "STYLE-TRAWLER",
+    "CanonicalValue": "Trawler",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-PASSAGEMAKER",
+    "CanonicalValue": "Passagemaker",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-DOWNEAST",
+    "CanonicalValue": "Downeast",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-TUG",
+    "CanonicalValue": "Tug Cruiser",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-CRUISER",
+    "CanonicalValue": "Cruiser",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-MOTORYACHT",
+    "CanonicalValue": "Motor Yacht",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-CATAMARAN",
+    "CanonicalValue": "Catamaran",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-MOTORSAILER",
+    "CanonicalValue": "Motorsailer",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-HOUSEBOAT",
+    "CanonicalValue": "Houseboat",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-SPORTFISHER",
+    "CanonicalValue": "Sportfisher",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-CANAL",
+    "CanonicalValue": "Canal/River Cruiser",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-OTHER",
+    "CanonicalValue": "Other",
+    "Status": "Active"
+  },
+  {
+    "TaxonomyID": "STYLE-UNKNOWN",
+    "CanonicalValue": "Unknown",
+    "Status": "Active"
+  }
+]

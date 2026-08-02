@@ -1,0 +1,114 @@
+[
+  {
+    "TemplateID": "general-cruising",
+    "TemplateName": "General Cruising",
+    "Description": "General-purpose cruising with moderate dimensions and comfortable layout.",
+    "Mission": "General Cruising",
+    "Routes": [],
+    "HardFilters": {
+      "maxLength": 45,
+      "maxBeam": 15,
+      "routes": [],
+      "styles": [],
+      "hulls": [],
+      "fuels": [],
+      "propulsion": [],
+      "flybridge": "",
+      "sideDecks": "",
+      "greatLoop": "",
+      "trailerable": ""
+    },
+    "BoatRequirements": {},
+    "Preferences": {},
+    "Weights": {},
+    "SortBy": "Score"
+  },
+  {
+    "TemplateID": "great-loop",
+    "TemplateName": "Great Loop",
+    "Description": "Configured specifically for the Great Loop Route with air draft and clearance requirements.",
+    "Mission": "Great Loop Route",
+    "Routes": [
+      "ICW",
+      "EC",
+      "HR",
+      "MRS"
+    ],
+    "HardFilters": {
+      "maxLength": 40,
+      "maxBeam": 14,
+      "routes": [
+        "ICW",
+        "EC",
+        "HR",
+        "MRS"
+      ],
+      "styles": [],
+      "hulls": [],
+      "fuels": [],
+      "propulsion": [],
+      "flybridge": "",
+      "sideDecks": "",
+      "greatLoop": "",
+      "trailerable": ""
+    },
+    "BoatRequirements": {},
+    "Preferences": {},
+    "Weights": {},
+    "SortBy": "Score"
+  },
+  {
+    "TemplateID": "pocket-trawler",
+    "TemplateName": "Pocket Trawler",
+    "Description": "Compact, highly efficient trawlers, perfect for couples or single-handers.",
+    "Mission": "Pocket Cruising",
+    "Routes": [
+      "RC",
+      "TSW"
+    ],
+    "HardFilters": {
+      "maxLength": 30,
+      "maxBeam": 10,
+      "routes": [
+        "RC",
+        "TSW"
+      ],
+      "styles": [],
+      "hulls": [],
+      "fuels": [],
+      "propulsion": [],
+      "flybridge": "",
+      "sideDecks": "",
+      "greatLoop": "",
+      "trailerable": ""
+    },
+    "BoatRequirements": {},
+    "Preferences": {},
+    "Weights": {},
+    "SortBy": "Score"
+  },
+  {
+    "TemplateID": "trailerable-cruiser",
+    "TemplateName": "Trailerable Cruiser",
+    "Description": "Versatile trailerable cruiser designed within transportable highway dimension limits.",
+    "Mission": "Trailerable Cruising",
+    "Routes": [],
+    "HardFilters": {
+      "maxLength": 26,
+      "maxBeam": 8.5,
+      "routes": [],
+      "styles": [],
+      "hulls": [],
+      "fuels": [],
+      "propulsion": [],
+      "flybridge": "",
+      "sideDecks": "",
+      "greatLoop": "",
+      "trailerable": "Yes"
+    },
+    "BoatRequirements": {},
+    "Preferences": {},
+    "Weights": {},
+    "SortBy": "Score"
+  }
+]
