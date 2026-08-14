@@ -5,7 +5,7 @@
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
     'use strict';
 
-    const SCHEMA_VERSION = 3;
+    const SCHEMA_VERSION = 4;
     const CONFIDENCE_LEVELS = Object.freeze(['Unknown', 'Low', 'Medium', 'High']);
     const RATING_LEVELS = Object.freeze(['Unknown', 'Low', 'Moderate', 'High']);
 
@@ -28,7 +28,7 @@
     function normalizeRecord(input) {
         const source = input && typeof input === 'object' ? input : {};
         const identity = source.identity && typeof source.identity === 'object' ? source.identity : {};
-        const intelligence = source.intelligence && typeof source.intelligence === 'object' ? source.intelligence : {};
+        const intelligence = source.intelligence && typeof source.intelligence === 'object' ? source.intelligence : (source.SupplementalIntelligence && typeof source.SupplementalIntelligence === 'object' ? source.SupplementalIntelligence : {});
         return {
             schemaVersion: Number(source.schemaVersion) || SCHEMA_VERSION,
             identity: {
@@ -42,6 +42,9 @@
                 designPhilosophy: text(intelligence.designPhilosophy),
                 personality: text(intelligence.personality),
                 idealOwner: text(intelligence.idealOwner),
+                characterNarrative: text(intelligence.characterNarrative),
+                ownershipCharacter: text(intelligence.ownershipCharacter),
+                designLineage: asArray(intelligence.designLineage).map(text).filter(Boolean),
                 buyerProfile: text(intelligence.buyerProfile),
                 lessSuitableIf: asArray(intelligence.lessSuitableIf).map(text).filter(Boolean),
                 ownershipEase: enumValue(intelligence.ownershipEase, RATING_LEVELS, 'Unknown'),
@@ -65,10 +68,10 @@
                     cautions: asArray(intelligence.crewFit && intelligence.crewFit.cautions).map(text).filter(Boolean)
                 }
             },
-            evidence: asArray(source.evidence).map(normalizeEvidence).filter(item => item.claim),
-            confidence: enumValue(source.confidence, CONFIDENCE_LEVELS, 'Unknown'),
-            updatedAt: source.updatedAt ? text(source.updatedAt) : null,
-            revision: Number(source.revision) || 1
+            evidence: asArray(source.evidence || source.SupplementalEvidence).map(normalizeEvidence).filter(item => item.claim),
+            confidence: enumValue(source.confidence || source.SupplementalConfidence, CONFIDENCE_LEVELS, 'Unknown'),
+            updatedAt: (source.updatedAt || source.SupplementalUpdatedAt) ? text(source.updatedAt || source.SupplementalUpdatedAt) : null,
+            revision: Number(source.revision || source.SupplementalRevision) || 1
         };
     }
     function validateRecord(input) {

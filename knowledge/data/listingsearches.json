@@ -34,7 +34,7 @@
     "updatedAt": "2026-07-27"
   },
   {
-    "BoatModelID": "BAYL-3270",
+    "BoatModelID": "BAYL-3288-MO",
     "schemaVersion": 1,
     "listings": [
       {
@@ -394,40 +394,6 @@
     "updatedAt": "2026-07-27"
   },
   {
-    "BoatModelID": "MRTR-34-DO",
-    "schemaVersion": 1,
-    "listings": [
-      {
-        "title": "Search Marine Trader 34 Double Cabin listings in Canada",
-        "url": "https://www.google.com/search?q=%22Marine+Trader+34+Double+Cabin%22+boat+for+sale+Canada",
-        "sourceLabel": "Google",
-        "resourceType": "Canadian broker search",
-        "verificationStatus": "Search link verified",
-        "discoveryType": "MarketplaceSearch",
-        "inventoryStatus": "Live inventory not verified",
-        "lastChecked": "2026-07-27"
-      },
-      {
-        "title": "Search Marine Trader 34 Double Cabin listings across North America",
-        "url": "https://www.google.com/search?q=%22Marine+Trader+34+Double+Cabin%22+boat+for+sale+broker",
-        "sourceLabel": "Google",
-        "resourceType": "Broker and marketplace search",
-        "verificationStatus": "Search link verified",
-        "discoveryType": "MarketplaceSearch",
-        "inventoryStatus": "Live inventory not verified",
-        "lastChecked": "2026-07-27"
-      }
-    ],
-    "sources": [
-      {
-        "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
-        "verificationStatus": "Search links checked July 2026"
-      }
-    ],
-    "updatedAt": "2026-07-27"
-  },
-  {
     "BoatModelID": "KDKR-36-MA",
     "schemaVersion": 1,
     "listings": [
@@ -444,40 +410,6 @@
       {
         "title": "Search Kadey-Krogen 36 Manatee listings across North America",
         "url": "https://www.google.com/search?q=%22Kadey-Krogen+36+Manatee%22+boat+for+sale+broker",
-        "sourceLabel": "Google",
-        "resourceType": "Broker and marketplace search",
-        "verificationStatus": "Search link verified",
-        "discoveryType": "MarketplaceSearch",
-        "inventoryStatus": "Live inventory not verified",
-        "lastChecked": "2026-07-27"
-      }
-    ],
-    "sources": [
-      {
-        "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
-        "verificationStatus": "Search links checked July 2026"
-      }
-    ],
-    "updatedAt": "2026-07-27"
-  },
-  {
-    "BoatModelID": "WILL-30-VE",
-    "schemaVersion": 1,
-    "listings": [
-      {
-        "title": "Search Willard Vega 30 Horizon listings in Canada",
-        "url": "https://www.google.com/search?q=%22Willard+Vega+30+Horizon%22+boat+for+sale+Canada",
-        "sourceLabel": "Google",
-        "resourceType": "Canadian broker search",
-        "verificationStatus": "Search link verified",
-        "discoveryType": "MarketplaceSearch",
-        "inventoryStatus": "Live inventory not verified",
-        "lastChecked": "2026-07-27"
-      },
-      {
-        "title": "Search Willard Vega 30 Horizon listings across North America",
-        "url": "https://www.google.com/search?q=%22Willard+Vega+30+Horizon%22+boat+for+sale+broker",
         "sourceLabel": "Google",
         "resourceType": "Broker and marketplace search",
         "verificationStatus": "Search link verified",
@@ -802,7 +734,7 @@
     "updatedAt": "2026-07-27"
   },
   {
-    "BoatModelID": "CPDR-28-PH",
+    "BoatModelID": "CPDR-28-CR",
     "schemaVersion": 1,
     "listings": [
       {

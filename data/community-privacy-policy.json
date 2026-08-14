@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "phase": 11,
+  "accountRequired": false,
+  "dataMinimization": {
+    "requiredPersonalFields": [],
+    "optionalPersonalFields": [
+      "DisplayName",
+      "ContactEmail"
+    ],
+    "contactEmailPublic": false,
+    "discouragedFields": [
+      "home address",
+      "phone number",
+      "precise boat location",
+      "date of birth",
+      "social profile"
+    ]
+  },
+  "antiAbuse": {
+    "browserRateLimit": {
+      "maxPer10Minutes": 5,
+      "maxPer24Hours": 20
+    },
+    "honeypot": true,
+    "minimumFormDwellMs": 1800,
+    "challengeHook": "window.BScoutContributionChallenge.verify",
+    "serverEnforcementRequiredWhenBackendExists": true
+  },
+  "uploads": {
+    "photoMaxMB": 12,
+    "documentMaxMB": 25,
+    "photoMetadata": "JPEG/PNG/WebP and browser-decodable images are re-encoded before local storage to remove embedded metadata where practical.",
+    "documentMetadata": "PDF content is stored as supplied; browser last-modified metadata is not retained.",
+    "malwareScanning": "Not available in static prototype; required before shared file ingestion."
+  },
+  "publication": {
+    "automatic": false,
+    "moderationRequired": true
+  }
+}

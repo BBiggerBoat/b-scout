@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-02T19:33:52.070Z",
+  "generatedAt": "2026-08-07T14:33:45.559Z",
   "reviewStatus": "Complete",
   "summary": {
-    "manufacturerCount": 79,
-    "boatIdentityCount": 287,
+    "manufacturerCount": 80,
+    "boatIdentityCount": 256,
     "manufacturerCodeCollisions": 0,
     "invalidBoatModelIDs": 0
   },

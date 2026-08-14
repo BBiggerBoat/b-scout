@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://b-scout.local/schema/community-knowledge-evidence.schema.json",
+  "title": "B-Scout Community Knowledge Evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "KnowledgeEvidenceID",
+    "KnowledgeItemID",
+    "ContributionID",
+    "BoatModelID",
+    "EvidenceType",
+    "AddedAt"
+  ],
+  "properties": {
+    "KnowledgeEvidenceID": {
+      "type": "string",
+      "minLength": 1
+    },
+    "KnowledgeItemID": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ContributionID": {
+      "type": "string",
+      "minLength": 1
+    },
+    "BoatModelID": {
+      "type": "string",
+      "minLength": 1
+    },
+    "EvidenceType": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ModelYear": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "Variant": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "SourceURL": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "AddedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ModeratorNotes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Relationship": {
+      "type": "string",
+      "enum": [
+        "supports",
+        "contradicts",
+        "qualifies"
+      ]
+    }
+  }
+}

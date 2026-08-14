@@ -1,0 +1,162 @@
+/*
+=====================================================
+B-SCOUT HOME — PLAN VISUAL STANDARD APPLICATION
+Version: 1.1
+Scope: #lifecycleHome ONLY
+Reference: approved Plan treatment
+=====================================================
+*/
+
+#lifecycleHome {
+  --bs-font-family: Arial, Helvetica, sans-serif;
+  --bs-font-page-title: 21px;
+  --bs-weight-page-title: 700;
+  --bs-line-page-title: 1.10;
+  --bs-font-section-title: 16px;
+  --bs-weight-section-title: 700;
+  --bs-line-section-title: 1.18;
+  --bs-font-label: 10.5px;
+  --bs-weight-label: 700;
+  --bs-line-label: 1.25;
+  --bs-font-body: 10.5px;
+  --bs-line-body: 1.35;
+  --bs-font-support: 9px;
+  --bs-line-support: 1.30;
+  --bs-font-meta: 9px;
+  --bs-text-primary: #111820;
+  --bs-text-heading: #101820;
+  --bs-text-secondary: #4f6f83;
+  --bs-text-muted: #687f90;
+  --bs-accent: #0b5fa5;
+  --bs-surface: #ffffff;
+  --bs-surface-soft: #f7f9fa;
+  --bs-border: #cfdae2;
+  --bs-border-light: #dbe4ea;
+  --bs-space-1: 4px;
+  --bs-space-2: 7px;
+  --bs-space-3: 10px;
+  --bs-space-4: 14px;
+  --bs-space-5: 18px;
+  --bs-space-6: 24px;
+  --bs-radius-medium: 10px;
+  --bs-radius-large: 18px;
+
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 76px 14px 28px;
+  color: var(--bs-text-primary);
+  font-family: var(--bs-font-family);
+  font-size: var(--bs-font-body);
+  line-height: var(--bs-line-body);
+}
+
+#lifecycleHome .lifecycle-hero {
+  max-width: none;
+  margin: 0 0 var(--bs-space-6);
+}
+
+#lifecycleHome .workspace-eyebrow {
+  margin: 0 0 var(--bs-space-1);
+  color: var(--bs-text-muted);
+  font-size: var(--bs-font-meta);
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+#lifecycleHome .lifecycle-hero h1 {
+  margin: 0 0 var(--bs-space-2);
+  color: var(--bs-text-heading);
+  font-size: var(--bs-font-page-title);
+  font-weight: var(--bs-weight-page-title);
+  line-height: var(--bs-line-page-title);
+  letter-spacing: 0;
+}
+
+#lifecycleHome .lifecycle-hero > p:last-child {
+  max-width: 900px;
+  margin: 0;
+  color: var(--bs-text-secondary);
+  font-size: var(--bs-font-body);
+  line-height: var(--bs-line-body);
+}
+
+#lifecycleHome .lifecycle-start-section,
+#lifecycleHome .lifecycle-continue-section {
+  margin-top: var(--bs-space-5);
+}
+
+#lifecycleHome .lifecycle-start-section > h2,
+#lifecycleHome .lifecycle-continue-section > h2 {
+  margin: 0 0 var(--bs-space-3);
+  color: var(--bs-text-heading);
+  font-size: var(--bs-font-section-title);
+  font-weight: var(--bs-weight-section-title);
+  line-height: var(--bs-line-section-title);
+}
+
+#lifecycleHome .lifecycle-entry-grid {
+  gap: var(--bs-space-2);
+}
+
+#lifecycleHome .lifecycle-entry-card {
+  min-height: 0;
+  padding: 12px 14px;
+  gap: 4px;
+  border: 1px solid var(--bs-border);
+  border-radius: var(--bs-radius-medium);
+  background: var(--bs-surface-soft);
+  box-shadow: none;
+  color: var(--bs-text-primary);
+}
+
+#lifecycleHome .lifecycle-entry-card:hover,
+#lifecycleHome .lifecycle-entry-card:focus-visible {
+  transform: none;
+  border-color: #aabfcd;
+  background: #f2f7f9;
+  box-shadow: none;
+}
+
+#lifecycleHome .lifecycle-stage-name {
+  color: var(--bs-text-muted);
+  font-size: var(--bs-font-meta);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+#lifecycleHome .lifecycle-entry-card strong {
+  margin: 0;
+  color: var(--bs-text-heading);
+  font-size: var(--bs-font-label);
+  font-weight: var(--bs-weight-label);
+  line-height: var(--bs-line-label);
+}
+
+#lifecycleHome .lifecycle-entry-card > span:last-child {
+  color: var(--bs-text-secondary);
+  font-size: var(--bs-font-support);
+  font-weight: 400;
+  line-height: var(--bs-line-support);
+}
+
+#lifecycleHome .lifecycle-principle {
+  margin-top: var(--bs-space-5);
+  padding: 12px 14px;
+  border: 1px solid var(--bs-border-light);
+  border-radius: var(--bs-radius-medium);
+  background: var(--bs-surface-soft);
+  color: var(--bs-text-secondary);
+  font-size: var(--bs-font-support);
+  line-height: var(--bs-line-support);
+}
+
+@media (max-width: 680px) {
+  #lifecycleHome {
+    padding: 72px 12px 24px;
+  }
+  #lifecycleHome .lifecycle-entry-grid {
+    grid-template-columns: 1fr;
+  }
+}

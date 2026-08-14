@@ -7,8 +7,8 @@
 
     let currentBoat = null;
     let currentCard = null;
-    let activeTab = "overview";
-    const tabOrder = ["overview", "knowledge", "intelligence", "resources", "evidence", "progress", "buy", "listings", "notebook"];
+    let activeTab = "research";
+    const tabOrder = ["research", "buying", "owning", "notebook"];
 
     function workspaceTabStorageKey(boat) {
         return boat?.BoatModelID ? `bscout.workspace.tab.${boat.BoatModelID}` : "";
@@ -171,15 +171,20 @@
                 ${field("Berths", boat.Berths)}${field("Cabins", boat.Cabins)}${field("Heads", boat.Heads)}${field("Shower", boat.Shower)}
                 ${field("Fuel Capacity", boat.FuelCapacity)}${field("Water Capacity", boat.WaterCapacity)}${field("Holding Capacity", boat.HoldingCapacity)}${field("Headroom", boat.Headroom_ft, " ft")}
             </div></section>
-            <section class="workspace-card"><h3>Ownership Knowledge</h3>
+            <section class="workspace-card"><h3>Model Strengths & Trade-offs</h3>
                 <div class="workspace-three-column"><div><h4>Strengths</h4>${textList(arr(intelligence.strengths).length ? intelligence.strengths : splitText(boat.Strengths))}</div>
                 <div><h4>Trade-offs</h4>${textList(arr(intelligence.tradeoffs).length ? intelligence.tradeoffs : splitText(boat.Weaknesses))}</div>
-                <div><h4>Common Problems</h4>${textList(splitText(boat.CommonProblems))}</div></div>
+                <div><h4>Known Model Problems</h4>${textList(splitText(boat.CommonProblems))}</div></div>
             </section>
-            <section class="workspace-card"><h3>Model Character</h3><div class="workspace-fact-grid">
-                ${field("B-Scout Signature", intelligence.signature)}${field("Design Philosophy", intelligence.designPhilosophy)}${field("Personality", intelligence.personality)}${field("Ideal Owner", intelligence.idealOwner)}
-                ${field("Ownership Ease", intelligence.ownershipEase)}${field("Maintenance Ease", intelligence.maintenanceEase)}${field("Parts Availability", intelligence.partsAvailability)}${field("Market Availability", intelligence.marketAvailability)}
-            </div></section>
+            <section class="workspace-card"><h3>Model Character</h3>
+                <p>${esc(intelligence.characterNarrative || boat.ModelCharacter || intelligence.signature || "Model character has not yet been researched.")}</p>
+                <div class="workspace-fact-grid">
+                    ${field("Design Philosophy", intelligence.designPhilosophy)}${field("Personality", intelligence.personality)}${field("Ideal Owner", intelligence.idealOwner)}
+                    ${field("Living With the Model", intelligence.ownershipCharacter || boat.OwnershipCharacter)}${field("Ownership Ease", intelligence.ownershipEase)}${field("Maintenance Ease", intelligence.maintenanceEase)}
+                    ${field("Parts Availability", intelligence.partsAvailability)}${field("Market Availability", intelligence.marketAvailability)}
+                </div>
+                <div><h4>Design Lineage</h4>${textList(arr(intelligence.designLineage).length ? intelligence.designLineage : arr(boat.DesignLineage), "Design lineage has not yet been researched.")}</div>
+            </section>
         </div>`;
     }
 
@@ -202,17 +207,25 @@
     }
 
     function collectResources() {
-        const sections = ["documents", "ownerCommunities", "videos", "images"];
+        // Ownership is intentionally a resource library, not a second copy of model research.
+        // Model images remain part of the Guide/Dreaming experience rather than Own.
+        const sections = ["documents", "ownerCommunities", "videos"];
         return sections.flatMap(type => arr(currentCard?.[type]).map(item => ({...item, group: type})));
     }
     function renderResources() {
         const resources = collectResources();
-        const groups = {documents: "Documents and Manuals", ownerCommunities: "Owner Communities", videos: "Videos", images: "Images"};
-        if (!resources.length) return `<section class="workspace-card"><h3>Resource Library</h3><p class="workspace-empty">No curated resources have been attached. Marketplace listings are intentionally kept in My Boats.</p></section>`;
-        return `<div class="workspace-section-stack">${Object.entries(groups).map(([key,label]) => {
-            const items=resources.filter(x=>x.group===key); if(!items.length) return "";
+        const groups = [
+            ["documents", "Manuals & Documents"],
+            ["ownerCommunities", "Groups & Clubs"],
+            ["videos", "Videos & Virtual Tours"]
+        ];
+        if (!resources.length) return `<section class="workspace-card"><h3>Owner Resource Library</h3><p class="workspace-empty">No verified owner resources have been attached yet. Missing resources remain unknown rather than inferred.</p></section>`;
+        const rendered = groups.map(([key,label]) => {
+            const items=resources.filter(x=>x.group===key);
+            if(!items.length) return "";
             return `<section class="workspace-card"><h3>${esc(label)}</h3><ul class="workspace-resource-list">${items.map(item=>{const url=safeUrl(item.url);return `<li><div>${url?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(item.title||item.label||"Resource")}</a>`:`<strong>${esc(item.title||item.label||"Resource")}</strong>`}<span>${esc(item.sourceLabel||item.resourceType||"Source not recorded")} · ${esc(item.verificationStatus||"Unverified")}</span></div></li>`}).join("")}</ul></section>`;
-        }).join("")}</div>`;
+        }).filter(Boolean).join("");
+        return `<div class="workspace-section-stack">${rendered}</div>`;
     }
 
     function renderEvidence() {
@@ -254,7 +267,7 @@
                 catch (_) { price = `${listing.Currency || "CAD"} ${amount.toLocaleString("en-CA")}`; }
             }
             const title = listing.Title || [listing.Year, currentBoat.Manufacturer, currentBoat.Model, currentBoat.Variant].filter(Boolean).join(" ");
-            return `<article class="workspace-listing-card"><div><span class="listing-source">${esc(listing.Source || "Saved listing")}</span><h4>${esc(title)}</h4><p>${esc(price)} · ${esc(listing.Location || "Location unknown")} · ${esc(listing.Status || "Watching")}</p></div><div class="listing-card-actions"><button type="button" class="workspace-open-listing" data-listing-id="${esc(listing.ListingID)}">Listing Workspace</button>${safeUrl(listing.URL) ? `<a href="${esc(safeUrl(listing.URL))}" target="_blank" rel="noopener noreferrer">Original Listing</a>` : ""}</div></article>`;
+            return `<article class="workspace-listing-card"><div><span class="listing-source">${esc(listing.Source || "Saved listing")}</span><h4>${esc(title)}</h4><p>${esc(price)} · ${esc(listing.Location || "Location unknown")} · ${esc(listing.Status || "Watching")}</p></div><div class="listing-card-actions"><button type="button" class="workspace-open-listing" data-listing-id="${esc(listing.ListingID)}">Listing Details</button>${safeUrl(listing.URL) ? `<a href="${esc(safeUrl(listing.URL))}" target="_blank" rel="noopener noreferrer">Original Listing</a>` : ""}</div></article>`;
         }).join("") : `<p class="workspace-empty">${esc(emptyText)}</p>`;
         return { listings, cards };
     }
@@ -273,22 +286,21 @@
             const marketplaces = links.filter(link => link.sourceType === "Marketplace");
             const rows = items => items.map(link => {
                 const statusMeta = {
-                    ViableListing: { icon: "✓", label: "Listing found", className: "is-viable" },
-                    PossibleMatches: { icon: "✓", label: "Possible matches", className: "is-possible" },
-                    NoListingFound: { icon: "—", label: "No listing found", className: "is-empty" },
-                    BrokerUnresponsive: { icon: "!", label: "Broker unresponsive", className: "is-unresponsive" },
-                    NotChecked: { icon: "?", label: "Not checked", className: "is-unknown" }
+                    ListingLikely: { icon: "✓", label: "Listing likely", className: "is-viable" },
+                    NoListingIndicated: { icon: "—", label: "No listing indicated", className: "is-empty" },
+                    SourceUnavailable: { icon: "!", label: "Source unavailable", className: "is-unresponsive" },
+                    Inconclusive: { icon: "?", label: "Check inconclusive", className: "is-unknown" },
+                    CheckPending: { icon: "?", label: "Automated check pending", className: "is-unknown" },
+                    NotChecked: { icon: "?", label: "Automated check pending", className: "is-unknown" }
                 };
                 const meta = statusMeta[link.status] || statusMeta.NotChecked;
-                const action = link.status === "ViableListing"
-                    ? "Open listing"
-                    : (link.status === "PossibleMatches" && Number.isFinite(link.matchCount)
-                        ? `${link.matchCount} possible`
-                        : (link.action === "Search model" ? "Search model" : "Browse inventory"));
+                const action = link.status === "ListingLikely"
+                    ? "Open search"
+                    : (link.action === "Search model" ? "Search model" : "Browse inventory");
                 const title = [meta.label, link.message, link.lastChecked ? `Checked ${link.lastChecked}` : ""]
                     .filter(Boolean).join(" · ");
-                const content = `<span class="broker-status-icon" aria-hidden="true">${meta.icon}</span><span class="broker-source-copy"><span class="broker-source-name">${esc(link.label)}</span><span class="broker-source-message">${esc(link.status === "PossibleMatches" && Number.isFinite(link.matchCount) ? `${link.matchCount} possible matches` : meta.label)}</span></span><span class="broker-source-action">${esc(link.status === "BrokerUnresponsive" ? "Unavailable" : action)}</span>`;
-                if (link.status === "BrokerUnresponsive") {
+                const content = `<span class="broker-status-icon" aria-hidden="true">${meta.icon}</span><span class="broker-source-copy"><span class="broker-source-name">${esc(link.label)}</span><span class="broker-source-message">${esc(meta.label)}</span></span><span class="broker-source-action">${esc(link.status === "SourceUnavailable" ? "Unavailable" : action)}</span>`;
+                if (link.status === "SourceUnavailable") {
                     return `<div class="broker-source-row ${meta.className} is-disabled" role="status" title="${esc(title)}">${content}</div>`;
                 }
                 return `<a class="broker-source-row ${meta.className}" href="${esc(safeUrl(link.url))}" target="_blank" rel="noopener noreferrer" title="${esc(title)}">${content}</a>`;
@@ -311,16 +323,17 @@
         ].filter(([,value]) => known(value));
         const individual = renderIndividualListings({emptyText:"No boats saved for this model."});
         const sourceCount = Number(discovery.sourceCount || 0);
-        const possibleMatchSources = arr(discovery.groups)
-            .flatMap(group => arr(group.links))
-            .filter(link => link.status === "PossibleMatches" && Number.isFinite(link.matchCount) && link.matchCount > 0);
+        const allSourceLinks = arr(discovery.groups)
+            .flatMap(group => arr(group.links));
+        const likelyListingSources = allSourceLinks.filter(link => link.status === "ListingLikely");
+        const completedSourceChecks = allSourceLinks.filter(link => !["NotChecked", "CheckPending"].includes(link.status));
 
         return `<div class="workspace-section-stack buy-this-boat-workspace">
-            <section class="workspace-card buy-candidate-listings"><div class="workspace-section-heading"><div><span class="workspace-label">Current Listings</span><h3>Boats You Saved</h3></div><button type="button" id="addWorkspaceListing">Add Boat</button></div><div class="workspace-listings-list">${individual.cards}</div></section>
+            <section class="workspace-card buy-candidate-listings"><div class="workspace-section-heading"><div><h3>Saved Listings</h3><p>Individual boats for sale that you are tracking for this model.</p></div><button type="button" id="addWorkspaceListing">Add Listing</button></div><div class="workspace-listings-list">${individual.cards}</div></section>
 
             <section class="market-coverage-strip" aria-label="Marketplace search coverage">
                 <div class="market-coverage-item"><span class="market-coverage-icon" aria-hidden="true">⌕</span><strong>${sourceCount}</strong><span>search sources</span></div>
-                <div class="market-coverage-item"><span class="market-coverage-icon" aria-hidden="true">${possibleMatchSources.length ? "✓" : "?"}</span><strong>${possibleMatchSources.length || "Not checked"}</strong><span>${possibleMatchSources.length === 1 ? "source with possible matches" : "sources with possible matches"}</span></div>
+                <div class="market-coverage-item"><span class="market-coverage-icon" aria-hidden="true">${likelyListingSources.length ? "✓" : (completedSourceChecks.length ? "?" : "…")}</span><strong>${likelyListingSources.length || (completedSourceChecks.length ? "None confirmed" : "Pending")}</strong><span>${likelyListingSources.length === 1 ? "source with a likely listing" : (likelyListingSources.length ? "sources with a likely listing" : "automated source check") }</span></div>
             </section>
 
             ${priceFields.length ? `<section class="workspace-card market-price-card"><div class="market-card-title"><span aria-hidden="true">$</span><h3>Typical Asking Price</h3></div><div class="workspace-fact-grid">${priceFields.map(([label,value])=>field(label,value)).join("")}</div><p class="workspace-note">Model guidance only.</p></section>` : ""}
@@ -332,16 +345,11 @@
         </div>`;
     }
 
-    function renderListings() {
-        const individual = renderIndividualListings();
-        return `<div class="workspace-section-stack"><section class="workspace-card"><div class="workspace-section-heading"><div><h3>Specific Candidate Listings</h3><p>These records describe individual boats for sale, not the model generally.</p></div><button type="button" id="addWorkspaceListing">Add Listing</button></div><div class="workspace-listings-list">${individual.cards}</div></section><section class="workspace-card workspace-note"><strong>Location rule</strong><p>Price, broker, condition, inspections, surveys, offers and repairs stay with the individual listing. Shared specifications and model-wide issues stay in Boat Knowledge.</p></section></div>`;
-    }
-
     function renderNotebook() {
         const rel = getRelationship();
         const research = rel?.Research || {};
         return `<div class="workspace-section-stack">
-            <section class="workspace-card"><h3>My model assessment</h3><div class="workspace-notebook-grid"><label>Stage<select id="workspaceNotebookStatus"><option value="None">Unreviewed</option><option value="Favorite">Favorite</option><option value="Candidate">Candidate</option><option value="Research">Evaluating</option><option value="Rejected">Rejected</option></select></label><label>Rating<select id="workspaceNotebookRating"><option value="0">Unrated</option><option value="1">1 star</option><option value="2">2 stars</option><option value="3">3 stars</option><option value="4">4 stars</option><option value="5">5 stars</option></select></label></div></section>
+            <section class="workspace-card"><h3>My model assessment</h3><div class="workspace-notebook-grid"><label>Stage<select id="workspaceNotebookStatus"><option value="None">Unreviewed</option><option value="Favorite">Interested</option><option value="Candidate">Shortlist</option><option value="Research">Researching</option><option value="Rejected">Rejected</option></select></label><label>Rating<select id="workspaceNotebookRating"><option value="0">Unrated</option><option value="1">1 star</option><option value="2">2 stars</option><option value="3">3 stars</option><option value="4">4 stars</option><option value="5">5 stars</option></select></label></div></section>
             <section class="workspace-card"><label class="workspace-field-label" for="workspaceNotebookNotes">Model Notes</label><textarea id="workspaceNotebookNotes" rows="8" placeholder="Record research or preferences that apply to this model generally. Listing-specific observations belong in the Listing Workspace.">${esc(research.Notes||"")}</textarea></section>
             <section class="workspace-card"><label class="workspace-field-label" for="workspaceNotebookTags">Tags</label><input id="workspaceNotebookTags" type="text" value="${esc(research.Tags||"")}" placeholder="classic, project boat, inspect fuel tanks"></section>
             <section class="workspace-card workspace-notebook-separation"><h3>Listing-specific notes</h3><p>Observations about a particular engine, seller, condition, inspection, survey, offer or repair estimate belong in that boat’s <strong>Listing Workspace</strong>.</p><button type="button" id="openListingsFromNotebook" class="workspace-secondary-action">Open Model Listings</button></section>
@@ -349,8 +357,91 @@
         </div>`;
     }
 
+
+    function sectionIntro(title, text) {
+        return `<header class="boat-guide-section-intro"><h2>${esc(title)}</h2><p>${esc(text)}</p></header>`;
+    }
+    function progressiveSection(id, title, content, open) {
+        return `<details id="${esc(id)}" class="boat-guide-subsection boat-guide-subsection-target"${open ? " open" : ""}><summary>${esc(title)}</summary><div class="boat-guide-subsection-body">${content}</div></details>`;
+    }
+    function sectionMenu(items) {
+        return `<nav class="boat-guide-section-menu" aria-label="Sections on this page">${items.map(item => `<button type="button" data-guide-target="${esc(item.id)}">${esc(item.label)}</button>`).join("")}</nav>`;
+    }
+    function unknownPrinciple() {
+        return `<p class="boat-guide-unknown-note"><strong>Confidence rule:</strong> Missing information remains unknown. It does not count against this model or imply that a feature is absent.</p>`;
+    }
+    function renderDreaming() {
+        const boat = currentBoat || {};
+        const intelligence = currentCard?.intelligence || {};
+        const videos = arr(currentCard?.videos);
+        const images = arr(currentCard?.images);
+        const highlights = arr(intelligence.strengths).length ? intelligence.strengths : splitText(boat.Strengths);
+        const media = [...images.map(item=>({...item,group:"images"})), ...videos.map(item=>({...item,group:"videos"}))];
+        const mediaHtml = media.length ? `<ul class="workspace-resource-list">${media.map(item=>{const url=safeUrl(item.url);return `<li><div>${url?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(item.title||item.label||"View resource")}</a>`:`<strong>${esc(item.title||item.label||"Resource")}</strong>`}<span>${esc(item.group==="videos"?"Walkthrough / Video":"Image / Visual reference")}${item.sourceLabel?` · ${esc(item.sourceLabel)}`:""}</span></div></li>`}).join("")}</ul>` : `<p class="workspace-empty">No verified walkthrough videos or additional visual resources are attached yet.</p>`;
+        return `${sectionIntro("Dream", "See what this model is like before turning curiosity into deep research.")}
+            <div class="workspace-section-stack">
+              <section class="workspace-card"><h3>Why people consider it</h3><p>${esc(intelligence.characterNarrative || boat.ModelCharacter || intelligence.signature || "Model character has not yet been researched.")}</p>${textList(highlights, "No confirmed strengths have been recorded.")}</section>
+              <section class="workspace-card"><h3>At a glance</h3><div class="workspace-fact-grid">
+                ${field("Length", boat.LOA_ft, " ft")}${field("Beam", boat.Beam_ft, " ft")}${field("Style", boat.Style || boat.NormalizedStyle)}${field("Hull", boat.HullType || boat.NormalizedHullForm)}
+                ${field("Fuel", boat.Fuel)}${field("Propulsion", boat.Propulsion)}
+              </div></section>
+              <section class="workspace-card"><h3>Walkthroughs & Visual Resources</h3>${mediaHtml}</section>
+            </div>`;
+    }
+    function communityGuideCounts() {
+        return root.BScoutCommunityGuide?.counts?.(currentBoat?.BoatModelID) || {research:0,buyer:0,photos:0,resources:0};
+    }
+    function renderCommunityResearch() { return root.BScoutCommunityGuide?.renderResearch?.(currentBoat?.BoatModelID) || ""; }
+    function renderCommunityBuyer() { return root.BScoutCommunityGuide?.renderBuyer?.(currentBoat?.BoatModelID) || ""; }
+    function renderCommunityPhotos() { return root.BScoutCommunityGuide?.renderPhotos?.(currentBoat?.BoatModelID) || ""; }
+    function renderCommunityResources() { return root.BScoutCommunityGuide?.renderResources?.(currentBoat?.BoatModelID) || ""; }
+
+    function renderResearch() {
+        const cc=communityGuideCounts();
+        const menu=[{id:"guide-overview",label:"Overview"},{id:"guide-specifications",label:"Specifications & Variations"},{id:"guide-evidence",label:"Evidence & Confidence"}];
+        if(cc.research) menu.splice(2,0,{id:"guide-community-knowledge",label:"Owner Knowledge"});
+        if(cc.photos) menu.splice(cc.research?3:2,0,{id:"guide-community-photos",label:"Owner Photos"});
+        return `${sectionIntro("Research", "Understand the serious candidate: design intent, model character, trade-offs, known problems, specifications and evidence.")}
+            ${sectionMenu(menu)}${unknownPrinciple()}
+            ${progressiveSection("guide-overview", "Model overview and fit", renderOverview(), true)}
+            ${progressiveSection("guide-specifications", "Specifications, model character and variations", renderKnowledge(), false)}
+            ${cc.research?progressiveSection("guide-community-knowledge", "Owner-informed model knowledge", renderCommunityResearch(), false):""}
+            ${cc.photos?progressiveSection("guide-community-photos", "Owner-contributed photos", renderCommunityPhotos(), false):""}
+            ${progressiveSection("guide-evidence", "Evidence and confidence", renderEvidence(), false)}`;
+    }
+
+    function renderBuying() {
+        const cc=communityGuideCounts();
+        const menu=[{id:"guide-buying-actions",label:"Listings & Buying Actions"},{id:"guide-buying-knowledge",label:"Inspection Look-outs"}];
+        if(cc.buyer) menu.push({id:"guide-community-inspection",label:"Owner Inspection Advice"});
+        return `${sectionIntro("Buy", "Move from model research to actual boats for sale: listings, seller conversations, inspection findings, pricing and offers.")}
+            ${sectionMenu(menu)}${unknownPrinciple()}
+            ${progressiveSection("guide-buying-actions", "Listings and buying actions", renderBuyThisBoat(), true)}
+            ${progressiveSection("guide-buying-knowledge", "Known concerns and inspection look-outs", renderIntelligence(), false)}
+            ${cc.buyer?progressiveSection("guide-community-inspection", "Owner-informed inspection advice", renderCommunityBuyer(), false):""}`;
+    }
+
+    function renderOwning() {
+        const community=renderCommunityResources();
+        const curated=collectResources().length ? renderResources() : "";
+        const empty=!curated&&!community ? `<section class="workspace-card"><h3>Owner Resource Library</h3><p class="workspace-empty">No verified owner resources have been attached yet. Missing resources remain unknown rather than inferred.</p></section>` : "";
+        return `${sectionIntro("Owner Resources", "Model-specific manuals, documents, groups, forums, videos and virtual tours.")}
+            ${curated}${community}${empty}`;
+    }
+
+    function renderSelling() {
+        const boat = currentBoat || {};
+        const concerns = buildIntelligenceSections(boat, getRecommendation(), currentCard, getKnowledge(), root.allBoats || []).inspection;
+        const menu=[{id:"guide-buyer-expectations",label:"Buyer Expectations"},{id:"guide-sale-evidence",label:"Records to Prepare"},{id:"guide-valuation",label:"Valuation Status"}];
+        return `${sectionIntro("Sell", "Prepare this model for buyer scrutiny without overstating condition, value or certainty.")}
+            ${sectionMenu(menu)}${unknownPrinciple()}
+            ${progressiveSection("guide-buyer-expectations", "What buyers will expect", `<div class="workspace-section-stack"><section class="workspace-card"><p>Document maintenance, upgrades, engine details, equipment and unresolved concerns. Model-wide knowledge belongs here; the condition of an individual boat belongs in its My Boat record.</p></section><section class="workspace-card"><h3>Questions to prepare for</h3>${textList(concerns, "No model-specific inspection concerns have been verified yet.")}</section></div>`, true)}
+            ${progressiveSection("guide-sale-evidence", "Evidence and records to assemble", `<section class="workspace-card">${textList(["Ownership and registration records", "Engine and equipment details", "Maintenance and upgrade records", "Manuals, surveys and receipts", "Clear photographs of important systems"], "No preparation guidance available.")}</section>`, false)}
+            ${progressiveSection("guide-valuation", "Valuation status", `<section class="workspace-card"><p>B-Scout does not calculate an authoritative value from incomplete market evidence. Asking prices and listing records remain reference information only.</p></section>`, false)}`;
+    }
+
     function setTab(tab) {
-        activeTab = tabOrder.includes(tab) ? tab : "overview";
+        activeTab = tabOrder.includes(tab) ? tab : "research";
         rememberTab(activeTab);
         document.querySelectorAll(".boat-workspace-tab").forEach(btn => {
             const selected = btn.dataset.workspaceTab === activeTab;
@@ -365,11 +456,22 @@
         });
         const panel = document.querySelector(`[data-workspace-panel="${activeTab}"]`);
         if (!panel || !currentBoat) return;
-        const renderers = {overview:renderOverview, knowledge:renderKnowledge, intelligence:renderIntelligence, resources:renderResources, evidence:renderEvidence, progress:renderProgress, buy:renderBuyThisBoat, listings:renderListings, notebook:renderNotebook};
-        panel.innerHTML = (renderers[activeTab] || renderOverview)();
+        const renderers = {research:renderResearch, buying:renderBuying, owning:renderOwning, notebook:renderNotebook};
+        panel.innerHTML = (renderers[activeTab] || renderResearch)();
+        bindSectionMenu(panel);
         if (activeTab === "notebook") bindNotebook();
-        if (activeTab === "buy") bindBuyThisBoat();
-        if (activeTab === "listings") bindListings();
+        if (activeTab === "buying") { bindBuyThisBoat(); bindListings(); }
+        root.BScoutCommunityGuide?.enhance?.(panel);
+    }
+
+    function bindSectionMenu(panel) {
+        panel?.querySelectorAll("[data-guide-target]").forEach(button => button.addEventListener("click", () => {
+            const target = panel.querySelector(`#${button.dataset.guideTarget}`);
+            if (!target) return;
+            target.open = true;
+            target.scrollIntoView({behavior:"smooth", block:"start"});
+            window.setTimeout(() => target.querySelector("summary")?.focus({preventScroll:true}), 350);
+        }));
     }
 
     function bindNotebook() {
@@ -390,10 +492,10 @@
             input.addEventListener("input", markUnsaved);
             input.addEventListener("change", markUnsaved);
         });
-        document.getElementById("openListingsFromNotebook")?.addEventListener("click", () => setTab("listings"));
+        document.getElementById("openListingsFromNotebook")?.addEventListener("click", () => setTab("buying"));
     }
     function bindBuyThisBoat() {
-        document.getElementById("openInspectionKnowledge")?.addEventListener("click", () => setTab("intelligence"));
+        document.getElementById("openInspectionKnowledge")?.addEventListener("click", () => setTab("buying"));
         bindListings();
     }
 
@@ -426,14 +528,28 @@
 
     async function open(boat, tab) {
         currentBoat = boat;
+        if (root.BScoutNavigation) root.BScoutNavigation.push("guide", { boatModelId: boat.BoatModelID, tab: tab || "" });
         currentCard = null;
-        const modal = document.getElementById("boatModal"); if (!modal) return;
+        const guide = document.getElementById("boatGuideView"); if (!guide) return;
         document.getElementById("modalTitle").textContent = boatName(boat);
         document.getElementById("workspaceIdentitySummary").textContent = `${boat.FirstYear || "?"}–${boat.LastYear || "?"} · ${boat.NormalizedStyle || boat.Style || "Style unknown"} · Model knowledge, not an individual listing`;
+        const contributeButton = document.getElementById("contributeToGuideBtn");
+        if (contributeButton) {
+            contributeButton.dataset.modelId = boat.BoatModelID || "";
+            contributeButton.dataset.manufacturer = boat.Manufacturer || boat.Make || "";
+            contributeButton.dataset.model = boat.Model || "";
+            contributeButton.dataset.variant = boat.Variant || "";
+            contributeButton.dataset.guideName = boatName(boat);
+        }
         const image = document.getElementById("modalImage");
         if (image && root.ImageAssetManager) { image.src = root.ImageAssetManager.resolveBoatImage(boat); image.alt = boatName(boat); image.style.display = "block"; root.ImageAssetManager.applyImageFallback(image); }
-        modal.style.display = "block";
-        setTab(tab || getRememberedTab(boat) || "overview");
+        root.BScoutOwnership?.hideOwnedView();
+        document.getElementById("lifecycleHome")?.setAttribute("hidden", "");
+        document.getElementById("discoverView")?.setAttribute("hidden", "");
+        guide.hidden = false;
+        guide.scrollIntoView({behavior:"smooth", block:"start"});
+        const requestedTab = ({overview:"research", knowledge:"research", intelligence:"research", buy:"buying", listings:"buying", resources:"owning", progress:"research", evidence:"research", notebook:"notebook", dream:"research", dreaming:"research", research:"research", sell:"buying", selling:"buying"})[tab] || tab;
+        setTab(requestedTab || getRememberedTab(boat) || "research");
         const status = document.getElementById("boatWorkspaceStatus"); if (status) status.textContent = "Loading curated model knowledge…";
         try {
             if (root.BScoutKnowledgeUI) currentCard = await root.BScoutKnowledgeUI.loadCardForBoat(boat);
@@ -463,5 +579,5 @@
 
     function refreshActiveTab() { setTab(activeTab); }
 
-    return {open, setTab, refreshActiveTab, renderOverview, renderKnowledge, renderIntelligence, renderResources, renderEvidence, renderProgress, renderBuyThisBoat, renderListings, renderNotebook, buildIntelligenceSections};
+    return {open, setTab, refreshActiveTab, renderDreaming, renderBuying, renderOwning, renderSelling, renderNotebook, buildIntelligenceSections};
 });

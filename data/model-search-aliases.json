@@ -1,25 +1,2806 @@
 [
   {
-    "BoatModelID": "BAYL-3270",
-    "CanonicalName": "Bayliner 3270",
+    "BoatModelID": "ALBN-25",
+    "CanonicalName": "Albin 25",
+    "ManufacturerTerms": [
+      "Albin"
+    ],
+    "ModelTerms": [
+      "25"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ALBN-27-FC",
+    "CanonicalName": "Albin 27 Family Cruiser",
+    "ManufacturerTerms": [
+      "Albin"
+    ],
+    "ModelTerms": [
+      "27",
+      "27 Family Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ALBN-27-SP",
+    "CanonicalName": "Albin 27 Sport",
+    "ManufacturerTerms": [
+      "Albin"
+    ],
+    "ModelTerms": [
+      "27",
+      "27 Sport"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ALBN-28-FL",
+    "CanonicalName": "Albin 28 Tournament Express Flush Deck",
+    "ManufacturerTerms": [
+      "Albin"
+    ],
+    "ModelTerms": [
+      "28 Tournament Express",
+      "28 Tournament Express Flush Deck",
+      "28 Tournament Express — Flush Deck"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ALBN-28-TE-EB",
+    "CanonicalName": "Albin 28 Tournament Express Engine Box",
+    "ManufacturerTerms": [
+      "Albin"
+    ],
+    "ModelTerms": [
+      "28 Tournament Express",
+      "28 Tournament Express Engine Box",
+      "28 Tournament Express — Engine Box"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ALBN-30-FC",
+    "CanonicalName": "Albin 30 Family Cruiser",
+    "ManufacturerTerms": [
+      "Albin"
+    ],
+    "ModelTerms": [
+      "30",
+      "30 Family Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ALBN-32-PL",
+    "CanonicalName": "Albin 32+2 Command Bridge",
+    "ManufacturerTerms": [
+      "Albin"
+    ],
+    "ModelTerms": [
+      "32+2",
+      "32+2 Command Bridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ALBN-36-CL",
+    "CanonicalName": "Albin 36 Trawler",
+    "ManufacturerTerms": [
+      "Albin"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ALBN-40-TR",
+    "CanonicalName": "Albin 40 Trawler",
+    "ManufacturerTerms": [
+      "Albin"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "AMTG-34",
+    "CanonicalName": "American Tug 34 Trawler",
+    "ManufacturerTerms": [
+      "American Tug"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "AMTG-365",
+    "CanonicalName": "American Tug 365 Trawler",
+    "ManufacturerTerms": [
+      "American Tug"
+    ],
+    "ModelTerms": [
+      "365",
+      "365 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "AMTG-395",
+    "CanonicalName": "American Tug 395 Trawler",
+    "ManufacturerTerms": [
+      "American Tug"
+    ],
+    "ModelTerms": [
+      "395",
+      "395 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ATLB-26-DU",
+    "CanonicalName": "Atlantic Boat 26 Duffy Cruiser",
+    "ManufacturerTerms": [
+      "Atlantic Boat"
+    ],
+    "ModelTerms": [
+      "26",
+      "26 Duffy Cruiser",
+      "Duffy 26 Downeast",
+      "26 / Duffy 26",
+      "26 / Duffy 26 Duffy Hull"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ATLB-37-TR",
+    "CanonicalName": "Atlantic 37 Trawler",
+    "ManufacturerTerms": [
+      "Atlantic"
+    ],
+    "ModelTerms": [
+      "37",
+      "37 Trawler",
+      "37 Double Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-2452",
+    "CanonicalName": "Bayliner 2452 Classic Cruiser",
     "ManufacturerTerms": [
       "Bayliner"
     ],
     "ModelTerms": [
-      "3270",
-      "3270 Motoryacht",
-      "3270 Motor Yacht",
-      "3270 Explorer",
-      "Explorer 3270"
+      "2452",
+      "2452 Classic Cruiser",
+      "2452 Ciera Express",
+      "2452 Ciera Express Classic Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-2855",
+    "CanonicalName": "Bayliner 2855 Ciera",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "2855",
+      "2855 Ciera",
+      "2855 Ciera Sunbridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-2859",
+    "CanonicalName": "Bayliner 2859 Classic Cruiser",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "2859",
+      "2859 Classic Cruiser",
+      "2859 Ciera Express",
+      "2859 Ciera Express Classic Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-3055",
+    "CanonicalName": "Bayliner 3055 Ciera",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "3055",
+      "3055 Ciera",
+      "3055 Ciera Sunbridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-3058",
+    "CanonicalName": "Bayliner 3058",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "3058",
+      "3058 Command Bridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-3218",
+    "CanonicalName": "Bayliner 3218",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "3218",
+      "3218 Motoryacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-3258",
+    "CanonicalName": "Bayliner 3258",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "3258",
+      "3258 Ciera Command Bridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-3288-MO",
+    "CanonicalName": "Bayliner 3288 Motor Yacht",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "3288",
+      "3288 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-3388",
+    "CanonicalName": "Bayliner 3388",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "3388",
+      "3388 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-3788",
+    "CanonicalName": "Bayliner 3788 Motor Yacht",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "3788",
+      "3788 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-3888-MO",
+    "CanonicalName": "Bayliner 3888 Motor Yacht",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "3888",
+      "3888 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BAYL-4087",
+    "CanonicalName": "Bayliner 4087 Aft Cabin",
+    "ManufacturerTerms": [
+      "Bayliner"
+    ],
+    "ModelTerms": [
+      "4087",
+      "4087 Aft Cabin",
+      "4087 Cockpit Motor Yacht",
+      "4087 Cockpit Motor Yacht Aft Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-30-SW",
+    "CanonicalName": "Beneteau 30 Swift Trawler",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "30",
+      "30 Swift Trawler",
+      "Swift Trawler 30",
+      "Swift Trawler 30 Flybridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-34-SW",
+    "CanonicalName": "Beneteau 34 Swift Trawler",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Swift Trawler",
+      "Swift Trawler 34",
+      "Swift Trawler 34 Flybridge or Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-35-SW",
+    "CanonicalName": "Beneteau 35 Swift Trawler",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "35",
+      "35 Swift Trawler",
+      "Swift Trawler 35",
+      "Swift Trawler 35 Flybridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-47",
+    "CanonicalName": "Beneteau 47 Swift Trawler",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "47",
+      "47 Swift Trawler",
+      "Swift Trawler 47",
+      "Swift Trawler 47 Flybridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-48",
+    "CanonicalName": "Beneteau 48 Swift Trawler",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "48",
+      "48 Swift Trawler",
+      "Swift Trawler 48",
+      "Swift Trawler 48 Flybridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-52",
+    "CanonicalName": "Beneteau 52 Swift Trawler",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "52",
+      "52 Swift Trawler",
+      "Swift Trawler 52",
+      "Swift Trawler 52 Flybridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-ANT-11",
+    "CanonicalName": "Beneteau 11 Antares",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "11",
+      "11 Antares",
+      "Antares 11",
+      "Antares 11 Coupe"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-ANT-7",
+    "CanonicalName": "Beneteau 7 Antares",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "7",
+      "7 Antares",
+      "Antares 7",
+      "Antares 7 Pilothouse Outboard"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-ANT-8",
+    "CanonicalName": "Beneteau 8 Antares",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "8",
+      "8 Antares",
+      "Antares 8",
+      "Antares 8 Pilothouse Outboard"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-ANT-9",
+    "CanonicalName": "Beneteau 9 Antares",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "9",
+      "9 Antares",
+      "Antares 9",
+      "Antares 9 Pilothouse Outboard"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-BAR-8",
+    "CanonicalName": "Beneteau 8 Barracuda",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "8",
+      "8 Barracuda",
+      "Barracuda 8",
+      "Barracuda 8 Sport Fishing Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-BAR-9",
+    "CanonicalName": "Beneteau 9 Barracuda",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "9",
+      "9 Barracuda",
+      "Barracuda 9",
+      "Barracuda 9 Sport Fishing Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BHMB-32",
+    "CanonicalName": "BHM 32 Downeast",
+    "ManufacturerTerms": [
+      "BHM"
+    ],
+    "ModelTerms": [
+      "32",
+      "32 Downeast"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BKCV-26",
+    "CanonicalName": "Back Cove 26",
+    "ManufacturerTerms": [
+      "Back Cove"
+    ],
+    "ModelTerms": [
+      "26"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BKCV-29",
+    "CanonicalName": "Back Cove 29",
+    "ManufacturerTerms": [
+      "Back Cove"
+    ],
+    "ModelTerms": [
+      "29"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BKCV-30",
+    "CanonicalName": "Back Cove 30 Trawler",
+    "ManufacturerTerms": [
+      "Back Cove"
+    ],
+    "ModelTerms": [
+      "30",
+      "30 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BKCV-32",
+    "CanonicalName": "Back Cove 32 Trawler",
+    "ManufacturerTerms": [
+      "Back Cove"
+    ],
+    "ModelTerms": [
+      "32",
+      "32 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BKCV-33",
+    "CanonicalName": "Back Cove 33",
+    "ManufacturerTerms": [
+      "Back Cove"
+    ],
+    "ModelTerms": [
+      "33"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BKCV-34",
+    "CanonicalName": "Back Cove 34 Trawler",
+    "ManufacturerTerms": [
+      "Back Cove"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BKCV-37",
+    "CanonicalName": "Back Cove 37 Trawler",
+    "ManufacturerTerms": [
+      "Back Cove"
+    ],
+    "ModelTerms": [
+      "37",
+      "37 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BKCV-39O",
+    "CanonicalName": "Back Cove 39 O",
+    "ManufacturerTerms": [
+      "Back Cove"
+    ],
+    "ModelTerms": [
+      "39",
+      "39 O",
+      "39O",
+      "39O Outboard"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BKCV-41",
+    "CanonicalName": "Back Cove 41",
+    "ManufacturerTerms": [
+      "Back Cove"
+    ],
+    "ModelTerms": [
+      "41"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CALF-34-TR",
+    "CanonicalName": "Californian 34 Trawler",
+    "ManufacturerTerms": [
+      "Californian"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Trawler",
+      "34 LRC",
+      "34 LRC Long Range Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CALF-38-TR",
+    "CanonicalName": "Californian 38 Trawler",
+    "ManufacturerTerms": [
+      "Californian"
+    ],
+    "ModelTerms": [
+      "38",
+      "38 Trawler",
+      "38 LRC Sedan",
+      "38 LRC Sedan Long Range Cruiser Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CAMA-28-GN",
+    "CanonicalName": "Camano 28/31 Gnome",
+    "ManufacturerTerms": [
+      "Camano"
+    ],
+    "ModelTerms": [
+      "28/31",
+      "28/31 Gnome",
+      "28 Gnome",
+      "31 Gnome",
+      "Gnome"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CAMA-31-TR",
+    "CanonicalName": "Camano 28/31 Troll",
+    "ManufacturerTerms": [
+      "Camano"
+    ],
+    "ModelTerms": [
+      "28/31",
+      "28/31 Troll",
+      "28 Troll",
+      "30 Troll",
+      "31 Troll",
+      "Troll"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CAMA-41",
+    "CanonicalName": "Camano 41 Trawler",
+    "ManufacturerTerms": [
+      "Camano"
+    ],
+    "ModelTerms": [
+      "41",
+      "41 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CARV-28-V",
+    "CanonicalName": "Carver 28 Voyager",
+    "ManufacturerTerms": [
+      "Carver"
+    ],
+    "ModelTerms": [
+      "28",
+      "28 Voyager"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CARV-32-AC",
+    "CanonicalName": "Carver 32 Aft Cabin",
+    "ManufacturerTerms": [
+      "Carver"
+    ],
+    "ModelTerms": [
+      "32",
+      "32 Aft Cabin",
+      "3207",
+      "3207 Aft Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CARV-33-MAR",
+    "CanonicalName": "Carver 33 Mariner",
+    "ManufacturerTerms": [
+      "Carver"
+    ],
+    "ModelTerms": [
+      "33",
+      "33 Mariner"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CARV-350-AF",
+    "CanonicalName": "Carver 350 Aft Cabin",
+    "ManufacturerTerms": [
+      "Carver"
+    ],
+    "ModelTerms": [
+      "350",
+      "350 Aft Cabin",
+      "33 / 350",
+      "33 / 350 Aft Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CARV-356-AF",
+    "CanonicalName": "Carver 356 Aft Cabin",
+    "ManufacturerTerms": [
+      "Carver"
+    ],
+    "ModelTerms": [
+      "356",
+      "356 Aft Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CARV-36-AC",
+    "CanonicalName": "Carver 36 Aft Cabin",
+    "ManufacturerTerms": [
+      "Carver"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Aft Cabin",
+      "3607",
+      "3607 Aft Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CARV-36-MAR",
+    "CanonicalName": "Carver 36 Mariner",
+    "ManufacturerTerms": [
+      "Carver"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Mariner",
+      "350 / 36",
+      "350 / 36 Mariner"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CARV-40-AC",
+    "CanonicalName": "Carver 40 Aft Cabin",
+    "ManufacturerTerms": [
+      "Carver"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Aft Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CARV-42-AC",
+    "CanonicalName": "Carver 42 Aft Cabin",
+    "ManufacturerTerms": [
+      "Carver"
+    ],
+    "ModelTerms": [
+      "42",
+      "42 Aft Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CDRY-22-CR",
+    "CanonicalName": "C-Dory 22 Cruiser",
+    "ManufacturerTerms": [
+      "C-Dory"
+    ],
+    "ModelTerms": [
+      "22",
+      "22 Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CDRY-25-CR",
+    "CanonicalName": "C-Dory 25 Cruiser",
+    "ManufacturerTerms": [
+      "C-Dory"
+    ],
+    "ModelTerms": [
+      "25",
+      "25 Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CDRY-25-TC",
+    "CanonicalName": "C-Dory 25 TomCat / TomCat 255",
+    "ManufacturerTerms": [
+      "C-Dory",
+      "C Dory"
+    ],
+    "ModelTerms": [
+      "25 TomCat",
+      "TomCat 255",
+      "30 TomCat",
+      "25 TomCat TomCat 255",
+      "25 TomCat / TomCat 255"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CDRY-26-PA",
+    "CanonicalName": "C-Dory 26 ProAngler",
+    "ManufacturerTerms": [
+      "C-Dory"
+    ],
+    "ModelTerms": [
+      "26",
+      "26 ProAngler",
+      "26 ProAngler (cruiser conversions)"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CDRY-26-V",
+    "CanonicalName": "C-Dory 26 Venture",
+    "ManufacturerTerms": [
+      "C-Dory"
+    ],
+    "ModelTerms": [
+      "26",
+      "26 Venture"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CHBB-34-SE",
+    "CanonicalName": "CHB 34 Sedan",
+    "ManufacturerTerms": [
+      "CHB"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CHBB-34-TC",
+    "CanonicalName": "CHB 34 Tri-Cabin",
+    "ManufacturerTerms": [
+      "CHB"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Tri-Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CHBY-34-SE",
+    "CanonicalName": "CHB 34 Double Cabin",
+    "ManufacturerTerms": [
+      "CHB"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Sedan",
+      "34 Double Cabin",
+      "34 Double Cabin Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CHBY-35",
+    "CanonicalName": "CHB 35 Trawler",
+    "ManufacturerTerms": [
+      "CHB"
+    ],
+    "ModelTerms": [
+      "35",
+      "35 Trawler",
+      "35 Sundeck",
+      "35 Sundeck Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CHBY-40",
+    "CanonicalName": "CHB 40 Trawler",
+    "ManufacturerTerms": [
+      "CHB"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Trawler",
+      "40 Double Cabin",
+      "40 Double Cabin Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CHLY-28",
+    "CanonicalName": "Cheoy Lee 28 Trawler",
+    "ManufacturerTerms": [
+      "Cheoy Lee"
+    ],
+    "ModelTerms": [
+      "28",
+      "28 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CHLY-32",
+    "CanonicalName": "Cheoy Lee 32 Trawler",
+    "ManufacturerTerms": [
+      "Cheoy Lee"
+    ],
+    "ModelTerms": [
+      "32 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CHLY-35",
+    "CanonicalName": "Cheoy Lee 35 Trawler",
+    "ManufacturerTerms": [
+      "Cheoy Lee"
+    ],
+    "ModelTerms": [
+      "35",
+      "35 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CHLY-36-TR",
+    "CanonicalName": "Cheoy Lee 36 Trawler Mk II",
+    "ManufacturerTerms": [
+      "Cheoy Lee"
+    ],
+    "ModelTerms": [
+      "36 Trawler Mk II",
+      "36 Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CPDR-28-CR",
+    "CanonicalName": "Cape Dory 28 Power Cruiser",
+    "ManufacturerTerms": [
+      "Cape Dory"
+    ],
+    "ModelTerms": [
+      "28",
+      "28 Cruiser",
+      "28 Power Cruiser",
+      "28 Power",
+      "28 Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CPDR-28-FB",
+    "CanonicalName": "Cape Dory 28 Flybridge Cruiser",
+    "ManufacturerTerms": [
+      "Cape Dory"
+    ],
+    "ModelTerms": [
+      "28",
+      "28 Flybridge",
+      "28 Flybridge Cruiser",
+      "28 Fly Bridge Cruiser",
+      "28 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CPDR-28-OF",
+    "CanonicalName": "Cape Dory 28 Open Fisherman",
+    "ManufacturerTerms": [
+      "Cape Dory"
+    ],
+    "ModelTerms": [
+      "28",
+      "28 Open Fisherman",
+      "28 Open Sportsman"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CPDR-30-FB",
+    "CanonicalName": "Cape Dory 30 Flybridge",
+    "ManufacturerTerms": [
+      "Cape Dory"
+    ],
+    "ModelTerms": [
+      "30",
+      "30 Flybridge",
+      "30 Flybridge Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CPDR-33-FB",
+    "CanonicalName": "Cape Dory 33 Power Yacht",
+    "ManufacturerTerms": [
+      "Cape Dory"
+    ],
+    "ModelTerms": [
+      "33",
+      "33 Power Yacht",
+      "33 Poweryacht",
+      "33 Flybridge",
+      "33 Cruiser",
+      "33 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CPDR-36-TR",
+    "CanonicalName": "Cape Dory 36 Power Yacht",
+    "ManufacturerTerms": [
+      "Cape Dory"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Power Yacht",
+      "36 Poweryacht",
+      "36 Flybridge",
+      "36 Cruiser",
+      "36 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CPDR-40-TR",
+    "CanonicalName": "Cape Dory 40 Explorer",
+    "ManufacturerTerms": [
+      "Cape Dory"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Explorer",
+      "40 Explorer Trawler",
+      "40 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CRUY-2980",
+    "CanonicalName": "Cruisers Yachts 2980",
+    "ManufacturerTerms": [
+      "Cruisers Yachts"
+    ],
+    "ModelTerms": [
+      "2980",
+      "Cruisers 2980",
+      "2980 Esprit",
+      "Cruisers 2980 Esprit"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CRUY-320-EXP",
+    "CanonicalName": "Cruisers Yachts 320 Express",
+    "ManufacturerTerms": [
+      "Cruisers Yachts"
+    ],
+    "ModelTerms": [
+      "320",
+      "320 Express",
+      "Cruisers 320 Express"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CRUY-3280",
+    "CanonicalName": "Cruisers Yachts 3280",
+    "ManufacturerTerms": [
+      "Cruisers Yachts"
+    ],
+    "ModelTerms": [
+      "3280",
+      "Cruisers 3280",
+      "3280 Esprit",
+      "Cruisers 3280 Esprit"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CRUY-3375",
+    "CanonicalName": "Cruisers Yachts 3375",
+    "ManufacturerTerms": [
+      "Cruisers Yachts"
+    ],
+    "ModelTerms": [
+      "3375",
+      "Cruisers 3375",
+      "3375 Esprit",
+      "Cruisers 3375 Esprit"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CRUY-3470",
+    "CanonicalName": "Cruisers Yachts 3470",
+    "ManufacturerTerms": [
+      "Cruisers Yachts"
+    ],
+    "ModelTerms": [
+      "3470",
+      "Cruisers 3470",
+      "3470 / 340",
+      "3470 / 340 Express",
+      "Cruisers 3470 / 340 Express"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CRUY-3650-AF",
+    "CanonicalName": "Cruisers Yachts 3650 Aft Cabin",
+    "ManufacturerTerms": [
+      "Cruisers Yachts"
+    ],
+    "ModelTerms": [
+      "3650",
+      "3650 Aft Cabin",
+      "3650 / 3750 / 375",
+      "3650 / 3750 / 375 Motor Yacht",
+      "Cruisers 3650 / 3750 / 375 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CRUY-3870",
+    "CanonicalName": "Cruisers Yachts 3870",
+    "ManufacturerTerms": [
+      "Cruisers Yachts"
+    ],
+    "ModelTerms": [
+      "3870",
+      "Cruisers 3870",
+      "3870 Express",
+      "Cruisers 3870 Express"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CRUY-390-EXP",
+    "CanonicalName": "Cruisers Yachts 390 Express",
+    "ManufacturerTerms": [
+      "Cruisers Yachts"
+    ],
+    "ModelTerms": [
+      "390",
+      "390 Express",
+      "Cruisers 390 Express"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CRUY-4050",
+    "CanonicalName": "Cruisers Yachts 4050",
+    "ManufacturerTerms": [
+      "Cruisers Yachts"
+    ],
+    "ModelTerms": [
+      "4050",
+      "Cruisers 4050",
+      "4050 Express Motor Yacht",
+      "Cruisers 4050 Express Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CUTW-24",
+    "CanonicalName": "Cutwater C-24 C",
+    "ManufacturerTerms": [
+      "Cutwater"
+    ],
+    "ModelTerms": [
+      "C-24",
+      "C-24 C",
+      "Coupe",
+      "C-24 C Coupe"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CUTW-26",
+    "CanonicalName": "Cutwater C-26",
+    "ManufacturerTerms": [
+      "Cutwater"
+    ],
+    "ModelTerms": [
+      "C-26",
+      "Cruiser",
+      "C-26 Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CUTW-28-P",
+    "CanonicalName": "Cutwater C-28",
+    "ManufacturerTerms": [
+      "Cutwater"
+    ],
+    "ModelTerms": [
+      "C-28",
+      "C-28 Pilothouse",
+      "Cruiser",
+      "C-28 Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CUTW-30-C",
+    "CanonicalName": "Cutwater C-30 CB",
+    "ManufacturerTerms": [
+      "Cutwater"
+    ],
+    "ModelTerms": [
+      "C-30",
+      "C-30 Coupe",
+      "C-30 CB",
+      "Command Bridge",
+      "C-30 CB Command Bridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CUTW-30-P",
+    "CanonicalName": "Cutwater C-30 S",
+    "ManufacturerTerms": [
+      "Cutwater"
+    ],
+    "ModelTerms": [
+      "C-30",
+      "C-30 Pilothouse",
+      "C-30 S",
+      "Sedan",
+      "C-30 S Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CUTW-32",
+    "CanonicalName": "Cutwater C-32 CB",
+    "ManufacturerTerms": [
+      "Cutwater"
+    ],
+    "ModelTerms": [
+      "C-32",
+      "C-32 CB",
+      "Command Bridge",
+      "C-32 CB Command Bridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DEFE-34-TR",
+    "CanonicalName": "DeFever 34 Trawler",
+    "ManufacturerTerms": [
+      "DeFever"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Trawler",
+      "34 Passagemaker",
+      "34 Passagemaker Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DEFE-38-TR",
+    "CanonicalName": "DeFever 38 Trawler",
+    "ManufacturerTerms": [
+      "DeFever"
+    ],
+    "ModelTerms": [
+      "38",
+      "38 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DEFE-40-EURO",
+    "CanonicalName": "DeFever 40 Euro",
+    "ManufacturerTerms": [
+      "DeFever"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Euro",
+      "40 Offshore Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DEFE-41",
+    "CanonicalName": "DeFever 41",
+    "ManufacturerTerms": [
+      "DeFever"
+    ],
+    "ModelTerms": [
+      "41",
+      "41 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DEFE-43",
+    "CanonicalName": "DeFever 43",
+    "ManufacturerTerms": [
+      "DeFever"
+    ],
+    "ModelTerms": [
+      "43",
+      "43 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DEFE-45",
+    "CanonicalName": "DeFever 45",
+    "ManufacturerTerms": [
+      "DeFever"
+    ],
+    "ModelTerms": [
+      "45",
+      "45 Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DEFE-47",
+    "CanonicalName": "DeFever 47",
+    "ManufacturerTerms": [
+      "DeFever"
+    ],
+    "ModelTerms": [
+      "47",
+      "47 POC Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DEFE-49",
+    "CanonicalName": "DeFever 49",
+    "ManufacturerTerms": [
+      "DeFever"
+    ],
+    "ModelTerms": [
+      "49",
+      "49 Cockpit Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DUFF-29",
+    "CanonicalName": "Duffy 29",
+    "ManufacturerTerms": [
+      "Duffy"
+    ],
+    "ModelTerms": [
+      "29"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DUFF-31",
+    "CanonicalName": "Duffy 31 Downeast",
+    "ManufacturerTerms": [
+      "Duffy"
+    ],
+    "ModelTerms": [
+      "31",
+      "31 Downeast"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DUFF-35",
+    "CanonicalName": "Duffy 35 Downeast",
+    "ManufacturerTerms": [
+      "Duffy"
+    ],
+    "ModelTerms": [
+      "35",
+      "35 Downeast"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DUFF-37",
+    "CanonicalName": "Duffy 37",
+    "ManufacturerTerms": [
+      "Duffy"
+    ],
+    "ModelTerms": [
+      "37"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DUFF-39",
+    "CanonicalName": "Duffy 39",
+    "ManufacturerTerms": [
+      "Duffy"
+    ],
+    "ModelTerms": [
+      "39"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "DUFF-42",
+    "CanonicalName": "Duffy 42",
+    "ManufacturerTerms": [
+      "Duffy"
+    ],
+    "ModelTerms": [
+      "42"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ENDE-36-TR",
+    "CanonicalName": "Endeavour 36 TrawlerCat",
+    "ManufacturerTerms": [
+      "Endeavour"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 TrawlerCat"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ENDE-44",
+    "CanonicalName": "Endeavour 44 TrawlerCat",
+    "ManufacturerTerms": [
+      "Endeavour"
+    ],
+    "ModelTerms": [
+      "44",
+      "44 TrawlerCat",
+      "TrawlerCat 44"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "FJRD-36",
+    "CanonicalName": "Fjord 36 Cruiser",
+    "ManufacturerTerms": [
+      "Fjord"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "FJRD-36-OPEN",
+    "CanonicalName": "Fjord 36 Open",
+    "ManufacturerTerms": [
+      "Fjord"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Open"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "FJRD-40",
+    "CanonicalName": "Fjord 40 Cruiser",
+    "ManufacturerTerms": [
+      "Fjord"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "FJRD-40-OPEN",
+    "CanonicalName": "Fjord 40 Open",
+    "ManufacturerTerms": [
+      "Fjord"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Open"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "FORT-26",
+    "CanonicalName": "Fortier 26",
+    "ManufacturerTerms": [
+      "Fortier"
+    ],
+    "ModelTerms": [
+      "26"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "FORT-33",
+    "CanonicalName": "Fortier 33",
+    "ManufacturerTerms": [
+      "Fortier"
+    ],
+    "ModelTerms": [
+      "33",
+      "33 Downeast",
+      "Fortier 33"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GOZZ-40-PI",
+    "CanonicalName": "Gozzard 40 Pilgrim",
+    "ManufacturerTerms": [
+      "Gozzard"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Pilgrim",
+      "Pilgrim 40",
+      "Pilgrim 40 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GRBK-32-CL",
+    "CanonicalName": "Grand Banks 32 Classic",
+    "ManufacturerTerms": [
+      "Grand Banks",
+      "GB"
+    ],
+    "ModelTerms": [
+      "32 Classic",
+      "32",
+      "GB32",
+      "32 Sedan"
     ],
     "SourceModelTerms": {
-      "YACHTWORLD_CA": "3270 Motoryacht",
-      "YACHTWORLD_US": "3270 Motoryacht",
-      "BOATS_COM_CA": "3270",
-      "BOATS_COM_US": "3270",
-      "BOATDEALERS_CA": "3270",
-      "BOATTRADER": "3270"
+      "BOATS_COM_US": "32 Classic",
+      "BOATTRADER": "32 Classic",
+      "BOATS_COM_CA": "32 Classic",
+      "YACHTWORLD_CA": "32 Classic",
+      "YACHTWORLD_US": "32 Classic",
+      "BOATDEALERS_CA": "32 Classic"
     }
+  },
+  {
+    "BoatModelID": "GRBK-36-CL",
+    "CanonicalName": "Grand Banks 36 Classic",
+    "ManufacturerTerms": [
+      "Grand Banks"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Classic"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GRBK-36-EU",
+    "CanonicalName": "Grand Banks 36 Europa",
+    "ManufacturerTerms": [
+      "Grand Banks"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Europa"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GRBK-42-CL",
+    "CanonicalName": "Grand Banks 42 Classic",
+    "ManufacturerTerms": [
+      "Grand Banks"
+    ],
+    "ModelTerms": [
+      "42",
+      "42 Classic"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GRBK-46-CL",
+    "CanonicalName": "Grand Banks 46 Classic",
+    "ManufacturerTerms": [
+      "Grand Banks"
+    ],
+    "ModelTerms": [
+      "46",
+      "46 Classic"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GRBK-49-MY",
+    "CanonicalName": "Grand Banks 49 Motor Yacht",
+    "ManufacturerTerms": [
+      "Grand Banks"
+    ],
+    "ModelTerms": [
+      "49",
+      "49 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GRNL-33",
+    "CanonicalName": "Greenline 33",
+    "ManufacturerTerms": [
+      "Greenline"
+    ],
+    "ModelTerms": [
+      "33"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GRNL-39",
+    "CanonicalName": "Greenline 39",
+    "ManufacturerTerms": [
+      "Greenline"
+    ],
+    "ModelTerms": [
+      "39"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GRTH-GH37",
+    "CanonicalName": "Great Harbour GH37",
+    "ManufacturerTerms": [
+      "Great Harbour"
+    ],
+    "ModelTerms": [
+      "GH37"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GRTH-N37",
+    "CanonicalName": "Great Harbour N37",
+    "ManufacturerTerms": [
+      "Great Harbour"
+    ],
+    "ModelTerms": [
+      "N37"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GULF-36-TR",
+    "CanonicalName": "Gulfstar 36 Trawler",
+    "ManufacturerTerms": [
+      "Gulfstar"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GULF-43-TR",
+    "CanonicalName": "Gulfstar 43 Trawler",
+    "ManufacturerTerms": [
+      "Gulfstar"
+    ],
+    "ModelTerms": [
+      "43",
+      "43 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GULF-44-MC",
+    "CanonicalName": "Gulfstar 44 Motor Cruiser",
+    "ManufacturerTerms": [
+      "Gulfstar"
+    ],
+    "ModelTerms": [
+      "44",
+      "44 Motor Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "GULF-49-MC",
+    "CanonicalName": "Gulfstar 49 Motor Cruiser",
+    "ManufacturerTerms": [
+      "Gulfstar"
+    ],
+    "ModelTerms": [
+      "49",
+      "49 Motor Cruiser",
+      "49 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "HELM-31-CA",
+    "CanonicalName": "Helmsman 31 Camano",
+    "ManufacturerTerms": [
+      "Helmsman"
+    ],
+    "ModelTerms": [
+      "31",
+      "31 Camano",
+      "31 Sedan",
+      "31 Sedan Camano"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "HELM-38E-TR",
+    "CanonicalName": "Helmsman 38E Trawler",
+    "ManufacturerTerms": [
+      "Helmsman"
+    ],
+    "ModelTerms": [
+      "38E",
+      "38E Trawler",
+      "38E Pilothouse",
+      "38E Pilothouse Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "HELM-43-E",
+    "CanonicalName": "Helmsman 43 E",
+    "ManufacturerTerms": [
+      "Helmsman"
+    ],
+    "ModelTerms": [
+      "43",
+      "43 E",
+      "43E",
+      "43E Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "HELM-46-PH",
+    "CanonicalName": "Helmsman 46 Pilothouse",
+    "ManufacturerTerms": [
+      "Helmsman"
+    ],
+    "ModelTerms": [
+      "46",
+      "46 Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "HLMN-38-CO",
+    "CanonicalName": "Holiday Mansion 38 Coastal Commander",
+    "ManufacturerTerms": [
+      "Holiday Mansion"
+    ],
+    "ModelTerms": [
+      "38",
+      "38 Coastal Commander"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "HUNT-29",
+    "CanonicalName": "Hunt Yachts 29 Surfhunter",
+    "ManufacturerTerms": [
+      "Hunt Yachts"
+    ],
+    "ModelTerms": [
+      "29",
+      "29 Surfhunter",
+      "Hunt Surfhunter 29",
+      "Surfhunter 29"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "HUNT-36",
+    "CanonicalName": "Hunt Yachts 36 Harrier",
+    "ManufacturerTerms": [
+      "Hunt Yachts"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Harrier",
+      "Hunt Harrier 36",
+      "Surfhunter 36 Coupe",
+      "Surfhunter 36 Coupe Surfhunter Coupe"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ISGY-32-EU",
+    "CanonicalName": "Island Gypsy 32 Europa",
+    "ManufacturerTerms": [
+      "Island Gypsy"
+    ],
+    "ModelTerms": [
+      "32",
+      "32 Europa"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ISGY-32-FI",
+    "CanonicalName": "Island Gypsy 32 Fisherman",
+    "ManufacturerTerms": [
+      "Island Gypsy"
+    ],
+    "ModelTerms": [
+      "32",
+      "32 Fisherman"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ISGY-32-SE",
+    "CanonicalName": "Island Gypsy 32 Sedan",
+    "ManufacturerTerms": [
+      "Island Gypsy"
+    ],
+    "ModelTerms": [
+      "32",
+      "32 Sedan",
+      "32 Trawler",
+      "32 Sedan Trawler",
+      "Island Gypsy 32 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ISGY-36",
+    "CanonicalName": "Island Gypsy 36 Trawler",
+    "ManufacturerTerms": [
+      "Island Gypsy"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Trawler",
+      "36 Classic",
+      "36 Classic Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ISGY-36EURO",
+    "CanonicalName": "Island Gypsy 36 Euro",
+    "ManufacturerTerms": [
+      "Island Gypsy"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Euro",
+      "36 Europa"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ISGY-40",
+    "CanonicalName": "Island Gypsy 40",
+    "ManufacturerTerms": [
+      "Island Gypsy"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Classic"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ISGY-44",
+    "CanonicalName": "Island Gypsy 44",
+    "ManufacturerTerms": [
+      "Island Gypsy"
+    ],
+    "ModelTerms": [
+      "44",
+      "44 Motor Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "JEAU-1095",
+    "CanonicalName": "Jeanneau 1095 Merry Fisher",
+    "ManufacturerTerms": [
+      "Jeanneau"
+    ],
+    "ModelTerms": [
+      "1095",
+      "1095 Merry Fisher",
+      "Merry Fisher 1095",
+      "Merry Fisher 1095 Coupé",
+      "Merry Fisher 1095 Coupé / NC 1095"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "JEAU-1095-FLY",
+    "CanonicalName": "Jeanneau 1095 NC Fly",
+    "ManufacturerTerms": [
+      "Jeanneau"
+    ],
+    "ModelTerms": [
+      "1095",
+      "1095 NC Fly",
+      "NC1095 Fly",
+      "Merry Fisher 1095 Fly",
+      "Merry Fisher 1095 Fly Flybridge",
+      "Merry Fisher 1095 Fly / NC 1095 Fly"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "JEAU-605",
+    "CanonicalName": "Jeanneau 605 Merry Fisher",
+    "ManufacturerTerms": [
+      "Jeanneau"
+    ],
+    "ModelTerms": [
+      "605",
+      "605 Merry Fisher",
+      "Merry Fisher 605",
+      "Merry Fisher 605 Pilothouse Outboard"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "JEAU-635",
+    "CanonicalName": "Jeanneau 635 Merry Fisher",
+    "ManufacturerTerms": [
+      "Jeanneau"
+    ],
+    "ModelTerms": [
+      "635",
+      "635 Merry Fisher",
+      "Merry Fisher 635",
+      "Merry Fisher 635 Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "JEAU-695",
+    "CanonicalName": "Jeanneau 695 NC",
+    "ManufacturerTerms": [
+      "Jeanneau"
+    ],
+    "ModelTerms": [
+      "695",
+      "695 NC",
+      "NC695",
+      "Merry Fisher 695",
+      "Merry Fisher 695 Pilothouse Outboard"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "JEAU-795",
+    "CanonicalName": "Jeanneau 795 Merry Fisher",
+    "ManufacturerTerms": [
+      "Jeanneau"
+    ],
+    "ModelTerms": [
+      "795",
+      "795 Merry Fisher",
+      "Merry Fisher 795",
+      "Merry Fisher 795 Pilothouse Outboard"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "JEAU-855",
+    "CanonicalName": "Jeanneau 855 Merry Fisher",
+    "ManufacturerTerms": [
+      "Jeanneau"
+    ],
+    "ModelTerms": [
+      "855",
+      "855 Merry Fisher",
+      "Merry Fisher 855",
+      "Merry Fisher 855 Pilothouse Outboard"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "JEAU-895",
+    "CanonicalName": "Jeanneau 895 Merry Fisher",
+    "ManufacturerTerms": [
+      "Jeanneau"
+    ],
+    "ModelTerms": [
+      "895",
+      "895 Merry Fisher",
+      "Merry Fisher 895",
+      "Merry Fisher 895 Pilothouse Outboard",
+      "Merry Fisher 895 / NC 895"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "JEAU-895-SP",
+    "CanonicalName": "Jeanneau 895 NC Sport",
+    "ManufacturerTerms": [
+      "Jeanneau"
+    ],
+    "ModelTerms": [
+      "895",
+      "895 NC Sport",
+      "NC895 Sport",
+      "Merry Fisher 895 Sport",
+      "Merry Fisher 895 Sport Sport Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "KDKR-36-MA",
+    "CanonicalName": "Kadey-Krogen 36 Manatee",
+    "ManufacturerTerms": [
+      "Kadey-Krogen"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Manatee"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "KDKR-39",
+    "CanonicalName": "Kadey-Krogen 39",
+    "ManufacturerTerms": [
+      "Kadey-Krogen"
+    ],
+    "ModelTerms": [
+      "39"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "KDKR-42",
+    "CanonicalName": "Kadey-Krogen 42",
+    "ManufacturerTerms": [
+      "Kadey-Krogen"
+    ],
+    "ModelTerms": [
+      "42"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "KDKR-44",
+    "CanonicalName": "Kadey-Krogen 44 AE",
+    "ManufacturerTerms": [
+      "Kadey-Krogen"
+    ],
+    "ModelTerms": [
+      "44",
+      "44 AE",
+      "Krogen 44 AE"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "KDKR-48-NS",
+    "CanonicalName": "Kadey-Krogen 48 North Sea",
+    "ManufacturerTerms": [
+      "Kadey-Krogen"
+    ],
+    "ModelTerms": [
+      "48",
+      "48 North Sea",
+      "Krogen 48 North Sea"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "LUHR-30",
+    "CanonicalName": "Luhrs 30 Alura",
+    "ManufacturerTerms": [
+      "Luhrs"
+    ],
+    "ModelTerms": [
+      "30",
+      "30 Alura",
+      "Alura 30"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MERI-341-SE",
+    "CanonicalName": "Meridian 341 Sedan",
+    "ManufacturerTerms": [
+      "Meridian"
+    ],
+    "ModelTerms": [
+      "341",
+      "341 Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MERI-381-SE",
+    "CanonicalName": "Meridian 381 Sedan",
+    "ManufacturerTerms": [
+      "Meridian"
+    ],
+    "ModelTerms": [
+      "381",
+      "381 Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MNSH-30-PI",
+    "CanonicalName": "Mainship 30 Pilot",
+    "ManufacturerTerms": [
+      "Mainship"
+    ],
+    "ModelTerms": [
+      "30",
+      "30 Pilot Express",
+      "30 Pilot",
+      "Mainship 30 Pilot",
+      "Mainship Pilot 30",
+      "Mainship 30 Pilot Express",
+      "Mainship Pilot II 30"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MNSH-34-MK1",
+    "CanonicalName": "Mainship 34 MKI",
+    "ManufacturerTerms": [
+      "Mainship"
+    ],
+    "ModelTerms": [
+      "34 MK I",
+      "34 Mk 1",
+      "34 Mark I",
+      "34 Diesel Cruiser",
+      "34 Motor Cruiser",
+      "34",
+      "Mainship 34 Diesel Cruiser",
+      "Mainship 34 Motor Cruiser",
+      "Mainship 34 MK I",
+      "Mainship 34 Mark I",
+      "Mainship 34 Trawler"
+    ],
+    "SourceModelTerms": {
+      "BOATS_COM_US": "34",
+      "BOATTRADER": "34",
+      "BOATS_COM_CA": "34",
+      "YACHTWORLD_CA": "34",
+      "YACHTWORLD_US": "34",
+      "BOATDEALERS_CA": "34"
+    }
+  },
+  {
+    "BoatModelID": "MNSH-34-MK2",
+    "CanonicalName": "Mainship 34 MKII",
+    "ManufacturerTerms": [
+      "Mainship"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 34 II",
+      "34 II",
+      "Mainship 34 II",
+      "Mainship II",
+      "Mainship 34T II",
+      "34 MK II",
+      "34 Mark II"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MNSH-350-TR",
+    "CanonicalName": "Mainship 350 Trawler",
+    "ManufacturerTerms": [
+      "Mainship"
+    ],
+    "ModelTerms": [
+      "350",
+      "350 Trawler — early 350 designation",
+      "350 Trawler",
+      "Mainship 350 Trawler",
+      "Mainship 35 Trawler",
+      "Mainship 350/390"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MNSH-390-TR",
+    "CanonicalName": "Mainship 390 Trawler",
+    "ManufacturerTerms": [
+      "Mainship"
+    ],
+    "ModelTerms": [
+      "390",
+      "390 Trawler — renamed 350 family",
+      "390 Trawler",
+      "Mainship 390 Trawler",
+      "Mainship 350/390",
+      "Mainship 39 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MNSH-400-TR",
+    "CanonicalName": "Mainship 400 Trawler",
+    "ManufacturerTerms": [
+      "Mainship"
+    ],
+    "ModelTerms": [
+      "400",
+      "400 Trawler / 41 Expedition / 414 Trawler",
+      "400 Trawler",
+      "Mainship 400 Trawler",
+      "Mainship 41 Expedition",
+      "Mainship 414 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MONK-36-TR",
+    "CanonicalName": "Monk 36 Trawler",
+    "ManufacturerTerms": [
+      "Monk"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MRTR-36-DO",
+    "CanonicalName": "Marine Trader 36 Double Cabin",
+    "ManufacturerTerms": [
+      "Marine Trader"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Double Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MRTR-38-SD",
+    "CanonicalName": "Marine Trader 38 Double Cabin",
+    "ManufacturerTerms": [
+      "Marine Trader"
+    ],
+    "ModelTerms": [
+      "38",
+      "38 Sundeck",
+      "38 Double Cabin",
+      "38 Double Cabin Sundeck"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MRTR-38-SD2",
+    "CanonicalName": "Marine Trader 38 Sundeck",
+    "ManufacturerTerms": [
+      "Marine Trader"
+    ],
+    "ModelTerms": [
+      "38",
+      "38 Sundeck"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MRTR-40-DC",
+    "CanonicalName": "Marine Trader 40 Double Cabin",
+    "ManufacturerTerms": [
+      "Marine Trader"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Double Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MRTR-44-TC",
+    "CanonicalName": "Marine Trader 44 Tri-Cabin",
+    "ManufacturerTerms": [
+      "Marine Trader"
+    ],
+    "ModelTerms": [
+      "44",
+      "44 Tri-Cabin",
+      "44 Tri Cabin",
+      "44 Tri Cabin Tri-Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MTRA-34-EU",
+    "CanonicalName": "Marine Trader 34 Europa",
+    "ManufacturerTerms": [
+      "Marine Trader"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Europa"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MTRA-34-SE",
+    "CanonicalName": "Marine Trader 34 Sedan",
+    "ManufacturerTerms": [
+      "Marine Trader"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NDST-31P",
+    "CanonicalName": "Nord Star 31+ Patrol",
+    "ManufacturerTerms": [
+      "Nord Star"
+    ],
+    "ModelTerms": [
+      "31+",
+      "31+ Patrol"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NDTG-26",
+    "CanonicalName": "Nordic Tugs 26",
+    "ManufacturerTerms": [
+      "Nordic Tugs"
+    ],
+    "ModelTerms": [
+      "26",
+      "26 Pilothouse",
+      "Nordic Tug 26 Pilothouse",
+      "Nordic Tugs 26 Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NDTG-32",
+    "CanonicalName": "Nordic Tugs 32",
+    "ManufacturerTerms": [
+      "Nordic Tugs"
+    ],
+    "ModelTerms": [
+      "32",
+      "Nordic Tug 32",
+      "32 Pilothouse",
+      "Nordic Tug 32 Pilothouse",
+      "Nordic Tugs 32 Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NDTG-34",
+    "CanonicalName": "Nordic Tugs 34",
+    "ManufacturerTerms": [
+      "Nordic Tugs"
+    ],
+    "ModelTerms": [
+      "34",
+      "Nordic Tug 34"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NDTG-37",
+    "CanonicalName": "Nordic Tugs 37",
+    "ManufacturerTerms": [
+      "Nordic Tugs"
+    ],
+    "ModelTerms": [
+      "37",
+      "Nordic Tug 37",
+      "37 Pilothouse",
+      "Nordic Tug 37 Pilothouse",
+      "Nordic Tugs 37 Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NDTG-39",
+    "CanonicalName": "Nordic Tugs 39",
+    "ManufacturerTerms": [
+      "Nordic Tugs"
+    ],
+    "ModelTerms": [
+      "39",
+      "Nordic Tug 39"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NDTG-42",
+    "CanonicalName": "Nordic Tug 42",
+    "ManufacturerTerms": [
+      "Nordic Tugs"
+    ],
+    "ModelTerms": [
+      "42",
+      "42 Pilothouse",
+      "Nordic Tug 42 Pilothouse",
+      "Nordic Tugs 42 Pilothouse",
+      "Nordic Tug 42"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NMBL-24-NO",
+    "CanonicalName": "Nimble 24 Nomad Pilothouse",
+    "ManufacturerTerms": [
+      "Nimble"
+    ],
+    "ModelTerms": [
+      "24",
+      "24 Nomad Pilothouse",
+      "Nomad",
+      "Nomad 24 Pocket Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NMBL-32-WA",
+    "CanonicalName": "Nimble 32 Wanderer Pilothouse",
+    "ManufacturerTerms": [
+      "Nimble"
+    ],
+    "ModelTerms": [
+      "32",
+      "32 Wanderer Pilothouse",
+      "Wanderer",
+      "Wanderer 32 Pilothouse / Motorsailer"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NMBS-3003",
+    "CanonicalName": "Nimbus 3003",
+    "ManufacturerTerms": [
+      "Nimbus"
+    ],
+    "ModelTerms": [
+      "3003",
+      "3003 Aft Cabin Coupe"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NMBS-365-CO",
+    "CanonicalName": "Nimbus 365 Coupe",
+    "ManufacturerTerms": [
+      "Nimbus"
+    ],
+    "ModelTerms": [
+      "365",
+      "365 Coupe",
+      "365 Coupé"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NPAC-28",
+    "CanonicalName": "North Pacific 28",
+    "ManufacturerTerms": [
+      "North Pacific"
+    ],
+    "ModelTerms": [
+      "28",
+      "28 Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NPAC-38",
+    "CanonicalName": "North Pacific 38",
+    "ManufacturerTerms": [
+      "North Pacific"
+    ],
+    "ModelTerms": [
+      "38",
+      "38 Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "NRDH-40",
+    "CanonicalName": "Nordhavn 40",
+    "ManufacturerTerms": [
+      "Nordhavn"
+    ],
+    "ModelTerms": [
+      "40"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "OCEA-36-SE",
+    "CanonicalName": "Ocean Alexander 36 Sedan",
+    "ManufacturerTerms": [
+      "Ocean Alexander"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Sedan"
+    ],
+    "SourceModelTerms": {},
+    "Manufacturer": null
+  },
+  {
+    "BoatModelID": "OCAL-39-SE",
+    "CanonicalName": "Ocean Alexander 39 Sedan",
+    "ManufacturerTerms": [
+      "Ocean Alexander"
+    ],
+    "ModelTerms": [
+      "39",
+      "39 Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "PDQB-34-PA",
+    "CanonicalName": "PDQ 34 Passagemaker",
+    "ManufacturerTerms": [
+      "PDQ"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Passagemaker",
+      "34 PowerCat / Passagemaker",
+      "34 PowerCat"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "PRAI-29-TR",
+    "CanonicalName": "Prairie 29 Trawler",
+    "ManufacturerTerms": [
+      "Prairie"
+    ],
+    "ModelTerms": [
+      "29",
+      "29 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "PRAI-36-TR",
+    "CanonicalName": "Prairie 36 Trawler",
+    "ManufacturerTerms": [
+      "Prairie"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Trawler",
+      "36 Coastal Cruiser",
+      "36 Coastal Cruiser Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-21-CLASSIC",
+    "CanonicalName": "Ranger Tugs R-21 Classic diesel",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-21",
+      "R-21 Classic diesel",
+      "Ranger Tug R-21 Classic"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-21-EC",
+    "CanonicalName": "Ranger Tugs R-21 EC diesel",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-21",
+      "R-21 EC diesel",
+      "Ranger Tug R-21 EC"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-25-CLASSIC",
+    "CanonicalName": "Ranger Tugs R-25 Classic diesel",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-25",
+      "R-25 Classic diesel",
+      "Ranger Tug R-25 Classic"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-25-SC",
+    "CanonicalName": "Ranger Tugs R-25 SC diesel",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-25",
+      "R-25 SC diesel",
+      "Ranger Tug R-25 SC"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-27-OB",
+    "CanonicalName": "Ranger Tugs R-27 Single-outboard NW/LE",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-27",
+      "R-27 Single-outboard NW/LE",
+      "R-27 NW/LE"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-27-RT",
+    "CanonicalName": "Ranger Tugs R-27 Classic diesel",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-27",
+      "R-27 Classic diesel",
+      "Ranger Tug R-27 Classic"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-29-CB",
+    "CanonicalName": "Ranger Tugs R-29 Command Bridge",
+    "ManufacturerTerms": [
+      "Ranger Tugs",
+      "Ranger Tug",
+      "Ranger"
+    ],
+    "ModelTerms": [
+      "R-29 Command Bridge",
+      "R29 Command Bridge",
+      "R-29 CB",
+      "R29 CB",
+      "29 Command Bridge",
+      "R-29"
+    ],
+    "SourceModelTerms": {
+      "BOATS_COM_US": "R-29",
+      "BOATTRADER": "R-29",
+      "BOATS_COM_CA": "R-29",
+      "YACHTWORLD_CA": "R-29",
+      "YACHTWORLD_US": "R-29",
+      "BOATDEALERS_CA": "R-29"
+    }
+  },
+  {
+    "BoatModelID": "RNGR-29-CLASSIC",
+    "CanonicalName": "Ranger Tugs R-29 Classic diesel",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-29",
+      "R-29 Classic diesel",
+      "Ranger Tug R-29 Classic"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-31-CB",
+    "CanonicalName": "Ranger Tugs R-31 Command Bridge",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-31",
+      "R-31 Command Bridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-43-CB",
+    "CanonicalName": "Ranger Tugs R-43 Command Bridge",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-43",
+      "R-43 Command Bridge"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-43-S",
+    "CanonicalName": "Ranger Tugs R-43 Sedan",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-43",
+      "R-43 Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-R-23",
+    "CanonicalName": "Ranger Tugs R-23 Current outboard",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-23",
+      "R-23 Current outboard"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-R-25",
+    "CanonicalName": "Ranger Tugs R-25 Current outboard",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-25",
+      "R-25 Current outboard"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "RNGR-R-27",
+    "CanonicalName": "Ranger Tugs R-27 Current twin-outboard",
+    "ManufacturerTerms": [
+      "Ranger Tugs"
+    ],
+    "ModelTerms": [
+      "R-27",
+      "R-27 Current twin-outboard"
+    ],
+    "SourceModelTerms": {}
   },
   {
     "BoatModelID": "RNGR-R-29",
@@ -47,54 +2828,482 @@
     }
   },
   {
-    "BoatModelID": "RNGR-29-CB",
-    "CanonicalName": "Ranger Tugs R-29 Command Bridge",
+    "BoatModelID": "RNGR-R-31",
+    "CanonicalName": "Ranger Tugs R-31 Sedan",
     "ManufacturerTerms": [
-      "Ranger Tugs",
-      "Ranger Tug",
-      "Ranger"
+      "Ranger Tugs"
     ],
     "ModelTerms": [
-      "R-29 Command Bridge",
-      "R29 Command Bridge",
-      "R-29 CB",
-      "R29 CB",
-      "29 Command Bridge"
+      "R-31",
+      "R-31 Sedan"
     ],
-    "SourceModelTerms": {
-      "BOATS_COM_US": "R-29",
-      "BOATTRADER": "R-29",
-      "BOATS_COM_CA": "R-29",
-      "YACHTWORLD_CA": "R-29",
-      "YACHTWORLD_US": "R-29",
-      "BOATDEALERS_CA": "R-29"
-    }
+    "SourceModelTerms": {}
   },
   {
-    "BoatModelID": "GRBK-32-CL",
-    "CanonicalName": "Grand Banks 32 Classic",
+    "BoatModelID": "ROSB-246",
+    "CanonicalName": "Rosborough RF-246 Yarmouth / current cruising layout",
     "ManufacturerTerms": [
-      "Grand Banks",
-      "GB"
+      "Rosborough"
     ],
     "ModelTerms": [
-      "32 Classic",
-      "32",
-      "GB32",
-      "32 Sedan"
+      "RF-246",
+      "RF-246 Yarmouth / current cruising layout",
+      "246 Yarmouth"
     ],
-    "SourceModelTerms": {
-      "BOATS_COM_US": "32 Classic",
-      "BOATTRADER": "32 Classic",
-      "BOATS_COM_CA": "32 Classic",
-      "YACHTWORLD_CA": "32 Classic",
-      "YACHTWORLD_US": "32 Classic",
-      "BOATDEALERS_CA": "32 Classic"
-    }
+    "SourceModelTerms": {}
   },
   {
-    "BoatModelID": "MNSH-34-MK1",
-    "CanonicalName": "Mainship 34 MK I",
+    "BoatModelID": "ROSB-246-LS",
+    "CanonicalName": "Rosborough RF-246 Legacy Sedan Cruiser Diesel",
+    "ManufacturerTerms": [
+      "Rosborough"
+    ],
+    "ModelTerms": [
+      "RF-246",
+      "RF-246 Legacy Sedan Cruiser Diesel",
+      "RF-246 Sedan Cruiser Diesel"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "ROSB-246-WH",
+    "CanonicalName": "Rosborough RF-246 Custom Wheelhouse",
+    "ManufacturerTerms": [
+      "Rosborough"
+    ],
+    "ModelTerms": [
+      "RF-246",
+      "RF-246 Custom Wheelhouse",
+      "246 Custom Wheelhouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SABR-34-EX",
+    "CanonicalName": "Sabre 34 Express",
+    "ManufacturerTerms": [
+      "Sabre"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Express"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SABR-38-SA",
+    "CanonicalName": "Sabre 38 Salon Express",
+    "ManufacturerTerms": [
+      "Sabre"
+    ],
+    "ModelTerms": [
+      "38",
+      "38 Salon Express"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SAGA-26-HT",
+    "CanonicalName": "Saga 26 Hardtop",
+    "ManufacturerTerms": [
+      "Saga"
+    ],
+    "ModelTerms": [
+      "26",
+      "26 Hardtop",
+      "26 Double-Ender",
+      "26 HT",
+      "26 HT Hardtop"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SEAH-35-PH",
+    "CanonicalName": "Seahorse 35 Pilothouse",
+    "ManufacturerTerms": [
+      "Seahorse"
+    ],
+    "ModelTerms": [
+      "35",
+      "35 Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SEAH-38-CO",
+    "CanonicalName": "Seahorse 40 Pilothouse",
+    "ManufacturerTerms": [
+      "Seahorse"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SEAL-34-TC",
+    "CanonicalName": "Sealord 34 Tri-Cabin",
+    "ManufacturerTerms": [
+      "Sealord"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Tri-Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SEAP-35",
+    "CanonicalName": "SeaPiper 35",
+    "ManufacturerTerms": [
+      "SeaPiper"
+    ],
+    "ModelTerms": [
+      "35"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SEAR-340-SU",
+    "CanonicalName": "Sea Ray 340 Sundancer",
+    "ManufacturerTerms": [
+      "Sea Ray"
+    ],
+    "ModelTerms": [
+      "340",
+      "340 Sundancer",
+      "340 Sundancer (multi-generation)"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SEAR-390-MO",
+    "CanonicalName": "Sea Ray 390 Motor Yacht",
+    "ManufacturerTerms": [
+      "Sea Ray"
+    ],
+    "ModelTerms": [
+      "390",
+      "390 Motor Yacht",
+      "390 / 40",
+      "390 / 40 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SEAW-24-ST",
+    "CanonicalName": "Seaway 24 Sport Trawler",
+    "ManufacturerTerms": [
+      "Seaway"
+    ],
+    "ModelTerms": [
+      "24",
+      "24 Sport Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SEAW-28-CC",
+    "CanonicalName": "Seaway 28 Coastal Cruiser",
+    "ManufacturerTerms": [
+      "Seaway"
+    ],
+    "ModelTerms": [
+      "28",
+      "28 Coastal Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SHAN-38-SRD",
+    "CanonicalName": "Shannon 26 SRD",
+    "ManufacturerTerms": [
+      "Shannon"
+    ],
+    "ModelTerms": [
+      "26",
+      "26 SRD",
+      "26 Reverse Displacement",
+      "26 SRD / Reverse Deadrise"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SILV-34-MO",
+    "CanonicalName": "Silverton 34 Motor Yacht",
+    "ManufacturerTerms": [
+      "Silverton"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SILV-352-MO",
+    "CanonicalName": "Silverton 352 Motor Yacht",
+    "ManufacturerTerms": [
+      "Silverton"
+    ],
+    "ModelTerms": [
+      "352",
+      "352 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SILV-372",
+    "CanonicalName": "Silverton 372 Motor Yacht",
+    "ManufacturerTerms": [
+      "Silverton"
+    ],
+    "ModelTerms": [
+      "372",
+      "372 Motor Yacht",
+      "372 / 392",
+      "372 / 392 Motor Yacht"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SILV-40-AC",
+    "CanonicalName": "Silverton 40 Aft Cabin",
+    "ManufacturerTerms": [
+      "Silverton"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Aft Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SISU-22-CO",
+    "CanonicalName": "Sisu 22",
+    "ManufacturerTerms": [
+      "Sisu"
+    ],
+    "ModelTerms": [
+      "22",
+      "22 Pocket Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SISU-26-BA",
+    "CanonicalName": "Sisu 26 Bass Boat / Sedan",
+    "ManufacturerTerms": [
+      "Sisu"
+    ],
+    "ModelTerms": [
+      "26",
+      "26 Bass Boat / Sedan",
+      "26 Pocket Cruiser"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SSPT-24",
+    "CanonicalName": "Seasport 24",
+    "ManufacturerTerms": [
+      "Seasport",
+      "Sea Sport"
+    ],
+    "ModelTerms": [
+      "24",
+      "XL 2400"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SSPT-24-EX",
+    "CanonicalName": "Seasport 24 Cruiser",
+    "ManufacturerTerms": [
+      "Seasport",
+      "Sea Sport"
+    ],
+    "ModelTerms": [
+      "24",
+      "24 Cruiser",
+      "24 Explorer",
+      "Explorer 2400"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SSPT-27",
+    "CanonicalName": "Seasport 27",
+    "ManufacturerTerms": [
+      "Seasport",
+      "Sea Sport"
+    ],
+    "ModelTerms": [
+      "27",
+      "27 Pilot / Navigator / Seamaster family"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "TOLL-34-SE",
+    "CanonicalName": "Tollycraft 34 Sedan",
+    "ManufacturerTerms": [
+      "Tollycraft"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Sedan",
+      "34 Sport Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "TOLL-37-SE",
+    "CanonicalName": "Tollycraft 37 Sedan",
+    "ManufacturerTerms": [
+      "Tollycraft"
+    ],
+    "ModelTerms": [
+      "37",
+      "37 Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "TPMC-32-EA",
+    "CanonicalName": "Transpacific Marine Eagle 32 Pilothouse Trawler",
+    "ManufacturerTerms": [
+      "Transpacific Marine"
+    ],
+    "ModelTerms": [
+      "Eagle 32",
+      "Eagle 32 Pilothouse Trawler",
+      "Marine Eagle 32",
+      "Eagle 32 Pilothouse",
+      "Eagle 32 Pilothouse Pilothouse Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "TROJ-36-TR",
+    "CanonicalName": "Trojan 36 Tri-Cabin",
+    "ManufacturerTerms": [
+      "Trojan"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Tri-Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "TRUN-34",
+    "CanonicalName": "True North 34",
+    "ManufacturerTerms": [
+      "True North"
+    ],
+    "ModelTerms": [
+      "34",
+      "34 Original Diesel"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "UNIF-36-DO",
+    "CanonicalName": "Uniflite 36 Double Cabin",
+    "ManufacturerTerms": [
+      "Uniflite"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Double Cabin"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "UNIV-36-TR",
+    "CanonicalName": "Universal 36 Trawler",
+    "ManufacturerTerms": [
+      "Universal"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "UNIV-40-TR",
+    "CanonicalName": "Universal 40 Trawler",
+    "ManufacturerTerms": [
+      "Universal"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Trawler"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "WILL-30-VO",
+    "CanonicalName": "Willard 30 Vega Voyager",
+    "ManufacturerTerms": [
+      "Willard"
+    ],
+    "ModelTerms": [
+      "30",
+      "30 Vega Voyager",
+      "Vega 30 Voyager",
+      "30 Vega Voyager Raised Pilothouse"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "WILL-36-TR",
+    "CanonicalName": "Willard 36 Vega 36 Family",
+    "ManufacturerTerms": [
+      "Willard"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Vega 36 Family",
+      "Vega 36",
+      "36 Vega",
+      "36 Vega Family"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "WILL-40-NO",
+    "CanonicalName": "Willard 40 Vega 40 Nomad",
+    "ManufacturerTerms": [
+      "Willard"
+    ],
+    "ModelTerms": [
+      "40",
+      "40 Vega 40 Nomad",
+      "Vega 40 Nomad",
+      "40 Vega Nomad",
+      "40 Vega Nomad Widebody Flybridge Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "WIND-26-SN",
+    "CanonicalName": "Windy 26 SN",
+    "ManufacturerTerms": [
+      "Windy"
+    ],
+    "ModelTerms": [
+      "26",
+      "26 SN"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MNSH-34-MK3",
+    "CanonicalName": "Mainship 34 MKIII",
     "ManufacturerTerms": [
       "Mainship"
     ],
@@ -104,7 +3313,37 @@
       "34 Mark I",
       "34 Diesel Cruiser",
       "34 Motor Cruiser",
-      "34"
+      "34",
+      "Mainship 34 Diesel Cruiser",
+      "Mainship 34 Motor Cruiser",
+      "Mainship 34 MK I",
+      "Mainship 34 Mark I",
+      "Mainship 34 Trawler",
+      "34 III",
+      "34 MK III",
+      "34 Mark III",
+      "Mainship 34 III"
+    ],
+    "SourceModelTerms": {
+      "BOATS_COM_US": "34",
+      "BOATTRADER": "34",
+      "BOATS_COM_CA": "34",
+      "YACHTWORLD_CA": "34",
+      "YACHTWORLD_US": "34",
+      "BOATDEALERS_CA": "34"
+    }
+  },
+  {
+    "BoatModelID": "MNSH-34-TR",
+    "CanonicalName": "Mainship 34T",
+    "ManufacturerTerms": [
+      "Mainship"
+    ],
+    "ModelTerms": [
+      "34 Trawler",
+      "Mainship 34 Trawler",
+      "34 Trawler 2005",
+      "Mainship 34 Trawler 2005-2009"
     ],
     "SourceModelTerms": {
       "BOATS_COM_US": "34",

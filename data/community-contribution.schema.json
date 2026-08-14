@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://b-scout.local/schema/community-contribution.schema.json",
+  "title": "B-Scout Community Contribution",
+  "type": "object",
+  "required": [
+    "ContributionID",
+    "ContributionType",
+    "DateSubmitted",
+    "ModerationStatus",
+    "Payload"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "ContributionID": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ContributionType": {
+      "type": "string",
+      "enum": [
+        "ownership_experience",
+        "problem_weakness",
+        "buyer_inspection_advice",
+        "correction",
+        "other",
+        "photo",
+        "manual_document",
+        "resource",
+        "new_model",
+        "new_manufacturer"
+      ]
+    },
+    "ManufacturerID": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ManufacturerName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ModelID": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ModelName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ModelYear": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1800,
+      "maximum": 2200
+    },
+    "Variant": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "DisplayName": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 80
+    },
+    "ContactEmail": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "email"
+    },
+    "DateSubmitted": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ModerationStatus": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "merged",
+        "needs_clarification",
+        "rejected"
+      ]
+    },
+    "EvidenceType": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "direct_owner_observation",
+        "multiple_boats",
+        "professional_inspection",
+        "manufacturer_documentation",
+        "manual_brochure",
+        "survey",
+        "dealer_broker",
+        "second_hand",
+        "other"
+      ]
+    },
+    "RightsStatus": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "creator_or_owner",
+        "permission_granted",
+        "public_distribution",
+        "external_link_only",
+        "uncertain"
+      ]
+    },
+    "Payload": {
+      "type": "object",
+      "description": "Contribution-type-specific structured fields and narrative. Unknown fields may be omitted.",
+      "additionalProperties": true
+    },
+    "SourceURL": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "AttachmentRefs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "ModeratorNotes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "MergedKnowledgeItemID": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

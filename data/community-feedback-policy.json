@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0",
+  "phase": 12,
+  "purpose": "Use real contribution and moderation patterns to identify taxonomy gaps without automatic category creation.",
+  "rules": {
+    "automaticTaxonomyChanges": false,
+    "moderatorSignalsAreAdvisory": true,
+    "reviewSomethingElseUsage": true,
+    "reviewClarificationPatterns": true,
+    "minimumSignalCountForHumanReview": 2
+  },
+  "reviewQuestions": [
+    "Are contributors repeatedly using Something else for the same kind of knowledge?",
+    "Are moderators repeatedly assigning the same taxonomy signal?",
+    "Does a contribution type frequently require clarification because its fields are unclear?",
+    "Would a new field or subtype reduce friction without adding visible complexity?"
+  ]
+}

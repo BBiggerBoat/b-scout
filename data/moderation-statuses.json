@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "statuses": [
+    {
+      "id": "pending",
+      "label": "Pending",
+      "terminal": false
+    },
+    {
+      "id": "approved",
+      "label": "Approved",
+      "terminal": true
+    },
+    {
+      "id": "merged",
+      "label": "Merged",
+      "terminal": true
+    },
+    {
+      "id": "needs_clarification",
+      "label": "Needs clarification",
+      "terminal": false
+    },
+    {
+      "id": "rejected",
+      "label": "Rejected",
+      "terminal": true
+    }
+  ],
+  "rules": {
+    "defaultStatus": "pending",
+    "automaticPublication": false,
+    "canonicalOverwriteAllowed": false,
+    "moderationRequired": true
+  },
+  "phase8Note": "ReviewAction may be more specific than ModerationStatus; knowledge_created is stored as approved and linked through community knowledge evidence."
+}

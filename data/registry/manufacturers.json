@@ -111,6 +111,18 @@
     "CodeReview": "ApprovedV7"
   },
   {
+    "ManufacturerCode": "CDRY",
+    "CanonicalName": "C-Dory",
+    "LegacyManufacturerIDs": [
+      "CDORY"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 7,
+    "CodeReview": "ApprovedV7"
+  },
+  {
     "ManufacturerCode": "CALF",
     "CanonicalName": "Californian",
     "LegacyManufacturerIDs": [
@@ -135,17 +147,18 @@
     "CodeReview": "ApprovedV7"
   },
   {
-    "ManufacturerCode": "CAPD",
+    "ManufacturerCode": "CPDR",
     "CanonicalName": "Cape Dory",
     "LegacyManufacturerIDs": [
-      "CAPEDORY"
+      "CAPEDORY",
+      "CAPD"
     ],
     "Aliases": [
       "Cape Dory Yachts"
     ],
     "Status": "Active",
     "CodeStatus": "Approved",
-    "BoatRecordCount": 10,
+    "BoatRecordCount": 7,
     "CodeReview": "ApprovedV7"
   },
   {
@@ -170,18 +183,6 @@
     "Status": "Active",
     "CodeStatus": "Approved",
     "BoatRecordCount": 11,
-    "CodeReview": "ApprovedV7"
-  },
-  {
-    "ManufacturerCode": "CDRY",
-    "CanonicalName": "C-Dory",
-    "LegacyManufacturerIDs": [
-      "CDORY"
-    ],
-    "Aliases": [],
-    "Status": "Active",
-    "CodeStatus": "Approved",
-    "BoatRecordCount": 7,
     "CodeReview": "ApprovedV7"
   },
   {
@@ -601,6 +602,18 @@
     "CodeReviewNotes": "Clearly distinguishes Nimbus from Nimble."
   },
   {
+    "ManufacturerCode": "NDST",
+    "CanonicalName": "Nord Star",
+    "LegacyManufacturerIDs": [
+      "NORD_STAR"
+    ],
+    "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
     "ManufacturerCode": "NRDH",
     "CanonicalName": "Nordhavn",
     "LegacyManufacturerIDs": [
@@ -625,18 +638,6 @@
     "Status": "Active",
     "CodeStatus": "Approved",
     "BoatRecordCount": 9,
-    "CodeReview": "ApprovedV7"
-  },
-  {
-    "ManufacturerCode": "NDST",
-    "CanonicalName": "Nord Star",
-    "LegacyManufacturerIDs": [
-      "NORD_STAR"
-    ],
-    "Aliases": [],
-    "Status": "Active",
-    "CodeStatus": "Approved",
-    "BoatRecordCount": 1,
     "CodeReview": "ApprovedV7"
   },
   {
@@ -755,6 +756,20 @@
       "SEAHORSE"
     ],
     "Aliases": [],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 2,
+    "CodeReview": "ApprovedV7"
+  },
+  {
+    "ManufacturerCode": "SEAL",
+    "CanonicalName": "Sealord",
+    "LegacyManufacturerIDs": [
+      "SEALORD"
+    ],
+    "Aliases": [
+      "Sea Lord"
+    ],
     "Status": "Active",
     "CodeStatus": "Approved",
     "BoatRecordCount": 2,
@@ -882,6 +897,21 @@
     "CodeReview": "ApprovedV7"
   },
   {
+    "ManufacturerCode": "TPMC",
+    "CanonicalName": "Transpacific Marine",
+    "LegacyManufacturerIDs": [
+      "TRANSPACIFIC"
+    ],
+    "Aliases": [
+      "Eagle Marine",
+      "Marine Eagle"
+    ],
+    "Status": "Active",
+    "CodeStatus": "Approved",
+    "BoatRecordCount": 1,
+    "CodeReview": "ApprovedV7"
+  },
+  {
     "ManufacturerCode": "TROJ",
     "CanonicalName": "Trojan",
     "LegacyManufacturerIDs": [
@@ -942,32 +972,17 @@
     "CodeReview": "ApprovedV7"
   },
   {
-    "ManufacturerCode": "TPMC",
-    "CanonicalName": "Transpacific Marine",
+    "ManufacturerCode": "WIND",
+    "CanonicalName": "Windy",
     "LegacyManufacturerIDs": [
-      "TRANSPACIFIC"
+      "WINDY"
     ],
     "Aliases": [
-      "Eagle Marine",
-      "Marine Eagle"
+      "Windy Boats"
     ],
     "Status": "Active",
     "CodeStatus": "Approved",
     "BoatRecordCount": 1,
-    "CodeReview": "ApprovedV7"
-  },
-  {
-    "ManufacturerCode": "SEAL",
-    "CanonicalName": "Sealord",
-    "LegacyManufacturerIDs": [
-      "SEALORD"
-    ],
-    "Aliases": [
-      "Sea Lord"
-    ],
-    "Status": "Active",
-    "CodeStatus": "Approved",
-    "BoatRecordCount": 2,
     "CodeReview": "ApprovedV7"
   }
 ]

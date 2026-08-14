@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B-Scout Contribution Review</title>
+<link rel="stylesheet" href="contribution-review.css">
+</head>
+<body>
+<header class="admin-header">
+  <div>
+    <p class="eyebrow">B-Scout administration</p>
+    <h1>Contribution Review</h1>
+    <p class="subhead">Review community evidence before it changes canonical B-Scout knowledge.</p>
+  </div>
+  <a class="site-link" href="../index.html?developer=1">← B-Scout test mode</a>
+</header>
+
+<div class="prototype-notice">
+  <strong>Moderator workflow:</strong> when the shared backend is running, connect with the moderator token to review the central queue. If it is not running, this page uses browser-local test records only.
+</div>
+
+<div class="test-flow-notice">
+  <strong>Test cycle:</strong> submit a contribution → review it here → save the moderation decision → publish reviewed knowledge. New manufacturer/model submissions use <strong>Promote edited manufacturer/model</strong>, which writes the moderator-enriched canonical record when the shared backend is connected.
+  <a href="../index.html?developer=1#contribute">Create a test contribution →</a>
+</div>
+
+<main class="admin-layout">
+  <aside class="queue-panel">
+    <div class="queue-toolbar">
+      <div class="metric"><strong id="pendingCount">0</strong><span>Pending</span></div>
+      <div class="metric"><strong id="reviewedCount">0</strong><span>Reviewed</span></div>
+      <div class="metric"><strong id="knowledgeCount">0</strong><span>Knowledge items</span></div>
+      <div class="metric"><strong id="otherCount">0</strong><span>Something else</span></div>
+    </div>
+
+    <div class="filters">
+      <label>Status
+        <select id="statusFilter">
+          <option value="pending">Pending</option>
+          <option value="all">All</option>
+          <option value="approved">Approved</option>
+          <option value="merged">Merged</option>
+          <option value="needs_clarification">Needs clarification</option>
+          <option value="rejected">Rejected</option>
+        </select>
+      </label>
+      <label>Type
+        <select id="typeFilter"><option value="all">All contribution types</option></select>
+      </label>
+      <label class="search-field">Search
+        <input id="queueSearch" type="search" placeholder="Model, manufacturer, text…">
+      </label>
+    </div>
+
+    <div id="queueList" class="queue-list" aria-live="polite"></div>
+
+    <details class="feedback-panel" id="taxonomyFeedback">
+      <summary>Taxonomy feedback</summary>
+      <div class="feedback-metrics">
+        <div><strong id="otherPendingCount">0</strong><span>Unreviewed “Something else”</span></div>
+        <div><strong id="clarificationCount">0</strong><span>Needs clarification</span></div>
+      </div>
+      <div class="feedback-section">
+        <h4>Recurring moderator signals</h4>
+        <div id="taxonomySignalList" class="signal-list"><p class="muted">No taxonomy signals recorded yet.</p></div>
+      </div>
+      <p class="feedback-note">Signals identify possible gaps. They never create or change contribution categories automatically.</p>
+    </details>
+
+    <section class="shared-backend-box" id="sharedBackendBox">
+      <h3>Shared moderation</h3>
+      <p id="sharedBackendStatus" class="muted">Checking shared backend…</p>
+      <div class="utility-buttons">
+        <button type="button" id="connectSharedBtn">Connect moderator</button>
+        <button type="button" id="refreshSharedBtn">Refresh shared queue</button>
+        <button type="button" id="publishSharedBtn">Publish reviewed knowledge</button>
+      </div>
+      <p id="sharedBackendMessage" class="utility-message" hidden></p>
+    </section>
+
+    <details class="queue-utilities">
+      <summary>Queue tools</summary>
+      <div class="utility-buttons">
+        <button type="button" id="exportQueueBtn">Export queue JSON</button>
+        <label class="file-button">Import contribution JSON<input id="importQueueInput" type="file" accept="application/json,.json"></label>
+      </div>
+      <p id="utilityMessage" class="utility-message" hidden></p>
+    </details>
+  </aside>
+
+  <section class="review-panel">
+    <div id="emptyReview" class="empty-review">
+      <h2>Select a contribution</h2>
+      <p>Pending submissions remain evidence until a moderator decides how they should be used.</p>
+    </div>
+
+    <article id="reviewCard" class="review-card" hidden>
+      <header class="review-heading">
+        <div>
+          <p id="reviewType" class="eyebrow"></p>
+          <h2 id="reviewTitle"></h2>
+          <p id="reviewMeta" class="review-meta"></p>
+        </div>
+        <span id="reviewStatus" class="status-pill"></span>
+      </header>
+
+      <div id="reviewContext" class="review-context"></div>
+      <div id="reviewPayload" class="review-payload"></div>
+      <div id="reviewSource" class="review-source"></div>
+      <div id="reviewAttachments" class="review-attachments"></div>
+
+      <section id="modelKnowledge" class="knowledge-box" hidden>
+        <div class="knowledge-heading"><div><h3>Knowledge for this model</h3><p>Normalized items supported by reviewed community evidence.</p></div><span id="modelKnowledgeCount" class="status-pill"></span></div>
+        <div id="modelKnowledgeList" class="knowledge-list"></div>
+      </section>
+
+      <section id="canonicalDraftBox" class="canonical-draft-box" hidden>
+        <div class="canonical-draft-heading">
+          <div>
+            <h3>Draft canonical record</h3>
+            <p>Edit the community submission, add missing researched fields, then promote the improved record. The contributor's original submission remains unchanged above.</p>
+          </div>
+          <button type="button" id="copyAiResearchBriefBtn">Copy AI research brief</button>
+        </div>
+        <div id="canonicalDraftFields" class="canonical-draft-fields"></div>
+        <div class="additional-fields-heading">
+          <div><strong>Additional researched fields</strong><span>Add any useful field the contributor did not submit.</span></div>
+          <button type="button" id="addCanonicalFieldBtn">+ Add field</button>
+        </div>
+        <div id="canonicalAdditionalFields" class="canonical-additional-fields"></div>
+        <label class="canonical-research-notes">Research / source notes <span>optional</span>
+          <textarea id="canonicalResearchNotes" rows="4" maxlength="3000" placeholder="Sources checked, naming rationale, historical notes, unresolved questions…"></textarea>
+        </label>
+        <p id="aiResearchMessage" class="utility-message" hidden></p>
+        <p class="canonical-draft-note"><strong>AI assist:</strong> the static prototype cannot safely call an AI service directly. The copied research brief can be used with ChatGPT now; a future authenticated backend can automate the same research step without exposing API credentials.</p>
+      </section>
+
+      <section class="moderation-box">
+        <h3>Moderation decision</h3>
+        <div class="moderation-grid">
+          <label>Action
+            <select id="moderationAction">
+              <option value="">Choose an action</option>
+              <option value="approved">Approve contribution (does not create a manufacturer/model)</option>
+              <option value="merged">Merge with existing knowledge</option>
+              <option value="corrected">Accept as canonical correction</option>
+              <option value="knowledge_created">Create new knowledge item</option>
+              <option value="created">Promote edited manufacturer/model</option>
+              <option value="needs_clarification">Needs clarification</option>
+              <option value="rejected">Reject</option>
+            </select>
+          </label>
+          <label id="mergeTargetField" hidden>Existing knowledge item
+            <select id="mergeTarget"><option value="">Choose a knowledge item</option></select>
+          </label>
+          <label id="evidenceRelationshipField" hidden>How does this report relate?
+            <select id="evidenceRelationship">
+              <option value="supports">Supports the knowledge item</option>
+              <option value="contradicts">Contradicts it</option>
+              <option value="qualifies">Qualifies / narrows it</option>
+            </select>
+          </label>
+          <label id="knowledgeTitleField" hidden>Knowledge item title
+            <input id="knowledgeTitle" type="text" maxlength="160" placeholder="e.g. Original fuel tank corrosion">
+          </label>
+          <label id="knowledgeCategoryField" hidden>Knowledge category
+            <select id="knowledgeCategory">
+              <option value="problem_weakness">Problem / weakness</option>
+              <option value="buyer_inspection_advice">Buyer inspection advice</option>
+              <option value="ownership_experience">Ownership experience</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <label id="knowledgeSummaryField" class="wide-control" hidden>Normalized summary <span>optional</span>
+            <textarea id="knowledgeSummary" rows="3" maxlength="1500" placeholder="Concise B-Scout interpretation. Do not overstate the submitted evidence."></textarea>
+          </label>
+          <label id="knowledgeStateField" hidden>Knowledge state
+            <select id="knowledgeState">
+              <option value="limited_evidence">Limited evidence</option>
+              <option value="community_supported">Community-supported</option>
+              <option value="confirmed">Confirmed</option>
+              <option value="conflicting_information">Conflicting information</option>
+              <option value="applicability_uncertain">Applicability uncertain</option>
+            </select>
+          </label>
+          <label id="applicabilityConfidenceField" hidden>Applicability confidence
+            <select id="applicabilityConfidence">
+              <option value="uncertain">Uncertain</option>
+              <option value="probable">Probable</option>
+              <option value="known">Known</option>
+              <option value="conflicting">Conflicting</option>
+            </select>
+          </label>
+          <label id="yearFromField" hidden>Applies from year <span>optional</span><input id="knowledgeYearFrom" type="number" min="1800" max="2200"></label>
+          <label id="yearToField" hidden>Applies through year <span>optional</span><input id="knowledgeYearTo" type="number" min="1800" max="2200"></label>
+          <label id="variantsField" hidden>Variants / layouts <span>optional</span><input id="knowledgeVariants" type="text" placeholder="Comma-separated"></label>
+          <label id="conflictSummaryField" class="wide-control" hidden>Conflict / uncertainty note <span>optional</span>
+            <textarea id="conflictSummary" rows="3" maxlength="1500" placeholder="Describe disagreement, limits, or why applicability remains uncertain."></textarea>
+          </label>
+          <label id="canonicalActionField" hidden>Canonical action reference <span>optional</span>
+            <input id="canonicalActionRef" type="text" placeholder="Field, record ID, or implementation note">
+          </label>
+        </div>
+        <label>Taxonomy signal <span>optional</span>
+          <input id="taxonomySignal" type="text" maxlength="80" placeholder="e.g. production changes, repower history">
+          <small class="field-help">Use a short reusable label only when this submission exposes a gap in the current contribution choices.</small>
+        </label>
+        <label>Moderator notes <span>optional</span>
+          <textarea id="moderatorNotes" rows="5" placeholder="Why this decision was made, evidence concerns, applicability, or follow-up needed."></textarea>
+        </label>
+        <div class="decision-row">
+          <button type="button" id="saveDecisionBtn" class="primary">Save moderation decision</button>
+          <button type="button" id="restorePendingBtn">Return to pending</button>
+        </div>
+        <p class="canonical-warning"><strong>Canonical protection:</strong> canonical boat data remains protected. Community evidence can improve Guides only through reviewed Knowledge Items; taxonomy signals are advisory and never change contribution categories automatically.</p>
+      </section>
+    </article>
+  </section>
+</main>
+<script src="../communityapi.js"></script>
+<script src="contribution-review.js"></script>
+</body>
+</html>

@@ -1,0 +1,465 @@
+/*
+=====================================================
+B-SCOUT GUIDE — PLAN VISUAL STANDARD APPLICATION
+Version: 1.1
+Scope: .boat-guide-view ONLY
+Reference: bscout-visual-standard.css / approved Plan treatment
+
+This file must not style Plan, Dream, Saved Models, Contribute,
+home, moderator tools, or any other B-Scout page.
+=====================================================
+*/
+
+.boat-guide-view {
+  --bs-font-family: Arial, Helvetica, sans-serif;
+
+  --bs-font-page-title: 21px;
+  --bs-weight-page-title: 700;
+  --bs-line-page-title: 1.10;
+
+  --bs-font-section-title: 16px;
+  --bs-weight-section-title: 700;
+  --bs-line-section-title: 1.18;
+
+  --bs-font-subsection-title: 11px;
+  --bs-weight-subsection-title: 700;
+  --bs-line-subsection-title: 1.25;
+
+  --bs-font-label: 10.5px;
+  --bs-weight-label: 700;
+  --bs-line-label: 1.25;
+
+  --bs-font-body: 10.5px;
+  --bs-weight-body: 400;
+  --bs-line-body: 1.35;
+
+  --bs-font-support: 9px;
+  --bs-weight-support: 400;
+  --bs-line-support: 1.30;
+
+  --bs-font-meta: 9px;
+  --bs-weight-meta: 400;
+  --bs-line-meta: 1.25;
+
+  --bs-font-kicker: 9px;
+  --bs-weight-kicker: 700;
+  --bs-kicker-spacing: .08em;
+
+  --bs-text-primary: #111820;
+  --bs-text-heading: #101820;
+  --bs-text-secondary: #4f6f83;
+  --bs-text-muted: #687f90;
+
+  --bs-accent: #0b5fa5;
+  --bs-accent-dark: #084b82;
+  --bs-accent-soft: #d6e3ec;
+
+  --bs-surface: #ffffff;
+  --bs-surface-soft: #f7f9fa;
+  --bs-surface-selected: #eef5f8;
+
+  --bs-border: #cfdae2;
+  --bs-border-light: #dbe4ea;
+
+  --bs-space-1: 4px;
+  --bs-space-2: 7px;
+  --bs-space-3: 10px;
+  --bs-space-4: 14px;
+  --bs-space-5: 18px;
+  --bs-space-6: 24px;
+  --bs-space-7: 30px;
+
+  --bs-heading-top-space: 16px;
+  --bs-heading-bottom-space: 5px;
+
+  --bs-card-padding-y: 12px;
+  --bs-card-padding-x: 14px;
+
+  --bs-radius-small: 7px;
+  --bs-radius-medium: 10px;
+  --bs-radius-large: 18px;
+
+  --bs-control-height: 38px;
+  --bs-page-max-width: 1360px;
+  --bs-page-padding-x: 14px;
+  --bs-page-padding-y: 8px;
+
+  min-height: calc(100vh - 62px);
+  padding: 72px var(--bs-page-padding-x) var(--bs-space-6);
+  background: var(--bs-surface);
+  color: var(--bs-text-primary);
+  font-family: var(--bs-font-family);
+  font-size: var(--bs-font-body);
+  line-height: var(--bs-line-body);
+}
+
+.boat-guide-view,
+.boat-guide-view button,
+.boat-guide-view input,
+.boat-guide-view select,
+.boat-guide-view textarea {
+  font-family: var(--bs-font-family);
+}
+
+.boat-guide-view .boat-guide-shell {
+  max-width: var(--bs-page-max-width);
+  margin: 0 auto;
+}
+
+.boat-guide-view .boat-guide-back {
+  margin: 0 0 var(--bs-space-2);
+  padding: 4px 0;
+  background: transparent;
+  color: var(--bs-text-secondary);
+  border: 0;
+  font-size: var(--bs-font-support);
+  font-weight: 700;
+}
+
+/* Header / model identity */
+.boat-guide-view .boat-guide-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(230px, 360px);
+  gap: var(--bs-space-6);
+  align-items: center;
+  padding: var(--bs-space-4) 0 var(--bs-space-5);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--bs-border-light);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.boat-guide-view .workspace-eyebrow {
+  margin: 0 0 var(--bs-space-1);
+  color: var(--bs-text-muted);
+  font-size: var(--bs-font-kicker);
+  font-weight: var(--bs-weight-kicker);
+  letter-spacing: var(--bs-kicker-spacing);
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.boat-guide-view .boat-guide-heading h1 {
+  margin: 0 0 var(--bs-space-2);
+  color: var(--bs-text-heading);
+  font-size: var(--bs-font-page-title);
+  font-weight: var(--bs-weight-page-title);
+  line-height: var(--bs-line-page-title);
+  letter-spacing: 0;
+}
+
+.boat-guide-view .workspace-subtitle,
+.boat-guide-view .boat-guide-heading > p:not(.workspace-eyebrow) {
+  margin: 0;
+  color: var(--bs-text-secondary);
+  font-size: var(--bs-font-body);
+  font-weight: var(--bs-weight-body);
+  line-height: var(--bs-line-body);
+}
+
+.boat-guide-view .boat-guide-heading-actions {
+  margin-top: var(--bs-space-3);
+}
+
+.boat-guide-view .guide-contribute-action {
+  min-height: 36px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: var(--bs-radius-small);
+  background: var(--bs-accent);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.boat-guide-view .guide-contribute-action:hover {
+  background: var(--bs-accent-dark);
+  opacity: 1;
+}
+
+.boat-guide-view .boat-guide-image {
+  width: 100%;
+  height: 205px;
+  object-position: center center;
+  object-fit: cover;
+  border: 1px solid var(--bs-border-light);
+  border-radius: var(--bs-radius-medium);
+  background: var(--bs-surface-soft);
+}
+
+/* Guide navigation + content spacing */
+.boat-guide-view .boat-guide-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: var(--bs-space-6);
+  margin-top: var(--bs-space-5);
+  align-items: start;
+}
+
+.boat-guide-view .boat-guide-stage-nav {
+  position: sticky;
+  top: 72px;
+  display: grid;
+  gap: var(--bs-space-2);
+}
+
+.boat-guide-view .boat-guide-stage-nav .boat-workspace-tab {
+  width: 100%;
+  min-height: 64px;
+  padding: var(--bs-card-padding-y) var(--bs-card-padding-x);
+  text-align: left;
+  border: 1px solid var(--bs-border);
+  border-radius: var(--bs-radius-medium);
+  background: var(--bs-surface-soft);
+  color: var(--bs-text-heading);
+  font-size: var(--bs-font-label);
+  font-weight: var(--bs-weight-label);
+  line-height: var(--bs-line-label);
+  box-shadow: none;
+}
+
+.boat-guide-view .boat-guide-stage-nav .boat-workspace-tab span {
+  display: block;
+  margin-top: var(--bs-space-1);
+  color: var(--bs-text-secondary);
+  font-size: var(--bs-font-support);
+  font-weight: var(--bs-weight-support);
+  line-height: var(--bs-line-support);
+}
+
+.boat-guide-view .boat-guide-stage-nav .boat-workspace-tab:hover {
+  border-color: #aabfcd;
+  background: var(--bs-surface-soft);
+  opacity: 1;
+}
+
+.boat-guide-view .boat-guide-stage-nav .boat-workspace-tab.active {
+  border-color: var(--bs-accent);
+  background: var(--bs-surface-selected);
+  color: var(--bs-text-heading);
+  box-shadow: none;
+}
+
+.boat-guide-view .boat-guide-content {
+  min-width: 0;
+}
+
+.boat-guide-view .boat-workspace-panel {
+  padding: 0;
+  background: transparent;
+}
+
+/* Section typography */
+.boat-guide-view .boat-guide-section-intro {
+  margin: 0 0 var(--bs-space-4);
+  padding: 0;
+}
+
+.boat-guide-view .boat-guide-section-intro h2,
+.boat-guide-view .boat-workspace-panel > h2 {
+  margin: 0 0 var(--bs-heading-bottom-space);
+  color: var(--bs-text-heading);
+  font-size: var(--bs-font-section-title);
+  font-weight: var(--bs-weight-section-title);
+  line-height: var(--bs-line-section-title);
+}
+
+.boat-guide-view .boat-guide-section-intro p,
+.boat-guide-view .boat-workspace-panel > p {
+  margin: 0;
+  color: var(--bs-text-secondary);
+  font-size: var(--bs-font-body);
+  font-weight: var(--bs-weight-body);
+  line-height: var(--bs-line-body);
+  max-width: none;
+}
+
+.boat-guide-view .boat-guide-subsection {
+  margin: 0 0 var(--bs-space-3);
+}
+
+.boat-guide-view .boat-guide-subsection > summary {
+  position: relative;
+  padding: var(--bs-card-padding-y) 48px var(--bs-card-padding-y) var(--bs-card-padding-x);
+  border: 1px solid var(--bs-border);
+  border-radius: var(--bs-radius-medium);
+  background: var(--bs-surface-soft);
+  color: var(--bs-text-heading);
+  font-size: var(--bs-font-subsection-title);
+  font-weight: var(--bs-weight-subsection-title);
+  line-height: var(--bs-line-subsection-title);
+}
+
+.boat-guide-view .boat-guide-subsection > summary::after {
+  right: var(--bs-card-padding-x);
+  color: var(--bs-text-muted);
+  font-size: var(--bs-font-meta);
+  font-weight: 700;
+}
+
+.boat-guide-view .boat-guide-subsection[open] > summary {
+  border-radius: var(--bs-radius-medium) var(--bs-radius-medium) 0 0;
+  border-bottom-color: transparent;
+}
+
+.boat-guide-view .boat-guide-subsection-body {
+  padding: var(--bs-space-1) var(--bs-card-padding-x) var(--bs-card-padding-y);
+  border: 1px solid var(--bs-border);
+  border-top: 0;
+  border-radius: 0 0 var(--bs-radius-medium) var(--bs-radius-medium);
+  background: var(--bs-surface);
+}
+
+.boat-guide-view .boat-guide-subsection-body h3,
+.boat-guide-view .workspace-card h3 {
+  margin: var(--bs-heading-top-space) 0 var(--bs-heading-bottom-space);
+  color: var(--bs-text-heading);
+  font-size: var(--bs-font-subsection-title);
+  font-weight: var(--bs-weight-subsection-title);
+  line-height: var(--bs-line-subsection-title);
+}
+
+.boat-guide-view .boat-guide-subsection-body h4,
+.boat-guide-view .workspace-card h4,
+.boat-guide-view label,
+.boat-guide-view .workspace-fact strong {
+  color: var(--bs-text-heading);
+  font-size: var(--bs-font-label);
+  font-weight: var(--bs-weight-label);
+  line-height: var(--bs-line-label);
+}
+
+.boat-guide-view .boat-guide-subsection-body p,
+.boat-guide-view .boat-guide-subsection-body li,
+.boat-guide-view .workspace-card p,
+.boat-guide-view .workspace-list li {
+  color: var(--bs-text-primary);
+  font-size: var(--bs-font-body);
+  font-weight: var(--bs-weight-body);
+  line-height: var(--bs-line-body);
+}
+
+.boat-guide-view .workspace-card,
+.boat-guide-view .workspace-fact,
+.boat-guide-view .workspace-listing-card {
+  border: 1px solid var(--bs-border);
+  border-radius: var(--bs-radius-medium);
+  background: var(--bs-surface-soft);
+  box-shadow: none;
+}
+
+.boat-guide-view .workspace-card {
+  padding: var(--bs-card-padding-y) var(--bs-card-padding-x);
+}
+
+.boat-guide-view .workspace-fact {
+  padding: var(--bs-card-padding-y) var(--bs-card-padding-x);
+}
+
+.boat-guide-view .workspace-fact span,
+.boat-guide-view .workspace-resource-list span,
+.boat-guide-view .workspace-note,
+.boat-guide-view .workspace-empty {
+  color: var(--bs-text-secondary);
+  font-size: var(--bs-font-support);
+  line-height: var(--bs-line-support);
+}
+
+.boat-guide-view .boat-guide-unknown-note {
+  margin: 0 0 var(--bs-space-4);
+  padding: var(--bs-card-padding-y) var(--bs-card-padding-x);
+  border-left: 4px solid #8ba0ae;
+  border-radius: var(--bs-radius-small);
+  background: var(--bs-surface-soft);
+  color: var(--bs-text-secondary);
+  font-size: var(--bs-font-body);
+  line-height: var(--bs-line-body);
+}
+
+/* Small section-menu controls */
+.boat-guide-view .boat-guide-section-menu {
+  gap: var(--bs-space-2);
+  margin: 0 0 var(--bs-space-4);
+}
+
+.boat-guide-view .boat-guide-section-menu button {
+  min-height: 34px;
+  padding: 7px 11px;
+  border: 1px solid var(--bs-border);
+  border-radius: var(--bs-radius-small);
+  background: var(--bs-surface-soft);
+  color: var(--bs-text-heading);
+  font-size: var(--bs-font-support);
+  font-weight: 700;
+}
+
+.boat-guide-view .boat-guide-section-menu button:hover {
+  border-color: #aabfcd;
+  background: var(--bs-surface-selected);
+  opacity: 1;
+}
+
+/* Inputs and notes inside Guide */
+.boat-guide-view input,
+.boat-guide-view select,
+.boat-guide-view textarea {
+  width: 100%;
+  min-height: var(--bs-control-height);
+  padding: 8px 10px;
+  border: 1px solid var(--bs-border);
+  border-radius: var(--bs-radius-small);
+  background: var(--bs-surface);
+  color: var(--bs-text-primary);
+  font-size: var(--bs-font-body);
+}
+
+.boat-guide-view textarea {
+  line-height: var(--bs-line-body);
+}
+
+.boat-guide-view .workspace-form-actions {
+  gap: var(--bs-space-3);
+  padding: var(--bs-space-3) var(--bs-card-padding-x);
+  border-top: 1px solid var(--bs-border-light);
+  background: rgba(255,255,255,.97);
+}
+
+.boat-guide-view .workspace-form-actions button,
+.boat-guide-view .workspace-primary-btn {
+  min-height: 36px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: var(--bs-radius-small);
+  background: var(--bs-accent);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .boat-guide-view .boat-guide-header {
+    grid-template-columns: 1fr;
+  }
+
+  .boat-guide-view .boat-guide-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .boat-guide-view .boat-guide-stage-nav {
+    position: static;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .boat-guide-view {
+    --bs-font-page-title: 25px;
+    --bs-font-section-title: 20px;
+    --bs-page-padding-x: 12px;
+  }
+
+  .boat-guide-view .boat-guide-stage-nav {
+    grid-template-columns: 1fr;
+  }
+}

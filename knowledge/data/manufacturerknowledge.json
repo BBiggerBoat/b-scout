@@ -62,14 +62,12 @@
         "ALBN-28-FL"
       ],
       "CommandBridgeFamily": [
-        "ALBN-32-SF",
         "ALBN-32-PL"
       ],
       "TraditionalTrawlers": [
         "ALBN-36-CL",
         "ALBN-40-TR"
-      ],
-      "IdentityUnverified": []
+      ]
     },
     "Models": [
       "ALBN-25",
@@ -78,7 +76,6 @@
       "ALBN-28-TE-EB",
       "ALBN-28-FL",
       "ALBN-30-FC",
-      "ALBN-32-SF",
       "ALBN-32-PL",
       "ALBN-36-CL",
       "ALBN-40-TR"
@@ -216,8 +213,7 @@
       ],
       "LargeTrawler": [
         "CAMA-41"
-      ],
-      "IdentityUnverified": []
+      ]
     },
     "Models": [
       "CAMA-28-GN",
@@ -287,8 +283,7 @@
       ],
       "CurrentCustomWheelhouse": [
         "ROSB-246-WH"
-      ],
-      "IdentityUnverified": []
+      ]
     },
     "Models": [
       "ROSB-246",
@@ -444,7 +439,6 @@
           "Enterprise was advertised but no production hull is documented"
         ],
         "DatabaseRecords": [
-          "WILL-30-VE",
           "WILL-30-VO"
         ]
       },
@@ -503,16 +497,12 @@
     ],
     "ModelGroups": {
       "CoreDatabaseRecords": [
-        "WILL-30-VE",
         "WILL-30-VO",
         "WILL-36-TR",
         "WILL-40-NO"
-      ],
-      "IdentityUnverified": [],
-      "DocumentedButNotIndividuallyCatalogued": []
+      ]
     },
     "Models": [
-      "WILL-30-VE",
       "WILL-30-VO",
       "WILL-36-TR",
       "WILL-40-NO"
@@ -782,31 +772,27 @@
     },
     "ModelGroups": {
       "Compact": [
-        "NDTG-26-PH"
+        "NDTG-26"
       ],
       "Lineage32_34": [
         "NDTG-32",
-        "NDTG-32-PH",
         "NDTG-34"
       ],
       "Lineage37_39": [
         "NDTG-37",
-        "NDTG-37-PH",
         "NDTG-39"
       ],
       "Larger": [
-        "NDTG-42-PH"
+        "NDTG-42"
       ]
     },
     "Models": [
-      "NDTG-26-PH",
+      "NDTG-26",
       "NDTG-32",
-      "NDTG-32-PH",
       "NDTG-34",
       "NDTG-37",
-      "NDTG-37-PH",
       "NDTG-39",
-      "NDTG-42-PH"
+      "NDTG-42"
     ],
     "Sources": [
       {
@@ -846,9 +832,6 @@
       "Coastal": [
         "KDKR-36-MA"
       ],
-      "Sailing": [
-        "KDKR-38-CT"
-      ],
       "CompactPassagemaker": [
         "KDKR-39"
       ],
@@ -862,7 +845,6 @@
     },
     "Models": [
       "KDKR-36-MA",
-      "KDKR-38-CT",
       "KDKR-39",
       "KDKR-42",
       "KDKR-44",

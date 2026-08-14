@@ -140,6 +140,8 @@ function resetSearchControls() {
     });
 }
 
+window.resetSearchControls = resetSearchControls;
+
 function applySearchSettingsToControls(settings) {
     const values = settings || {};
     resetSearchControls();
@@ -154,6 +156,8 @@ function applySearchSettingsToControls(settings) {
     setCheckedValues(".routeFilter", values.routes); setCheckedValues(".styleFilter", values.styles); setCheckedValues(".familyFilter", values.boatFamilies);
     setCheckedValues(".configurationFilter", values.configurations); setCheckedValues(".constructionFilter", values.constructionMaterials);
     setCheckedValues(".hullFilter", values.hullTypes); setCheckedValues(".fuelFilter", values.fuels); setCheckedValues(".propulsionFilter", values.propulsion);
+    const engineCounts = Array.isArray(values.engineCounts) && values.engineCounts.length ? values.engineCounts.map(Number) : (values.twinEngines ? [2] : []);
+    document.querySelectorAll(".engineCountFilter").forEach(element => { element.checked = engineCounts.includes(Number(element.value)); });
     document.querySelectorAll(".featurePriority").forEach(element => { element.value = (values.featurePriorities || {})[element.dataset.feature] || ""; });
 }
 
@@ -164,6 +168,9 @@ function describeSearchProfile(settings) {
     if (s.fuels?.length) lines.push(`Fuel: ${s.fuels.join(", ")}`); if (s.boatFamilies?.length) lines.push(`Boat family: ${s.boatFamilies.join(", ")}`);
     if (s.configurations?.length) lines.push(`Sub-Family: ${s.configurations.join(", ")}`); if (s.hullTypes?.length) lines.push(`Hull behaviour: ${s.hullTypes.join(", ")}`);
     if (s.constructionMaterials?.length) lines.push(`Construction: ${s.constructionMaterials.join(", ")}`); if (s.propulsion?.length) lines.push(`Propulsion: ${s.propulsion.join(", ")}`);
+    const engineCounts = Array.isArray(s.engineCounts) && s.engineCounts.length ? s.engineCounts.map(Number) : (s.twinEngines ? [2] : []);
+    if (engineCounts.length === 1) lines.push(`Engine arrangement: ${engineCounts[0] === 1 ? "Single engine" : "Twin engines"}`);
+    else if (engineCounts.length > 1) lines.push("Engine arrangement: Single or twin engines");
     if (s.sideDecks) lines.push(`Side decks: ${s.sideDecks}`); return lines;
 }
 
@@ -578,10 +585,10 @@ function renderDecisionSummary(relationship, boat) {
     <div class="boat-status-container">
         <label for="status-${boat.BoatModelID}">Evaluation stage</label>
         <select class="boat-status-select status-${currentStatus.toLowerCase()}" data-id="${boat.BoatModelID}" id="status-${boat.BoatModelID}">
-            <option value="None" ${currentStatus === "None" ? "selected" : ""}>Unreviewed</option>
-            <option value="Favorite" ${currentStatus === "Favorite" ? "selected" : ""}>Favorite</option>
-            <option value="Candidate" ${currentStatus === "Candidate" ? "selected" : ""}>Candidate</option>
-            <option value="Research" ${currentStatus === "Research" ? "selected" : ""}>Evaluating</option>
+            <option value="None" ${currentStatus === "None" ? "selected" : ""}>Not Saved</option>
+            <option value="Interested" ${currentStatus === "Interested" ? "selected" : ""}>Interested</option>
+            <option value="Shortlist" ${currentStatus === "Shortlist" ? "selected" : ""}>Shortlist</option>
+            <option value="Researching" ${currentStatus === "Researching" ? "selected" : ""}>Researching</option>
             <option value="Rejected" ${currentStatus === "Rejected" ? "selected" : ""}>Rejected</option>
         </select>
     </div>
@@ -626,11 +633,10 @@ function displayBoats(boats) {
 
     }
 
-    // Filter out rejected boats from normal listings
-    const normalBoats = boats.filter(boat => {
-        const rel = getBoatRelationship(boat.BoatModelID);
-        return !rel || rel.Status !== "Rejected";
-    });
+    // Search results represent the model universe selected by the search engine.
+    // Workspace status such as Rejected must not silently remove models from an
+    // otherwise unfiltered search; users can still see/manage that status on cards.
+    const normalBoats = boats;
 
     // Update Results section counts
     const totalCountElem = document.getElementById("totalBoatsCount");
@@ -705,7 +711,7 @@ data-id="${boat.BoatModelID}"
 
 >
 
-Workspace
+Guide
 
 </button>
 
@@ -932,7 +938,7 @@ function showBoatDetails(boat) {
             searchSettings.textSearch || searchSettings.maxLength || searchSettings.maxBeam ||
             (searchSettings.routes || []).length || (searchSettings.styles || []).length || (searchSettings.boatFamilies || []).length || (searchSettings.configurations || []).length || (searchSettings.constructionMaterials || []).length ||
             (searchSettings.hullTypes || []).length || (searchSettings.fuels || []).length ||
-            (searchSettings.propulsion || []).length || searchSettings.flybridge || searchSettings.sideDecks ||
+            (searchSettings.propulsion || []).length || (searchSettings.engineCounts || []).length || searchSettings.twinEngines || searchSettings.flybridge || searchSettings.sideDecks ||
             searchSettings.trailerable || searchSettings.crewComposition || searchSettings.tallestCrewHeight ||
             searchSettings.guestFrequency || Object.keys(searchSettings.featurePriorities || {}).length
         );
@@ -1294,11 +1300,11 @@ const clearButton = document.getElementById("clearButton");
 
 if (clearButton) {
     clearButton.addEventListener("click", function() {
-        const defaults = currentSearchProfile?.SearchSettings || {};
+        // Clear means clear every visible search requirement and preference.
+        // Do not re-apply the selected profile's saved settings.
         resetSearchControls();
-        applySearchSettingsToControls(defaults);
-        if (window.BScoutSearchState) window.BScoutSearchState.setSearchSettings(defaults, { source: "reset-current-profile" });
-        setProfileDirty(false);
+        if (window.BScoutSearchState) window.BScoutSearchState.clear({ source: "clear-search" });
+        setProfileDirty(Boolean(currentSearchProfile));
         updateSearchProfileSummary();
         runCurrentSearch();
     });
@@ -1799,13 +1805,40 @@ function initProfileManager() {
 
 const DEVELOPMENT_REFERENCE_FLEET_IDS = [
     "GRBK-32-CL", "GRBK-36-CL", "CAMA-31-TR", "CAMA-28-GN", "NDTG-26", "NDTG-32",
-    "MNSH-34-MK1", "MNSH-30-PI", "MONK-36-TR", "CHBY-34-SE", "MRTR-34-DO", "KDKR-36-MA",
-    "WILL-30-VE", "CHLY-28", "ROSB-246-WH", "ALBN-27-FC", "ALBN-28-FL", "ALBN-30-FC",
-    "NMBL-32-WA", "RNGR-27-RT", "RNGR-29-CLASSIC", "NMBS-3003", "CPDR-28-PH", "NPAC-28", "KDKR-42"
+    "MNSH-34-MK1", "MNSH-30-PI", "MONK-36-TR", "CHBY-34-SE", "KDKR-36-MA",
+    "CHLY-28", "ROSB-246-WH", "ALBN-27-FC", "ALBN-28-FL", "ALBN-30-FC",
+    "NMBL-32-WA", "RNGR-27-RT", "RNGR-29-CLASSIC", "NMBS-3003", "CPDR-28-CR", "NPAC-28", "KDKR-42"
 ];
 const BUYER_WORKSPACE_STORAGE_KEY = "bscout_buyer_workspace";
 const BUYER_WORKSPACE_PROFILE_ID = "__buyer_workspace__";
 let currentBuyerWorkspace = null;
+
+const MODEL_STATUS_MIGRATION = {
+    "None": "Interested",
+    "Favorite": "Interested",
+    "Candidate": "Shortlist",
+    "Research": "Researching",
+    "Evaluating": "Researching",
+    "Interested": "Interested",
+    "Shortlist": "Shortlist",
+    "Researching": "Researching",
+    "Rejected": "Rejected"
+};
+
+function normalizeModelStatus(status) {
+    if (!status || status === "None") return "None";
+    return MODEL_STATUS_MIGRATION[status] || status;
+}
+
+function migrateModelRelationshipStatuses(workspace) {
+    if (!workspace || !Array.isArray(workspace.BoatRelationships)) return false;
+    let changed = false;
+    workspace.BoatRelationships.forEach(rel => {
+        const normalized = normalizeModelStatus(rel.Status);
+        if (rel.Status !== normalized) { rel.Status = normalized; changed = true; }
+    });
+    return changed;
+}
 
 function createBuyerWorkspace() {
     const nowIso = new Date().toISOString();
@@ -1831,15 +1864,40 @@ function loadBuyerWorkspace() {
     }
     if (!workspace || typeof workspace !== "object") workspace = createBuyerWorkspace();
     workspace.ProfileID = BUYER_WORKSPACE_PROFILE_ID;
-    workspace.ProfileName = "My Boats";
+    workspace.ProfileName = "Saved Models";
     workspace.SearchSettings = {};
     if (!Array.isArray(workspace.BoatRelationships)) workspace.BoatRelationships = [];
     if (!Array.isArray(workspace.Listings)) workspace.Listings = [];
-    // Seed the demonstration fleet once for new or legacy workspaces. Do not
-    // re-favourite boats on every refresh after the user changes their status.
-    if (workspace.DemoFleetSeeded !== true) {
-        seedDevelopmentReferenceFleet(workspace);
-        workspace.DemoFleetSeeded = true;
+
+    const statusesMigrated = migrateModelRelationshipStatuses(workspace);
+
+    // v6.7 repair: previous search-result rendering accidentally created an
+    // Interested relationship for every displayed model. If a workspace is
+    // clearly polluted, remove only untouched default relationships.
+    let passiveRelationshipsRemoved = false;
+    if (workspace.AutoSavePollutionCleanupV1 !== true && workspace.BoatRelationships.length > 40) {
+        const before = workspace.BoatRelationships.length;
+        const listingBoatIds = new Set((workspace.Listings || []).map(item => String(item.BoatModelID)));
+        workspace.BoatRelationships = workspace.BoatRelationships.filter(rel => {
+            if (!rel || rel.Status !== "Interested") return true;
+            if (listingBoatIds.has(String(rel.BoatModelID))) return true;
+            const research = rel.Research || {};
+            const hasUserResearch = Number(research.Rating || 0) > 0 ||
+                String(research.Notes || "").trim() ||
+                String(research.BrokerLinks || "").trim() ||
+                (String(research.Tags || "").trim() && String(research.Tags || "").trim() !== "Reference Fleet");
+            const history = Array.isArray(rel.History) ? rel.History : [];
+            const passiveHistory = history.length <= 1 && (!history[0] || history[0].Type === "created");
+            return hasUserResearch || !passiveHistory;
+        });
+        passiveRelationshipsRemoved = workspace.BoatRelationships.length !== before;
+        workspace.AutoSavePollutionCleanupV1 = true;
+    }
+
+    // Development reference boats are no longer inserted automatically.
+    workspace.DemoFleetSeeded = true;
+
+    if (statusesMigrated || passiveRelationshipsRemoved || workspace.AutoSavePollutionCleanupV1 === true) {
         saveBuyerWorkspace(workspace);
     }
     return workspace;
@@ -1871,10 +1929,10 @@ function seedDevelopmentReferenceFleet(profile) {
     DEVELOPMENT_REFERENCE_FLEET_IDS.forEach(boatModelId => {
         let relationship = profile.BoatRelationships.find(item => String(item.BoatModelID) === boatModelId);
         if (!relationship) {
-            relationship = { BoatModelID: boatModelId, Status: "Favorite", Created: nowIso, LastUpdated: nowIso, Research: { Rating: 0, Notes: "", Tags: "Reference Fleet", BrokerLinks: "" } };
+            relationship = { BoatModelID: boatModelId, Status: "Interested", Created: nowIso, LastUpdated: nowIso, Research: { Rating: 0, Notes: "", Tags: "Reference Fleet", BrokerLinks: "" } };
             profile.BoatRelationships.push(relationship);
-        } else if (!relationship.Status || relationship.Status === "None") {
-            relationship.Status = "Favorite";
+        } else if (!relationship.Status || relationship.Status === "Interested") {
+            relationship.Status = "Interested";
             relationship.LastUpdated = nowIso;
         }
     });
@@ -2133,67 +2191,45 @@ function updateAllBoatStatusSelects() {
     const selects = document.querySelectorAll(".boat-status-select");
     selects.forEach(selectEl => {
         const boatId = selectEl.getAttribute("data-id");
-        let currentStatus = "None";
+        let currentStatus = "Interested";
         const workspace = getActiveBuyerWorkspace();
         if (!Array.isArray(workspace.BoatRelationships)) workspace.BoatRelationships = [];
         const rel = workspace.BoatRelationships.find(r => String(r.BoatModelID) === String(boatId));
-        if (rel) currentStatus = rel.Status || "None";
+        if (rel) currentStatus = normalizeModelStatus(rel.Status);
         selectEl.value = currentStatus;
     });
 }
 
 function getBoatRelationship(boatModelId) {
     const workspace = getActiveBuyerWorkspace();
+    if (!workspace.BoatRelationships) workspace.BoatRelationships = [];
+    return workspace.BoatRelationships.find(r => String(r.BoatModelID) === String(boatModelId)) || null;
+}
 
-    if (!workspace.BoatRelationships) {
-        workspace.BoatRelationships = [];
-    }
-
+function ensureBoatRelationship(boatModelId) {
+    const workspace = getActiveBuyerWorkspace();
+    if (!workspace.BoatRelationships) workspace.BoatRelationships = [];
     let rel = workspace.BoatRelationships.find(r => String(r.BoatModelID) === String(boatModelId));
     if (!rel) {
         const nowIso = new Date().toISOString();
         rel = {
             BoatModelID: boatModelId,
-            Status: "None",
+            Status: "Interested",
             Created: nowIso,
             LastUpdated: nowIso,
-            Research: {
-                Rating: 0,
-                Notes: "",
-                Tags: "",
-                BrokerLinks: ""
-            },
-            History: [{
-                Type: "created",
-                Label: "Added to buyer workspace",
-                Timestamp: nowIso
-            }]
+            Research: { Rating: 0, Notes: "", Tags: "", BrokerLinks: "" },
+            History: [{ Type: "created", Label: "Added to Saved Models", Timestamp: nowIso }]
         };
         workspace.BoatRelationships.push(rel);
-    } else {
-        // Ensure keys exist
-        if (!rel.Created) {
-            rel.Created = new Date().toISOString();
-        }
-        if (!rel.LastUpdated) {
-            rel.LastUpdated = new Date().toISOString();
-        }
-        if (!Array.isArray(rel.History)) rel.History = [];
-        if (!rel.Research) {
-            rel.Research = {
-                Rating: 0,
-                Notes: "",
-                Tags: "",
-                BrokerLinks: ""
-            };
-        } else {
-            // Ensure fields in Research exist
-            if (rel.Research.Rating === undefined) rel.Research.Rating = 0;
-            if (rel.Research.Notes === undefined) rel.Research.Notes = "";
-            if (rel.Research.Tags === undefined) rel.Research.Tags = "";
-            if (rel.Research.BrokerLinks === undefined) rel.Research.BrokerLinks = "";
-        }
     }
+    if (!rel.Created) rel.Created = new Date().toISOString();
+    if (!rel.LastUpdated) rel.LastUpdated = new Date().toISOString();
+    if (!Array.isArray(rel.History)) rel.History = [];
+    if (!rel.Research) rel.Research = { Rating: 0, Notes: "", Tags: "", BrokerLinks: "" };
+    if (rel.Research.Rating === undefined) rel.Research.Rating = 0;
+    if (rel.Research.Notes === undefined) rel.Research.Notes = "";
+    if (rel.Research.Tags === undefined) rel.Research.Tags = "";
+    if (rel.Research.BrokerLinks === undefined) rel.Research.BrokerLinks = "";
     return rel;
 }
 
@@ -2304,7 +2340,7 @@ if (saveResearchBtn) {
     saveResearchBtn.addEventListener("click", function() {
         if (!currentResearchBoatId) return;
 
-        const rel = getBoatRelationship(currentResearchBoatId);
+        const rel = ensureBoatRelationship(currentResearchBoatId);
         
         const ratingEl = document.getElementById("researchRating");
         const notesEl = document.getElementById("researchNotes");
@@ -2363,15 +2399,23 @@ if (closeResearchModal) {
 
 function updateBoatRelationship(boatModelId, status) {
     if (typeof currentSearchProfile === "undefined" || !currentSearchProfile) activateBuyerWorkspace();
+    const workspace = getActiveBuyerWorkspace();
+    if (!workspace.BoatRelationships) workspace.BoatRelationships = [];
 
-    let rel = getBoatRelationship(boatModelId);
-    const previousStatus = rel.Status || "None";
+    if (!status || status === "None") {
+        workspace.BoatRelationships = workspace.BoatRelationships.filter(r => String(r.BoatModelID) !== String(boatModelId));
+        persistCurrentSearchProfile();
+        updateBuyerWorkspaceCounts();
+        return;
+    }
+
+    let rel = ensureBoatRelationship(boatModelId);
+    const previousStatus = normalizeModelStatus(rel.Status);
     rel.Status = status;
     rel.LastUpdated = new Date().toISOString();
     if (previousStatus !== status) {
         appendDecisionHistory(rel, "status", `Stage changed to ${STATUS_LABELS[status] || status}`, `Previously ${STATUS_LABELS[previousStatus] || previousStatus}`);
     }
-
     persistCurrentSearchProfile();
     updateBuyerWorkspaceCounts();
 }
@@ -2384,7 +2428,7 @@ document.addEventListener("change", function(e) {
         if (newStatus === "Rejected") {
             // Revert select visual state first, so if they cancel, it remains as before
             const rel = getBoatRelationship(boatModelId);
-            e.target.value = rel ? (rel.Status || "None") : "None";
+            e.target.value = rel ? (normalizeModelStatus(rel.Status)) : "None";
             openRejectModal(boatModelId);
         } else {
             updateBoatRelationship(boatModelId, newStatus);
@@ -2407,10 +2451,9 @@ document.addEventListener("change", function(e) {
 let currentRejectBoatId = null;
 
 const STATUS_LABELS = {
-    "None": "Unreviewed",
-    "Favorite": "Favorite",
-    "Candidate": "Candidate",
-    "Research": "Evaluating",
+    "Interested": "Interested",
+    "Shortlist": "Shortlist",
+    "Researching": "Researching",
     "Rejected": "Rejected"
 };
 
@@ -2428,11 +2471,11 @@ function updateBuyerWorkspaceCounts() {
     const workspace = getActiveBuyerWorkspace();
     if (workspace && workspace.BoatRelationships) {
         workspace.BoatRelationships.forEach(r => {
-            if (r.Status === "Favorite") {
+            if (r.Status === "Interested") {
                 favoriteCount++;
-            } else if (r.Status === "Candidate") {
+            } else if (r.Status === "Shortlist") {
                 candidateCount++;
-            } else if (r.Status === "Research" || r.Status === "Evaluating") {
+            } else if (r.Status === "Researching") {
                 researchingCount++;
             } else if (r.Status === "Rejected") {
                 rejectedCount++;
@@ -2447,6 +2490,14 @@ function updateBuyerWorkspaceCounts() {
 }
 
 function showWorkspaceStatus(status) {
+    // Saved Models stages are workspace views, not search-profile results.
+    // Detach the visible search profile and clear its controls without deleting it.
+    const profileSelect = document.getElementById("searchProfileSelect");
+    if (profileSelect) profileSelect.value = "";
+    currentSearchProfile = null;
+    resetSearchControls();
+    setProfileDirty(false);
+    updateSearchProfileSummary();
     if (window.BScoutTaxonomyRegistry && typeof window.BScoutTaxonomyRegistry.createRegistry === "function") {
         taxonomyRegistry = window.BScoutTaxonomyRegistry.createRegistry({
             fuelTypes: payload.fuelTypes,
@@ -2489,8 +2540,8 @@ function showWorkspaceStatus(status) {
     const filteredBoats = allBoats.filter(boat => {
         const rel = getBoatRelationship(boat.BoatModelID);
         if (!rel) return false;
-        if (status === "Research" || status === "Evaluating") {
-            return rel.Status === "Research" || rel.Status === "Evaluating";
+        if (status === "Researching") {
+            return rel.Status === "Researching";
         }
         return rel.Status === status;
     });
@@ -2530,7 +2581,7 @@ function rejectBoat(boatId, reason, notes) {
     let rel = getBoatRelationship(boatId);
     
     // Save previous status
-    const prevStatus = rel.Status || "None";
+    const prevStatus = normalizeModelStatus(rel.Status);
     if (prevStatus !== "Rejected") {
         rel.PreviousStatus = prevStatus;
     }
@@ -2704,21 +2755,21 @@ function initRejectControls() {
     const viewFavoriteBoatsBtn = document.getElementById("viewFavoriteBoatsBtn");
     if (viewFavoriteBoatsBtn) {
         viewFavoriteBoatsBtn.addEventListener("click", function() {
-            showWorkspaceStatus("Favorite");
+            showWorkspaceStatus("Interested");
         });
     }
 
     const viewCandidateBoatsBtn = document.getElementById("viewCandidateBoatsBtn");
     if (viewCandidateBoatsBtn) {
         viewCandidateBoatsBtn.addEventListener("click", function() {
-            showWorkspaceStatus("Candidate");
+            showWorkspaceStatus("Shortlist");
         });
     }
 
     const viewEvaluatingBoatsBtn = document.getElementById("viewResearchingBoatsBtn");
     if (viewEvaluatingBoatsBtn) {
         viewEvaluatingBoatsBtn.addEventListener("click", function() {
-            showWorkspaceStatus("Evaluating");
+            showWorkspaceStatus("Researching");
         });
     }
 
@@ -2789,7 +2840,7 @@ function migrateLegacyListingLinks() {
                 BoatModelID: rel.BoatModelID,
                 URL: url,
                 Title: "",
-                Status: rel.Status === "Research" ? "Evaluating" : (rel.Status === "Candidate" ? "Candidate" : "Watching"),
+                Status: rel.Status === "Researching" ? "Evaluating" : (rel.Status === "Shortlist" ? "Candidate" : "Watching"),
                 Currency: "CAD",
                 Source: "Legacy saved link",
                 Notes: "",
@@ -2871,8 +2922,8 @@ function saveListingWorkspaceRecord() {
         InspectionNotes: val("listingInspection"), SurveyNotes: val("listingSurvey"), OfferHistory: val("listingOffer"),
         RepairEstimates: val("listingRepairs"), LastUpdated: now
     });
-    const rel = getBoatRelationship(activeListingBoatId);
-    if (rel && rel.Status === "None") rel.Status = "Candidate";
+    const rel = ensureBoatRelationship(activeListingBoatId);
+    if (rel && rel.Status === "Interested") rel.Status = "Shortlist";
     if (rel) { rel.LastUpdated = now; appendDecisionHistory(rel, "listing", "Candidate listing saved", listingDisplayTitle(listing, allBoats.find(b => String(b.BoatModelID) === String(activeListingBoatId)))); }
     persistCurrentSearchProfile();
     document.getElementById("listingWorkspaceStatusMessage").textContent = "Listing saved.";
@@ -2916,10 +2967,8 @@ function getDecisionWorkspaceRows(status = decisionWorkspaceStatus) {
     const workspace = getActiveBuyerWorkspace();
     if (!Array.isArray(workspace.BoatRelationships)) return [];
     return workspace.BoatRelationships
-        .filter(rel => rel.Status && rel.Status !== "None")
-        .filter(rel => status === "All" || (status === "Research"
-            ? rel.Status === "Research" || rel.Status === "Evaluating"
-            : rel.Status === status))
+        .filter(rel => rel.Status)
+        .filter(rel => status === "All" || rel.Status === status)
         .map(rel => ({ rel, boat: allBoats.find(boat => String(boat.BoatModelID) === String(rel.BoatModelID)) }))
         .filter(item => item.boat)
         .sort((a, b) => new Date(b.rel.LastUpdated || 0) - new Date(a.rel.LastUpdated || 0));
@@ -2937,7 +2986,7 @@ function renderDecisionTimeline(boatId) {
     const title = [boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ");
     let history = Array.isArray(rel.History) ? rel.History.slice() : [];
     if (!history.length && rel.Created) {
-        history.push({ Label: "Added to buyer workspace", Timestamp: rel.Created });
+        history.push({ Label: "Added to Saved Models", Timestamp: rel.Created });
         if (rel.LastUpdated && rel.LastUpdated !== rel.Created) history.push({ Label: "Decision record updated", Timestamp: rel.LastUpdated });
     }
     history.sort((a, b) => new Date(b.Timestamp || 0) - new Date(a.Timestamp || 0));
@@ -2965,6 +3014,8 @@ function renderMyBoatsListings() {
     const container = document.getElementById("myBoatsListings");
     if (!container) return;
     const allListings = ensureProfileListings().slice().sort((a,b) => new Date(b.LastUpdated || 0) - new Date(a.LastUpdated || 0));
+    const panel = container.closest(".my-boats-listings-panel");
+    if (panel) panel.hidden = allListings.length === 0;
     const closedStatuses = new Set(["Rejected", "Sold", "Archived"]);
     const activeStatuses = new Set(["Watching", "Candidate", "Evaluating", "Offer"]);
     const setCount = (id, value) => { const element = document.getElementById(id); if (element) element.textContent = value; };
@@ -2979,7 +3030,7 @@ function renderMyBoatsListings() {
         return (listing.Status || "Watching") === myBoatsListingStatus;
     });
     if (!allListings.length) {
-        container.innerHTML = '<p class="decision-workspace-empty">No specific candidate listings have been saved. Open a model Workspace, choose Listings, and add an individual boat.</p>';
+        container.innerHTML = "";
         return;
     }
     if (!listings.length) {
@@ -2996,9 +3047,9 @@ function renderMyBoatsListings() {
         const boat = allBoats.find(item => String(item.BoatModelID) === boatId);
         if (!boat) return "";
         const modelTitle = [boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ");
-        return `<section class="my-boats-model-group"><header><div><span class="listing-count">${modelListings.length} listing${modelListings.length === 1 ? "" : "s"}</span><h4>${escapeWorkspaceHtml(modelTitle)}</h4></div><button type="button" class="listing-model-workspace-btn" data-id="${escapeWorkspaceHtml(boatId)}">Model Workspace</button></header><div class="my-boats-model-listings">${modelListings.map(listing => `<article class="my-boats-listing-card">
+        return `<section class="my-boats-model-group"><header><div><span class="listing-count">${modelListings.length} listing${modelListings.length === 1 ? "" : "s"}</span><h4>${escapeWorkspaceHtml(modelTitle)}</h4></div><button type="button" class="listing-model-workspace-btn" data-id="${escapeWorkspaceHtml(boatId)}">Guide</button></header><div class="my-boats-model-listings">${modelListings.map(listing => `<article class="my-boats-listing-card">
           <div><span class="listing-source">${escapeWorkspaceHtml(listing.Source || "Saved listing")}</span><h5>${escapeWorkspaceHtml(listingDisplayTitle(listing, boat))}</h5><p>${escapeWorkspaceHtml(formatListingPrice(listing))} · ${escapeWorkspaceHtml(listing.Location || "Location unknown")} · ${escapeWorkspaceHtml(listing.Status || "Watching")}</p></div>
-          <div class="listing-card-actions"><button type="button" class="open-listing-workspace-btn" data-listing-id="${escapeWorkspaceHtml(listing.ListingID)}">Listing Workspace</button>${listing.URL ? `<a href="${escapeWorkspaceHtml(listing.URL)}" target="_blank" rel="noopener noreferrer">Original Listing</a>` : ""}</div>
+          <div class="listing-card-actions"><button type="button" class="open-listing-workspace-btn" data-listing-id="${escapeWorkspaceHtml(listing.ListingID)}">Listing Details</button>${listing.URL ? `<a href="${escapeWorkspaceHtml(listing.URL)}" target="_blank" rel="noopener noreferrer">Original Listing</a>` : ""}</div>
         </article>`).join("")}</div></section>`;
     }).join("");
     container.querySelectorAll(".listing-model-workspace-btn").forEach(button => button.addEventListener("click", () => {
@@ -3016,10 +3067,10 @@ function renderDecisionWorkspace() {
     const tbody = document.getElementById("decisionWorkspaceTableBody");
     if (!tbody) return;
     const profileLabel = document.getElementById("decisionWorkspaceProfileName");
-    if (profileLabel) profileLabel.textContent = currentSearchProfile?.ProfileName || "Default Search Profile";
+    if (profileLabel) profileLabel.textContent = currentSearchProfile?.ProfileName || "Saved Models";
     const rows = getDecisionWorkspaceRows();
     if (!rows.length) {
-        tbody.innerHTML = '<tr><td colspan="6" class="decision-workspace-empty">No boats are saved at this stage.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="6" class="decision-workspace-empty">No boat models are saved at this stage.</td></tr>';
         renderDecisionTimeline(null);
         updateWorkspaceCompareButton();
         return;
@@ -3033,11 +3084,10 @@ function renderDecisionWorkspace() {
             <td><input type="checkbox" class="workspace-compare-checkbox" data-id="${escapeWorkspaceHtml(id)}" ${comparisonBoatIDs.includes(id) ? "checked" : ""} aria-label="Compare ${escapeWorkspaceHtml(title)}"></td>
             <td><button type="button" class="workspace-boat-link" data-id="${escapeWorkspaceHtml(id)}">${escapeWorkspaceHtml(title)}</button></td>
             <td><select class="workspace-status-select" data-id="${escapeWorkspaceHtml(id)}">
-                <option value="Favorite" ${rel.Status === "Favorite" ? "selected" : ""}>Favorite</option>
-                <option value="Candidate" ${rel.Status === "Candidate" ? "selected" : ""}>Candidate</option>
-                <option value="Research" ${rel.Status === "Research" || rel.Status === "Evaluating" ? "selected" : ""}>Evaluating</option>
+                <option value="Interested" ${rel.Status === "Interested" ? "selected" : ""}>Interested</option>
+                <option value="Shortlist" ${rel.Status === "Shortlist" ? "selected" : ""}>Shortlist</option>
+                <option value="Researching" ${rel.Status === "Researching" ? "selected" : ""}>Researching</option>
                 <option value="Rejected" ${rel.Status === "Rejected" ? "selected" : ""}>Rejected</option>
-                <option value="None">Unreviewed</option>
             </select></td>
             <td>${rating}</td><td>${escapeWorkspaceHtml(updated)}</td>
             <td><button type="button" class="workspace-notebook-btn" data-id="${escapeWorkspaceHtml(id)}">Notebook</button></td>
@@ -3115,7 +3165,7 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
 else initDecisionWorkspaceControls();
 
 // =====================================================
-// COMPARE BOATS LOGIC
+// COMPARE MODELS LOGIC
 // =====================================================
 
 function toggleCompareBoat(boatId) {
@@ -3125,7 +3175,7 @@ function toggleCompareBoat(boatId) {
         comparisonBoatIDs.splice(idx, 1);
     } else {
         if (comparisonBoatIDs.length >= 4) {
-            alert("Maximum selection: 4 boats. Please deselect another boat first.");
+            alert("Maximum selection: 4 models. Please deselect another model first.");
             return;
         }
         comparisonBoatIDs.push(boatId);
@@ -3181,20 +3231,18 @@ function renderComparisonTable() {
     }).filter(Boolean);
 
     if (selectedBoats.length === 0) {
-        table.innerHTML = "<tr><td style='text-align: center; padding: 20px;'>No boats selected for comparison.</td></tr>";
+        table.innerHTML = "<tr><td style='text-align: center; padding: 20px;'>No boat models selected for comparison.</td></tr>";
         return;
     }
 
     // Rows to build
     const rows = [
         { label: "Image / Remove", key: "header_card" },
-        { label: "Manufacturer", key: "Manufacturer" },
-        { label: "Model", key: "Model" },
         { label: "First Year", key: "FirstYear" },
         { label: "Last Year", key: "LastYear" },
         { label: "Search Fit Score", key: "search_fit_score" },
         { label: "Status", key: "status" },
-        { label: "Research Rating", key: "research_rating" },
+        { label: "My Rating", key: "research_rating" },
         { label: "LOA", key: "LOA_ft", suffix: " ft" },
         { label: "Beam", key: "Beam_ft", suffix: " ft" },
         { label: "Draft", key: "Draft_ft", suffix: " ft" },
@@ -3215,12 +3263,10 @@ function renderComparisonTable() {
         { label: "Heads", key: "Heads" },
         { label: "Shower", key: "Shower" },
         { label: "Trailerable", key: "Trailerable" },
-        { label: "B-Scout Verdict", key: "bscout_verdict" },
         { label: "Best For", key: "best_for" },
         { label: "Avoid If", key: "avoid_if" },
         { label: "Inspection Focus", key: "inspection_focus" },
-        { label: "Knowledge Confidence", key: "knowledge_confidence" },
-        { label: "Research Notes", key: "research_notes" },
+        { label: "My Notes", key: "research_notes" },
         { label: "Strengths", key: "Strengths" },
         { label: "Trade-offs", key: "Weaknesses" }
     ];
@@ -3255,22 +3301,18 @@ function renderComparisonTable() {
                 } else {
                     val = "Unrated";
                 }
-            } else if (["bscout_verdict", "best_for", "avoid_if", "inspection_focus", "knowledge_confidence"].includes(row.key)) {
+            } else if (["best_for", "avoid_if", "inspection_focus"].includes(row.key)) {
                 const summary = window.BScoutIntelligenceLayer
                     ? window.BScoutIntelligenceLayer.buildModelKnowledgeSummary(boat)
                     : null;
                 if (!summary) {
                     val = "Unknown";
-                } else if (row.key === "bscout_verdict") {
-                    val = `<strong>${escapeHtml(summary.verdictLevel)}</strong><br>${escapeHtml(summary.verdict)}`;
                 } else if (row.key === "best_for") {
                     val = escapeHtml(summary.bestFor || summary.positives[0] || "Unknown");
                 } else if (row.key === "avoid_if") {
                     val = escapeHtml(summary.avoidIf || summary.cautions[0] || "Unknown");
                 } else if (row.key === "inspection_focus") {
                     val = summary.inspectionFocus.length ? summary.inspectionFocus.map(escapeHtml).join("<br>") : "Unknown";
-                } else {
-                    val = `${escapeHtml(summary.confidence)} confidence`;
                 }
             } else if (row.key === "research_notes") {
                 if (rel && rel.Research && rel.Research.Notes) {
@@ -3342,4 +3384,12 @@ if (typeof document !== "undefined") {
         document.getElementById("listingWorkspaceModal").style.display = "none";
         if (boat && window.BScoutBoatWorkspace) window.BScoutBoatWorkspace.open(boat, "overview");
     });
+}
+
+// Ownership bridge: expose current listing context without changing listing behaviour.
+if (typeof window !== "undefined") {
+    Object.defineProperty(window, "activeListingId", { configurable: true, get: () => activeListingId });
+    Object.defineProperty(window, "activeListingBoatId", { configurable: true, get: () => activeListingBoatId });
+    window.getListingById = getListingById;
+    window.saveListingWorkspaceRecord = saveListingWorkspaceRecord;
 }

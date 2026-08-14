@@ -336,54 +336,6 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "ALBN-32-SF",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 5,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
     "BoatModelID": "ALBN-36-CL",
     "Categories": {
       "Identity": {
@@ -1488,7 +1440,7 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "BAYL-3270",
+    "BoatModelID": "BAYL-3288-MO",
     "Categories": {
       "Identity": {
         "Known": 2,
@@ -2784,7 +2736,7 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "CPDR-28-PH",
+    "BoatModelID": "CPDR-28-CR",
     "Categories": {
       "Identity": {
         "Known": 2,
@@ -3024,7 +2976,7 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "CARV-33-AC",
+    "BoatModelID": "CARV-350-AF",
     "Categories": {
       "Identity": {
         "Known": 2,
@@ -3168,7 +3120,7 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "CARV-355-AC",
+    "BoatModelID": "CARV-356-AF",
     "Categories": {
       "Identity": {
         "Known": 2,
@@ -4124,54 +4076,6 @@
     "VerifiedSourceCount": 0,
     "ContradictionCount": 0,
     "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "CORB-39-PH",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 4,
     "CoverageStatus": "Strong",
     "GeneratedAt": "2026-07-26"
   },
@@ -5616,54 +5520,6 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "EAGL-32-TR",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
     "BoatModelID": "ENDE-36-TR",
     "Categories": {
       "Identity": {
@@ -5756,150 +5612,6 @@
     "VerifiedSourceCount": 0,
     "ContradictionCount": 0,
     "RelationshipCount": 1,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "FISH-30-PI",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "FISH-34-MS",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "FISH-37-MS",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 4,
     "CoverageStatus": "Strong",
     "GeneratedAt": "2026-07-26"
   },
@@ -6092,54 +5804,6 @@
     "VerifiedSourceCount": 0,
     "ContradictionCount": 0,
     "RelationshipCount": 4,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "FORT-33-DE",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 33,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
     "CoverageStatus": "Strong",
     "GeneratedAt": "2026-07-26"
   },
@@ -6528,102 +6192,6 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "GEMI-105-MC",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 4,
-        "Total": 5,
-        "Score": 80
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 83,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 1,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "GEMI-L35-EG",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 1,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
     "BoatModelID": "GOZZ-40-PI",
     "Categories": {
       "Identity": {
@@ -6904,54 +6472,6 @@
     },
     "OverallScore": 86,
     "FactCount": 33,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "GULF-39-SM",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
     "SourceCount": 1,
     "VerifiedSourceCount": 0,
     "ContradictionCount": 0,
@@ -7536,102 +7056,6 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "ISPK-SP",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "ISGY-32",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 6,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
     "BoatModelID": "ISGY-36",
     "Categories": {
       "Identity": {
@@ -7729,54 +7153,6 @@
   },
   {
     "BoatModelID": "ISGY-44",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 33,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "ISGY-50",
     "Categories": {
       "Identity": {
         "Known": 2,
@@ -8784,102 +8160,6 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "MARN-28-SF",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "MRTR-34-DO",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 4,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
     "BoatModelID": "MRTR-36-DO",
     "Categories": {
       "Identity": {
@@ -9264,150 +8544,6 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "NAUT-33",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 33,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "NAUT-38",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 33,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 5,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "NAUT-40",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 33,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 4,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
     "BoatModelID": "NDST-31P",
     "Categories": {
       "Identity": {
@@ -9500,54 +8636,6 @@
     "VerifiedSourceCount": 0,
     "ContradictionCount": 0,
     "RelationshipCount": 1,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "NMBL-30-KO",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
     "CoverageStatus": "Strong",
     "GeneratedAt": "2026-07-26"
   },
@@ -9744,54 +8832,6 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "NDTG-26-PH",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
     "BoatModelID": "NDTG-32",
     "Categories": {
       "Identity": {
@@ -9832,54 +8872,6 @@
     },
     "OverallScore": 86,
     "FactCount": 33,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 5,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "NDTG-32-PH",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
     "SourceCount": 1,
     "VerifiedSourceCount": 0,
     "ContradictionCount": 0,
@@ -9984,54 +8976,6 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "NDTG-37-PH",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 4,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
     "BoatModelID": "NDTG-39",
     "Categories": {
       "Identity": {
@@ -10128,7 +9072,7 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "NDTG-42-PH",
+    "BoatModelID": "NDTG-42",
     "Categories": {
       "Identity": {
         "Known": 2,
@@ -10272,7 +9216,7 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "OCAL-36-SE",
+    "BoatModelID": "OCEA-36-SE",
     "Categories": {
       "Identity": {
         "Known": 2,
@@ -10412,54 +9356,6 @@
     "VerifiedSourceCount": 0,
     "ContradictionCount": 0,
     "RelationshipCount": 2,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "PDQB-36-SC",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
     "CoverageStatus": "Strong",
     "GeneratedAt": "2026-07-26"
   },
@@ -11808,7 +10704,7 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "SEAH-40-PH",
+    "BoatModelID": "SEAH-38-CO",
     "Categories": {
       "Identity": {
         "Known": 2,
@@ -11952,7 +10848,7 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "SHAN-26-SR",
+    "BoatModelID": "SHAN-38-SRD",
     "Categories": {
       "Identity": {
         "Known": 2,
@@ -12288,54 +11184,6 @@
     "GeneratedAt": "2026-07-26"
   },
   {
-    "BoatModelID": "SPEN-1330",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 34,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
     "BoatModelID": "SSPT-24",
     "Categories": {
       "Identity": {
@@ -12476,54 +11324,6 @@
     "VerifiedSourceCount": 0,
     "ContradictionCount": 0,
     "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "SWND-1160",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 33,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 2,
     "CoverageStatus": "Strong",
     "GeneratedAt": "2026-07-26"
   },
@@ -12861,54 +11661,6 @@
     "ContradictionCount": 0,
     "RelationshipCount": 3,
     "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "WILL-30-VE",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 8,
-        "Total": 10,
-        "Score": 80
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 2,
-        "Total": 4,
-        "Score": 50
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 76,
-    "FactCount": 30,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 4,
-    "CoverageStatus": "Developing",
     "GeneratedAt": "2026-07-26"
   },
   {
@@ -13484,150 +12236,6 @@
     "VerifiedSourceCount": 0,
     "ContradictionCount": 0,
     "RelationshipCount": 3,
-    "CoverageStatus": "Developing",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "CAPD-30-FB",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 10,
-        "Total": 10,
-        "Score": 100
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 4,
-        "Total": 4,
-        "Score": 100
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 86,
-    "FactCount": 33,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Strong",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "CAPD-28-CR",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 1,
-        "Total": 10,
-        "Score": 10
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 2,
-        "Total": 4,
-        "Score": 50
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 66,
-    "FactCount": 21,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 3,
-    "CoverageStatus": "Developing",
-    "GeneratedAt": "2026-07-26"
-  },
-  {
-    "BoatModelID": "KDKR-38-CT",
-    "Categories": {
-      "Identity": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Specifications": {
-        "Known": 3,
-        "Total": 10,
-        "Score": 30
-      },
-      "Configuration": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Accommodation": {
-        "Known": 0,
-        "Total": 4,
-        "Score": 0
-      },
-      "Suitability": {
-        "Known": 2,
-        "Total": 2,
-        "Score": 100
-      },
-      "Ownership": {
-        "Known": 5,
-        "Total": 5,
-        "Score": 100
-      },
-      "Evidence": {
-        "Known": 0,
-        "Total": 1,
-        "Score": 0
-      }
-    },
-    "OverallScore": 61,
-    "FactCount": 22,
-    "SourceCount": 1,
-    "VerifiedSourceCount": 0,
-    "ContradictionCount": 0,
-    "RelationshipCount": 4,
     "CoverageStatus": "Developing",
     "GeneratedAt": "2026-07-26"
   },

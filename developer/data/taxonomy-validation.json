@@ -1,54 +1,57 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-02T19:33:52.070Z",
-  "boatCount": 287,
+  "generatedAt": "2026-08-07T14:33:45.559Z",
+  "boatCount": 256,
   "normalizedCoverage": {
-    "NormalizedFuel": 287,
-    "NormalizedPropulsion": 287,
-    "NormalizedHullForm": 278,
-    "NormalizedHullConfiguration": 286,
-    "NormalizedStyle": 286
+    "NormalizedFuel": 252,
+    "NormalizedPropulsion": 254,
+    "NormalizedHullForm": 255,
+    "NormalizedHullConfiguration": 256,
+    "NormalizedStyle": 256
   },
   "canonicalValueCounts": {
     "NormalizedFuel": {
-      "Diesel": 207,
-      "Gasoline": 78,
-      "Mixed Diesel/Gasoline": 2
+      "Diesel": 178,
+      "Gasoline": 69,
+      "Unknown": 4,
+      "Mixed Diesel/Gasoline": 5
     },
     "NormalizedPropulsion": {
-      "Shaft": 224,
-      "Outboard": 39,
-      "Sterndrive": 15,
-      "Saildrive": 3,
-      "Pod": 3,
+      "Shaft": 197,
+      "Outboard": 32,
+      "Sterndrive": 16,
+      "Unknown": 2,
+      "Pod": 6,
       "Shaft/V-Drive": 2,
       "Mixed Outboard/Shaft": 1
     },
     "NormalizedHullForm": {
-      "Displacement": 37,
-      "Semi-Displacement": 146,
-      "Planing": 95,
-      "Unknown": 9
+      "Displacement": 23,
+      "Semi-Displacement": 135,
+      "Planing": 93,
+      "Unknown": 1,
+      "Modified-V": 4
     },
     "NormalizedHullConfiguration": {
-      "Monohull": 278,
-      "Catamaran": 8,
-      "Unknown": 1
+      "Monohull": 252,
+      "Catamaran": 4
     },
     "NormalizedStyle": {
-      "Motor Yacht": 24,
-      "Trawler": 81,
-      "Cruiser": 93,
-      "Downeast": 36,
-      "Catamaran": 6,
-      "Other": 2,
-      "Motorsailer": 13,
+      "Motor Yacht": 25,
+      "Trawler": 75,
+      "Cruiser": 65,
+      "Downeast": 18,
+      "Downeast Cruiser": 26,
+      "Sport Fisher": 3,
+      "Pilothouse": 4,
+      "Catamaran": 4,
       "Passagemaker": 2,
-      "Sportfisher": 1,
+      "Express Cruiser": 4,
       "Canal/River Cruiser": 1,
-      "Houseboat": 2,
-      "Unknown": 1,
-      "Tug Cruiser": 25
+      "Houseboat": 1,
+      "Pilothouse Cruiser": 5,
+      "Tug Cruiser": 22,
+      "Hardtop Cruiser": 1
     }
   }
 }

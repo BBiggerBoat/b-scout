@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0",
+  "designPrinciples": [
+    "Owner contributions should make B-Scout smarter, not noisier.",
+    "Contributions are evidence. B-Scout turns evidence into knowledge.",
+    "The community can improve, correct, document and expand B-Scout, but canonical knowledge changes only after review.",
+    "Unknown information remains unknown; contributors are not required to complete missing fields."
+  ],
+  "groups": [
+    {
+      "id": "improve_knowledge",
+      "label": "Improve existing knowledge",
+      "types": [
+        {
+          "id": "ownership_experience",
+          "label": "Ownership experience",
+          "scope": [
+            "model"
+          ],
+          "requiresModel": true
+        },
+        {
+          "id": "problem_weakness",
+          "label": "Problem or weakness",
+          "scope": [
+            "model"
+          ],
+          "requiresModel": true
+        },
+        {
+          "id": "buyer_inspection_advice",
+          "label": "Buyer inspection advice",
+          "scope": [
+            "model"
+          ],
+          "requiresModel": true
+        },
+        {
+          "id": "correction",
+          "label": "Correct B-Scout information",
+          "scope": [
+            "manufacturer",
+            "model"
+          ],
+          "requiresModel": false
+        },
+        {
+          "id": "other",
+          "label": "Something else",
+          "scope": [
+            "general",
+            "manufacturer",
+            "model"
+          ],
+          "requiresModel": false
+        }
+      ]
+    },
+    {
+      "id": "supporting_material",
+      "label": "Add supporting material",
+      "types": [
+        {
+          "id": "photo",
+          "label": "Photo",
+          "scope": [
+            "model"
+          ],
+          "requiresModel": true
+        },
+        {
+          "id": "manual_document",
+          "label": "Manual or document",
+          "scope": [
+            "manufacturer",
+            "model"
+          ],
+          "requiresModel": false
+        },
+        {
+          "id": "resource",
+          "label": "Useful resource",
+          "scope": [
+            "manufacturer",
+            "model"
+          ],
+          "requiresModel": false
+        }
+      ]
+    },
+    {
+      "id": "expand_coverage",
+      "label": "Expand B-Scout",
+      "types": [
+        {
+          "id": "new_model",
+          "label": "Add a missing model",
+          "scope": [
+            "model"
+          ],
+          "requiresModel": false
+        },
+        {
+          "id": "new_manufacturer",
+          "label": "Add a manufacturer",
+          "scope": [
+            "manufacturer"
+          ],
+          "requiresModel": false
+        }
+      ]
+    }
+  ]
+}

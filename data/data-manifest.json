@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 4,
-  "release": "v6.6 Marketplace Discovery v1",
-  "purpose": "Document authoritative runtime data, generated outputs, archives, and retired transitional datasets.",
+  "schemaVersion": 16,
+  "release": "v6.11-phase8c17-specialist-models-normalized",
+  "purpose": "Document authoritative runtime data and completed normalization through Batch 7 sail-derived motorsailers and crossover cruisers.",
   "principles": [
     "Known undesirable information may eliminate a candidate.",
     "Unknown information remains eligible and reduces confidence rather than causing elimination.",
@@ -10,11 +10,11 @@
   "managed": [
     {
       "path": "boatmodels.json",
-      "role": "Canonical boat model specifications, normalized classifications and model-level research metadata."
+      "role": "Canonical boat model identity, specifications and\u2014after controlled migration\u2014all model-specific interpretive knowledge."
     },
     {
       "path": "data/model-schema.json",
-      "role": "Primary boat-model field definitions, controlled values, ownership and retired-field migration rules."
+      "role": "Authoritative boat-model field definitions, formats, evidence rules, unknown-state behaviour, ownership and migration rules."
     },
     {
       "path": "routes.json",
@@ -65,10 +65,6 @@
       "role": "Controlled style-family taxonomy."
     },
     {
-      "path": "knowledge/data/boatintelligence.json",
-      "role": "Model-level interpretation, ownership trade-offs and recommendations."
-    },
-    {
       "path": "knowledge/data/confidence-levels.json",
       "role": "Controlled confidence definitions."
     },
@@ -114,7 +110,19 @@
     },
     "knowledge/data/knowledgeannotations.json",
     "data/model-search-aliases.json",
-    "data/marketplace-source-validation.json"
+    "data/marketplace-source-validation.json",
+    {
+      "path": "data/contribution-types.json",
+      "role": "Authoritative community contribution taxonomy and scope definitions."
+    },
+    {
+      "path": "data/moderation-statuses.json",
+      "role": "Authoritative community contribution moderation states and publication safeguards."
+    },
+    {
+      "path": "data/community-contribution.schema.json",
+      "role": "Base data contract for account-free community contribution records."
+    }
   ],
   "generated": [
     {
@@ -128,6 +136,21 @@
     {
       "path": "knowledge/data/knowledgecards.json",
       "role": "Generated presentation view composed from authoritative knowledge sources."
+    },
+    {
+      "path": "developer/reports/phase4-model-audit.json",
+      "role": "Machine-readable Phase 4 model audit findings.",
+      "generatedBy": "developer/audit-model-schema.js"
+    },
+    {
+      "path": "developer/reports/phase4-model-audit.csv",
+      "role": "Flat review queue generated from the Phase 4 model audit.",
+      "generatedBy": "developer/audit-model-schema.js"
+    },
+    {
+      "path": "developer/reports/PHASE_4_MODEL_AUDIT.md",
+      "role": "Human-readable Phase 4 audit summary and samples.",
+      "generatedBy": "developer/audit-model-schema.js"
     }
   ],
   "developerReports": [
@@ -146,6 +169,10 @@
     {
       "path": "developer/data/knowledge-layer-summary.json",
       "role": "Generated current knowledge-layer summary."
+    },
+    {
+      "path": "data/community-contribution.example.json",
+      "role": "Reference example of a pending community contribution record; not production submission data."
     }
   ],
   "retired": [
@@ -178,22 +205,109 @@
       "path": "data/registry/legacy-id-map.json",
       "replacement": "data/registry/boat-registry.json aliases",
       "reason": "All current IDs are migrated; legacy identifiers are resolved directly through canonical registry aliases."
+    },
+    {
+      "path": "knowledge/data/boatintelligence.json",
+      "reason": "All 34 records were migrated verbatim into the matching boatmodels.json records under SupplementalIntelligence and related provenance fields; runtime consumers now read boatmodels.json."
     }
   ],
   "knowledgeOwnership": {
-    "boatmodels.json": "Canonical model identity and core specifications",
-    "knowledge/data/boatintelligence.json": "Canonical interpretive model intelligence",
-    "knowledge/data/curatedresources.json": "Canonical model resources",
-    "knowledge/data/listingsearches.json": "Canonical marketplace discovery links",
-    "knowledge/data/knowledgeannotations.json": "Canonical model cautions, missing-information notes and editorial relationships",
-    "knowledge/data/knowledgecards.json": "Generated presentation view; do not edit manually",
-    "knowledge/data/manufacturerknowledge.json": "Canonical manufacturer and family knowledge, available through the runtime manufacturer knowledge repository",
-    "data/marketplace-sources.json": "Canonical marketplace and brokerage source registry"
+    "boatmodels.json": "Authoritative destination for model identity, specifications and all model-specific knowledge.",
+    "data/model-schema.json": "Authoritative model field contract and evidence policy.",
+    "knowledge/data/boatintelligence.json": "Legacy migration source only; no new unique model knowledge.",
+    "knowledge/data/curatedresources.json": "Canonical source/resource registry referenced by model evidence.",
+    "knowledge/data/listingsearches.json": "Canonical marketplace discovery links.",
+    "knowledge/data/knowledgeannotations.json": "Legacy annotations awaiting review and migration where model-specific.",
+    "knowledge/data/knowledgecards.json": "Generated presentation view; do not edit manually.",
+    "knowledge/data/manufacturerknowledge.json": "Manufacturer-level knowledge, separate from model-specific records.",
+    "data/marketplace-sources.json": "Canonical marketplace and brokerage source registry."
   },
   "archives": [
     {
       "path": "developer/archive/identity-migration-archive.json",
       "role": "Historical legacy-ID map and registry migration/audit metadata; not loaded at runtime."
     }
-  ]
+  ],
+  "modelSchemaVersion": 8,
+  "authoritativeModelRecord": "boatmodels.json",
+  "phase3": "New model knowledge fields initialized across all model records; legacy migration fields retained.",
+  "phase4Audit": {
+    "policy": "Reports only; no model meaning or values rewritten.",
+    "script": "developer/audit-model-schema.js",
+    "reports": [
+      "developer/reports/phase4-model-audit.json",
+      "developer/reports/phase4-model-audit.csv",
+      "developer/reports/PHASE_4_MODEL_AUDIT.md"
+    ]
+  },
+  "phase": "Phase 8C-11 complete",
+  "notes": "Cheoy Lee, Californian, Gulfstar, Ocean Alexander, Tollycraft, Uniflite, Universal, Transpacific Marine, Mariner, Seahorse and Sealord normalized. Cheoy Lee CHLY-33 corrected to CHLY-32 and CHLY-36-SE corrected to CHLY-36-TR with permanent redirects. Low-evidence records remain Initial rather than being falsely marked Reviewed.",
+  "lastUpdated": "2026-08-09",
+  "Release": "v6.11-phase8c11-classic-taiwanese-older-motoryachts-normalized",
+  "LastUpdated": "2026-08-09",
+  "modelCount": 253,
+  "communityContributions": {
+    "phase": 9,
+    "status": "Conflict, uncertainty and applicability handling complete",
+    "principle": "Owner contributions should make B-Scout smarter, not noisier.",
+    "accountRequired": false,
+    "implementedTypes": [
+      "ownership_experience",
+      "problem_weakness",
+      "buyer_inspection_advice",
+      "correction",
+      "other",
+      "photo",
+      "manual_document",
+      "resource",
+      "new_model",
+      "new_manufacturer"
+    ],
+    "deferredTypes": {},
+    "prototypeStorage": "Contribution records, normalized knowledge items and evidence relationships remain browser-local pending a shared moderation backend.",
+    "canonicalOverwriteAllowed": false,
+    "coverageExpansionPolicy": "A proposed manufacturer requires only a manufacturer name. A proposed model requires only manufacturer and model name. All other details remain optional; exact canonical duplicates are blocked and redirected toward correction/contribution.",
+    "documentPolicy": "External document links may be submitted directly for review. Uploaded PDFs require a rights declaration; uncertain rights are accepted for evidence/review but do not imply republication permission.",
+    "resourcePolicy": "Useful resources are URL-based and attach to an existing canonical model for later Guide Owner Resources integration.",
+    "conflictPolicy": "Evidence relationships are supports, contradicts, or qualifies. Contradictions remain visible and force a conflicting-information state rather than being flattened into consensus.",
+    "knowledgeStates": [
+      "confirmed",
+      "community_supported",
+      "limited_evidence",
+      "conflicting_information",
+      "applicability_uncertain"
+    ],
+    "applicabilityConfidence": [
+      "known",
+      "probable",
+      "uncertain",
+      "conflicting"
+    ],
+    "privacyPolicy": "Collect only contribution content plus optional attribution/contact; no account required.",
+    "antiAbusePolicy": "Static prototype uses browser-local rate limiting, honeypot and minimum dwell time; server-side challenge/rate enforcement is required when shared submission transport is added.",
+    "uploadSafety": "Photos are privacy-cleaned by browser re-encoding where decodable. PDFs are size/type restricted but require server malware scanning before shared ingestion."
+  },
+  "communityContributionFiles": [
+    "developer/COMMUNITY_CONTRIBUTIONS_PHASE7.md",
+    "developer/contribution-review.html",
+    "developer/contribution-review.js",
+    "developer/contribution-review.css",
+    "data/community-knowledge-item.schema.json",
+    "data/community-knowledge-evidence.schema.json",
+    "data/community-knowledge-items.json",
+    "data/community-knowledge-evidence.json",
+    "developer/COMMUNITY_CONTRIBUTIONS_PHASE9.md",
+    "data/community-privacy-policy.json",
+    "developer/COMMUNITY_CONTRIBUTIONS_PHASE11.md",
+    "community-feedback-policy.json",
+    "moderatoraccess.js",
+    "developer/COMMUNITY_MODERATOR_TEST_ACCESS.md"
+  ],
+  "communitySharedBackend": {
+    "version": "1.0",
+    "introducedIn": "6.22.0",
+    "server": "server.js",
+    "publishedReviewedContributions": "data/community-reviewed-contributions.json",
+    "documentation": "developer/COMMUNITY_SHARED_BACKEND.md"
+  }
 }

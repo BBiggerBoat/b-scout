@@ -2298,6 +2298,22 @@
       "SourceRecordCount": 1,
       "CurrentBoatModelID": "WILL-40-NO",
       "RedirectType": "Permanent"
+    },
+    {
+      "LegacyBoatModelID": "CHLY-33",
+      "ProposedV7BoatModelID": "CHLY-32",
+      "MigrationStatus": "Migrated",
+      "SourceRecordCount": 1,
+      "CurrentBoatModelID": "CHLY-32",
+      "RedirectType": "Permanent"
+    },
+    {
+      "LegacyBoatModelID": "CHLY-36-SE",
+      "ProposedV7BoatModelID": "CHLY-36-TR",
+      "MigrationStatus": "Migrated",
+      "SourceRecordCount": 1,
+      "CurrentBoatModelID": "CHLY-36-TR",
+      "RedirectType": "Permanent"
     }
   ],
   "registryTransitionalMetadata": [
@@ -6648,7 +6664,7 @@
         "IdentityClassification": "ConfigurationOrMarketingVariant",
         "CanonicalParentBoatModelID": "NDTG-32",
         "Resolution": "DuplicateOf",
-        "ResolutionNotes": "Duplicate of NDTG-32. “Pilothouse” describes the standard Nordic Tug configuration rather than a separate 32-foot model."
+        "ResolutionNotes": "Duplicate of NDTG-32. \u201cPilothouse\u201d describes the standard Nordic Tug configuration rather than a separate 32-foot model."
       }
     },
     {

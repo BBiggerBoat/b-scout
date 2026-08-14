@@ -1,28 +1,440 @@
 {
-  "schemaVersion": 2,
-  "release": "v6.6-phase2-primary-model-schema",
+  "schemaVersion": 14,
+  "release": "v6.11-phase8c14-french-production-normalized",
   "entity": "BoatModel",
+  "status": "Phase 8C-14 French production cruiser normalization completed",
   "principles": [
     "Known undesirable values may eliminate a candidate.",
     "Unknown or missing values remain eligible and reduce confidence.",
-    "Each field has one defined owner and meaning."
+    "Unknown must never be represented as false, no, zero, poor or unsuitable.",
+    "Each field answers one defined question and must not duplicate another field.",
+    "Model-specific knowledge is ultimately stored with the authoritative boat model record.",
+    "Generated views may summarize authoritative model data but must not contain unique model knowledge.",
+    "No value may be invented to make a field appear complete."
   ],
-  "controlledValues": {
-    "DataConfidence": [
-      "Unknown",
-      "Low",
-      "Moderate",
-      "High",
-      "Verified",
-      "Conflicting"
+  "fieldGroups": {
+    "Identity": [
+      "BoatModelID",
+      "ManufacturerID",
+      "Manufacturer",
+      "Model",
+      "Variant",
+      "Nickname"
     ],
+    "Production": [
+      "FirstYear",
+      "LastYear",
+      "ModelVariations"
+    ],
+    "Specifications": [
+      "LOA_ft",
+      "HullLength_ft",
+      "LWL_ft",
+      "Beam_ft",
+      "Draft_ft",
+      "AirDraft_ft",
+      "Displacement_lb",
+      "FuelCapacity_gal",
+      "WaterCapacity_gal",
+      "HoldingCapacity_gal"
+    ],
+    "Configuration": [
+      "Configuration",
+      "NormalizedStyle",
+      "NormalizedHullType",
+      "FuelType",
+      "PropulsionType",
+      "EngineCount",
+      "Flybridge",
+      "AftCabin",
+      "SideDecks"
+    ],
+    "Accommodation": [
+      "Cabins",
+      "Berths",
+      "Heads",
+      "Shower"
+    ],
+    "ModelKnowledge": [
+      "Overview",
+      "Suitability",
+      "Strengths",
+      "TradeOffs",
+      "BestFor",
+      "AvoidIf",
+      "KnownConcerns",
+      "InspectionFocus",
+      "BuyerQuestions",
+      "OwnerActions"
+    ],
+    "Evidence": [
+      "EvidenceSummary",
+      "ResearchStatus",
+      "UnresolvedInformation"
+    ],
+    "LegacyMigration": [
+      "Weaknesses",
+      "CommonProblems",
+      "TypicalMission",
+      "DataConfidence",
+      "ResearchNotes"
+    ],
+    "supplementalIntelligence": [
+      "SupplementalIntelligence",
+      "SupplementalEvidence",
+      "SupplementalConfidence",
+      "SupplementalUpdatedAt",
+      "SupplementalRevision"
+    ]
+  },
+  "controlledValues": {
     "ResearchStatus": [
-      "NotStarted",
-      "Initial",
+      "NotReviewed",
+      "InitialReview",
       "PartiallyReviewed",
       "Reviewed",
       "Verified"
+    ],
+    "SuitabilityAssessment": [
+      "Good",
+      "Mixed",
+      "Limited",
+      "NotAssessed"
+    ],
+    "EvidenceType": [
+      "Factory documented",
+      "Technical or survey source",
+      "Multiple independent owner reports",
+      "Single owner report",
+      "Marketplace observation",
+      "Unverified",
+      "Conflicting information",
+      "Unknown"
+    ],
+    "EvidenceConfidence": [
+      "High",
+      "Moderate",
+      "Low",
+      "Conflicting",
+      "Unknown"
+    ],
+    "KnowledgeCoverage": [
+      "Strong",
+      "Partial",
+      "Limited",
+      "Unknown"
     ]
+  },
+  "formatRules": {
+    "shortList": {
+      "type": "array",
+      "comparisonMaximumItems": 4,
+      "itemRule": "One concept per item. Use a short phrase or concise sentence. Do not store comma-separated pseudo-lists.",
+      "punctuation": "Short fragments omit terminal punctuation; complete sentences use normal punctuation."
+    },
+    "unknown": {
+      "storage": "Use null, an empty array, or the explicit controlled value Unknown/NotAssessed according to field type.",
+      "display": "Show Unknown or Not assessed when material. Do not convert missing information into a negative result.",
+      "filtering": "Unknown remains eligible and reduces confidence."
+    }
+  },
+  "definitions": {
+    "Overview": {
+      "question": "What is this boat model?",
+      "audience": [
+        "Dreamer",
+        "Buyer",
+        "Owner",
+        "Seller"
+      ],
+      "nature": "Factual synthesis",
+      "type": "string|null",
+      "format": "Two to four concise neutral sentences covering general configuration, intended use, layout character, typical propulsion and distinguishing design traits.",
+      "evidenceRequirement": "Supported by reliable specifications, period documentation, technical references or consistent model evidence.",
+      "unknownBehavior": "Use null. Display 'Overview not yet documented.'",
+      "mustNotContain": [
+        "Verdict language",
+        "Sales language",
+        "Best-for audiences",
+        "Unsupported rankings"
+      ],
+      "comparisonUse": "Not normally shown; the model header supplies identity."
+    },
+    "Suitability": {
+      "question": "How well does this boat model fit defined use cases?",
+      "audience": [
+        "Buyer",
+        "Owner"
+      ],
+      "nature": "Interpretive, evidence-based",
+      "type": "object",
+      "format": "Keys represent defined use cases. Each value contains Assessment and Summary.",
+      "itemSchema": {
+        "Assessment": "Good|Mixed|Limited|NotAssessed",
+        "Summary": "concise string|null",
+        "EvidenceRefs": "array of evidence identifiers"
+      },
+      "evidenceRequirement": "Assessment must be traceable to dimensions, configuration, propulsion, documented capability or credible operating experience.",
+      "unknownBehavior": "Use NotAssessed with a null summary. Never infer Limited from missing evidence.",
+      "mustNotContain": [
+        "Generic praise",
+        "Owner personality descriptions",
+        "Known defect details"
+      ],
+      "comparisonUse": "Show selected or materially differentiating use cases only."
+    },
+    "Strengths": {
+      "question": "What objective advantages does this boat model provide?",
+      "audience": [
+        "Buyer",
+        "Owner",
+        "Seller"
+      ],
+      "nature": "Interpretive factual",
+      "type": "array",
+      "format": "Two to four concise items for comparison; fuller list permitted in the Boat Guide.",
+      "evidenceRequirement": "Each item must be supported by specifications, design characteristics, technical sources or consistent independent reports.",
+      "unknownBehavior": "Use an empty array. Display 'No documented model-specific strengths yet.'",
+      "mustNotContain": [
+        "Best-for audience statements",
+        "Verdict labels",
+        "Unqualified promotional claims"
+      ],
+      "comparisonUse": "Primary decision-guidance row."
+    },
+    "TradeOffs": {
+      "question": "What compromises are accepted in exchange for this boat model's design and strengths?",
+      "audience": [
+        "Buyer",
+        "Owner"
+      ],
+      "nature": "Interpretive factual",
+      "type": "array",
+      "format": "Two to four concise items for comparison.",
+      "evidenceRequirement": "Must follow from the model's design, layout, dimensions, propulsion, materials or ownership demands.",
+      "unknownBehavior": "Use an empty array. Display 'Trade-offs not yet documented.'",
+      "mustNotContain": [
+        "Normal compromise described as a defect",
+        "Generic age-related failure claims",
+        "Avoid-if phrasing"
+      ],
+      "comparisonUse": "Primary decision-guidance row.",
+      "renamedFrom": "Weaknesses"
+    },
+    "BestFor": {
+      "question": "Which owner, mission or ownership situation is most likely to suit the complete boat model package?",
+      "audience": [
+        "Dreamer",
+        "Buyer"
+      ],
+      "nature": "Advisory",
+      "type": "array",
+      "format": "Two to four plain-language audience, mission or ownership-situation statements.",
+      "evidenceRequirement": "Must synthesize supported suitability, strengths and trade-offs; it may not be generated from Strengths alone.",
+      "unknownBehavior": "Use an empty array. Display 'Best fit not yet assessed.'",
+      "mustNotContain": [
+        "Construction strengths",
+        "Verdict labels",
+        "Unsupported lifestyle assumptions"
+      ],
+      "comparisonUse": "Primary decision-guidance row."
+    },
+    "AvoidIf": {
+      "question": "Which significant requirements or expectations materially conflict with this boat model?",
+      "audience": [
+        "Buyer"
+      ],
+      "nature": "Advisory",
+      "type": "array",
+      "format": "One to four direct incompatibility statements beginning with a concrete requirement or expectation.",
+      "evidenceRequirement": "Must be grounded in a known specification, design characteristic, access limitation, performance boundary or maintenance burden.",
+      "unknownBehavior": "Use an empty array. Display 'No model-specific incompatibilities documented.' This does not mean none exist.",
+      "mustNotContain": [
+        "Vague cautions",
+        "Unknown treated as incompatible",
+        "Generic text applicable to every model"
+      ],
+      "comparisonUse": "Primary decision-guidance row."
+    },
+    "KnownConcerns": {
+      "question": "What documented or repeatedly reported problems are associated with this boat model?",
+      "audience": [
+        "Buyer",
+        "Owner",
+        "Seller"
+      ],
+      "nature": "Factual and evidentiary",
+      "type": "array",
+      "format": "Structured concern objects; one affected system and concern per object.",
+      "itemSchema": {
+        "ConcernID": "stable string",
+        "System": "string",
+        "Description": "string",
+        "AffectedYears": "object|null",
+        "AffectedVariations": "array",
+        "BuyerQuestion": "string|null",
+        "InspectionAction": "string|null",
+        "OwnerAction": "string|null",
+        "EvidenceRefs": "array",
+        "Confidence": "High|Moderate|Low|Conflicting|Unknown"
+      },
+      "evidenceRequirement": "A model-specific concern requires factory documentation, a technical or survey source, or repeated independent reports. A single report must be labelled as such.",
+      "unknownBehavior": "Use an empty array. Display 'No documented model-specific concerns yet.' Do not imply the model has no problems.",
+      "mustNotContain": [
+        "Generic age-related risks presented as model defects",
+        "Unverified marketplace claims without labels",
+        "Trade-offs"
+      ],
+      "comparisonUse": "Not reproduced in full; informs Inspection Focus and Boat Guide disclosure."
+    },
+    "InspectionFocus": {
+      "question": "What should a buyer or surveyor inspect especially closely on this boat model?",
+      "audience": [
+        "Buyer"
+      ],
+      "nature": "Advisory derived from evidence",
+      "type": "array",
+      "format": "Three to six concise action-oriented checklist items in the Boat Guide; up to four in comparison.",
+      "evidenceRequirement": "Derived from Known Concerns, documented construction details, meaningful model variations or clearly labelled age-related risks.",
+      "unknownBehavior": "Use an empty array. Display 'No model-specific inspection focus recorded; use an age-appropriate general marine survey.'",
+      "mustNotContain": [
+        "Copied concern paragraphs",
+        "Comma-split prose fragments",
+        "Unsupported failure claims"
+      ],
+      "comparisonUse": "Primary buyer-risk row."
+    },
+    "BuyerQuestions": {
+      "question": "What should a buyer ask the seller before inspection or survey?",
+      "audience": [
+        "Buyer"
+      ],
+      "nature": "Advisory",
+      "type": "array",
+      "format": "Direct questions, each ending with a question mark and addressing one issue.",
+      "evidenceRequirement": "Derived from Known Concerns, Model Variations, missing material specifications or ownership-sensitive systems.",
+      "unknownBehavior": "Use an empty array. Display 'No model-specific buyer questions recorded.'",
+      "mustNotContain": [
+        "Survey instructions",
+        "Owner maintenance commands",
+        "Questions unrelated to this model"
+      ],
+      "comparisonUse": "Boat Guide only unless explicitly expanded."
+    },
+    "OwnerActions": {
+      "question": "What practical monitoring, prevention or maintenance actions are especially relevant to this boat model?",
+      "audience": [
+        "Owner",
+        "Seller"
+      ],
+      "nature": "Advisory",
+      "type": "array",
+      "format": "Action-oriented items describing what to monitor, prevent, document or address.",
+      "evidenceRequirement": "Derived from documented systems, Known Concerns or credible model-specific ownership experience.",
+      "unknownBehavior": "Use an empty array. Display 'No model-specific owner actions recorded.'",
+      "mustNotContain": [
+        "Calendar schedules",
+        "Reminders",
+        "Generic maintenance manuals reproduced as model advice"
+      ],
+      "comparisonUse": "Boat Guide and My Boat; not normally shown in model comparison."
+    },
+    "ModelVariations": {
+      "question": "Which production, layout, hull, engine, flybridge, cabin, builder or location differences materially affect use, maintenance or value?",
+      "audience": [
+        "Buyer",
+        "Owner",
+        "Seller"
+      ],
+      "nature": "Factual",
+      "type": "array",
+      "format": "Structured variation objects describing the affected period or version and its practical significance.",
+      "itemSchema": {
+        "VariationID": "stable string",
+        "Name": "string",
+        "Years": "object|null",
+        "Description": "string",
+        "PracticalEffect": "string",
+        "EvidenceRefs": "array",
+        "Confidence": "High|Moderate|Low|Conflicting|Unknown"
+      },
+      "evidenceRequirement": "Supported by factory documentation, reliable technical references or consistent evidence across examples.",
+      "unknownBehavior": "Use an empty array. Display 'Meaningful model variations not yet documented.'",
+      "mustNotContain": [
+        "Cosmetic differences with no practical effect",
+        "Unverified production assumptions"
+      ],
+      "comparisonUse": "Show only variations relevant to the compared version or a material buying decision."
+    },
+    "EvidenceSummary": {
+      "question": "What evidence supports a specific statement, and how certain is that statement?",
+      "audience": [
+        "Buyer",
+        "Owner",
+        "Editor"
+      ],
+      "nature": "Evidentiary metadata",
+      "type": "object",
+      "format": "Object containing KnowledgeCoverage, EvidenceQuality, Statements and UnresolvedInformation.",
+      "evidenceRequirement": "Confidence must reflect the quality, independence, agreement and specificity of cited evidence.",
+      "unknownBehavior": "Initialize KnowledgeCoverage and EvidenceQuality as Unknown with empty Statements and UnresolvedInformation arrays. Unknown evidence must not create a negative suitability result.",
+      "mustNotContain": [
+        "Whole-model High confidence without scope",
+        "Confidence inferred from field completeness alone",
+        "Recommendation labels"
+      ],
+      "comparisonUse": "Summarize as Research Coverage, Evidence Quality and material Unresolved Information.",
+      "objectSchema": {
+        "KnowledgeCoverage": "Strong|Partial|Limited|Unknown",
+        "EvidenceQuality": "High|Moderate|Low|Conflicting|Unknown",
+        "Statements": "array of scoped evidence items",
+        "UnresolvedInformation": "array of concise strings"
+      },
+      "statementSchema": {
+        "Scope": "field path or statement identifier",
+        "EvidenceRefs": "array",
+        "EvidenceTypes": "array of controlled EvidenceType values",
+        "Confidence": "High|Moderate|Low|Conflicting|Unknown",
+        "Notes": "string|null"
+      }
+    },
+    "EngineCount": {
+      "Question": "How many primary propulsion engines are normally installed?",
+      "Purpose": "Supports model comparison and the Twin Engines search requirement.",
+      "Nature": "Factual",
+      "Type": "integer|null",
+      "AllowedFormat": "1, 2, or another verified positive whole number; null when unknown or materially configuration-dependent.",
+      "EvidenceRequirement": "Factory documentation, technical reference, or model-specific configuration evidence.",
+      "UnknownState": "null. Unknown engine count must not eliminate a model from search.",
+      "Comparison": "May be shown with propulsion details when known."
+    }
+  },
+  "evidencePolicy": {
+    "labels": {
+      "Factory documented": "Published by the builder or in factory literature/manuals.",
+      "Technical or survey source": "Supported by a qualified technical reference, survey, service document or recognized specialist source.",
+      "Multiple independent owner reports": "Repeated by independent owners or communities with no apparent shared source.",
+      "Single owner report": "Reported by one owner and not independently corroborated.",
+      "Marketplace observation": "Observed in listings or asking-market patterns; not proof of factory specification or defect prevalence.",
+      "Unverified": "Claim exists but has not been adequately checked.",
+      "Conflicting information": "Credible sources disagree or model variations have not been resolved.",
+      "Unknown": "No adequate evidence currently available."
+    },
+    "confidenceScope": "Confidence attaches to a fact, statement, concern, variation or defined field—not automatically to the entire boat model.",
+    "highConfidenceRule": "High requires strong, specific and substantially consistent evidence. It must not be assigned solely because a record is complete.",
+    "conflictRule": "Conflicting credible evidence is preserved and displayed; it is not averaged into a false single answer.",
+    "applicationScope": {
+      "purpose": "Identify whether evidence applies to one model, a production period, a configuration, a model family or general age-related guidance.",
+      "allowedScopes": [
+        "Model",
+        "Generation",
+        "Production period",
+        "Configuration",
+        "Model family",
+        "Manufacturer",
+        "General age-related guidance"
+      ]
+    }
   },
   "fieldOwnership": {
     "boatmodels.json": [
@@ -38,9 +450,20 @@
       "HullLength_ft",
       "LWL_ft",
       "Configuration",
-      "DataConfidence",
+      "Overview",
+      "Suitability",
+      "Strengths",
+      "TradeOffs",
+      "BestFor",
+      "AvoidIf",
+      "KnownConcerns",
+      "InspectionFocus",
+      "BuyerQuestions",
+      "OwnerActions",
+      "ModelVariations",
+      "EvidenceSummary",
       "ResearchStatus",
-      "ResearchNotes"
+      "UnresolvedInformation"
     ],
     "data/registry/boat-registry.json": [
       "Aliases",
@@ -50,27 +473,89 @@
       "AuditDisposition",
       "IdentityStatus",
       "RedirectTo"
+    ],
+    "generatedOnly": [
+      "comparison summaries",
+      "knowledge cards",
+      "coverage reports",
+      "search indexes"
     ]
   },
-  "definitions": {
-    "LOA_ft": "Published length overall used for display and dimensional filtering.",
-    "HullLength_ft": "Molded or nominal hull length only when materially distinct from LOA; otherwise omitted.",
-    "LWL_ft": "Length at waterline.",
-    "Configuration": "Physical layout or version, such as Sedan, Flybridge, Aft Cabin, or Classic Trawler.",
-    "DataConfidence": "Confidence in the model-level data. Unknown is explicit and must not cause exclusion.",
-    "ResearchStatus": "Progress of the model research workflow, independent of suitability."
+  "migrationRules": {
+    "currentPhase": "Phase 6 editorial normalization completed. Legacy fields remain temporarily available for traceability and unresolved human review.",
+    "Weaknesses": "Review and migrate to TradeOffs. Do not automatically treat every weakness as a defect.",
+    "TypicalMission": "Review and distribute supported content between Suitability and BestFor.",
+    "CommonProblems": "Review manually. Migrate supported model-specific issues to KnownConcerns and derive InspectionFocus separately.",
+    "DataConfidence": "Retain temporarily for compatibility. Do not use as statement-level evidence or as a recommendation trigger.",
+    "ResearchNotes": "Retain as internal legacy research notes until model-specific claims and unresolved information are migrated.",
+    "listConversion": "Semicolon- or line-delimited lists may be mechanically normalized after audit. Never split narrative prose on commas.",
+    "preservation": "Ambiguous or unsupported legacy text must be preserved for review, not silently discarded or promoted into approved fields.",
+    "Phase5": {
+      "WeaknessesToTradeOffs": "Copy legacy Weaknesses into TradeOffs arrays when TradeOffs is empty; retain Weaknesses temporarily.",
+      "ListSplitting": "Split only on semicolons and line breaks. Never split automatically on commas.",
+      "Whitespace": "Trim leading/trailing whitespace, normalize line endings and repeated horizontal whitespace.",
+      "Unknowns": "Convert only explicit textual unknown markers in nullable text fields to null. Do not reinterpret false, No, or zero.",
+      "Statuses": "Migrate model research stages Favorite/None to Interested, Candidate to Shortlist, Research/Evaluating to Researching. Listing statuses remain separate.",
+      "AmbiguousProse": "Preserve unchanged for human review."
+    },
+    "Phase6": {
+      "Overview": "Neutral overviews generated from recorded identity, production, configuration, propulsion and accommodation facts.",
+      "StructuredIntelligence": "The 34 existing structured boat-intelligence records were migrated into Suitability, Strengths, TradeOffs, BestFor, AvoidIf, InspectionFocus and BuyerQuestions.",
+      "KnownConcerns": "Legacy CommonProblems were not promoted without model-specific support; generic age-related risks remain legacy review material.",
+      "InspectionFocus": "Derived only from structured model intelligence or reviewed manufacturer-family guidance, with scope warnings.",
+      "Evidence": "EvidenceSummary now contains scoped statements and conservative coverage/quality labels.",
+      "Unknowns": "Unsupported BestFor, Suitability, KnownConcerns, OwnerActions and ModelVariations remain empty rather than receiving generic filler.",
+      "Conflicts": "Conflicting dimensions are reported and preserved; no value is selected automatically."
+    },
+    "phase8A": "The 34 preserved structured-intelligence records were normalized into approved fields. Residual non-display research context was archived in ResearchNotes. Supplemental consolidation fields are retired.",
+    "phase8C1": "Grand Banks family records normalized with model/family evidence scope; legacy content retained but not promoted without support.",
+    "phase8C2": "Mainship family records normalized with model/family evidence scope; one supported Mainship 34 foredeck-core concern promoted."
   },
   "retiredFields": {
     "YearStart": "Merged into FirstYear.",
     "YearEnd": "Merged into LastYear.",
     "Length_ft": "Retired in favour of LOA_ft; unique hull-length distinctions retained in HullLength_ft.",
     "BoatSubFamily": "Exact duplicate of Configuration.",
-    "Confidence": "Replaced by controlled DataConfidence.",
+    "Confidence": "Replaced by scoped evidence confidence.",
     "FeatureDataStatus": "Replaced by calculated field completeness.",
     "Aliases": "Moved to boat registry.",
     "LegacyBoatModelIDs": "Moved to boat registry.",
     "IdentityResolution": "Moved to boat registry as Resolution.",
     "IdentityResolutionNotes": "Moved to boat registry as ResolutionNotes.",
-    "AuditDisposition": "Moved to boat registry."
-  }
+    "AuditDisposition": "Moved to boat registry.",
+    "BScoutVerdictInComparison": "Removed because it duplicated BestFor, Strengths and TradeOffs.",
+    "WholeModelKnowledgeConfidence": "Replaced by scoped evidence and knowledge coverage."
+  },
+  "phase3Initialization": {
+    "recordCount": 287,
+    "rules": [
+      "Overview initializes as null.",
+      "Suitability initializes as an empty object until defined use cases are assessed.",
+      "New list fields initialize as empty arrays.",
+      "Existing Strengths and AvoidIf prose is preserved intact as one array item; it is not split or rewritten.",
+      "EvidenceSummary initializes with Unknown coverage and evidence quality, no statements, and no unresolved-information assertions.",
+      "Legacy Weaknesses, CommonProblems, TypicalMission, DataConfidence and ResearchNotes remain unchanged for later migration."
+    ]
+  },
+  "reviewStandards": {
+    "Reviewed": {
+      "description": "A model record may be marked Reviewed only when the minimum evidence and normalization standard is met.",
+      "requirements": [
+        "Verified model identity",
+        "Reasonably verified principal dimensions",
+        "At least one credible model-specific source",
+        "Model-specific neutral Overview",
+        "Normalized Strengths and Trade-offs",
+        "Explicit unresolved information",
+        "No unsupported broad High Confidence claims"
+      ],
+      "doesNotRequire": [
+        "Complete Known Concerns",
+        "Complete Model Variations",
+        "Complete Owner Actions"
+      ]
+    }
+  },
+  "SchemaVersion": 11,
+  "Release": "v6.11-phase8c6-nordic-tug-normalized"
 }

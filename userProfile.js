@@ -8,37 +8,40 @@ function buildUserProfile() {
     const maxLength = maxLengthVal ? Number(maxLengthVal) : null;
 
     const maxBeamVal = document.getElementById("maxBeam")?.value;
-    const maxBeam = maxBeamVal ? Number(maxBeamVal) : null;
+    const maxBeam = maxBeamVal ? Number(String(maxBeamVal).replace(",", ".")) : null;
 
     const routes =
         Array.from(
-            document.querySelectorAll(".routeFilter:checked")
+            document.querySelectorAll("#discoverView .routeFilter:checked")
         )
         .map(x => x.value);
 
     const styles =
         Array.from(
-            document.querySelectorAll(".styleFilter:checked")
+            document.querySelectorAll("#discoverView .styleFilter:checked")
         )
         .map(x => x.value);
 
     const hulls =
         Array.from(
-            document.querySelectorAll(".hullFilter:checked")
+            document.querySelectorAll("#discoverView .hullFilter:checked")
         )
         .map(x => x.value);
 
     const fuels =
         Array.from(
-            document.querySelectorAll(".fuelFilter:checked")
+            document.querySelectorAll("#discoverView .fuelFilter:checked")
         )
         .map(x => x.value);
 
     const propulsion =
         Array.from(
-            document.querySelectorAll(".propulsionFilter:checked")
+            document.querySelectorAll("#discoverView .propulsionFilter:checked")
         )
         .map(x => x.value);
+
+    const engineCounts = Array.from(document.querySelectorAll("#discoverView .engineCountFilter:checked")).map(x => Number(x.value));
+    const twinEngines = false;
 
     const flybridge =
         document.getElementById("flybridgeFilter")?.value || "";
@@ -62,12 +65,14 @@ function buildUserProfile() {
         maxDraft: null,
         maxAirDraft: null,
         styles: styles,
-        boatFamilies: Array.from(document.querySelectorAll(".familyFilter:checked")).map(x => x.value),
-        configurations: Array.from(document.querySelectorAll(".configurationFilter:checked")).map(x => x.value),
-        constructionMaterials: Array.from(document.querySelectorAll(".constructionFilter:checked")).map(x => x.value),
+        boatFamilies: Array.from(document.querySelectorAll("#discoverView .familyFilter:checked")).map(x => x.value),
+        configurations: Array.from(document.querySelectorAll("#discoverView .configurationFilter:checked")).map(x => x.value),
+        constructionMaterials: Array.from(document.querySelectorAll("#discoverView .constructionFilter:checked")).map(x => x.value),
         hullTypes: hulls,
         fuels: fuels,
         propulsion: propulsion,
+        engineCounts: engineCounts,
+        twinEngines: twinEngines,
         flybridge: flybridge,
         sideDecks: sideDecks,
         trailerable: trailer,
@@ -78,7 +83,7 @@ function buildUserProfile() {
         crewComposition: document.getElementById("crewComposition")?.value || "",
         tallestCrewHeight: document.getElementById("tallestCrewHeight")?.value ? Number(document.getElementById("tallestCrewHeight").value) : null,
         guestFrequency: document.getElementById("guestFrequency")?.value || "",
-        featurePriorities: Array.from(document.querySelectorAll(".featurePriority")).reduce((result, node) => {
+        featurePriorities: Array.from(document.querySelectorAll("#discoverView .featurePriority")).reduce((result, node) => {
             if (node.value) result[node.dataset.feature] = node.value;
             return result;
         }, {})

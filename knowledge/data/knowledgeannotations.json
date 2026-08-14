@@ -146,7 +146,7 @@
     "updatedAt": "2026-07-25"
   },
   {
-    "BoatModelID": "BAYL-3270",
+    "BoatModelID": "BAYL-3288-MO",
     "knownIssues": [
       {
         "title": "Moisture intrusion and core condition",
@@ -907,79 +907,6 @@
       {
         "type": "CuratedReference",
         "label": "Ted Brewer design and brokerage specification references",
-        "verificationStatus": "Verified July 2026"
-      }
-    ],
-    "confidence": "Medium",
-    "updatedAt": "2026-07-25"
-  },
-  {
-    "BoatModelID": "NDTG-26-PH",
-    "knownIssues": [
-      {
-        "title": "Generation-specific engine and tankage differences",
-        "sourceLabel": "B-Scout survey focus",
-        "resourceType": "Inspection priority",
-        "verificationStatus": "Model-level caution; inspect actual vessel"
-      },
-      {
-        "title": "Pilothouse window and deck sealing",
-        "sourceLabel": "B-Scout survey focus",
-        "resourceType": "Inspection priority",
-        "verificationStatus": "Model-level caution; inspect actual vessel"
-      },
-      {
-        "title": "Running gear and keel condition",
-        "sourceLabel": "B-Scout survey focus",
-        "resourceType": "Inspection priority",
-        "verificationStatus": "Model-level caution; inspect actual vessel"
-      },
-      {
-        "title": "Trailer and towing assumptions",
-        "sourceLabel": "B-Scout survey focus",
-        "resourceType": "Inspection priority",
-        "verificationStatus": "Model-level caution; inspect actual vessel"
-      }
-    ],
-    "similarModels": [
-      {
-        "title": "Camano Gnome 28/31",
-        "sourceLabel": "B-Scout comparison set",
-        "resourceType": "Comparable model",
-        "verificationStatus": "Curated"
-      },
-      {
-        "title": "Ranger Tug R-27 diesel",
-        "sourceLabel": "B-Scout comparison set",
-        "resourceType": "Comparable model",
-        "verificationStatus": "Curated"
-      },
-      {
-        "title": "Rosborough RF-246",
-        "sourceLabel": "B-Scout comparison set",
-        "resourceType": "Comparable model",
-        "verificationStatus": "Curated"
-      }
-    ],
-    "missingInformation": [
-      {
-        "field": "Generation",
-        "reason": "Early and reintroduced boats differ materially."
-      },
-      {
-        "field": "Trailerability",
-        "reason": "Legal towing requirements vary and loaded weight must be measured."
-      }
-    ],
-    "sources": [
-      {
-        "type": "CuratedReference",
-        "label": "Nordic Tug 26 official/dealer specifications",
-        "verificationStatus": "Verified July 2026"
-      },
-      {
-        "type": "CuratedReference",
-        "label": "YachtWorld Nordic Tug 26 review",
         "verificationStatus": "Verified July 2026"
       }
     ],
@@ -2085,73 +2012,5 @@
     ],
     "confidence": "Low",
     "updatedAt": "2026-07-23"
-  },
-  {
-    "BoatModelID": "WILL-30-VE",
-    "knownIssues": [
-      {
-        "title": "Fuel tank corrosion or contamination",
-        "sourceLabel": "B-Scout survey focus",
-        "resourceType": "Inspection priority",
-        "verificationStatus": "Model-level caution; inspect actual vessel"
-      },
-      {
-        "title": "Deck and cabin moisture",
-        "sourceLabel": "B-Scout survey focus",
-        "resourceType": "Inspection priority",
-        "verificationStatus": "Model-level caution; inspect actual vessel"
-      },
-      {
-        "title": "Exhaust and cooling condition",
-        "sourceLabel": "B-Scout survey focus",
-        "resourceType": "Inspection priority",
-        "verificationStatus": "Model-level caution; inspect actual vessel"
-      },
-      {
-        "title": "Steering and running gear",
-        "sourceLabel": "B-Scout survey focus",
-        "resourceType": "Inspection priority",
-        "verificationStatus": "Model-level caution; inspect actual vessel"
-      }
-    ],
-    "similarModels": [
-      {
-        "title": "Nordic Tug 26",
-        "sourceLabel": "B-Scout comparison set",
-        "resourceType": "Comparable model",
-        "verificationStatus": "Curated"
-      },
-      {
-        "title": "Grand Banks 32 Classic",
-        "sourceLabel": "B-Scout comparison set",
-        "resourceType": "Comparable model",
-        "verificationStatus": "Curated"
-      },
-      {
-        "title": "Nimble Wanderer 32",
-        "sourceLabel": "B-Scout comparison set",
-        "resourceType": "Comparable model",
-        "verificationStatus": "Curated"
-      }
-    ],
-    "missingInformation": [
-      {
-        "field": "Variant identification",
-        "reason": "Vega, Vega Horizon and related deck arrangements must not be merged."
-      },
-      {
-        "field": "Tankage",
-        "reason": "Owner modifications and replacement tanks are common."
-      }
-    ],
-    "sources": [
-      {
-        "type": "CuratedReference",
-        "label": "Willard Boats owner manual archive",
-        "verificationStatus": "Verified July 2026"
-      }
-    ],
-    "confidence": "Medium",
-    "updatedAt": "2026-07-25"
   }
 ]

@@ -130,24 +130,6 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "ALBN-32-SF",
-      "role": "representative",
-      "status": "available",
-      "path": "images/albn-32-sf.jpg",
-      "requestedPath": "images/albn-32-sf.jpg",
-      "filename": "albn-32-sf.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
       "boatModelId": "ALBN-36-CL",
       "role": "representative",
       "status": "available",
@@ -262,168 +244,6 @@
       "path": "images/atlb-37-tr.jpg",
       "requestedPath": "images/atlb-37-tr.jpg",
       "filename": "atlb-37-tr.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "BKCV-26",
-      "role": "representative",
-      "status": "available",
-      "path": "images/bkcv-26.jpg",
-      "requestedPath": "images/bkcv-26.jpg",
-      "filename": "bkcv-26.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "BKCV-29",
-      "role": "representative",
-      "status": "available",
-      "path": "images/bkcv-29.jpg",
-      "requestedPath": "images/bkcv-29.jpg",
-      "filename": "bkcv-29.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "BKCV-30",
-      "role": "representative",
-      "status": "available",
-      "path": "images/bkcv-30.jpg",
-      "requestedPath": "images/bkcv-30.jpg",
-      "filename": "bkcv-30.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "BKCV-32",
-      "role": "representative",
-      "status": "available",
-      "path": "images/bkcv-32.jpg",
-      "requestedPath": "images/bkcv-32.jpg",
-      "filename": "bkcv-32.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "BKCV-33",
-      "role": "representative",
-      "status": "available",
-      "path": "images/bkcv-33.jpg",
-      "requestedPath": "images/bkcv-33.jpg",
-      "filename": "bkcv-33.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "BKCV-34",
-      "role": "representative",
-      "status": "available",
-      "path": "images/bkcv-34.jpg",
-      "requestedPath": "images/bkcv-34.jpg",
-      "filename": "bkcv-34.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "BKCV-37",
-      "role": "representative",
-      "status": "available",
-      "path": "images/bkcv-37.jpg",
-      "requestedPath": "images/bkcv-37.jpg",
-      "filename": "bkcv-37.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "BKCV-39O",
-      "role": "representative",
-      "status": "available",
-      "path": "images/bkcv-39o.jpg",
-      "requestedPath": "images/bkcv-39o.jpg",
-      "filename": "bkcv-39o.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "BKCV-41",
-      "role": "representative",
-      "status": "available",
-      "path": "images/bkcv-41.jpg",
-      "requestedPath": "images/bkcv-41.jpg",
-      "filename": "bkcv-41.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -562,7 +382,7 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "BAYL-3270",
+      "boatModelId": "BAYL-3288-MO",
       "role": "representative",
       "status": "available",
       "path": "images/bayl-3270.jpg",
@@ -922,6 +742,168 @@
       "publicUseEligible": false
     },
     {
+      "boatModelId": "BKCV-26",
+      "role": "representative",
+      "status": "available",
+      "path": "images/bkcv-26.jpg",
+      "requestedPath": "images/bkcv-26.jpg",
+      "filename": "bkcv-26.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "BKCV-29",
+      "role": "representative",
+      "status": "available",
+      "path": "images/bkcv-29.jpg",
+      "requestedPath": "images/bkcv-29.jpg",
+      "filename": "bkcv-29.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "BKCV-30",
+      "role": "representative",
+      "status": "available",
+      "path": "images/bkcv-30.jpg",
+      "requestedPath": "images/bkcv-30.jpg",
+      "filename": "bkcv-30.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "BKCV-32",
+      "role": "representative",
+      "status": "available",
+      "path": "images/bkcv-32.jpg",
+      "requestedPath": "images/bkcv-32.jpg",
+      "filename": "bkcv-32.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "BKCV-33",
+      "role": "representative",
+      "status": "available",
+      "path": "images/bkcv-33.jpg",
+      "requestedPath": "images/bkcv-33.jpg",
+      "filename": "bkcv-33.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "BKCV-34",
+      "role": "representative",
+      "status": "available",
+      "path": "images/bkcv-34.jpg",
+      "requestedPath": "images/bkcv-34.jpg",
+      "filename": "bkcv-34.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "BKCV-37",
+      "role": "representative",
+      "status": "available",
+      "path": "images/bkcv-37.jpg",
+      "requestedPath": "images/bkcv-37.jpg",
+      "filename": "bkcv-37.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "BKCV-39O",
+      "role": "representative",
+      "status": "available",
+      "path": "images/bkcv-39o.jpg",
+      "requestedPath": "images/bkcv-39o.jpg",
+      "filename": "bkcv-39o.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "BKCV-41",
+      "role": "representative",
+      "status": "available",
+      "path": "images/bkcv-41.jpg",
+      "requestedPath": "images/bkcv-41.jpg",
+      "filename": "bkcv-41.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
       "boatModelId": "CALF-34-TR",
       "role": "representative",
       "status": "available",
@@ -1012,100 +994,10 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "CPDR-28-FB",
-      "role": "representative",
-      "status": "available",
-      "path": "images/cpdr-28-fb.jpg",
-      "requestedPath": "images/cpdr-28-fb.jpg",
-      "filename": "cpdr-28-fb.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "CPDR-28-OF",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/cpdr-28-of.jpg",
-      "filename": "cpdr-28-of.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "CPDR-28-PH",
-      "role": "representative",
-      "status": "available",
-      "path": "images/cpdr-28-ph.jpg",
-      "requestedPath": "images/cpdr-28-ph.jpg",
-      "filename": "cpdr-28-ph.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "CPDR-30-FB",
-      "role": "representative",
-      "status": "available",
-      "path": "images/cpdr-30-fb.jpg",
-      "requestedPath": "images/cpdr-30-fb.jpg",
-      "filename": "cpdr-30-fb.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "CPDR-33-FB",
-      "role": "representative",
-      "status": "available",
-      "path": "images/cpdr-33-fb.jpg",
-      "requestedPath": "images/cpdr-33-fb.jpg",
-      "filename": "cpdr-33-fb.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
       "boatModelId": "CARV-28-V",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/carv-28-v.jpg",
       "requestedPath": "images/carv-28-v.jpg",
       "filename": "carv-28-v.jpg",
       "provenance": {
@@ -1122,8 +1014,8 @@
     {
       "boatModelId": "CARV-32-AC",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/carv-32-ac.jpg",
       "requestedPath": "images/carv-32-ac.jpg",
       "filename": "carv-32-ac.jpg",
       "provenance": {
@@ -1138,10 +1030,10 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "CARV-33-AC",
+      "boatModelId": "CARV-350-AF",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/carv-33-ac.jpg",
       "requestedPath": "images/carv-33-ac.jpg",
       "filename": "carv-33-ac.jpg",
       "provenance": {
@@ -1158,8 +1050,8 @@
     {
       "boatModelId": "CARV-33-MAR",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/carv-33-mar.jpg",
       "requestedPath": "images/carv-33-mar.jpg",
       "filename": "carv-33-mar.jpg",
       "provenance": {
@@ -1192,10 +1084,10 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "CARV-355-AC",
+      "boatModelId": "CARV-356-AF",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/carv-355-ac.jpg",
       "requestedPath": "images/carv-355-ac.jpg",
       "filename": "carv-355-ac.jpg",
       "provenance": {
@@ -1230,8 +1122,8 @@
     {
       "boatModelId": "CARV-36-AC",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/carv-36-ac.jpg",
       "requestedPath": "images/carv-36-ac.jpg",
       "filename": "carv-36-ac.jpg",
       "provenance": {
@@ -1248,8 +1140,8 @@
     {
       "boatModelId": "CARV-36-MAR",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/carv-36-mar.jpg",
       "requestedPath": "images/carv-36-mar.jpg",
       "filename": "carv-36-mar.jpg",
       "provenance": {
@@ -1266,8 +1158,8 @@
     {
       "boatModelId": "CARV-40-AC",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/carv-40-ac.jpg",
       "requestedPath": "images/carv-40-ac.jpg",
       "filename": "carv-40-ac.jpg",
       "provenance": {
@@ -1284,100 +1176,10 @@
     {
       "boatModelId": "CARV-42-AC",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/carv-42-ac.jpg",
       "requestedPath": "images/carv-42-ac.jpg",
       "filename": "carv-42-ac.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "CDRY-26-PA",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/cdry-26-pa.jpg",
-      "filename": "cdry-26-pa.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "CDRY-26-V",
-      "role": "representative",
-      "status": "available",
-      "path": "images/cdry-26-v.jpg",
-      "requestedPath": "images/cdry-26-v.jpg",
-      "filename": "cdry-26-v.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "CDRY-30-TC",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/cdry-30-tc.jpg",
-      "filename": "cdry-30-tc.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "CPDR-36-TR",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/cpdr-36-tr.jpg",
-      "filename": "cpdr-36-tr.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "CPDR-40-TR",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/cpdr-40-tr.jpg",
-      "filename": "cpdr-40-tr.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -1426,6 +1228,96 @@
       "publicUseEligible": false
     },
     {
+      "boatModelId": "CDRY-25-TC",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/cdry-25-tc.jpg",
+      "filename": "cdry-25-tc.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "CDRY-26-PA",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/cdry-26-pa.jpg",
+      "filename": "cdry-26-pa.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "CDRY-26-V",
+      "role": "representative",
+      "status": "available",
+      "path": "images/cdry-26-v.jpg",
+      "requestedPath": "images/cdry-26-v.jpg",
+      "filename": "cdry-26-v.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "CHBB-34-SE",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/chbb-34-se.jpg",
+      "filename": "chbb-34-se.jpg",
+      "provenance": {
+        "status": "placeholder",
+        "sourceType": "Internal",
+        "sourceName": "B-Scout placeholder",
+        "sourceURL": "",
+        "creatorOrOwner": "B-Scout",
+        "permissionBasis": "Internal asset",
+        "dateAcquired": "2026-07-27"
+      },
+      "publicUseEligible": true
+    },
+    {
+      "boatModelId": "CHBB-34-TC",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/chbb-34-tc.jpg",
+      "filename": "chbb-34-tc.jpg",
+      "provenance": {
+        "status": "placeholder",
+        "sourceType": "Internal",
+        "sourceName": "B-Scout placeholder",
+        "sourceURL": "",
+        "creatorOrOwner": "B-Scout",
+        "permissionBasis": "Internal asset",
+        "dateAcquired": "2026-07-27"
+      },
+      "publicUseEligible": true
+    },
+    {
       "boatModelId": "CHBY-34-SE",
       "role": "representative",
       "status": "available",
@@ -1446,8 +1338,8 @@
     {
       "boatModelId": "CHBY-35",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/chby-35.jpg",
       "requestedPath": "images/chby-35.jpg",
       "filename": "chby-35.jpg",
       "provenance": {
@@ -1498,28 +1390,28 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "CHLY-33",
+      "boatModelId": "CHLY-32",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/chly-33.jpg",
-      "filename": "chly-33.jpg",
+      "status": "available",
+      "path": "images/chly-32.jpg",
+      "requestedPath": "images/chly-32.jpg",
+      "filename": "chly-32.jpg",
       "provenance": {
         "status": "unknown",
-        "sourceType": "Unknown",
+        "sourceType": "User supplied",
         "sourceName": "",
         "sourceURL": "",
         "creatorOrOwner": "",
         "permissionBasis": "",
-        "dateAcquired": ""
+        "dateAcquired": "2026-08-07"
       },
       "publicUseEligible": false
     },
     {
       "boatModelId": "CHLY-35",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/chly-35.jpg",
       "requestedPath": "images/chly-35.jpg",
       "filename": "chly-35.jpg",
       "provenance": {
@@ -1534,12 +1426,12 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "CHLY-36-SE",
+      "boatModelId": "CHLY-36-TR",
       "role": "representative",
       "status": "available",
-      "path": "images/chly-36-se.jpg",
-      "requestedPath": "images/chly-36-se.jpg",
-      "filename": "chly-36-se.jpg",
+      "path": "images/chly-36-tr.jpg",
+      "requestedPath": "images/chly-36-tr.jpg",
+      "filename": "chly-36-tr.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -1552,12 +1444,120 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "CORB-39-PH",
+      "boatModelId": "CPDR-28-CR",
+      "role": "representative",
+      "status": "available",
+      "path": "images/cpdr-28-cr.jpg",
+      "requestedPath": "images/cpdr-28-cr.jpg",
+      "filename": "cpdr-28-cr.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "CPDR-28-FB",
+      "role": "representative",
+      "status": "available",
+      "path": "images/cpdr-28-fb.jpg",
+      "requestedPath": "images/cpdr-28-fb.jpg",
+      "filename": "cpdr-28-fb.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "CPDR-28-OF",
+      "role": "representative",
+      "status": "available",
+      "path": "images/cpdr-28-of.jpg",
+      "requestedPath": "images/cpdr-28-of.jpg",
+      "filename": "cpdr-28-of.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "CPDR-30-FB",
+      "role": "representative",
+      "status": "available",
+      "path": "images/cpdr-30-fb.jpg",
+      "requestedPath": "images/cpdr-30-fb.jpg",
+      "filename": "cpdr-30-fb.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "CPDR-33-FB",
+      "role": "representative",
+      "status": "available",
+      "path": "images/cpdr-33-fb.jpg",
+      "requestedPath": "images/cpdr-33-fb.jpg",
+      "filename": "cpdr-33-fb.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "CPDR-36-TR",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/corb-39-ph.jpg",
-      "filename": "corb-39-ph.jpg",
+      "requestedPath": "images/cpdr-36-tr.jpg",
+      "filename": "cpdr-36-tr.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "CPDR-40-TR",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/cpdr-40-tr.jpg",
+      "filename": "cpdr-40-tr.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -1756,24 +1756,6 @@
       "path": "images/cutw-26.jpg",
       "requestedPath": "images/cutw-26.jpg",
       "filename": "cutw-26.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "CUTW-26-C",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/cutw-26-c.jpg",
-      "filename": "cutw-26-c.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -2110,24 +2092,6 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "EAGL-32-TR",
-      "role": "representative",
-      "status": "available",
-      "path": "images/eagl-32-tr.jpg",
-      "requestedPath": "images/eagl-32-tr.jpg",
-      "filename": "eagl-32-tr.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
       "boatModelId": "ENDE-36-TR",
       "role": "representative",
       "status": "available",
@@ -2152,60 +2116,6 @@
       "path": "images/ende-44.jpg",
       "requestedPath": "images/ende-44.jpg",
       "filename": "ende-44.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "FISH-30-PI",
-      "role": "representative",
-      "status": "available",
-      "path": "images/fish-30-pi.jpg",
-      "requestedPath": "images/fish-30-pi.jpg",
-      "filename": "fish-30-pi.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "FISH-34-MS",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/fish-34-ms.jpg",
-      "filename": "fish-34-ms.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "FISH-37-MS",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/fish-37-ms.jpg",
-      "filename": "fish-37-ms.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -2290,24 +2200,6 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "FORT-33-DE",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/fort-33-de.jpg",
-      "filename": "fort-33-de.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
       "boatModelId": "FORT-26",
       "role": "representative",
       "status": "missing",
@@ -2332,6 +2224,24 @@
       "path": "images/boat-placeholder.svg",
       "requestedPath": "images/fort-33.jpg",
       "filename": "fort-33.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "GOZZ-40-PI",
+      "role": "representative",
+      "status": "available",
+      "path": "images/gozz-40-pi.jpg",
+      "requestedPath": "images/gozz-40-pi.jpg",
+      "filename": "gozz-40-pi.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -2452,96 +2362,6 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "GEMI-105-MC",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/gemi-105-mc.jpg",
-      "filename": "gemi-105-mc.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "GEMI-L35-EG",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/gemi-l35-eg.jpg",
-      "filename": "gemi-l35-eg.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "GOZZ-40-PI",
-      "role": "representative",
-      "status": "available",
-      "path": "images/gozz-40-pi.jpg",
-      "requestedPath": "images/gozz-40-pi.jpg",
-      "filename": "gozz-40-pi.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "GRTH-GH37",
-      "role": "representative",
-      "status": "available",
-      "path": "images/grth-gh37.jpg",
-      "requestedPath": "images/grth-gh37.jpg",
-      "filename": "grth-gh37.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "GRTH-N37",
-      "role": "representative",
-      "status": "available",
-      "path": "images/grth-n37.jpg",
-      "requestedPath": "images/grth-n37.jpg",
-      "filename": "grth-n37.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
       "boatModelId": "GRNL-33",
       "role": "representative",
       "status": "available",
@@ -2596,12 +2416,48 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "GULF-39-SM",
+      "boatModelId": "GRTH-GH37",
+      "role": "representative",
+      "status": "available",
+      "path": "images/grth-gh37.jpg",
+      "requestedPath": "images/grth-gh37.jpg",
+      "filename": "grth-gh37.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "GRTH-N37",
+      "role": "representative",
+      "status": "available",
+      "path": "images/grth-n37.jpg",
+      "requestedPath": "images/grth-n37.jpg",
+      "filename": "grth-n37.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "GULF-36-TR",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/gulf-39-sm.jpg",
-      "filename": "gulf-39-sm.jpg",
+      "requestedPath": "images/gulf-36-tr.jpg",
+      "filename": "gulf-36-tr.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -2656,24 +2512,6 @@
       "path": "images/boat-placeholder.svg",
       "requestedPath": "images/gulf-49-mc.jpg",
       "filename": "gulf-49-mc.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "GULF-36-TR",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/gulf-36-tr.jpg",
-      "filename": "gulf-36-tr.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -2812,58 +2650,58 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "ISGY-36EURO",
+      "boatModelId": "ISGY-32-EU",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/isgy-36euro.jpg",
-      "filename": "isgy-36euro.jpg",
+      "requestedPath": "images/isgy-32-eu.jpg",
+      "filename": "isgy-32-eu.jpg",
       "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
+        "status": "placeholder",
+        "sourceType": "Internal",
+        "sourceName": "B-Scout placeholder",
         "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
+        "creatorOrOwner": "B-Scout",
+        "permissionBasis": "Internal asset",
+        "dateAcquired": "2026-07-27"
       },
-      "publicUseEligible": false
+      "publicUseEligible": true
     },
     {
-      "boatModelId": "ISPK-SP",
-      "role": "representative",
-      "status": "available",
-      "path": "images/ispk-sp.jpg",
-      "requestedPath": "images/ispk-sp.jpg",
-      "filename": "ispk-sp.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "ISGY-32",
+      "boatModelId": "ISGY-32-FI",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/isgy-32.jpg",
-      "filename": "isgy-32.jpg",
+      "requestedPath": "images/isgy-32-fi.jpg",
+      "filename": "isgy-32-fi.jpg",
       "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
+        "status": "placeholder",
+        "sourceType": "Internal",
+        "sourceName": "B-Scout placeholder",
         "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
+        "creatorOrOwner": "B-Scout",
+        "permissionBasis": "Internal asset",
+        "dateAcquired": "2026-07-27"
       },
-      "publicUseEligible": false
+      "publicUseEligible": true
+    },
+    {
+      "boatModelId": "ISGY-32-SE",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/isgy-32-se.jpg",
+      "filename": "isgy-32-se.jpg",
+      "provenance": {
+        "status": "placeholder",
+        "sourceType": "Internal",
+        "sourceName": "B-Scout placeholder",
+        "sourceURL": "",
+        "creatorOrOwner": "B-Scout",
+        "permissionBasis": "Internal asset",
+        "dateAcquired": "2026-07-27"
+      },
+      "publicUseEligible": true
     },
     {
       "boatModelId": "ISGY-36",
@@ -2872,6 +2710,24 @@
       "path": "images/boat-placeholder.svg",
       "requestedPath": "images/isgy-36.jpg",
       "filename": "isgy-36.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "ISGY-36EURO",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/isgy-36euro.jpg",
+      "filename": "isgy-36euro.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -2908,24 +2764,6 @@
       "path": "images/boat-placeholder.svg",
       "requestedPath": "images/isgy-44.jpg",
       "filename": "isgy-44.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "ISGY-50",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/isgy-50.jpg",
-      "filename": "isgy-50.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -3172,12 +3010,102 @@
       "publicUseEligible": false
     },
     {
+      "boatModelId": "KDKR-42",
+      "role": "representative",
+      "status": "available",
+      "path": "images/kdkr-42.jpg",
+      "requestedPath": "images/kdkr-42.jpg",
+      "filename": "kdkr-42.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "KDKR-44",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/kdkr-44.jpg",
+      "filename": "kdkr-44.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "KDKR-48-NS",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/kdkr-48-ns.jpg",
+      "filename": "kdkr-48-ns.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
       "boatModelId": "LUHR-30",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
       "requestedPath": "images/luhr-30.jpg",
       "filename": "luhr-30.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "MERI-341-SE",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/meri-341-se.jpg",
+      "filename": "meri-341-se.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "MERI-381-SE",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/meri-381-se.jpg",
+      "filename": "meri-381-se.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -3298,30 +3226,12 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "MARN-28-SF",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/marn-28-sf.jpg",
-      "filename": "marn-28-sf.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "MRTR-34-DO",
+      "boatModelId": "MONK-36-TR",
       "role": "representative",
       "status": "available",
-      "path": "images/mrtr-34-do.jpg",
-      "requestedPath": "images/mrtr-34-do.jpg",
-      "filename": "mrtr-34-do.jpg",
+      "path": "images/monk-36-tr.jpg",
+      "requestedPath": "images/monk-36-tr.jpg",
+      "filename": "monk-36-tr.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -3340,60 +3250,6 @@
       "path": "images/mrtr-36-do.jpg",
       "requestedPath": "images/mrtr-36-do.jpg",
       "filename": "mrtr-36-do.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "MERI-341-SE",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/meri-341-se.jpg",
-      "filename": "meri-341-se.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "MERI-381-SE",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/meri-381-se.jpg",
-      "filename": "meri-381-se.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "MONK-36-TR",
-      "role": "representative",
-      "status": "available",
-      "path": "images/monk-36-tr.jpg",
-      "requestedPath": "images/monk-36-tr.jpg",
-      "filename": "monk-36-tr.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -3478,58 +3334,40 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "NAUT-33",
+      "boatModelId": "MTRA-34-EU",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/naut-33.jpg",
-      "filename": "naut-33.jpg",
+      "requestedPath": "images/mtra-34-eu.jpg",
+      "filename": "mtra-34-eu.jpg",
       "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
+        "status": "placeholder",
+        "sourceType": "Internal",
+        "sourceName": "B-Scout placeholder",
         "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
+        "creatorOrOwner": "B-Scout",
+        "permissionBasis": "Internal asset",
+        "dateAcquired": "2026-07-27"
       },
-      "publicUseEligible": false
+      "publicUseEligible": true
     },
     {
-      "boatModelId": "NAUT-38",
+      "boatModelId": "MTRA-34-SE",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/naut-38.jpg",
-      "filename": "naut-38.jpg",
+      "requestedPath": "images/mtra-34-se.jpg",
+      "filename": "mtra-34-se.jpg",
       "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
+        "status": "placeholder",
+        "sourceType": "Internal",
+        "sourceName": "B-Scout placeholder",
         "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
+        "creatorOrOwner": "B-Scout",
+        "permissionBasis": "Internal asset",
+        "dateAcquired": "2026-07-27"
       },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "NAUT-40",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/naut-40.jpg",
-      "filename": "naut-40.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
+      "publicUseEligible": true
     },
     {
       "boatModelId": "NDST-31P",
@@ -3538,96 +3376,6 @@
       "path": "images/boat-placeholder.svg",
       "requestedPath": "images/ndst-31p.jpg",
       "filename": "ndst-31p.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "NMBL-24-NO",
-      "role": "representative",
-      "status": "available",
-      "path": "images/nmbl-24-no.jpg",
-      "requestedPath": "images/nmbl-24-no.jpg",
-      "filename": "nmbl-24-no.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "NMBL-30-KO",
-      "role": "representative",
-      "status": "available",
-      "path": "images/nmbl-30-ko.jpg",
-      "requestedPath": "images/nmbl-30-ko.jpg",
-      "filename": "nmbl-30-ko.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "NMBS-3003",
-      "role": "representative",
-      "status": "available",
-      "path": "images/nmbs-3003.jpg",
-      "requestedPath": "images/nmbs-3003.jpg",
-      "filename": "nmbs-3003.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "NMBL-32-WA",
-      "role": "representative",
-      "status": "available",
-      "path": "images/nmbl-32-wa.jpg",
-      "requestedPath": "images/nmbl-32-wa.jpg",
-      "filename": "nmbl-32-wa.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "NMBS-365-CO",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/nmbs-365-co.jpg",
-      "filename": "nmbs-365-co.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -3658,24 +3406,6 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "NDTG-26-PH",
-      "role": "representative",
-      "status": "available",
-      "path": "images/ndtg-26-ph.jpg",
-      "requestedPath": "images/ndtg-26-ph.jpg",
-      "filename": "ndtg-26-ph.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
       "boatModelId": "NDTG-32",
       "role": "representative",
       "status": "available",
@@ -3694,120 +3424,138 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "NDTG-32-PH",
-      "role": "representative",
-      "status": "available",
-      "path": "images/ndtg-32-ph.jpg",
-      "requestedPath": "images/ndtg-32-ph.jpg",
-      "filename": "ndtg-32-ph.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
       "boatModelId": "NDTG-34",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/ndtg-34.jpg",
       "requestedPath": "images/ndtg-34.jpg",
       "filename": "ndtg-34.jpg",
       "provenance": {
         "status": "unknown",
-        "sourceType": "Unknown",
+        "sourceType": "User supplied",
         "sourceName": "",
         "sourceURL": "",
         "creatorOrOwner": "",
         "permissionBasis": "",
-        "dateAcquired": ""
+        "dateAcquired": "2026-08-07"
       },
       "publicUseEligible": false
     },
     {
       "boatModelId": "NDTG-37",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/ndtg-37.jpg",
       "requestedPath": "images/ndtg-37.jpg",
       "filename": "ndtg-37.jpg",
       "provenance": {
         "status": "unknown",
-        "sourceType": "Unknown",
+        "sourceType": "User supplied",
         "sourceName": "",
         "sourceURL": "",
         "creatorOrOwner": "",
         "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "NDTG-37-PH",
-      "role": "representative",
-      "status": "available",
-      "path": "images/ndtg-37-ph.jpg",
-      "requestedPath": "images/ndtg-37-ph.jpg",
-      "filename": "ndtg-37-ph.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
+        "dateAcquired": "2026-08-07"
       },
       "publicUseEligible": false
     },
     {
       "boatModelId": "NDTG-39",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/ndtg-39.jpg",
       "requestedPath": "images/ndtg-39.jpg",
       "filename": "ndtg-39.jpg",
       "provenance": {
         "status": "unknown",
-        "sourceType": "Unknown",
+        "sourceType": "User supplied",
         "sourceName": "",
         "sourceURL": "",
         "creatorOrOwner": "",
         "permissionBasis": "",
-        "dateAcquired": ""
+        "dateAcquired": "2026-08-07"
       },
       "publicUseEligible": false
     },
     {
-      "boatModelId": "NRDH-40",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/nrdh-40.jpg",
-      "filename": "nrdh-40.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "NDTG-42-PH",
+      "boatModelId": "NDTG-42",
       "role": "representative",
       "status": "available",
       "path": "images/ndtg-42-ph.jpg",
       "requestedPath": "images/ndtg-42-ph.jpg",
       "filename": "ndtg-42-ph.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "NMBL-24-NO",
+      "role": "representative",
+      "status": "available",
+      "path": "images/nmbl-24-no.jpg",
+      "requestedPath": "images/nmbl-24-no.jpg",
+      "filename": "nmbl-24-no.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "NMBL-32-WA",
+      "role": "representative",
+      "status": "available",
+      "path": "images/nmbl-32-wa.jpg",
+      "requestedPath": "images/nmbl-32-wa.jpg",
+      "filename": "nmbl-32-wa.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "NMBS-3003",
+      "role": "representative",
+      "status": "available",
+      "path": "images/nmbs-3003.jpg",
+      "requestedPath": "images/nmbs-3003.jpg",
+      "filename": "nmbs-3003.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "NMBS-365-CO",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/nmbs-365-co.jpg",
+      "filename": "nmbs-365-co.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -3840,10 +3588,28 @@
     {
       "boatModelId": "NPAC-38",
       "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
+      "status": "available",
+      "path": "images/npac-38.jpg",
       "requestedPath": "images/npac-38.jpg",
       "filename": "npac-38.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "User supplied",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": "2026-08-07"
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "NRDH-40",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/nrdh-40.jpg",
+      "filename": "nrdh-40.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -3856,7 +3622,7 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "OCAL-36-SE",
+      "boatModelId": "OCEA-36-SE",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
@@ -3898,24 +3664,6 @@
       "path": "images/boat-placeholder.svg",
       "requestedPath": "images/pdqb-34-pa.jpg",
       "filename": "pdqb-34-pa.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "PDQB-36-SC",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/pdqb-36-sc.jpg",
-      "filename": "pdqb-36-sc.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -4360,12 +4108,12 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "SEAR-340-SU",
+      "boatModelId": "SEAH-35-PH",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/sear-340-su.jpg",
-      "filename": "sear-340-su.jpg",
+      "requestedPath": "images/seah-35-ph.jpg",
+      "filename": "seah-35-ph.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -4376,6 +4124,42 @@
         "dateAcquired": ""
       },
       "publicUseEligible": false
+    },
+    {
+      "boatModelId": "SEAH-38-CO",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/seah-40-ph.jpg",
+      "filename": "seah-40-ph.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "SEAL-34-TC",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/seal-34-tc.jpg",
+      "filename": "seal-34-tc.jpg",
+      "provenance": {
+        "status": "placeholder",
+        "sourceType": "Internal",
+        "sourceName": "B-Scout placeholder",
+        "sourceURL": "",
+        "creatorOrOwner": "B-Scout",
+        "permissionBasis": "Internal asset",
+        "dateAcquired": "2026-07-27"
+      },
+      "publicUseEligible": true
     },
     {
       "boatModelId": "SEAP-35",
@@ -4396,48 +4180,30 @@
       "publicUseEligible": false
     },
     {
+      "boatModelId": "SEAR-340-SU",
+      "role": "representative",
+      "status": "missing",
+      "path": "images/boat-placeholder.svg",
+      "requestedPath": "images/sear-340-su.jpg",
+      "filename": "sear-340-su.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
       "boatModelId": "SEAR-390-MO",
       "role": "representative",
       "status": "available",
       "path": "images/sear-390-mo.jpg",
       "requestedPath": "images/sear-390-mo.jpg",
       "filename": "sear-390-mo.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "SEAH-35-PH",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/seah-35-ph.jpg",
-      "filename": "seah-35-ph.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "SEAH-40-PH",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/seah-40-ph.jpg",
-      "filename": "seah-40-ph.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -4486,7 +4252,7 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "SHAN-26-SR",
+      "boatModelId": "SHAN-38-SRD",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
@@ -4612,24 +4378,6 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "SPEN-1330",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/spen-1330.jpg",
-      "filename": "spen-1330.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
       "boatModelId": "SSPT-24",
       "role": "representative",
       "status": "missing",
@@ -4684,24 +4432,6 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "SWND-1160",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/swnd-1160.jpg",
-      "filename": "swnd-1160.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
       "boatModelId": "TOLL-34-SE",
       "role": "representative",
       "status": "available",
@@ -4726,6 +4456,24 @@
       "path": "images/toll-37-se.jpg",
       "requestedPath": "images/toll-37-se.jpg",
       "filename": "toll-37-se.jpg",
+      "provenance": {
+        "status": "unknown",
+        "sourceType": "Unknown",
+        "sourceName": "",
+        "sourceURL": "",
+        "creatorOrOwner": "",
+        "permissionBasis": "",
+        "dateAcquired": ""
+      },
+      "publicUseEligible": false
+    },
+    {
+      "boatModelId": "TPMC-32-EA",
+      "role": "representative",
+      "status": "available",
+      "path": "images/tpmc-32-ea.jpg",
+      "requestedPath": "images/tpmc-32-ea.jpg",
+      "filename": "tpmc-32-ea.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -4828,24 +4576,6 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "WILL-30-VE",
-      "role": "representative",
-      "status": "available",
-      "path": "images/will-30-ve.jpg",
-      "requestedPath": "images/will-30-ve.jpg",
-      "filename": "will-30-ve.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
       "boatModelId": "WILL-30-VO",
       "role": "representative",
       "status": "missing",
@@ -4900,264 +4630,12 @@
       "publicUseEligible": false
     },
     {
-      "boatModelId": "TPMC-32-EA",
+      "boatModelId": "WIND-26-SN",
       "role": "representative",
       "status": "missing",
       "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/tpmc-32-ea.jpg",
-      "filename": "tpmc-32-ea.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "ISGY-32-SE",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/isgy-32-se.jpg",
-      "filename": "isgy-32-se.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "ISGY-32-EU",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/isgy-32-eu.jpg",
-      "filename": "isgy-32-eu.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "ISGY-32-FI",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/isgy-32-fi.jpg",
-      "filename": "isgy-32-fi.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "SEAL-34-TC",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/seal-34-tc.jpg",
-      "filename": "seal-34-tc.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "CHBB-34-SE",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/chbb-34-se.jpg",
-      "filename": "chbb-34-se.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "CHBB-34-TC",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/chbb-34-tc.jpg",
-      "filename": "chbb-34-tc.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "MTRA-34-SE",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/mtra-34-se.jpg",
-      "filename": "mtra-34-se.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "MTRA-34-EU",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/mtra-34-eu.jpg",
-      "filename": "mtra-34-eu.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "CAPD-30-FB",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/capd-30-fb.jpg",
-      "filename": "capd-30-fb.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "CAPD-28-CR",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/capd-28-cr.jpg",
-      "filename": "capd-28-cr.jpg",
-      "provenance": {
-        "status": "placeholder",
-        "sourceType": "Internal",
-        "sourceName": "B-Scout placeholder",
-        "sourceURL": "",
-        "creatorOrOwner": "B-Scout",
-        "permissionBasis": "Internal asset",
-        "dateAcquired": "2026-07-27"
-      },
-      "publicUseEligible": true
-    },
-    {
-      "boatModelId": "KDKR-38-CT",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/kdkr-38-ct.jpg",
-      "filename": "kdkr-38-ct.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "KDKR-42",
-      "role": "representative",
-      "status": "available",
-      "path": "images/kdkr-42.jpg",
-      "requestedPath": "images/kdkr-42.jpg",
-      "filename": "kdkr-42.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "KDKR-44",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/kdkr-44.jpg",
-      "filename": "kdkr-44.jpg",
-      "provenance": {
-        "status": "unknown",
-        "sourceType": "Unknown",
-        "sourceName": "",
-        "sourceURL": "",
-        "creatorOrOwner": "",
-        "permissionBasis": "",
-        "dateAcquired": ""
-      },
-      "publicUseEligible": false
-    },
-    {
-      "boatModelId": "KDKR-48-NS",
-      "role": "representative",
-      "status": "missing",
-      "path": "images/boat-placeholder.svg",
-      "requestedPath": "images/kdkr-48-ns.jpg",
-      "filename": "kdkr-48-ns.jpg",
+      "requestedPath": "images/wind-26-sn.jpg",
+      "filename": "wind-26-sn.jpg",
       "provenance": {
         "status": "unknown",
         "sourceType": "Unknown",
@@ -5170,5 +4648,5 @@
       "publicUseEligible": false
     }
   ],
-  "generatedAt": "2026-07-28T13:27:58.478Z"
+  "generatedAt": "2026-08-07"
 }

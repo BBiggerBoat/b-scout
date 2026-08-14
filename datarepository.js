@@ -9,7 +9,6 @@
         marketplaceSources: "data/marketplace-sources.json",
         modelSearchAliases: "data/model-search-aliases.json",
         marketplaceSourceValidation: "data/marketplace-source-validation.json",
-        boatIntelligence: "knowledge/data/boatintelligence.json",
         manufacturerKnowledge: "knowledge/data/manufacturerknowledge.json",
         manufacturers: "data/registry/manufacturers.json",
         boatRegistry: "data/registry/boat-registry.json",
@@ -59,7 +58,35 @@
 
         return Promise.all(entries.map(([name, url]) =>
             fetchJson(url, fetchImpl).then(value => [name, ensureArray(value, name)])
-        )).then(results => Object.fromEntries(results));
+        )).then(async results => {
+            const data = Object.fromEntries(results);
+            try {
+                const request = fetchImpl || global.fetch;
+                const response = await request("/api/public/overlays", { cache: "no-store" });
+                if (response?.ok) {
+                    const overlay = await response.json();
+                    if (Array.isArray(data.boats)) {
+                        const patches = overlay?.modelPatches || {};
+                        data.boats = data.boats.map(row => patches[row.BoatModelID] ? { ...row, ...patches[row.BoatModelID] } : row);
+                        if (Array.isArray(overlay?.addedModels)) {
+                            const ids = new Set(data.boats.map(x => x.BoatModelID));
+                            for (const row of overlay.addedModels) if (row?.BoatModelID && !ids.has(row.BoatModelID)) { data.boats.push(row); ids.add(row.BoatModelID); }
+                        }
+                    }
+                    if (Array.isArray(data.manufacturers) && Array.isArray(overlay?.addedManufacturers)) {
+                        const keys = new Set(data.manufacturers.map(x => String(x.CanonicalName || "").toLowerCase()));
+                        for (const row of overlay.addedManufacturers) {
+                            const key = String(row?.CanonicalName || "").toLowerCase();
+                            if (key && !keys.has(key)) { data.manufacturers.push(row); keys.add(key); }
+                        }
+                    }
+                    data.communityOverlay = overlay;
+                }
+            } catch (_) {
+                // Static/local mode intentionally continues without the live overlay API.
+            }
+            return data;
+        });
     }
 
     global.BScoutDataRepository = {

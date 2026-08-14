@@ -284,20 +284,20 @@ function buildBrokerDiscovery(boat) {
                     ? globalThis.BScoutMarketplaceSourceValidation
                     : (Array.isArray(globalThis.BScoutBrokerSourceValidation) ? globalThis.BScoutBrokerSourceValidation : []))
                     .find(item => item && item.BoatModelID === boat.BoatModelID && item.SourceID === source.SourceID) || null;
-                const status = validation?.Status || "NotChecked";
+                const status = validation?.Status || source.SourceStatus || "NotChecked";
                 return {
                     SourceID: source.SourceID,
                     label: source.Name,
                     sourceType: source.SourceType,
                     region: source.Region || "",
-                    url: validation?.ListingURL || destination.url,
+                    url: validation?.SearchURL || validation?.ListingURL || destination.url,
                     inventoryUrl: source.InventoryURL || "",
                     action: destination.action,
                     capability: destination.capability,
                     status,
                     matchCount: Number.isFinite(Number(validation?.MatchCount)) ? Number(validation.MatchCount) : null,
-                    message: validation?.Message || "This source has not been checked for this model.",
-                    lastChecked: validation?.LastChecked || "",
+                    message: validation?.Message || source.SourceStatusMessage || "This source has not been checked for this model.",
+                    lastChecked: validation?.CheckedAt || validation?.LastChecked || "",
                     confidence: validation?.Confidence || "Unknown"
                 };
             })
@@ -310,11 +310,12 @@ function buildBrokerDiscovery(boat) {
 function renderBrokerDiscovery(discovery) {
     if (!discovery || !Array.isArray(discovery.groups) || discovery.groups.length === 0) return "";
     const statusMeta = {
-        ViableListing: { icon: "✓", label: "Listing found", className: "is-viable" },
-        PossibleMatches: { icon: "✓", label: "Possible matches", className: "is-possible" },
-        NoListingFound: { icon: "—", label: "No listing found", className: "is-empty" },
-        BrokerUnresponsive: { icon: "!", label: "Broker unresponsive", className: "is-unresponsive" },
-        NotChecked: { icon: "?", label: "Not checked", className: "is-unknown" }
+        ListingLikely: { icon: "✓", label: "Listing likely", className: "is-viable" },
+        NoListingIndicated: { icon: "—", label: "No listing indicated", className: "is-empty" },
+        SourceUnavailable: { icon: "!", label: "Source unavailable", className: "is-unresponsive" },
+        Inconclusive: { icon: "?", label: "Check inconclusive", className: "is-unknown" },
+        CheckPending: { icon: "?", label: "Automated check pending", className: "is-unknown" },
+        NotChecked: { icon: "?", label: "Automated check pending", className: "is-unknown" }
     };
     const groups = discovery.groups.map(group => {
         const links = normalizeArray(group.links).filter(item => item && item.url && item.label);
@@ -322,22 +323,20 @@ function renderBrokerDiscovery(discovery) {
         const rows = links.map(item => {
             const meta = statusMeta[item.status] || statusMeta.NotChecked;
             const titleParts = [meta.label, item.message, item.lastChecked ? `Checked ${item.lastChecked}` : ""].filter(Boolean);
-            const action = item.status === "ViableListing"
-                ? "Open listing"
-                : (item.status === "PossibleMatches" && Number.isFinite(item.matchCount)
-                    ? `${item.matchCount} possible`
-                    : item.action);
+            const action = item.status === "ListingLikely"
+                ? "Open search"
+                : item.action;
             const content = `<span class="broker-status-icon" aria-hidden="true">${meta.icon}</span>
-                <span class="broker-source-copy"><span class="broker-source-name">${intelligenceEscapeHtml(item.label)}</span><span class="broker-source-message">${intelligenceEscapeHtml(item.status === "PossibleMatches" && Number.isFinite(item.matchCount) ? `${item.matchCount} possible matches` : meta.label)}</span></span>
-                <span class="broker-source-action">${intelligenceEscapeHtml(item.status === "BrokerUnresponsive" ? "Unavailable" : action)}</span>`;
-            if (item.status === "BrokerUnresponsive") {
+                <span class="broker-source-copy"><span class="broker-source-name">${intelligenceEscapeHtml(item.label)}</span><span class="broker-source-message">${intelligenceEscapeHtml(meta.label)}</span></span>
+                <span class="broker-source-action">${intelligenceEscapeHtml(item.status === "SourceUnavailable" ? "Unavailable" : action)}</span>`;
+            if (item.status === "SourceUnavailable") {
                 return `<div class="broker-source-row ${meta.className} is-disabled" role="status" title="${intelligenceEscapeHtml(titleParts.join(" · "))}">${content}</div>`;
             }
             return `<a class="broker-source-row ${meta.className}" href="${intelligenceEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" title="${intelligenceEscapeHtml(titleParts.join(" · "))}">${content}</a>`;
         }).join("");
         return `<div class="broker-discovery-group"><h5>${intelligenceEscapeHtml(group.region)}</h5><div class="broker-discovery-links">${rows}</div></div>`;
     }).filter(Boolean).join("");
-    return groups ? `<div class="model-knowledge-group broker-discovery"><strong>Marketplace searches</strong><div class="broker-status-legend"><span>✓ listing / possible matches</span><span>— none found</span><span>! unavailable</span><span>? unchecked</span></div><div class="broker-discovery-groups">${groups}</div></div>` : "";
+    return groups ? `<div class="model-knowledge-group broker-discovery"><strong>Marketplace searches</strong><div class="broker-status-legend"><span>✓ listing likely</span><span>— none indicated</span><span>! unavailable</span><span>? inconclusive / pending</span></div><div class="broker-discovery-groups">${groups}</div></div>` : "";
 }
 
 function buildModelKnowledgeSummary(boat) {

@@ -21,7 +21,7 @@
     "InventoryURL": "https://unitedcityyachts.com/boat-listing/",
     "Priority": 20,
     "Active": true,
-    "SearchCapability": "BrowseInventory"
+    "SearchCapability": "AutomatedInventorySignal"
   },
   {
     "SourceID": "SUNNYBROOK",
@@ -78,10 +78,12 @@
     "Region": "Ontario",
     "SourceType": "Broker",
     "Domain": "harrisellis.com",
-    "InventoryURL": "https://www.harrisellis.com/boats-for-sale/",
+    "InventoryURL": "",
     "Priority": 70,
     "Active": true,
-    "SearchCapability": "BrowseInventory"
+    "SearchCapability": "BrowseInventory",
+    "SourceStatus": "SourceUnavailable",
+    "SourceStatusMessage": "The current website connection is unsafe or unavailable."
   },
   {
     "SourceID": "YACHTWORLD_CA",
@@ -153,7 +155,7 @@
     "InventoryURL": "https://www.denisonyachtsales.com/yachts-for-sale/",
     "Priority": 30,
     "Active": true,
-    "SearchCapability": "BrowseInventory"
+    "SearchCapability": "AutomatedInventorySignal"
   },
   {
     "SourceID": "SEATTLE_YACHTS",
@@ -201,7 +203,7 @@
     "InventoryURL": "https://www.popyachts.com/boats-for-sale",
     "Priority": 70,
     "Active": true,
-    "SearchCapability": "BrowseInventory"
+    "SearchCapability": "AutomatedInventorySignal"
   },
   {
     "SourceID": "SI_YACHTS",

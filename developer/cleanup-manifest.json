@@ -89,5 +89,11 @@
       "Added one deterministic developer report generator for registry, identity, taxonomy and knowledge reports."
     ],
     "policy": "Unknown model or manufacturer knowledge remains unknown and cannot cause exclusion."
-  }
+  },
+  "changeHistory": [
+    {
+      "phase": "Marketplace Listing Signal v1 POC",
+      "summary": "Removed manual listing counts and added automated marketplace viability validator."
+    }
+  ]
 }

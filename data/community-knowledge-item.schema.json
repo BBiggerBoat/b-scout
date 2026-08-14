@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://b-scout.local/schema/community-knowledge-item.schema.json",
+  "title": "B-Scout Community Knowledge Item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "KnowledgeItemID",
+    "BoatModelID",
+    "Title",
+    "Category",
+    "Status",
+    "EvidenceSummary",
+    "CreatedAt",
+    "UpdatedAt"
+  ],
+  "properties": {
+    "KnowledgeItemID": {
+      "type": "string",
+      "minLength": 1
+    },
+    "BoatModelID": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ManufacturerName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ModelName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160
+    },
+    "Category": {
+      "type": "string",
+      "enum": [
+        "ownership_experience",
+        "problem_weakness",
+        "buyer_inspection_advice",
+        "other"
+      ]
+    },
+    "Summary": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 1500
+    },
+    "Applicability": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "YearFrom": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1800,
+          "maximum": 2200
+        },
+        "YearTo": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1800,
+          "maximum": 2200
+        },
+        "Variants": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Confidence": {
+          "type": "string",
+          "enum": [
+            "known",
+            "probable",
+            "uncertain",
+            "conflicting"
+          ]
+        }
+      }
+    },
+    "Status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "candidate",
+        "archived"
+      ]
+    },
+    "EvidenceSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ReportCount",
+        "OwnerReportCount",
+        "DocumentedEvidenceCount",
+        "ConfidenceBand",
+        "PublicLabel"
+      ],
+      "properties": {
+        "ReportCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "OwnerReportCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "DocumentedEvidenceCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ConfidenceBand": {
+          "type": "string",
+          "enum": [
+            "None",
+            "Limited",
+            "Emerging",
+            "Moderate",
+            "Strong"
+          ]
+        },
+        "PublicLabel": {
+          "type": "string"
+        },
+        "SupportingReportCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ConflictingReportCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "QualifyingReportCount": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "CreatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "UpdatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ModeratorNotes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "KnowledgeState": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "community_supported",
+        "limited_evidence",
+        "conflicting_information",
+        "applicability_uncertain"
+      ]
+    },
+    "ConflictSummary": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 1500
+    }
+  }
+}

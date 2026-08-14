@@ -191,13 +191,42 @@
         if (exceedsMaximum(boat.Beam_ft, profile.maxBeam)) reasons.push("max-beam");
         if (exceedsMaximum(boat.Draft_ft, profile.maxDraft)) reasons.push("max-draft");
         if (exceedsMaximum(boat.AirDraft_ft, profile.maxAirDraft)) reasons.push("max-air-draft");
-        if (profile.styles?.length && known(boat.Style) && !selectedIncludes("boatStyle", profile.styles, boat.Style)) reasons.push("style");
-        if (profile.boatFamilies?.length && known(boat.BoatFamily) && !profile.boatFamilies.includes(boat.BoatFamily)) reasons.push("boat-family");
+        if (profile.styles?.length) {
+            const actualStyle = boat.NormalizedStyle || boat.Style;
+            if (known(actualStyle) && !selectedIncludes("boatStyle", profile.styles, actualStyle)) reasons.push("style");
+        }
+        if (profile.boatFamilies?.length) {
+            const familyCandidates = [boat.BoatFamily, boat.NormalizedStyle, boat.Style, boat.Configuration]
+                .filter(known).map(normalizeText);
+            const familyMatches = profile.boatFamilies.some(selected => {
+                const wanted = normalizeText(selected);
+                return familyCandidates.some(actual =>
+                    actual === wanted ||
+                    actual.includes(wanted) ||
+                    (wanted === "tug" && actual.includes("tug")) ||
+                    (wanted === "trawler" && actual.includes("trawler")) ||
+                    (wanted === "downeast" && actual.includes("downeast")) ||
+                    (wanted === "motor yacht" && actual.includes("motor yacht")) ||
+                    (wanted === "sportfisher" && (actual.includes("sportfisher") || actual.includes("sport fisher"))) ||
+                    (wanted === "cruiser" && actual.includes("cruiser"))
+                );
+            });
+            // Preserve incomplete records. Eliminate only when classification is known and conflicts.
+            if (familyCandidates.length && !familyMatches) reasons.push("boat-family");
+        }
         if (profile.configurations?.length && known(boat.Configuration) && !profile.configurations.includes(boat.Configuration)) reasons.push("configuration");
         if (profile.constructionMaterials?.length && known(boat.Construction) && !selectedIncludes("construction", profile.constructionMaterials, boat.Construction)) reasons.push("construction-material");
-        if (profile.hullTypes?.length && known(boat.HullType) && !selectedIncludes("hullType", profile.hullTypes, boat.HullType)) reasons.push("hull-type");
+        if (profile.hullTypes?.length) {
+            const actualHull = boat.NormalizedHullForm || boat.HullType;
+            if (known(actualHull) && !selectedIncludes("hullType", profile.hullTypes, actualHull)) reasons.push("hull-type");
+        }
         if (profile.fuels?.length && known(boat.Fuel) && !selectedIncludes("fuel", profile.fuels, boat.Fuel)) reasons.push("fuel");
         if (profile.propulsion?.length && known(boat.Propulsion) && !selectedIncludes("propulsion", profile.propulsion, boat.Propulsion)) reasons.push("propulsion");
+        // Engine count is a hard filter only when known. Unknown engine count remains eligible.
+        const selectedEngineCounts = Array.isArray(profile.engineCounts) && profile.engineCounts.length
+            ? profile.engineCounts.map(Number)
+            : (profile.twinEngines ? [2] : []); // backward compatibility for older saved profiles
+        if (selectedEngineCounts.length && known(boat.EngineCount) && !selectedEngineCounts.includes(numericValue(boat.EngineCount))) reasons.push("engine-count");
         if (profile.flybridge && known(boat.Flybridge) && boat.Flybridge !== profile.flybridge) reasons.push("flybridge");
         if (profile.sideDecks && known(boat.SideDecks)) {
             const allowed = { "Wide": ["Wide"], "Moderate+": ["Wide", "Moderate"], "Limited+": ["Wide", "Moderate", "Limited"], "Narrow+": ["Wide", "Moderate", "Limited", "Narrow"], "None": ["None"] }[profile.sideDecks];

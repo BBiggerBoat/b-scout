@@ -17,6 +17,8 @@
         hullTypes: [],
         fuels: [],
         propulsion: [],
+        engineCounts: [],
+        twinEngines: false,
         flybridge: "",
         sideDecks: "",
         trailerable: "",
@@ -87,10 +89,10 @@
     function readFromDocument(documentRef) {
         const doc = documentRef || global.document;
         if (!doc) return clone(DEFAULT_SEARCH_SETTINGS);
-        const checkedValues = selector => Array.from(doc.querySelectorAll(selector)).map(node => node.value);
+        const checkedValues = selector => Array.from(doc.querySelectorAll(`#discoverView ${selector}`)).map(node => node.value);
         const numericValue = id => {
             const raw = doc.getElementById(id)?.value;
-            return raw === undefined || raw === null || raw === "" ? null : Number(raw);
+            return raw === undefined || raw === null || raw === "" ? null : Number(String(raw).replace(",", "."));
         };
         return {
             textSearch: doc.getElementById("textSearch")?.value?.trim().toLowerCase() || "",
@@ -108,6 +110,8 @@
             hullTypes: checkedValues(".hullFilter:checked"),
             fuels: checkedValues(".fuelFilter:checked"),
             propulsion: checkedValues(".propulsionFilter:checked"),
+            engineCounts: checkedValues(".engineCountFilter:checked").map(Number),
+            twinEngines: false,
             flybridge: doc.getElementById("flybridgeFilter")?.value || "",
             sideDecks: doc.getElementById("sideDeckFilter")?.value || "",
             trailerable: doc.getElementById("trailerFilter")?.value || "",

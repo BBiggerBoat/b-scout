@@ -1,0 +1,26 @@
+{
+  "ContributionID": "CONTRIB-000001",
+  "ContributionType": "problem_weakness",
+  "ManufacturerID": "GRBK",
+  "ManufacturerName": "Grand Banks",
+  "ModelID": "GRBK-32-CL",
+  "ModelName": "32",
+  "ModelYear": 1981,
+  "Variant": null,
+  "DisplayName": null,
+  "ContactEmail": null,
+  "DateSubmitted": "2026-08-09T18:00:00Z",
+  "ModerationStatus": "pending",
+  "EvidenceType": "direct_owner_observation",
+  "RightsStatus": null,
+  "Payload": {
+    "Area": "Fuel system",
+    "Severity": "Significant repair",
+    "Title": "Original fuel tank corrosion",
+    "Narrative": "Both original tanks had corrosion along the lower seams. Replacement access was difficult."
+  },
+  "SourceURL": null,
+  "AttachmentRefs": [],
+  "ModeratorNotes": null,
+  "MergedKnowledgeItemID": null
+}
