@@ -1,7 +1,7 @@
 {
   "name": "b-scout-public",
   "private": true,
-  "version": "6.23.0",
+  "version": "6.23.3",
   "description": "B-Scout dual-mode community backend: local filesystem plus Cloudflare D1/KV live persistence",
   "scripts": {
     "test:marketplace-signal": "node developer/test-marketplace-signal.js",
@@ -11,7 +11,8 @@
     "generate:search-aliases": "node developer/generate-model-search-aliases.js",
     "start": "node server.js",
     "cf:dev": "wrangler pages dev .",
-    "cf:d1:local": "wrangler d1 execute BSCOUT_DB --local --file=cloudflare/schema.sql"
+    "cf:d1:local": "wrangler d1 execute BSCOUT_DB --local --file=cloudflare/schema.sql",
+    "generate:search-pages": "python developer/generate-search-landing-pages.py"
   },
   "devDependencies": {
     "playwright": "^1.54.0",

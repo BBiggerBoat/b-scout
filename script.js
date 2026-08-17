@@ -110,6 +110,23 @@ function initializeBScoutApplication(data) {
     initMissionTemplates();
     initSearchProfiles();
 
+    // SEO/deep-link bridge: crawlable model pages link here with ?model=BoatModelID.
+    // Open the existing interactive Guide after application data is available.
+    try {
+        const requestedModelId = new URLSearchParams(window.location.search).get("model");
+        if (requestedModelId) {
+            const requestedBoat = allBoats.find(b => String(b.BoatModelID) === String(requestedModelId));
+            if (requestedBoat) {
+                window.setTimeout(() => {
+                    if (window.BScoutBoatWorkspace?.open) window.BScoutBoatWorkspace.open(requestedBoat, "overview");
+                    else showBoatDetails(requestedBoat);
+                }, 0);
+            }
+        }
+    } catch (error) {
+        console.warn("B-Scout model deep link could not be opened", error);
+    }
+
     return {
         boatCount: allBoats.length,
         routeCount: allRoutes.length,

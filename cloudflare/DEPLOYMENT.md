@@ -1,4 +1,4 @@
-# B-Scout v6.23.0 — zero-cost Cloudflare deployment
+# B-Scout v6.23.1 — zero-cost Cloudflare deployment
 
 The code is ready for a Cloudflare Pages project whose project/root directory is this `public` folder.
 
