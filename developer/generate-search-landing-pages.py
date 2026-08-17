@@ -299,7 +299,7 @@ url=BASE+'models/'; title='Boat Model Guides: Specs, Concerns & Buyer Research |
 # Update public footer links/version without adding primary-nav clutter.
 idx=ROOT/'index.html'; s=idx.read_text(encoding='utf-8')
 s=s.replace('<a href="models/">Browse Model Guides</a>', '<a href="models/">Browse Model Guides</a>\n    <a href="boats/">Find by Criteria</a>\n    <a href="compare/">Compare Models</a>')
-s=re.sub(r'Version 6\.23\.\d+[^<]*', 'Version 6.23.3 — Organic Search Foundations', s)
+s=re.sub(r'Version 6\.23\.\d+[^<]*', 'Version 6.23.4 — Search Experience Integration', s)
 idx.write_text(s,encoding='utf-8')
 
 # Sitemap: only stable, useful public pages.
@@ -316,11 +316,11 @@ xml.append('</urlset>')
 
 # Maintainability notes.
 report={
- 'version':'6.23.3', 'generated':TODAY, 'model_pages':len(models), 'manufacturer_pages':len(manufacturer_slugs),
+ 'version':'6.23.4', 'generated':TODAY, 'model_pages':len(models), 'manufacturer_pages':len(manufacturer_slugs),
  'constraint_pages':len(criteria_defs), 'comparison_pages':len(pairs), 'sitemap_urls':len(urls),
  'principle':'Generate stable, useful pages from canonical model data. Do not generate every possible filter or model pair.'
 }
-(ROOT/'SEO_ORGANIC_SEARCH.md').write_text('''# B-Scout Organic Search Foundations — v6.23.3\n\nGenerated search surfaces:\n\n- `/models/` — permanent crawlable model guides\n- `/manufacturers/` — manufacturer model directories (2+ models in current B-Scout data)\n- `/boats/` — curated buyer-constraint pages, not arbitrary faceted URLs\n- `/compare/` — deliberately limited model comparisons\n\n## Core rule\n\nDo not generate every possible combination of filters. Search landing pages should exist only where the page is a useful buyer destination with a stable URL and a clear purpose.\n\n## Data semantics\n\nConstraint pages list **known matches only**. A model with missing data is not declared unsuitable; it simply cannot be asserted to match that specific public landing page.\n\n## Regeneration\n\nRun `python developer/generate-search-landing-pages.py` after material changes to `boatmodels.json`. Review generated pages before deployment.\n\n## Current generated counts\n\n```json\n'''+json.dumps(report,indent=2)+'''\n```\n''',encoding='utf-8')
+(ROOT/'SEO_ORGANIC_SEARCH.md').write_text('''# B-Scout Organic Search Foundations — v6.23.4\n\nGenerated search surfaces:\n\n- `/models/` — permanent crawlable model guides\n- `/manufacturers/` — manufacturer model directories (2+ models in current B-Scout data)\n- `/boats/` — curated buyer-constraint pages, not arbitrary faceted URLs\n- `/compare/` — deliberately limited model comparisons\n\n## Core rule\n\nDo not generate every possible combination of filters. Search landing pages should exist only where the page is a useful buyer destination with a stable URL and a clear purpose.\n\n## Data semantics\n\nConstraint pages list **known matches only**. A model with missing data is not declared unsuitable; it simply cannot be asserted to match that specific public landing page.\n\n## Regeneration\n\nRun `python developer/generate-search-landing-pages.py` after material changes to `boatmodels.json`. Review generated pages before deployment.\n\n## Current generated counts\n\n```json\n'''+json.dumps(report,indent=2)+'''\n```\n''',encoding='utf-8')
 
 # Package version.
 pkg=ROOT/'package.json'; pj=json.loads(pkg.read_text(encoding='utf-8')); pj['version']='6.23.3'; pj['scripts']['generate:search-pages']='python developer/generate-search-landing-pages.py'; pkg.write_text(json.dumps(pj,indent=2)+'\n',encoding='utf-8')
