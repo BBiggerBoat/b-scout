@@ -242,7 +242,13 @@
     "DisplacementLb": 3860,
     "FuelCapacityGal": 20,
     "WaterCapacityGal": 15,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -492,7 +498,13 @@
     "DisplacementLb": 6500,
     "FuelCapacityGal": 72,
     "WaterCapacityGal": 40,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -741,7 +753,13 @@
     "DisplacementLb": 6750,
     "FuelCapacityGal": 100,
     "WaterCapacityGal": 40,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -1014,7 +1032,13 @@
     "DisplacementLb": 7500,
     "FuelCapacityGal": 132,
     "WaterCapacityGal": 36,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -1286,7 +1310,13 @@
     "DisplacementLb": 7500,
     "FuelCapacityGal": 132,
     "WaterCapacityGal": 36,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -1518,7 +1548,13 @@
     "DisplacementLb": 9800,
     "FuelCapacityGal": 126,
     "WaterCapacityGal": 26,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -1789,7 +1825,13 @@
     "DisplacementLb": 15000,
     "FuelCapacityGal": 260,
     "WaterCapacityGal": 117,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -2045,7 +2087,13 @@
     "DisplacementLb": 18500,
     "FuelCapacityGal": 350,
     "WaterCapacityGal": 220,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -2302,7 +2350,13 @@
     "DisplacementLb": 26000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 180,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "AMERICAN",
@@ -2537,7 +2591,13 @@
     "DisplacementLb": 20000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 150,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "AMERICAN",
@@ -2770,7 +2830,13 @@
     "DisplacementLb": 18700,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 120,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "AMERICAN",
@@ -3004,7 +3070,13 @@
     "DisplacementLb": 21000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 120,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ATLANTIC",
@@ -3218,7 +3290,13 @@
       "This is direct Prairie 36 → Atlantic 37 lineage, not merely stylistic resemblance."
     ],
     "OwnershipCharacter": "A straightforward classic trawler platform with strong hull lineage, protected running gear and roomy engine access. Twin-engine examples cost more to service than the Prairie's smaller-power versions, while teak, tanks, windows and 1980s systems dominate refit risk.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ATLANTIC",
@@ -3446,7 +3524,13 @@
     "LengthFt": 26.0,
     "BeamFt": 9.5,
     "DraftFt": 2.5,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BACK",
@@ -3672,7 +3756,13 @@
     "DisplacementLb": 6000,
     "FuelCapacityGal": 100,
     "WaterCapacityGal": 30,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BACK",
@@ -3898,7 +3988,13 @@
     "DisplacementLb": 10000,
     "FuelCapacityGal": 150,
     "WaterCapacityGal": 30,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BACK",
@@ -4123,7 +4219,13 @@
     "DisplacementLb": 12000,
     "FuelCapacityGal": 164,
     "WaterCapacityGal": 58,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BACK",
@@ -4348,7 +4450,13 @@
     "DisplacementLb": 17500,
     "FuelCapacityGal": 185,
     "WaterCapacityGal": 80,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BACK",
@@ -4586,7 +4694,13 @@
     "DisplacementLb": 14000,
     "FuelCapacityGal": 185,
     "WaterCapacityGal": 60,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BACK",
@@ -4811,7 +4925,13 @@
     "DisplacementLb": 14200,
     "FuelCapacityGal": 185,
     "WaterCapacityGal": 80,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BACK",
@@ -5036,7 +5156,13 @@
     "DisplacementLb": 22100,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 120,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BACKCOVE",
@@ -5265,7 +5391,13 @@
     "DisplacementLb": 22000,
     "FuelCapacityGal": 520,
     "WaterCapacityGal": 97,
-    "NormalizedHullType": "Planing"
+    "NormalizedHullType": "Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BACKCOVE",
@@ -5494,7 +5626,13 @@
     "DisplacementLb": 24000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 160,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -5725,7 +5863,13 @@
     ],
     "OwnershipCharacter": "Simple single-sterndrive ownership and trailerable size keep costs manageable, but drive bellows, transom/core moisture and older hardtop/window sealing deserve careful inspection.",
     "CharacterConfidence": "High",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -5980,7 +6124,13 @@
     ],
     "OwnershipCharacter": "Mass-market parts and one-engine simplicity help, but exact sterndrive generation and hull year matter. Older examples should be surveyed closely for transom/core moisture, drive condition, fuel system and owner modifications.",
     "CharacterConfidence": "High",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -6220,7 +6370,13 @@
     ],
     "OwnershipCharacter": "Single-drive simplicity and enclosed weather protection suit northern cruising. Sterndrive service, transom condition, cabin leaks and the relatively small cockpit are the main practical tradeoffs.",
     "CharacterConfidence": "High",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -6450,7 +6606,13 @@
     ],
     "OwnershipCharacter": "Twin sterndrives provide good performance but double drive-related service and fuel-system complexity. Wide beam, generator/AC options and cockpit systems make it much more boat to maintain than the 2855.",
     "CharacterConfidence": "High",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -6688,7 +6850,13 @@
     ],
     "OwnershipCharacter": "Twin sterndrive examples offer performance and redundancy but can be labor-intensive in older freshwater/saltwater service. Bridge enclosure, drive condition, engine access and transom/core moisture deserve close survey attention.",
     "CharacterConfidence": "Moderate",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -6939,7 +7107,13 @@
     ],
     "OwnershipCharacter": "Twin Hino or gasoline inboards and conventional shaft drive are serviceable, but the engine room is compact. Window leaks, tanks, electrical modernization and availability of specific Hino parts are typical age-related concerns.",
     "CharacterConfidence": "Moderate",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -7179,7 +7353,13 @@
     ],
     "OwnershipCharacter": "Great accommodation value, but twin sterndrives, tight cockpit and minimal side decks create service and handling compromises. Drive maintenance and core/transom condition are central purchase issues.",
     "CharacterConfidence": "High",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -7421,7 +7601,13 @@
     ],
     "OwnershipCharacter": "One of Bayliner's most practical older cruising platforms. Twin Hino diesels can be very economical and shaft drive is straightforward, but the engine compartment is tight and specific Hino parts support varies by region. Windows, tanks, decks and decades of owner modifications remain major survey items.",
     "CharacterConfidence": "High",
-    "ResearchNotes": "Canonical consolidation 2026-08-07: BAYL-3270 merged into BAYL-3288-MO because Powerboat Guide documents one continuous 1981–95 family: 3270 Explorer (1981), 3270 Motor Yacht (1985), 3288 Motor Yacht (1989). Search aliases preserve all names."
+    "ResearchNotes": "Canonical consolidation 2026-08-07: BAYL-3270 merged into BAYL-3288-MO because Powerboat Guide documents one continuous 1981–95 family: 3270 Explorer (1981), 3270 Motor Yacht (1985), 3288 Motor Yacht (1989). Search aliases preserve all names.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -7664,7 +7850,13 @@
     ],
     "OwnershipCharacter": "Conventional twin inboards are preferable to sterndrives for many cruisers, but the compact salon/engine packaging and twin systems still require hands-on maintenance. Hino/Cummins configuration materially affects parts support and value.",
     "CharacterConfidence": "High",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -7914,7 +8106,13 @@
     ],
     "OwnershipCharacter": "Both generations offer good accommodation per dollar and conventional twin inboards. The shallow-deadrise hulls favor efficiency and space over soft offshore ride; diesel versus gasoline power strongly affects operating cost and resale.",
     "CharacterConfidence": "High",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -8156,7 +8354,13 @@
     ],
     "OwnershipCharacter": "Diesel versions can be economical cruisers, but two engines, two heads and aging 1980s systems create a large refit surface. Engine-room access, windows, tanks and legacy diesel parts availability are critical.",
     "CharacterConfidence": "High",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -8399,7 +8603,13 @@
     ],
     "OwnershipCharacter": "Three cabins and twin engines create real family-cruising capability, but the machinery space is tight and domestic systems are numerous. Diesel examples are attractive for heavier use; gas boats have significantly higher fuel burn.",
     "CharacterConfidence": "High",
-    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred."
+    "ResearchNotes": "Batch 28 identity, generation and lineage normalization. Missing/variable specifications remain listing-specific rather than inferred.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -8611,7 +8821,13 @@
       "The model remains current in the Antares range."
     ],
     "OwnershipCharacter": "Easy engine access and replacement are advantages, but twin large outboards, two cabins, full galley/head and optional climate/solar systems make it a serious cruising yacht in operating cost.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -8821,7 +9037,13 @@
       "The later Swift Trawler 35 occupies the next step up but is an evolution of the 34 lineage, not a direct replacement of the 30."
     ],
     "OwnershipCharacter": "One main diesel and shaft make the drivetrain unusually simple for a modern flybridge cruiser. Flybridge controls, opening transom, thruster and domestic systems add complexity, but operating burden remains low relative to twin-engine boats.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -9043,7 +9265,13 @@
       "The Swift Trawler 35 is the direct next-generation evolution of the 34 concept."
     ],
     "OwnershipCharacter": "Single diesel, protected shaft and excellent owner population make it one of the easier modern trawler-style cruisers to support. Asymmetric deck access and flybridge equipment are model-specific buyer-fit considerations.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -9254,7 +9482,13 @@
       "It remained a former-range model after the mid-2020s refresh of the Swift Trawler line."
     ],
     "OwnershipCharacter": "A strong balance of modern comfort and mechanical simplicity. One Cummins main keeps propulsion cost contained, while flybridge, HVAC, electronics and domestic systems create the normal complexity of a 37-foot cruising yacht.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -9467,7 +9701,13 @@
       "The 47 is therefore a distinct outgoing generation rather than an alias for the 48."
     ],
     "OwnershipCharacter": "Twin Cummins diesels, two heads, large flybridge and extensive hotel systems create full-yacht maintenance. Broad access and mainstream Cummins machinery help offset complexity.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -9679,7 +9919,13 @@
       "The model remains part of Beneteau's current Swift Trawler range."
     ],
     "OwnershipCharacter": "Large but conventional propulsion: twin shafts avoid pod complexity, while two engines, generator, HVAC, flybridge and multiple cabins make it a high-cost cruising platform.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -9894,7 +10140,13 @@
       "The 52 remains a distinct heritage model rather than a renamed later Swift Trawler."
     ],
     "OwnershipCharacter": "Yacht-scale fuel, water, twin mains and hotel systems mean substantial running and service cost. Shaft drives and mainstream diesels are conventional, but size dominates ownership burden.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -10102,7 +10354,13 @@
       "Earlier Antares 7 generations exist and should be distinguished by year rather than merged blindly."
     ],
     "OwnershipCharacter": "Extremely simple mechanically with one outboard and modest domestic systems. Trailerability and low marina footprint are major advantages; weather protection is good but overnight comfort is compact.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -10310,7 +10568,13 @@
       "Fishing trim conceptually absorbs some of the mission once served by the discontinued Barracuda line."
     ],
     "OwnershipCharacter": "Single-outboard simplicity is excellent. Added head, refrigerator and wheelhouse equipment create moderate weekend-cruiser systems but remain far simpler than inboard cruisers.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -10527,7 +10791,13 @@
       "The Barracuda family was subsequently discontinued; current Antares Fishing versions now serve a related mission but are not direct renames."
     ],
     "OwnershipCharacter": "Outboards and open deck simplify the basic boat, but fishing hardware and heavily exposed deck fittings require maintenance. Used examples vary significantly by engine package.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -10756,7 +11026,13 @@
       "B-Scout therefore keeps one searchable model with explicit generation variation rather than pretending the specifications are continuous."
     ],
     "OwnershipCharacter": "Twin outboards, two cabins and full weekend systems make it a substantial small yacht. Outboard service access is easy, but two engines, generator/AC options and increasing electronics raise cost sharply over the Antares 7/8.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BENE",
@@ -10975,7 +11251,13 @@
       "The Barracuda line was later discontinued rather than renamed wholesale into Antares."
     ],
     "OwnershipCharacter": "Twin outboards are accessible and replaceable, but two engines and fishing equipment raise running cost. Hull/deck hardware and heavily used cockpit fittings deserve close survey on ex-fishing boats.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "BHM",
@@ -11204,7 +11486,13 @@
     "BeamFt": 11.5,
     "DraftFt": 3.5,
     "DisplacementLb": 14000,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CDORY",
@@ -11441,7 +11729,13 @@
     "DisplacementLb": 1925,
     "FuelCapacityGal": 46,
     "WaterCapacityGal": 18,
-    "NormalizedHullType": "Planing"
+    "NormalizedHullType": "Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CDORY",
@@ -11678,7 +11972,13 @@
     "DisplacementLb": 3950,
     "FuelCapacityGal": 100,
     "WaterCapacityGal": 23,
-    "NormalizedHullType": "Planing"
+    "NormalizedHullType": "Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CDORY",
@@ -11914,7 +12214,13 @@
     "DisplacementLb": 6000,
     "FuelCapacityGal": 150,
     "WaterCapacityGal": 30,
-    "NormalizedHullType": "Catamaran"
+    "NormalizedHullType": "Catamaran",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CDORY",
@@ -12142,7 +12448,13 @@
     "YearEnd": null,
     "LengthFt": 26.0,
     "BeamFt": 8.5,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CDORY",
@@ -12376,7 +12688,13 @@
     "DraftFt": 1.17,
     "DisplacementLb": 4120,
     "FuelCapacityGal": 100,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CALIFORNIAN",
@@ -12611,7 +12929,13 @@
     "DisplacementLb": 18000,
     "FuelCapacityGal": 250,
     "WaterCapacityGal": 75,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CALIFORNIAN",
@@ -12847,7 +13171,13 @@
     "DisplacementLb": 28000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CAMANO",
@@ -13126,7 +13456,13 @@
       "The family was marketed as Camano 28 and later Camano 31."
     ],
     "OwnershipCharacter": "Compact, economical and comparatively simple. Best understood as a couple's cruiser: easy to run and dock for its class, but with modest cockpit, side-deck and storage volume.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CAMANO",
@@ -13433,7 +13769,13 @@
       "The Helmsman 31 Sedan is the modernized descendant of this hull."
     ],
     "OwnershipCharacter": "A practical cruising-couple boat with single-diesel economy, protected shafting and strong owner support. The trade is compact living/storage space and flybridge ladder access.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CAMANO",
@@ -13705,7 +14047,13 @@
       "Production appears concentrated around 2006–2007 and is relatively scarce."
     ],
     "OwnershipCharacter": "More yacht-like and systems-heavy than the 31, with larger marina, haul-out and maintenance demands. Still oriented toward a cruising couple rather than maximizing guest cabins.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CAPE",
@@ -14008,7 +14356,13 @@
     "DisplacementLb": 8000,
     "FuelCapacityGal": 120,
     "WaterCapacityGal": 71,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CAPE",
@@ -14282,7 +14636,13 @@
     "DisplacementLb": 8000,
     "FuelCapacityGal": 120,
     "WaterCapacityGal": 31,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CAPE",
@@ -14584,7 +14944,13 @@
     "DisplacementLb": 8000,
     "FuelCapacityGal": 120,
     "WaterCapacityGal": 45,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CAPE",
@@ -14855,7 +15221,13 @@
     "DisplacementLb": 12500,
     "FuelCapacityGal": 230,
     "WaterCapacityGal": 62,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CAPE",
@@ -15141,7 +15513,13 @@
     "DisplacementLb": 15500,
     "FuelCapacityGal": 260,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CAPE",
@@ -15428,7 +15806,13 @@
     "DisplacementLb": 18000,
     "FuelCapacityGal": 350,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CAPE",
@@ -15708,7 +16092,13 @@
     "DisplacementLb": 25000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 170,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CARVER",
@@ -15917,7 +16307,13 @@
       "Production of the paired family continued through 1990."
     ],
     "OwnershipCharacter": "Large flybridge and interior for the length, but the high center of gravity can make the boat tender with several people on the bridge. Twin V-drive gas engines, limited engine access and 1980s systems are the main ownership burdens.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CARVER",
@@ -16133,7 +16529,13 @@
       "Later 33/350 and 355/356 motor yachts advanced the same compact double-cabin mission on wider/larger platforms."
     ],
     "OwnershipCharacter": "Conventional gas inboards and broad owner knowledge are positives, but storage and machinery access are limited. Two heads, lower/upper helms and aging freshwater systems create more maintenance than the nominal size suggests.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CARVER",
@@ -16344,7 +16746,13 @@
       "The later 350/36 Mariner replaced this generation with an even more radical raised-side-deck architecture."
     ],
     "OwnershipCharacter": "Space and simple gas V-drives are attractive for freshwater cottage use, but side decks are nearly absent and engine access is tight. Window leaks, bridge structure, wiring and old fuel systems deserve attention.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CARVER",
@@ -16568,7 +16976,13 @@
       "B-Scout consolidated the former separate 33 Aft Cabin record into this canonical family."
     ],
     "OwnershipCharacter": "Very high accommodation density for the length. Twin gas inboards, hardtop aft deck and two-head domestic systems create real motor-yacht complexity despite modest dimensions.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CARVER",
@@ -16782,7 +17196,13 @@
       "The Carver 390/400/404 Cockpit Motor Yacht is essentially this platform with a cockpit extension."
     ],
     "OwnershipCharacter": "Good family/liveaboard volume with broad gas/diesel options. Twin engines, two heads, hardtop aft deck and 17-foot-plus air draft raise operating and storage costs; engine-room space remains fairly tight.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CARVER",
@@ -16998,7 +17418,13 @@
       "Production ended in 1989 as newer 36/370 and 3807/390 aft-cabin designs took over the market."
     ],
     "OwnershipCharacter": "Conventional systems and excellent deck access help, but twin gas engines, two heads and 1980s electrical/plumbing mean refit burden can be significant. The dual-mode hull makes slow cruising more credible than on many contemporary aft-cabin boats.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CARVER",
@@ -17219,7 +17645,13 @@
       "It succeeded the earlier 3297/330 Mariner as Carver's signature high-volume sedan family."
     ],
     "OwnershipCharacter": "Huge interior for the length but tall profile, windage and very tight engine compartment are the tradeoffs. Twin gasoline V-drives dominate, so fuel use can be substantial.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CARVER",
@@ -17435,7 +17867,13 @@
       "B-Scout corrected the previous generic 'Carver 40 Aft Cabin' identity to this documented 3807/390 family."
     ],
     "OwnershipCharacter": "Comfortable liveaboard dimensions and decent deck access, but twin gas engines, two heads and broad 14-foot beam create high seasonal costs. Diesel examples are comparatively attractive for long-range use.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CARVER",
@@ -17651,7 +18089,13 @@
       "B-Scout corrected the generic '42 Aft Cabin' record to the documented 4207 model identity."
     ],
     "OwnershipCharacter": "A genuine large motor yacht: excellent living space and deck circulation, but 400 gallons fuel, twin mains, two heads, large bridge and 15-foot beam mean substantial dockage, storage and maintenance costs.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CHB",
@@ -17854,7 +18298,13 @@
     "LengthFt": 33.5,
     "BeamFt": 11.75,
     "DraftFt": 3.5,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CHB",
@@ -18063,7 +18513,13 @@
     "DisplacementLb": 17500,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 150,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CHB",
@@ -18346,7 +18802,13 @@
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 150,
     "NormalizedHullType": "Semi-Displacement",
-    "ResearchNotes": "Canonicalized 2026-08-07. The CHB 34 Double Cabin and Marine Trader 34 Double Cabin are the same CHB-built Taiwan trawler sold through different U.S. distributor identities. Marine Trader 34 Double Cabin, La Paz 34 and Eagle 34 Double Cabin are retained as aliases."
+    "ResearchNotes": "Canonicalized 2026-08-07. The CHB 34 Double Cabin and Marine Trader 34 Double Cabin are the same CHB-built Taiwan trawler sold through different U.S. distributor identities. Marine Trader 34 Double Cabin, La Paz 34 and Eagle 34 Double Cabin are retained as aliases.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CHB",
@@ -18599,7 +19061,13 @@
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 100,
     "NormalizedHullType": "Semi-Displacement",
-    "ResearchNotes": "Documented 1984 CHB 35 Sundeck examples support approximately 35 ft on deck, 11.75 ft beam and semi-displacement form. Tankage and engines varied by hull."
+    "ResearchNotes": "Documented 1984 CHB 35 Sundeck examples support approximately 35 ft on deck, 11.75 ft beam and semi-displacement form. Tankage and engines varied by hull.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CHB",
@@ -18837,7 +19305,13 @@
     ],
     "OwnershipCharacter": "Substantial accommodation for comparatively low purchase cost, but yacht-scale teak, tanks, plumbing and electrical systems create meaningful refit exposure. Exact builder, layout and machinery should be confirmed hull by hull.",
     "CharacterConfidence": "Moderate",
-    "ResearchNotes": "CHB 40 examples are well documented, but Taiwan-builder/distributor naming and layout labels vary. Retained as a distinct searchable identity with Moderate lineage confidence; verify exact hull and builder.\n\nBatch 33 confidence audit: exact-model identity and source quality rechecked. Confidence is intentionally retained where factory/importer documentation is incomplete; missing evidence does not trigger deletion or inferred consolidation."
+    "ResearchNotes": "CHB 40 examples are well documented, but Taiwan-builder/distributor naming and layout labels vary. Retained as a distinct searchable identity with Moderate lineage confidence; verify exact hull and builder.\n\nBatch 33 confidence audit: exact-model identity and source quality rechecked. Confidence is intentionally retained where factory/importer documentation is incomplete; missing evidence does not trigger deletion or inferred consolidation.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CHEOY",
@@ -19068,7 +19542,13 @@
     "DisplacementLb": 14500,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 150,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CHEOY",
@@ -19307,7 +19787,13 @@
     "DisplacementLb": 19000,
     "FuelCapacityGal": 360,
     "WaterCapacityGal": 200,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CHEOY",
@@ -19547,7 +20033,13 @@
     "DisplacementLb": 21000,
     "FuelCapacityGal": 650,
     "WaterCapacityGal": 210,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CHEOY",
@@ -19781,7 +20273,13 @@
     "DisplacementLb": 29600,
     "NormalizedHullType": "Semi-Displacement",
     "FuelCapacityGal": null,
-    "WaterCapacityGal": null
+    "WaterCapacityGal": null,
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -19992,7 +20490,13 @@
       "The model-number changes did not create separate hull families."
     ],
     "OwnershipCharacter": "Twin inboards add maintenance but are simple and conventional. Narrow side decks and high flybridge loading deserve attention; older examples are now restoration-age boats.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -20204,7 +20708,13 @@
       "The model sits between the older Esprit series and the later 300/310 Express generation."
     ],
     "OwnershipCharacter": "Twin sterndrives provide speed but double drive service. Hydraulic cockpit lift improves engine access; cored structure and drive/transom condition are important on older boats.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -20413,7 +20923,13 @@
       "B-Scout corrected the unsupported '3280 Esprit' identity to the documented 3260/3270 family."
     ],
     "OwnershipCharacter": "Conventional twin gasoline inboards make the basic machinery understandable, but the specific 3260 versus 3270 drivetrain/layout must be verified. Cored deck structure and 1980s tanks/electrical deserve survey attention.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -20623,7 +21139,13 @@
       "The later 3470/340 Express moved the same mission into a more modern 2000s platform."
     ],
     "OwnershipCharacter": "Good value and broad powertrain knowledge, but balsa-cored hull areas and twin-drive maintenance are important survey items. V-drive and sterndrive examples have different service profiles.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -20835,7 +21357,13 @@
       "It bridges the 3375 Esprit era and later 330/350/35 Express family."
     ],
     "OwnershipCharacter": "Twin gasoline power and fully cored construction mean drivetrain and moisture survey are key. Inboard versions simplify underwater maintenance relative to sterndrives.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -21060,7 +21588,13 @@
       "The naming progression represents one continuous platform, with detail updates including improved aft-deck enclosure panels in 1999."
     ],
     "OwnershipCharacter": "Excellent liveaboard volume but full motor-yacht systems: twin mains, two heads, aft deck, flybridge and large domestic loads. Gasoline is common; diesel examples better suit high annual mileage.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -21273,7 +21807,13 @@
       "The rename did not alter the core hull/model identity."
     ],
     "OwnershipCharacter": "A lot of accommodation and cockpit for the money, but twin V-drives, generator, two heads and a compact engine room make access and service planning important.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -21486,7 +22026,13 @@
       "The later 390 Express Coupe (2015–23) is a separate newer design despite the shared number."
     ],
     "OwnershipCharacter": "Fast, comfortable and weather-protected, but IPS examples introduce pod-drive specialist service while conventional V-drives are mechanically simpler. Electric hardtop/cockpit systems increase systems complexity.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -21702,7 +22248,13 @@
       "B-Scout extends the canonical family through 2014 in line with the documented 405/415 production history."
     ],
     "OwnershipCharacter": "Comfortable and highly integrated, but two private suites, twin engines, generator/HVAC and a fully cored hull make this a true yacht to maintain. Diesel examples add range; gasoline versions are cheaper to service but thirsty.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -21931,7 +22483,13 @@
     "DisplacementLb": 6200,
     "FuelCapacityGal": 116,
     "WaterCapacityGal": 22,
-    "NormalizedHullType": "Planing"
+    "NormalizedHullType": "Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -22163,7 +22721,13 @@
     "DisplacementLb": 6750,
     "FuelCapacityGal": 80,
     "WaterCapacityGal": 40,
-    "NormalizedHullType": "Semi-Planing"
+    "NormalizedHullType": "Semi-Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -22395,7 +22959,13 @@
     "DisplacementLb": 8000,
     "FuelCapacityGal": 100,
     "WaterCapacityGal": 40,
-    "NormalizedHullType": "Semi-Planing"
+    "NormalizedHullType": "Semi-Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -22627,7 +23197,13 @@
     "DisplacementLb": 10980,
     "FuelCapacityGal": 180,
     "WaterCapacityGal": 60,
-    "NormalizedHullType": "Semi-Planing"
+    "NormalizedHullType": "Semi-Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -22857,7 +23433,13 @@
     "DisplacementLb": 10200,
     "FuelCapacityGal": 180,
     "WaterCapacityGal": 80,
-    "NormalizedHullType": "Semi-Planing"
+    "NormalizedHullType": "Semi-Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -23089,7 +23671,13 @@
     "DisplacementLb": 12100,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 60,
-    "NormalizedHullType": "Planing"
+    "NormalizedHullType": "Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -23329,7 +23917,13 @@
     "DisplacementLb": 21000,
     "FuelCapacityGal": 380,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -23565,7 +24159,13 @@
     "DisplacementLb": 24000,
     "FuelCapacityGal": 450,
     "WaterCapacityGal": 150,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -23802,7 +24402,13 @@
     "DisplacementLb": 29000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 200,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -24043,7 +24649,13 @@
     "DisplacementLb": 23000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 250,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -24284,7 +24896,13 @@
     "DisplacementLb": 40836,
     "FuelCapacityGal": 1072,
     "WaterCapacityGal": 500,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -24521,7 +25139,13 @@
     "DisplacementLb": 38000,
     "FuelCapacityGal": 500,
     "WaterCapacityGal": 250,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -24762,7 +25386,13 @@
     "DisplacementLb": 43200,
     "FuelCapacityGal": 600,
     "WaterCapacityGal": 275,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -25003,7 +25633,13 @@
     "DisplacementLb": 54000,
     "FuelCapacityGal": 1100,
     "WaterCapacityGal": 370,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -25229,7 +25865,13 @@
     "LengthFt": 29.0,
     "BeamFt": 10.0,
     "DraftFt": 3.0,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -25455,7 +26097,13 @@
     "LengthFt": 31.0,
     "BeamFt": 11.0,
     "DraftFt": 3.0,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -25684,7 +26332,13 @@
     "LengthFt": 35.0,
     "BeamFt": 11.5,
     "DraftFt": 3.5,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -25913,7 +26567,13 @@
     "LengthFt": 37.0,
     "BeamFt": 13.17,
     "DraftFt": 4.0,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -26144,7 +26804,13 @@
     "LengthFt": 39.0,
     "BeamFt": 13.0,
     "DraftFt": 4.0,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -26375,7 +27041,13 @@
     "LengthFt": 42.0,
     "BeamFt": 13.0,
     "DraftFt": 4.0,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ENDEAVOUR",
@@ -26596,7 +27268,13 @@
       "The larger 44 TrawlerCat followed as Endeavour's more spacious, faster-selling development of the same power-cat cruising concept."
     ],
     "OwnershipCharacter": "Shallow draft and twin small diesels are efficient, but 15-foot beam affects slips and haul-out options. Two engines and catamaran-specific structure double some service points, while the relatively simple lower-helm arrangement avoids flybridge duplication.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ENDEAVOUR",
@@ -26839,7 +27517,13 @@
       "Watertight collision bulkheads and recessed propellers are integral features of the catamaran hull design."
     ],
     "OwnershipCharacter": "Extraordinary living space, but the nearly 19-foot beam strongly constrains marina, travel-lift and haul-out choices. Twin diesels and two hulls mean duplicated machinery/plumbing; access and shallow draft remain strong positives.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "FJORD",
@@ -27053,7 +27737,13 @@
       "Published owner-club records give a broader 2005–2012 production window, but contemporary launch reporting supports 2008 as the reliable introduction point; B-Scout therefore uses 2008–2012."
     ],
     "OwnershipCharacter": "Twin diesels and enclosed accommodation make it a much more substantial cruising proposition than the Open. It remains performance-oriented, so sterndrive/drive-train service, glazing, ventilation and tightly packaged machinery matter more than slow-speed economy.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "FJORD",
@@ -27269,7 +27959,13 @@
       "The 36 Cruiser is a separate enclosed-cruising sister model, not the same canonical identity."
     ],
     "OwnershipCharacter": "Excellent deck circulation and high-speed coastal capability, but twin diesel sterndrives and a socially oriented open deck make it more performance/dayboat than cruising yacht. Drive maintenance, teak/deck surfaces, sun exposure and cabin ventilation are the main ownership considerations.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "FJORD",
@@ -27486,7 +28182,13 @@
       "Fjord now lists the 40 Cruiser as a legacy model, superseded conceptually by newer XL/Coupe-style products."
     ],
     "OwnershipCharacter": "IPS joystick handling and enclosed salon make it easy to use, but twin pods, complex glazing, large electrical loads and premium interior systems require specialist service. It is considerably more complex than a traditional shaft-drive sedan.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "FJORD",
@@ -27703,7 +28405,13 @@
       "Current Fjord 39/41/XL models are the conceptual successors rather than direct renames."
     ],
     "OwnershipCharacter": "Superb social deck and performance, but twin IPS pods, expansive teak/open surfaces and limited enclosed accommodation make it a high-cost day-yacht proposition rather than an efficient long-range cruiser.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "FORTIER",
@@ -27929,7 +28637,13 @@
     "DraftFt": 2.5,
     "DisplacementLb": 6500,
     "FuelCapacityGal": 100,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "FORTIER",
@@ -28158,7 +28872,13 @@
     "DraftFt": 2.67,
     "DisplacementLb": 12000,
     "FuelCapacityGal": 220,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GOZZARD",
@@ -28378,7 +29098,13 @@
       "The later PLAY 43 was a separate Mexico-built Ted Gozzard design and did not continue the North Castle Pilgrim 40 production line."
     ],
     "OwnershipCharacter": "Single diesel, full keel and slow operating speed make the drivetrain inexpensive and simple. The unusual wood-framed pilothouse details, large domestic water system and low-volume production mean many cosmetic/interior components require owner craftsmanship rather than catalogue replacement.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GRAND",
@@ -28659,7 +29385,13 @@
     "FuelCapacityGal": 250,
     "WaterCapacityGal": 110,
     "NormalizedHullType": "Semi-Displacement",
-    "BoatFamily": "Trawler"
+    "BoatFamily": "Trawler",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GRAND",
@@ -28935,7 +29667,13 @@
       "The 36 Europa and 36 Motor Yacht use the same underlying 36-family hull concept but substantially different deckhouse/aft-deck arrangements."
     ],
     "OwnershipCharacter": "A highly serviceable cruising couple's boat, but old-boat condition dominates ownership cost. Teak decks and brightwork, aging tanks, windows, wiring and decades of owner modifications can make two apparently similar 36s very different propositions.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GRAND",
@@ -29214,7 +29952,13 @@
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 170,
     "NormalizedHullType": "Semi-Displacement",
-    "BoatFamily": "Trawler"
+    "BoatFamily": "Trawler",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GRAND",
@@ -29478,7 +30222,13 @@
       "The 42 Europa and 42 Motor Yacht share the broader 42-family platform but use different deckhouse and aft-deck arrangements."
     ],
     "OwnershipCharacter": "Large enough for genuine extended cruising and liveaboard use yet still commonly operated by a couple. Twin engines, extensive teak, multiple heads and larger tankage increase upkeep materially versus the 32/36, and generation-specific dimensions matter when evaluating slips and haul-out.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GRAND",
@@ -29761,7 +30511,13 @@
     "DisplacementLb": 42960,
     "FuelCapacityGal": 630,
     "WaterCapacityGal": 300,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GRAND",
@@ -30041,7 +30797,13 @@
     "DisplacementLb": 60000,
     "FuelCapacityGal": 1000,
     "WaterCapacityGal": 500,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GREAT",
@@ -30267,7 +31029,13 @@
       "Production is now suspended; factory material remains available to support the brokerage/owner fleet."
     ],
     "OwnershipCharacter": "Exceptionally low propulsion load—twin 54 hp diesels—but enormous beam, 48,000-pound loaded displacement and household-scale systems create big-boat logistics. Shallow draft, twin protected shafts and a stand-up machinery space are major service advantages.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GREAT",
@@ -30494,7 +31262,13 @@
       "The N37 demonstrated offshore capability with a 2002 Bermuda passage while remaining optimized for inland/coastal cruising."
     ],
     "OwnershipCharacter": "Twin small diesels, shallow draft and enormous storage make it an unusually capable couple's cruiser. The 15'10\" beam and 47,000–48,000-pound loaded displacement remain the dominant marina/haul-out constraints.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GREENLINE",
@@ -30727,7 +31501,13 @@
       "The larger Greenline 39 is a later two-cabin development of the same efficiency/solar philosophy rather than a direct stretch."
     ],
     "OwnershipCharacter": "Exceptionally low hotel-energy demand and single-shaft simplicity in diesel form; hybrid/electric boats add battery, inverter and control-system complexity. Aging early-generation lithium/hybrid hardware should be evaluated as carefully as the diesel machinery.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GREENLINE",
@@ -30951,7 +31731,13 @@
       "The 39 remains in the current Greenline range as of 2026."
     ],
     "OwnershipCharacter": "Single-shaft diesel versions are mechanically simple for the size; hybrid/electric versions add costly batteries, motor/inverter hardware and software dependence. Solar dramatically reduces generator need but does not eliminate high-load shore/engine charging requirements.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GULFSTAR",
@@ -31191,7 +31977,13 @@
     "DisplacementLb": 16000,
     "FuelCapacityGal": 250,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GULFSTAR",
@@ -31431,7 +32223,13 @@
     "DisplacementLb": 21000,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 130,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GULFSTAR",
@@ -31674,7 +32472,13 @@
     "DisplacementLb": 28400,
     "FuelCapacityGal": 500,
     "WaterCapacityGal": 250,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "GULFSTAR",
@@ -31914,7 +32718,13 @@
     "DisplacementLb": 42000,
     "FuelCapacityGal": 675,
     "WaterCapacityGal": 370,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "HELMSMAN",
@@ -32139,7 +32949,13 @@
     ],
     "OwnershipCharacter": "A refined pocket trawler for couples who want Camano-scale handling and efficiency with newer systems, improved accommodation and yacht-level finish. Newer equipment raises replacement cost relative to an older Camano.",
     "CharacterConfidence": "High",
-    "HullLength_ft": 28.0
+    "HullLength_ft": 28.0,
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "HELMSMAN",
@@ -32366,7 +33182,13 @@
     ],
     "OwnershipCharacter": "Comfortable and unusually spacious for the nominal length, with strong machinery access and protected decks. Wide beam and substantial systems make it more marina- and maintenance-intensive than the 31.",
     "CharacterConfidence": "High",
-    "HullLength_ft": 37.833
+    "HullLength_ft": 37.833,
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "HELMSMAN",
@@ -32595,7 +33417,13 @@
     ],
     "OwnershipCharacter": "Serious couple or small-family cruising platform with liveaboard-scale comfort. More displacement, systems and dockage requirements than the 38E, but still intentionally simpler than twin-engine motoryachts of similar volume.",
     "CharacterConfidence": "High",
-    "HullLength_ft": 42.5
+    "HullLength_ft": 42.5,
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "HELMSMAN",
@@ -32824,7 +33652,13 @@
     ],
     "OwnershipCharacter": "A large, systems-rich cruising yacht despite the single-engine philosophy. It demands serious dockage, haul-out capacity and operating budget, but emphasizes accessible machinery and protected running gear.",
     "CharacterConfidence": "High",
-    "HullLength_ft": 46.0
+    "HullLength_ft": 46.0,
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "HOLIDAY",
@@ -33028,7 +33862,13 @@
       "B-Scout preserves the existing record as the verified 38 Barracuda Coastal rather than deleting the legitimate 38-foot hull family."
     ],
     "OwnershipCharacter": "Maximum living space per dollar, but tall slab-sided profile, sterndrive machinery and houseboat construction limit open-water suitability. Hull/deck joint, windows, transom/drive condition and extensive domestic systems matter more than traditional trawler seaworthiness metrics.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "HUNT",
@@ -33249,7 +34089,13 @@
     "DisplacementLb": 9000,
     "FuelCapacityGal": 150,
     "WaterCapacityGal": 28,
-    "NormalizedHullType": "Deep-V"
+    "NormalizedHullType": "Deep-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "HUNT",
@@ -33473,7 +34319,13 @@
     "DisplacementLb": 14000,
     "FuelCapacityGal": 150,
     "WaterCapacityGal": 50,
-    "NormalizedHullType": "Deep-V"
+    "NormalizedHullType": "Deep-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ISLANDGYPSY",
@@ -33706,7 +34558,13 @@
     "DisplacementLb": 16400,
     "FuelCapacityGal": 250,
     "WaterCapacityGal": 120,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ISLANDGYPSY",
@@ -33939,7 +34797,13 @@
     "DisplacementLb": 13000,
     "FuelCapacityGal": 250,
     "WaterCapacityGal": 120,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ISLANDGYPSY",
@@ -34172,7 +35036,13 @@
     "DisplacementLb": 16400,
     "FuelCapacityGal": 250,
     "WaterCapacityGal": 120,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ISLAND",
@@ -34409,7 +35279,13 @@
     "DisplacementLb": 27000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 200,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ISLAND",
@@ -34640,7 +35516,13 @@
     "DisplacementLb": 25520,
     "FuelCapacityGal": 450,
     "WaterCapacityGal": 150,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ISLAND",
@@ -34877,7 +35759,13 @@
     "DisplacementLb": 34000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 200,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ISLAND",
@@ -35114,7 +36002,13 @@
     "DisplacementLb": 38500,
     "FuelCapacityGal": 720,
     "WaterCapacityGal": 320,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "JEAU",
@@ -35341,7 +36235,13 @@
       "Later Series 2 developments continue the 1095 family."
     ],
     "OwnershipCharacter": "Twin outboards remain service-friendly, but three sleeping zones, climate systems and larger electrical loads make it a full cruising yacht. Beam and tow weight remove the easy-trailer character of smaller Merry Fishers.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "JEAU",
@@ -35568,7 +36468,13 @@
       "The Fly remains separate from the Coupé because upper-deck weight, air draft and use pattern materially affect ownership."
     ],
     "OwnershipCharacter": "Twin outboards are accessible, but flybridge duplication, greater windage and additional seating/electronics raise upkeep over the Coupé. Air draft also becomes a more significant route/storage constraint.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "JEAU",
@@ -35776,7 +36682,13 @@
       "Series updates are treated within the same marketed model where hull continuity is documented."
     ],
     "OwnershipCharacter": "Very low system count and one outboard make it inexpensive to maintain. The compact cabin and limited water/storage capacity are more important constraints than mechanical complexity.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "JEAU",
@@ -35984,7 +36896,13 @@
       "B-Scout keeps the model separate rather than mapping it onto the later 605 or 695."
     ],
     "OwnershipCharacter": "Simple and inexpensive mechanically, but age, sparse documentation and legacy glazing/trim are greater concerns than propulsion. Individual layout and tankage should be verified.",
-    "CharacterConfidence": "Moderate"
+    "CharacterConfidence": "Moderate",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "JEAU",
@@ -36202,7 +37120,13 @@
       "The 795 is the larger step in the same current family, not a stretched version of the same hull."
     ],
     "OwnershipCharacter": "Single outboard and modest systems keep ownership easy. Series-specific dimensions and options should be checked because the marketed 695 identity spans more than one generation.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "JEAU",
@@ -36422,7 +37346,13 @@
       "The 855/895 family is the next twin-outboard step up."
     ],
     "OwnershipCharacter": "Still mechanically simple with one outboard, but refrigerator, enclosed head and optional climate systems make it a real weekender. Trailer/tow weight is materially greater than the 605/695.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "JEAU",
@@ -36633,7 +37563,13 @@
       "The 855 therefore remains a distinct predecessor generation, not an alias for the 895."
     ],
     "OwnershipCharacter": "Twin outboards are easy to service but double routine engine cost. Two cabins, galley and head make it considerably more systems-heavy than smaller Merry Fishers.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "JEAU",
@@ -36866,7 +37802,13 @@
       "Current Series 2 boats accept twin outboards up to 250 hp each and remain in production."
     ],
     "OwnershipCharacter": "Twin outboards and two cabins make it a capable small cruising yacht. Mechanical service is straightforward, but HVAC/generator/lithium/solar options can make highly equipped examples much more complex.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "JEAU",
@@ -37077,7 +38019,13 @@
       "It remains a distinct canonical model rather than an equipment package for the regular 895."
     ],
     "OwnershipCharacter": "Excellent deck access and outboard serviceability, but fishing hardware, doors and exposed deck systems need more upkeep. Twin engines and optional cruising systems create moderate complexity.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -37313,7 +38261,13 @@
     "DisplacementLb": 23000,
     "FuelCapacityGal": 280,
     "WaterCapacityGal": 300,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -37548,7 +38502,13 @@
     "DisplacementLb": 33470,
     "FuelCapacityGal": 700,
     "WaterCapacityGal": 300,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -37783,7 +38743,13 @@
     "DisplacementLb": 40000,
     "FuelCapacityGal": 700,
     "WaterCapacityGal": 360,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -38017,7 +38983,13 @@
     "DisplacementLb": 43140,
     "FuelCapacityGal": 850,
     "WaterCapacityGal": 300,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -38251,7 +39223,13 @@
     "DisplacementLb": 56450,
     "FuelCapacityGal": 1000,
     "WaterCapacityGal": 400,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "LUHRS",
@@ -38470,7 +39448,13 @@
       "The larger Alura 35 shared the same broad multipurpose fishing/cruising concept but was a separate hull."
     ],
     "OwnershipCharacter": "One inboard and full keel are mechanically straightforward, although gasoline fuel burn is substantial relative to a diesel trawler. The 1988 keel revision makes year important; steering linkage, shaft alignment, fuel tanks and cockpit structure should be checked.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -38719,7 +39703,13 @@
     "DisplacementLb": 10000,
     "FuelCapacityGal": 175,
     "WaterCapacityGal": 40,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -38991,7 +39981,13 @@
     "DisplacementLb": 14000,
     "FuelCapacityGal": 220,
     "WaterCapacityGal": 50,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -39281,7 +40277,13 @@
     "DisplacementLb": 14000,
     "FuelCapacityGal": 220,
     "WaterCapacityGal": 50,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -39533,7 +40535,13 @@
     "DisplacementLb": 22000,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 130,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -39785,7 +40793,13 @@
     "DisplacementLb": 22000,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 130,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -40042,7 +41056,13 @@
     "DisplacementLb": 24000,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 130,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -40243,7 +41263,13 @@
     "LengthFt": 34.0,
     "BeamFt": 11.75,
     "DraftFt": 3.5,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -40448,7 +41474,13 @@
     "DisplacementLb": 19600,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 150,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MARINE",
@@ -40710,7 +41742,13 @@
     "DisplacementLb": 21000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 150,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -40971,7 +42009,13 @@
     "DisplacementLb": 22000,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 250,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -41223,7 +42267,13 @@
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 150,
     "NormalizedHullType": "Semi-Displacement",
-    "ResearchNotes": "Documented 2010 Marine Trader 38 Sundeck examples are materially different from the older 38 Double Cabin. Older catalog lineage is unclear; retained with Moderate character confidence.\n\nBatch 33 confidence audit: exact-model identity and source quality rechecked. Confidence is intentionally retained where factory/importer documentation is incomplete; missing evidence does not trigger deletion or inferred consolidation."
+    "ResearchNotes": "Documented 2010 Marine Trader 38 Sundeck examples are materially different from the older 38 Double Cabin. Older catalog lineage is unclear; retained with Moderate character confidence.\n\nBatch 33 confidence audit: exact-model identity and source quality rechecked. Confidence is intentionally retained where factory/importer documentation is incomplete; missing evidence does not trigger deletion or inferred consolidation.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -41478,7 +42528,13 @@
     "DisplacementLb": 30000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 250,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -41759,7 +42815,13 @@
     "DisplacementLb": 33000,
     "FuelCapacityGal": 500,
     "WaterCapacityGal": 250,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MERIDIAN",
@@ -41997,7 +43059,13 @@
     "DisplacementLb": 18254,
     "FuelCapacityGal": 250,
     "WaterCapacityGal": 90,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MERIDIAN",
@@ -42216,7 +43284,13 @@
     "DisplacementLb": 22275,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 125,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MONK",
@@ -42459,7 +43533,13 @@
     "DisplacementLb": 18000,
     "FuelCapacityGal": 320,
     "WaterCapacityGal": 120,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NIMBLE",
@@ -42687,7 +43767,13 @@
     "LengthFt": 24.5,
     "BeamFt": 8.5,
     "DraftFt": 1.3,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NIMBLE",
@@ -42928,7 +44014,13 @@
     "BeamFt": 8.5,
     "DraftFt": 2.83,
     "DisplacementLb": 8800,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "BoatModelID": "NMBS-3003",
@@ -43159,7 +44251,13 @@
       "The later Nimbus Coupé series moved toward enclosed salon/sidewalk arrangements rather than continuing the separated aft-cabin layout."
     ],
     "OwnershipCharacter": "Single shaft diesel and compact size keep machinery manageable, but the segmented cabin arrangement, numerous windows and aft-cabin ventilation create model-specific moisture and access concerns. Volvo mechanical support is generally good; model-specific trim/glazing is legacy.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NIMBUS",
@@ -43379,7 +44477,13 @@
       "Single Volvo D6 and twin D4 shaft-drive configurations have both been factory-offered."
     ],
     "OwnershipCharacter": "Unusually easy to handle for a 38-foot cruiser because of the helm side door, sidewalk deck and bow thruster. Single-shaft versions are simpler; twin-shaft versions add redundancy and cost. Heating, sunroofs, glazing and substantial domestic systems make it a real long-stay cruiser rather than a minimalist boat.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NORD_STAR",
@@ -43603,7 +44707,13 @@
       "Its defining architecture is three-door pilothouse access and uninterrupted walkaround decks rather than sedan-style interior volume."
     ],
     "OwnershipCharacter": "Excellent all-weather ergonomics and robust construction, but twin high-output sterndrives create significant maintenance exposure. Drive corrosion, bellows/transom assemblies, heating/demisting and door/glazing seals are critical service items.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NORDHAVN",
@@ -43831,7 +44941,13 @@
       "Later construction moved to South Coast in China; 69 N40s were built before production ended in 2018, with the Nordhavn 41 later filling the small-passagemaker role."
     ],
     "OwnershipCharacter": "Purpose-built for redundancy and offshore service, not simplicity in the recreational sense. One main engine reduces routine propulsion count, but wing engine, stabilizers, dry exhaust, huge fuel system, generator, watermaker and expedition electrical systems demand professional-level maintenance.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -44104,7 +45220,13 @@
       "Production ended in 1997 and the model returned in limited production in 2009."
     ],
     "OwnershipCharacter": "Simple by cruising-yacht standards and well suited to a couple willing to live compactly. Small size helps with dockage, haul-out and fuel costs; age, limited storage and model-specific trim can matter more than machinery complexity.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -44351,7 +45473,13 @@
       "The 32 later evolved into the Nordic Tug 34 as the transom/swim platform was integrated and the interior was refreshed."
     ],
     "OwnershipCharacter": "One of the more approachable traditional cruising boats for a couple: straightforward single-diesel machinery, protected running gear and strong owner support. Interior space is efficient rather than expansive, and older examples vary considerably by engine and refit history.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -44597,7 +45725,13 @@
       "Current factory specifications continue the single-engine, full-keel, semi-displacement concept."
     ],
     "OwnershipCharacter": "A mature cruising-couple package with more usable length and contemporary systems than an older 32. Still relatively manageable, but dockage, systems and replacement costs move it clearly above the 26 in ownership scale.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -44853,7 +45987,13 @@
       "The same family was renamed/evolved into the Nordic Tug 39 for the 2013–2015 generation."
     ],
     "OwnershipCharacter": "A strong fit for serious cruising couples who want space and weather protection without twin engines. Systems and displacement are substantial enough that annual maintenance and marina costs are materially higher than on the 32/34.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -45114,7 +46254,13 @@
       "Its core design philosophy remains single-diesel efficiency, protected running gear and pilothouse visibility."
     ],
     "OwnershipCharacter": "Similar ownership scale to a late Nordic Tug 37: capable, comfortable and relatively straightforward for its size, but firmly in yacht-scale dockage, systems and refit territory.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -45385,7 +46531,13 @@
       "The larger model added significantly more privacy, tankage and systems while retaining the brand's pilothouse identity."
     ],
     "OwnershipCharacter": "A serious cruising yacht rather than a simple pocket tug. The single engine reduces propulsion complexity, but size, tankage, electrical systems, heating/air-conditioning and haul-out requirements make ownership materially more demanding.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NORTH",
@@ -45614,7 +46766,13 @@
     "DisplacementLb": 8400,
     "FuelCapacityGal": 100,
     "WaterCapacityGal": 50,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "NORTH",
@@ -45845,7 +47003,13 @@
     "DisplacementLb": 24000,
     "FuelCapacityGal": 350,
     "WaterCapacityGal": 200,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "OCEA",
@@ -46068,7 +47232,13 @@
     "DisplacementLb": 19000,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 150,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "OCEAN",
@@ -46294,7 +47464,13 @@
     "DisplacementLb": 26000,
     "FuelCapacityGal": 400,
     "WaterCapacityGal": 150,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "PDQ",
@@ -46501,7 +47677,13 @@
       "The PDQ 34 became one of the best-known North American cruising power cats of the early 2000s."
     ],
     "OwnershipCharacter": "Excellent fuel economy and redundant twin diesels, but nearly 17 feet of beam controls slip/haul-out availability. Two hulls duplicate engines, shafts and some systems; otherwise machinery is simple and accessible.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "PRAIRIE",
@@ -46734,7 +47916,13 @@
     "DisplacementLb": 12000,
     "FuelCapacityGal": 100,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "PRAIRIE",
@@ -46968,7 +48156,13 @@
     "DisplacementLb": 22000,
     "FuelCapacityGal": 250,
     "WaterCapacityGal": 200,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -47200,7 +48394,13 @@
       "The current Ranger lineup no longer uses this displacement-speed 21-foot formula."
     ],
     "OwnershipCharacter": "Very low fuel and dockage demands, but genuinely small accommodations. Age, engine access and compact systems matter more than complexity.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -47433,7 +48633,13 @@
       "Ranger Tugs now lists both 21 versions only as past models."
     ],
     "OwnershipCharacter": "Simple, economical and trailer-friendly, but best for couples comfortable with very compact living and limited storage.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -47681,7 +48887,13 @@
     "DisplacementLb": 6000,
     "FuelCapacityGal": 80,
     "WaterCapacityGal": 22,
-    "NormalizedHullType": "Planing"
+    "NormalizedHullType": "Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -47918,7 +49130,13 @@
       "Ranger Tugs preserves the Classic as a separate past-model identity."
     ],
     "OwnershipCharacter": "Economical and mechanically conventional, with greater cruising utility than the R-21. Older systems and tight service access are the main ownership constraints.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -48167,7 +49385,13 @@
     "DisplacementLb": 6500,
     "FuelCapacityGal": 99,
     "WaterCapacityGal": 34,
-    "NormalizedHullType": "Planing"
+    "NormalizedHullType": "Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -48410,7 +49634,13 @@
     "DraftFt": 2.17,
     "DisplacementLb": 6250,
     "FuelCapacityGal": 80,
-    "WaterCapacityGal": 40
+    "WaterCapacityGal": 40,
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -48654,7 +49884,13 @@
     "DraftFt": 2.17,
     "DisplacementLb": 6200,
     "FuelCapacityGal": 100,
-    "WaterCapacityGal": 40
+    "WaterCapacityGal": 40,
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -48902,7 +50138,13 @@
     "DisplacementLb": 8200,
     "FuelCapacityGal": 150,
     "WaterCapacityGal": 40,
-    "NormalizedHullType": "Planing"
+    "NormalizedHullType": "Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -49140,7 +50382,13 @@
       "The current R-27 moves to twin Yamaha F150 outboards, so B-Scout keeps the single-outboard generation separate."
     ],
     "OwnershipCharacter": "More accessible propulsion service than the diesel R-27 and substantially faster performance, while retaining true trailerability and Ranger's dense cruising systems.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -49386,7 +50634,13 @@
     "DisplacementLb": 9250,
     "FuelCapacityGal": 120,
     "WaterCapacityGal": 70,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -49635,7 +50889,13 @@
     "DisplacementLb": 10800,
     "FuelCapacityGal": 145,
     "WaterCapacityGal": 45,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -49881,7 +51141,13 @@
     "DisplacementLb": 10500,
     "FuelCapacityGal": 145,
     "WaterCapacityGal": 45,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -50128,7 +51394,13 @@
     "DisplacementLb": 12500,
     "FuelCapacityGal": 180,
     "WaterCapacityGal": 60,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -50377,7 +51649,13 @@
     "DisplacementLb": 12000,
     "FuelCapacityGal": 180,
     "WaterCapacityGal": 60,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -50621,7 +51899,13 @@
     "BeamFt": 14.0,
     "DraftFt": 3.5,
     "FuelCapacityGal": 300,
-    "WaterCapacityGal": 120
+    "WaterCapacityGal": 120,
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -50867,7 +52151,13 @@
     "BeamFt": 14.0,
     "DraftFt": 3.5,
     "FuelCapacityGal": 300,
-    "WaterCapacityGal": 120
+    "WaterCapacityGal": 120,
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ROSBOROUGH",
@@ -51106,7 +52396,13 @@
     "DraftFt": 1.5,
     "DisplacementLb": 5000,
     "FuelCapacityGal": 115,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ROSBOROUGH",
@@ -51345,7 +52641,13 @@
     "DraftFt": 1.5,
     "DisplacementLb": 6000,
     "FuelCapacityGal": 87,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "ROSBOROUGH",
@@ -51585,7 +52887,13 @@
     "DisplacementLb": 6000,
     "FuelCapacityGal": 115,
     "WaterCapacityGal": 40,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SABRE",
@@ -51810,7 +53118,13 @@
     "DisplacementLb": 20000,
     "FuelCapacityGal": 250,
     "WaterCapacityGal": 60,
-    "NormalizedHullType": "Planing"
+    "NormalizedHullType": "Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SABRE",
@@ -52038,7 +53352,13 @@
     "DisplacementLb": 21500,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Planing"
+    "NormalizedHullType": "Planing",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SAGA",
@@ -52264,7 +53584,13 @@
       "Engine options ranged from modest 75–85 hp diesels to 150–170 hp high-performance packages."
     ],
     "OwnershipCharacter": "Single-diesel ownership is simple, but drivetrain choice matters greatly: shaft versions are low-maintenance and trawler-like, while DuoProp sterndrive boats require drive/corrosion service. Scandinavian joinery and enclosed systems are generally durable.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEA",
@@ -52512,7 +53838,13 @@
     "DisplacementLb": 14600,
     "FuelCapacityGal": 225,
     "WaterCapacityGal": 45,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEA",
@@ -52745,7 +54077,13 @@
     "DisplacementLb": 26500,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEAHORSE",
@@ -52953,7 +54291,13 @@
       "The current Coot 38 represents an enlarged/evolved version of the same pocket-trawler concept."
     ],
     "OwnershipCharacter": "Steel hull inspection, coatings and corrosion management are the central ownership tasks. In exchange, the single diesel, enormous fuel/water capacity and workboat systems are simple and repairable almost anywhere.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEAHORSE",
@@ -53162,7 +54506,13 @@
       "B-Scout replaced an unsupported provisional 'Seahorse 40 Pilothouse' record with this verified Coot 38 identity."
     ],
     "OwnershipCharacter": "Rugged and repairable, but steel-hull coating and corrosion inspection are non-negotiable. A single diesel keeps propulsion simple; heavy displacement and 13-foot beam increase haul-out requirements.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEALORD",
@@ -53376,7 +54726,13 @@
     "DisplacementLb": 18000,
     "FuelCapacityGal": 200,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEAPIPER",
@@ -53599,7 +54955,13 @@
       "The model's industrial aesthetic and separated living zones are intentional design choices, not evidence of unfinished yacht styling."
     ],
     "OwnershipCharacter": "Mechanically simple, economical and unusually easy to berth for its length. The narrow beam reduces interior openness, while unusual construction details, limited production and proprietary finish work can require owner ingenuity.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEASPORT",
@@ -53830,7 +55192,13 @@
     "DisplacementLb": 5000,
     "FuelCapacityGal": 149,
     "WaterCapacityGal": 25,
-    "NormalizedHullType": "Deep-V"
+    "NormalizedHullType": "Deep-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEASPORT",
@@ -54063,7 +55431,13 @@
     "DisplacementLb": 5500,
     "FuelCapacityGal": 129,
     "WaterCapacityGal": 25,
-    "NormalizedHullType": "Deep-V"
+    "NormalizedHullType": "Deep-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEASPORT",
@@ -54307,7 +55681,13 @@
     "DisplacementLb": 6350,
     "FuelCapacityGal": 160,
     "WaterCapacityGal": 45,
-    "NormalizedHullType": "Deep-V"
+    "NormalizedHullType": "Deep-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEAWAY",
@@ -54469,7 +55849,13 @@
     "LengthFt": 24.0,
     "BeamFt": 8.5,
     "NormalizedHullType": "Semi-Displacement",
-    "ResearchNotes": "Model identity is retained from established Seaway market records, but exact production chronology and standardized displacement/tankage could not be verified strongly enough in this pass. Existing representative specifications remain available elsewhere in the record; uncertain values are not promoted to high-confidence canonical specs."
+    "ResearchNotes": "Model identity is retained from established Seaway market records, but exact production chronology and standardized displacement/tankage could not be verified strongly enough in this pass. Existing representative specifications remain available elsewhere in the record; uncertain values are not promoted to high-confidence canonical specs.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SEAWAY",
@@ -54628,7 +56014,13 @@
     "YearEnd": null,
     "LengthFt": 28.0,
     "NormalizedHullType": "Semi-Displacement",
-    "ResearchNotes": "Retained at Moderate confidence. Trawler Forum owner experience documents 20–22-knot cruise and difficult low-speed docking without a bow thruster. Strong primary factory specs were not located, so prior dimensional/tankage figures are not elevated to verified status."
+    "ResearchNotes": "Retained at Moderate confidence. Trawler Forum owner experience documents 20–22-knot cruise and difficult low-speed docking without a bow thruster. Strong primary factory specs were not located, so prior dimensional/tankage figures are not elevated to verified status.",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SHANNON",
@@ -54819,7 +56211,13 @@
       "B-Scout removed the unsupported 'Shannon 26 SRD' identity and replaces it with the documented 38 SRD."
     ],
     "OwnershipCharacter": "High-quality custom construction and conventional diesel machinery are positives, but the low-volume patented hull and bespoke Shannon components make model-specific repairs less commoditized. Surveyors should understand the reverse-deadrise geometry rather than judge it as a conventional V-bottom.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SILVERTON",
@@ -55043,7 +56441,13 @@
     "DisplacementLb": 16368,
     "FuelCapacityGal": 260,
     "WaterCapacityGal": 74,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SILVERTON",
@@ -55267,7 +56671,13 @@
     "DisplacementLb": 20809,
     "FuelCapacityGal": 286,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SILVERTON",
@@ -55502,7 +56912,13 @@
     "DisplacementLb": 23577,
     "FuelCapacityGal": 286,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SILVERTON",
@@ -55727,7 +57143,13 @@
     "DisplacementLb": 24000,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SISU",
@@ -55953,7 +57375,13 @@
     "YearStart": null,
     "YearEnd": null,
     "LengthFt": 22.0,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "SISU",
@@ -56184,7 +57612,13 @@
     "DisplacementLb": 7200,
     "FuelCapacityGal": 80,
     "WaterCapacityGal": 10,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "TOLLYCRAFT",
@@ -56421,7 +57855,13 @@
     "DisplacementLb": 17000,
     "FuelCapacityGal": 296,
     "WaterCapacityGal": 116,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "TOLLYCRAFT",
@@ -56655,7 +58095,13 @@
     "DisplacementLb": 22000,
     "FuelCapacityGal": 300,
     "WaterCapacityGal": 120,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "TRANSPACIFIC",
@@ -56877,7 +58323,13 @@
       "B-Scout previously consolidated the duplicate 'Eagle 32 Trawler' record into this canonical Transpacific Marine identity."
     ],
     "OwnershipCharacter": "Single-diesel shaft drive and protected running gear are simple and desirable. Teak joinery, windows, tanks and legacy Ford Lehman/Perkins/Sabre components are age-related considerations; hull construction itself is straightforward and robust.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "TROJAN",
@@ -57112,7 +58564,13 @@
     "DisplacementLb": 17500,
     "FuelCapacityGal": 220,
     "WaterCapacityGal": 85,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "TRUE",
@@ -57348,7 +58806,13 @@
     "DisplacementLb": 15000,
     "FuelCapacityGal": 200,
     "WaterCapacityGal": 85,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "UNIFLITE",
@@ -57580,7 +59044,13 @@
     "DisplacementLb": 21000,
     "FuelCapacityGal": 200,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Modified-V"
+    "NormalizedHullType": "Modified-V",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "UNIVERSAL",
@@ -57804,7 +59274,13 @@
     "DisplacementLb": 19000,
     "FuelCapacityGal": 200,
     "WaterCapacityGal": 150,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "UNIVERSAL",
@@ -58027,7 +59503,13 @@
     "DisplacementLb": 17000,
     "FuelCapacityGal": 320,
     "WaterCapacityGal": 200,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "WILLARD",
@@ -58268,7 +59750,13 @@
     "DisplacementLb": 16000,
     "FuelCapacityGal": 100,
     "WaterCapacityGal": 100,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "WILLARD",
@@ -58517,7 +60005,13 @@
     "DisplacementLb": 22000,
     "FuelCapacityGal": 500,
     "WaterCapacityGal": 200,
-    "NormalizedHullType": "Displacement"
+    "NormalizedHullType": "Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "WILLARD",
@@ -58761,7 +60255,13 @@
     "DraftFt": null,
     "DisplacementLb": null,
     "FuelCapacityGal": null,
-    "WaterCapacityGal": null
+    "WaterCapacityGal": null,
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "WINDY",
@@ -59001,7 +60501,13 @@
       "The SN belongs to Windy's older Scandinavian cruising lineage and bears little relationship to the brand's later high-performance sports cruisers."
     ],
     "OwnershipCharacter": "Single shaft diesel, manual backup steering and tiny system count make it extremely economical. Scandinavian-specific fittings and age are the challenges; cabin size and standing headroom are naturally limited.",
-    "CharacterConfidence": "High"
+    "CharacterConfidence": "High",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -59291,7 +60797,13 @@
     "DisplacementLb": 14000,
     "FuelCapacityGal": 220,
     "WaterCapacityGal": 50,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -59581,6 +61093,12 @@
     "DisplacementLb": 14000,
     "FuelCapacityGal": 220,
     "WaterCapacityGal": 50,
-    "NormalizedHullType": "Semi-Displacement"
+    "NormalizedHullType": "Semi-Displacement",
+    "RarityScore": null,
+    "RarityLabel": "",
+    "RarityConfidence": "Not rated",
+    "PriceLevel": null,
+    "PriceLevelLabel": "",
+    "PriceConfidence": "Not rated"
   }
 ]

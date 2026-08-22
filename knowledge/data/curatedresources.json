@@ -13,16 +13,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Albin owner-manual discussion and component-document archive",
-        "url": "https://albinowners.net/aog/viewtopic.php?t=823",
-        "sourceLabel": "Albin Owners Group",
-        "resourceType": "Manual / owner documentation resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Later U.S.-built Albins often did not receive a single factory owner's manual; component manuals and owner knowledge are therefore particularly important."
       }
     ],
     "ownerCommunities": [
@@ -72,16 +62,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Albin owner-manual discussion and component-document archive",
-        "url": "https://albinowners.net/aog/viewtopic.php?t=823",
-        "sourceLabel": "Albin Owners Group",
-        "resourceType": "Manual / owner documentation resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Later U.S.-built Albins often did not receive a single factory owner's manual; component manuals and owner knowledge are therefore particularly important."
       }
     ],
     "ownerCommunities": [
@@ -131,16 +111,6 @@
         "scope": "Model-specific",
         "confidence": "Medium",
         "notes": ""
-      },
-      {
-        "title": "Albin owner-manual discussion and component-document archive",
-        "url": "https://albinowners.net/aog/viewtopic.php?t=823",
-        "sourceLabel": "Albin Owners Group",
-        "resourceType": "Manual / owner documentation resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Later U.S.-built Albins often did not receive a single factory owner's manual; component manuals and owner knowledge are therefore particularly important."
       }
     ],
     "ownerCommunities": [
@@ -198,40 +168,8 @@
     "BoatModelID": "CAMA-28-GN",
     "schemaVersion": 2,
     "videos": [],
-    "documents": [
-      {
-        "title": "Camano 31 Owner's Handbook",
-        "url": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
-        "sourceLabel": "Camano Pacific Region Owners Group",
-        "resourceType": "Owner handbook",
-        "verificationStatus": "Verified",
-        "scope": "Camano 28/31 family",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Camano history and construction overview",
-        "url": "https://www.camanopacific.com/about",
-        "sourceLabel": "Camano Pacific Region Owners Group",
-        "resourceType": "Owner-group reference",
-        "verificationStatus": "Verified",
-        "scope": "Camano family",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
-    "ownerCommunities": [
-      {
-        "title": "Camano Pacific Region Owners Group",
-        "url": "https://www.camanopacific.com/",
-        "sourceLabel": "Camano Pacific Region Owners Group",
-        "resourceType": "Owners group / forum",
-        "verificationStatus": "Verified",
-        "scope": "Family-wide",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "documents": [],
+    "ownerCommunities": [],
     "sources": [
       {
         "type": "CuratedResourceSet",
@@ -543,28 +481,7 @@
     "BoatModelID": "NMBS-3003",
     "schemaVersion": 2,
     "videos": [],
-    "documents": [
-      {
-        "title": "Nimbus 3003 — documented brokerage specification #1",
-        "url": "https://www.devalk.nl/en/yachtbrokerage/52892/NIMBUS-3003.html",
-        "sourceLabel": "De Valk",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Moderate",
-        "notes": ""
-      },
-      {
-        "title": "Nimbus 3003 — documented brokerage specification #2",
-        "url": "https://www.devalk.nl/en/yachtbrokerage/81320/NIMBUS-3003.html",
-        "sourceLabel": "De Valk",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Moderate",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "ownerCommunities": [],
     "sources": [
       {
@@ -602,16 +519,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -620,16 +527,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -672,16 +569,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -690,16 +577,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -742,16 +619,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -760,16 +627,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -812,16 +669,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -830,16 +677,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -882,16 +719,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -900,16 +727,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -954,16 +771,6 @@
         "notes": ""
       },
       {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Ranger R-27 diesel-generation reference",
         "url": "https://www.hmy.com/yachting/powerboat-guide/ranger/r-27-2011-current",
         "sourceLabel": "HMY Powerboat Guide",
@@ -980,16 +787,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1034,16 +831,6 @@
         "notes": ""
       },
       {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Sedan vs Command Bridge explanation",
         "url": "https://www.rangertugs.com/blog/next-level-boating-on-a-command-bridge",
         "sourceLabel": "Ranger Tugs",
@@ -1060,16 +847,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1114,16 +891,6 @@
         "notes": ""
       },
       {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Ranger R-29 Classic — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/ranger/r-29-classic-2009-14",
         "sourceLabel": "HMY Powerboat Guide",
@@ -1140,16 +907,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1194,16 +951,6 @@
         "notes": ""
       },
       {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Sedan vs Command Bridge explanation",
         "url": "https://www.rangertugs.com/blog/next-level-boating-on-a-command-bridge",
         "sourceLabel": "Ranger Tugs",
@@ -1220,16 +967,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1274,16 +1011,6 @@
         "notes": ""
       },
       {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Sedan vs Command Bridge explanation",
         "url": "https://www.rangertugs.com/blog/next-level-boating-on-a-command-bridge",
         "sourceLabel": "Ranger Tugs",
@@ -1300,16 +1027,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1354,16 +1071,6 @@
         "notes": ""
       },
       {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Sedan vs Command Bridge explanation",
         "url": "https://www.rangertugs.com/blog/next-level-boating-on-a-command-bridge",
         "sourceLabel": "Ranger Tugs",
@@ -1380,16 +1087,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1432,16 +1129,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -1450,16 +1137,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1502,16 +1179,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -1520,16 +1187,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1572,16 +1229,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -1590,16 +1237,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1644,16 +1281,6 @@
         "notes": ""
       },
       {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Sedan vs Command Bridge explanation",
         "url": "https://www.rangertugs.com/blog/next-level-boating-on-a-command-bridge",
         "sourceLabel": "Ranger Tugs",
@@ -1670,16 +1297,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1724,16 +1341,6 @@
         "notes": ""
       },
       {
-        "title": "Ranger Tugs Customer Care — manuals, parts and training",
-        "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Sedan vs Command Bridge explanation",
         "url": "https://www.rangertugs.com/blog/next-level-boating-on-a-command-bridge",
         "sourceLabel": "Ranger Tugs",
@@ -1750,16 +1357,6 @@
         "url": "https://www.tugnuts.com/",
         "sourceLabel": "Tugnuts",
         "resourceType": "Owners forum / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "The Ranger Tugs Difference — design, construction and company background",
-        "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
-        "sourceLabel": "Ranger Tugs",
-        "resourceType": "Manufacturer background",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -1793,16 +1390,6 @@
       }
     ],
     "documents": [
-      {
-        "title": "Grand Banks — A Grand History / Heritage model chronology",
-        "url": "https://www.grandbanks.com/a-grand-history",
-        "sourceLabel": "Grand Banks Yachts",
-        "resourceType": "Manufacturer heritage / model chronology",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "Grand Banks 32 Sedan — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
@@ -1864,16 +1451,6 @@
     ],
     "documents": [
       {
-        "title": "Grand Banks — A Grand History / Heritage model chronology",
-        "url": "https://www.grandbanks.com/a-grand-history",
-        "sourceLabel": "Grand Banks Yachts",
-        "resourceType": "Manufacturer heritage / model chronology",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Grand Banks 36 Classic — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-classic-1965-2004",
         "sourceLabel": "HMY Powerboat Guide",
@@ -1931,26 +1508,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Nordic Tugs history — origins of the 26",
-        "url": "https://www.nordictugs.com/history",
-        "sourceLabel": "Nordic Tugs",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Nordic Tug Waypoints magazine archive",
-        "url": "https://www.sentoa.org/nto/waypoints.html",
-        "sourceLabel": "Nordic Tug Owners / SENTOA",
-        "resourceType": "Owner / factory publication archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -1959,26 +1516,6 @@
         "url": "https://www.sentoa.org/",
         "sourceLabel": "SENTOA",
         "resourceType": "Owners group / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "SENTOA owner listserver",
-        "url": "https://www.sentoa.org/listserver.html",
-        "sourceLabel": "SENTOA",
-        "resourceType": "Owner discussion group",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "NorthEast Nordic Tug Owners Association",
-        "url": "https://www.nentoa.com/about",
-        "sourceLabel": "NENTOA",
-        "resourceType": "Owners association",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -2021,26 +1558,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Nordic Tugs history — 32 introduction and 34 evolution",
-        "url": "https://www.nordictugs.com/history",
-        "sourceLabel": "Nordic Tugs",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Nordic Tug Waypoints magazine archive",
-        "url": "https://www.sentoa.org/nto/waypoints.html",
-        "sourceLabel": "Nordic Tug Owners / SENTOA",
-        "resourceType": "Owner / factory publication archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -2049,26 +1566,6 @@
         "url": "https://www.sentoa.org/",
         "sourceLabel": "SENTOA",
         "resourceType": "Owners group / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "SENTOA owner listserver",
-        "url": "https://www.sentoa.org/listserver.html",
-        "sourceLabel": "SENTOA",
-        "resourceType": "Owner discussion group",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "NorthEast Nordic Tug Owners Association",
-        "url": "https://www.nentoa.com/about",
-        "sourceLabel": "NENTOA",
-        "resourceType": "Owners association",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -2171,28 +1668,7 @@
         "notes": ""
       }
     ],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — Taiwan-trawler technical and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Taiwan-trawler / manufacturer heritage",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Trawler Forum — Taiwanese Makes owner discussions",
-        "url": "https://www.trawlerforum.com/forums/taiwanese-makes.31/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion forum",
-        "verificationStatus": "Verified",
-        "scope": "Taiwan-trawler family",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "sources": [
       {
         "type": "CuratedResourceSet",
@@ -2207,29 +1683,8 @@
   {
     "BoatModelID": "KDKR-36-MA",
     "schemaVersion": 2,
-    "videos": [
-      {
-        "title": "Krogen 36 Manatee video-tour collection",
-        "url": "https://marinesource.com/boat/kadey-krogen-36-manatee-1984-fulton-25fca2591-for-sale",
-        "sourceLabel": "MarineSource",
-        "resourceType": "Model video-tour collection",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "videos": [],
     "documents": [
-      {
-        "title": "Kadey-Krogen — company and model history",
-        "url": "https://www.kadeykrogen.com/our-history/",
-        "sourceLabel": "Kadey-Krogen Yachts",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "Krogen 36 Manatee — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/krogen/36-manatee-1984-92",
@@ -2261,16 +1716,6 @@
         "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Kadey-Krogen Waypoints magazine archive",
-        "url": "https://www.kadeykrogen.com/waypoints-magazine/",
-        "sourceLabel": "Kadey-Krogen Yachts",
-        "resourceType": "Owner / cruising publication archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "sources": [
@@ -2289,26 +1734,6 @@
     "schemaVersion": 2,
     "videos": [],
     "documents": [
-      {
-        "title": "Cheoy Lee Shipyards — heritage and construction history",
-        "url": "https://cheoylee.com/heritage/",
-        "sourceLabel": "Cheoy Lee Shipyards",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "1977 Cheoy Lee 28 Sedan Trawler — preserved brokerage brochure",
-        "url": "https://s3.amazonaws.com/pop.web.assets/Listing-Brochures/Pop-Brochure-117294.pdf",
-        "sourceLabel": "Pop Yachts archive",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
       {
         "title": "Cheoy Lee Power Owners Group — surviving 28 Trawler record",
         "url": "https://www.cheoyleeassociation.com/Power/PowerOwners.htm",
@@ -2390,18 +1815,7 @@
         "notes": ""
       }
     ],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Rosborough owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "RF-246 family",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "sources": [
       {
         "type": "CuratedResourceSet",
@@ -2427,16 +1841,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Albin owner-manual discussion and component-document archive",
-        "url": "https://albinowners.net/aog/viewtopic.php?t=823",
-        "sourceLabel": "Albin Owners Group",
-        "resourceType": "Manual / owner documentation resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Later U.S.-built Albins often did not receive a single factory owner's manual; component manuals and owner knowledge are therefore particularly important."
       }
     ],
     "ownerCommunities": [
@@ -2486,16 +1890,6 @@
         "verificationStatus": "Verified",
         "scope": "Model-specific",
         "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Irish Wake — documented mastless 2002 Nimble Wanderer power cruiser",
-        "url": "https://www.sirensboatworks.com/irish-wake/",
-        "sourceLabel": "Sirens Boatworks",
-        "resourceType": "Documented power-cruiser example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
         "notes": ""
       },
       {
@@ -2615,26 +2009,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "North Pacific Yachts review and historical article archive",
-        "url": "https://northpacificyachts.com/news/",
-        "sourceLabel": "North Pacific Yachts",
-        "resourceType": "Manufacturer historical archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "North Pacific Yachts — current builder and support",
-        "url": "https://northpacificyachts.com/",
-        "sourceLabel": "North Pacific Yachts",
-        "resourceType": "Manufacturer / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "ownerCommunities": [
@@ -2677,32 +2051,12 @@
     ],
     "documents": [
       {
-        "title": "Kadey-Krogen — company and model history",
-        "url": "https://www.kadeykrogen.com/our-history/",
-        "sourceLabel": "Kadey-Krogen Yachts",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Krogen 42 Trawler — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/krogen/42-trawler-1977-98",
         "sourceLabel": "HMY Powerboat Guide",
         "resourceType": "Model guide",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Kadey-Krogen passagemaking design philosophy",
-        "url": "https://www.kadeykrogen.com/passagemaking/",
-        "sourceLabel": "Kadey-Krogen Yachts",
-        "resourceType": "Manufacturer technical / design resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -2713,16 +2067,6 @@
         "url": "https://www.kadeykrogen.com/owners-groups-and-owner-blogs/",
         "sourceLabel": "Kadey-Krogen Yachts",
         "resourceType": "Owner groups / blogs",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Kadey-Krogen Waypoints magazine archive",
-        "url": "https://www.kadeykrogen.com/waypoints-magazine/",
-        "sourceLabel": "Kadey-Krogen Yachts",
-        "resourceType": "Owner / cruising publication archive",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -3022,26 +2366,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Nordic Tugs history — 32 to 34 evolution",
-        "url": "https://www.nordictugs.com/history",
-        "sourceLabel": "Nordic Tugs",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Nordic Tug Waypoints magazine archive",
-        "url": "https://www.sentoa.org/nto/waypoints.html",
-        "sourceLabel": "Nordic Tug Owners / SENTOA",
-        "resourceType": "Owner / factory publication archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -3051,26 +2375,6 @@
         "url": "https://www.sentoa.org/",
         "sourceLabel": "SENTOA",
         "resourceType": "Owners group / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "SENTOA owner listserver",
-        "url": "https://www.sentoa.org/listserver.html",
-        "sourceLabel": "SENTOA",
-        "resourceType": "Owner discussion group",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "NorthEast Nordic Tug Owners Association",
-        "url": "https://www.nentoa.com/about",
-        "sourceLabel": "NENTOA",
-        "resourceType": "Owners association",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -3145,26 +2449,6 @@
         "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "SENTOA owner listserver",
-        "url": "https://www.sentoa.org/listserver.html",
-        "sourceLabel": "SENTOA",
-        "resourceType": "Owner discussion group",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "NorthEast Nordic Tug Owners Association",
-        "url": "https://www.nentoa.com/about",
-        "sourceLabel": "NENTOA",
-        "resourceType": "Owners association",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "images": [],
@@ -3191,26 +2475,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Nordic Tugs history — 37 to 39 evolution",
-        "url": "https://www.nordictugs.com/history",
-        "sourceLabel": "Nordic Tugs",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Nordic Tug Waypoints magazine archive",
-        "url": "https://www.sentoa.org/nto/waypoints.html",
-        "sourceLabel": "Nordic Tug Owners / SENTOA",
-        "resourceType": "Owner / factory publication archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -3220,26 +2484,6 @@
         "url": "https://www.sentoa.org/",
         "sourceLabel": "SENTOA",
         "resourceType": "Owners group / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "SENTOA owner listserver",
-        "url": "https://www.sentoa.org/listserver.html",
-        "sourceLabel": "SENTOA",
-        "resourceType": "Owner discussion group",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "NorthEast Nordic Tug Owners Association",
-        "url": "https://www.nentoa.com/about",
-        "sourceLabel": "NENTOA",
-        "resourceType": "Owners association",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -3280,16 +2524,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Nordic Tugs history — 42 family",
-        "url": "https://www.nordictugs.com/history",
-        "sourceLabel": "Nordic Tugs",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [
@@ -3314,26 +2548,6 @@
         "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "SENTOA owner listserver",
-        "url": "https://www.sentoa.org/listserver.html",
-        "sourceLabel": "SENTOA",
-        "resourceType": "Owner discussion group",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "NorthEast Nordic Tug Owners Association",
-        "url": "https://www.nentoa.com/about",
-        "sourceLabel": "NENTOA",
-        "resourceType": "Owners association",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "images": [],
@@ -3351,16 +2565,6 @@
     "BoatModelID": "GRBK-36-EU",
     "schemaVersion": 2,
     "documents": [
-      {
-        "title": "Grand Banks — A Grand History / Heritage model chronology",
-        "url": "https://www.grandbanks.com/a-grand-history",
-        "sourceLabel": "Grand Banks Yachts",
-        "resourceType": "Manufacturer heritage / model chronology",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "Grand Banks 36 Europa — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-europa-1988-98",
@@ -3421,16 +2625,6 @@
     "BoatModelID": "GRBK-42-CL",
     "schemaVersion": 2,
     "documents": [
-      {
-        "title": "Grand Banks — A Grand History / Heritage model chronology",
-        "url": "https://www.grandbanks.com/a-grand-history",
-        "sourceLabel": "Grand Banks Yachts",
-        "resourceType": "Manufacturer heritage / model chronology",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "Grand Banks 42 Classic — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/42-classic-1975-2004",
@@ -3502,16 +2696,6 @@
     "schemaVersion": 2,
     "documents": [
       {
-        "title": "Grand Banks — A Grand History / Heritage model chronology",
-        "url": "https://www.grandbanks.com/a-grand-history",
-        "sourceLabel": "Grand Banks Yachts",
-        "resourceType": "Manufacturer heritage / model chronology",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Grand Banks 46 Classic — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/46-classic-1985-2005",
         "sourceLabel": "HMY Powerboat Guide",
@@ -3581,16 +2765,6 @@
     "BoatModelID": "GRBK-49-MY",
     "schemaVersion": 2,
     "documents": [
-      {
-        "title": "Grand Banks — A Grand History / Heritage model chronology",
-        "url": "https://www.grandbanks.com/a-grand-history",
-        "sourceLabel": "Grand Banks Yachts",
-        "resourceType": "Manufacturer heritage / model chronology",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "Grand Banks 49 Motor Yacht — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/49-motor-yacht-1986-99",
@@ -3870,51 +3044,9 @@
   {
     "BoatModelID": "MTRA-34-EU",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "Marine Trader 34 Europa — documented 1982 example",
-        "url": "https://marinesource.com/boat/marine-trader-europa-1982-washington-2543b6429-for-sale",
-        "sourceLabel": "MarineSource",
-        "resourceType": "Model example / specifications",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Moderate",
-        "notes": ""
-      },
-      {
-        "title": "Marine Trader 34 Europa — documented 1975 example",
-        "url": "https://marinesource.com/boats-for-sale/listing_details.cfm?Yacht=1975-34-Marine-Trader-Europa-Unknown-FL&listingnmb=100745977",
-        "sourceLabel": "MarineSource",
-        "resourceType": "Model example / specifications",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Moderate",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer heritage / trawler-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "MTOA history — founded by Marine Trader owners",
-        "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owner-community history",
-        "verificationStatus": "Verified",
-        "scope": "Marine Trader heritage",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -3942,28 +3074,7 @@
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer heritage / trawler-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "MTOA history — founded by Marine Trader owners",
-        "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owner-community history",
-        "verificationStatus": "Verified",
-        "scope": "Marine Trader heritage",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -3991,28 +3102,7 @@
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer heritage / trawler-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "MTOA history — founded by Marine Trader owners",
-        "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owner-community history",
-        "verificationStatus": "Verified",
-        "scope": "Marine Trader heritage",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4040,28 +3130,7 @@
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer heritage / trawler-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "MTOA history — founded by Marine Trader owners",
-        "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owner-community history",
-        "verificationStatus": "Verified",
-        "scope": "Marine Trader heritage",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4078,16 +3147,6 @@
     "schemaVersion": 2,
     "documents": [
       {
-        "title": "2010 Marine Trader 38 Sundeck — detailed sold listing",
-        "url": "https://yachtr.com/38-marine_trader-2010-2773843/",
-        "sourceLabel": "Yachtr",
-        "resourceType": "Model example / specifications",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Moderate",
-        "notes": ""
-      },
-      {
         "title": "As You Wish — owner record and Great Loop history",
         "url": "https://looperasyouwish.blogspot.com/p/about-us.html",
         "sourceLabel": "Owner cruising log",
@@ -4099,18 +3158,7 @@
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer heritage / trawler-wide",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4149,28 +3197,7 @@
         "notes": ""
       }
     ],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer heritage / trawler-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "MTOA history — founded by Marine Trader owners",
-        "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owner-community history",
-        "verificationStatus": "Verified",
-        "scope": "Marine Trader heritage",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4198,28 +3225,7 @@
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer heritage / trawler-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "MTOA history — founded by Marine Trader owners",
-        "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owner-community history",
-        "verificationStatus": "Verified",
-        "scope": "Marine Trader heritage",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4234,41 +3240,9 @@
   {
     "BoatModelID": "CHBB-34-SE",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "CHB 34 Sedan owner discussion and identification",
-        "url": "https://www.trawlerforum.com/threads/1977-chb-trawler.59329/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner identification / discussion",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — Taiwan-trawler technical and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Taiwan-trawler / manufacturer heritage",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Trawler Forum — Taiwanese Makes owner discussions",
-        "url": "https://www.trawlerforum.com/forums/taiwanese-makes.31/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion forum",
-        "verificationStatus": "Verified",
-        "scope": "Taiwan-trawler family",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4284,16 +3258,6 @@
     "BoatModelID": "CHBB-34-TC",
     "schemaVersion": 2,
     "documents": [
-      {
-        "title": "CHB 34 Tri-Cabin — documented 1982 example",
-        "url": "https://www.yachtworld.com/yacht/1982-chb-34-tri-cabin-9881378/",
-        "sourceLabel": "YachtWorld",
-        "resourceType": "Model example / specifications",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "CHB 34 Tri-Cabin — Boatshed model record",
         "url": "https://seattle.boatshed.com/chb_34_tricabin_trawler-boat-320132.html",
@@ -4317,28 +3281,7 @@
         "notes": ""
       }
     ],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — Taiwan-trawler technical and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Taiwan-trawler / manufacturer heritage",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Trawler Forum — Taiwanese Makes owner discussions",
-        "url": "https://www.trawlerforum.com/forums/taiwanese-makes.31/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion forum",
-        "verificationStatus": "Verified",
-        "scope": "Taiwan-trawler family",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4363,41 +3306,10 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "1984 Chien Hwa / CHB 35 documented example",
-        "url": "https://marinesource.com/boat/chb-35-trawler-1984-wilmington-9905785-for-sale/",
-        "sourceLabel": "MarineSource",
-        "resourceType": "Model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — Taiwan-trawler technical and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Taiwan-trawler / manufacturer heritage",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Trawler Forum — Taiwanese Makes owner discussions",
-        "url": "https://www.trawlerforum.com/forums/taiwanese-makes.31/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion forum",
-        "verificationStatus": "Verified",
-        "scope": "Taiwan-trawler family",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4412,51 +3324,9 @@
   {
     "BoatModelID": "CHBY-40",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "1979 CHB 40 documented example",
-        "url": "https://marinesource.com/boat/chb-40-1979-hudson-177b9b09fb-for-sale",
-        "sourceLabel": "MarineSource",
-        "resourceType": "Model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Moderate",
-        "notes": ""
-      },
-      {
-        "title": "1989 Chung Hwa 40 Oceania documented example",
-        "url": "https://americanyachts.com/brochure-page-iyba-d2-combined/?id=2772023",
-        "sourceLabel": "American Yachts",
-        "resourceType": "Related builder/model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Moderate",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Marine Trawler Owners Association — Taiwan-trawler technical and cruising community",
-        "url": "https://mtoa.clubexpress.com/",
-        "sourceLabel": "Marine Trawler Owners Association",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Taiwan-trawler / manufacturer heritage",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Trawler Forum — Taiwanese Makes owner discussions",
-        "url": "https://www.trawlerforum.com/forums/taiwanese-makes.31/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion forum",
-        "verificationStatus": "Verified",
-        "scope": "Taiwan-trawler family",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4491,31 +3361,10 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "1986 Island Gypsy 32 Sedan — detailed preserved example",
-        "url": "https://ca.boats.com/power-boats/1986-island-gypsy-32-sedan-trawler-hull-38-10208275/",
-        "sourceLabel": "boats.com",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Island Gypsy owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4550,31 +3399,10 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Island Gypsy 32 Europa — current documented example",
-        "url": "https://www.boattrader.com/boat/2000-island-gypsy-32-9816774/",
-        "sourceLabel": "Boat Trader",
-        "resourceType": "Model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Island Gypsy owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4612,18 +3440,7 @@
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Island Gypsy owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4661,28 +3478,7 @@
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Island Gypsy owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Island Gypsy 36 owner systems discussion",
-        "url": "https://www.trawlerforum.com/threads/new-owner-of-1987-island-gypsy-36.38350/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Model-specific owner thread",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4720,28 +3516,7 @@
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Island Gypsy owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Island Gypsy 36 Europa owner maintenance discussion",
-        "url": "https://www.trawlerforum.com/threads/after-the-teak-deck-is-gone-what-next.75800/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Model-specific owner maintenance thread",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4789,18 +3564,7 @@
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Island Gypsy owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4835,52 +3599,10 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "1982 Kong & Halvorsen Island Gypsy 44 — documented vessel",
-        "url": "https://theboater.hk/yacht_sales/oscar/",
-        "sourceLabel": "The Boater",
-        "resourceType": "Preserved model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
       }
     ],
-    "videos": [
-      {
-        "title": "Island Gypsy 44 video-tour collection",
-        "url": "https://marinesource.com/boat/island-gypsy-44-1979-pittsburg-1777cdaa63-for-sale",
-        "sourceLabel": "MarineSource",
-        "resourceType": "Walkthrough video collection",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Island Gypsy owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Island Gypsy 44 owner discussion",
-        "url": "https://www.trawlerforum.com/threads/1983-44-island-gypsy.60642/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Model-specific owner thread",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "videos": [],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -4896,16 +3618,6 @@
     "BoatModelID": "KDKR-39",
     "schemaVersion": 2,
     "documents": [
-      {
-        "title": "Kadey-Krogen — company and model history",
-        "url": "https://www.kadeykrogen.com/our-history/",
-        "sourceLabel": "Kadey-Krogen Yachts",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "Krogen 39 — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/krogen/39-trawler-1998-2008",
@@ -4945,16 +3657,6 @@
         "url": "https://www.kadeykrogen.com/owners-groups-and-owner-blogs/",
         "sourceLabel": "Kadey-Krogen Yachts",
         "resourceType": "Owner groups / blogs",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Kadey-Krogen Waypoints magazine archive",
-        "url": "https://www.kadeykrogen.com/waypoints-magazine/",
-        "sourceLabel": "Kadey-Krogen Yachts",
-        "resourceType": "Owner / cruising publication archive",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -5029,16 +3731,6 @@
         "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Kadey-Krogen Waypoints magazine archive",
-        "url": "https://www.kadeykrogen.com/waypoints-magazine/",
-        "sourceLabel": "Kadey-Krogen Yachts",
-        "resourceType": "Owner / cruising publication archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "images": [],
@@ -5056,16 +3748,6 @@
     "BoatModelID": "KDKR-48-NS",
     "schemaVersion": 2,
     "documents": [
-      {
-        "title": "Kadey-Krogen — company and model history",
-        "url": "https://www.kadeykrogen.com/our-history/",
-        "sourceLabel": "Kadey-Krogen Yachts",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "Krogen 48 North Sea — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/krogen/48-north-sea-1996-2010",
@@ -5109,16 +3791,6 @@
         "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Kadey-Krogen Waypoints magazine archive",
-        "url": "https://www.kadeykrogen.com/waypoints-magazine/",
-        "sourceLabel": "Kadey-Krogen Yachts",
-        "resourceType": "Owner / cruising publication archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "images": [],
@@ -5151,16 +3823,6 @@
         "url": "https://cutwaterboats.com/ownership-experience/customer-care",
         "sourceLabel": "Cutwater Boats",
         "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
-        "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
-        "sourceLabel": "Cutwater Boats",
-        "resourceType": "Manufacturer design resource",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -5237,16 +3899,6 @@
         "notes": ""
       },
       {
-        "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
-        "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
-        "sourceLabel": "Cutwater Boats",
-        "resourceType": "Manufacturer design resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "C-26/C-28 owner's manual and specifications",
         "url": "https://manualzz.com/doc/68223607/cutwater-26--28-owner-s-manual",
         "sourceLabel": "Cutwater / Manualzz",
@@ -5311,16 +3963,6 @@
         "url": "https://cutwaterboats.com/ownership-experience/customer-care",
         "sourceLabel": "Cutwater Boats",
         "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
-        "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
-        "sourceLabel": "Cutwater Boats",
-        "resourceType": "Manufacturer design resource",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -5397,16 +4039,6 @@
         "notes": ""
       },
       {
-        "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
-        "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
-        "sourceLabel": "Cutwater Boats",
-        "resourceType": "Manufacturer design resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "C-30 CB 2025 factory specification sheet",
         "url": "https://www.cutwaterboats.com/media/4432/2024-05-21_2025-c30cb-spec-sheet-web.pdf",
         "sourceLabel": "Cutwater Boats",
@@ -5471,16 +4103,6 @@
         "url": "https://cutwaterboats.com/ownership-experience/customer-care",
         "sourceLabel": "Cutwater Boats",
         "resourceType": "Factory manuals / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
-        "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
-        "sourceLabel": "Cutwater Boats",
-        "resourceType": "Manufacturer design resource",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -5557,16 +4179,6 @@
         "notes": ""
       },
       {
-        "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
-        "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
-        "sourceLabel": "Cutwater Boats",
-        "resourceType": "Manufacturer design resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "C-32 CB current factory specification sheet",
         "url": "https://cutwaterboats.com/spec-sheets/c-32-cb",
         "sourceLabel": "Cutwater Boats",
@@ -5617,32 +4229,12 @@
     "schemaVersion": 2,
     "documents": [
       {
-        "title": "American Tug — company and model history",
-        "url": "https://www.americantug.com/our-story/",
-        "sourceLabel": "American Tug",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Historical/model reference. Company entered Chapter 7 liquidation in July 2026."
-      },
-      {
         "title": "American Tug 34 — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/american-tug/34-2001-11",
         "sourceLabel": "HMY Powerboat Guide",
         "resourceType": "Model guide",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "American Tugs LLC Chapter 7 case 26-11066",
-        "url": "https://www.bankruptcyobserver.com/bankruptcy-case/american-tugs",
-        "sourceLabel": "Bankruptcy Observer / PACER-derived court data",
-        "resourceType": "Manufacturer status / court record",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -5658,16 +4250,6 @@
         "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": "Archived owner resource; corporate group entered Chapter 7 liquidation in July 2026."
-      },
-      {
-        "title": "Trawler Forum — American Tug owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
       }
     ],
     "images": [],
@@ -5686,16 +4268,6 @@
     "schemaVersion": 2,
     "documents": [
       {
-        "title": "American Tug — company and model history",
-        "url": "https://www.americantug.com/our-story/",
-        "sourceLabel": "American Tug",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Historical/model reference. Company entered Chapter 7 liquidation in July 2026."
-      },
-      {
         "title": "American Tug 365 — factory model page, arrangements and sea-trial data",
         "url": "https://www.americantug.com/tour/at-365/",
         "sourceLabel": "American Tug",
@@ -5712,16 +4284,6 @@
         "resourceType": "Model review",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "American Tugs LLC Chapter 7 case 26-11066",
-        "url": "https://www.bankruptcyobserver.com/bankruptcy-case/american-tugs",
-        "sourceLabel": "Bankruptcy Observer / PACER-derived court data",
-        "resourceType": "Manufacturer status / court record",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -5766,16 +4328,6 @@
     "schemaVersion": 2,
     "documents": [
       {
-        "title": "American Tug — company and model history",
-        "url": "https://www.americantug.com/our-story/",
-        "sourceLabel": "American Tug",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Historical/model reference. Company entered Chapter 7 liquidation in July 2026."
-      },
-      {
         "title": "American Tug 395 — factory model page, arrangements and sea-trial data",
         "url": "https://www.americantug.com/tour/at-395/",
         "sourceLabel": "American Tug",
@@ -5792,16 +4344,6 @@
         "resourceType": "Model guide",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "American Tugs LLC Chapter 7 case 26-11066",
-        "url": "https://www.bankruptcyobserver.com/bankruptcy-case/american-tugs",
-        "sourceLabel": "Bankruptcy Observer / PACER-derived court data",
-        "resourceType": "Manufacturer status / court record",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -5844,51 +4386,9 @@
   {
     "BoatModelID": "ROSB-246-LS",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "Rosborough / Eastern Boat Works history and RF-246 lineage",
-        "url": "https://easternboats.com/our-legacy/",
-        "sourceLabel": "Eastern Boat Works",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Rosborough RF-246 — Soundings used-boat review",
-        "url": "https://soundingsonline.com/news/used-boat-review-rosborough-rf-246/",
-        "sourceLabel": "Soundings",
-        "resourceType": "Used-boat review",
-        "verificationStatus": "Verified",
-        "scope": "RF-246 family",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "2000 RF-246 Sedan Cruiser Diesel — documented Canadian example",
-        "url": "https://www.boatdealers.ca/boats-for-sale/626732/rosborough-rf-246-sedan-cruiser-chicoutimi-quebec",
-        "sourceLabel": "BoatDealers.ca",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Rosborough owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "RF-246 family",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -5936,18 +4436,7 @@
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Rosborough owner discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "RF-246 family",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -5963,16 +4452,6 @@
     "BoatModelID": "CHLY-32",
     "schemaVersion": 2,
     "documents": [
-      {
-        "title": "Cheoy Lee Shipyards — heritage and construction history",
-        "url": "https://cheoylee.com/heritage/",
-        "sourceLabel": "Cheoy Lee Shipyards",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "Cheoy Lee 32 Trawler — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/cheoy-lee/32-trawler-1977-86",
@@ -6013,16 +4492,6 @@
     "schemaVersion": 2,
     "documents": [
       {
-        "title": "Cheoy Lee Shipyards — heritage and construction history",
-        "url": "https://cheoylee.com/heritage/",
-        "sourceLabel": "Cheoy Lee Shipyards",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Cheoy Lee 35 Trawler — Powerboat Guide",
         "url": "https://www.hmy.com/yachting/powerboat-guide/cheoy-lee/35-trawler-1979-86",
         "sourceLabel": "HMY Powerboat Guide",
@@ -6061,16 +4530,6 @@
     "BoatModelID": "CHLY-36-TR",
     "schemaVersion": 2,
     "documents": [
-      {
-        "title": "Cheoy Lee Shipyards — heritage and construction history",
-        "url": "https://cheoylee.com/heritage/",
-        "sourceLabel": "Cheoy Lee Shipyards",
-        "resourceType": "Manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "Cheoy Lee 36 Trawler — De Valk model archive",
         "url": "https://www.devalk.nl/en/model/cheoy-lee/36-trawler.html",
@@ -6178,16 +4637,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Albin owner-manual discussion and component-document archive",
-        "url": "https://albinowners.net/aog/viewtopic.php?t=823",
-        "sourceLabel": "Albin Owners Group",
-        "resourceType": "Manual / owner documentation resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Later U.S.-built Albins often did not receive a single factory owner's manual; component manuals and owner knowledge are therefore particularly important."
       }
     ],
     "videos": [],
@@ -6227,16 +4676,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Albin owner-manual discussion and component-document archive",
-        "url": "https://albinowners.net/aog/viewtopic.php?t=823",
-        "sourceLabel": "Albin Owners Group",
-        "resourceType": "Manual / owner documentation resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Later U.S.-built Albins often did not receive a single factory owner's manual; component manuals and owner knowledge are therefore particularly important."
       }
     ],
     "videos": [],
@@ -6276,16 +4715,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Albin owner-manual discussion and component-document archive",
-        "url": "https://albinowners.net/aog/viewtopic.php?t=823",
-        "sourceLabel": "Albin Owners Group",
-        "resourceType": "Manual / owner documentation resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Later U.S.-built Albins often did not receive a single factory owner's manual; component manuals and owner knowledge are therefore particularly important."
       }
     ],
     "videos": [],
@@ -6325,16 +4754,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Albin owner-manual discussion and component-document archive",
-        "url": "https://albinowners.net/aog/viewtopic.php?t=823",
-        "sourceLabel": "Albin Owners Group",
-        "resourceType": "Manual / owner documentation resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": "Later U.S.-built Albins often did not receive a single factory owner's manual; component manuals and owner knowledge are therefore particularly important."
       }
     ],
     "videos": [],
@@ -6366,16 +4785,6 @@
     "schemaVersion": 2,
     "documents": [
       {
-        "title": "Willard trawler history and production lineage",
-        "url": "https://willardboats.org/about",
-        "sourceLabel": "Willard Boats Owners Registry",
-        "resourceType": "Owner-maintained builder/model history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "1974 Vega 30 factory owner's manual",
         "url": "https://willardboats.org/files/vega30ownersmanual.pdf",
         "sourceLabel": "Willard Boat Works",
@@ -6392,16 +4801,6 @@
         "resourceType": "Model-family registry",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Willard drawings archive",
-        "url": "https://willardboats.org/book-page/drawings",
-        "sourceLabel": "Willard Boats Owners Registry",
-        "resourceType": "Factory/owner drawings archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -6435,16 +4834,6 @@
     "schemaVersion": 2,
     "documents": [
       {
-        "title": "Willard trawler history and production lineage",
-        "url": "https://willardboats.org/about",
-        "sourceLabel": "Willard Boats Owners Registry",
-        "resourceType": "Owner-maintained builder/model history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Willard Vega 36 factory Standard Cruiser brochure",
         "url": "https://willardboats.org/files/willard36_brochure_0.pdf",
         "sourceLabel": "Willard Boat Works",
@@ -6471,16 +4860,6 @@
         "resourceType": "Model-family registry",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Willard drawings archive",
-        "url": "https://willardboats.org/book-page/drawings",
-        "sourceLabel": "Willard Boats Owners Registry",
-        "resourceType": "Factory/owner drawings archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -6514,16 +4893,6 @@
     "schemaVersion": 2,
     "documents": [
       {
-        "title": "Willard trawler history and production lineage",
-        "url": "https://willardboats.org/about",
-        "sourceLabel": "Willard Boats Owners Registry",
-        "resourceType": "Owner-maintained builder/model history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
         "title": "Willard/Vega 40 production registry and generation history",
         "url": "https://willardboats.org/boats/vega40",
         "sourceLabel": "Willard Boats Owners Registry",
@@ -6531,16 +4900,6 @@
         "verificationStatus": "Verified",
         "scope": "Model-specific",
         "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Patience — documented 1973 Vega 40 Nomad hull #1",
-        "url": "https://willardboats.org/boats/patience-w40",
-        "sourceLabel": "Willard Boats Owners Registry",
-        "resourceType": "Documented model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
         "notes": ""
       },
       {
@@ -6593,16 +4952,6 @@
         "notes": ""
       },
       {
-        "title": "Nimble Nomad hull #1 owner discussion and production context",
-        "url": "https://www.trawlerforum.com/threads/nimble-nomad-trawler.2596/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner production-history discussion",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
         "title": "Ted Brewer — owner-association links and Nimble references",
         "url": "https://www.tedbrewer.com/links.html",
         "sourceLabel": "Ted Brewer Yacht Design",
@@ -6633,16 +4982,6 @@
         "resourceType": "Owner community",
         "verificationStatus": "Verified",
         "scope": "Nimble Nomad",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Seasoned Nimble Nomad owner discussion",
-        "url": "https://www.trawlerforum.com/threads/advice-from-seasoned-nimble-nomad-owners.14608/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Model-specific owner discussion",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
         "confidence": "Medium",
         "notes": ""
       }
@@ -6679,26 +5018,6 @@
         "resourceType": "Manufacturer historical archive",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "2012 North Pacific 38 Sedan — current builder/broker documented example",
-        "url": "https://www.boats.com/power-boats/2012-north-pacific-38-sedan-9939559/",
-        "sourceLabel": "boats.com / North Pacific Yacht Brokers",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "North Pacific Yachts — current builder and support",
-        "url": "https://northpacificyachts.com/",
-        "sourceLabel": "North Pacific Yachts",
-        "resourceType": "Manufacturer / support",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -6750,16 +5069,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Arthur DeFever history and builder lineage",
-        "url": "https://www.defevercruisers.com/defever_history.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Designer / manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -6789,51 +5098,9 @@
   {
     "BoatModelID": "DEFE-38-TR",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "1972 DeFever 38 Passagemaker — documented wooden example",
-        "url": "https://www.yachtworld.com/yacht/1972-defever-38-passagemaker-10176112/",
-        "sourceLabel": "YachtWorld / NW Yachtnet",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Arthur DeFever history and builder lineage",
-        "url": "https://www.defevercruisers.com/defever_history.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Designer / manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Arthur DeFever history and builder lineage",
-        "url": "https://www.defevercruisers.com/defever_history.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Designer / manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "DeFever Cruisers — owner club, model knowledge and cruising community",
-        "url": "https://www.defevercruisers.com/",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Owners association / technical community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -6856,26 +5123,6 @@
         "resourceType": "Model guide",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "DeFever Designs — model archive",
-        "url": "https://www.defevercruisers.com/defever_designs.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Owner-maintained model archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Arthur DeFever history and builder lineage",
-        "url": "https://www.defevercruisers.com/defever_history.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Designer / manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -6915,26 +5162,6 @@
         "resourceType": "Model guide",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "DeFever Designs — model archive",
-        "url": "https://www.defevercruisers.com/defever_designs.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Owner-maintained model archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Arthur DeFever history and builder lineage",
-        "url": "https://www.defevercruisers.com/defever_history.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Designer / manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -6986,16 +5213,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Arthur DeFever history and builder lineage",
-        "url": "https://www.defevercruisers.com/defever_history.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Designer / manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -7045,16 +5262,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Arthur DeFever history and builder lineage",
-        "url": "https://www.defevercruisers.com/defever_history.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Designer / manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -7092,26 +5299,6 @@
         "resourceType": "Model guide",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Arthur DeFever history and builder lineage",
-        "url": "https://www.defevercruisers.com/defever_history.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Designer / manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Arthur DeFever history and builder lineage",
-        "url": "https://www.defevercruisers.com/defever_history.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Designer / manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -7161,16 +5348,6 @@
         "resourceType": "Owner-club model archive",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Arthur DeFever history and builder lineage",
-        "url": "https://www.defevercruisers.com/defever_history.asp",
-        "sourceLabel": "DeFever Cruisers",
-        "resourceType": "Designer / manufacturer history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -7241,16 +5418,6 @@
         "url": "https://capedory.org/cdinfo.html",
         "sourceLabel": "CDSOA",
         "resourceType": "Owner association / technical archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Cape Dory — The Later Years powerboat history",
-        "url": "https://capedoryhistory.com/",
-        "sourceLabel": "Cape Dory historical archive",
-        "resourceType": "Builder / model history",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "High",
@@ -7409,16 +5576,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Cape Dory — The Later Years powerboat history",
-        "url": "https://capedoryhistory.com/",
-        "sourceLabel": "Cape Dory historical archive",
-        "resourceType": "Builder / model history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -7517,16 +5674,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Cape Dory — The Later Years powerboat history",
-        "url": "https://capedoryhistory.com/",
-        "sourceLabel": "Cape Dory historical archive",
-        "resourceType": "Builder / model history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -7566,16 +5713,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Gulfstar Powerboat Guide model archive",
-        "url": "https://www.hmy.com/yachting/powerboat-guide/gulfstar",
-        "sourceLabel": "HMY Powerboat Guide",
-        "resourceType": "Manufacturer model archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -7585,16 +5722,6 @@
         "url": "https://www.gulfstarownersclub.com/",
         "sourceLabel": "Gulfstar Owners Club",
         "resourceType": "Owner community / technical knowledge",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Gulfstar Owners Group",
-        "url": "https://groups.io/g/GulfstarOwners",
-        "sourceLabel": "Groups.io / Gulfstar Owners",
-        "resourceType": "Owner discussion community",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "Medium",
@@ -7625,16 +5752,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Gulfstar Powerboat Guide model archive",
-        "url": "https://www.hmy.com/yachting/powerboat-guide/gulfstar",
-        "sourceLabel": "HMY Powerboat Guide",
-        "resourceType": "Manufacturer model archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -7644,16 +5761,6 @@
         "url": "https://www.gulfstarownersclub.com/",
         "sourceLabel": "Gulfstar Owners Club",
         "resourceType": "Owner community / technical knowledge",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Gulfstar Owners Group",
-        "url": "https://groups.io/g/GulfstarOwners",
-        "sourceLabel": "Groups.io / Gulfstar Owners",
-        "resourceType": "Owner discussion community",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "Medium",
@@ -7684,26 +5791,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "1978 Gulfstar 44 Motor Cruiser — documented example",
-        "url": "https://ca.boats.com/power-boats/1978-gulfstar-44-motor-cruiser-10100722/",
-        "sourceLabel": "boats.com",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Gulfstar Powerboat Guide model archive",
-        "url": "https://www.hmy.com/yachting/powerboat-guide/gulfstar",
-        "sourceLabel": "HMY Powerboat Guide",
-        "resourceType": "Manufacturer model archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -7713,16 +5800,6 @@
         "url": "https://www.gulfstarownersclub.com/",
         "sourceLabel": "Gulfstar Owners Club",
         "resourceType": "Owner community / technical knowledge",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Gulfstar Owners Group",
-        "url": "https://groups.io/g/GulfstarOwners",
-        "sourceLabel": "Groups.io / Gulfstar Owners",
-        "resourceType": "Owner discussion community",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "Medium",
@@ -7753,16 +5830,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Gulfstar Powerboat Guide model archive",
-        "url": "https://www.hmy.com/yachting/powerboat-guide/gulfstar",
-        "sourceLabel": "HMY Powerboat Guide",
-        "resourceType": "Manufacturer model archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -7772,16 +5839,6 @@
         "url": "https://www.gulfstarownersclub.com/",
         "sourceLabel": "Gulfstar Owners Club",
         "resourceType": "Owner community / technical knowledge",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Gulfstar Owners Group",
-        "url": "https://groups.io/g/GulfstarOwners",
-        "sourceLabel": "Groups.io / Gulfstar Owners",
-        "resourceType": "Owner discussion community",
         "verificationStatus": "Verified",
         "scope": "Manufacturer-wide",
         "confidence": "Medium",
@@ -7814,16 +5871,6 @@
         "notes": ""
       },
       {
-        "title": "1983 Californian 34 LRC — detailed documented example",
-        "url": "https://www.boats.com/power-boats/1983-californian-34-lrc-9933804/",
-        "sourceLabel": "boats.com",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
         "title": "Californian Yachts history — Jule Marshall and the LRC concept",
         "url": "https://atlanticyachtandship.com/californian-yachts-history/",
         "sourceLabel": "Atlantic Yacht & Ship",
@@ -7832,31 +5879,10 @@
         "scope": "Manufacturer-wide",
         "confidence": "Medium",
         "notes": ""
-      },
-      {
-        "title": "Navigator / Californian Yachts brand history",
-        "url": "https://navigatoryachts.com/index.html",
-        "sourceLabel": "Navigator Yachts",
-        "resourceType": "Current brand / historical manufacturer resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Californian owner and technical discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -7883,16 +5909,6 @@
         "notes": ""
       },
       {
-        "title": "1982 Marshall Californian 38 LRC Sedan — documented example",
-        "url": "https://marinesource.com/boats-for-sale/listing_details.cfm?Yacht=1982-38-Marshall-Californian-38-LRC-Sedan-E-Ft-Myers-FL&listingnmb=100851136",
-        "sourceLabel": "MarineSource",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
         "title": "Californian Yachts history — Jule Marshall and the LRC concept",
         "url": "https://atlanticyachtandship.com/californian-yachts-history/",
         "sourceLabel": "Atlantic Yacht & Ship",
@@ -7901,31 +5917,10 @@
         "scope": "Manufacturer-wide",
         "confidence": "Medium",
         "notes": ""
-      },
-      {
-        "title": "Navigator / Californian Yachts brand history",
-        "url": "https://navigatoryachts.com/index.html",
-        "sourceLabel": "Navigator Yachts",
-        "resourceType": "Current brand / historical manufacturer resource",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Trawler Forum — Californian owner and technical discussions",
-        "url": "https://www.trawlerforum.com/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner discussion community",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -7958,16 +5953,6 @@
         "resourceType": "Model guide",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Prairie Boat Works company history and Atlantic succession",
-        "url": "https://prairieboatworks.org/prairie-boat-works-company-history/",
-        "sourceLabel": "Prairie Boat Works owner archive",
-        "resourceType": "Builder / lineage history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -8017,16 +6002,6 @@
         "resourceType": "Successor-model lineage reference",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Prairie Boat Works company history and Atlantic succession",
-        "url": "https://prairieboatworks.org/prairie-boat-works-company-history/",
-        "sourceLabel": "Prairie Boat Works owner archive",
-        "resourceType": "Builder / lineage history",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -8086,38 +6061,7 @@
   {
     "BoatModelID": "OCAL-39-SE",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "1986 Ocean Alexander 39 Sedan — documented unextended example",
-        "url": "https://www.yachtworld.com/yacht/1986-ocean-alexander-39-sedan-10098720/",
-        "sourceLabel": "YachtWorld / Yachtfinders",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "1985 Ocean Alexander 39 Sedan — documented extended example",
-        "url": "https://www.charlesdavidyachts.com/boats/1985-ocean-alexander-39-sedan/",
-        "sourceLabel": "Charles David Yachts",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "Ocean Alexander model archive",
-        "url": "https://www.hmy.com/yachting/powerboat-guide/ocean-alexander",
-        "sourceLabel": "HMY Powerboat Guide",
-        "resourceType": "Manufacturer model archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
     "ownerCommunities": [],
     "images": [],
@@ -8142,16 +6086,6 @@
         "resourceType": "Model guide",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Tollycraft fleet production numbers",
-        "url": "https://tollycruisers.ca/tollylife/how-many-tollycrafts/",
-        "sourceLabel": "Canadian Tollycruisers",
-        "resourceType": "Owner-club production archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -8183,41 +6117,9 @@
   {
     "BoatModelID": "TOLL-37-SE",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "Tollycraft fleet production numbers",
-        "url": "https://tollycruisers.ca/tollylife/how-many-tollycrafts/",
-        "sourceLabel": "Canadian Tollycruisers",
-        "resourceType": "Owner-club production archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "1977 Tollycraft 37 Sedan — documented example",
-        "url": "https://www.boats.com/power-boats/1977-tollycraft-37-sedan-9598684/",
-        "sourceLabel": "boats.com",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
-    "ownerCommunities": [
-      {
-        "title": "Canadian Tollycruisers",
-        "url": "https://tollycruisers.ca/",
-        "sourceLabel": "Canadian Tollycruisers",
-        "resourceType": "Owner association",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "ownerCommunities": [],
     "images": [],
     "sources": [
       {
@@ -8232,28 +6134,7 @@
   {
     "BoatModelID": "UNIV-36-TR",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "Universal 36 Trawler — Boatshed detailed archive",
-        "url": "https://trinidad.boatshed.com/universal_36_trawler-boat-337526.html",
-        "sourceLabel": "Boatshed",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "1978 Universal Marine 36 Tri-Cabin — YATCO archive",
-        "url": "https://www.yatco.com/yachts/1978-universal-marine-36-tri-cabin-trawler-universal-marine-1978-395916/",
-        "sourceLabel": "YATCO",
-        "resourceType": "Historical model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
     "ownerCommunities": [],
     "images": [],
@@ -8271,16 +6152,6 @@
     "BoatModelID": "UNIV-40-TR",
     "schemaVersion": 2,
     "documents": [
-      {
-        "title": "1977 Universal Marine Europa — detailed current listing",
-        "url": "https://www.boats.com/power-boats/1977-universal-marine-europa-10104045/",
-        "sourceLabel": "boats.com",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "Universal Marine Pacific 38/40 Trawler archive",
         "url": "https://www.western-horizon.co.uk/archive_boat.php?boat_id=223",
@@ -8316,16 +6187,6 @@
         "resourceType": "Model guide",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Uniflite model archive",
-        "url": "https://www.hmy.com/yachting/powerboat-guide/uniflite",
-        "sourceLabel": "HMY Powerboat Guide",
-        "resourceType": "Manufacturer model archive",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
         "confidence": "High",
         "notes": ""
       }
@@ -8367,26 +6228,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Trojan 1970–87 hull/model numbering reference",
-        "url": "https://www.trojanboats.net/trojan-numbering-70-87.pdf",
-        "sourceLabel": "Trojanboats.net / Beacon Marine",
-        "resourceType": "Hull identification reference",
-        "verificationStatus": "Verified",
-        "scope": "Manufacturer-wide",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "1977 Trojan F-36 Tri-Cabin — documented Great Lakes example",
-        "url": "https://www.boats.com/power-boats/1977-trojan-36-tri-cabin-10068102/",
-        "sourceLabel": "boats.com",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -8416,28 +6257,7 @@
   {
     "BoatModelID": "SEAL-34-TC",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "1987 Sealord (Chien Hwa) Tri-Cabin — documented Ontario example",
-        "url": "https://www.boatdealers.ca/boats-for-sale/542099/sealord-tricabin-hamilton-ontario",
-        "sourceLabel": "BoatDealers.ca",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "1986 Sea Lord 34 Double Cabin Trawler — documented Ontario example",
-        "url": "https://dailyboats.com/boat/309289-buy-sea-lord-34-double-cabin-trawler-for-sale",
-        "sourceLabel": "Daily Boats / Harris & Ellis archive",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
     "ownerCommunities": [],
     "images": [],
@@ -8512,28 +6332,7 @@
   {
     "BoatModelID": "BHMB-32",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "1993 BHM Flye Point 32 — documented cruiser",
-        "url": "https://www.breweryacht.com/listings/1993-bhm-32-flye-point-32/2794268",
-        "sourceLabel": "Brewer Yacht Sales",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "BHM 32 custom-finish construction description",
-        "url": "https://marinesource.com/boats-for-sale/listing_print.cfm?listingnmb=100908987",
-        "sourceLabel": "MarineSource archive",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
     "ownerCommunities": [],
     "images": [],
@@ -8550,18 +6349,7 @@
   {
     "BoatModelID": "DUFF-29",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "Duffy Boats history and builder lineage",
-        "url": "https://www.atlanticboat.com/history-of-duffy-boats/",
-        "sourceLabel": "Atlantic Boat Company",
-        "resourceType": "Builder history",
-        "verificationStatus": "Verified",
-        "scope": "Duffy family",
-        "confidence": "High",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
     "ownerCommunities": [],
     "images": [],
@@ -8680,16 +6468,6 @@
         "url": "https://www.stellwagenyachts.com/duffy",
         "sourceLabel": "Stellwagen Yachts / Duffy archive",
         "resourceType": "Historical model description",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      },
-      {
-        "title": "2006 Duffy 37 Downeast — detailed yacht-finished example",
-        "url": "https://www.yachtworld.com/yacht/2006-duffy-37-downeast-9969281/",
-        "sourceLabel": "YachtWorld",
-        "resourceType": "Detailed model example",
         "verificationStatus": "Verified",
         "scope": "Model-specific",
         "confidence": "Medium",
@@ -9273,18 +7051,7 @@
   {
     "BoatModelID": "SEAW-24-ST",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "Seaway used-market model archive",
-        "url": "https://www.boats.com/boats-for-sale/?make=seaway",
-        "sourceLabel": "boats.com",
-        "resourceType": "Manufacturer used-market archive",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
     "ownerCommunities": [],
     "images": [],
@@ -9301,18 +7068,7 @@
   {
     "BoatModelID": "SEAW-28-CC",
     "schemaVersion": 2,
-    "documents": [
-      {
-        "title": "Seaway Coastal Cruiser owner experience",
-        "url": "https://www.trawlerforum.com/threads/seaway-coastal-cruiser.69628/",
-        "sourceLabel": "Trawler Forum",
-        "resourceType": "Owner experience",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
-      }
-    ],
+    "documents": [],
     "videos": [],
     "ownerCommunities": [],
     "images": [],
@@ -9797,16 +7553,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "2005 Hunt Surfhunter 29 — detailed documented example",
-        "url": "https://www.yachtworld.com/yacht/2005-hunt-surfhunter-29-9984335/",
-        "sourceLabel": "YachtWorld / Hinckley",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Medium",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -9864,16 +7610,6 @@
     "BoatModelID": "SABR-34-EX",
     "schemaVersion": 2,
     "documents": [
-      {
-        "title": "2007 Sabre 34 Express — documented specifications",
-        "url": "https://www.boats.com/power-boats/2007-sabre-34-express-9887667/",
-        "sourceLabel": "boats.com / DiMillo's",
-        "resourceType": "Detailed model example",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
       {
         "title": "2007 Sabre model specification registry",
         "url": "https://www.jdpower.com/boats/2007/sabre-corp",
@@ -10395,16 +8131,6 @@
       {
         "title": "Bayliner 3218 Motoryacht owner manual archive",
         "url": "https://manualzz.com/doc/34718597/bayliner-3218-motoryacht-user-manual",
-        "sourceLabel": "HMY / factory / model archive",
-        "resourceType": "Model guide or reference",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "Moderate",
-        "notes": ""
-      },
-      {
-        "title": "1989 Bayliner 3218 documented example",
-        "url": "https://www.boats.com/power-boats/1989-bayliner-3218-motoryacht-9746507/",
         "sourceLabel": "HMY / factory / model archive",
         "resourceType": "Model guide or reference",
         "verificationStatus": "Verified",
@@ -12325,16 +10051,6 @@
         "scope": "Model-specific",
         "confidence": "High",
         "notes": ""
-      },
-      {
-        "title": "Seahorse Coot 35 — verified model reference 2",
-        "url": "https://ca.boats.com/boats-for-sale/?make=seahorse&model=coot-35",
-        "sourceLabel": "Seahorse / market archive",
-        "resourceType": "Model history / specifications",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
       }
     ],
     "videos": [],
@@ -12461,16 +10177,6 @@
       {
         "title": "Eagle 32 Pilothouse — verified model reference 1",
         "url": "https://www.hmy.com/yachting/powerboat-guide/eagle/32-pilothouse-1985-98",
-        "sourceLabel": "HMY / Transpacific market archive",
-        "resourceType": "Model history / specifications",
-        "verificationStatus": "Verified",
-        "scope": "Model-specific",
-        "confidence": "High",
-        "notes": ""
-      },
-      {
-        "title": "Eagle 32 Pilothouse — verified model reference 2",
-        "url": "https://www.yachtworld.com/yacht/1989-transpacific-marine-eagle-pilothouse-9870405/",
         "sourceLabel": "HMY / Transpacific market archive",
         "resourceType": "Model history / specifications",
         "verificationStatus": "Verified",

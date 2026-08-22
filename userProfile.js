@@ -4,8 +4,14 @@ function buildUserProfile() {
     const textSearch =
         document.getElementById("textSearch")?.value?.trim().toLowerCase() || "";
 
+    const minLengthVal = document.getElementById("minLength")?.value;
+    const minLength = minLengthVal ? Number(minLengthVal) : null;
+
     const maxLengthVal = document.getElementById("maxLength")?.value;
     const maxLength = maxLengthVal ? Number(maxLengthVal) : null;
+
+    const minBeamVal = document.getElementById("minBeam")?.value;
+    const minBeam = minBeamVal ? Number(String(minBeamVal).replace(",", ".")) : null;
 
     const maxBeamVal = document.getElementById("maxBeam")?.value;
     const maxBeam = maxBeamVal ? Number(String(maxBeamVal).replace(",", ".")) : null;
@@ -60,7 +66,9 @@ function buildUserProfile() {
         routes: routes,
         cruisingIntent: [],
         maxPrice: null,
+        minLength: minLength,
         maxLength: maxLength,
+        minBeam: minBeam,
         maxBeam: maxBeam,
         maxDraft: null,
         maxAirDraft: null,

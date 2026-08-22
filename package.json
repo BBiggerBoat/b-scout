@@ -1,8 +1,8 @@
 {
   "name": "b-scout-public",
   "private": true,
-  "version": "6.23.4",
-  "description": "B-Scout dual-mode community backend: local filesystem plus Cloudflare D1/KV live persistence",
+  "version": "6.23.6",
+  "description": "B-Scout search, dimensions and market-metrics foundation with dual-mode community backend",
   "scripts": {
     "test:marketplace-signal": "node developer/test-marketplace-signal.js",
     "validate:marketplaces": "node developer/validate-marketplace-signals.js",

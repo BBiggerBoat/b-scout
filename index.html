@@ -8,14 +8,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>B-Scout | Boat Knowledge for Better Decisions</title>
-<meta name="description" content="B-Scout helps boat buyers discover, compare and research cruising boat models using practical filters, permanent model guides and reviewed owner knowledge.">
+<meta name="description" content="B-Scout is a community-powered boat knowledge and research resource for discovering cruising boat models, comparing specifications, understanding trade-offs and making better buying decisions.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://bbiggerboat.github.io/b-scout/">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="B-Scout">
 <meta property="og:title" content="B-Scout | Boat Knowledge for Better Decisions">
-<meta property="og:description" content="Discover, compare and research cruising boat models with practical filters, permanent model guides and reviewed owner knowledge.">
+<meta property="og:description" content="Community-powered boat knowledge for discovering, comparing and researching cruising boat models, trade-offs and buyer considerations.">
 <meta property="og:url" content="https://bbiggerboat.github.io/b-scout/">
 <meta property="og:image" content="https://bbiggerboat.github.io/b-scout/images/bscout-header-logo.png">
 <meta name="twitter:card" content="summary">
@@ -26,7 +26,7 @@
   "@type": "WebSite",
   "name": "B-Scout",
   "url": "https://bbiggerboat.github.io/b-scout/",
-  "description": "Boat knowledge for better decisions. Discover, compare and research cruising boat models using practical filters, permanent model guides and reviewed owner knowledge."
+  "description": "B-Scout is a community-powered boat knowledge and research resource for discovering, comparing and researching cruising boat models and buyer trade-offs."
 }
 </script>
 
@@ -77,7 +77,7 @@
   <section class="lifecycle-hero">
     <p class="workspace-eyebrow">Start with what you know</p>
     <h1 id="lifecycleHomeTitle">What kind of boat are you looking for?</h1>
-    <p>B-Scout can help you work that out first, or take you directly to the boats if you already have a good idea.</p>
+    <p>B-Scout is a community-powered boat knowledge and research resource. Compare cruising boat models, understand specifications and trade-offs, and use reviewed owner knowledge to make better buying decisions. Start by working out what you need, or go directly to the boats if you already have a good idea.</p>
   </section>
 
   <section class="lifecycle-start-section" aria-labelledby="startHereTitle">
@@ -185,8 +185,10 @@
     <div class="guided-step" data-guided-step="1" hidden>
       <h2>What is your preferred length and beam?</h2>
       <p>Use maximums only when a larger model would create a real ownership problem. Confirm local marina slip limits, haul-out capacity and winter-storage restrictions. Unpermitted road trailering is commonly limited to about 8 ft 6 in wide; wider boats generally require permits and may need specialized transport.</p>
-      <div class="guided-field-grid">
+      <div class="guided-field-grid guided-dimension-fields">
+        <label>Minimum length <span>Use only when smaller models would not meet your needs. Unknown length remains a candidate.</span><input type="number" data-mirror-id="minLength" inputmode="decimal" placeholder="Feet"></label>
         <label>Maximum length <span>Leave blank when flexible. Include swim platforms or pulpits when your marina measures overall length.</span><input type="number" data-mirror-id="maxLength" inputmode="decimal" placeholder="Feet"></label>
+        <label>Minimum beam <span>Use only when a narrower model would be unsuitable. Unknown beam remains a candidate.</span><input type="text" data-mirror-id="minBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Feet, e.g. 9.5"></label>
         <label>Maximum beam <span>Confirm the usable width of your slip—not only its advertised size.</span><input type="text" data-mirror-id="maxBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Feet, e.g. 10.5"></label>
       </div>
     </div>
@@ -366,8 +368,16 @@
     </button>
     <div class="filter-content">
         <section class="filter-section compact-number-row">
+            <label for="minLength">Min Length (ft)</label>
+            <input type="number" id="minLength" inputmode="decimal" placeholder="24">
+        </section>
+        <section class="filter-section compact-number-row">
             <label for="maxLength">Max Length (ft)</label>
             <input type="number" id="maxLength" inputmode="decimal" placeholder="33">
+        </section>
+        <section class="filter-section compact-number-row">
+            <label for="minBeam">Min Beam (ft)</label>
+            <input type="text" id="minBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="9.5">
         </section>
         <section class="filter-section compact-number-row">
             <label for="maxBeam">Max Beam (ft)</label>
@@ -548,7 +558,7 @@
     <a href="#privacy" data-app-action="privacy">Privacy</a>
     <a id="moderatorAccessLink" class="moderator-access-link" href="developer/contribution-review.html" hidden>Moderator</a>
   </nav>
-  <span>Version 6.23.4 — Search Experience Integration</span>
+  <span>Version 6.23.6 — Strict Resource Quality Baseline</span>
 </footer>
 </main>
 

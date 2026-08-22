@@ -183,11 +183,18 @@
             const maximumNumber = numericValue(maximum);
             return actualNumber !== null && maximumNumber !== null && actualNumber > maximumNumber;
         };
+        const belowMinimum = (actual, minimum) => {
+            const actualNumber = numericValue(actual);
+            const minimumNumber = numericValue(minimum);
+            return actualNumber !== null && minimumNumber !== null && actualNumber < minimumNumber;
+        };
 
         // Routes, Dimensions, and Characteristics are hard filters.
         // Missing registry data is retained; a known conflict eliminates the model.
         if (typeof routeEvaluator === "function" && !routeEvaluator(boat, profile, routes || [])) reasons.push("route-compatibility");
+        if (belowMinimum(boat.LOA_ft, profile.minLength)) reasons.push("min-length");
         if (exceedsMaximum(boat.LOA_ft, profile.maxLength)) reasons.push("max-length");
+        if (belowMinimum(boat.Beam_ft, profile.minBeam)) reasons.push("min-beam");
         if (exceedsMaximum(boat.Beam_ft, profile.maxBeam)) reasons.push("max-beam");
         if (exceedsMaximum(boat.Draft_ft, profile.maxDraft)) reasons.push("max-draft");
         if (exceedsMaximum(boat.AirDraft_ft, profile.maxAirDraft)) reasons.push("max-air-draft");

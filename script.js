@@ -167,7 +167,7 @@ function applySearchSettingsToControls(settings) {
         const wanted = new Set((selected || []).map(String));
         document.querySelectorAll(selector).forEach(element => { element.checked = wanted.has(String(element.value)); });
     };
-    setValue("textSearch", values.textSearch || ""); setValue("maxLength", values.maxLength ?? ""); setValue("maxBeam", values.maxBeam ?? "");
+    setValue("textSearch", values.textSearch || ""); setValue("minLength", values.minLength ?? ""); setValue("maxLength", values.maxLength ?? ""); setValue("minBeam", values.minBeam ?? ""); setValue("maxBeam", values.maxBeam ?? "");
     setValue("flybridgeFilter", values.flybridge || ""); setValue("sideDeckFilter", values.sideDecks || ""); setValue("trailerFilter", values.trailerable || ""); setValue("loopFilter", values.greatLoop || "");
     setValue("crewComposition", values.crewComposition || ""); setValue("tallestCrewHeight", values.tallestCrewHeight ?? ""); setValue("guestFrequency", values.guestFrequency || "");
     setCheckedValues(".routeFilter", values.routes); setCheckedValues(".styleFilter", values.styles); setCheckedValues(".familyFilter", values.boatFamilies);
@@ -181,7 +181,7 @@ function applySearchSettingsToControls(settings) {
 function describeSearchProfile(settings) {
     const s = settings || {}; const lines = [];
     if (s.textSearch) lines.push(`Search: ${s.textSearch}`); if (s.routes?.length) lines.push(`Routes: ${s.routes.join(", ")}`);
-    if (s.maxLength) lines.push(`Maximum length: ${s.maxLength} ft`); if (s.maxBeam) lines.push(`Maximum beam: ${s.maxBeam} ft`);
+    if (s.minLength) lines.push(`Minimum length: ${s.minLength} ft`); if (s.maxLength) lines.push(`Maximum length: ${s.maxLength} ft`); if (s.minBeam) lines.push(`Minimum beam: ${s.minBeam} ft`); if (s.maxBeam) lines.push(`Maximum beam: ${s.maxBeam} ft`);
     if (s.fuels?.length) lines.push(`Fuel: ${s.fuels.join(", ")}`); if (s.boatFamilies?.length) lines.push(`Boat family: ${s.boatFamilies.join(", ")}`);
     if (s.configurations?.length) lines.push(`Sub-Family: ${s.configurations.join(", ")}`); if (s.hullTypes?.length) lines.push(`Hull behaviour: ${s.hullTypes.join(", ")}`);
     if (s.constructionMaterials?.length) lines.push(`Construction: ${s.constructionMaterials.join(", ")}`); if (s.propulsion?.length) lines.push(`Propulsion: ${s.propulsion.join(", ")}`);
@@ -952,7 +952,7 @@ function showBoatDetails(boat) {
     if (modalScore) {
         const searchSettings = window.BScoutSearchState ? window.BScoutSearchState.getState().searchSettings : {};
         const hasBuyerCriteria = Boolean(
-            searchSettings.textSearch || searchSettings.maxLength || searchSettings.maxBeam ||
+            searchSettings.textSearch || searchSettings.minLength || searchSettings.maxLength || searchSettings.minBeam || searchSettings.maxBeam ||
             (searchSettings.routes || []).length || (searchSettings.styles || []).length || (searchSettings.boatFamilies || []).length || (searchSettings.configurations || []).length || (searchSettings.constructionMaterials || []).length ||
             (searchSettings.hullTypes || []).length || (searchSettings.fuels || []).length ||
             (searchSettings.propulsion || []).length || (searchSettings.engineCounts || []).length || searchSettings.twinEngines || searchSettings.flybridge || searchSettings.sideDecks ||

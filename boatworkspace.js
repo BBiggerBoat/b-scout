@@ -143,7 +143,7 @@
             </section>
             <section class="workspace-card"><h3>Quick Specifications</h3><div class="workspace-fact-grid">
                 ${field("Length", boat.LOA_ft, " ft")}${field("Beam", boat.Beam_ft, " ft")}${field("Draft", boat.Draft_ft, " ft")}${field("Air Draft", boat.AirDraft_ft, " ft")}
-                ${field("Fuel", boat.Fuel)}${field("Propulsion", boat.Propulsion)}
+                ${field("Fuel", boat.Fuel)}${field("Propulsion", boat.Propulsion)}${boat.RarityScore != null ? field("Rarity", `${boat.RarityScore}/5${boat.RarityLabel ? ` — ${boat.RarityLabel}` : ""}`) : ""}${boat.PriceLevel != null ? field("Price Level", `${boat.PriceLevel}/5${boat.PriceLevelLabel ? ` — ${boat.PriceLevelLabel}` : ""}`) : ""}
             </div></section>
             <section class="workspace-card"><h3>Why it remains a candidate</h3>${textList(positives, "No confirmed strengths have been recorded.")}</section>
             <section class="workspace-card"><h3>Cautions and unknowns</h3>${textList([...arr(cautions), ...arr(conflicts)], "No cautions have been recorded.")}</section>
@@ -165,7 +165,7 @@
             </div></section>
             <section class="workspace-card"><h3>Hull and Propulsion</h3><div class="workspace-fact-grid">
                 ${field("Style", boat.Style || boat.NormalizedStyle)}${field("Hull Form", boat.HullType || boat.NormalizedHullForm)}${field("Hull Configuration", boat.NormalizedHullConfiguration)}${field("Construction", boat.Construction)}
-                ${field("Fuel", boat.Fuel)}${field("Propulsion", boat.Propulsion)}${field("Flybridge", boat.Flybridge)}${field("Side Decks", boat.SideDecks)}
+                ${field("Fuel", boat.Fuel)}${field("Propulsion", boat.Propulsion)}${boat.RarityScore != null ? field("Rarity", `${boat.RarityScore}/5${boat.RarityLabel ? ` — ${boat.RarityLabel}` : ""}`) : ""}${boat.PriceLevel != null ? field("Price Level", `${boat.PriceLevel}/5${boat.PriceLevelLabel ? ` — ${boat.PriceLevelLabel}` : ""}`) : ""}${field("Flybridge", boat.Flybridge)}${field("Side Decks", boat.SideDecks)}
             </div></section>
             <section class="workspace-card"><h3>Accommodation and Systems</h3><div class="workspace-fact-grid">
                 ${field("Berths", boat.Berths)}${field("Cabins", boat.Cabins)}${field("Heads", boat.Heads)}${field("Shower", boat.Shower)}
@@ -383,7 +383,7 @@
               <section class="workspace-card"><h3>Why people consider it</h3><p>${esc(intelligence.characterNarrative || boat.ModelCharacter || intelligence.signature || "Model character has not yet been researched.")}</p>${textList(highlights, "No confirmed strengths have been recorded.")}</section>
               <section class="workspace-card"><h3>At a glance</h3><div class="workspace-fact-grid">
                 ${field("Length", boat.LOA_ft, " ft")}${field("Beam", boat.Beam_ft, " ft")}${field("Style", boat.Style || boat.NormalizedStyle)}${field("Hull", boat.HullType || boat.NormalizedHullForm)}
-                ${field("Fuel", boat.Fuel)}${field("Propulsion", boat.Propulsion)}
+                ${field("Fuel", boat.Fuel)}${field("Propulsion", boat.Propulsion)}${boat.RarityScore != null ? field("Rarity", `${boat.RarityScore}/5${boat.RarityLabel ? ` — ${boat.RarityLabel}` : ""}`) : ""}${boat.PriceLevel != null ? field("Price Level", `${boat.PriceLevel}/5${boat.PriceLevelLabel ? ` — ${boat.PriceLevelLabel}` : ""}`) : ""}
               </div></section>
               <section class="workspace-card"><h3>Walkthroughs & Visual Resources</h3>${mediaHtml}</section>
             </div>`;

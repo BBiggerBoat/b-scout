@@ -1,0 +1,1885 @@
+{
+  "auditVersion": "6.23.6",
+  "auditDate": "2026-08-21",
+  "standard": "Strict model/family-specific Owner Resource quality standard",
+  "before": {
+    "canonicalModels": 253,
+    "videos": 55,
+    "documents": 535,
+    "ownerCommunities": 192,
+    "totalResources": 782
+  },
+  "after": {
+    "canonicalModels": 253,
+    "videos": 53,
+    "documents": 393,
+    "ownerCommunities": 111,
+    "totalResources": 557,
+    "modelsWithNoOwnerResource": 15
+  },
+  "removedCount": 225,
+  "modelsWithNoOwnerResource": [
+    {
+      "BoatModelID": "BHMB-32",
+      "Model": "BHM 32 / Flye Point 32"
+    },
+    {
+      "BoatModelID": "CAMA-28-GN",
+      "Model": "Camano 28/31 Gnome"
+    },
+    {
+      "BoatModelID": "CHBB-34-SE",
+      "Model": "CHB 34 Sedan"
+    },
+    {
+      "BoatModelID": "CHBY-40",
+      "Model": "CHB 40 Double Cabin"
+    },
+    {
+      "BoatModelID": "DEFE-38-TR",
+      "Model": "DeFever 38 Passagemaker"
+    },
+    {
+      "BoatModelID": "DUFF-29",
+      "Model": "Duffy 29"
+    },
+    {
+      "BoatModelID": "MTRA-34-EU",
+      "Model": "Marine Trader 34 Europa"
+    },
+    {
+      "BoatModelID": "NMBS-3003",
+      "Model": "Nimbus 3003"
+    },
+    {
+      "BoatModelID": "OCAL-39-SE",
+      "Model": "Ocean Alexander 39 Sedan"
+    },
+    {
+      "BoatModelID": "ROSB-246-LS",
+      "Model": "Rosborough RF-246 Sedan Cruiser Diesel"
+    },
+    {
+      "BoatModelID": "SEAL-34-TC",
+      "Model": "Sealord 34 Double Cabin Trawler"
+    },
+    {
+      "BoatModelID": "SEAW-24-ST",
+      "Model": "Seaway 24 Sport Trawler"
+    },
+    {
+      "BoatModelID": "SEAW-28-CC",
+      "Model": "Seaway 28 Coastal Cruiser"
+    },
+    {
+      "BoatModelID": "TOLL-37-SE",
+      "Model": "Tollycraft 37 Sedan"
+    },
+    {
+      "BoatModelID": "UNIV-36-TR",
+      "Model": "Universal Marine 36 Tri-Cabin Trawler"
+    }
+  ],
+  "removedResources": [
+    {
+      "BoatModelID": "ALBN-27-FC",
+      "Model": "Albin 27 Family Cruiser",
+      "category": "documents",
+      "title": "Albin owner-manual discussion and component-document archive",
+      "url": "https://albinowners.net/aog/viewtopic.php?t=823",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "ALBN-28-FL",
+      "Model": "Albin 28 Tournament Express — Flush Deck",
+      "category": "documents",
+      "title": "Albin owner-manual discussion and component-document archive",
+      "url": "https://albinowners.net/aog/viewtopic.php?t=823",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "ALBN-28-TE-EB",
+      "Model": "Albin 28 Tournament Express — Engine Box",
+      "category": "documents",
+      "title": "Albin owner-manual discussion and component-document archive",
+      "url": "https://albinowners.net/aog/viewtopic.php?t=823",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CAMA-28-GN",
+      "Model": "Camano 28/31 Gnome",
+      "category": "documents",
+      "title": "Camano 31 Owner's Handbook",
+      "url": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "CAMA-28-GN",
+      "Model": "Camano 28/31 Gnome",
+      "category": "documents",
+      "title": "Camano history and construction overview",
+      "url": "https://www.camanopacific.com/about",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "CAMA-28-GN",
+      "Model": "Camano 28/31 Gnome",
+      "category": "ownerCommunities",
+      "title": "Camano Pacific Region Owners Group",
+      "url": "https://www.camanopacific.com/",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "NMBS-3003",
+      "Model": "Nimbus 3003",
+      "category": "documents",
+      "title": "Nimbus 3003 — documented brokerage specification #1",
+      "url": "https://www.devalk.nl/en/yachtbrokerage/52892/NIMBUS-3003.html",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "NMBS-3003",
+      "Model": "Nimbus 3003",
+      "category": "documents",
+      "title": "Nimbus 3003 — documented brokerage specification #2",
+      "url": "https://www.devalk.nl/en/yachtbrokerage/81320/NIMBUS-3003.html",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "RNGR-21-CLASSIC",
+      "Model": "Ranger Tug R-21 Classic",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-21-CLASSIC",
+      "Model": "Ranger Tug R-21 Classic",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-21-EC",
+      "Model": "Ranger Tug R-21 EC",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-21-EC",
+      "Model": "Ranger Tug R-21 EC",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-25-CLASSIC",
+      "Model": "Ranger Tug R-25 Classic",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-25-CLASSIC",
+      "Model": "Ranger Tug R-25 Classic",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-25-SC",
+      "Model": "Ranger Tug R-25 SC",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-25-SC",
+      "Model": "Ranger Tug R-25 SC",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-27-OB",
+      "Model": "Ranger Tugs R-27 NW/LE",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-27-OB",
+      "Model": "Ranger Tugs R-27 NW/LE",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-27-RT",
+      "Model": "Ranger Tug R-27 Classic",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-27-RT",
+      "Model": "Ranger Tug R-27 Classic",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-29-CB",
+      "Model": "Ranger Tugs R-29 CB",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-29-CB",
+      "Model": "Ranger Tugs R-29 CB",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-29-CLASSIC",
+      "Model": "Ranger Tug R-29 Classic",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-29-CLASSIC",
+      "Model": "Ranger Tug R-29 Classic",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-31-CB",
+      "Model": "Ranger Tugs R-31 CB",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-31-CB",
+      "Model": "Ranger Tugs R-31 CB",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-43-CB",
+      "Model": "Ranger Tugs R-43 CB",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-43-CB",
+      "Model": "Ranger Tugs R-43 CB",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-43-S",
+      "Model": "Ranger Tugs R-43 S",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-43-S",
+      "Model": "Ranger Tugs R-43 S",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-R-23",
+      "Model": "Ranger Tugs R-23",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-R-23",
+      "Model": "Ranger Tugs R-23",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-R-25",
+      "Model": "Ranger Tugs R-25",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-R-25",
+      "Model": "Ranger Tugs R-25",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-R-27",
+      "Model": "Ranger Tugs R-27",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-R-27",
+      "Model": "Ranger Tugs R-27",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-R-29",
+      "Model": "Ranger Tugs R-29 S",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-R-29",
+      "Model": "Ranger Tugs R-29 S",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "RNGR-R-31",
+      "Model": "Ranger Tugs R-31 S",
+      "category": "ownerCommunities",
+      "title": "The Ranger Tugs Difference — design, construction and company background",
+      "url": "https://www.rangertugs.com/why-ranger-tugs/the-ranger-tugs-difference",
+      "reason": "Manufacturer background is not an Owner Resource."
+    },
+    {
+      "BoatModelID": "RNGR-R-31",
+      "Model": "Ranger Tugs R-31 S",
+      "category": "documents",
+      "title": "Ranger Tugs Customer Care — manuals, parts and training",
+      "url": "https://www.rangertugs.com/ownership-experience/customer-care?hashLink=ownersmanuals",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GRBK-32-CL",
+      "Model": "Grand Banks 32 Sedan",
+      "category": "documents",
+      "title": "Grand Banks — A Grand History / Heritage model chronology",
+      "url": "https://www.grandbanks.com/a-grand-history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GRBK-36-CL",
+      "Model": "Grand Banks 36 Classic",
+      "category": "documents",
+      "title": "Grand Banks — A Grand History / Heritage model chronology",
+      "url": "https://www.grandbanks.com/a-grand-history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-26",
+      "Model": "Nordic Tug 26",
+      "category": "documents",
+      "title": "Nordic Tugs history — origins of the 26",
+      "url": "https://www.nordictugs.com/history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-26",
+      "Model": "Nordic Tug 26",
+      "category": "documents",
+      "title": "Nordic Tug Waypoints magazine archive",
+      "url": "https://www.sentoa.org/nto/waypoints.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-26",
+      "Model": "Nordic Tug 26",
+      "category": "ownerCommunities",
+      "title": "SENTOA owner listserver",
+      "url": "https://www.sentoa.org/listserver.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-26",
+      "Model": "Nordic Tug 26",
+      "category": "ownerCommunities",
+      "title": "NorthEast Nordic Tug Owners Association",
+      "url": "https://www.nentoa.com/about",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-32",
+      "Model": "Nordic Tug 32",
+      "category": "documents",
+      "title": "Nordic Tugs history — 32 introduction and 34 evolution",
+      "url": "https://www.nordictugs.com/history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-32",
+      "Model": "Nordic Tug 32",
+      "category": "documents",
+      "title": "Nordic Tug Waypoints magazine archive",
+      "url": "https://www.sentoa.org/nto/waypoints.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-32",
+      "Model": "Nordic Tug 32",
+      "category": "ownerCommunities",
+      "title": "SENTOA owner listserver",
+      "url": "https://www.sentoa.org/listserver.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-32",
+      "Model": "Nordic Tug 32",
+      "category": "ownerCommunities",
+      "title": "NorthEast Nordic Tug Owners Association",
+      "url": "https://www.nentoa.com/about",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CHBY-34-SE",
+      "Model": "CHB 34 Double Cabin",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — Taiwan-trawler technical and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHBY-34-SE",
+      "Model": "CHB 34 Double Cabin",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Taiwanese Makes owner discussions",
+      "url": "https://www.trawlerforum.com/forums/taiwanese-makes.31/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "KDKR-36-MA",
+      "Model": "Kadey-Krogen 36 Manatee",
+      "category": "videos",
+      "title": "Krogen 36 Manatee video-tour collection",
+      "url": "https://marinesource.com/boat/kadey-krogen-36-manatee-1984-fulton-25fca2591-for-sale",
+      "reason": "Marketplace/brokerage listing URL is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "KDKR-36-MA",
+      "Model": "Kadey-Krogen 36 Manatee",
+      "category": "documents",
+      "title": "Kadey-Krogen — company and model history",
+      "url": "https://www.kadeykrogen.com/our-history/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "KDKR-36-MA",
+      "Model": "Kadey-Krogen 36 Manatee",
+      "category": "ownerCommunities",
+      "title": "Kadey-Krogen Waypoints magazine archive",
+      "url": "https://www.kadeykrogen.com/waypoints-magazine/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CHLY-28",
+      "Model": "Cheoy Lee 28 Sedan Trawler",
+      "category": "documents",
+      "title": "1977 Cheoy Lee 28 Sedan Trawler — preserved brokerage brochure",
+      "url": "https://s3.amazonaws.com/pop.web.assets/Listing-Brochures/Pop-Brochure-117294.pdf",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "CHLY-28",
+      "Model": "Cheoy Lee 28 Sedan Trawler",
+      "category": "documents",
+      "title": "Cheoy Lee Shipyards — heritage and construction history",
+      "url": "https://cheoylee.com/heritage/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "ROSB-246-WH",
+      "Model": "Rosborough RF-246 Custom Wheelhouse",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Rosborough owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ALBN-30-FC",
+      "Model": "Albin 30 Family Cruiser",
+      "category": "documents",
+      "title": "Albin owner-manual discussion and component-document archive",
+      "url": "https://albinowners.net/aog/viewtopic.php?t=823",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NMBL-32-WA",
+      "Model": "Nimble Wanderer",
+      "category": "documents",
+      "title": "Irish Wake — documented mastless 2002 Nimble Wanderer power cruiser",
+      "url": "https://www.sirensboatworks.com/irish-wake/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "NPAC-28",
+      "Model": "North Pacific 28 Pilothouse",
+      "category": "documents",
+      "title": "North Pacific Yachts review and historical article archive",
+      "url": "https://northpacificyachts.com/news/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NPAC-28",
+      "Model": "North Pacific 28 Pilothouse",
+      "category": "documents",
+      "title": "North Pacific Yachts — current builder and support",
+      "url": "https://northpacificyachts.com/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "KDKR-42",
+      "Model": "Kadey-Krogen 42",
+      "category": "documents",
+      "title": "Kadey-Krogen — company and model history",
+      "url": "https://www.kadeykrogen.com/our-history/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "KDKR-42",
+      "Model": "Kadey-Krogen 42",
+      "category": "documents",
+      "title": "Kadey-Krogen passagemaking design philosophy",
+      "url": "https://www.kadeykrogen.com/passagemaking/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "KDKR-42",
+      "Model": "Kadey-Krogen 42",
+      "category": "ownerCommunities",
+      "title": "Kadey-Krogen Waypoints magazine archive",
+      "url": "https://www.kadeykrogen.com/waypoints-magazine/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-34",
+      "Model": "Nordic Tug 34",
+      "category": "documents",
+      "title": "Nordic Tugs history — 32 to 34 evolution",
+      "url": "https://www.nordictugs.com/history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-34",
+      "Model": "Nordic Tug 34",
+      "category": "documents",
+      "title": "Nordic Tug Waypoints magazine archive",
+      "url": "https://www.sentoa.org/nto/waypoints.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-34",
+      "Model": "Nordic Tug 34",
+      "category": "ownerCommunities",
+      "title": "SENTOA owner listserver",
+      "url": "https://www.sentoa.org/listserver.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-34",
+      "Model": "Nordic Tug 34",
+      "category": "ownerCommunities",
+      "title": "NorthEast Nordic Tug Owners Association",
+      "url": "https://www.nentoa.com/about",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-37",
+      "Model": "Nordic Tug 37",
+      "category": "ownerCommunities",
+      "title": "SENTOA owner listserver",
+      "url": "https://www.sentoa.org/listserver.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-37",
+      "Model": "Nordic Tug 37",
+      "category": "ownerCommunities",
+      "title": "NorthEast Nordic Tug Owners Association",
+      "url": "https://www.nentoa.com/about",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-39",
+      "Model": "Nordic Tug 39",
+      "category": "documents",
+      "title": "Nordic Tugs history — 37 to 39 evolution",
+      "url": "https://www.nordictugs.com/history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-39",
+      "Model": "Nordic Tug 39",
+      "category": "documents",
+      "title": "Nordic Tug Waypoints magazine archive",
+      "url": "https://www.sentoa.org/nto/waypoints.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-39",
+      "Model": "Nordic Tug 39",
+      "category": "ownerCommunities",
+      "title": "SENTOA owner listserver",
+      "url": "https://www.sentoa.org/listserver.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-39",
+      "Model": "Nordic Tug 39",
+      "category": "ownerCommunities",
+      "title": "NorthEast Nordic Tug Owners Association",
+      "url": "https://www.nentoa.com/about",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-42",
+      "Model": "Nordic Tug 42",
+      "category": "documents",
+      "title": "Nordic Tugs history — 42 family",
+      "url": "https://www.nordictugs.com/history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-42",
+      "Model": "Nordic Tug 42",
+      "category": "ownerCommunities",
+      "title": "SENTOA owner listserver",
+      "url": "https://www.sentoa.org/listserver.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NDTG-42",
+      "Model": "Nordic Tug 42",
+      "category": "ownerCommunities",
+      "title": "NorthEast Nordic Tug Owners Association",
+      "url": "https://www.nentoa.com/about",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GRBK-36-EU",
+      "Model": "Grand Banks 36 Europa",
+      "category": "documents",
+      "title": "Grand Banks — A Grand History / Heritage model chronology",
+      "url": "https://www.grandbanks.com/a-grand-history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GRBK-42-CL",
+      "Model": "Grand Banks 42 Classic",
+      "category": "documents",
+      "title": "Grand Banks — A Grand History / Heritage model chronology",
+      "url": "https://www.grandbanks.com/a-grand-history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GRBK-46-CL",
+      "Model": "Grand Banks 46 Classic",
+      "category": "documents",
+      "title": "Grand Banks — A Grand History / Heritage model chronology",
+      "url": "https://www.grandbanks.com/a-grand-history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GRBK-49-MY",
+      "Model": "Grand Banks 49 Motor Yacht",
+      "category": "documents",
+      "title": "Grand Banks — A Grand History / Heritage model chronology",
+      "url": "https://www.grandbanks.com/a-grand-history",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "MTRA-34-EU",
+      "Model": "Marine Trader 34 Europa",
+      "category": "documents",
+      "title": "Marine Trader 34 Europa — documented 1982 example",
+      "url": "https://marinesource.com/boat/marine-trader-europa-1982-washington-2543b6429-for-sale",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "MTRA-34-EU",
+      "Model": "Marine Trader 34 Europa",
+      "category": "documents",
+      "title": "Marine Trader 34 Europa — documented 1975 example",
+      "url": "https://marinesource.com/boats-for-sale/listing_details.cfm?Yacht=1975-34-Marine-Trader-Europa-Unknown-FL&listingnmb=100745977",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "MTRA-34-EU",
+      "Model": "Marine Trader 34 Europa",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MTRA-34-EU",
+      "Model": "Marine Trader 34 Europa",
+      "category": "ownerCommunities",
+      "title": "MTOA history — founded by Marine Trader owners",
+      "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MTRA-34-SE",
+      "Model": "Marine Trader 34 Sedan",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MTRA-34-SE",
+      "Model": "Marine Trader 34 Sedan",
+      "category": "ownerCommunities",
+      "title": "MTOA history — founded by Marine Trader owners",
+      "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MRTR-36-DO",
+      "Model": "Marine Trader 36 Double Cabin",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MRTR-36-DO",
+      "Model": "Marine Trader 36 Double Cabin",
+      "category": "ownerCommunities",
+      "title": "MTOA history — founded by Marine Trader owners",
+      "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MRTR-38-SD",
+      "Model": "Marine Trader 38 Double Cabin",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MRTR-38-SD",
+      "Model": "Marine Trader 38 Double Cabin",
+      "category": "ownerCommunities",
+      "title": "MTOA history — founded by Marine Trader owners",
+      "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MRTR-38-SD2",
+      "Model": "Marine Trader 38 Sundeck",
+      "category": "documents",
+      "title": "2010 Marine Trader 38 Sundeck — detailed sold listing",
+      "url": "https://yachtr.com/38-marine_trader-2010-2773843/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "MRTR-38-SD2",
+      "Model": "Marine Trader 38 Sundeck",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MRTR-40-DC",
+      "Model": "Marine Trader 40 Double Cabin",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MRTR-40-DC",
+      "Model": "Marine Trader 40 Double Cabin",
+      "category": "ownerCommunities",
+      "title": "MTOA history — founded by Marine Trader owners",
+      "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MRTR-44-TC",
+      "Model": "Marine Trader 44 Tri-Cabin",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — forum, technical knowledge and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "MRTR-44-TC",
+      "Model": "Marine Trader 44 Tri-Cabin",
+      "category": "ownerCommunities",
+      "title": "MTOA history — founded by Marine Trader owners",
+      "url": "https://www.mtoa.clubexpress.com/content.aspx?club_id=750660&module_id=646446&page_id=22",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHBB-34-SE",
+      "Model": "CHB 34 Sedan",
+      "category": "documents",
+      "title": "CHB 34 Sedan owner discussion and identification",
+      "url": "https://www.trawlerforum.com/threads/1977-chb-trawler.59329/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHBB-34-SE",
+      "Model": "CHB 34 Sedan",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — Taiwan-trawler technical and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHBB-34-SE",
+      "Model": "CHB 34 Sedan",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Taiwanese Makes owner discussions",
+      "url": "https://www.trawlerforum.com/forums/taiwanese-makes.31/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHBB-34-TC",
+      "Model": "CHB 34 Tri-Cabin",
+      "category": "documents",
+      "title": "CHB 34 Tri-Cabin — documented 1982 example",
+      "url": "https://www.yachtworld.com/yacht/1982-chb-34-tri-cabin-9881378/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "CHBB-34-TC",
+      "Model": "CHB 34 Tri-Cabin",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — Taiwan-trawler technical and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHBB-34-TC",
+      "Model": "CHB 34 Tri-Cabin",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Taiwanese Makes owner discussions",
+      "url": "https://www.trawlerforum.com/forums/taiwanese-makes.31/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHBY-35",
+      "Model": "CHB 35 Sundeck",
+      "category": "documents",
+      "title": "1984 Chien Hwa / CHB 35 documented example",
+      "url": "https://marinesource.com/boat/chb-35-trawler-1984-wilmington-9905785-for-sale/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "CHBY-35",
+      "Model": "CHB 35 Sundeck",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — Taiwan-trawler technical and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHBY-35",
+      "Model": "CHB 35 Sundeck",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Taiwanese Makes owner discussions",
+      "url": "https://www.trawlerforum.com/forums/taiwanese-makes.31/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHBY-40",
+      "Model": "CHB 40 Double Cabin",
+      "category": "documents",
+      "title": "1979 CHB 40 documented example",
+      "url": "https://marinesource.com/boat/chb-40-1979-hudson-177b9b09fb-for-sale",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "CHBY-40",
+      "Model": "CHB 40 Double Cabin",
+      "category": "documents",
+      "title": "1989 Chung Hwa 40 Oceania documented example",
+      "url": "https://americanyachts.com/brochure-page-iyba-d2-combined/?id=2772023",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "CHBY-40",
+      "Model": "CHB 40 Double Cabin",
+      "category": "ownerCommunities",
+      "title": "Marine Trawler Owners Association — Taiwan-trawler technical and cruising community",
+      "url": "https://mtoa.clubexpress.com/",
+      "reason": "General trawler association is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHBY-40",
+      "Model": "CHB 40 Double Cabin",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Taiwanese Makes owner discussions",
+      "url": "https://www.trawlerforum.com/forums/taiwanese-makes.31/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ISGY-32-SE",
+      "Model": "Island Gypsy 32 Sedan",
+      "category": "documents",
+      "title": "1986 Island Gypsy 32 Sedan — detailed preserved example",
+      "url": "https://ca.boats.com/power-boats/1986-island-gypsy-32-sedan-trawler-hull-38-10208275/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "ISGY-32-SE",
+      "Model": "Island Gypsy 32 Sedan",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Island Gypsy owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ISGY-32-EU",
+      "Model": "Island Gypsy 32 Europa",
+      "category": "documents",
+      "title": "Island Gypsy 32 Europa — current documented example",
+      "url": "https://www.boattrader.com/boat/2000-island-gypsy-32-9816774/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "ISGY-32-EU",
+      "Model": "Island Gypsy 32 Europa",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Island Gypsy owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ISGY-32-FI",
+      "Model": "Island Gypsy 32 Fisherman",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Island Gypsy owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ISGY-36",
+      "Model": "Island Gypsy 36 Classic",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Island Gypsy owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ISGY-36",
+      "Model": "Island Gypsy 36 Classic",
+      "category": "ownerCommunities",
+      "title": "Island Gypsy 36 owner systems discussion",
+      "url": "https://www.trawlerforum.com/threads/new-owner-of-1987-island-gypsy-36.38350/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ISGY-36EURO",
+      "Model": "Island Gypsy 36 Europa",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Island Gypsy owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ISGY-36EURO",
+      "Model": "Island Gypsy 36 Europa",
+      "category": "ownerCommunities",
+      "title": "Island Gypsy 36 Europa owner maintenance discussion",
+      "url": "https://www.trawlerforum.com/threads/after-the-teak-deck-is-gone-what-next.75800/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ISGY-40",
+      "Model": "Island Gypsy 40 Classic",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Island Gypsy owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ISGY-44",
+      "Model": "Island Gypsy 44 Motor Cruiser",
+      "category": "videos",
+      "title": "Island Gypsy 44 video-tour collection",
+      "url": "https://marinesource.com/boat/island-gypsy-44-1979-pittsburg-1777cdaa63-for-sale",
+      "reason": "Marketplace/brokerage listing URL is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "ISGY-44",
+      "Model": "Island Gypsy 44 Motor Cruiser",
+      "category": "documents",
+      "title": "1982 Kong & Halvorsen Island Gypsy 44 — documented vessel",
+      "url": "https://theboater.hk/yacht_sales/oscar/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "ISGY-44",
+      "Model": "Island Gypsy 44 Motor Cruiser",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Island Gypsy owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ISGY-44",
+      "Model": "Island Gypsy 44 Motor Cruiser",
+      "category": "ownerCommunities",
+      "title": "Island Gypsy 44 owner discussion",
+      "url": "https://www.trawlerforum.com/threads/1983-44-island-gypsy.60642/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "KDKR-39",
+      "Model": "Kadey-Krogen 39",
+      "category": "documents",
+      "title": "Kadey-Krogen — company and model history",
+      "url": "https://www.kadeykrogen.com/our-history/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "KDKR-39",
+      "Model": "Kadey-Krogen 39",
+      "category": "ownerCommunities",
+      "title": "Kadey-Krogen Waypoints magazine archive",
+      "url": "https://www.kadeykrogen.com/waypoints-magazine/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "KDKR-44",
+      "Model": "Krogen 44 AE",
+      "category": "ownerCommunities",
+      "title": "Kadey-Krogen Waypoints magazine archive",
+      "url": "https://www.kadeykrogen.com/waypoints-magazine/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "KDKR-48-NS",
+      "Model": "Krogen 48 North Sea",
+      "category": "documents",
+      "title": "Kadey-Krogen — company and model history",
+      "url": "https://www.kadeykrogen.com/our-history/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "KDKR-48-NS",
+      "Model": "Krogen 48 North Sea",
+      "category": "ownerCommunities",
+      "title": "Kadey-Krogen Waypoints magazine archive",
+      "url": "https://www.kadeykrogen.com/waypoints-magazine/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CUTW-24",
+      "Model": "Cutwater C-24 C",
+      "category": "documents",
+      "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
+      "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CUTW-26",
+      "Model": "Cutwater C-26",
+      "category": "documents",
+      "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
+      "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CUTW-28-P",
+      "Model": "Cutwater C-28",
+      "category": "documents",
+      "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
+      "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CUTW-30-C",
+      "Model": "Cutwater C-30 CB",
+      "category": "documents",
+      "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
+      "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CUTW-30-P",
+      "Model": "Cutwater C-30 S",
+      "category": "documents",
+      "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
+      "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CUTW-32",
+      "Model": "Cutwater C-32 CB",
+      "category": "documents",
+      "title": "Cutwater hull design — stepped hull, reverse chine and keel pad",
+      "url": "https://cutwaterboats.com/blog/cw-crafted-with-precision-the-cutwater-hull-design",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "AMTG-34",
+      "Model": "American Tug 34",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — American Tug owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "AMTG-34",
+      "Model": "American Tug 34",
+      "category": "documents",
+      "title": "American Tug — company and model history",
+      "url": "https://www.americantug.com/our-story/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "AMTG-34",
+      "Model": "American Tug 34",
+      "category": "documents",
+      "title": "American Tugs LLC Chapter 7 case 26-11066",
+      "url": "https://www.bankruptcyobserver.com/bankruptcy-case/american-tugs",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "AMTG-365",
+      "Model": "American Tug 365",
+      "category": "documents",
+      "title": "American Tug — company and model history",
+      "url": "https://www.americantug.com/our-story/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "AMTG-365",
+      "Model": "American Tug 365",
+      "category": "documents",
+      "title": "American Tugs LLC Chapter 7 case 26-11066",
+      "url": "https://www.bankruptcyobserver.com/bankruptcy-case/american-tugs",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "AMTG-395",
+      "Model": "American Tug 395",
+      "category": "documents",
+      "title": "American Tug — company and model history",
+      "url": "https://www.americantug.com/our-story/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "AMTG-395",
+      "Model": "American Tug 395",
+      "category": "documents",
+      "title": "American Tugs LLC Chapter 7 case 26-11066",
+      "url": "https://www.bankruptcyobserver.com/bankruptcy-case/american-tugs",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "ROSB-246-LS",
+      "Model": "Rosborough RF-246 Sedan Cruiser Diesel",
+      "category": "documents",
+      "title": "2000 RF-246 Sedan Cruiser Diesel — documented Canadian example",
+      "url": "https://www.boatdealers.ca/boats-for-sale/626732/rosborough-rf-246-sedan-cruiser-chicoutimi-quebec",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "ROSB-246-LS",
+      "Model": "Rosborough RF-246 Sedan Cruiser Diesel",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Rosborough owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "ROSB-246-LS",
+      "Model": "Rosborough RF-246 Sedan Cruiser Diesel",
+      "category": "documents",
+      "title": "Rosborough / Eastern Boat Works history and RF-246 lineage",
+      "url": "https://easternboats.com/our-legacy/",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "ROSB-246-LS",
+      "Model": "Rosborough RF-246 Sedan Cruiser Diesel",
+      "category": "documents",
+      "title": "Rosborough RF-246 — Soundings used-boat review",
+      "url": "https://soundingsonline.com/news/used-boat-review-rosborough-rf-246/",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "ROSB-246",
+      "Model": "Rosborough 246 Yarmouth",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Rosborough owner discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CHLY-32",
+      "Model": "Cheoy Lee 32 Trawler",
+      "category": "documents",
+      "title": "Cheoy Lee Shipyards — heritage and construction history",
+      "url": "https://cheoylee.com/heritage/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CHLY-35",
+      "Model": "Cheoy Lee 35 Trawler",
+      "category": "documents",
+      "title": "Cheoy Lee Shipyards — heritage and construction history",
+      "url": "https://cheoylee.com/heritage/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CHLY-36-TR",
+      "Model": "Cheoy Lee 36 Trawler",
+      "category": "documents",
+      "title": "Cheoy Lee Shipyards — heritage and construction history",
+      "url": "https://cheoylee.com/heritage/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "ALBN-27-SP",
+      "Model": "Albin 27 Sport Cruiser",
+      "category": "documents",
+      "title": "Albin owner-manual discussion and component-document archive",
+      "url": "https://albinowners.net/aog/viewtopic.php?t=823",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "ALBN-32-PL",
+      "Model": "Albin 32+2 Command Bridge",
+      "category": "documents",
+      "title": "Albin owner-manual discussion and component-document archive",
+      "url": "https://albinowners.net/aog/viewtopic.php?t=823",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "ALBN-36-CL",
+      "Model": "Albin 36 Trawler",
+      "category": "documents",
+      "title": "Albin owner-manual discussion and component-document archive",
+      "url": "https://albinowners.net/aog/viewtopic.php?t=823",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "ALBN-40-TR",
+      "Model": "Albin 40 Trawler",
+      "category": "documents",
+      "title": "Albin owner-manual discussion and component-document archive",
+      "url": "https://albinowners.net/aog/viewtopic.php?t=823",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "WILL-30-VO",
+      "Model": "Willard Vega 30 Voyager",
+      "category": "documents",
+      "title": "Willard trawler history and production lineage",
+      "url": "https://willardboats.org/about",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "WILL-30-VO",
+      "Model": "Willard Vega 30 Voyager",
+      "category": "documents",
+      "title": "Willard drawings archive",
+      "url": "https://willardboats.org/book-page/drawings",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "WILL-36-TR",
+      "Model": "Willard Vega 36 Standard Cruiser",
+      "category": "documents",
+      "title": "Willard trawler history and production lineage",
+      "url": "https://willardboats.org/about",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "WILL-36-TR",
+      "Model": "Willard Vega 36 Standard Cruiser",
+      "category": "documents",
+      "title": "Willard drawings archive",
+      "url": "https://willardboats.org/book-page/drawings",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "WILL-40-NO",
+      "Model": "Willard Vega 40 Nomad",
+      "category": "documents",
+      "title": "Patience — documented 1973 Vega 40 Nomad hull #1",
+      "url": "https://willardboats.org/boats/patience-w40",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "WILL-40-NO",
+      "Model": "Willard Vega 40 Nomad",
+      "category": "documents",
+      "title": "Willard trawler history and production lineage",
+      "url": "https://willardboats.org/about",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "NMBL-24-NO",
+      "Model": "Nimble Nomad",
+      "category": "documents",
+      "title": "Nimble Nomad hull #1 owner discussion and production context",
+      "url": "https://www.trawlerforum.com/threads/nimble-nomad-trawler.2596/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "NMBL-24-NO",
+      "Model": "Nimble Nomad",
+      "category": "ownerCommunities",
+      "title": "Seasoned Nimble Nomad owner discussion",
+      "url": "https://www.trawlerforum.com/threads/advice-from-seasoned-nimble-nomad-owners.14608/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "NPAC-38",
+      "Model": "North Pacific 38 Sedan",
+      "category": "documents",
+      "title": "2012 North Pacific 38 Sedan — current builder/broker documented example",
+      "url": "https://www.boats.com/power-boats/2012-north-pacific-38-sedan-9939559/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "NPAC-38",
+      "Model": "North Pacific 38 Sedan",
+      "category": "documents",
+      "title": "North Pacific Yachts — current builder and support",
+      "url": "https://northpacificyachts.com/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "DEFE-34-TR",
+      "Model": "DeFever 34 Passagemaker",
+      "category": "documents",
+      "title": "Arthur DeFever history and builder lineage",
+      "url": "https://www.defevercruisers.com/defever_history.asp",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "DEFE-38-TR",
+      "Model": "DeFever 38 Passagemaker",
+      "category": "documents",
+      "title": "1972 DeFever 38 Passagemaker — documented wooden example",
+      "url": "https://www.yachtworld.com/yacht/1972-defever-38-passagemaker-10176112/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "DEFE-38-TR",
+      "Model": "DeFever 38 Passagemaker",
+      "category": "documents",
+      "title": "Arthur DeFever history and builder lineage",
+      "url": "https://www.defevercruisers.com/defever_history.asp",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "DEFE-38-TR",
+      "Model": "DeFever 38 Passagemaker",
+      "category": "documents",
+      "title": "Arthur DeFever history and builder lineage",
+      "url": "https://www.defevercruisers.com/defever_history.asp",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "DEFE-38-TR",
+      "Model": "DeFever 38 Passagemaker",
+      "category": "ownerCommunities",
+      "title": "DeFever Cruisers — owner club, model knowledge and cruising community",
+      "url": "https://www.defevercruisers.com/",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "DEFE-40-EURO",
+      "Model": "DeFever 40 Offshore Cruiser",
+      "category": "documents",
+      "title": "DeFever Designs — model archive",
+      "url": "https://www.defevercruisers.com/defever_designs.asp",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "DEFE-40-EURO",
+      "Model": "DeFever 40 Offshore Cruiser",
+      "category": "documents",
+      "title": "Arthur DeFever history and builder lineage",
+      "url": "https://www.defevercruisers.com/defever_history.asp",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "DEFE-41",
+      "Model": "DeFever 41 Trawler",
+      "category": "documents",
+      "title": "DeFever Designs — model archive",
+      "url": "https://www.defevercruisers.com/defever_designs.asp",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "DEFE-41",
+      "Model": "DeFever 41 Trawler",
+      "category": "documents",
+      "title": "Arthur DeFever history and builder lineage",
+      "url": "https://www.defevercruisers.com/defever_history.asp",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "DEFE-43",
+      "Model": "DeFever 43 Trawler",
+      "category": "documents",
+      "title": "Arthur DeFever history and builder lineage",
+      "url": "https://www.defevercruisers.com/defever_history.asp",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "DEFE-45",
+      "Model": "DeFever 45 Pilothouse",
+      "category": "documents",
+      "title": "Arthur DeFever history and builder lineage",
+      "url": "https://www.defevercruisers.com/defever_history.asp",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "DEFE-47",
+      "Model": "DeFever 47 POC Motor Yacht",
+      "category": "documents",
+      "title": "Arthur DeFever history and builder lineage",
+      "url": "https://www.defevercruisers.com/defever_history.asp",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "DEFE-47",
+      "Model": "DeFever 47 POC Motor Yacht",
+      "category": "documents",
+      "title": "Arthur DeFever history and builder lineage",
+      "url": "https://www.defevercruisers.com/defever_history.asp",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "DEFE-49",
+      "Model": "DeFever 49 Cockpit Motor Yacht",
+      "category": "documents",
+      "title": "Arthur DeFever history and builder lineage",
+      "url": "https://www.defevercruisers.com/defever_history.asp",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CPDR-28-FB",
+      "Model": "Cape Dory 28 Flybridge Cruiser",
+      "category": "ownerCommunities",
+      "title": "Cape Dory — The Later Years powerboat history",
+      "url": "https://capedoryhistory.com/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CPDR-33-FB",
+      "Model": "Cape Dory 33 PowerYacht",
+      "category": "documents",
+      "title": "Cape Dory — The Later Years powerboat history",
+      "url": "https://capedoryhistory.com/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CPDR-40-TR",
+      "Model": "Cape Dory 40 Explorer",
+      "category": "documents",
+      "title": "Cape Dory — The Later Years powerboat history",
+      "url": "https://capedoryhistory.com/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GULF-36-TR",
+      "Model": "Gulfstar 36 Trawler",
+      "category": "documents",
+      "title": "Gulfstar Powerboat Guide model archive",
+      "url": "https://www.hmy.com/yachting/powerboat-guide/gulfstar",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GULF-36-TR",
+      "Model": "Gulfstar 36 Trawler",
+      "category": "ownerCommunities",
+      "title": "Gulfstar Owners Group",
+      "url": "https://groups.io/g/GulfstarOwners",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GULF-43-TR",
+      "Model": "Gulfstar 43 Trawler",
+      "category": "documents",
+      "title": "Gulfstar Powerboat Guide model archive",
+      "url": "https://www.hmy.com/yachting/powerboat-guide/gulfstar",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GULF-43-TR",
+      "Model": "Gulfstar 43 Trawler",
+      "category": "ownerCommunities",
+      "title": "Gulfstar Owners Group",
+      "url": "https://groups.io/g/GulfstarOwners",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GULF-44-MC",
+      "Model": "Gulfstar 44 Motor Cruiser",
+      "category": "documents",
+      "title": "1978 Gulfstar 44 Motor Cruiser — documented example",
+      "url": "https://ca.boats.com/power-boats/1978-gulfstar-44-motor-cruiser-10100722/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "GULF-44-MC",
+      "Model": "Gulfstar 44 Motor Cruiser",
+      "category": "documents",
+      "title": "Gulfstar Powerboat Guide model archive",
+      "url": "https://www.hmy.com/yachting/powerboat-guide/gulfstar",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GULF-44-MC",
+      "Model": "Gulfstar 44 Motor Cruiser",
+      "category": "ownerCommunities",
+      "title": "Gulfstar Owners Group",
+      "url": "https://groups.io/g/GulfstarOwners",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GULF-49-MC",
+      "Model": "Gulfstar 49 Motor Yacht",
+      "category": "documents",
+      "title": "Gulfstar Powerboat Guide model archive",
+      "url": "https://www.hmy.com/yachting/powerboat-guide/gulfstar",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "GULF-49-MC",
+      "Model": "Gulfstar 49 Motor Yacht",
+      "category": "ownerCommunities",
+      "title": "Gulfstar Owners Group",
+      "url": "https://groups.io/g/GulfstarOwners",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CALF-34-TR",
+      "Model": "Californian 34 LRC",
+      "category": "documents",
+      "title": "1983 Californian 34 LRC — detailed documented example",
+      "url": "https://www.boats.com/power-boats/1983-californian-34-lrc-9933804/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "CALF-34-TR",
+      "Model": "Californian 34 LRC",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Californian owner and technical discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CALF-34-TR",
+      "Model": "Californian 34 LRC",
+      "category": "documents",
+      "title": "Navigator / Californian Yachts brand history",
+      "url": "https://navigatoryachts.com/index.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "CALF-38-TR",
+      "Model": "Californian 38 LRC Sedan",
+      "category": "documents",
+      "title": "1982 Marshall Californian 38 LRC Sedan — documented example",
+      "url": "https://marinesource.com/boats-for-sale/listing_details.cfm?Yacht=1982-38-Marshall-Californian-38-LRC-Sedan-E-Ft-Myers-FL&listingnmb=100851136",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "CALF-38-TR",
+      "Model": "Californian 38 LRC Sedan",
+      "category": "ownerCommunities",
+      "title": "Trawler Forum — Californian owner and technical discussions",
+      "url": "https://www.trawlerforum.com/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "CALF-38-TR",
+      "Model": "Californian 38 LRC Sedan",
+      "category": "documents",
+      "title": "Navigator / Californian Yachts brand history",
+      "url": "https://navigatoryachts.com/index.html",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "PRAI-29-TR",
+      "Model": "Prairie 29 Coastal Cruiser",
+      "category": "documents",
+      "title": "Prairie Boat Works company history and Atlantic succession",
+      "url": "https://prairieboatworks.org/prairie-boat-works-company-history/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "PRAI-36-TR",
+      "Model": "Prairie 36 Coastal Cruiser",
+      "category": "documents",
+      "title": "Prairie Boat Works company history and Atlantic succession",
+      "url": "https://prairieboatworks.org/prairie-boat-works-company-history/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "OCAL-39-SE",
+      "Model": "Ocean Alexander 39 Sedan",
+      "category": "documents",
+      "title": "1986 Ocean Alexander 39 Sedan — documented unextended example",
+      "url": "https://www.yachtworld.com/yacht/1986-ocean-alexander-39-sedan-10098720/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "OCAL-39-SE",
+      "Model": "Ocean Alexander 39 Sedan",
+      "category": "documents",
+      "title": "1985 Ocean Alexander 39 Sedan — documented extended example",
+      "url": "https://www.charlesdavidyachts.com/boats/1985-ocean-alexander-39-sedan/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "OCAL-39-SE",
+      "Model": "Ocean Alexander 39 Sedan",
+      "category": "documents",
+      "title": "Ocean Alexander model archive",
+      "url": "https://www.hmy.com/yachting/powerboat-guide/ocean-alexander",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "TOLL-34-SE",
+      "Model": "Tollycraft 34 Sport Sedan",
+      "category": "documents",
+      "title": "Tollycraft fleet production numbers",
+      "url": "https://tollycruisers.ca/tollylife/how-many-tollycrafts/",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "TOLL-37-SE",
+      "Model": "Tollycraft 37 Sedan",
+      "category": "documents",
+      "title": "1977 Tollycraft 37 Sedan — documented example",
+      "url": "https://www.boats.com/power-boats/1977-tollycraft-37-sedan-9598684/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "TOLL-37-SE",
+      "Model": "Tollycraft 37 Sedan",
+      "category": "documents",
+      "title": "Tollycraft fleet production numbers",
+      "url": "https://tollycruisers.ca/tollylife/how-many-tollycrafts/",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "TOLL-37-SE",
+      "Model": "Tollycraft 37 Sedan",
+      "category": "ownerCommunities",
+      "title": "Canadian Tollycruisers",
+      "url": "https://tollycruisers.ca/",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "UNIV-36-TR",
+      "Model": "Universal Marine 36 Tri-Cabin Trawler",
+      "category": "documents",
+      "title": "Universal 36 Trawler — Boatshed detailed archive",
+      "url": "https://trinidad.boatshed.com/universal_36_trawler-boat-337526.html",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "UNIV-36-TR",
+      "Model": "Universal Marine 36 Tri-Cabin Trawler",
+      "category": "documents",
+      "title": "1978 Universal Marine 36 Tri-Cabin — YATCO archive",
+      "url": "https://www.yatco.com/yachts/1978-universal-marine-36-tri-cabin-trawler-universal-marine-1978-395916/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "UNIV-40-TR",
+      "Model": "Universal Marine 40 Europa",
+      "category": "documents",
+      "title": "1977 Universal Marine Europa — detailed current listing",
+      "url": "https://www.boats.com/power-boats/1977-universal-marine-europa-10104045/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "UNIF-36-DO",
+      "Model": "Uniflite 36 Double Cabin",
+      "category": "documents",
+      "title": "Uniflite model archive",
+      "url": "https://www.hmy.com/yachting/powerboat-guide/uniflite",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "TROJ-36-TR",
+      "Model": "Trojan F-36 Tri-Cabin",
+      "category": "documents",
+      "title": "1977 Trojan F-36 Tri-Cabin — documented Great Lakes example",
+      "url": "https://www.boats.com/power-boats/1977-trojan-36-tri-cabin-10068102/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "TROJ-36-TR",
+      "Model": "Trojan F-36 Tri-Cabin",
+      "category": "documents",
+      "title": "Trojan 1970–87 hull/model numbering reference",
+      "url": "https://www.trojanboats.net/trojan-numbering-70-87.pdf",
+      "reason": "Redundant manufacturer-wide resource; a stronger supplemental resource is retained for this model."
+    },
+    {
+      "BoatModelID": "SEAL-34-TC",
+      "Model": "Sealord 34 Double Cabin Trawler",
+      "category": "documents",
+      "title": "1987 Sealord (Chien Hwa) Tri-Cabin — documented Ontario example",
+      "url": "https://www.boatdealers.ca/boats-for-sale/542099/sealord-tricabin-hamilton-ontario",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "SEAL-34-TC",
+      "Model": "Sealord 34 Double Cabin Trawler",
+      "category": "documents",
+      "title": "1986 Sea Lord 34 Double Cabin Trawler — documented Ontario example",
+      "url": "https://dailyboats.com/boat/309289-buy-sea-lord-34-double-cabin-trawler-for-sale",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "BHMB-32",
+      "Model": "BHM 32 / Flye Point 32",
+      "category": "documents",
+      "title": "1993 BHM Flye Point 32 — documented cruiser",
+      "url": "https://www.breweryacht.com/listings/1993-bhm-32-flye-point-32/2794268",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "BHMB-32",
+      "Model": "BHM 32 / Flye Point 32",
+      "category": "documents",
+      "title": "BHM 32 custom-finish construction description",
+      "url": "https://marinesource.com/boats-for-sale/listing_print.cfm?listingnmb=100908987",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "DUFF-29",
+      "Model": "Duffy 29",
+      "category": "documents",
+      "title": "Duffy Boats history and builder lineage",
+      "url": "https://www.atlanticboat.com/history-of-duffy-boats/",
+      "reason": "No sufficiently model/family-specific Owner Resource remained under the strict standard."
+    },
+    {
+      "BoatModelID": "DUFF-37",
+      "Model": "Duffy 37",
+      "category": "documents",
+      "title": "2006 Duffy 37 Downeast — detailed yacht-finished example",
+      "url": "https://www.yachtworld.com/yacht/2006-duffy-37-downeast-9969281/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "SEAW-24-ST",
+      "Model": "Seaway 24 Sport Trawler",
+      "category": "documents",
+      "title": "Seaway used-market model archive",
+      "url": "https://www.boats.com/boats-for-sale/?make=seaway",
+      "reason": "Generic marketplace search is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "SEAW-28-CC",
+      "Model": "Seaway 28 Coastal Cruiser",
+      "category": "documents",
+      "title": "Seaway Coastal Cruiser owner experience",
+      "url": "https://www.trawlerforum.com/threads/seaway-coastal-cruiser.69628/",
+      "reason": "Generic discussion forum is not sufficiently model-specific."
+    },
+    {
+      "BoatModelID": "HUNT-29",
+      "Model": "Hunt Surfhunter 29",
+      "category": "documents",
+      "title": "2005 Hunt Surfhunter 29 — detailed documented example",
+      "url": "https://www.yachtworld.com/yacht/2005-hunt-surfhunter-29-9984335/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "SABR-34-EX",
+      "Model": "Sabre 34 Express",
+      "category": "documents",
+      "title": "2007 Sabre 34 Express — documented specifications",
+      "url": "https://www.boats.com/power-boats/2007-sabre-34-express-9887667/",
+      "reason": "Marketplace/brokerage example is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "BAYL-3218",
+      "Model": "Bayliner 3218 Motoryacht",
+      "category": "documents",
+      "title": "1989 Bayliner 3218 documented example",
+      "url": "https://www.boats.com/power-boats/1989-bayliner-3218-motoryacht-9746507/",
+      "reason": "Marketplace/brokerage listing URL is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "SEAH-35-PH",
+      "Model": "Seahorse Coot 35",
+      "category": "documents",
+      "title": "Seahorse Coot 35 — verified model reference 2",
+      "url": "https://ca.boats.com/boats-for-sale/?make=seahorse&model=coot-35",
+      "reason": "Generic marketplace search is not retained as a curated research resource."
+    },
+    {
+      "BoatModelID": "TPMC-32-EA",
+      "Model": "Eagle 32 Pilothouse",
+      "category": "documents",
+      "title": "Eagle 32 Pilothouse — verified model reference 2",
+      "url": "https://www.yachtworld.com/yacht/1989-transpacific-marine-eagle-pilothouse-9870405/",
+      "reason": "Marketplace/brokerage listing URL is not retained as a curated research resource."
+    }
+  ]
+}
