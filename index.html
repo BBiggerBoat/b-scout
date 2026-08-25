@@ -185,25 +185,27 @@
     <div class="guided-step" data-guided-step="1" hidden>
       <h2>What is your preferred length and beam?</h2>
       <p>Use maximums only when a larger model would create a real ownership problem. Confirm local marina slip limits, haul-out capacity and winter-storage restrictions. Unpermitted road trailering is commonly limited to about 8 ft 6 in wide; wider boats generally require permits and may need specialized transport.</p>
-      <div class="guided-field-grid guided-dimension-fields">
-        <label>Minimum length <span>Use only when smaller models would not meet your needs. Unknown length remains a candidate.</span><input type="number" data-mirror-id="minLength" inputmode="decimal" placeholder="Feet"></label>
-        <label>Maximum length <span>Leave blank when flexible. Include swim platforms or pulpits when your marina measures overall length.</span><input type="number" data-mirror-id="maxLength" inputmode="decimal" placeholder="Feet"></label>
-        <label>Minimum beam <span>Use only when a narrower model would be unsuitable. Unknown beam remains a candidate.</span><input type="text" data-mirror-id="minBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Feet, e.g. 9.5"></label>
-        <label>Maximum beam <span>Confirm the usable width of your slip—not only its advertised size.</span><input type="text" data-mirror-id="maxBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Feet, e.g. 10.5"></label>
+      <div class="guided-dimension-groups">
+        <section class="guided-dimension-group" aria-labelledby="guidedLengthHeading">
+          <h3 id="guidedLengthHeading" class="guided-dimension-heading">LENGTH</h3>
+          <div class="guided-field-grid guided-dimension-fields">
+            <label>Minimum <span>Use only when smaller models would not meet your needs. Unknown length remains a candidate.</span><input type="number" data-mirror-id="minLength" inputmode="decimal" placeholder="Feet"></label>
+            <label>Maximum <span>Leave blank when flexible. Include swim platforms or pulpits when your marina measures overall length.</span><input type="number" data-mirror-id="maxLength" inputmode="decimal" placeholder="Feet"></label>
+          </div>
+        </section>
+        <section class="guided-dimension-group" aria-labelledby="guidedBeamHeading">
+          <h3 id="guidedBeamHeading" class="guided-dimension-heading">BEAM</h3>
+          <div class="guided-field-grid guided-dimension-fields">
+            <label>Minimum <span>Use only when a narrower model would be unsuitable. Unknown beam remains a candidate.</span><input type="text" data-mirror-id="minBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Feet, e.g. 9.5"></label>
+            <label>Maximum <span>Confirm the usable width of your slip—not only its advertised size.</span><input type="text" data-mirror-id="maxBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Feet, e.g. 10.5"></label>
+          </div>
+        </section>
       </div>
     </div>
 
     <div class="guided-step" data-guided-step="2" hidden>
       <h2>What kind of model appeals to you?</h2>
       <p>These choices describe general layout and behaviour. Select only genuine requirements. Leaving choices blank keeps every model family available.</p>
-      <div class="guided-family-strip" aria-hidden="true">
-        <div class="guided-family-strip-card"><div class="guided-option-visual"> <svg viewBox="0 0 72 40"><path d="M7 26h50l8 8H26c-8 0-13-2-19-8Z"></path><path d="M26 15h16l7 11H18l8-11Z"></path><path d="M33 9h7v6h-7z"></path></svg></div><strong>Trawler</strong><small>Comfort and economy</small></div>
-        <div class="guided-family-strip-card"><div class="guided-option-visual"> <svg viewBox="0 0 72 40"><path d="M8 27h49l8 7H24c-8 0-11-1.8-16-7Z"></path><path d="M27 14h14v13H19l8-13Z"></path><path d="M32 8h4v6h-4z"></path><path d="M37 8h3v3h-3z"></path></svg></div><strong>Tug</strong><small>Compact and practical</small></div>
-        <div class="guided-family-strip-card"><div class="guided-option-visual"> <svg viewBox="0 0 72 40"><path d="M8 26h51l7 8H24c-7 0-11-2-16-8Z"></path><path d="M31 13h12l7 13H20l11-13Z"></path></svg></div><strong>Cruiser</strong><small>Balanced all-purpose use</small></div>
-        <div class="guided-family-strip-card"><div class="guided-option-visual"> <svg viewBox="0 0 72 40"><path d="M6 27h52l7 7H23c-8 0-12-1.8-17-7Z"></path><path d="M26 17h18l6 10H18l8-10Z"></path></svg></div><strong>Downeast</strong><small>Coastal simplicity</small></div>
-        <div class="guided-family-strip-card"><div class="guided-option-visual"> <svg viewBox="0 0 72 40"><path d="M8 27h51l7 7H22c-7 0-11-1.8-14-7Z"></path><path d="M24 13h20l8 14H16l8-14Z"></path><path d="M29 9h10v4H29z"></path></svg></div><strong>Motor Yacht</strong><small>More space and systems</small></div>
-        <div class="guided-family-strip-card"><div class="guided-option-visual"> <svg viewBox="0 0 72 40"><path d="M7 27h49l8 7H23c-7 0-11-1.7-16-7Z"></path><path d="M30 17h11l6 10H20l10-10Z"></path><path d="M44 11l8-5"></path><path d="M37 10v8"></path></svg></div><strong>Sportfisher</strong><small>Cockpit and speed</small></div>
-      </div>
       <h3>Boat family</h3><div class="guided-choice-grid guided-descriptive-grid" data-mirror-class="familyFilter"></div>
       <h3>Hull behaviour</h3><div class="guided-choice-grid guided-descriptive-grid" data-mirror-class="hullFilter"></div>
     </div>
@@ -217,7 +219,7 @@
     </div>
 
     <div class="guided-step" data-guided-step="4" hidden>
-      <h2>Which features matter most?</h2>
+      <h2>Which features matter most to you?</h2>
       <p>Standard Preferences do not normally eliminate a model. They help B-Scout rank known matches higher. Unknown features remain possible, with lower confidence.</p>
       <div id="guidedStandardPreferences" class="guided-preference-list"></div>
     </div>
@@ -529,7 +531,6 @@
         <h2>Research Boat Models</h2>
         <p class="results-principle">Search or refine model matches. Known poor fits are eliminated; incomplete models remain visible.</p>
     </div>
-    <button type="button" class="secondary-action compact-action" id="loadDemoFleetBtn">Load Demo Fleet</button>
 </div>
 
 

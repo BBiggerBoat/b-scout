@@ -254,7 +254,7 @@
             source.addEventListener("change", () => { input.checked = source.checked; });
             const text = document.createElement("span");
             const title = document.createElement("strong");
-            title.textContent = labelText;
+            title.textContent = (className === "familyFilter" && source.value === "Cruiser") ? "Express Cruiser" : labelText;
             text.appendChild(title);
             if (GUIDED_DESCRIPTIONS[source.value]) {
                 const description = document.createElement("small");
@@ -386,11 +386,6 @@
         if (window.BScoutOwnership) window.BScoutOwnership.openMyBoats(null, mode);
     }
 
-    function loadDemoFleet() {
-        if (typeof window.loadDemoFleetData === "function") window.loadDemoFleetData();
-        if (typeof window.updateBuyerWorkspaceCounts === "function") window.updateBuyerWorkspaceCounts();
-        openSavedBoats();
-    }
 
     document.addEventListener("click", event => {
         const actionTarget = event.target.closest("[data-app-action]");
@@ -433,7 +428,6 @@
     document.getElementById("guidedViewMatches")?.addEventListener("click",()=>{showDiscover();requestAnimationFrame(()=>{if(typeof window.runCurrentSearch==="function") window.runCurrentSearch(); else document.getElementById("searchButton")?.click();});});
     document.getElementById("closeModal")?.addEventListener("click", () => showDiscover());
     document.getElementById("closeInformationModal")?.addEventListener("click", () => closeModal("informationModal"));
-    document.getElementById("loadDemoFleetBtn")?.addEventListener("click", loadDemoFleet);
 
     if (!window.history.state?.bscoutView) updateHistory("home", {}, true);
     window.addEventListener("popstate", event => {
@@ -451,5 +445,5 @@
     });
     window.BScoutNavigation = { push: (view, extra = {}) => updateHistory(view, extra), replace: (view, extra = {}) => updateHistory(view, extra, true) };
 
-    window.BScoutApplicationPolish = { openInfo, openMyBoats, openSavedBoats, showDiscover, showGuidedMatches, showHome, loadDemoFleet, closeModal };
+    window.BScoutApplicationPolish = { openInfo, openMyBoats, openSavedBoats, showDiscover, showGuidedMatches, showHome, closeModal };
 })();

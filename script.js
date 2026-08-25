@@ -1820,12 +1820,6 @@ function initProfileManager() {
     });
 }
 
-const DEVELOPMENT_REFERENCE_FLEET_IDS = [
-    "GRBK-32-CL", "GRBK-36-CL", "CAMA-31-TR", "CAMA-28-GN", "NDTG-26", "NDTG-32",
-    "MNSH-34-MK1", "MNSH-30-PI", "MONK-36-TR", "CHBY-34-SE", "KDKR-36-MA",
-    "CHLY-28", "ROSB-246-WH", "ALBN-27-FC", "ALBN-28-FL", "ALBN-30-FC",
-    "NMBL-32-WA", "RNGR-27-RT", "RNGR-29-CLASSIC", "NMBS-3003", "CPDR-28-CR", "NPAC-28", "KDKR-42"
-];
 const BUYER_WORKSPACE_STORAGE_KEY = "bscout_buyer_workspace";
 const BUYER_WORKSPACE_PROFILE_ID = "__buyer_workspace__";
 let currentBuyerWorkspace = null;
@@ -1939,22 +1933,6 @@ function activateBuyerWorkspace(forceSearchDetach = false) {
     return currentBuyerWorkspace;
 }
 
-function seedDevelopmentReferenceFleet(profile) {
-    if (!profile) return profile;
-    if (!Array.isArray(profile.BoatRelationships)) profile.BoatRelationships = [];
-    const nowIso = new Date().toISOString();
-    DEVELOPMENT_REFERENCE_FLEET_IDS.forEach(boatModelId => {
-        let relationship = profile.BoatRelationships.find(item => String(item.BoatModelID) === boatModelId);
-        if (!relationship) {
-            relationship = { BoatModelID: boatModelId, Status: "Interested", Created: nowIso, LastUpdated: nowIso, Research: { Rating: 0, Notes: "", Tags: "Reference Fleet", BrokerLinks: "" } };
-            profile.BoatRelationships.push(relationship);
-        } else if (!relationship.Status || relationship.Status === "Interested") {
-            relationship.Status = "Interested";
-            relationship.LastUpdated = nowIso;
-        }
-    });
-    return profile;
-}
 
 function syncActiveProfile() {
     const selectEl = document.getElementById("searchProfileSelect");
@@ -2272,16 +2250,6 @@ function persistCurrentSearchProfile() {
     saveProfiles(profiles);
 }
 
-function loadDemoFleetData() {
-    const workspace = getActiveBuyerWorkspace();
-    seedDevelopmentReferenceFleet(workspace);
-    workspace.DemoFleetSeeded = true;
-    saveBuyerWorkspace(workspace);
-    updateAllBoatStatusSelects();
-    updateBuyerWorkspaceCounts();
-    return workspace;
-}
-window.loadDemoFleetData = loadDemoFleetData;
 window.getActiveBuyerWorkspace = getActiveBuyerWorkspace;
 window.persistCurrentSearchProfile = persistCurrentSearchProfile;
 window.getBoatRelationship = getBoatRelationship;

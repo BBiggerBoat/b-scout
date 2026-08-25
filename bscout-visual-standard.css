@@ -331,3 +331,71 @@ body{color:var(--bs-text-primary)}
 #discoverView .decision-summary-row span{
   font-size:var(--bs-font-support);
 }
+
+/* =====================================================
+   v6.24.1 visual simplification pass
+   Use whitespace, type and restrained borders as the primary hierarchy.
+===================================================== */
+:root{
+  --bs-surface-soft:#fff;
+  --bs-radius-small:5px;
+  --bs-radius-medium:7px;
+  --bs-radius-large:9px;
+  --bs-control-height:34px;
+}
+.lifecycle-entry-card,
+#discoverView .boat-card,
+.workspace-card,
+.my-boats-model-group,
+.workspace-listing-card,
+.contribution-type-card{
+  background:#fff;
+  box-shadow:none;
+  border-color:var(--bs-border,#d7e0e5);
+  border-radius:7px;
+}
+.lifecycle-entry-card{
+  min-height:0;
+  padding:18px;
+  gap:9px;
+}
+.lifecycle-entry-icon{
+  width:auto;
+  height:auto;
+  padding:0;
+  border-radius:0;
+  background:transparent;
+}
+.lifecycle-principle,
+.crew-guidance-note,
+.search-profile-summary,
+.workspace-fact,
+.my-boats-model-group > header{
+  background:#fff;
+}
+#discoverView .filter-header{
+  background:#fff;
+  color:var(--bs-text-heading,#101820);
+  border-radius:0;
+}
+#discoverView .workspace-status-btn,
+#discoverView .workspace-primary-btn,
+#discoverView .decision-filter-btn,
+#discoverView .listing-filter-btn,
+.boat-guide-section-menu button{
+  min-height:0;
+  padding:6px 9px;
+  border-radius:5px;
+  box-shadow:none;
+}
+.boat-guide-view,
+.boat-workspace-panel{background:#fff}
+.boat-guide-header{
+  border-radius:7px;
+  box-shadow:none;
+}
+.boat-guide-subsection > summary{
+  border-radius:6px;
+  background:#fff;
+}
+.boat-guide-subsection-body{border-radius:0 0 6px 6px;background:#fff}
