@@ -331,3 +331,50 @@ body{color:var(--bs-text-primary)}
 #discoverView .decision-summary-row span{
   font-size:var(--bs-font-support);
 }
+
+
+/* =====================================================
+   v6.24.0 — VesselBook-inspired simplification pass
+   Whitespace and typography carry hierarchy. Colour is reserved for meaning.
+===================================================== */
+:root{
+  --bs-surface-soft:#fff;
+  --bs-surface-selected:#f5f8fa;
+  --bs-radius-small:5px;
+  --bs-radius-medium:7px;
+  --bs-radius-large:10px;
+  --bs-control-height:34px;
+}
+
+/* Flatten decorative surfaces and make borders do only useful structural work. */
+#discoverView .boat-card,
+.contribution-type-card,
+.decision-timeline-panel,
+.listing-lifecycle-summary span,
+.contribution-photo-permission,
+.contribution-photo-preview-card{
+  background:#fff;
+  box-shadow:none;
+}
+#discoverView .filter-header{
+  background:#fff;
+  color:var(--bs-text-heading);
+  border-radius:0;
+}
+#discoverView .filter-group .filter-section h3.show-header{
+  color:var(--bs-text-heading);
+}
+#discoverView .workspace-status-btn,
+#discoverView .workspace-primary-btn,
+#discoverView .decision-filter-btn,
+#discoverView .listing-filter-btn{
+  min-height:0;
+  padding:6px 9px;
+  box-shadow:none;
+}
+#discoverView .workspace-status-btn:not(.active),
+#discoverView .decision-filter-btn:not(.active),
+#discoverView .listing-filter-btn:not(.active){
+  background:#fff;
+  border:1px solid var(--bs-border);
+}

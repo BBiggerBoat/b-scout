@@ -2732,3 +2732,114 @@ button { padding: 7px 10px; font-size: 11px; }
 
 /* v6.23.5 global navigation hierarchy */
 .top-nav a{text-transform:uppercase;letter-spacing:.035em;}
+
+
+/* =====================================================
+   v6.24.0 Plan refinement — single-use style icons + clearer hierarchy
+===================================================== */
+.guided-match-shell{
+  border:0;
+  border-radius:0;
+  box-shadow:none;
+  background:#fff;
+}
+.guided-match-header h1,
+.guided-step h2{
+  color:#101820;
+  font-weight:700;
+}
+.guided-step h2{font-size:16px;line-height:1.18}
+.guided-step>p{font-size:10.5px;line-height:1.35;color:#4f6f83}
+.guided-step h3{color:#101820}
+.guided-choice{
+  background:#fff;
+  border:1px solid #cfdae2;
+  border-radius:6px;
+  box-shadow:none;
+}
+.guided-choice:has(input:checked){
+  background:#f5f8fa;
+  border-color:#0b5fa5;
+}
+.guided-option-visual{
+  width:78px;
+  height:44px;
+  padding:2px;
+  border:0;
+  border-radius:0;
+  background:#fff;
+  color:#0b315f;
+  overflow:hidden;
+}
+.guided-option-visual img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  mix-blend-mode:multiply;
+}
+.guided-option-visual svg{width:66px;height:36px;fill:#0b315f}
+.guided-choice-visual{grid-template-columns:78px 18px minmax(0,1fr)}
+
+/* LENGTH / BEAM are parent categories; Minimum / Maximum are subordinate. */
+.guided-dimension-groups{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px;
+  margin-top:14px;
+}
+.guided-dimension-group{min-width:0}
+#guidedMatchView [data-guided-step="1"] .guided-dimension-heading{
+  margin:0 0 8px;
+  padding:0 0 5px;
+  border-bottom:1px solid #cfd9e0;
+  color:#101820;
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.08em;
+}
+#guidedMatchView [data-guided-step="1"] .guided-dimension-fields{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+  margin:0;
+}
+#guidedMatchView [data-guided-step="1"] .guided-dimension-fields label{
+  color:#324a59;
+  font-size:10.5px;
+  font-weight:700;
+}
+#guidedMatchView [data-guided-step="1"] .guided-dimension-fields input{
+  border-radius:5px;
+  padding:8px 9px;
+}
+
+/* Feature question typography now follows the same Plan hierarchy as every other step. */
+#guidedMatchView [data-guided-step="4"] > h2{
+  font-size:16px;
+  line-height:1.18;
+  font-weight:700;
+  margin:0 0 4px;
+}
+#guidedMatchView [data-guided-step="4"] > p{
+  font-size:10.5px;
+  line-height:1.35;
+}
+.guided-preference-row{background:#fff}
+.guided-preference-row select{border-radius:5px;background:#fff}
+
+/* No decorative gasoline/fuel imagery: fuel and propulsion stay text-first. */
+#guidedMatchView [data-guided-step="3"] [data-mirror-class="fuelFilter"] .guided-option-visual,
+#guidedMatchView [data-guided-step="3"] [data-mirror-class="fuelFilter"] .guided-option-mini-icon{display:none!important}
+
+.guided-actions button{
+  border-radius:5px;
+  padding:6px 10px;
+  box-shadow:none;
+}
+@media(max-width:820px){
+  .guided-dimension-groups{grid-template-columns:1fr;gap:16px}
+}
+@media(max-width:680px){
+  .guided-choice-visual{grid-template-columns:64px 18px minmax(0,1fr)}
+  .guided-option-visual{width:64px;height:40px}
+}

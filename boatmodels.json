@@ -41486,7 +41486,7 @@
     "ManufacturerID": "MARINE",
     "Manufacturer": "Marine Trader",
     "Model": "36 Double Cabin",
-    "Variant": "Double Cabin",
+    "Variant": "",
     "Nickname": "Marine Trader 36 Double Cabin",
     "ImageURL": "images/mrtr-36-do.jpg",
     "Active": false,
@@ -41539,7 +41539,7 @@
       "You need planing performance"
     ],
     "DateCreated": "2026-07-13",
-    "LastUpdated": "2026-08-07",
+    "LastUpdated": "2026-08-25",
     "ReviewedBy": "B-Scout Marine Trader / CHB Family Research",
     "Revision": 2,
     "BoatModelID": "MRTR-36-DO",
