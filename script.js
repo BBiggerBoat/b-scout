@@ -1905,10 +1905,21 @@ function loadBuyerWorkspace() {
         workspace.AutoSavePollutionCleanupV1 = true;
     }
 
-    // Development reference boats are no longer inserted automatically.
-    workspace.DemoFleetSeeded = true;
+    // v6.24: retire the prototype Demo Fleet. Remove only records explicitly
+    // tagged as Reference Fleet so ordinary saved models are never touched.
+    let demoFleetRemoved = false;
+    if (workspace.DemoFleetRetiredV624 !== true) {
+        const beforeDemo = workspace.BoatRelationships.length;
+        workspace.BoatRelationships = workspace.BoatRelationships.filter(rel => {
+            const tags = String(rel?.Research?.Tags || "");
+            return !tags.split(",").map(tag => tag.trim()).includes("Reference Fleet");
+        });
+        demoFleetRemoved = workspace.BoatRelationships.length !== beforeDemo;
+        workspace.DemoFleetRetiredV624 = true;
+    }
+    workspace.DemoFleetSeeded = false;
 
-    if (statusesMigrated || passiveRelationshipsRemoved || workspace.AutoSavePollutionCleanupV1 === true) {
+    if (statusesMigrated || passiveRelationshipsRemoved || demoFleetRemoved || workspace.AutoSavePollutionCleanupV1 === true || workspace.DemoFleetRetiredV624 === true) {
         saveBuyerWorkspace(workspace);
     }
     return workspace;

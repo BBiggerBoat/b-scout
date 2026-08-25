@@ -200,23 +200,28 @@
         return icons[name] || icons.genericBoat;
     }
 
-    function familySilhouette(label) {
+    function familyVisual(label) {
         const key = slugifyLabel(label);
-        const variants = {
-            trawler: '<svg viewBox="0 0 72 40" aria-hidden="true"><path d="M7 26h50l8 8H26c-8 0-13-2-19-8Z"></path><path d="M26 15h16l7 11H18l8-11Z"></path><path d="M33 9h7v6h-7z"></path></svg>',
-            cruiser: '<svg viewBox="0 0 72 40" aria-hidden="true"><path d="M8 26h51l7 8H24c-7 0-11-2-16-8Z"></path><path d="M31 13h12l7 13H20l11-13Z"></path></svg>',
-            tug: '<svg viewBox="0 0 72 40" aria-hidden="true"><path d="M8 27h49l8 7H24c-8 0-11-1.8-16-7Z"></path><path d="M27 14h14v13H19l8-13Z"></path><path d="M32 8h4v6h-4z"></path><path d="M37 8h3v3h-3z"></path></svg>',
-            downeast: '<svg viewBox="0 0 72 40" aria-hidden="true"><path d="M6 27h52l7 7H23c-8 0-12-1.8-17-7Z"></path><path d="M26 17h18l6 10H18l8-10Z"></path></svg>',
-            'sportfisher': '<svg viewBox="0 0 72 40" aria-hidden="true"><path d="M7 27h49l8 7H23c-7 0-11-1.7-16-7Z"></path><path d="M30 17h11l6 10H20l10-10Z"></path><path d="M44 11l8-5"></path><path d="M37 10v8"></path></svg>',
-            'motor-yacht': '<svg viewBox="0 0 72 40" aria-hidden="true"><path d="M8 27h51l7 7H22c-7 0-11-1.8-14-7Z"></path><path d="M24 13h20l8 14H16l8-14Z"></path><path d="M29 9h10v4H29z"></path></svg>'
+        const approved = {
+            trawler: "images/style-icons/trawler.png",
+            cruiser: "images/style-icons/express-cruiser.png",
+            tug: "images/style-icons/tug.png",
+            downeast: "images/style-icons/downeast.png",
+            "motor-yacht": "images/style-icons/motor-yacht.png"
         };
-        return variants[key] || guidedSvgIcon('genericBoat');
+        if (approved[key]) {
+            return `<img src="${approved[key]}" alt="" loading="lazy" decoding="async">`;
+        }
+        if (key === "sportfisher") {
+            return '<svg viewBox="0 0 72 40" aria-hidden="true"><path d="M6 29h51l9 5H22c-8 0-12-1.5-16-5Z"></path><path d="M23 18h18l7 11H15l8-11Z"></path><path d="M30 12h10v6H30z"></path><path d="M42 16l10-7"></path><path d="M34 8v10"></path></svg>';
+        }
+        return guidedSvgIcon("genericBoat");
     }
 
     function buildGuidedVisual(className, labelText, sourceValue) {
         const normalized = slugifyLabel(labelText || sourceValue || '');
         if (className === 'familyFilter') {
-            return `<div class="guided-option-visual guided-boat-visual guided-boat-${normalized}" aria-hidden="true">${familySilhouette(labelText || sourceValue)}</div>`;
+            return `<div class="guided-option-visual guided-boat-visual guided-boat-${normalized}" aria-hidden="true">${familyVisual(labelText || sourceValue)}</div>`;
         }
         if (className === 'engineCountFilter') {
             return `<div class="guided-option-mini-icon" aria-hidden="true">${guidedSvgIcon('engine')}</div>`;
