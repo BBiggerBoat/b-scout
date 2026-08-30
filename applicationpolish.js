@@ -223,9 +223,7 @@
         if (className === 'familyFilter') {
             return `<div class="guided-option-visual guided-boat-visual guided-boat-${normalized}" aria-hidden="true">${familyVisual(labelText || sourceValue)}</div>`;
         }
-        if (className === 'engineCountFilter') {
-            return `<div class="guided-option-mini-icon" aria-hidden="true">${guidedSvgIcon('engine')}</div>`;
-        }
+        if (className === 'engineCountFilter') return '';
         return '';
     }
 
@@ -428,8 +426,17 @@
         }
     });
 
-    document.getElementById("guidedPrevious")?.addEventListener("click",()=>{guidedStep=Math.max(0,guidedStep-1);renderGuidedStep();updateHistory("guided",{guidedStep});});
-    document.getElementById("guidedNext")?.addEventListener("click",()=>{const total=document.querySelectorAll("#guidedMatchView .guided-step").length;guidedStep=Math.min(total-1,guidedStep+1);renderGuidedStep();updateHistory("guided",{guidedStep});});
+    function moveGuidedStep(delta) {
+        const total = document.querySelectorAll("#guidedMatchView .guided-step").length;
+        const nextStep = Math.max(0, Math.min(total - 1, guidedStep + delta));
+        if (nextStep === guidedStep) return;
+        guidedStep = nextStep;
+        renderGuidedStep();
+        updateHistory("guided", { guidedStep });
+        document.querySelector("#guidedMatchView .guided-match-header")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    document.getElementById("guidedPrevious")?.addEventListener("click", () => moveGuidedStep(-1));
+    document.getElementById("guidedNext")?.addEventListener("click", () => moveGuidedStep(1));
     document.getElementById("guidedViewMatches")?.addEventListener("click",()=>{showDiscover();requestAnimationFrame(()=>{if(typeof window.runCurrentSearch==="function") window.runCurrentSearch(); else document.getElementById("searchButton")?.click();});});
     document.getElementById("closeModal")?.addEventListener("click", () => showDiscover());
     document.getElementById("closeInformationModal")?.addEventListener("click", () => closeModal("informationModal"));

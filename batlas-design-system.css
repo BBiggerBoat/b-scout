@@ -398,3 +398,253 @@ a{color:var(--ba-link)}
   .lifecycle-home{padding:42px 18px 60px!important}
   .lifecycle-entry-grid{grid-template-columns:1fr!important;gap:0!important}
 }
+
+/* =====================================================
+   B-ATLAS v6.26.1 — DESIGN REFINEMENT PASS
+   ===================================================== */
+:root{
+  --ba-blue:#176fa8;
+  --ba-blue-dark:#115b8d;
+  --ba-ink:#17212b;
+  --ba-heading:#102235;
+  --ba-muted:#536879;
+  --ba-faint:#66798a;
+  --ba-wash:#f2f6f8;
+  --ba-wash-strong:#eaf1f5;
+  --ba-line:#cfd9e1;
+  --ba-line-strong:#b8c7d2;
+  --bs-font-page-title:40px;
+  --bs-font-section-title:26px;
+  --bs-font-subsection-title:19px;
+  --bs-font-label:16px;
+  --bs-font-body:17px;
+  --bs-font-support:15px;
+  --bs-font-meta:13px;
+  --bs-font-kicker:13px;
+  --bs-accent:var(--ba-blue);
+}
+body{font-size:17px;line-height:1.55}
+
+/* Persistent brand/navigation */
+.site-header{
+  position:sticky!important;
+  top:0!important;
+  z-index:1200!important;
+  min-height:72px!important;
+  box-shadow:0 1px 0 rgba(16,34,53,.08)!important;
+}
+#discoverView{padding-top:0!important}
+.contribution-view{padding-top:36px!important}
+
+/* Less extreme type hierarchy; make supporting copy readable. */
+.workspace-eyebrow,.workspace-label{
+  color:var(--ba-faint)!important;
+  font-size:13px!important;
+  font-weight:700!important;
+}
+.guided-match-header h1{
+  font-size:clamp(36px,3.6vw,44px)!important;
+}
+.guided-match-header>p{
+  color:var(--ba-muted)!important;
+  font-size:17px!important;
+}
+.guided-match-header>small{
+  color:var(--ba-muted)!important;
+  font-size:13px!important;
+}
+.guided-step h2{
+  color:var(--ba-blue)!important;
+  font-size:27px!important;
+}
+.guided-step>p{
+  color:var(--ba-muted)!important;
+  font-size:16px!important;
+  line-height:1.55!important;
+}
+.guided-field small,.guided-dimension-group small,.guided-section-help,
+.guided-preference-copy small,.filter-help,.search-profile-description{
+  color:var(--ba-muted)!important;
+  font-size:13px!important;
+  line-height:1.45!important;
+}
+
+/* Accent the plan progression. */
+.guided-progress{height:4px!important;background:#dbe5eb!important}
+.guided-progress span{background:var(--ba-blue)!important}
+
+/* Choices: titles lead, descriptions recede. */
+.guided-choice strong{
+  font-size:16px!important;
+  font-weight:650!important;
+}
+.guided-choice small{
+  color:var(--ba-muted)!important;
+  font-size:14px!important;
+  font-weight:400!important;
+  line-height:1.45!important;
+}
+
+/* Boat-family visuals: keep them contained and subordinate to the label. */
+.guided-choice-visual{
+  display:grid!important;
+  grid-template-columns:18px minmax(0,1fr) 92px!important;
+  column-gap:12px!important;
+  align-items:start!important;
+}
+.guided-choice-visual>input{grid-column:1;grid-row:1!important}
+.guided-choice-visual>span{grid-column:2;grid-row:1!important}
+.guided-choice-visual>.guided-option-visual{
+  grid-column:3;grid-row:1!important;
+  width:92px!important;
+  height:54px!important;
+  margin:0!important;
+  overflow:hidden!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  opacity:.92;
+}
+.guided-choice-visual .guided-option-visual img,
+.guided-choice-visual .guided-option-visual svg{
+  display:block!important;
+  width:100%!important;
+  max-width:92px!important;
+  height:54px!important;
+  max-height:54px!important;
+  object-fit:contain!important;
+}
+.guided-option-mini-icon,.guided-inline-icon.guided-icon-engine{display:none!important}
+
+/* Waterways: clearly grouped panel, no unnecessary item rules. */
+.guided-waterway-panel,.guided-optional-panel,.guided-preference-panel{
+  margin-top:18px!important;
+  padding:24px!important;
+  border:1px solid var(--ba-line)!important;
+  border-radius:8px!important;
+  background:var(--ba-wash)!important;
+}
+.guided-waterway-panel .guided-choice,
+.guided-waterway-panel label{
+  border:0!important;
+  background:transparent!important;
+}
+.guided-waterway-panel .guided-choice:hover{background:transparent!important}
+
+/* Plan navigation: clearer contrast, reliable click targets. */
+.guided-actions{
+  margin-top:34px!important;
+  padding-top:22px!important;
+  border-top:1px solid var(--ba-line)!important;
+}
+#guidedNext,#guidedViewMatches{
+  background:var(--ba-blue)!important;
+  border:1px solid var(--ba-blue)!important;
+  color:#fff!important;
+}
+#guidedNext:hover,#guidedViewMatches:hover{background:var(--ba-blue-dark)!important}
+#guidedPrevious{
+  background:#fff!important;
+  border:1px solid var(--ba-line-strong)!important;
+  color:var(--ba-navy)!important;
+}
+#guidedPrevious:disabled{opacity:.48!important;cursor:not-allowed!important}
+
+/* Home: editorial heading + clearly bounded starting choices. */
+.lifecycle-hero h1{
+  color:var(--ba-blue)!important;
+  font-size:clamp(36px,3.7vw,45px)!important;
+}
+.lifecycle-hero>p:not(.workspace-eyebrow){font-size:17px!important;color:var(--ba-muted)!important}
+.lifecycle-start-section,.lifecycle-continue-section{
+  padding:28px 0!important;
+  border-top:0!important;
+}
+.lifecycle-entry-grid{gap:18px!important}
+.lifecycle-entry-card{
+  padding:20px!important;
+  border:1px solid var(--ba-line)!important;
+  border-radius:6px!important;
+  background:#fff!important;
+}
+.lifecycle-entry-card:hover{
+  border-color:var(--ba-blue)!important;
+  background:#f8fbfd!important;
+}
+.lifecycle-stage-name{
+  display:block!important;
+  width:auto!important;
+  margin:0 0 8px!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  color:var(--ba-blue)!important;
+  font-size:13px!important;
+  font-weight:750!important;
+  letter-spacing:.075em!important;
+}
+.lifecycle-entry-card strong{
+  font-size:19px!important;
+  font-weight:650!important;
+}
+.lifecycle-entry-card>span:last-child{
+  color:var(--ba-muted)!important;
+  font-size:15px!important;
+}
+.lifecycle-principle{border-top:0!important}
+
+/* DREAM / Research results: model name leads, actions are smaller. */
+#discoverView .results-header h2{font-size:27px!important}
+#discoverView .results-principle{font-size:16px!important}
+#discoverView .boat-card h2{
+  margin:9px 0 12px!important;
+  color:var(--ba-heading)!important;
+  font-size:19px!important;
+  font-weight:700!important;
+  line-height:1.25!important;
+}
+#discoverView .boat-card p{font-size:14px!important;line-height:1.5!important}
+#discoverView .boat-card-buttons{
+  display:flex!important;
+  gap:7px!important;
+  margin:8px 0 14px!important;
+}
+#discoverView .boat-card-buttons .details-button{
+  min-height:34px!important;
+  padding:6px 11px!important;
+  border-radius:4px!important;
+  background:var(--ba-blue)!important;
+  border:1px solid var(--ba-blue)!important;
+  color:#fff!important;
+  font-size:13px!important;
+  font-weight:650!important;
+}
+#discoverView .boat-card-buttons .details-button:hover{background:var(--ba-blue-dark)!important}
+
+/* Search sidebar: remove one-off green and rebalance boxed text. */
+#discoverView .search-panel{font-size:15px!important}
+#discoverView .search-panel h2,#discoverView .search-panel h3{color:var(--ba-heading)!important}
+.search-profile-card,.sidebar-results-summary,.filter-group,
+#discoverView .search-profile-select,#discoverView .search-profile-buttons button{
+  border-color:var(--ba-line)!important;
+}
+#searchButton{
+  background:var(--ba-blue)!important;
+  border-color:var(--ba-blue)!important;
+  color:#fff!important;
+  font-weight:650!important;
+}
+#searchButton:hover{background:var(--ba-blue-dark)!important}
+#clearButton{
+  background:#fff!important;
+  border-color:var(--ba-line-strong)!important;
+  color:var(--ba-navy)!important;
+}
+.sidebar-results-summary strong{color:var(--ba-blue)!important}
+.temporary-image-filter{display:none!important}
+
+@media(max-width:680px){
+  .guided-choice-visual{grid-template-columns:18px minmax(0,1fr)!important}
+  .guided-choice-visual>.guided-option-visual{display:none!important}
+}

@@ -1327,17 +1327,6 @@ if (clearButton) {
     });
 }
 
-const hideModelsWithoutImages = document.getElementById("hideModelsWithoutImages");
-if (hideModelsWithoutImages) {
-    hideModelsWithoutImages.addEventListener("change", function() {
-        if (window.BScoutSearchOrchestrator) {
-            window.BScoutSearchOrchestrator.execute();
-        } else {
-            displayBoats(allBoats);
-        }
-    });
-}
-
 // =====================================================
 // GENERAL TEXT SEARCH CONTROLS
 // =====================================================
