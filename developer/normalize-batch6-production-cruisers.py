@@ -116,7 +116,7 @@ for r in data:
     strong=bool(src)
     r['ResearchStatus']='Reviewed' if strong else 'Initial'
     r['DataConfidence']='Moderate' if strong else 'Low'
-    r['ReviewedBy']='B-Scout Phase 8C-15 Production Motoryacht/Cruiser Research'
+    r['ReviewedBy']='B-Atlas Phase 8C-15 Production Motoryacht/Cruiser Research'
     r['LastUpdated']='2026-08-07'; r['Revision']=max(2, int(r.get('Revision') or 1)+1)
     unresolved=[]
     if r['BoatModelID']=='SEAR-340-SU':

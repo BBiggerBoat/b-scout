@@ -251,7 +251,7 @@
         const data = intelligence && typeof intelligence === 'object' ? intelligence : {};
         if (Object.keys(data).length === 0) return '';
         const rows = [
-            ['B-Scout Signature', data.signature],
+            ['B-Atlas Signature', data.signature],
             ['Design Philosophy', data.designPhilosophy],
             ['Personality', data.personality],
             ['Ideal Owner', data.idealOwner],
@@ -272,7 +272,7 @@
             ['Comparable Models', data.comparableModels],
             ['Crew Fit — Best For', data.crewFit && data.crewFit.bestFor],
             ['Crew Fit — Cautions', data.crewFit && data.crewFit.cautions],
-            ['B-Scout Notes', data.bScoutNotes]
+            ['B-Atlas Notes', data.bScoutNotes]
         ].filter(([, value]) => asArray(value).length > 0);
         const evidenceItems = asArray(evidence);
         const ownershipScores = data.ownershipScores && typeof data.ownershipScores === 'object' ? Object.entries(data.ownershipScores) : [];

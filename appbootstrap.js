@@ -5,7 +5,7 @@
 
     function renderStartupFailure(error) {
         const message = error && error.message ? error.message : "Unknown startup error.";
-        console.error("B-Scout failed to start:", error);
+        console.error("B-Atlas failed to start:", error);
 
         if (!global.document) return;
         const target = global.document.getElementById("boat-listings");
@@ -13,7 +13,7 @@
 
         target.innerHTML = `
             <section class="startup-error" role="alert">
-                <h2>B-Scout could not load its data</h2>
+                <h2>B-Atlas could not load its data</h2>
                 <p>${escapeHtml(message)}</p>
                 <p>Refresh the page after confirming the local server and data files are available.</p>
             </section>
@@ -37,13 +37,13 @@
         const initialize = settings.initialize || global.initializeBScoutApplication;
 
         if (!repository || typeof repository.loadApplicationData !== "function") {
-            return Promise.reject(new Error("B-Scout Data Repository is unavailable."));
+            return Promise.reject(new Error("B-Atlas Data Repository is unavailable."));
         }
         if (!imageManager || typeof imageManager.loadImageAssetRegistry !== "function") {
-            return Promise.reject(new Error("B-Scout Image Asset Manager is unavailable."));
+            return Promise.reject(new Error("B-Atlas Image Asset Manager is unavailable."));
         }
         if (typeof initialize !== "function") {
-            return Promise.reject(new Error("B-Scout application initializer is unavailable."));
+            return Promise.reject(new Error("B-Atlas application initializer is unavailable."));
         }
 
         startupPromise = Promise.all([

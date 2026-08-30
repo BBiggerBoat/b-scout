@@ -1,4 +1,4 @@
-# B-Scout Contextual Navigation Hierarchy
+# B-Atlas Contextual Navigation Hierarchy
 
 Updated: 2026-08-07
 

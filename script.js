@@ -124,7 +124,7 @@ function initializeBScoutApplication(data) {
             }
         }
     } catch (error) {
-        console.warn("B-Scout model deep link could not be opened", error);
+        console.warn("B-Atlas model deep link could not be opened", error);
     }
 
     return {
@@ -420,7 +420,7 @@ function calculateMissionFit(boat, mission) {
 }
 
 // =====================================================
-// B-SCOUT SUITABILITY SCORING
+// B-ATLAS SUITABILITY SCORING
 // =====================================================
 
 function calculateBScoutScore(boat) {

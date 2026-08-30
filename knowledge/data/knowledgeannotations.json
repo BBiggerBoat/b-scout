@@ -4,25 +4,25 @@
     "knownIssues": [
       {
         "title": "Under-seat machinery access",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck core and cockpit drains",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank and exhaust system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Aftercooler and cooling maintenance",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -30,19 +30,19 @@
     "similarModels": [
       {
         "title": "Albin 28 TE Engine Box",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Mainship Pilot 30",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough RF-246",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -77,25 +77,25 @@
     "knownIssues": [
       {
         "title": "V-drive and alignment",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck core and cockpit drains",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank and exhaust system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Configuration-specific machinery access",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -103,19 +103,19 @@
     "similarModels": [
       {
         "title": "Albin 28 TE Flush Deck",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Mainship Pilot 30",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough RF-246",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -150,25 +150,25 @@
     "knownIssues": [
       {
         "title": "Moisture intrusion and core condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tanks, exhaust systems and cooling circuits",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Age-related systems require verification"
       },
       {
         "title": "Engine access and service history for both engines",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Configuration-specific verification required"
       },
       {
         "title": "Underwater blistering reported on some older examples",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Not universal; survey required"
       }
@@ -176,7 +176,7 @@
     "similarModels": [
       {
         "title": "Mainship 34 Mk I Trawler",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -199,7 +199,7 @@
       },
       {
         "type": "CuratedReference",
-        "label": "B-Scout normalized model database",
+        "label": "B-Atlas normalized model database",
         "verificationStatus": "Verified July 2026"
       },
       {
@@ -216,25 +216,25 @@
     "knownIssues": [
       {
         "title": "Cored deck and cabin penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Window leakage",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Volvo service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank condition and configuration",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -242,19 +242,19 @@
     "similarModels": [
       {
         "title": "Camano Troll 31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nordic Tug 26",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough RF-246",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -289,25 +289,25 @@
     "knownIssues": [
       {
         "title": "Moisture at cored deck and cabin penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Volvo cooling, exhaust and service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank configuration by hull number",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Keel, running gear and rudder condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -315,19 +315,19 @@
     "similarModels": [
       {
         "title": "Camano Gnome 28/31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nordic Tug 26",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-27",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -357,25 +357,25 @@
     "knownIssues": [
       {
         "title": "Wood structure and fastenings on wood-built examples",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck-core moisture on fiberglass examples",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tanks, windows and teak deck condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Engine installation and repower documentation",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -383,19 +383,19 @@
     "similarModels": [
       {
         "title": "Mainship 34 Mk I Motor Cruiser",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Willard Vega 30",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Marine Trader 34",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -425,25 +425,25 @@
     "knownIssues": [
       {
         "title": "Engine type and repower documentation",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit deck and stringer moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Exhaust and running gear",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -451,19 +451,19 @@
     "similarModels": [
       {
         "title": "Mainship Pilot 30",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Albin 28 Tournament Express",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nimbus 3003",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -481,7 +481,7 @@
     "sources": [
       {
         "type": "CuratedReference",
-        "label": "B-Scout model record and market-reference review",
+        "label": "B-Atlas model record and market-reference review",
         "verificationStatus": "Verified July 2026"
       }
     ],
@@ -493,25 +493,25 @@
     "knownIssues": [
       {
         "title": "Fuel tank and exhaust condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit deck and structural moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Engine access and service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Windshield, hatch and port leaks",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -519,19 +519,19 @@
     "similarModels": [
       {
         "title": "Albin 28 Tournament Express",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nimbus 3003",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough 28",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -561,25 +561,25 @@
     "knownIssues": [
       {
         "title": "Original aluminum fuel-tank condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "High-priority age-related check"
       },
       {
         "title": "Deck, flybridge and window moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Survey and moisture testing required"
       },
       {
         "title": "Cooling, exhaust and engine service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Engine-specific verification required"
       },
       {
         "title": "Electrical, plumbing and sanitation-system modernization",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Condition varies by refit history"
       }
@@ -587,7 +587,7 @@
     "similarModels": [
       {
         "title": "Bayliner 3270 Motoryacht",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -614,7 +614,7 @@
       },
       {
         "type": "CuratedReference",
-        "label": "B-Scout normalized model database",
+        "label": "B-Atlas normalized model database",
         "verificationStatus": "Verified July 2026"
       },
       {
@@ -631,25 +631,25 @@
     "knownIssues": [
       {
         "title": "Deck and flybridge core moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Aluminum fuel tank condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Exhaust, cooling and electrical systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Flybridge ladder security and cockpit drainage",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -657,19 +657,19 @@
     "similarModels": [
       {
         "title": "Mainship 34 Mk I Motor Cruiser",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Mainship 34 III",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Marine Trader 34 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -704,25 +704,25 @@
     "knownIssues": [
       {
         "title": "Sterndrives and transom assemblies",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Heating, glazing and door seals",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters and electrical integration",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck hardware and drainage",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -730,19 +730,19 @@
     "similarModels": [
       {
         "title": "Nimbus 305 Coupé",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Paragon 31 Cabin",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -777,25 +777,25 @@
     "knownIssues": [
       {
         "title": "Window and hatch sealing",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Aft-cabin ventilation and moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Volvo cooling, exhaust and service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Teak and cockpit drainage condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -803,19 +803,19 @@
     "similarModels": [
       {
         "title": "Camano Troll 31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Mainship Pilot 30",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Albin 28 Tournament Express",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -850,25 +850,25 @@
     "knownIssues": [
       {
         "title": "Trailer, structural supports and weight verification",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deckhouse and window leakage",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel, exhaust, steering and aging systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Forward berth geometry and bulkhead access",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -876,19 +876,19 @@
     "similarModels": [
       {
         "title": "North Pacific 28",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-27",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough 28",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -918,25 +918,25 @@
     "knownIssues": [
       {
         "title": "Hull and deck moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Diesel installation and exhaust",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank and wiring",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Steering and rudder gear",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -944,13 +944,13 @@
     "similarModels": [
       {
         "title": "Ranger Tug R-21 EC",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nordic Tug 21",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -980,25 +980,25 @@
     "knownIssues": [
       {
         "title": "Engine and cooling service",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit drains",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck hardware and moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Trailer condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1006,13 +1006,13 @@
     "similarModels": [
       {
         "title": "Ranger Tug R-21 Classic",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough RF-18",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1042,25 +1042,25 @@
     "knownIssues": [
       {
         "title": "Diesel and cooling service",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank and exhaust",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster and wiring",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Core moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1068,13 +1068,13 @@
     "similarModels": [
       {
         "title": "Ranger Tug R-25 SC",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-27 Classic",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1104,25 +1104,25 @@
     "knownIssues": [
       {
         "title": "Diesel cooling and exhaust",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster and batteries",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit drains",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Windows and roof fittings",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1130,13 +1130,13 @@
     "similarModels": [
       {
         "title": "Ranger Tug R-25 Classic",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-27 Classic",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1166,25 +1166,25 @@
     "knownIssues": [
       {
         "title": "Outboard and steering service",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Package-specific HVAC or heater",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster and electrical system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit and roof seals",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1192,13 +1192,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-27 current",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-27 Classic",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1228,25 +1228,25 @@
     "knownIssues": [
       {
         "title": "Diesel service and cooling",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel and exhaust systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Moisture around glazing and deck fittings",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1254,13 +1254,13 @@
     "similarModels": [
       {
         "title": "Ranger Tug R-25 SC",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1290,25 +1290,25 @@
     "knownIssues": [
       {
         "title": "Command-bridge structure and controls",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Volvo service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters and integrated electronics",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Glazing and deck penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1316,19 +1316,19 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nimbus 305 Coupé",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Camano Troll 31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1363,25 +1363,25 @@
     "knownIssues": [
       {
         "title": "Diesel and cooling system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters and electrical integration",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Moisture and glazing",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Tankage and sanitation",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1389,13 +1389,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Camano Troll 31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1425,25 +1425,25 @@
     "knownIssues": [
       {
         "title": "Bridge structure and controls",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Volvo and thrusters",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Folding mechanisms",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1451,13 +1451,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-31 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-29 Command Bridge",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1487,25 +1487,25 @@
     "knownIssues": [
       {
         "title": "Bridge controls and structure",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "IPS and joystick systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Generator and HVAC",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Electrical and navigation integration",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1513,13 +1513,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-43 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-31 Command Bridge",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1549,25 +1549,25 @@
     "knownIssues": [
       {
         "title": "IPS service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Generator and HVAC",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Electrical integration",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Hull openings and glazing",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1575,13 +1575,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-43 Command Bridge",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nordic Tug 44",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1611,25 +1611,25 @@
     "knownIssues": [
       {
         "title": "Outboard service records",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster and electrical systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Roof glazing and seals",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1637,13 +1637,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-25",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Cutwater C-24",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1673,25 +1673,25 @@
     "knownIssues": [
       {
         "title": "Outboard service and rigging",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Lithium and charging system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Glazing and deck penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1699,13 +1699,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-23",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-27",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1735,25 +1735,25 @@
     "knownIssues": [
       {
         "title": "Twin outboard service records",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Steering and controls",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster and lithium systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Hull and deck fittings",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1761,13 +1761,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-25",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1797,25 +1797,25 @@
     "knownIssues": [
       {
         "title": "Volvo service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters and integrated electronics",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Glazing and roof penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit drains and steering",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1823,19 +1823,19 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-29 Command Bridge",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nimbus 305 Coupé",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Camano Troll 31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1870,25 +1870,25 @@
     "knownIssues": [
       {
         "title": "Volvo service and cooling",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters and electrical system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Powered engine hatch",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Glazing and deck penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1896,13 +1896,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-31 Command Bridge",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1932,25 +1932,25 @@
     "knownIssues": [
       {
         "title": "Variant and propulsion identification",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Transom or bracket structure",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck and cabin moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel system and wiring quality",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1958,19 +1958,19 @@
     "similarModels": [
       {
         "title": "Nordic Tug 26",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-25",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Camano Gnome 28/31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -2006,7 +2006,7 @@
     "sources": [
       {
         "type": "ReferenceFleetSeed",
-        "label": "B-Scout Reference Fleet v1 identity seed",
+        "label": "B-Atlas Reference Fleet v1 identity seed",
         "verificationStatus": "Structured database match"
       }
     ],

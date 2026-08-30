@@ -188,7 +188,7 @@
       {
         "title": "Albin 25 image",
         "url": "images/albn-25.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -448,7 +448,7 @@
       {
         "title": "Albin 27 Family Cruiser image",
         "url": "images/albn-27-fc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -522,12 +522,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout curated Albin 27 Family Cruiser resources",
+        "label": "B-Atlas curated Albin 27 Family Cruiser resources",
         "verificationStatus": "Links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -778,7 +778,7 @@
       {
         "title": "Albin 27 Sport image",
         "url": "images/albn-27-sp.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -1049,7 +1049,7 @@
       {
         "title": "Albin 28 Tournament Express — Engine Box image",
         "url": "images/albn-28-te-eb.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -1084,25 +1084,25 @@
     "knownIssues": [
       {
         "title": "V-drive and alignment",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck core and cockpit drains",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank and exhaust system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Configuration-specific machinery access",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1110,19 +1110,19 @@
     "similarModels": [
       {
         "title": "Albin 28 TE Flush Deck",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Mainship Pilot 30",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough RF-246",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1140,7 +1140,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -1412,7 +1412,7 @@
       {
         "title": "Albin 28 Tournament Express — Flush Deck image",
         "url": "images/albn-28-fl.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -1476,25 +1476,25 @@
     "knownIssues": [
       {
         "title": "Under-seat machinery access",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck core and cockpit drains",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank and exhaust system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Aftercooler and cooling maintenance",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -1502,19 +1502,19 @@
     "similarModels": [
       {
         "title": "Albin 28 TE Engine Box",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Mainship Pilot 30",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough RF-246",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -1532,12 +1532,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       },
       {
@@ -1780,7 +1780,7 @@
       {
         "title": "Albin 30 Family Cruiser image",
         "url": "images/albn-30-fc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -1840,12 +1840,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -2107,7 +2107,7 @@
       {
         "title": "Albin 32+2 Command Bridge image",
         "url": "images/albn-32-pl.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -2353,7 +2353,7 @@
       {
         "title": "Albin 32 Sportfisher — early 32+2 designation image",
         "url": "images/albn-32-sf.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -2616,7 +2616,7 @@
       {
         "title": "Albin 36 Trawler image",
         "url": "images/albn-36-cl.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -2879,7 +2879,7 @@
       {
         "title": "Albin 40 Trawler image",
         "url": "images/albn-40-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -3123,7 +3123,7 @@
       {
         "title": "American Tug 34 Trawler image",
         "url": "images/amtg-34.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -3367,7 +3367,7 @@
       {
         "title": "American Tug 365 Trawler image",
         "url": "images/amtg-365.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -3611,7 +3611,7 @@
       {
         "title": "American Tug 395 Trawler image",
         "url": "images/amtg-395.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -3842,7 +3842,7 @@
       {
         "title": "Atlantic 37 Trawler image",
         "url": "images/atlb-37-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -3938,7 +3938,7 @@
       "Accommodation": "1 cabin, 2 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Atlantic Boat 26 / Duffy 26 is a Downeast/lobster-boat-derived hull whose individual finish and propulsion can vary significantly. B-Scout treats the hull identity as useful, but not every legacy accommodation, tankage or equipment value as a factory-wide standard.",
+      "overview": "The Atlantic Boat 26 / Duffy 26 is a Downeast/lobster-boat-derived hull whose individual finish and propulsion can vary significantly. B-Atlas treats the hull identity as useful, but not every legacy accommodation, tankage or equipment value as a factory-wide standard.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -4083,7 +4083,7 @@
       {
         "title": "Duffy 26 Downeast image",
         "url": "images/atlb-26-du.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -4320,7 +4320,7 @@
       {
         "title": "Back Cove 26 image",
         "url": "images/bkcv-26.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -4557,7 +4557,7 @@
       {
         "title": "Back Cove 29 image",
         "url": "images/bkcv-29.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -4794,7 +4794,7 @@
       {
         "title": "Back Cove 30 Trawler image",
         "url": "images/bkcv-30.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -5031,7 +5031,7 @@
       {
         "title": "Back Cove 32 Trawler image",
         "url": "images/bkcv-32.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -5279,7 +5279,7 @@
       {
         "title": "Back Cove 33 image",
         "url": "images/bkcv-33.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -5516,7 +5516,7 @@
       {
         "title": "Back Cove 34 Trawler image",
         "url": "images/bkcv-34.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -5753,7 +5753,7 @@
       {
         "title": "Back Cove 37 Trawler image",
         "url": "images/bkcv-37.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -5990,7 +5990,7 @@
       {
         "title": "Back Cove 39O image",
         "url": "images/bkcv-39o.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -6227,7 +6227,7 @@
       {
         "title": "Back Cove 41 image",
         "url": "images/bkcv-41.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -6477,7 +6477,7 @@
       {
         "title": "Bayliner 2452 Classic Cruiser image",
         "url": "images/bayl-2452.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -6672,7 +6672,7 @@
         {
           "Name": "Later 2855 / 285 SB generation",
           "Description": "The 2855 designation continued into the 2000s on a later hull; exact specifications should be tied to year.",
-          "AffectedYears": "2000–2002 within this B-Scout record",
+          "AffectedYears": "2000–2002 within this B-Atlas record",
           "EvidenceRefs": [
             "https://www.hmy.com/yachting/powerboat-guide/bayliner"
           ],
@@ -6759,7 +6759,7 @@
       {
         "title": "Bayliner 2855 Ciera image",
         "url": "images/bayl-2855.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -7018,7 +7018,7 @@
       {
         "title": "Bayliner 2859 Classic Cruiser image",
         "url": "images/bayl-2859.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -7268,7 +7268,7 @@
       {
         "title": "Bayliner 3055 Ciera image",
         "url": "images/bayl-3055.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -7527,7 +7527,7 @@
       {
         "title": "Bayliner 3058 image",
         "url": "images/bayl-3058.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -7794,7 +7794,7 @@
       {
         "title": "Bayliner 3218 image",
         "url": "images/bayl-3218.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -8053,7 +8053,7 @@
       {
         "title": "Bayliner 3258 image",
         "url": "images/bayl-3258.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -8321,7 +8321,7 @@
       {
         "title": "Bayliner 3270 image",
         "url": "images/bayl-3270.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -8409,25 +8409,25 @@
     "knownIssues": [
       {
         "title": "Moisture intrusion and core condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tanks, exhaust systems and cooling circuits",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Age-related systems require verification"
       },
       {
         "title": "Engine access and service history for both engines",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Configuration-specific verification required"
       },
       {
         "title": "Underwater blistering reported on some older examples",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Not universal; survey required"
       }
@@ -8435,7 +8435,7 @@
     "similarModels": [
       {
         "title": "Mainship 34 Mk I Trawler",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -8453,12 +8453,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout curated resources for Bayliner 3270 Motoryacht",
+        "label": "B-Atlas curated resources for Bayliner 3270 Motoryacht",
         "verificationStatus": "Links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific broker and marketplace searches",
+        "label": "B-Atlas model-specific broker and marketplace searches",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -8468,7 +8468,7 @@
       },
       {
         "type": "CuratedReference",
-        "label": "B-Scout normalized model database",
+        "label": "B-Atlas normalized model database",
         "verificationStatus": "Verified July 2026"
       },
       {
@@ -8723,7 +8723,7 @@
       {
         "title": "Bayliner 3288 Motor Yacht image",
         "url": "images/bayl-3288-mo.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -8982,7 +8982,7 @@
       {
         "title": "Bayliner 3388 image",
         "url": "images/bayl-3388.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -9258,7 +9258,7 @@
       {
         "title": "Bayliner 3788 Motor Yacht image",
         "url": "images/bayl-3788.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -9517,7 +9517,7 @@
       {
         "title": "Bayliner 3888 Motor Yacht image",
         "url": "images/bayl-3888-mo.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -9776,7 +9776,7 @@
       {
         "title": "Bayliner 4087 Aft Cabin image",
         "url": "images/bayl-4087.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -10004,7 +10004,7 @@
       {
         "title": "Beneteau Antares 11 Coupe image",
         "url": "images/bene-ant-11.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -10232,7 +10232,7 @@
       {
         "title": "Beneteau Swift Trawler 30 image",
         "url": "images/bene-30-sw.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -10473,7 +10473,7 @@
       {
         "title": "Beneteau Swift Trawler 34 image",
         "url": "images/bene-34-sw.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -10702,7 +10702,7 @@
       {
         "title": "Beneteau Swift Trawler 35 image",
         "url": "images/bene-35-sw.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -10930,7 +10930,7 @@
       {
         "title": "Beneteau Swift Trawler 47 image",
         "url": "images/bene-47.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -11158,7 +11158,7 @@
       {
         "title": "Beneteau Swift Trawler 48 image",
         "url": "images/bene-48.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -11388,7 +11388,7 @@
       {
         "title": "Beneteau Swift Trawler 52 image",
         "url": "images/bene-52.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -11616,7 +11616,7 @@
       {
         "title": "Beneteau Antares 7 image",
         "url": "images/bene-ant-7.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -11844,7 +11844,7 @@
       {
         "title": "Beneteau Antares 8 image",
         "url": "images/bene-ant-8.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -12082,7 +12082,7 @@
       {
         "title": "Beneteau Barracuda 8 image",
         "url": "images/bene-bar-8.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -12310,7 +12310,7 @@
       {
         "title": "Beneteau Antares 9 image",
         "url": "images/bene-ant-9.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -12548,7 +12548,7 @@
       {
         "title": "Beneteau Barracuda 9 image",
         "url": "images/bene-bar-9.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -12644,7 +12644,7 @@
       "Accommodation": "1 cabin, 4 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The BHM 32 is a Downeast/lobster-boat-derived hull whose individual finish and propulsion can vary significantly. B-Scout treats the hull identity as useful, but not every legacy accommodation, tankage or equipment value as a factory-wide standard.",
+      "overview": "The BHM 32 is a Downeast/lobster-boat-derived hull whose individual finish and propulsion can vary significantly. B-Atlas treats the hull identity as useful, but not every legacy accommodation, tankage or equipment value as a factory-wide standard.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -12789,7 +12789,7 @@
       {
         "title": "BHM 32 Downeast image",
         "url": "images/bhmb-32.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -13036,7 +13036,7 @@
       {
         "title": "C-Dory 22 Cruiser image",
         "url": "images/cdry-22-cr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -13283,7 +13283,7 @@
       {
         "title": "C-Dory 25 Cruiser image",
         "url": "images/cdry-25-cr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -13530,7 +13530,7 @@
       {
         "title": "C-Dory 25 TomCat / TomCat 255 image",
         "url": "images/cdry-25-tc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -13727,7 +13727,7 @@
       {
         "title": "C-Dory 26 ProAngler (cruiser conversions) image",
         "url": "images/cdry-26-pa.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -13974,7 +13974,7 @@
       {
         "title": "C-Dory 26 Venture image",
         "url": "images/cdry-26-v.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -14218,7 +14218,7 @@
       {
         "title": "Californian 34 Trawler image",
         "url": "images/calf-34-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -14462,7 +14462,7 @@
       {
         "title": "Californian 38 Trawler image",
         "url": "images/calf-38-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -14591,7 +14591,7 @@
         },
         "ExposedWater": {
           "Assessment": "Mixed",
-          "Summary": "The Keelform hull, protected running gear and pilothouse support coastal use, but B-Scout does not treat these models as unrestricted offshore passagemakers; condition, loading and weather limits remain decisive.",
+          "Summary": "The Keelform hull, protected running gear and pilothouse support coastal use, but B-Atlas does not treat these models as unrestricted offshore passagemakers; condition, loading and weather limits remain decisive.",
           "EvidenceRefs": [
             "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
             "https://www.camanopacific.com/about",
@@ -14649,7 +14649,7 @@
       "modelVariations": [
         {
           "Name": "28/31 designation",
-          "Description": "The shared Camano hull is 28 feet on deck and about 31 feet overall with platform and bow gear. B-Scout therefore uses “28/31 Gnome” to preserve both naming conventions, matching the Troll record.",
+          "Description": "The shared Camano hull is 28 feet on deck and about 31 feet overall with platform and bow gear. B-Atlas therefore uses “28/31 Gnome” to preserve both naming conventions, matching the Troll record.",
           "AffectedYears": "Production run",
           "EvidenceRefs": [
             "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
@@ -14757,7 +14757,7 @@
       {
         "title": "Camano 28/31 Gnome image",
         "url": "images/cama-28-gn.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -14822,25 +14822,25 @@
     "knownIssues": [
       {
         "title": "Cored deck and cabin penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Window leakage",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Volvo service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank condition and configuration",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -14848,19 +14848,19 @@
     "similarModels": [
       {
         "title": "Camano Troll 31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nordic Tug 26",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough RF-246",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -14878,12 +14878,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout Model Character + Resources Batch 1",
+        "label": "B-Atlas Model Character + Resources Batch 1",
         "verificationStatus": "Links researched and checked 2026-08-07"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       },
       {
@@ -15017,7 +15017,7 @@
         },
         "ExposedWater": {
           "Assessment": "Mixed",
-          "Summary": "The Keelform hull, protected running gear and pilothouse support coastal use, but B-Scout does not treat these models as unrestricted offshore passagemakers; condition, loading and weather limits remain decisive.",
+          "Summary": "The Keelform hull, protected running gear and pilothouse support coastal use, but B-Atlas does not treat these models as unrestricted offshore passagemakers; condition, loading and weather limits remain decisive.",
           "EvidenceRefs": [
             "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
             "https://www.camanopacific.com/about",
@@ -15207,7 +15207,7 @@
       {
         "title": "Camano 28/31 Troll image",
         "url": "images/cama-31-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -15303,25 +15303,25 @@
     "knownIssues": [
       {
         "title": "Moisture at cored deck and cabin penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Volvo cooling, exhaust and service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank configuration by hull number",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Keel, running gear and rudder condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -15329,19 +15329,19 @@
     "similarModels": [
       {
         "title": "Camano Gnome 28/31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nordic Tug 26",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-27",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -15359,12 +15359,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout Model Character + Resources Batch 1",
+        "label": "B-Atlas Model Character + Resources Batch 1",
         "verificationStatus": "Links researched and checked 2026-08-07"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace search links",
+        "label": "B-Atlas model-specific marketplace search links",
         "verificationStatus": "Search links checked July 2026"
       },
       {
@@ -15487,7 +15487,7 @@
         },
         "ExposedWater": {
           "Assessment": "Mixed",
-          "Summary": "The Keelform hull, protected running gear and pilothouse support coastal use, but B-Scout does not treat these models as unrestricted offshore passagemakers; condition, loading and weather limits remain decisive.",
+          "Summary": "The Keelform hull, protected running gear and pilothouse support coastal use, but B-Atlas does not treat these models as unrestricted offshore passagemakers; condition, loading and weather limits remain decisive.",
           "EvidenceRefs": [
             "https://powerandmotoryacht.com/boats/boat-tests/camano-41/",
             "https://soundingsonline.com/news/feature-boat-camano/",
@@ -15648,7 +15648,7 @@
       {
         "title": "Camano 41 Trawler image",
         "url": "images/cama-41.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -15695,7 +15695,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout Model Character + Resources Batch 1",
+        "label": "B-Atlas Model Character + Resources Batch 1",
         "verificationStatus": "Links researched and checked 2026-08-07"
       }
     ],
@@ -15996,7 +15996,7 @@
       {
         "title": "Cape Dory 28 Flybridge Cruiser image",
         "url": "images/cpdr-28-fb.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -16184,7 +16184,7 @@
       "modelVariations": [
         {
           "Name": "Open Fisherman / Open Sportsman naming",
-          "Description": "Factory-era material uses Open Fisherman and later Open Sportsman terminology for the open cockpit member of the 28 family. B-Scout retains Open Fisherman as the canonical historic name and keeps Open Sportsman as a search alias.",
+          "Description": "Factory-era material uses Open Fisherman and later Open Sportsman terminology for the open cockpit member of the 28 family. B-Atlas retains Open Fisherman as the canonical historic name and keeps Open Sportsman as a search alias.",
           "AffectedYears": "Production and Newport-era literature",
           "EvidenceRefs": [
             "https://www.capedory28.info/downloads/1986Brochure.pdf",
@@ -16280,7 +16280,7 @@
       {
         "title": "Cape Dory 28 Open Fisherman image",
         "url": "images/cpdr-28-of.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -16375,7 +16375,7 @@
       "Accommodation": "1 cabin, 4 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Cape Dory 28 Power Cruiser is the enclosed lower-helm, no-flybridge member of Cape Dory’s 28-foot powerboat family. “Cruiser” is an authentic factory powerboat designation here—not the Cape Dory 28 sailboat—and B-Scout uses the full name “28 Power Cruiser” to keep the two identities distinct. The boat shares the full-keel semi-displacement hull, protected single shaft and traditional interior of the Flybridge Cruiser while retaining a lower profile.",
+      "overview": "The Cape Dory 28 Power Cruiser is the enclosed lower-helm, no-flybridge member of Cape Dory’s 28-foot powerboat family. “Cruiser” is an authentic factory powerboat designation here—not the Cape Dory 28 sailboat—and B-Atlas uses the full name “28 Power Cruiser” to keep the two identities distinct. The boat shares the full-keel semi-displacement hull, protected single shaft and traditional interior of the Flybridge Cruiser while retaining a lower profile.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -16467,7 +16467,7 @@
       "modelVariations": [
         {
           "Name": "Factory designation",
-          "Description": "Cape Dory factory literature calls this configuration the CD/28 Cruiser or 28 Power Cruiser. B-Scout uses “28 Power Cruiser” to distinguish it from the unrelated Cape Dory 28 sailboat.",
+          "Description": "Cape Dory factory literature calls this configuration the CD/28 Cruiser or 28 Power Cruiser. B-Atlas uses “28 Power Cruiser” to distinguish it from the unrelated Cape Dory 28 sailboat.",
           "AffectedYears": "Production run",
           "EvidenceRefs": [
             "https://www.capedory28.info/downloads/1986Brochure.pdf",
@@ -16477,7 +16477,7 @@
         },
         {
           "Name": "Flybridge relationship",
-          "Description": "The Flybridge Cruiser is the same core cruising configuration with the factory flybridge added; it remains a separate B-Scout variant because height, access and use differ materially.",
+          "Description": "The Flybridge Cruiser is the same core cruising configuration with the factory flybridge added; it remains a separate B-Atlas variant because height, access and use differ materially.",
           "AffectedYears": "Production run",
           "EvidenceRefs": [
             "https://www.capedory28.info/downloads/1986Brochure.pdf",
@@ -16582,7 +16582,7 @@
       {
         "title": "Cape Dory 28 Power Cruiser image",
         "url": "images/cpdr-28-cr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -16642,12 +16642,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -16916,7 +16916,7 @@
       {
         "title": "Cape Dory 30 Flybridge image",
         "url": "images/cpdr-30-fb.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -17104,7 +17104,7 @@
       "modelVariations": [
         {
           "Name": "Power Yacht / Flybridge naming",
-          "Description": "Cape Dory historical material identifies the 33 as a Power Yacht, while technical guides commonly use 33 Flybridge and valuation records use 33 Cruiser. B-Scout uses “33 Power Yacht” with the other terms retained as aliases.",
+          "Description": "Cape Dory historical material identifies the 33 as a Power Yacht, while technical guides commonly use 33 Flybridge and valuation records use 33 Cruiser. B-Atlas uses “33 Power Yacht” with the other terms retained as aliases.",
           "AffectedYears": "1988–1994",
           "EvidenceRefs": [
             "https://capedoryhistory.com/",
@@ -17210,7 +17210,7 @@
       {
         "title": "Cape Dory 33 Power Yacht image",
         "url": "images/cpdr-33-fb.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -17504,7 +17504,7 @@
       {
         "title": "Cape Dory 36 Power Yacht image",
         "url": "images/cpdr-36-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -17599,7 +17599,7 @@
       "Accommodation": "2 cabins, 6 berths, 2 heads"
     },
     "intelligence": {
-      "overview": "The Cape Dory 40 Explorer is the largest purpose-built cruising power yacht in the documented Cape Dory/Newport Shipyards pleasure-power line. Designed by Clive M. Dent, it combines a modified-V hull and full-length protective keel with twin diesels, lower and flybridge helms, two private staterooms and two heads. The boat can cruise economically at trawler speeds but was also designed for high-teens cruising, so B-Scout treats it as a fast Downeast/Explorer cruiser rather than a conventional displacement trawler.",
+      "overview": "The Cape Dory 40 Explorer is the largest purpose-built cruising power yacht in the documented Cape Dory/Newport Shipyards pleasure-power line. Designed by Clive M. Dent, it combines a modified-V hull and full-length protective keel with twin diesels, lower and flybridge helms, two private staterooms and two heads. The boat can cruise economically at trawler speeds but was also designed for high-teens cruising, so B-Atlas treats it as a fast Downeast/Explorer cruiser rather than a conventional displacement trawler.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -17687,7 +17687,7 @@
       "modelVariations": [
         {
           "Name": "Production chronology",
-          "Description": "Factory history places hull #1 in 1992; HMY documents 1992–1994 production, while a verified 1995 HIN/listing demonstrates at least one 1995 example. B-Scout therefore carries 1992–1995 with hull-specific verification.",
+          "Description": "Factory history places hull #1 in 1992; HMY documents 1992–1994 production, while a verified 1995 HIN/listing demonstrates at least one 1995 example. B-Atlas therefore carries 1992–1995 with hull-specific verification.",
           "AffectedYears": "1992–1995",
           "EvidenceRefs": [
             "https://capedory.org/cdinfo.html",
@@ -17789,7 +17789,7 @@
       {
         "title": "Cape Dory 40 Explorer image",
         "url": "images/cpdr-40-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -18018,7 +18018,7 @@
       {
         "title": "Carver 28 Voyager image",
         "url": "images/carv-28-v.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -18250,7 +18250,7 @@
       {
         "title": "Carver 3207 Aft Cabin image",
         "url": "images/carv-32-ac.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -18483,7 +18483,7 @@
       {
         "title": "Carver 33 Aft Cabin image",
         "url": "images/carv-33-ac.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -18713,7 +18713,7 @@
       {
         "title": "Carver 33 Mariner image",
         "url": "images/carv-33-mar.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -18956,7 +18956,7 @@
       {
         "title": "Carver 33 / 350 Aft Cabin image",
         "url": "images/carv-350-af.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -19189,7 +19189,7 @@
       {
         "title": "Carver 355 Aft Cabin image",
         "url": "images/carv-355-ac.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -19422,7 +19422,7 @@
       {
         "title": "Carver 356 Aft Cabin image",
         "url": "images/carv-356-af.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -19654,7 +19654,7 @@
       {
         "title": "Carver 3607 Aft Cabin image",
         "url": "images/carv-36-ac.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -19894,7 +19894,7 @@
       {
         "title": "Carver 350 / 36 Mariner image",
         "url": "images/carv-36-mar.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -20127,7 +20127,7 @@
       {
         "title": "Carver 40 Aft Cabin image",
         "url": "images/carv-40-ac.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -20360,7 +20360,7 @@
       {
         "title": "Carver 42 Aft Cabin image",
         "url": "images/carv-42-ac.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -20562,14 +20562,14 @@
           "Unverified"
         ],
         "Confidence": "Low",
-        "Notes": "Identity and dimensions currently rely primarily on legacy B-Scout data; family guidance does not independently verify this model."
+        "Notes": "Identity and dimensions currently rely primarily on legacy B-Atlas data; family guidance does not independently verify this model."
       }
     ],
     "images": [
       {
         "title": "CHB 34 Sedan image",
         "url": "images/chbb-34-se.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -20768,14 +20768,14 @@
           "Unverified"
         ],
         "Confidence": "Low",
-        "Notes": "Identity and dimensions currently rely primarily on legacy B-Scout data; family guidance does not independently verify this model."
+        "Notes": "Identity and dimensions currently rely primarily on legacy B-Atlas data; family guidance does not independently verify this model."
       }
     ],
     "images": [
       {
         "title": "CHB 34 Tri-Cabin image",
         "url": "images/chbb-34-tc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -21066,7 +21066,7 @@
       {
         "title": "CHB 34 Double Cabin image",
         "url": "images/chby-34-se.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -21126,12 +21126,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -21384,7 +21384,7 @@
       {
         "title": "CHB 35 Trawler image",
         "url": "images/chby-35.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -21638,7 +21638,7 @@
       {
         "title": "CHB 40 Trawler image",
         "url": "images/chby-40.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -21878,7 +21878,7 @@
       {
         "title": "Cheoy Lee 28 Trawler image",
         "url": "images/chly-28.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -21938,12 +21938,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -22181,7 +22181,7 @@
       {
         "title": "Cheoy Lee 32 Trawler image",
         "url": "images/chly-32.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -22382,7 +22382,7 @@
       {
         "title": "Cheoy Lee 35 Trawler image",
         "url": "images/chly-35.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -22626,7 +22626,7 @@
       {
         "title": "Cheoy Lee 36 Sedan image",
         "url": "images/chly-36-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -22811,7 +22811,7 @@
       {
         "title": "Cruisers 2980 Esprit image",
         "url": "images/cruy-2980.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -23042,7 +23042,7 @@
       {
         "title": "Cruisers 320 Express image",
         "url": "images/cruy-320-exp.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -23273,7 +23273,7 @@
       {
         "title": "Cruisers 3280 Esprit image",
         "url": "images/cruy-3280.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -23504,7 +23504,7 @@
       {
         "title": "Cruisers 3375 Esprit image",
         "url": "images/cruy-3375.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -23735,7 +23735,7 @@
       {
         "title": "Cruisers 3470 / 340 Express image",
         "url": "images/cruy-3470.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -23978,7 +23978,7 @@
       {
         "title": "Cruisers 3650 / 3750 / 375 Motor Yacht image",
         "url": "images/cruy-3650-af.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -24209,7 +24209,7 @@
       {
         "title": "Cruisers 3870 Express image",
         "url": "images/cruy-3870.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -24440,7 +24440,7 @@
       {
         "title": "Cruisers 390 Express image",
         "url": "images/cruy-390-exp.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -24673,7 +24673,7 @@
       {
         "title": "Cruisers 4050 Express Motor Yacht image",
         "url": "images/cruy-4050.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -24769,7 +24769,7 @@
       "Accommodation": "1 cabin, 2 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Cutwater C-24 C is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Scout labels such as “Pilothouse” or generic size-only names.",
+      "overview": "The Cutwater C-24 C is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Atlas labels such as “Pilothouse” or generic size-only names.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -24829,7 +24829,7 @@
       "modelVariations": [
         {
           "Name": "Factory designation changes",
-          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Scout has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
+          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Atlas has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
           "AffectedYears": "Varies by model",
           "EvidenceRefs": [
             "https://cutwaterboats.com/past-models"
@@ -24916,7 +24916,7 @@
       {
         "title": "Cutwater C-24 C image",
         "url": "images/cutw-24.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -25012,7 +25012,7 @@
       "Accommodation": "1 cabin, 4 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Cutwater C-26 is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Scout labels such as “Pilothouse” or generic size-only names.",
+      "overview": "The Cutwater C-26 is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Atlas labels such as “Pilothouse” or generic size-only names.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -25072,7 +25072,7 @@
       "modelVariations": [
         {
           "Name": "Factory designation changes",
-          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Scout has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
+          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Atlas has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
           "AffectedYears": "Varies by model",
           "EvidenceRefs": [
             "https://cutwaterboats.com/past-models"
@@ -25159,7 +25159,7 @@
       {
         "title": "Cutwater C-26 image",
         "url": "images/cutw-26.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -25255,7 +25255,7 @@
       "Accommodation": "1 cabin, 4 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Cutwater C-28 is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Scout labels such as “Pilothouse” or generic size-only names.",
+      "overview": "The Cutwater C-28 is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Atlas labels such as “Pilothouse” or generic size-only names.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -25315,7 +25315,7 @@
       "modelVariations": [
         {
           "Name": "Factory designation changes",
-          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Scout has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
+          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Atlas has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
           "AffectedYears": "Varies by model",
           "EvidenceRefs": [
             "https://cutwaterboats.com/past-models"
@@ -25402,7 +25402,7 @@
       {
         "title": "Cutwater C-28 image",
         "url": "images/cutw-28-p.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -25498,7 +25498,7 @@
       "Accommodation": "2 cabins, 4 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Cutwater C-30 CB is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Scout labels such as “Pilothouse” or generic size-only names.",
+      "overview": "The Cutwater C-30 CB is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Atlas labels such as “Pilothouse” or generic size-only names.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -25558,7 +25558,7 @@
       "modelVariations": [
         {
           "Name": "Factory designation changes",
-          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Scout has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
+          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Atlas has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
           "AffectedYears": "Varies by model",
           "EvidenceRefs": [
             "https://cutwaterboats.com/past-models"
@@ -25645,7 +25645,7 @@
       {
         "title": "Cutwater C-30 CB image",
         "url": "images/cutw-30-c.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -25741,7 +25741,7 @@
       "Accommodation": "1 cabin, 6 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Cutwater C-30 S is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Scout labels such as “Pilothouse” or generic size-only names.",
+      "overview": "The Cutwater C-30 S is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Atlas labels such as “Pilothouse” or generic size-only names.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -25801,7 +25801,7 @@
       "modelVariations": [
         {
           "Name": "Factory designation changes",
-          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Scout has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
+          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Atlas has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
           "AffectedYears": "Varies by model",
           "EvidenceRefs": [
             "https://cutwaterboats.com/past-models"
@@ -25888,7 +25888,7 @@
       {
         "title": "Cutwater C-30 S image",
         "url": "images/cutw-30-p.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -25984,7 +25984,7 @@
       "Accommodation": "2 cabins, 4 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Cutwater C-32 CB is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Scout labels such as “Pilothouse” or generic size-only names.",
+      "overview": "The Cutwater C-32 CB is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Atlas labels such as “Pilothouse” or generic size-only names.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -26044,7 +26044,7 @@
       "modelVariations": [
         {
           "Name": "Factory designation changes",
-          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Scout has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
+          "Description": "Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Atlas has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.",
           "AffectedYears": "Varies by model",
           "EvidenceRefs": [
             "https://cutwaterboats.com/past-models"
@@ -26131,7 +26131,7 @@
       {
         "title": "Cutwater C-32 CB image",
         "url": "images/cutw-32.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -26380,7 +26380,7 @@
       {
         "title": "DeFever 34 Trawler image",
         "url": "images/defe-34-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -26625,7 +26625,7 @@
       {
         "title": "DeFever 38 Trawler image",
         "url": "images/defe-38-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -26870,7 +26870,7 @@
       {
         "title": "DeFever 40 Euro image",
         "url": "images/defe-40-euro.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -27119,7 +27119,7 @@
       {
         "title": "DeFever 41 image",
         "url": "images/defe-41.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -27368,7 +27368,7 @@
       {
         "title": "DeFever 43 image",
         "url": "images/defe-43.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -27613,7 +27613,7 @@
       {
         "title": "DeFever 45 image",
         "url": "images/defe-45.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -27862,7 +27862,7 @@
       {
         "title": "DeFever 47 image",
         "url": "images/defe-47.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -28111,7 +28111,7 @@
       {
         "title": "DeFever 49 image",
         "url": "images/defe-49.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -28352,7 +28352,7 @@
       {
         "title": "Duffy 29 image",
         "url": "images/duff-29.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -28593,7 +28593,7 @@
       {
         "title": "Duffy 31 Downeast image",
         "url": "images/duff-31.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -28834,7 +28834,7 @@
       {
         "title": "Duffy 35 Downeast image",
         "url": "images/duff-35.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -29075,7 +29075,7 @@
       {
         "title": "Duffy 37 image",
         "url": "images/duff-37.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -29316,7 +29316,7 @@
       {
         "title": "Duffy 39 image",
         "url": "images/duff-39.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -29557,7 +29557,7 @@
       {
         "title": "Duffy 42 image",
         "url": "images/duff-42.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -29797,7 +29797,7 @@
       {
         "title": "Endeavour 36 TrawlerCat image",
         "url": "images/ende-36-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -30056,7 +30056,7 @@
       {
         "title": "Endeavour 44 TrawlerCat image",
         "url": "images/ende-44.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -30286,7 +30286,7 @@
       {
         "title": "Fjord 36 Cruiser image",
         "url": "images/fjrd-36.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -30520,7 +30520,7 @@
       {
         "title": "Fjord 36 Open image",
         "url": "images/fjrd-36-open.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -30754,7 +30754,7 @@
       {
         "title": "Fjord 40 Cruiser image",
         "url": "images/fjrd-40.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -30988,7 +30988,7 @@
       {
         "title": "Fjord 40 Open image",
         "url": "images/fjrd-40-open.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -31228,7 +31228,7 @@
       {
         "title": "Fortier 26 image",
         "url": "images/fort-26.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -31468,7 +31468,7 @@
       {
         "title": "Fortier 33 image",
         "url": "images/fort-33.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -31705,7 +31705,7 @@
       {
         "title": "Gozzard Pilgrim 40 image",
         "url": "images/gozz-40-pi.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -31995,7 +31995,7 @@
       {
         "title": "Grand Banks 32 Classic image",
         "url": "images/grbk-32-cl.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -32052,25 +32052,25 @@
     "knownIssues": [
       {
         "title": "Wood structure and fastenings on wood-built examples",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck-core moisture on fiberglass examples",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tanks, windows and teak deck condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Engine installation and repower documentation",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -32078,19 +32078,19 @@
     "similarModels": [
       {
         "title": "Mainship 34 Mk I Motor Cruiser",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Willard Vega 30",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Marine Trader 34",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -32108,12 +32108,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       },
       {
@@ -32401,7 +32401,7 @@
       {
         "title": "Grand Banks 36 Classic image",
         "url": "images/grbk-36-cl.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -32461,12 +32461,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -32747,7 +32747,7 @@
       {
         "title": "Grand Banks 36 Europa image",
         "url": "images/grbk-36-eu.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -33028,7 +33028,7 @@
       {
         "title": "Grand Banks 42 Classic image",
         "url": "images/grbk-42-cl.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -33321,7 +33321,7 @@
       {
         "title": "Grand Banks 46 Classic image",
         "url": "images/grbk-46-cl.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -33611,7 +33611,7 @@
       {
         "title": "Grand Banks 49 Motor Yacht image",
         "url": "images/grbk-49-my.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -33856,7 +33856,7 @@
       {
         "title": "Great Harbour GH37 image",
         "url": "images/grth-gh37.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -34101,7 +34101,7 @@
       {
         "title": "Great Harbour N37 image",
         "url": "images/grth-n37.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -34197,7 +34197,7 @@
       "Accommodation": "1 cabin, 7 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Greenline 33 is a Slovenian solar-assisted sedan cruiser built around an efficient J&J-designed hull and single shaft line. It was offered in diesel, diesel-electric hybrid and later electric configurations; B-Scout treats those propulsion packages as variations of one model, not separate boat models.",
+      "overview": "The Greenline 33 is a Slovenian solar-assisted sedan cruiser built around an efficient J&J-designed hull and single shaft line. It was offered in diesel, diesel-electric hybrid and later electric configurations; B-Atlas treats those propulsion packages as variations of one model, not separate boat models.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -34356,7 +34356,7 @@
       {
         "title": "Greenline 33 image",
         "url": "images/grnl-33.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -34601,7 +34601,7 @@
       {
         "title": "Greenline 39 image",
         "url": "images/grnl-39.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -34849,7 +34849,7 @@
       {
         "title": "Gulfstar 36 Trawler image",
         "url": "images/gulf-36-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -35097,7 +35097,7 @@
       {
         "title": "Gulfstar 43 Trawler image",
         "url": "images/gulf-43-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -35345,7 +35345,7 @@
       {
         "title": "Gulfstar 44 Motor Cruiser image",
         "url": "images/gulf-44-mc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -35593,7 +35593,7 @@
       {
         "title": "Gulfstar 49 Motor Cruiser image",
         "url": "images/gulf-49-mc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -35838,7 +35838,7 @@
       {
         "title": "Helmsman 31 Sedan image",
         "url": "images/helm-31-ca.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -35886,7 +35886,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout Model Character + Resources Batch 1",
+        "label": "B-Atlas Model Character + Resources Batch 1",
         "verificationStatus": "Links researched and checked 2026-08-07"
       }
     ],
@@ -36121,7 +36121,7 @@
       {
         "title": "Helmsman 38E Pilothouse image",
         "url": "images/helm-38e-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -36169,7 +36169,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout Model Character + Resources Batch 1",
+        "label": "B-Atlas Model Character + Resources Batch 1",
         "verificationStatus": "Links researched and checked 2026-08-07"
       }
     ],
@@ -36404,7 +36404,7 @@
       {
         "title": "Helmsman 43E Pilothouse image",
         "url": "images/helm-43-e.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -36462,7 +36462,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout Model Character + Resources Batch 1",
+        "label": "B-Atlas Model Character + Resources Batch 1",
         "verificationStatus": "Links researched and checked 2026-08-07"
       }
     ],
@@ -36697,7 +36697,7 @@
       {
         "title": "Helmsman 46 Pilothouse image",
         "url": "images/helm-46-ph.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -36755,7 +36755,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout Model Character + Resources Batch 1",
+        "label": "B-Atlas Model Character + Resources Batch 1",
         "verificationStatus": "Links researched and checked 2026-08-07"
       }
     ],
@@ -36970,7 +36970,7 @@
       {
         "title": "Holiday Mansion 38 Coastal Commander image",
         "url": "images/hlmn-38-co.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -37204,7 +37204,7 @@
       {
         "title": "Hunt Surfhunter 29 image",
         "url": "images/hunt-29.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -37438,7 +37438,7 @@
       {
         "title": "Hunt Harrier 36 image",
         "url": "images/hunt-36.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -37681,7 +37681,7 @@
       {
         "title": "Island Gypsy 32 Europa image",
         "url": "images/isgy-32-eu.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -37924,7 +37924,7 @@
       {
         "title": "Island Gypsy 32 Fisherman image",
         "url": "images/isgy-32-fi.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -38169,7 +38169,7 @@
       {
         "title": "Island Gypsy 32 Sedan image",
         "url": "images/isgy-32-se.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -38414,7 +38414,7 @@
       {
         "title": "Island Gypsy 36 Trawler image",
         "url": "images/isgy-36.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -38655,7 +38655,7 @@
       {
         "title": "Island Gypsy 36 Euro image",
         "url": "images/isgy-36euro.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -38900,7 +38900,7 @@
       {
         "title": "Island Gypsy 40 image",
         "url": "images/isgy-40.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -39145,7 +39145,7 @@
       {
         "title": "Island Gypsy 44 image",
         "url": "images/isgy-44.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -39388,7 +39388,7 @@
       {
         "title": "Jeanneau Merry Fisher 1095 Coupé / NC 1095 image",
         "url": "images/jeau-1095.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -39631,7 +39631,7 @@
       {
         "title": "Jeanneau Merry Fisher 1095 Fly / NC 1095 Fly image",
         "url": "images/jeau-1095-fly.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -39859,7 +39859,7 @@
       {
         "title": "Jeanneau Merry Fisher 605 image",
         "url": "images/jeau-605.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -40086,7 +40086,7 @@
       {
         "title": "Jeanneau Merry Fisher 635 image",
         "url": "images/jeau-635.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -40314,7 +40314,7 @@
       {
         "title": "Jeanneau Merry Fisher 695 image",
         "url": "images/jeau-695.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -40542,7 +40542,7 @@
       {
         "title": "Jeanneau Merry Fisher 795 image",
         "url": "images/jeau-795.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -40771,7 +40771,7 @@
       {
         "title": "Jeanneau Merry Fisher 855 image",
         "url": "images/jeau-855.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -41014,7 +41014,7 @@
       {
         "title": "Jeanneau Merry Fisher 895 / NC 895 image",
         "url": "images/jeau-895.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -41243,7 +41243,7 @@
       {
         "title": "Jeanneau Merry Fisher 895 Sport image",
         "url": "images/jeau-895-sp.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -41487,7 +41487,7 @@
       {
         "title": "Kadey-Krogen 36 Manatee image",
         "url": "images/kdkr-36-ma.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -41547,12 +41547,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -41787,7 +41787,7 @@
       {
         "title": "Kadey-Krogen 39 image",
         "url": "images/kdkr-39.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -42029,7 +42029,7 @@
       {
         "title": "Kadey-Krogen 42 image",
         "url": "images/kdkr-42.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -42089,12 +42089,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -42328,7 +42328,7 @@
       {
         "title": "Krogen 44 AE image",
         "url": "images/kdkr-44.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -42565,7 +42565,7 @@
       {
         "title": "Krogen 48 North Sea image",
         "url": "images/kdkr-48-ns.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -42804,7 +42804,7 @@
       {
         "title": "Luhrs 30 Alura image",
         "url": "images/luhr-30.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -42816,25 +42816,25 @@
     "knownIssues": [
       {
         "title": "Engine type and repower documentation",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit deck and stringer moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Exhaust and running gear",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -42842,19 +42842,19 @@
     "similarModels": [
       {
         "title": "Mainship Pilot 30",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Albin 28 Tournament Express",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nimbus 3003",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -42872,7 +42872,7 @@
     "sources": [
       {
         "type": "CuratedReference",
-        "label": "B-Scout model record and market-reference review",
+        "label": "B-Atlas model record and market-reference review",
         "verificationStatus": "Verified July 2026"
       }
     ],
@@ -43123,7 +43123,7 @@
       {
         "title": "Mainship 30 Pilot image",
         "url": "images/mnsh-30-pi.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -43187,25 +43187,25 @@
     "knownIssues": [
       {
         "title": "Fuel tank and exhaust condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit deck and structural moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Engine access and service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Windshield, hatch and port leaks",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -43213,19 +43213,19 @@
     "similarModels": [
       {
         "title": "Albin 28 Tournament Express",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nimbus 3003",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough 28",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -43243,12 +43243,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout curated Mainship Pilot 30 resources",
+        "label": "B-Atlas curated Mainship Pilot 30 resources",
         "verificationStatus": "Links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       },
       {
@@ -43497,7 +43497,7 @@
       {
         "title": "Mainship 34 II image",
         "url": "images/mnsh-34-mk2.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -43540,25 +43540,25 @@
     "knownIssues": [
       {
         "title": "Deck and flybridge core moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Aluminum fuel tank condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Exhaust, cooling and electrical systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Flybridge ladder security and cockpit drainage",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -43566,19 +43566,19 @@
     "similarModels": [
       {
         "title": "Mainship 34 Mk I Motor Cruiser",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Mainship 34 III",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Marine Trader 34 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -43596,7 +43596,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout curated Mainship 34 II model-evolution resources",
+        "label": "B-Atlas curated Mainship 34 II model-evolution resources",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -43868,7 +43868,7 @@
       {
         "title": "Mainship 34 MK I image",
         "url": "images/mnsh-34-mk1.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -43956,25 +43956,25 @@
     "knownIssues": [
       {
         "title": "Original aluminum fuel-tank condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "High-priority age-related check"
       },
       {
         "title": "Deck, flybridge and window moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Survey and moisture testing required"
       },
       {
         "title": "Cooling, exhaust and engine service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Engine-specific verification required"
       },
       {
         "title": "Electrical, plumbing and sanitation-system modernization",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Condition varies by refit history"
       }
@@ -43982,7 +43982,7 @@
     "similarModels": [
       {
         "title": "Bayliner 3270 Motoryacht",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -44004,12 +44004,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout curated resources for Mainship 34 Mk I Trawler",
+        "label": "B-Atlas curated resources for Mainship 34 Mk I Trawler",
         "verificationStatus": "Links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific broker and marketplace searches",
+        "label": "B-Atlas model-specific broker and marketplace searches",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -44019,7 +44019,7 @@
       },
       {
         "type": "CuratedReference",
-        "label": "B-Scout normalized model database",
+        "label": "B-Atlas normalized model database",
         "verificationStatus": "Verified July 2026"
       },
       {
@@ -44275,7 +44275,7 @@
       {
         "title": "Mainship 350 Trawler image",
         "url": "images/mnsh-350-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -44535,7 +44535,7 @@
       {
         "title": "Mainship 390 Trawler image",
         "url": "images/mnsh-390-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -44800,7 +44800,7 @@
       {
         "title": "Mainship 400 Trawler image",
         "url": "images/mnsh-400-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -45003,7 +45003,7 @@
       {
         "title": "Marine Trader 34 Europa image",
         "url": "images/mtra-34-eu.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -45207,14 +45207,14 @@
           "Unverified"
         ],
         "Confidence": "Low",
-        "Notes": "Identity and dimensions currently rely primarily on legacy B-Scout data; family guidance does not independently verify this model."
+        "Notes": "Identity and dimensions currently rely primarily on legacy B-Atlas data; family guidance does not independently verify this model."
       }
     ],
     "images": [
       {
         "title": "Marine Trader 34 Sedan image",
         "url": "images/mtra-34-se.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -45484,7 +45484,7 @@
       {
         "title": "Marine Trader 36 Double Cabin image",
         "url": "images/mrtr-36-do.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -45754,7 +45754,7 @@
       {
         "title": "Marine Trader 38 Double Cabin image",
         "url": "images/mrtr-38-sd.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -46016,7 +46016,7 @@
       {
         "title": "Marine Trader 38 Sundeck image",
         "url": "images/mrtr-38-sd2.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -46279,7 +46279,7 @@
       {
         "title": "Marine Trader 40 Double Cabin image",
         "url": "images/mrtr-40-dc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -46568,7 +46568,7 @@
       {
         "title": "Marine Trader 44 Tri-Cabin image",
         "url": "images/mrtr-44-tc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -46817,7 +46817,7 @@
       {
         "title": "Meridian 341 Sedan image",
         "url": "images/meri-341-se.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -47047,7 +47047,7 @@
       {
         "title": "Meridian 381 Sedan image",
         "url": "images/meri-381-se.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -47288,7 +47288,7 @@
       {
         "title": "Monk 36 Trawler image",
         "url": "images/monk-36-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -47348,12 +47348,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -47586,7 +47586,7 @@
       {
         "title": "Nimble Nomad image",
         "url": "images/nmbl-24-no.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -47842,7 +47842,7 @@
       {
         "title": "Nimble Wanderer image",
         "url": "images/nmbl-32-wa.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -47899,25 +47899,25 @@
     "knownIssues": [
       {
         "title": "Trailer, structural supports and weight verification",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deckhouse and window leakage",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel, exhaust, steering and aging systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Forward berth geometry and bulkhead access",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -47925,19 +47925,19 @@
     "similarModels": [
       {
         "title": "North Pacific 28",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-27",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough 28",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -47955,12 +47955,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       },
       {
@@ -48200,7 +48200,7 @@
       {
         "title": "Nimbus 3003 image",
         "url": "images/nmbs-3003.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -48264,25 +48264,25 @@
     "knownIssues": [
       {
         "title": "Window and hatch sealing",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Aft-cabin ventilation and moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Volvo cooling, exhaust and service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Teak and cockpit drainage condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -48290,19 +48290,19 @@
     "similarModels": [
       {
         "title": "Camano Troll 31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Mainship Pilot 30",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Albin 28 Tournament Express",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -48320,12 +48320,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       },
       {
@@ -48567,7 +48567,7 @@
       {
         "title": "Nimbus 365 Coupé image",
         "url": "images/nmbs-365-co.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -48796,7 +48796,7 @@
       {
         "title": "Nord Star 31+ image",
         "url": "images/ndst-31p.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -48816,25 +48816,25 @@
     "knownIssues": [
       {
         "title": "Sterndrives and transom assemblies",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Heating, glazing and door seals",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters and electrical integration",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck hardware and drainage",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -48842,19 +48842,19 @@
     "similarModels": [
       {
         "title": "Nimbus 305 Coupé",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Paragon 31 Cabin",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -48872,7 +48872,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -49120,7 +49120,7 @@
       {
         "title": "Nordhavn 40 image",
         "url": "images/nrdh-40.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -49247,7 +49247,7 @@
         },
         "ExposedWater": {
           "Assessment": "Mixed",
-          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Scout does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
+          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Atlas does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
           "EvidenceRefs": [
             "https://www.nordictugs.com/history",
             "https://www.nordictugs.com/vessels",
@@ -49411,7 +49411,7 @@
       {
         "title": "Nordic Tugs 26 image",
         "url": "images/ndtg-26.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -49471,12 +49471,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -49591,7 +49591,7 @@
         },
         "ExposedWater": {
           "Assessment": "Mixed",
-          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Scout does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
+          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Atlas does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
           "EvidenceRefs": [
             "https://www.nordictugs.com/history",
             "https://www.yachtworld.com/yacht/1985-nordic-tug-32-9544961/"
@@ -49732,7 +49732,7 @@
       {
         "title": "Nordic Tug 32 image",
         "url": "images/ndtg-32.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -49792,12 +49792,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -49912,7 +49912,7 @@
         },
         "ExposedWater": {
           "Assessment": "Mixed",
-          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Scout does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
+          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Atlas does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
           "EvidenceRefs": [
             "https://www.nordictugs.com/vessels",
             "https://www.nordictugs.com/history"
@@ -50053,7 +50053,7 @@
       {
         "title": "Nordic Tug 34 image",
         "url": "images/ndtg-34.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -50180,7 +50180,7 @@
         },
         "ExposedWater": {
           "Assessment": "Mixed",
-          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Scout does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
+          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Atlas does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
           "EvidenceRefs": [
             "https://www.nordictugs.com/history",
             "https://www.boats.com/reviews/sea-trial-nordic-tug-37/",
@@ -50327,7 +50327,7 @@
       {
         "title": "Nordic Tug 37 image",
         "url": "images/ndtg-37.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -50454,7 +50454,7 @@
         },
         "ExposedWater": {
           "Assessment": "Mixed",
-          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Scout does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
+          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Atlas does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
           "EvidenceRefs": [
             "https://powerandmotoryacht.com/boats/boat-tests/nordic-tug-39/?tab=boat",
             "https://www.boats.com/reviews/first-look-at-the-new-nordic-tugs-39/",
@@ -50609,7 +50609,7 @@
       {
         "title": "Nordic Tug 39 image",
         "url": "images/ndtg-39.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -50739,7 +50739,7 @@
         },
         "ExposedWater": {
           "Assessment": "Mixed",
-          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Scout does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
+          "Summary": "The semi-displacement hull and protected pilothouse support coastal use, but B-Atlas does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.",
           "EvidenceRefs": [
             "https://www.nordictugs.com/history",
             "https://nordictug42.com/specifications/",
@@ -50899,7 +50899,7 @@
       {
         "title": "Nordic Tug 42 image",
         "url": "images/ndtg-42-ph.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -51140,7 +51140,7 @@
       {
         "title": "North Pacific 28 image",
         "url": "images/npac-28.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -51200,12 +51200,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -51437,7 +51437,7 @@
       {
         "title": "North Pacific 38 image",
         "url": "images/npac-38.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -51670,7 +51670,7 @@
       {
         "title": "Ocean Alexander 36 Sedan image",
         "url": "images/ocal-36-se.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -51906,7 +51906,7 @@
       {
         "title": "Ocean Alexander 39 Sedan image",
         "url": "images/ocal-39-se.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -52134,7 +52134,7 @@
       {
         "title": "PDQ 34 PowerCat image",
         "url": "images/pdqb-34-pa.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -52375,7 +52375,7 @@
       {
         "title": "Prairie 29 Trawler image",
         "url": "images/prai-29-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -52616,7 +52616,7 @@
       {
         "title": "Prairie 36 Trawler image",
         "url": "images/prai-36-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -52859,7 +52859,7 @@
       {
         "title": "Ranger Tug R-21 Classic image",
         "url": "images/rngr-21-classic.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -52894,25 +52894,25 @@
     "knownIssues": [
       {
         "title": "Hull and deck moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Diesel installation and exhaust",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank and wiring",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Steering and rudder gear",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -52920,13 +52920,13 @@
     "similarModels": [
       {
         "title": "Ranger Tug R-21 EC",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nordic Tug 21",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -52944,7 +52944,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -53183,7 +53183,7 @@
       {
         "title": "Ranger Tug R-21 EC image",
         "url": "images/rngr-21-ec.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -53218,25 +53218,25 @@
     "knownIssues": [
       {
         "title": "Engine and cooling service",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit drains",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck hardware and moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Trailer condition",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -53244,13 +53244,13 @@
     "similarModels": [
       {
         "title": "Ranger Tug R-21 Classic",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Rosborough RF-18",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -53268,7 +53268,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -53510,7 +53510,7 @@
       {
         "title": "Ranger Tugs R-23 image",
         "url": "images/rngr-r-23.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -53545,25 +53545,25 @@
     "knownIssues": [
       {
         "title": "Outboard service records",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster and electrical systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Roof glazing and seals",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -53571,13 +53571,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-25",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Cutwater C-24",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -53595,7 +53595,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -53834,7 +53834,7 @@
       {
         "title": "Ranger Tug R-25 Classic image",
         "url": "images/rngr-25-classic.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -53869,25 +53869,25 @@
     "knownIssues": [
       {
         "title": "Diesel and cooling service",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel tank and exhaust",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster and wiring",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Core moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -53895,13 +53895,13 @@
     "similarModels": [
       {
         "title": "Ranger Tug R-25 SC",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-27 Classic",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -53919,7 +53919,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -54161,7 +54161,7 @@
       {
         "title": "Ranger Tugs R-25 image",
         "url": "images/rngr-r-25.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -54196,25 +54196,25 @@
     "knownIssues": [
       {
         "title": "Outboard service and rigging",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Lithium and charging system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Glazing and deck penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -54222,13 +54222,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-23",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-27",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -54246,7 +54246,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -54485,7 +54485,7 @@
       {
         "title": "Ranger Tug R-25 SC image",
         "url": "images/rngr-25-sc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -54520,25 +54520,25 @@
     "knownIssues": [
       {
         "title": "Diesel cooling and exhaust",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster and batteries",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit drains",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Windows and roof fittings",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -54546,13 +54546,13 @@
     "similarModels": [
       {
         "title": "Ranger Tug R-25 Classic",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-27 Classic",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -54570,7 +54570,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -54809,7 +54809,7 @@
       {
         "title": "Ranger Tug R-27 Classic image",
         "url": "images/rngr-27-rt.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -54873,25 +54873,25 @@
     "knownIssues": [
       {
         "title": "Diesel service and cooling",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel and exhaust systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Moisture around glazing and deck fittings",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -54899,13 +54899,13 @@
     "similarModels": [
       {
         "title": "Ranger Tug R-25 SC",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -54923,12 +54923,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       },
       {
@@ -55170,7 +55170,7 @@
       {
         "title": "Ranger Tugs R-27 image",
         "url": "images/rngr-r-27.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -55205,25 +55205,25 @@
     "knownIssues": [
       {
         "title": "Twin outboard service records",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Steering and controls",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster and lithium systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Hull and deck fittings",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -55231,13 +55231,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-25",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -55255,7 +55255,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -55494,7 +55494,7 @@
       {
         "title": "Ranger Tugs R-27 NW/LE image",
         "url": "images/rngr-27-ob.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -55529,25 +55529,25 @@
     "knownIssues": [
       {
         "title": "Outboard and steering service",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Package-specific HVAC or heater",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thruster and electrical system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit and roof seals",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -55555,13 +55555,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-27 current",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-27 Classic",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -55579,7 +55579,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -55818,7 +55818,7 @@
       {
         "title": "Ranger Tug R-29 Classic image",
         "url": "images/rngr-29-classic.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -55882,25 +55882,25 @@
     "knownIssues": [
       {
         "title": "Diesel and cooling system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters and electrical integration",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Moisture and glazing",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Tankage and sanitation",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -55908,13 +55908,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Camano Troll 31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -55932,12 +55932,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       },
       {
@@ -56180,7 +56180,7 @@
       {
         "title": "Ranger Tugs R-29 Command Bridge image",
         "url": "images/rngr-29-cb.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -56215,25 +56215,25 @@
     "knownIssues": [
       {
         "title": "Command-bridge structure and controls",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Volvo service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters and integrated electronics",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Glazing and deck penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -56241,19 +56241,19 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nimbus 305 Coupé",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Camano Troll 31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -56271,7 +56271,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -56516,7 +56516,7 @@
       {
         "title": "Ranger Tugs R-29 Sedan image",
         "url": "images/rngr-r-29.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -56551,25 +56551,25 @@
     "knownIssues": [
       {
         "title": "Volvo service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters and integrated electronics",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Glazing and roof penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Cockpit drains and steering",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -56577,19 +56577,19 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-29 Command Bridge",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nimbus 305 Coupé",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Camano Troll 31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -56607,7 +56607,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -56851,7 +56851,7 @@
       {
         "title": "Ranger Tugs R-31 Command Bridge image",
         "url": "images/rngr-31-cb.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -56886,25 +56886,25 @@
     "knownIssues": [
       {
         "title": "Bridge structure and controls",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Volvo and thrusters",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Folding mechanisms",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -56912,13 +56912,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-31 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-29 Command Bridge",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -56936,7 +56936,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -57178,7 +57178,7 @@
       {
         "title": "Ranger Tugs R-31 Sedan image",
         "url": "images/rngr-r-31.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -57213,25 +57213,25 @@
     "knownIssues": [
       {
         "title": "Volvo service and cooling",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Thrusters and electrical system",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Powered engine hatch",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Glazing and deck penetrations",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -57239,13 +57239,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-31 Command Bridge",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-29 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -57263,7 +57263,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -57502,7 +57502,7 @@
       {
         "title": "Ranger Tugs R-43 Command Bridge image",
         "url": "images/rngr-43-cb.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -57537,25 +57537,25 @@
     "knownIssues": [
       {
         "title": "Bridge controls and structure",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "IPS and joystick systems",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Generator and HVAC",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Electrical and navigation integration",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -57563,13 +57563,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-43 Sedan",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tugs R-31 Command Bridge",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -57587,7 +57587,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -57829,7 +57829,7 @@
       {
         "title": "Ranger Tugs R-43 Sedan image",
         "url": "images/rngr-43-s.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -57864,25 +57864,25 @@
     "knownIssues": [
       {
         "title": "IPS service history",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Generator and HVAC",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Electrical integration",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Hull openings and glazing",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -57890,13 +57890,13 @@
     "similarModels": [
       {
         "title": "Ranger Tugs R-43 Command Bridge",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Nordic Tug 44",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -57914,7 +57914,7 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout manually verified research links",
+        "label": "B-Atlas manually verified research links",
         "verificationStatus": "Links checked July 2026"
       },
       {
@@ -58154,7 +58154,7 @@
       {
         "title": "Rosborough 246 Custom Wheelhouse image",
         "url": "images/rosb-246-wh.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -58214,12 +58214,12 @@
     "sources": [
       {
         "type": "CuratedResourceSet",
-        "label": "B-Scout demo-fleet resource set",
+        "label": "B-Atlas demo-fleet resource set",
         "verificationStatus": "Search links checked July 2026"
       },
       {
         "type": "ListingDiscoverySet",
-        "label": "B-Scout model-specific marketplace discovery links",
+        "label": "B-Atlas model-specific marketplace discovery links",
         "verificationStatus": "Search links checked July 2026"
       }
     ],
@@ -58455,7 +58455,7 @@
       {
         "title": "Rosborough RF-246 Sedan Cruiser Diesel image",
         "url": "images/rosb-246-ls.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -58475,7 +58475,7 @@
     "sources": [
       {
         "type": "ReferenceFleetSeed",
-        "label": "B-Scout Reference Fleet v1 identity seed",
+        "label": "B-Atlas Reference Fleet v1 identity seed",
         "verificationStatus": "Structured database match"
       }
     ],
@@ -58712,7 +58712,7 @@
       {
         "title": "Rosborough 246 Yarmouth image",
         "url": "images/rosb-246.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -58724,25 +58724,25 @@
     "knownIssues": [
       {
         "title": "Variant and propulsion identification",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Transom or bracket structure",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Deck and cabin moisture",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       },
       {
         "title": "Fuel system and wiring quality",
-        "sourceLabel": "B-Scout survey focus",
+        "sourceLabel": "B-Atlas survey focus",
         "resourceType": "Inspection priority",
         "verificationStatus": "Model-level caution; inspect actual vessel"
       }
@@ -58750,19 +58750,19 @@
     "similarModels": [
       {
         "title": "Nordic Tug 26",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Ranger Tug R-25",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       },
       {
         "title": "Camano Gnome 28/31",
-        "sourceLabel": "B-Scout comparison set",
+        "sourceLabel": "B-Atlas comparison set",
         "resourceType": "Comparable model",
         "verificationStatus": "Curated"
       }
@@ -59008,7 +59008,7 @@
       {
         "title": "Sabre 34 Express image",
         "url": "images/sabr-34-ex.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -59248,7 +59248,7 @@
       {
         "title": "Sabre 38 Salon Express image",
         "url": "images/sabr-38-sa.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -59492,7 +59492,7 @@
       {
         "title": "Saga 26 HT image",
         "url": "images/saga-26-ht.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -59751,7 +59751,7 @@
       {
         "title": "Sea Ray 340 Sundancer image",
         "url": "images/sear-340-su.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -59993,7 +59993,7 @@
       {
         "title": "Sea Ray 390 / 40 Motor Yacht image",
         "url": "images/sear-390-mo.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -60089,7 +60089,7 @@
       "Accommodation": "2 cabins, 4 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Seahorse 35 Pilothouse is retained as a provisional B-Scout model because surviving-market evidence suggests the identity exists, but the current source set does not establish a complete factory specification or production history. Its recorded configuration should therefore be treated as a research lead rather than a fully verified model standard.",
+      "overview": "The Seahorse 35 Pilothouse is retained as a provisional B-Atlas model because surviving-market evidence suggests the identity exists, but the current source set does not establish a complete factory specification or production history. Its recorded configuration should therefore be treated as a research lead rather than a fully verified model standard.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -60125,14 +60125,14 @@
       ],
       "knownConcerns": [],
       "inspectionFocus": [
-        "Confirm builder plate, HIN, model designation and year before relying on B-Scout specifications",
+        "Confirm builder plate, HIN, model designation and year before relying on B-Atlas specifications",
         "Obtain prior surveys, manuals and original documentation where available",
         "Inspect decks, windows, structure, tanks, wiring and plumbing",
         "Inspect engines, exhaust, cooling, shafts, rudders and steering",
         "Verify actual dimensions, tankage and air draft"
       ],
       "buyerQuestions": [
-        "What inspection, repair or service history is available for confirm builder plate, HIN, model designation and year before relying on B-Scout specifications?",
+        "What inspection, repair or service history is available for confirm builder plate, HIN, model designation and year before relying on B-Atlas specifications?",
         "What inspection, repair or service history is available for obtain prior surveys, manuals and original documentation where available?",
         "What inspection, repair or service history is available for inspect decks, windows, structure, tanks, wiring and plumbing?",
         "What inspection, repair or service history is available for inspect engines, exhaust, cooling, shafts, rudders and steering?",
@@ -60218,7 +60218,7 @@
       {
         "title": "Seahorse 35 Pilothouse image",
         "url": "images/seah-35-ph.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -60314,7 +60314,7 @@
       "Accommodation": "2 cabins, 6 berths, 2 heads"
     },
     "intelligence": {
-      "overview": "The Seahorse 40 Pilothouse is retained as a provisional B-Scout model because surviving-market evidence suggests the identity exists, but the current source set does not establish a complete factory specification or production history. Its recorded configuration should therefore be treated as a research lead rather than a fully verified model standard.",
+      "overview": "The Seahorse 40 Pilothouse is retained as a provisional B-Atlas model because surviving-market evidence suggests the identity exists, but the current source set does not establish a complete factory specification or production history. Its recorded configuration should therefore be treated as a research lead rather than a fully verified model standard.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -60350,14 +60350,14 @@
       ],
       "knownConcerns": [],
       "inspectionFocus": [
-        "Confirm builder plate, HIN, model designation and year before relying on B-Scout specifications",
+        "Confirm builder plate, HIN, model designation and year before relying on B-Atlas specifications",
         "Obtain prior surveys, manuals and original documentation where available",
         "Inspect decks, windows, structure, tanks, wiring and plumbing",
         "Inspect engines, exhaust, cooling, shafts, rudders and steering",
         "Verify actual dimensions, tankage and air draft"
       ],
       "buyerQuestions": [
-        "What inspection, repair or service history is available for confirm builder plate, HIN, model designation and year before relying on B-Scout specifications?",
+        "What inspection, repair or service history is available for confirm builder plate, HIN, model designation and year before relying on B-Atlas specifications?",
         "What inspection, repair or service history is available for obtain prior surveys, manuals and original documentation where available?",
         "What inspection, repair or service history is available for inspect decks, windows, structure, tanks, wiring and plumbing?",
         "What inspection, repair or service history is available for inspect engines, exhaust, cooling, shafts, rudders and steering?",
@@ -60443,7 +60443,7 @@
       {
         "title": "Seahorse 40 Pilothouse image",
         "url": "images/seah-40-ph.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -60534,7 +60534,7 @@
       "Accommodation": "2 cabins, 6 berths, 2 heads"
     },
     "intelligence": {
-      "overview": "The Sealord 34 Tri-Cabin Tri-Cabin is retained as a provisional B-Scout model because surviving-market evidence suggests the identity exists, but the current source set does not establish a complete factory specification or production history. Its recorded configuration should therefore be treated as a research lead rather than a fully verified model standard.",
+      "overview": "The Sealord 34 Tri-Cabin Tri-Cabin is retained as a provisional B-Atlas model because surviving-market evidence suggests the identity exists, but the current source set does not establish a complete factory specification or production history. Its recorded configuration should therefore be treated as a research lead rather than a fully verified model standard.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -60570,14 +60570,14 @@
       ],
       "knownConcerns": [],
       "inspectionFocus": [
-        "Confirm builder plate, HIN, model designation and year before relying on B-Scout specifications",
+        "Confirm builder plate, HIN, model designation and year before relying on B-Atlas specifications",
         "Obtain prior surveys, manuals and original documentation where available",
         "Inspect decks, windows, structure, tanks, wiring and plumbing",
         "Inspect engines, exhaust, cooling, shafts, rudders and steering",
         "Verify actual dimensions, tankage and air draft"
       ],
       "buyerQuestions": [
-        "What inspection, repair or service history is available for confirm builder plate, HIN, model designation and year before relying on B-Scout specifications?",
+        "What inspection, repair or service history is available for confirm builder plate, HIN, model designation and year before relying on B-Atlas specifications?",
         "What inspection, repair or service history is available for obtain prior surveys, manuals and original documentation where available?",
         "What inspection, repair or service history is available for inspect decks, windows, structure, tanks, wiring and plumbing?",
         "What inspection, repair or service history is available for inspect engines, exhaust, cooling, shafts, rudders and steering?",
@@ -60663,7 +60663,7 @@
       {
         "title": "Sealord 34 Tri-Cabin image",
         "url": "images/seal-34-tc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -60904,7 +60904,7 @@
       {
         "title": "SeaPiper 35 image",
         "url": "images/seap-35.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -61146,7 +61146,7 @@
       {
         "title": "Sea Sport XL 2400 image",
         "url": "images/sspt-24.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -61388,7 +61388,7 @@
       {
         "title": "Sea Sport Explorer 2400 image",
         "url": "images/sspt-24-ex.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -61644,7 +61644,7 @@
       {
         "title": "Sea Sport 27 image",
         "url": "images/sspt-27.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -61819,7 +61819,7 @@
       {
         "title": "Seaway 24 Sport Trawler image",
         "url": "images/seaw-24-st.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -61994,7 +61994,7 @@
       {
         "title": "Seaway 28 Coastal Cruiser image",
         "url": "images/seaw-28-cc.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -62204,7 +62204,7 @@
       {
         "title": "Shannon 26 SRD image",
         "url": "images/shan-26-sr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -62437,7 +62437,7 @@
       {
         "title": "Silverton 34 Motor Yacht image",
         "url": "images/silv-34-mo.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -62670,7 +62670,7 @@
       {
         "title": "Silverton 352 Motor Yacht image",
         "url": "images/silv-352-mo.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -62913,7 +62913,7 @@
       {
         "title": "Silverton 372 / 392 Motor Yacht image",
         "url": "images/silv-372.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -63146,7 +63146,7 @@
       {
         "title": "Silverton 40 Aft Cabin image",
         "url": "images/silv-40-ac.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -63242,7 +63242,7 @@
       "Accommodation": "1 cabin, 2 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Sisu 22 is a Downeast/lobster-boat-derived hull whose individual finish and propulsion can vary significantly. B-Scout treats the hull identity as useful, but not every legacy accommodation, tankage or equipment value as a factory-wide standard.",
+      "overview": "The Sisu 22 is a Downeast/lobster-boat-derived hull whose individual finish and propulsion can vary significantly. B-Atlas treats the hull identity as useful, but not every legacy accommodation, tankage or equipment value as a factory-wide standard.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -63387,7 +63387,7 @@
       {
         "title": "Sisu 22 Pocket Cruiser image",
         "url": "images/sisu-22-co.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -63483,7 +63483,7 @@
       "Accommodation": "1 cabin, 2 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The Sisu 26 is a Downeast/lobster-boat-derived hull whose individual finish and propulsion can vary significantly. B-Scout treats the hull identity as useful, but not every legacy accommodation, tankage or equipment value as a factory-wide standard.",
+      "overview": "The Sisu 26 is a Downeast/lobster-boat-derived hull whose individual finish and propulsion can vary significantly. B-Atlas treats the hull identity as useful, but not every legacy accommodation, tankage or equipment value as a factory-wide standard.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -63628,7 +63628,7 @@
       {
         "title": "Sisu 26 Pocket Cruiser image",
         "url": "images/sisu-26-ba.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -63876,7 +63876,7 @@
       {
         "title": "Tollycraft 34 Sedan image",
         "url": "images/toll-34-se.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -64120,7 +64120,7 @@
       {
         "title": "Tollycraft 37 Sedan image",
         "url": "images/toll-37-se.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -64361,7 +64361,7 @@
       {
         "title": "Eagle 32 Pilothouse image",
         "url": "images/tpmc-32-ea.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -64604,7 +64604,7 @@
       {
         "title": "Trojan 36 Tri-Cabin image",
         "url": "images/troj-36-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -64700,7 +64700,7 @@
       "Accommodation": "1 cabin, 4 berths, 1 head"
     },
     "intelligence": {
-      "overview": "The original True North 34 is a Downeast power cruiser developed before the later outboard-generation True North 34. The original B-Scout record represents the earlier diesel/inboard cruising concept; later Catalina-era Outboard Express boats are materially different and should be tracked separately.",
+      "overview": "The original True North 34 is a Downeast power cruiser developed before the later outboard-generation True North 34. The original B-Atlas record represents the earlier diesel/inboard cruising concept; later Catalina-era Outboard Express boats are materially different and should be tracked separately.",
       "suitability": {
         "CoupleCruising": {
           "Assessment": "Good",
@@ -64849,7 +64849,7 @@
       {
         "title": "True North 34 image",
         "url": "images/trun-34.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -65089,7 +65089,7 @@
       {
         "title": "Uniflite 36 Double Cabin image",
         "url": "images/unif-36-do.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -65322,7 +65322,7 @@
       {
         "title": "Universal 36 Trawler image",
         "url": "images/univ-36-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -65552,7 +65552,7 @@
       {
         "title": "Universal 40 Trawler image",
         "url": "images/univ-40-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -65803,7 +65803,7 @@
       {
         "title": "Willard Vega 30 Voyager image",
         "url": "images/will-30-vo.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -66054,7 +66054,7 @@
       {
         "title": "Willard Vega 36 image",
         "url": "images/will-36-tr.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -66299,7 +66299,7 @@
       {
         "title": "Willard Vega 40 Nomad image",
         "url": "images/will-40-no.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }
@@ -66549,7 +66549,7 @@
       {
         "title": "Windy 26 SN image",
         "url": "images/wind-26-sn.jpg",
-        "sourceLabel": "B-Scout image library",
+        "sourceLabel": "B-Atlas image library",
         "resourceType": "Model image",
         "verificationStatus": "Local asset"
       }

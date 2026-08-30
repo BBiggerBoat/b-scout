@@ -1,4 +1,4 @@
-# B-Scout Community Contributions — Phase 11
+# B-Atlas Community Contributions — Phase 11
 
 ## Privacy and anti-abuse
 

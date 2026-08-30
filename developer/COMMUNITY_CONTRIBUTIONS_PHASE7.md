@@ -1,4 +1,4 @@
-# B-Scout Community Contributions — Phase 7
+# B-Atlas Community Contributions — Phase 7
 
 ## Objective
 
@@ -45,7 +45,7 @@ Those changes remain deliberate editorial/data operations. Later phases may prov
 
 ## Static-site limitation
 
-The current B-Scout prototype has no server-side submission endpoint or shared database. Consequently:
+The current B-Atlas prototype has no server-side submission endpoint or shared database. Consequently:
 
 - contributions created in one visitor's browser cannot appear automatically in the administrator's browser;
 - the review console currently reviews records stored on the same browser/origin;

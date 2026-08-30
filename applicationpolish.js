@@ -3,16 +3,16 @@
 
     const INFO_PAGES = {
         about: `
-            <p class="workspace-eyebrow">About B-Scout</p>
+            <p class="workspace-eyebrow">About B-Atlas</p>
             <h2>Boat knowledge for better decisions.</h2>
-            <p>B-Scout helps people discover boats, research models, make better buying decisions and contribute knowledge that improves the permanent Guides.</p>
-            <section class="information-section"><h3>What makes B-Scout different?</h3><p>It is not another marketplace search. B-Scout helps buyers understand which boats deserve further investigation and why.</p></section>
+            <p>B-Atlas helps people discover boats, research models, make better buying decisions and contribute knowledge that improves the permanent Guides.</p>
+            <section class="information-section"><h3>What makes B-Atlas different?</h3><p>It is not another marketplace search. B-Atlas helps buyers understand which boats deserve further investigation and why.</p></section>
             <blockquote>Known undesirable information eliminates boats. Unknown information does not.</blockquote>
             <section class="information-section"><h3>How it works</h3><ul><li>Search broadly across boat families and missions.</li><li>Keep incomplete candidates visible with lower confidence.</li><li>Review model knowledge, ownership trade-offs and inspection priorities.</li><li>Save, compare and investigate actual boats for sale.</li></ul></section>
             <section class="information-section"><h3>The lifecycle</h3><p>Discover → Research → Decide → Contribute → Improve. Community knowledge is reviewed before it changes the permanent Guide.</p></section>`,
         contact: `
-            <p class="workspace-eyebrow">Contact</p><h2>Contact B-Scout</h2>
-            <p>B-Scout is currently a prototype and public-interest boat knowledge project.</p>
+            <p class="workspace-eyebrow">Contact</p><h2>Contact B-Atlas</h2>
+            <p>B-Atlas is currently a prototype and public-interest boat knowledge project.</p>
             <p>Contact details and feedback channels will be added before public release.</p>`,
         privacy: `
             <p class="workspace-eyebrow">Privacy</p><h2>Local prototype data</h2>

@@ -59,7 +59,7 @@ const C={
    avoid:['You specifically want a flybridge or upper outdoor helm','You need multiple private cabins or large-family accommodation','You require large cockpit or liveaboard storage volume'],
    inspect:inspectSmall,
    variations:[
-    {Name:'28/31 designation',Description:'The shared Camano hull is 28 feet on deck and about 31 feet overall with platform and bow gear. B-Scout therefore uses “28/31 Gnome” to preserve both naming conventions, matching the Troll record.',AffectedYears:'Production run',EvidenceRefs:[S.handbook,S.owners,S.guide],Confidence:'High'},
+    {Name:'28/31 designation',Description:'The shared Camano hull is 28 feet on deck and about 31 feet overall with platform and bow gear. B-Atlas therefore uses “28/31 Gnome” to preserve both naming conventions, matching the Troll record.',AffectedYears:'Production run',EvidenceRefs:[S.handbook,S.owners,S.guide],Confidence:'High'},
     {Name:'Gnome configuration',Description:'The Gnome is the same basic Camano hull and interior concept without the Troll flybridge.',AffectedYears:'Early production',EvidenceRefs:[S.handbook,S.owners,S.guide],Confidence:'High'}
    ],
    sources:[S.handbook,S.owners,S.guide,S.boatus],
@@ -81,7 +81,7 @@ const C={
     {Name:'Builder succession',Description:'Camano Marine production changed ownership in 2007, followed by limited Bracewell and Camano Yachts America production before the original lineage ended; Helmsman later revived the design as a substantially updated separate product.',AffectedYears:'2007–2011 and later revival',EvidenceRefs:[S.handbook,S.owners,S.revival],Confidence:'High'}
    ],
    sources:[S.handbook,S.owners,S.guide,S.boatus,S.revival],
-   unresolved:['Sources differ on the exact final year of pre-Helmsman production; documented examples extend through 2011, which B-Scout uses as the end of the original Camano lineage','Exact air draft depends on mast, antenna and flybridge equipment and is not assigned a universal value','Representative tank capacities shown are early-production values; later hulls have materially larger fuel capacity']
+   unresolved:['Sources differ on the exact final year of pre-Helmsman production; documented examples extend through 2011, which B-Atlas uses as the end of the original Camano lineage','Exact air draft depends on mast, antenna and flybridge equipment and is not assigned a universal value','Representative tank capacities shown are early-production values; later hulls have materially larger fuel capacity']
  },
  'CAMA-41':{
    years:[2006,2007],
@@ -104,7 +104,7 @@ function suitability(m,c){return {
  CoupleCruising:{Assessment:'Good',Summary:'The documented layout is explicitly couple-oriented, with occasional guest berths rather than multiple private cabins.',EvidenceRefs:c.sources},
  SoloHandling:{Assessment:m.BoatModelID==='CAMA-41'?'Mixed':'Good',Summary:m.BoatModelID==='CAMA-41'?'Visibility, large rudder and bow thruster help, but the 41’s beam, windage and displacement increase docking workload.':'Compact dimensions, strong visibility and single-shaft propulsion support owner operation; docking conditions and thruster fit still matter.',EvidenceRefs:c.sources},
  InlandWaterways:{Assessment:m.BoatModelID==='CAMA-41'?'Mixed':'Good',Summary:m.BoatModelID==='CAMA-41'?'Efficient low-speed operation suits inland travel, but 14-foot beam and air draft materially constrain route and marina choices.':'The 10 ft 6 in beam, modest draft and efficient low-speed operation suit many inland routes; actual air draft must be verified.',EvidenceRefs:c.sources},
- ExposedWater:{Assessment:'Mixed',Summary:'The Keelform hull, protected running gear and pilothouse support coastal use, but B-Scout does not treat these models as unrestricted offshore passagemakers; condition, loading and weather limits remain decisive.',EvidenceRefs:c.sources}
+ ExposedWater:{Assessment:'Mixed',Summary:'The Keelform hull, protected running gear and pilothouse support coastal use, but B-Atlas does not treat these models as unrestricted offshore passagemakers; condition, loading and weather limits remain decisive.',EvidenceRefs:c.sources}
 };}
 function evidence(id,c){const applies={Scope:'Model',Models:[id],Years:{From:c.years[0],To:c.years[1]},Variations:[]};return [
  {Scope:'IdentityAndDimensions',AppliesTo:applies,EvidenceRefs:c.sources,EvidenceTypes:['Factory documented','Technical or survey source','Marketplace observation'],Confidence:'High',Notes:'Model identity and representative specifications are supported by the Camano owner handbook, owner-group documentation and model-specific technical sources. Conflicting hull-specific figures remain explicitly unresolved.'},
@@ -117,7 +117,7 @@ for(const m of models){
  m.FirstYear=c.years[0]; m.LastYear=c.years[1]; Object.assign(m,c.spec);
  m.Overview=c.overview; m.Suitability=suitability(m,c); m.Strengths=c.strengths; m.TradeOffs=c.trade; m.BestFor=c.best; m.AvoidIf=c.avoid;
  m.KnownConcerns=[]; m.InspectionFocus=c.inspect; m.BuyerQuestions=q(c.inspect); m.OwnerActions=m.BoatModelID==='CAMA-41'?owner41:ownerSmall; m.ModelVariations=c.variations;
- m.ResearchStatus='Reviewed'; m.DataConfidence='Moderate'; m.ReviewedBy='B-Scout Camano Family Research'; m.LastUpdated=today; m.Revision=(m.Revision||1)+1;
+ m.ResearchStatus='Reviewed'; m.DataConfidence='Moderate'; m.ReviewedBy='B-Atlas Camano Family Research'; m.LastUpdated=today; m.Revision=(m.Revision||1)+1;
  m.EvidenceSummary={KnowledgeCoverage:'Strong',EvidenceQuality:'Moderate',Statements:evidence(m.BoatModelID,c),UnresolvedInformation:[...c.unresolved,'Legacy CommonProblems were not promoted to KnownConcerns without model-specific evidence meeting the approved threshold']};
  const note=`Camano family normalized 2026-08-07. Naming convention uses 28/31 for both Troll and Gnome because the shared hull is 28 ft on deck and about 31 ft overall; marketplace listings may use either number.`;
  m.ResearchNotes=[note,(m.ResearchNotes||'').trim()].filter(Boolean).join('\n\n');
@@ -144,5 +144,5 @@ const report={phase:'8C-7',date:today,family:'Camano',modelsProcessed:changed.le
 },knownConcernsPromoted:0};
 fs.mkdirSync(path.join(root,'developer/reports'),{recursive:true});
 fs.writeFileSync(path.join(root,'developer/reports/phase8c7-camano-normalization.json'),JSON.stringify(report,null,2)+'\n');
-fs.writeFileSync(path.join(root,'developer/reports/PHASE_8C7_CAMANO_NORMALIZATION.md'),`# Phase 8C-7 — Camano family normalization\n\nProcessed ${changed.length} Camano records.\n\n## Naming decision\n\nB-Scout now uses **Camano 28/31 Gnome** and **Camano 28/31 Troll**. The shared Bob Warman hull is 28 ft on deck and approximately 31 ft overall; historic and marketplace naming uses both dimensions. Search aliases preserve 28, 30 and 31 naming where documented.\n\n- Normalized all approved decision-guidance fields.\n- Added documented model variations and production lineage.\n- Set EngineCount = 1 for all three Camano records.\n- Corrected representative Camano 41 specifications while preserving source conflicts.\n- Promoted no generic legacy CommonProblems to KnownConcerns.\n`);
+fs.writeFileSync(path.join(root,'developer/reports/PHASE_8C7_CAMANO_NORMALIZATION.md'),`# Phase 8C-7 — Camano family normalization\n\nProcessed ${changed.length} Camano records.\n\n## Naming decision\n\nB-Atlas now uses **Camano 28/31 Gnome** and **Camano 28/31 Troll**. The shared Bob Warman hull is 28 ft on deck and approximately 31 ft overall; historic and marketplace naming uses both dimensions. Search aliases preserve 28, 30 and 31 naming where documented.\n\n- Normalized all approved decision-guidance fields.\n- Added documented model variations and production lineage.\n- Set EngineCount = 1 for all three Camano records.\n- Corrected representative Camano 41 specifications while preserving source conflicts.\n- Promoted no generic legacy CommonProblems to KnownConcerns.\n`);
 console.log('Normalized',changed.length,'Camano records');

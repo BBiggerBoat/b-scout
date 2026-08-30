@@ -197,7 +197,7 @@
             ? `${sections.evidence.length} source${sections.evidence.length === 1 ? "" : "s"} attached; ${sections.coverage?.VerifiedSourceCount || 0} verified.`
             : "No evidence sources are attached yet. Treat guidance as provisional.";
         return `<div class="workspace-section-stack">
-            <section class="workspace-card"><h3>Why B-Scout presented this model</h3>${textList(sections.why, "This model is visible because no active criterion has eliminated it. Add or load search criteria for a personalized explanation.")}</section>
+            <section class="workspace-card"><h3>Why B-Atlas presented this model</h3>${textList(sections.why, "This model is visible because no active criterion has eliminated it. Add or load search criteria for a personalized explanation.")}</section>
             <section class="workspace-card"><h3>Potential conflicts</h3>${textList(sections.conflicts, "No confirmed conflicts are recorded. Unknown information may still affect suitability.")}</section>
             <section class="workspace-card"><h3>Missing information and unknown risk</h3>${textList(sections.unknowns, "No recommendation-specific unknowns are currently recorded.")}</section>
             <section class="workspace-card"><h3>Inspection priorities</h3>${textList(sections.inspection, "No model-specific inspection priorities are recorded.")}</section>
@@ -437,7 +437,7 @@
             ${sectionMenu(menu)}${unknownPrinciple()}
             ${progressiveSection("guide-buyer-expectations", "What buyers will expect", `<div class="workspace-section-stack"><section class="workspace-card"><p>Document maintenance, upgrades, engine details, equipment and unresolved concerns. Model-wide knowledge belongs here; the condition of an individual boat belongs in its My Boat record.</p></section><section class="workspace-card"><h3>Questions to prepare for</h3>${textList(concerns, "No model-specific inspection concerns have been verified yet.")}</section></div>`, true)}
             ${progressiveSection("guide-sale-evidence", "Evidence and records to assemble", `<section class="workspace-card">${textList(["Ownership and registration records", "Engine and equipment details", "Maintenance and upgrade records", "Manuals, surveys and receipts", "Clear photographs of important systems"], "No preparation guidance available.")}</section>`, false)}
-            ${progressiveSection("guide-valuation", "Valuation status", `<section class="workspace-card"><p>B-Scout does not calculate an authoritative value from incomplete market evidence. Asking prices and listing records remain reference information only.</p></section>`, false)}`;
+            ${progressiveSection("guide-valuation", "Valuation status", `<section class="workspace-card"><p>B-Atlas does not calculate an authoritative value from incomplete market evidence. Asking prices and listing records remain reference information only.</p></section>`, false)}`;
     }
 
     function setTab(tab) {

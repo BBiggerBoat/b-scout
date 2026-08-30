@@ -30,7 +30,7 @@
 
     function ensureArray(value, datasetName) {
         if (!Array.isArray(value)) {
-            throw new Error(`B-Scout dataset '${datasetName}' must be an array.`);
+            throw new Error(`B-Atlas dataset '${datasetName}' must be an array.`);
         }
         return value;
     }
@@ -38,13 +38,13 @@
     function fetchJson(url, fetchImpl) {
         const request = fetchImpl || global.fetch;
         if (typeof request !== "function") {
-            return Promise.reject(new Error("B-Scout Data Repository requires fetch."));
+            return Promise.reject(new Error("B-Atlas Data Repository requires fetch."));
         }
 
         return request(url).then(response => {
             if (!response || !response.ok) {
                 const status = response && response.status ? ` (${response.status})` : "";
-                throw new Error(`Failed to load B-Scout data from '${url}'${status}.`);
+                throw new Error(`Failed to load B-Atlas data from '${url}'${status}.`);
             }
             return response.json();
         });

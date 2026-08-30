@@ -1,14 +1,14 @@
-# B-Scout Market Metrics
+# B-Atlas Market Metrics
 
 ## Rarity Score
 
 Rarity answers: **How difficult is this model likely to be to find for sale?**
 
 - Scale: 1 (Common) to 5 (Very rare).
-- Primary evidence: observed listing frequency and recency across B-Scout listing sources.
+- Primary evidence: observed listing frequency and recency across B-Atlas listing sources.
 - Supporting evidence: geographic spread, reliable production volume and surviving-fleet/owner-club evidence.
 - Production volume alone must not determine rarity.
-- Missing market observations remain unrated; B-Scout does not infer rarity from missing data.
+- Missing market observations remain unrated; B-Atlas does not infer rarity from missing data.
 - `RarityConfidence` records evidence quality separately from the score.
 
 ## Price Level

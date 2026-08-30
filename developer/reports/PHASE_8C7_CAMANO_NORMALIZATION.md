@@ -4,7 +4,7 @@ Processed 3 Camano records.
 
 ## Naming decision
 
-B-Scout now uses **Camano 28/31 Gnome** and **Camano 28/31 Troll**. The shared Bob Warman hull is 28 ft on deck and approximately 31 ft overall; historic and marketplace naming uses both dimensions. Search aliases preserve 28, 30 and 31 naming where documented.
+B-Atlas now uses **Camano 28/31 Gnome** and **Camano 28/31 Troll**. The shared Bob Warman hull is 28 ft on deck and approximately 31 ft overall; historic and marketplace naming uses both dimensions. Search aliases preserve 28, 30 and 31 naming where documented.
 
 - Normalized all approved decision-guidance fields.
 - Added documented model variations and production lineage.

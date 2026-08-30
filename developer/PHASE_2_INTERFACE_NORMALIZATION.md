@@ -10,5 +10,5 @@ Completed without broad model-data rewriting.
 - Four occurrences of “planning velocities/speeds” corrected to “planing speeds”.
 - Empty Saved Listings panel, counts and filters are hidden when no listings exist.
 - Manufacturer and Model comparison rows removed because the full model name is already shown in the header card.
-- B-Scout Verdict and generic whole-model Knowledge Confidence removed from comparison.
+- B-Atlas Verdict and generic whole-model Knowledge Confidence removed from comparison.
 - No broad model narrative normalization was performed.

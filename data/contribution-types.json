@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0",
   "designPrinciples": [
-    "Owner contributions should make B-Scout smarter, not noisier.",
-    "Contributions are evidence. B-Scout turns evidence into knowledge.",
-    "The community can improve, correct, document and expand B-Scout, but canonical knowledge changes only after review.",
+    "Owner contributions should make B-Atlas smarter, not noisier.",
+    "Contributions are evidence. B-Atlas turns evidence into knowledge.",
+    "The community can improve, correct, document and expand B-Atlas, but canonical knowledge changes only after review.",
     "Unknown information remains unknown; contributors are not required to complete missing fields."
   ],
   "groups": [
@@ -37,7 +37,7 @@
         },
         {
           "id": "correction",
-          "label": "Correct B-Scout information",
+          "label": "Correct B-Atlas information",
           "scope": [
             "manufacturer",
             "model"
@@ -90,7 +90,7 @@
     },
     {
       "id": "expand_coverage",
-      "label": "Expand B-Scout",
+      "label": "Expand B-Atlas",
       "types": [
         {
           "id": "new_model",

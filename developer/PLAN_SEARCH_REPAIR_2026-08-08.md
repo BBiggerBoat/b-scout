@@ -11,5 +11,5 @@ Repairs:
 - Maximum length remains a true maximum against `LOA_ft`; unknown LOA remains eligible.
 - Compact-density CSS substantially reduces desktop scale.
 - Guided Plan screens are compressed to fit within a normal desktop viewport where practical.
-- Header uses the supplied B-Scout logo.
+- Header uses the supplied B-Atlas logo.
 - Seaway 24 Sport Trawler duplicate display variant removed.

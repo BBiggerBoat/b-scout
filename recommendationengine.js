@@ -1,5 +1,5 @@
 /**
- * B-Scout Recommendation Engine Framework
+ * B-Atlas Recommendation Engine Framework
  * 
  * =========================================================================
  * ARCHITECTURAL DESIGN & RESPONSIBILITIES
@@ -82,7 +82,7 @@ function createBoatEvaluationContext(boat, userProfile) {
  * This helper does not perform calculations; it acts as a collector of evaluators' outputs.
  * 
  * @param {Object} context - The active evaluation context
- * @param {Object} evaluationResult - Standardized Evaluation Result object from B-Scout Evaluation Rules Layer
+ * @param {Object} evaluationResult - Standardized Evaluation Result object from B-Atlas Evaluation Rules Layer
  */
 function addEvaluation(context, evaluationResult) {
     if (context && Array.isArray(context.evaluations) && evaluationResult) {
@@ -626,7 +626,7 @@ if (typeof window !== "undefined") window.evaluateDimensions = evaluateDimension
 // =========================================================================
 
 /**
- * Single entry point for all B-Scout boat recommendations and suitability evaluations.
+ * Single entry point for all B-Atlas boat recommendations and suitability evaluations.
  * Orchestrates existing Boat Knowledge and Route Compatibility with placeholders for future scoring metrics.
  * 
  * @param {Object} boat - Raw boat model object from database

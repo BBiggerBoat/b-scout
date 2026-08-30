@@ -19,7 +19,7 @@ The reviewed contribution stores the moderator-enriched `CanonicalDraft` separat
 
 The moderator can use **Copy AI research brief**. This creates a structured research request using the submitted evidence, current draft values, and currently missing fields. It can be pasted into ChatGPT now.
 
-The static B-Scout site does not call an AI service directly because doing so would require exposing credentials or introducing an authenticated backend. A later shared backend can automate the same research contract securely. AI-produced values must remain proposals until moderator review.
+The static B-Atlas site does not call an AI service directly because doing so would require exposing credentials or introducing an authenticated backend. A later shared backend can automate the same research contract securely. AI-produced values must remain proposals until moderator review.
 
 ## Canonical protection
 

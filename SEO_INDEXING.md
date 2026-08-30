@@ -1,4 +1,4 @@
-# B-Scout search indexing setup — v6.23.1
+# B-Atlas search indexing setup — v6.23.1
 
 Public site: https://bbiggerboat.github.io/b-scout/
 
@@ -15,7 +15,7 @@ Public site: https://bbiggerboat.github.io/b-scout/
 
 ## Important architecture note
 
-B-Scout is currently a single-page application. `#plan`, `#dream`, model Guide states, and similar hash-based views are not separate crawlable documents, so the sitemap intentionally contains the canonical homepage only.
+B-Atlas is currently a single-page application. `#plan`, `#dream`, model Guide states, and similar hash-based views are not separate crawlable documents, so the sitemap intentionally contains the canonical homepage only.
 
 For search traffic to individual boat models later, create crawlable permanent model URLs/pages (for example `/models/grand-banks-32-classic/`) instead of relying only on client-side application state.
 

@@ -249,7 +249,7 @@
   "communityContributions": {
     "phase": 9,
     "status": "Conflict, uncertainty and applicability handling complete",
-    "principle": "Owner contributions should make B-Scout smarter, not noisier.",
+    "principle": "Owner contributions should make B-Atlas smarter, not noisier.",
     "accountRequired": false,
     "implementedTypes": [
       "ownership_experience",

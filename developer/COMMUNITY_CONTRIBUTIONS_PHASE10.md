@@ -10,7 +10,7 @@ Reviewed community evidence now improves the permanent Guide without creating a 
 
 ## Presentation rules
 - No empty community sections.
-- The primary display is a concise normalized B-Scout summary, not a feed of raw posts.
+- The primary display is a concise normalized B-Atlas summary, not a feed of raw posts.
 - Evidence counts and conflict/applicability notes sit behind progressive disclosure.
 - Conflicting evidence is shown as conflict, not averaged into consensus.
 - Community report counts are evidence counts, not votes or contributor reputation.

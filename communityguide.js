@@ -53,7 +53,7 @@ function knowledgeCard(item){
   <div class="community-knowledge-head"><h4>${esc(item.Title)}</h4><span class="community-evidence-pill">${esc(s.PublicLabel||"Community evidence")}</span></div>
   <p>${esc(summary)}</p>
   <div class="community-knowledge-meta"><span>${esc(stateText(item))}</span>${app?`<span>${esc(app)}</span>`:""}</div>
-  <details class="community-evidence-details"><summary>Evidence details</summary><div><p>${s.ReportCount||0} reviewed report${s.ReportCount===1?"":"s"}: ${s.SupportingReportCount||0} supporting${conflict?`, ${conflict} contradicting`:""}${qualify?`, ${qualify} qualifying`:""}.</p>${item.ConflictSummary?`<p><strong>Uncertainty:</strong> ${esc(item.ConflictSummary)}</p>`:""}<p class="workspace-note">Community reports are evidence, not votes. B-Scout preserves conflicting and uncertain information.</p></div></details>
+  <details class="community-evidence-details"><summary>Evidence details</summary><div><p>${s.ReportCount||0} reviewed report${s.ReportCount===1?"":"s"}: ${s.SupportingReportCount||0} supporting${conflict?`, ${conflict} contradicting`:""}${qualify?`, ${qualify} qualifying`:""}.</p>${item.ConflictSummary?`<p><strong>Uncertainty:</strong> ${esc(item.ConflictSummary)}</p>`:""}<p class="workspace-note">Community reports are evidence, not votes. B-Atlas preserves conflicting and uncertain information.</p></div></details>
  </article>`;
 }
 function renderResearch(modelId){

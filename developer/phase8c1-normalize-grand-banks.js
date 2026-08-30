@@ -105,7 +105,7 @@ for(const m of models){
  const c=configs[m.BoatModelID]; if(!c) continue;
  m.Overview=c.overview; m.Suitability=c.suitability; m.Strengths=c.strengths; m.TradeOffs=c.trade; m.BestFor=c.best; m.AvoidIf=c.avoid;
  m.KnownConcerns=[]; m.InspectionFocus=c.inspection; m.BuyerQuestions=c.inspection.map(x=>'What inspection, repair or service history is available for '+x.charAt(0).toLowerCase()+x.slice(1)+'?'); m.OwnerActions=c.owner; m.ModelVariations=c.variations;
- m.ResearchStatus='Reviewed'; m.DataConfidence='Moderate'; m.ReviewedBy='B-Scout Grand Banks Family Research'; m.LastUpdated=today; m.Revision=(m.Revision||1)+1;
+ m.ResearchStatus='Reviewed'; m.DataConfidence='Moderate'; m.ReviewedBy='B-Atlas Grand Banks Family Research'; m.LastUpdated=today; m.Revision=(m.Revision||1)+1;
  m.EvidenceSummary={KnowledgeCoverage:'Strong',EvidenceQuality:'Moderate',Statements:statements(m.BoatModelID,c),UnresolvedInformation:[
   'Specifications and equipment must be confirmed for the individual hull and production year',
   'No legacy CommonProblems statement was promoted to KnownConcerns without model-specific supporting evidence'

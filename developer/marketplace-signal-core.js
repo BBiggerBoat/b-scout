@@ -112,7 +112,7 @@ function classifyMarketplaceEvidence(input) {
         score,
         message: redirectedToHomepage
             ? "The marketplace redirected to a general page, so a matching listing could not be confirmed."
-            : "The page loaded, but B-Scout could not confirm a matching listing.",
+            : "The page loaded, but B-Atlas could not confirm a matching listing.",
         evidence: { manufacturerMatches, modelMatches, listingLinkCount, contextMatches, redirectedToHomepage, adapterPositiveEvidence, adapterMatchedLinks }
     };
 }

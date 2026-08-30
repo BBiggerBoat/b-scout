@@ -1,5 +1,5 @@
 /**
- * B-Scout Action Model
+ * B-Atlas Action Model
  *
  * Converts evaluation evidence into deterministic buyer next-actions.
  * It does not re-evaluate boats, change recommendation classifications,

@@ -17,4 +17,4 @@ The 34 model records that contained preserved structured intelligence were norma
 
 ## Evidence limitation
 
-This phase normalized and scoped the evidence already present in B-Scout. It did not treat editorial observations as factory documentation or independently verify all 34 models against new external sources.
+This phase normalized and scoped the evidence already present in B-Atlas. It did not treat editorial observations as factory documentation or independently verify all 34 models against new external sources.

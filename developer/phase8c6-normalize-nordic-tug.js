@@ -118,7 +118,7 @@ function suitability(m,c){return {
  CoupleCruising:{Assessment:'Good',Summary:'The documented pilothouse layout and accommodation are well suited to an owner-operated cruising couple, subject to individual condition and space preferences.',EvidenceRefs:c.sources},
  SoloHandling:{Assessment:(m.LOA_ft||0)<=35?'Good':'Mixed',Summary:(m.LOA_ft||0)<=35?'Single-diesel propulsion, pilothouse visibility and compact dimensions support manageable owner operation; wind and docking conditions still matter.':'Pilothouse visibility and side access help, but vessel size, windage and optional flybridge equipment increase docking workload.',EvidenceRefs:c.sources},
  InlandWaterways:{Assessment:(m.Beam_ft||99)<=11.5?'Good':'Mixed',Summary:(m.Beam_ft||99)<=11.5?'Beam, draft and efficient low-speed operation suit many inland routes; bridge clearance must still be verified.':'The hull is efficient for inland travel, but beam and air draft require route-specific verification.',EvidenceRefs:c.sources},
- ExposedWater:{Assessment:'Mixed',Summary:'The semi-displacement hull and protected pilothouse support coastal use, but B-Scout does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.',EvidenceRefs:c.sources}
+ ExposedWater:{Assessment:'Mixed',Summary:'The semi-displacement hull and protected pilothouse support coastal use, but B-Atlas does not treat the model as an unrestricted offshore passagemaker; condition, loading and weather limits remain decisive.',EvidenceRefs:c.sources}
 };}
 function evidence(id,c){const a={Scope:'Model',Models:[id],Years:{From:c.years[0],To:c.years[1]},Variations:[]};return [
  {Scope:'IdentityAndDimensions',AppliesTo:a,EvidenceRefs:c.sources,EvidenceTypes:['Factory documented','Technical or survey source'],Confidence:'High',Notes:'Identity, production lineage and representative specifications are supported by model-specific or builder sources; individual hull documentation remains controlling.'},
@@ -132,7 +132,7 @@ for(const m of models){
  m.FirstYear=c.years[0]; m.LastYear=c.years[1]; Object.assign(m,c.spec);
  m.Overview=c.overview; m.Suitability=suitability(m,c); m.Strengths=c.strengths; m.TradeOffs=c.trade; m.BestFor=c.best; m.AvoidIf=c.avoid;
  m.KnownConcerns=[]; m.InspectionFocus=c.inspect; m.BuyerQuestions=q(c.inspect); m.OwnerActions=owner; m.ModelVariations=c.variations;
- m.ResearchStatus='Reviewed'; m.DataConfidence='Moderate'; m.ReviewedBy='B-Scout Nordic Tug Family Research'; m.LastUpdated=today; m.Revision=(m.Revision||1)+1;
+ m.ResearchStatus='Reviewed'; m.DataConfidence='Moderate'; m.ReviewedBy='B-Atlas Nordic Tug Family Research'; m.LastUpdated=today; m.Revision=(m.Revision||1)+1;
  const unresolved=[...(c.unresolved||[]),'Legacy CommonProblems were not promoted to KnownConcerns without model-specific evidence meeting the approved threshold'];
  if(aliases[m.BoatModelID]) unresolved.unshift(`Legacy duplicate model identity retained for reference compatibility; canonical record is ${canonical}`);
  m.EvidenceSummary={KnowledgeCoverage:'Strong',EvidenceQuality:'Moderate',Statements:evidence(m.BoatModelID,c),UnresolvedInformation:unresolved};

@@ -1,4 +1,4 @@
-# B-Scout Community Contributions — Phase 1 Architecture
+# B-Atlas Community Contributions — Phase 1 Architecture
 
 ## Purpose
 
@@ -6,9 +6,9 @@ Phase 1 establishes the data contract for community contributions. It does not a
 
 ## Governing principles
 
-1. **Owner contributions should make B-Scout smarter, not noisier.**
-2. **Contributions are evidence. B-Scout turns evidence into knowledge.**
-3. **The community can improve, correct, document and expand B-Scout, but canonical knowledge changes only after review.**
+1. **Owner contributions should make B-Atlas smarter, not noisier.**
+2. **Contributions are evidence. B-Atlas turns evidence into knowledge.**
+3. **The community can improve, correct, document and expand B-Atlas, but canonical knowledge changes only after review.**
 4. **Unknown information remains unknown. Missing fields never invalidate an otherwise useful contribution.**
 5. **No user account or contributor profile is required.**
 6. **Optional contact information is private and exists only for clarification.**
@@ -19,7 +19,7 @@ Phase 1 establishes the data contract for community contributions. It does not a
 - Ownership experience
 - Problem or weakness
 - Buyer inspection advice
-- Correct B-Scout information
+- Correct B-Atlas information
 - Something else
 
 ### Add supporting material
@@ -27,7 +27,7 @@ Phase 1 establishes the data contract for community contributions. It does not a
 - Manual or document
 - Useful resource
 
-### Expand B-Scout
+### Expand B-Atlas
 - Add a missing model
 - Add a manufacturer
 
@@ -36,7 +36,7 @@ Phase 1 establishes the data contract for community contributions. It does not a
 A contribution may attach to:
 - a canonical model;
 - a manufacturer;
-- B-Scout generally;
+- B-Atlas generally;
 - a proposed new model/manufacturer that does not yet have a canonical ID.
 
 Model year and variant are always optional unless a later contribution form has a compelling reason to require them.

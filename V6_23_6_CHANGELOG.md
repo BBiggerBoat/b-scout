@@ -1,4 +1,4 @@
-# B-Scout v6.23.6 — Strict Resource Audit Restoration
+# B-Atlas v6.23.6 — Strict Resource Audit Restoration
 
 - Restored the strict curated-resource baseline across 253 canonical models.
 - Reduced curated Owner Resource entries from 782 to 557.

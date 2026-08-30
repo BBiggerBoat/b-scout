@@ -1,4 +1,4 @@
-# B-Scout Community Contributions — Phase 8
+# B-Atlas Community Contributions — Phase 8
 
 ## Objective
 Turn reviewed community submissions into reusable evidence attached to normalized Knowledge Items, rather than allowing multiple reports to create duplicate Guide content.
@@ -23,7 +23,7 @@ Public evidence language is intentionally conservative:
 - Several community reports
 - Well documented
 
-Because B-Scout does not require user profiles, the system does **not** claim that anonymous submissions represent independent people. It counts distinct contribution reports.
+Because B-Atlas does not require user profiles, the system does **not** claim that anonymous submissions represent independent people. It counts distinct contribution reports.
 
 ## Moderation workflow
 Knowledge-bearing submissions (ownership experience, problem/weakness, buyer inspection advice, Something else) can now be:

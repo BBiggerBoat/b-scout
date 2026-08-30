@@ -43,7 +43,7 @@ def ev(m,src,status='Reviewed',unresolved=None, notes='Factory and model-specifi
       ],
       'UnresolvedInformation':unresolved+['Legacy CommonProblems were not promoted to KnownConcerns without model-specific evidence meeting the approved threshold.']
     }
-    m.update(ResearchStatus=status,DataConfidence='Moderate' if status=='Reviewed' else 'Low',ReviewedBy='B-Scout Phase 8C-14 French Production Research',LastUpdated=today,Revision=(m.get('Revision') or 1)+1)
+    m.update(ResearchStatus=status,DataConfidence='Moderate' if status=='Reviewed' else 'Low',ReviewedBy='B-Atlas Phase 8C-14 French Production Research',LastUpdated=today,Revision=(m.get('Revision') or 1)+1)
 
 def common_suit(m, longrange=False):
     beam=m.get('Beam_ft') or 99
@@ -163,5 +163,5 @@ xs=[m for m in models if m.get('Manufacturer') in ['Beneteau','Jeanneau']]
 report={'phase':'8C-14','date':today,'families':['Beneteau','Jeanneau'],'canonicalRecords':len(xs),'totalModelCount':len(models),'reviewed':sum(m.get('ResearchStatus')=='Reviewed' for m in xs),'initial':sum(m.get('ResearchStatus')=='Initial' for m in xs),'consolidated':[{'From':'BENE-34-ST','To':'BENE-34-SW','Reason':'Duplicate Swift Trawler 34 identity'},{'From':'JEAU-NC895','To':'JEAU-895','Reason':'NC 895 is North American market naming for Merry Fisher 895 platform'},{'From':'JEAU-NC1095','To':'JEAU-1095','Reason':'NC 1095 is North American market naming for Merry Fisher 1095 platform'}],'knownConcernsPromoted':0}
 os.makedirs(os.path.join(root,'developer/reports'),exist_ok=True)
 rp=os.path.join(root,'developer/reports/phase8c14-french-production-normalization.json');json.dump(report,open(rp,'w',encoding='utf-8'),indent=2);open(rp,'a').write('\n')
-open(os.path.join(root,'developer/reports/PHASE_8C14_FRENCH_PRODUCTION_NORMALIZATION.md'),'w',encoding='utf-8').write(f"# Phase 8C-14 — French production cruisers\n\nNormalized Beneteau and Jeanneau.\n\n- Canonical records: {len(xs)}\n- Reviewed: {report['reviewed']}\n- Initial: {report['initial']}\n- Duplicate/market-name identities consolidated: 3\n- KnownConcerns promoted: 0\n- Total B-Scout models: {len(models)}\n")
+open(os.path.join(root,'developer/reports/PHASE_8C14_FRENCH_PRODUCTION_NORMALIZATION.md'),'w',encoding='utf-8').write(f"# Phase 8C-14 — French production cruisers\n\nNormalized Beneteau and Jeanneau.\n\n- Canonical records: {len(xs)}\n- Reviewed: {report['reviewed']}\n- Initial: {report['initial']}\n- Duplicate/market-name identities consolidated: 3\n- KnownConcerns promoted: 0\n- Total B-Atlas models: {len(models)}\n")
 print(json.dumps(report,indent=2))

@@ -65,7 +65,7 @@ async function publishCommunity(env) {
     if (!target || source === "Other" || !row.ModelID) continue;
     const value = normalizeCorrectionValue(target, row.Payload?.ProposedValue);
     if (value === undefined) continue;
-    modelPatches[row.ModelID] = { ...(modelPatches[row.ModelID] || {}), [target]: value, LastUpdated: now.slice(0, 10), ReviewedBy: "B-Scout Community Moderation" };
+    modelPatches[row.ModelID] = { ...(modelPatches[row.ModelID] || {}), [target]: value, LastUpdated: now.slice(0, 10), ReviewedBy: "B-Atlas Community Moderation" };
     row.CanonicalPublishedAt = now;
     row.CanonicalActionRef = `cloudflare:model-patch:${row.ModelID}:${target}`;
     canonicalCorrections++;
@@ -140,7 +140,7 @@ async function promoteCanonical(env, row, baseline = {}) {
       NormalizedPropulsion: f.Propulsion || null, HullBehaviour: f.HullBehaviour || null,
       EngineConfiguration: f.EngineConfiguration || null, Designer: f.Designer || null,
       Construction: f.Construction || null, BoatModelID: id, DateCreated: new Date().toISOString().slice(0,10),
-      LastUpdated: new Date().toISOString().slice(0,10), ReviewedBy: "B-Scout Community Moderation", Revision: 1,
+      LastUpdated: new Date().toISOString().slice(0,10), ReviewedBy: "B-Atlas Community Moderation", Revision: 1,
       CommunitySourceURL: f.SourceURL || null, ResearchNotes: row.CanonicalDraft.ResearchNotes || null, ...extra
     };
     published.addedModels = [...(published.addedModels || []), rec];
@@ -218,7 +218,7 @@ export async function onRequest(context) {
     }
     return jsonResponse({ error: "API route not found" }, 404);
   } catch (error) {
-    console.error("B-Scout API error", error);
+    console.error("B-Atlas API error", error);
     return jsonResponse({ error: error?.message || "Server error" }, 500);
   }
 }

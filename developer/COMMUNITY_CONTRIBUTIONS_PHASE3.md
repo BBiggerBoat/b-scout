@@ -1,4 +1,4 @@
-# B-Scout Community Contributions — Phase 3
+# B-Atlas Community Contributions — Phase 3
 
 ## Scope
 
@@ -9,7 +9,7 @@ Phase 3 adds short, type-specific contribution forms for knowledge contributions
 - Ownership experience
 - Problem or weakness
 - Buyer inspection advice
-- Correction to B-Scout information
+- Correction to B-Atlas information
 - Something else
 
 ## Model attachment
@@ -44,4 +44,4 @@ No login is required. Display name and contact email are optional. Contact email
 - Guide context is preserved automatically.
 - Global model-specific submissions resolve against the canonical model catalog.
 - Corrections preserve current and proposed values as evidence.
-- No contribution can modify canonical B-Scout data automatically.
+- No contribution can modify canonical B-Atlas data automatically.

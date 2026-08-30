@@ -1,4 +1,4 @@
-# B-Scout Model Character + Resources Schema
+# B-Atlas Model Character + Resources Schema
 
 Version: 1.0
 Established: 2026-08-07

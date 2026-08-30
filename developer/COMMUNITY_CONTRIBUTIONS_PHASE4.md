@@ -1,4 +1,4 @@
-# B-Scout Community Contributions — Phase 4
+# B-Atlas Community Contributions — Phase 4
 
 ## Scope
 
@@ -28,7 +28,7 @@ The contributor must state either that they took the photo or that they have per
 
 Contribution metadata continues to use `localStorage` under `bscoutPendingContributionsV1`. Image blobs are stored separately in IndexedDB database `bscoutContributionAttachmentsV1`, object store `files`, and are referenced by `AttachmentRefs` in the contribution record.
 
-This keeps large image files out of localStorage and establishes an attachment abstraction that can later be replaced by shared moderation storage. No photo is represented as having reached B-Scout while the site remains static.
+This keeps large image files out of localStorage and establishes an attachment abstraction that can later be replaced by shared moderation storage. No photo is represented as having reached B-Atlas while the site remains static.
 
 ## File rules
 

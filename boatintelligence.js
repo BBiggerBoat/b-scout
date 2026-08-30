@@ -1,5 +1,5 @@
 /**
- * B-Scout Boat Knowledge Layer
+ * B-Atlas Boat Knowledge Layer
  * Converts raw BoatModels data into derived characteristics.
  * This layer does not implement scoring, mission fit, or UI.
  * 
@@ -76,7 +76,7 @@ function calculateDataConfidence(boat) {
         return 0;
     }
 
-    // List of key database fields used across B-Scout for scoring and analysis
+    // List of key database fields used across B-Atlas for scoring and analysis
     const trackingFields = [
         "LOA_ft",
         "LWL_ft",
@@ -172,7 +172,7 @@ function renderEvaluationSection(recommendation) {
 }
 
 /**
- * Renders the B-Scout Assessment section from the Decision Report.
+ * Renders the B-Atlas Assessment section from the Decision Report.
  * @param {Object} decisionReport - The decision report attached to recommendation
  * @returns {string} Generated HTML string
  */
@@ -247,7 +247,7 @@ window.renderEvaluationSection = renderEvaluationSection;
 window.renderDecisionReportSection = renderDecisionReportSection;
 
 // Native event listener for the streamlined Boat Knowledge modal.
-// The Community Preview intentionally presents one concise B-Scout overview
+// The Community Preview intentionally presents one concise B-Atlas overview
 // followed by the curated Knowledge Card. Detailed specifications, configuration,
 // accommodation and raw evaluation output remain available to the engines but are
 // no longer repeated in the user-facing modal.
