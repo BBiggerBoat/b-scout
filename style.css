@@ -1,5 +1,5 @@
 
-.temporary-image-filter {
+.temporary-image-filter { display:none!important; /* retired v6.26.2 */
     display: flex;
     align-items: center;
     gap: 0.45rem;
