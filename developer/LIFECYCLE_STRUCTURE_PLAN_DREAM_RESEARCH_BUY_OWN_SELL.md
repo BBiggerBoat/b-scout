@@ -1,4 +1,4 @@
-# B-Scout Lifecycle Structure
+# B-Atlas Lifecycle Structure
 
 Updated: 2026-08-07
 

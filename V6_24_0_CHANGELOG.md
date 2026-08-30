@@ -1,4 +1,4 @@
-# B-Scout v6.24.0 — Visual Simplification & Plan Refinement
+# B-Atlas v6.24.0 — Visual Simplification & Plan Refinement
 
 - Replaced the duplicated Boat Family illustration strip with a single set of selectable visual choices.
 - Added approved boat-style imagery for Trawler, Express Cruiser, Tug, Downeast and Motor Yacht; retained a matching Sportfisher fallback.

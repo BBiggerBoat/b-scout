@@ -1,4 +1,4 @@
-# B-Scout v6.11 — Phase 1 Field Definitions Frozen
+# B-Atlas v6.11 — Phase 1 Field Definitions Frozen
 
 ## Status
 

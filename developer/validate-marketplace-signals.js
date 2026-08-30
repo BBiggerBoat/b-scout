@@ -54,7 +54,7 @@ async function main() {
     const { chromium } = await loadPlaywright();
     const browser = await chromium.launch({ headless: true });
     const context = await browser.newContext({
-        userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36 B-Scout-Link-Signal/1.0",
+        userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36 B-Atlas-Link-Signal/1.0",
         locale: "en-CA"
     });
     const records = [];

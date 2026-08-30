@@ -1,4 +1,4 @@
-# B-Scout v6.24.1
+# B-Atlas v6.24.1
 
 ## Corrective UI release
 

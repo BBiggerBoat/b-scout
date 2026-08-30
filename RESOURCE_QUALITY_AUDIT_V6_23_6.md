@@ -1,4 +1,4 @@
-# B-Scout v6.23.6 — Resource Quality Audit Restoration
+# B-Atlas v6.23.6 — Resource Quality Audit Restoration
 
 ## Regression target
 

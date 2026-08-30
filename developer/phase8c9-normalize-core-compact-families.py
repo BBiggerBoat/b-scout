@@ -32,7 +32,7 @@ def apply_evidence(m,sources,unresolved,scope='Model'):
 
 def finish(m, sources, unresolved):
     m['KnownConcerns']=[]
-    m['ResearchStatus']='Reviewed'; m['DataConfidence']='Moderate'; m['ReviewedBy']='B-Scout Phase 8C-9 Family Research'; m['LastUpdated']=today; m['Revision']=(m.get('Revision') or 1)+1
+    m['ResearchStatus']='Reviewed'; m['DataConfidence']='Moderate'; m['ReviewedBy']='B-Atlas Phase 8C-9 Family Research'; m['LastUpdated']=today; m['Revision']=(m.get('Revision') or 1)+1
     apply_evidence(m,sources,unresolved)
     note='Phase 8C-9 normalized 2026-08-07 using manufacturer/model-specific sources. Unsupported defects remain unknown.'
     m['ResearchNotes']='\n\n'.join(x for x in [note,(m.get('ResearchNotes') or '').strip()] if x)
@@ -131,7 +131,7 @@ for m in [x for x in models if x.get('Manufacturer')=='Cutwater']:
     if m['BoatModelID']=='CUTW-24': m.update(EngineCount=1,EngineConfiguration='Single Yamaha F250 outboard',Fuel='Gasoline',NormalizedFuel='Gasoline',Propulsion='Outboard',NormalizedPropulsion='Outboard',NormalizedStyle='Cruiser')
     if m['BoatModelID'] in ['CUTW-26','CUTW-28-P','CUTW-30-C','CUTW-30-P']: m.update(EngineCount=1,Fuel='Diesel',NormalizedFuel='Diesel',Propulsion='Shaft',NormalizedPropulsion='Shaft')
     if m['BoatModelID']=='CUTW-32': m.update(LOA_ft=37.67,Beam_ft=10,Draft_ft=2.75,Displacement_lb=12100,FuelCapacity=300,WaterCapacity=60,HoldingCapacity=40,EngineCount=2,EngineConfiguration='Twin Yamaha F300 outboards',Fuel='Gasoline',NormalizedFuel='Gasoline',Propulsion='Outboard',NormalizedPropulsion='Outboard')
-    m['Overview']=f"The Cutwater {m['Model']} is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Scout labels such as “Pilothouse” or generic size-only names."
+    m['Overview']=f"The Cutwater {m['Model']} is a compact cruising model from Fluid Motion’s Cutwater line, combining enclosed accommodations with a performance-oriented hull and unusually dense standard equipment. This record uses Cutwater’s factory model designation rather than legacy B-Atlas labels such as “Pilothouse” or generic size-only names."
     m['Suitability']=suitability('coastal')
     m['Strengths']=['Compact cruiser with substantial accommodation and systems for its length','Good helm visibility and short-handed features','Strong factory documentation and shared Fluid Motion support ecosystem']
     m['TradeOffs']=['High equipment density increases maintenance complexity','Performance-oriented hulls and later outboard packages are less traditional than displacement trawlers','Trailerability on larger models depends on permit, tow-vehicle and actual loaded-weight constraints']
@@ -139,7 +139,7 @@ for m in [x for x in models if x.get('Manufacturer')=='Cutwater']:
     m['AvoidIf']=['You want minimal systems and simple low-speed displacement operation','You prioritize wide machinery spaces and easy service access above compact packaging','You require a traditional full-keel single-diesel trawler']
     insp=['Confirm exact factory designation and model year because Cutwater naming changed materially across generations','Inspect propulsion, cooling or outboard rigging, fuel, steering and thruster systems','Inspect windows, hatches, roof and deck penetrations for leakage','Test electrical, charging, inverter and installed comfort systems under load']
     m['InspectionFocus']=insp;m['BuyerQuestions']=q(insp)
-    m['ModelVariations']=[{'Name':'Factory designation changes','Description':'Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Scout has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.','AffectedYears':'Varies by model','EvidenceRefs':[S['cutpast']],'Confidence':'High'}]
+    m['ModelVariations']=[{'Name':'Factory designation changes','Description':'Cutwater’s official historical catalog distinguishes C-24 C/CW/DC/SC, C-26, C-28, C-30 CB/S and C-32 CB/C among other later generations. B-Atlas has aligned existing records to those factory names; missing factory variants are flagged for later acquisition rather than invented.','AffectedYears':'Varies by model','EvidenceRefs':[S['cutpast']],'Confidence':'High'}]
     src=[S['cutpast']]
     src += {'CUTW-24':[S['c24']],'CUTW-26':[S['c26']],'CUTW-28-P':[S['c28']],'CUTW-30-C':[S['c30cb']],'CUTW-30-P':[S['c30s']],'CUTW-32':[S['c32cb']]}.get(m['BoatModelID'],[])
     finish(m,src,['The current database does not yet contain every documented Cutwater factory variant; C-32 C and several C-24 derivatives remain model-acquisition gaps.'])

@@ -1,12 +1,12 @@
-# B-Scout Community Testing — v6.22.8
+# B-Atlas Community Testing — v6.22.8
 
 ## Moderator access
-When B-Scout runs on localhost or a private LAN, **Moderator** appears in the top navigation and footer. It can also be exposed with `?developer=1`.
+When B-Atlas runs on localhost or a private LAN, **Moderator** appears in the top navigation and footer. It can also be exposed with `?developer=1`.
 
 ## Shared-backend test cycle
-1. Start B-Scout with a moderator token:
+1. Start B-Atlas with a moderator token:
    `BSCOUT_ADMIN_TOKEN=<private token> npm start`
-2. Open B-Scout at the server URL, not as a `file://` page.
+2. Open B-Atlas at the server URL, not as a `file://` page.
 3. Submit a contribution.
 4. Open **Moderator** from the top navigation.
 5. Choose **Connect moderator** and enter the same token.

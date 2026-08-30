@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://b-scout.local/schema/community-contribution.schema.json",
-  "title": "B-Scout Community Contribution",
+  "title": "B-Atlas Community Contribution",
   "type": "object",
   "required": [
     "ContributionID",

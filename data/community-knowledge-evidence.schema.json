@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://b-scout.local/schema/community-knowledge-evidence.schema.json",
-  "title": "B-Scout Community Knowledge Evidence",
+  "title": "B-Atlas Community Knowledge Evidence",
   "type": "object",
   "additionalProperties": false,
   "required": [

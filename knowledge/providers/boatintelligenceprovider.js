@@ -20,7 +20,7 @@
                     evidence: record.evidence,
                     sources: [{
                         type: 'BoatIntelligenceRecord',
-                        label: `B-Scout curated intelligence revision ${record.revision}`,
+                        label: `B-Atlas curated intelligence revision ${record.revision}`,
                         verificationStatus: `${record.confidence} confidence`
                     }],
                     confidence: record.confidence,

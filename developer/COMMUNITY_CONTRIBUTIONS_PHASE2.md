@@ -1,4 +1,4 @@
-# B-Scout Community Contributions — Phase 2
+# B-Atlas Community Contributions — Phase 2
 
 ## Scope
 
@@ -10,7 +10,7 @@ Phase 2 adds contribution entry points only. Detailed submission forms remain Ph
 - Home lifecycle card now points to community contribution rather than owned-boat management.
 - Every Guide exposes **Contribute to this Guide** with model identity carried into the contribution context.
 - Contribution landing view reads the Phase 1 taxonomy from `data/contribution-types.json`.
-- Contribution choices are grouped as Improve existing knowledge / Add supporting material / Expand B-Scout.
+- Contribution choices are grouped as Improve existing knowledge / Add supporting material / Expand B-Atlas.
 - Selecting a contribution type creates only a temporary session draft; it does not submit or publish anything.
 - Global contributions support missing manufacturer and missing model entry paths.
 - Legacy My Boats implementation remains internal but is no longer exposed as an active lifecycle destination.

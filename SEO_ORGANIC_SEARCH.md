@@ -1,9 +1,9 @@
-# B-Scout Organic Search Foundations — v6.23.3
+# B-Atlas Organic Search Foundations — v6.23.3
 
 Generated search surfaces:
 
 - `/models/` — permanent crawlable model guides
-- `/manufacturers/` — manufacturer model directories (2+ models in current B-Scout data)
+- `/manufacturers/` — manufacturer model directories (2+ models in current B-Atlas data)
 - `/boats/` — curated buyer-constraint pages, not arbitrary faceted URLs
 - `/compare/` — deliberately limited model comparisons
 

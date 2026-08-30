@@ -1,5 +1,5 @@
 /**
- * B-Scout Decision Report Generator Layer
+ * B-Atlas Decision Report Generator Layer
  * 
  * =========================================================================
  * ARCHITECTURAL DESIGN & COMMENTS
@@ -25,7 +25,7 @@
  * @param {Object} evaluationContext - The current boat evaluation context
  * @param {Object} evaluationContext.boat - Raw boat model object
  * @param {Object} evaluationContext.userProfile - Active search/user profile
- * @param {Array} evaluationContext.evaluations - Array of B-Scout Evaluation Results
+ * @param {Array} evaluationContext.evaluations - Array of B-Atlas Evaluation Results
  * @returns {Object} Structured Decision Report Object
  */
 function generateDecisionReport(evaluationContext) {

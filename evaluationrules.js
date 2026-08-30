@@ -1,5 +1,5 @@
 /**
- * B-Scout Evaluation Rules Layer
+ * B-Atlas Evaluation Rules Layer
  * 
  * =========================================================================
  * ARCHITECTURAL DESIGN & RESPONSIBILITIES
@@ -10,7 +10,7 @@
  */
 
 // =========================================================================
-// 1. FEATURE KEYS (B-Scout Attribute Constants)
+// 1. FEATURE KEYS (B-Atlas Attribute Constants)
 // =========================================================================
 const FEATURE_KEYS = {
     LOA: "LOA",

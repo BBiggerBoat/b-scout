@@ -1,4 +1,4 @@
-# B-Scout Community Contributions — Phase 5
+# B-Atlas Community Contributions — Phase 5
 
 ## Objective
 Activate manuals/documents and useful-resource contributions while preserving the account-free, moderated architecture.
@@ -29,7 +29,7 @@ Uploaded PDFs require one rights declaration:
 - permission granted
 - uncertain
 
-`uncertain` is deliberately valid. It allows B-Scout to review the material as evidence without treating possession of the file as republication permission.
+`uncertain` is deliberately valid. It allows B-Atlas to review the material as evidence without treating possession of the file as republication permission.
 
 Model year and variant remain optional. A model may also be omitted for manufacturer-wide documentation.
 

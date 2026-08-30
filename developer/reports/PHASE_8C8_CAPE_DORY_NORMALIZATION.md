@@ -2,7 +2,7 @@
 
 ## 28-foot identity resolution
 
-Factory literature identifies the Cape Dory 28 power family as **Fly Bridge Cruiser, Cruiser, Open Fisherman, and 280 Sport**. There is no separate factory **28 Pilothouse** model. B-Scout now uses:
+Factory literature identifies the Cape Dory 28 power family as **Fly Bridge Cruiser, Cruiser, Open Fisherman, and 280 Sport**. There is no separate factory **28 Pilothouse** model. B-Atlas now uses:
 
 - Cape Dory 28 Flybridge Cruiser
 - Cape Dory 28 Power Cruiser

@@ -85,7 +85,7 @@ for (const m of targets) {
     m.EvidenceSummary.KnowledgeCoverage = 'Limited';
     m.EvidenceSummary.EvidenceQuality = 'Low';
     addUnresolved(m,'Independent model-specific source required before Reviewed status can be restored.');
-    setStatement(m,'IdentityAndDimensions',evidenceRefs(m).filter(r => r.startsWith('SRC-LEGACY-')),['Unverified'],'Low','Identity and dimensions currently rely primarily on legacy B-Scout data; family guidance does not independently verify this model.');
+    setStatement(m,'IdentityAndDimensions',evidenceRefs(m).filter(r => r.startsWith('SRC-LEGACY-')),['Unverified'],'Low','Identity and dimensions currently rely primarily on legacy B-Atlas data; family guidance does not independently verify this model.');
     report.downgradedToInitial++;
   }
   m.LastUpdated = '2026-08-06';

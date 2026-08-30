@@ -89,19 +89,19 @@
     }
 
     function contextLabel(context) {
-        if (context.source !== "guide") return "Share useful knowledge, correct B-Scout, or help add boats we do not cover yet.";
+        if (context.source !== "guide") return "Share useful knowledge, correct B-Atlas, or help add boats we do not cover yet.";
         const name = context.guideName || [context.manufacturer, context.model, context.variant].filter(Boolean).join(" ") || "this model";
         return `You are contributing to the ${name} Guide. Model identity is already attached; add a year or variant only when it matters.`;
     }
 
     function cardNote(type, context) {
-        if (type.id === "new_model") return "Tell B-Scout about a model that is missing. Only the manufacturer and model name will be required.";
-        if (type.id === "new_manufacturer") return "Suggest a manufacturer B-Scout does not yet cover.";
+        if (type.id === "new_model") return "Tell B-Atlas about a model that is missing. Only the manufacturer and model name will be required.";
+        if (type.id === "new_manufacturer") return "Suggest a manufacturer B-Atlas does not yet cover.";
         if (type.id === "manual_document") return "Provide a model manual, brochure, technical document, diagram or related document.";
         if (type.id === "resource") return "Share a useful club, association, forum, video, virtual tour or technical resource.";
         if (type.id === "other") return "Capture useful knowledge that does not fit one of the structured contribution choices.";
         if (context.source !== "guide" && type.requiresModel) return "Choose the model in the short contribution form.";
-        return "This contribution will be reviewed before it changes permanent B-Scout knowledge.";
+        return "This contribution will be reviewed before it changes permanent B-Atlas knowledge.";
     }
 
     function renderGroups(data, context) {
@@ -130,7 +130,7 @@
             <label for="contributionModelLookup">Model${required ? " *" : ""}</label>
             <input id="contributionModelLookup" name="ModelLookup" list="contributionModelList" autocomplete="off" ${required ? "required" : ""} placeholder="Start typing manufacturer or model">
             <datalist id="contributionModelList">${options}</datalist>
-            <small>Choose an existing B-Scout model. Missing models are added through Add a missing model.</small>
+            <small>Choose an existing B-Atlas model. Missing models are added through Add a missing model.</small>
         </div>`;
     }
 
@@ -187,7 +187,7 @@
         return `${modelIdentityFields(true)}${commonOptionalFields()}
         <div class="contribution-field-row">
           <div class="contribution-field"><label for="correctionField">What needs correcting? *</label><select id="correctionField" name="CorrectionField" required><option value="">Choose a field</option>${selectOptions(modelFields)}</select></div>
-          <div class="contribution-field"><label for="correctionCurrentValue">B-Scout currently says</label><input id="correctionCurrentValue" name="CurrentValue" readonly placeholder="Select a field"></div>
+          <div class="contribution-field"><label for="correctionCurrentValue">B-Atlas currently says</label><input id="correctionCurrentValue" name="CurrentValue" readonly placeholder="Select a field"></div>
         </div>
         <div class="contribution-field contribution-field-wide"><label for="correctionProposedValue">What should it say? *</label><input id="correctionProposedValue" name="ProposedValue" required maxlength="300"></div>
         <div class="contribution-field contribution-field-wide"><label for="correctionEvidence">How do you know? *</label><select id="correctionEvidence" name="EvidenceType" required><option value="">Choose one</option>${selectOptions([["direct_owner_observation","I own / owned this model"],["manufacturer_documentation","Manufacturer documentation"],["manual_brochure","Manual or brochure"],["survey","Survey"],["professional_inspection","Professional source"],["other","Other source"]])}</select></div>
@@ -197,7 +197,7 @@
 
     function otherForm() {
         return `${modelIdentityFields(false)}${commonOptionalFields()}
-        <div class="contribution-field contribution-field-wide"><label for="otherNarrative">What would you like B-Scout to know? *</label><textarea id="otherNarrative" name="Narrative" required maxlength="2000" rows="7"></textarea><small>Use this for useful knowledge that does not fit the other contribution choices.</small></div>
+        <div class="contribution-field contribution-field-wide"><label for="otherNarrative">What would you like B-Atlas to know? *</label><textarea id="otherNarrative" name="Narrative" required maxlength="2000" rows="7"></textarea><small>Use this for useful knowledge that does not fit the other contribution choices.</small></div>
         <div class="contribution-field contribution-field-wide"><label for="otherSourceURL">Useful link <span>optional</span></label><input id="otherSourceURL" name="SourceURL" type="url" placeholder="https://"></div>`;
     }
 
@@ -215,8 +215,8 @@
           <legend>Permission to use these photos *</legend>
           <p class="contribution-rights-intro">Choose the statement that applies to every photo in this contribution.</p>
           <div class="contribution-rights-options">
-            <label class="contribution-radio contribution-rights-choice"><input type="radio" name="RightsStatus" value="creator_or_owner" required><span><strong>I took these photos</strong><small>I allow B-Scout to display them as part of its boat knowledge library.</small></span></label>
-            <label class="contribution-radio contribution-rights-choice"><input type="radio" name="RightsStatus" value="permission_granted" required><span><strong>I have permission to share them</strong><small>The rights holder allows B-Scout to display these photos.</small></span></label>
+            <label class="contribution-radio contribution-rights-choice"><input type="radio" name="RightsStatus" value="creator_or_owner" required><span><strong>I took these photos</strong><small>I allow B-Atlas to display them as part of its boat knowledge library.</small></span></label>
+            <label class="contribution-radio contribution-rights-choice"><input type="radio" name="RightsStatus" value="permission_granted" required><span><strong>I have permission to share them</strong><small>The rights holder allows B-Atlas to display these photos.</small></span></label>
           </div>
           <p class="contribution-rights-warning">Do not upload broker, marketplace, manufacturer, magazine or other third-party images unless you have permission to share them.</p>
         </fieldset>`;
@@ -231,7 +231,7 @@
         <div class="contribution-field contribution-field-wide"><label for="documentManufacturer">Manufacturer <span>optional if model selected</span></label><input id="documentManufacturer" name="DocumentManufacturer" maxlength="120" placeholder="Use for manufacturer-wide material"></div>
         <fieldset class="contribution-rights-box">
           <legend>How are you providing it? *</legend>
-          <label class="contribution-radio"><input type="radio" name="DocumentDelivery" value="link" required><span><strong>Link to the document</strong><small>B-Scout stores the link and document details for review.</small></span></label>
+          <label class="contribution-radio"><input type="radio" name="DocumentDelivery" value="link" required><span><strong>Link to the document</strong><small>B-Atlas stores the link and document details for review.</small></span></label>
           <label class="contribution-radio"><input type="radio" name="DocumentDelivery" value="upload" required><span><strong>Upload a PDF</strong><small>The file stays in this browser until the shared moderation queue is built.</small></span></label>
         </fieldset>
         <div id="documentLinkFields" hidden>
@@ -243,11 +243,11 @@
           <div id="contributionDocumentName" class="contribution-file-note" hidden></div>
           <fieldset class="contribution-rights-box">
             <legend>Document permission *</legend>
-            <label class="contribution-radio"><input type="radio" name="RightsStatus" value="creator_or_owner"><span><strong>I created or own this document</strong><small>I allow B-Scout to review it for possible publication.</small></span></label>
+            <label class="contribution-radio"><input type="radio" name="RightsStatus" value="creator_or_owner"><span><strong>I created or own this document</strong><small>I allow B-Atlas to review it for possible publication.</small></span></label>
             <label class="contribution-radio"><input type="radio" name="RightsStatus" value="public_distribution"><span><strong>It was intended for public distribution</strong><small>For example, a manufacturer brochure or manual distributed to owners.</small></span></label>
-            <label class="contribution-radio"><input type="radio" name="RightsStatus" value="permission_granted"><span><strong>I have permission to share it</strong><small>The rights holder allows B-Scout to review and display it.</small></span></label>
-            <label class="contribution-radio"><input type="radio" name="RightsStatus" value="uncertain"><span><strong>I'm not sure</strong><small>B-Scout may use the submission as evidence but should not republish the file unless rights are resolved.</small></span></label>
-            <p>Possessing a PDF does not necessarily include permission to republish it. If rights are uncertain, B-Scout can still review the document and may publish only its title, description or original source link.</p>
+            <label class="contribution-radio"><input type="radio" name="RightsStatus" value="permission_granted"><span><strong>I have permission to share it</strong><small>The rights holder allows B-Atlas to review and display it.</small></span></label>
+            <label class="contribution-radio"><input type="radio" name="RightsStatus" value="uncertain"><span><strong>I'm not sure</strong><small>B-Atlas may use the submission as evidence but should not republish the file unless rights are resolved.</small></span></label>
+            <p>Possessing a PDF does not necessarily include permission to republish it. If rights are uncertain, B-Atlas can still review the document and may publish only its title, description or original source link.</p>
           </fieldset>
         </div>
         <div class="contribution-field contribution-field-wide"><label for="documentNotes">What is useful about this document? <span>optional</span></label><textarea id="documentNotes" name="DocumentNotes" maxlength="1000" rows="4"></textarea></div>`;
@@ -308,11 +308,11 @@
           <div id="newModelPhotoPreview" class="contribution-photo-preview" hidden><img id="newModelPhotoPreviewImage" alt="Selected model preview"><span id="newModelPhotoPreviewName"></span></div>
           <fieldset id="newModelPhotoRights" class="contribution-rights-box" hidden>
             <legend>Photo permission *</legend>
-            <label class="contribution-radio"><input type="radio" name="RightsStatus" value="creator_or_owner"><span><strong>I took this photo</strong><small>I allow B-Scout to review it for the proposed model.</small></span></label>
-            <label class="contribution-radio"><input type="radio" name="RightsStatus" value="permission_granted"><span><strong>I have permission to share this photo</strong><small>The rights holder allows B-Scout to review and display it.</small></span></label>
+            <label class="contribution-radio"><input type="radio" name="RightsStatus" value="creator_or_owner"><span><strong>I took this photo</strong><small>I allow B-Atlas to review it for the proposed model.</small></span></label>
+            <label class="contribution-radio"><input type="radio" name="RightsStatus" value="permission_granted"><span><strong>I have permission to share this photo</strong><small>The rights holder allows B-Atlas to review and display it.</small></span></label>
           </fieldset>
         </details>
-        <div class="contribution-field contribution-field-wide"><label for="newModelNotes">What should B-Scout know? <span>optional</span></label><textarea id="newModelNotes" name="NewModelNotes" maxlength="1500" rows="5" placeholder="Add only what you know. Missing details can be completed later."></textarea></div>
+        <div class="contribution-field contribution-field-wide"><label for="newModelNotes">What should B-Atlas know? <span>optional</span></label><textarea id="newModelNotes" name="NewModelNotes" maxlength="1500" rows="5" placeholder="Add only what you know. Missing details can be completed later."></textarea></div>
         ${attributionContactFields()}`;
     }
 
@@ -329,14 +329,14 @@
           <div class="contribution-field"><label for="newManufacturerYearStart">Established / first known year <span>optional</span></label><input id="newManufacturerYearStart" name="ProposedYearStart" type="number" min="1800" max="2200" inputmode="numeric"></div>
           <div class="contribution-field"><label for="newManufacturerYearEnd">Last active year <span>optional</span></label><input id="newManufacturerYearEnd" name="ProposedYearEnd" type="number" min="1800" max="2200" inputmode="numeric"><small>Leave blank if still active or unknown.</small></div>
         </div>
-        <div class="contribution-field contribution-field-wide"><label for="newManufacturerNotes">What should B-Scout know? <span>optional</span></label><textarea id="newManufacturerNotes" name="NewManufacturerNotes" maxlength="1500" rows="5" placeholder="History, alternate names, relationship to another builder, useful source information..."></textarea></div>
+        <div class="contribution-field contribution-field-wide"><label for="newManufacturerNotes">What should B-Atlas know? <span>optional</span></label><textarea id="newManufacturerNotes" name="NewManufacturerNotes" maxlength="1500" rows="5" placeholder="History, alternate names, relationship to another builder, useful source information..."></textarea></div>
         ${attributionContactFields()}`;
     }
 
     function submitArea() {
         return `<div class="contribution-submit-area">
-          <p><strong>No account required.</strong> B-Scout collects only the contribution itself plus any optional display name or clarification email you choose to provide. Do not include home addresses, phone numbers, exact boat locations or other unnecessary personal information.</p>
-          <p><strong>Prototype storage:</strong> this contribution and any attachment remain only in this browser until B-Scout has a shared moderation service.</p>
+          <p><strong>No account required.</strong> B-Atlas collects only the contribution itself plus any optional display name or clarification email you choose to provide. Do not include home addresses, phone numbers, exact boat locations or other unnecessary personal information.</p>
+          <p><strong>Prototype storage:</strong> this contribution and any attachment remain only in this browser until B-Atlas has a shared moderation service.</p>
           <button type="submit" class="contribution-submit-button">Save contribution for review</button>
         </div>`;
     }
@@ -428,9 +428,9 @@
             const warning = $("newManufacturerDuplicateWarning");
             const existing = findExistingManufacturer(input?.value);
             if (!input || !warning) return;
-            input.setCustomValidity(existing ? "This manufacturer already exists in B-Scout." : "");
+            input.setCustomValidity(existing ? "This manufacturer already exists in B-Atlas." : "");
             warning.hidden = !existing;
-            warning.innerHTML = existing ? `<strong>Already in B-Scout.</strong> ${escapeHtml(existing.manufacturer)} already has canonical model records. Use a correction or add a missing model instead.` : "";
+            warning.innerHTML = existing ? `<strong>Already in B-Atlas.</strong> ${escapeHtml(existing.manufacturer)} already has canonical model records. Use a correction or add a missing model instead.` : "";
             return;
         }
         const make = $("newModelManufacturer");
@@ -439,9 +439,9 @@
         const warning = $("newModelDuplicateWarning");
         if (!make || !model || !warning) return;
         const existing = findExistingModel(make.value, model.value, variant?.value || "");
-        model.setCustomValidity(existing ? "This model already exists in B-Scout." : "");
+        model.setCustomValidity(existing ? "This model already exists in B-Atlas." : "");
         warning.hidden = !existing;
-        warning.innerHTML = existing ? `<strong>Already in B-Scout.</strong> ${escapeHtml(existing.label)} has a canonical Guide. Contribute to that Guide or suggest a correction instead.` : "";
+        warning.innerHTML = existing ? `<strong>Already in B-Atlas.</strong> ${escapeHtml(existing.label)} has a canonical Guide. Contribute to that Guide or suggest a correction instead.` : "";
     }
 
     function bindNewModelPhotoFields() {
@@ -799,7 +799,7 @@
         if (!typed && !lookup.required) { lookup.setCustomValidity(""); return true; }
         const model = selectedModelFromForm();
         if (model) { lookup.setCustomValidity(""); return true; }
-        lookup.setCustomValidity("Choose an existing B-Scout model from the list, or use Add a missing model.");
+        lookup.setCustomValidity("Choose an existing B-Atlas model from the list, or use Add a missing model.");
         lookup.reportValidity();
         return false;
     }
@@ -873,8 +873,8 @@
             message.hidden = false;
             const reviewLink = root.BScoutModeratorAccess?.enabled?.() ? `<a class="contribution-review-link" href="developer/contribution-review.html?contribution=${encodeURIComponent(record.ContributionID)}">Open Moderator Review →</a>` : "";
             message.innerHTML = sharedResult
-              ? `<strong>Contribution submitted.</strong><span>It has been added to B-Scout's shared moderation queue as contribution ${escapeHtml(record.ContributionID)}.</span>${reviewLink}`
-              : `<strong>Contribution saved locally.</strong><span>The shared B-Scout service is not available, so this contribution remains only in this browser's fallback queue. Pending local records: ${count}.</span>${reviewLink}`;
+              ? `<strong>Contribution submitted.</strong><span>It has been added to B-Atlas's shared moderation queue as contribution ${escapeHtml(record.ContributionID)}.</span>${reviewLink}`
+              : `<strong>Contribution saved locally.</strong><span>The shared B-Atlas service is not available, so this contribution remains only in this browser's fallback queue. Pending local records: ${count}.</span>${reviewLink}`;
             message.scrollIntoView({ behavior:"smooth", block:"nearest" });
         }
     }

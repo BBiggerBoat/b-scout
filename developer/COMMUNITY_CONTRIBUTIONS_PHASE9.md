@@ -1,4 +1,4 @@
-# B-Scout Community Contributions — Phase 9
+# B-Atlas Community Contributions — Phase 9
 
 ## Conflict and uncertainty handling
 

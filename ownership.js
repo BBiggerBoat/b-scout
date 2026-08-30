@@ -50,7 +50,7 @@
     const list=$("ownedBoatsList"); if(!list) return;
     const records=read();
     $("ownedBoatRecord")?.setAttribute("hidden",""); list.hidden=false;
-    if(!records.length){ list.innerHTML='<section class="owned-boats-empty"><span class="owned-boats-empty-icon" aria-hidden="true">⚓</span><h2>No owned boats yet</h2><p>Open a saved model or candidate listing and choose <strong>I bought this boat</strong>. B-Scout will preserve the model, listing and research history.</p><button type="button" class="workspace-primary-btn" data-app-action="saved-models">Open Saved Models</button></section>'; return; }
+    if(!records.length){ list.innerHTML='<section class="owned-boats-empty"><span class="owned-boats-empty-icon" aria-hidden="true">⚓</span><h2>No owned boats yet</h2><p>Open a saved model or candidate listing and choose <strong>I bought this boat</strong>. B-Atlas will preserve the model, listing and research history.</p><button type="button" class="workspace-primary-btn" data-app-action="saved-models">Open Saved Models</button></section>'; return; }
     list.innerHTML=`<div class="owned-boats-card-grid">${records.map(r=>`<button type="button" class="owned-boat-card" data-owned-id="${esc(r.OwnedBoatID)}"><span class="workspace-eyebrow">Individual Boat</span><strong>${esc(displayName(r))}</strong><span>${esc(boatModelName(r.ModelIdentity))}</span><small>${r.Purchase?.Date?`Purchased ${esc(r.Purchase.Date)}`:"Purchase date unknown"}</small></button>`).join("")}</div>`;
     list.querySelectorAll("[data-owned-id]").forEach(btn=>btn.addEventListener("click",()=>{openRecord(btn.dataset.ownedId);focusSaleReadiness();}));
   }

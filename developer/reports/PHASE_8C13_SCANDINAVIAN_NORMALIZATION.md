@@ -6,4 +6,4 @@ Normalized 10 canonical records across Nimbus, Fjord, Saga, Nord Star and Greenl
 - Initial: 1
 - Consolidated duplicate model identities: 1
 - KnownConcerns promoted: 0
-- Total B-Scout models: 283
+- Total B-Atlas models: 283

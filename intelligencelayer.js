@@ -1,5 +1,5 @@
 /**
- * B-Scout Intelligence Layer
+ * B-Atlas Intelligence Layer
  *
  * Synthesizes existing structured engine outputs into concise buyer guidance.
  * It does not evaluate boats, infer missing specifications, or introduce facts.
@@ -343,7 +343,7 @@ function buildModelKnowledgeSummary(boat) {
     if (!boat) {
         return {
             verdictLevel: "Insufficient Knowledge",
-            verdictLabel: "Why B-Scout Is Cautious",
+            verdictLabel: "Why B-Atlas Is Cautious",
             verdict: "Model knowledge is not available.",
             positives: [], cautions: [], inspectionFocus: [], missions: [],
             ownershipComplexity: { label: "Unknown", explanation: "Ownership demands have not been documented." },
@@ -380,22 +380,22 @@ function buildModelKnowledgeSummary(boat) {
     const hasPositiveGuidance = positives.length > 0;
 
     let verdictLevel = ["High", "Verified"].includes(confidence) ? "Recommended" : "Worth Investigating";
-    let verdictLabel = "Why B-Scout Likes This Boat";
+    let verdictLabel = "Why B-Atlas Likes This Boat";
     let verdict = hasPositiveGuidance
         ? positives[0]
         : "This model remains in the discovery set, but researched buyer guidance is still limited.";
 
     if (duplicateIdentity) {
         verdictLevel = "Proceed Carefully";
-        verdictLabel = "Why B-Scout Is Cautious";
+        verdictLabel = "Why B-Atlas Is Cautious";
         verdict = "This is a duplicate or legacy identity. Use the canonical model record for comparison and research.";
     } else if (identityUnverified) {
         verdictLevel = "Insufficient Knowledge";
-        verdictLabel = "Why B-Scout Is Cautious";
+        verdictLabel = "Why B-Atlas Is Cautious";
         verdict = "The model identity or supporting specifications are not sufficiently verified for a firm assessment.";
     } else if (!hasPositiveGuidance) {
         verdictLevel = "Insufficient Knowledge";
-        verdictLabel = "Why B-Scout Is Cautious";
+        verdictLabel = "Why B-Atlas Is Cautious";
         verdict = cautions[0] || "The available model evidence is incomplete and should be verified before making a firm comparison.";
     } else if (confidence === "Low") {
         verdictLevel = "Proceed Carefully";
@@ -430,7 +430,7 @@ function renderModelKnowledgeSummary(summary, options = {}) {
         <section class="model-knowledge-summary${compact ? " model-knowledge-summary-compact" : ""}">
             <div class="model-knowledge-verdict-row">
                 <div>
-                    <span class="model-knowledge-eyebrow">B-Scout Verdict</span>
+                    <span class="model-knowledge-eyebrow">B-Atlas Verdict</span>
                     <strong class="model-knowledge-verdict-level model-knowledge-verdict-${intelligenceEscapeHtml(summary.verdictLevel.toLowerCase().replace(/\s+/g, "-"))}">${intelligenceEscapeHtml(summary.verdictLevel)}</strong>
                 </div>
                 <span class="model-knowledge-confidence model-knowledge-confidence-${confidenceClass}">${intelligenceEscapeHtml(summary.confidence)} confidence</span>

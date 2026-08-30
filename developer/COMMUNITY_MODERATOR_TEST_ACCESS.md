@@ -6,13 +6,13 @@ Makes the existing Contribution Review console reachable during local/developer 
 
 ## Access
 
-The **Moderator** footer link appears automatically when B-Scout runs on localhost, a private LAN address, or a `.local` hostname.
+The **Moderator** footer link appears automatically when B-Atlas runs on localhost, a private LAN address, or a `.local` hostname.
 
 For hosted testing, append `?developer=1` or `?moderator=1` to `index.html`. This is a visibility convenience only, not authentication.
 
 ## End-to-end test
 
-1. Open B-Scout in moderator test mode.
+1. Open B-Atlas in moderator test mode.
 2. Open a Guide and choose **Contribute to this Guide**, or use global **Contribute**.
 3. Submit a contribution.
 4. Choose **Open Moderator Review** in the success message, or use the footer **Moderator** link.

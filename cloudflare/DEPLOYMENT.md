@@ -1,4 +1,4 @@
-# B-Scout v6.23.1 — zero-cost Cloudflare deployment
+# B-Atlas v6.23.1 — zero-cost Cloudflare deployment
 
 The code is ready for a Cloudflare Pages project whose project/root directory is this `public` folder.
 
@@ -9,7 +9,7 @@ Use the Cloudflare dashboard (no paid plan required):
 1. Create a D1 database, for example `bscout-community`.
 2. Run `cloudflare/schema.sql` against that D1 database.
 3. Create a Workers KV namespace, for example `bscout-files`.
-4. Create/import the Pages project from the B-Scout GitHub repository.
+4. Create/import the Pages project from the B-Atlas GitHub repository.
 5. Set the Pages project root directory to the repository's `public` folder if `public` is not itself the repository root.
 6. Use no build command. The output directory is `.` when the Pages root is `public`.
 7. Add the D1 binding with variable name `BSCOUT_DB`.
@@ -19,7 +19,7 @@ Use the Cloudflare dashboard (no paid plan required):
 
 ## First checks after deployment
 
-- `/` loads B-Scout normally.
+- `/` loads B-Atlas normally.
 - `/api/health` returns `shared: true`, `adminConfigured: true`, and `persistence: D1+KV`.
 - Submit one harmless test contribution.
 - Open moderator mode, connect using `BSCOUT_ADMIN_TOKEN`, and confirm the test appears in the shared queue.
@@ -45,4 +45,4 @@ This still runs `server.js` and uses `.bscout-data/`. Cloudflare files do not re
 
 D1 Free provides point-in-time recovery. The authenticated `/api/admin/backup` endpoint also returns the full moderation state and published overlay as JSON for an off-platform backup.
 
-KV attachments are not included in that JSON export. If B-Scout develops meaningful traffic/contributions, attachment backup and/or migration to R2 should be the first storage upgrade.
+KV attachments are not included in that JSON export. If B-Atlas develops meaningful traffic/contributions, attachment backup and/or migration to R2 should be the first storage upgrade.

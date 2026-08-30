@@ -1,8 +1,8 @@
-# B-Scout Community Contributions — Phase 6
+# B-Atlas Community Contributions — Phase 6
 
 ## Purpose
 
-Phase 6 allows the community to expand B-Scout coverage by proposing missing manufacturers and missing models without directly creating canonical records.
+Phase 6 allows the community to expand B-Atlas coverage by proposing missing manufacturers and missing models without directly creating canonical records.
 
 ## Add a manufacturer
 

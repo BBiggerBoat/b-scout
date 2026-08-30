@@ -200,7 +200,7 @@ for m in models:
         conf='Moderate' if b.get('confidence') in ('Medium','Moderate','High') else 'Low'
         for fld in ['Strengths','TradeOffs','BestFor','AvoidIf','Suitability','InspectionFocus','BuyerQuestions']:
             if m.get(fld):
-                statements.append(evidence_statement(fld,evrefs,evtypes,conf,'Migrated from structured B-Scout boat intelligence; advisory statements remain editorial synthesis.'))
+                statements.append(evidence_statement(fld,evrefs,evtypes,conf,'Migrated from structured B-Atlas boat intelligence; advisory statements remain editorial synthesis.'))
                 report['fieldsPopulated'][fld]+=1
         report['structuredIntelligenceMigrated']+=1
     else:

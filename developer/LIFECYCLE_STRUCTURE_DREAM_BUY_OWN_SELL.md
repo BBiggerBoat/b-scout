@@ -1,4 +1,4 @@
-# B-Scout Lifecycle Structure — Dream, Buy, Own, Sell
+# B-Atlas Lifecycle Structure — Dream, Buy, Own, Sell
 
 Updated: 2026-08-07
 

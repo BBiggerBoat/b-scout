@@ -7,4 +7,4 @@ Normalized Beneteau and Jeanneau.
 - Initial: 0
 - Duplicate/market-name identities consolidated: 3
 - KnownConcerns promoted: 0
-- Total B-Scout models: 281
+- Total B-Atlas models: 281

@@ -1,8 +1,8 @@
-# B-Scout v6.23.5 — Search, Dimensions & Market Metrics Foundation
+# B-Atlas v6.23.5 — Search, Dimensions & Market Metrics Foundation
 
 ## Implemented
 
-- Strengthened homepage language and metadata around B-Scout as a community-powered boat knowledge and research resource.
+- Strengthened homepage language and metadata around B-Atlas as a community-powered boat knowledge and research resource.
 - Standardized primary navigation to uppercase presentation on both the application and crawlable search pages.
 - Aligned crawlable-page typography to `bscout-visual-standard.css` variables.
 - Added Minimum Length and Minimum Beam alongside existing maximum dimensions in Plan and Dream/search controls.

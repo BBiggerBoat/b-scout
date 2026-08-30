@@ -1,4 +1,4 @@
-# B-Scout Community Contributions — Phase 12
+# B-Atlas Community Contributions — Phase 12
 
 ## Purpose
 

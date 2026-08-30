@@ -1,4 +1,4 @@
-# B-Scout Shared Community Backend — v6.22
+# B-Atlas Shared Community Backend — v6.22
 
 ## Purpose
 
@@ -21,7 +21,7 @@ npm start
 
 Open `http://127.0.0.1:8080`.
 
-The Node server serves the existing B-Scout site and the `/api/*` endpoints from the same origin. No external npm runtime packages are required.
+The Node server serves the existing B-Atlas site and the `/api/*` endpoints from the same origin. No external npm runtime packages are required.
 
 ## Shared storage
 
