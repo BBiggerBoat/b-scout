@@ -1,11 +1,13 @@
 (function(root){
 "use strict";
 const TOKEN_KEY="bscoutAdminTokenV1";
+const API_BASE="https://api.b-atlas.org";
+const apiUrl=path=>`${API_BASE}${path}`;
 async function request(path,options={}){
   const headers={"Content-Type":"application/json",...(options.headers||{})};
   const token=sessionStorage.getItem(TOKEN_KEY);
   if(options.admin&&token) headers.Authorization=`Bearer ${token}`;
-  const res=await fetch(path,{...options,headers});
+  const res=await fetch(apiUrl(path),{...options,headers});
   let body=null;try{body=await res.json()}catch{}
   if(!res.ok) throw new Error(body?.error||`${res.status} ${res.statusText}`);
   return body;
@@ -29,6 +31,6 @@ async function promote(contribution){
 }
 function setAdminToken(token){if(token)sessionStorage.setItem(TOKEN_KEY,token);else sessionStorage.removeItem(TOKEN_KEY)}
 function hasAdminToken(){return !!sessionStorage.getItem(TOKEN_KEY)}
-async function fetchAttachment(id){const token=sessionStorage.getItem(TOKEN_KEY)||"";const res=await fetch(`/api/admin/attachments/${encodeURIComponent(id)}`,{headers:{Authorization:`Bearer ${token}`}});if(!res.ok)throw new Error("Attachment could not be loaded");return res.blob()}
+async function fetchAttachment(id){const token=sessionStorage.getItem(TOKEN_KEY)||"";const res=await fetch(apiUrl(`/api/admin/attachments/${encodeURIComponent(id)}`),{headers:{Authorization:`Bearer ${token}`}});if(!res.ok)throw new Error("Attachment could not be loaded");return res.blob()}
 root.BScoutCommunityAPI={status,submit,adminSnapshot,saveAdminSnapshot,publish,promote,publicOverlays,setAdminToken,hasAdminToken,fetchAttachment};
 })(window);

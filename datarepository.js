@@ -1,6 +1,8 @@
 (function (global) {
     "use strict";
 
+    const COMMUNITY_API_BASE = "https://api.b-atlas.org";
+
     const DEFAULT_MANIFEST = Object.freeze({
         boats: "boatmodels.json",
         routes: "routes.json",
@@ -62,7 +64,7 @@
             const data = Object.fromEntries(results);
             try {
                 const request = fetchImpl || global.fetch;
-                const response = await request("/api/public/overlays", { cache: "no-store" });
+                const response = await request(`${COMMUNITY_API_BASE}/api/public/overlays`, { cache: "no-store" });
                 if (response?.ok) {
                     const overlay = await response.json();
                     if (Array.isArray(data.boats)) {

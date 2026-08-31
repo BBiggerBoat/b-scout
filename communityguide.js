@@ -4,6 +4,7 @@ const KNOWLEDGE_KEY="bscoutCommunityKnowledgeItemsV1";
 const REVIEWED_KEY="bscoutReviewedContributionsV1";
 const ATTACHMENT_DB="bscoutContributionAttachmentsV1";
 const ATTACHMENT_STORE="files";
+const COMMUNITY_API_BASE="https://api.b-atlas.org";
 let staticKnowledge=[];
 let staticEvidence=[];
 let staticReviewed=[];
@@ -18,7 +19,7 @@ async function init(){
   fetch("data/community-knowledge-items.json",{cache:"no-store"}).then(r=>r.ok?r.json():[]).catch(()=>[]),
   fetch("data/community-knowledge-evidence.json",{cache:"no-store"}).then(r=>r.ok?r.json():[]).catch(()=>[]),
   fetch("data/community-reviewed-contributions.json",{cache:"no-store"}).then(r=>r.ok?r.json():[]).catch(()=>[]),
-  fetch("/api/public/overlays",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)
+  fetch(`${COMMUNITY_API_BASE}/api/public/overlays`,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)
  ]).then(([k,e,r,live])=>{
   staticKnowledge=uniqBy([...(Array.isArray(k)?k:[]),...(Array.isArray(live?.knowledgeItems)?live.knowledgeItems:[])],"KnowledgeItemID");
   staticEvidence=uniqBy([...(Array.isArray(e)?e:[]),...(Array.isArray(live?.knowledgeEvidence)?live.knowledgeEvidence:[])],"KnowledgeEvidenceID");

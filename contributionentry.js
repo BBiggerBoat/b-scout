@@ -5,6 +5,7 @@
     let modelCatalog = null;
     let returnContext = { source: "global" };
     let selectedType = null;
+    const COMMUNITY_API_BASE = "https://api.b-atlas.org";
 
     const STORAGE_KEY = "bscoutPendingContributionsV1";
     const ATTACHMENT_DB = "bscoutContributionAttachmentsV1";
@@ -58,7 +59,7 @@
             let rows = await response.json();
             rows = Array.isArray(rows) ? rows : [];
             try {
-                const live = await fetch("/api/public/overlays", { cache: "no-store" }).then(r => r.ok ? r.json() : null);
+                const live = await fetch(`${COMMUNITY_API_BASE}/api/public/overlays`, { cache: "no-store" }).then(r => r.ok ? r.json() : null);
                 const patches = live?.modelPatches || {};
                 rows = rows.map(row => patches[row.BoatModelID] ? { ...row, ...patches[row.BoatModelID] } : row);
                 const ids = new Set(rows.map(row => row.BoatModelID));
