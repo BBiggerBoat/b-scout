@@ -1,0 +1,18 @@
+# B-Atlas
+
+> Boat Knowledge for Better Decisions
+
+B-Atlas is a community-powered research resource for cruising boat models. It preserves uncertainty: known undesirable information can eliminate a candidate, while missing information remains unknown rather than being treated as a negative.
+
+## Primary resources
+
+- https://b-atlas.org/ — B-Atlas home, Plan, Dream, Saved Models and Contribute
+- https://b-atlas.org/models/ — permanent boat model guides
+- https://b-atlas.org/manufacturers/ — manufacturer directories
+- https://b-atlas.org/boats/ — curated buyer-constraint research pages
+- https://b-atlas.org/compare/ — selected model comparisons
+- https://b-atlas.org/sitemap.xml — complete crawlable URL inventory
+
+## Citation guidance
+
+Prefer permanent model-guide URLs for model-specific facts. Treat unknown fields as unknown. Specifications describe model records and may vary by year, equipment, refit and individual boat condition.

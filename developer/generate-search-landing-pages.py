@@ -4,8 +4,8 @@ from datetime import date
 from collections import Counter, defaultdict
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = 'https://bbiggerboat.github.io/b-scout/'
-TODAY = '2026-08-17'
+BASE = 'https://b-atlas.org/'
+TODAY = date.today().isoformat()
 models = json.loads((ROOT/'boatmodels.json').read_text(encoding='utf-8'))
 
 
@@ -316,13 +316,12 @@ xml.append('</urlset>')
 
 # Maintainability notes.
 report={
- 'version':'6.23.4', 'generated':TODAY, 'model_pages':len(models), 'manufacturer_pages':len(manufacturer_slugs),
+ 'version':'6.27.0', 'generated':TODAY, 'model_pages':len(models), 'manufacturer_pages':len(manufacturer_slugs),
  'constraint_pages':len(criteria_defs), 'comparison_pages':len(pairs), 'sitemap_urls':len(urls),
  'principle':'Generate stable, useful pages from canonical model data. Do not generate every possible filter or model pair.'
 }
-(ROOT/'SEO_ORGANIC_SEARCH.md').write_text('''# B-Atlas Organic Search Foundations — v6.23.4\n\nGenerated search surfaces:\n\n- `/models/` — permanent crawlable model guides\n- `/manufacturers/` — manufacturer model directories (2+ models in current B-Atlas data)\n- `/boats/` — curated buyer-constraint pages, not arbitrary faceted URLs\n- `/compare/` — deliberately limited model comparisons\n\n## Core rule\n\nDo not generate every possible combination of filters. Search landing pages should exist only where the page is a useful buyer destination with a stable URL and a clear purpose.\n\n## Data semantics\n\nConstraint pages list **known matches only**. A model with missing data is not declared unsuitable; it simply cannot be asserted to match that specific public landing page.\n\n## Regeneration\n\nRun `python developer/generate-search-landing-pages.py` after material changes to `boatmodels.json`. Review generated pages before deployment.\n\n## Current generated counts\n\n```json\n'''+json.dumps(report,indent=2)+'''\n```\n''',encoding='utf-8')
+(ROOT/'SEO_ORGANIC_SEARCH.md').write_text('''# B-Atlas Organic Search Foundations — v6.27.0\n\nGenerated search surfaces:\n\n- `/models/` — permanent crawlable model guides\n- `/manufacturers/` — manufacturer model directories (2+ models in current B-Atlas data)\n- `/boats/` — curated buyer-constraint pages, not arbitrary faceted URLs\n- `/compare/` — deliberately limited model comparisons\n\n## Core rule\n\nDo not generate every possible combination of filters. Search landing pages should exist only where the page is a useful buyer destination with a stable URL and a clear purpose.\n\n## Data semantics\n\nConstraint pages list **known matches only**. A model with missing data is not declared unsuitable; it simply cannot be asserted to match that specific public landing page.\n\n## Regeneration\n\nRun `python developer/generate-search-landing-pages.py` after material changes to `boatmodels.json`. Review generated pages before deployment.\n\n## Current generated counts\n\n```json\n'''+json.dumps(report,indent=2)+'''\n```\n''',encoding='utf-8')
 
-# Package version.
-pkg=ROOT/'package.json'; pj=json.loads(pkg.read_text(encoding='utf-8')); pj['version']='6.23.3'; pj['scripts']['generate:search-pages']='python developer/generate-search-landing-pages.py'; pkg.write_text(json.dumps(pj,indent=2)+'\n',encoding='utf-8')
+# Package scripts are maintained in package.json; this generator does not rewrite the release version.
 
 print(json.dumps(report,indent=2))
