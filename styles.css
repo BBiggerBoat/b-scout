@@ -2937,3 +2937,179 @@ button { padding: 7px 10px; font-size: 11px; }
   .brand-tagline{font-size:6.5px;letter-spacing:.12em}
 }
 \n\n/* =====================================================\n   B-ATLAS v6.26.2 — CORE REFINEMENT (cache-safe)\n   These rules live in the long-standing core stylesheet so the\n   refinement is not dependent on a newly-added override file.\n   ===================================================== */\n:root{\n  --batlas-black:#17212b;\n  --batlas-navy:#102235;\n  --batlas-blue:#176fa8;\n  --batlas-blue-dark:#115b8d;\n  --batlas-grey:#566b7b;\n  --batlas-light:#f1f5f7;\n  --batlas-border:#cbd7df;\n}\nbody{font-size:17px;line-height:1.55;padding-top:72px;}\n.site-header{\n  position:fixed!important;top:0!important;left:0!important;right:0!important;z-index:9999!important;\n  min-height:72px!important;background:#fff!important;border-bottom:1px solid var(--batlas-border)!important;\n  box-shadow:0 1px 4px rgba(16,34,53,.06)!important;\n}\n.workspace-eyebrow,.workspace-label{font-size:13px!important;color:#657989!important;font-weight:700!important;}\n.lifecycle-hero h1{font-size:clamp(36px,3.4vw,44px)!important;color:var(--batlas-blue)!important;line-height:1.08!important;}\n.lifecycle-hero>p:not(.workspace-eyebrow){font-size:17px!important;color:var(--batlas-grey)!important;line-height:1.55!important;}\n.lifecycle-start-section,.lifecycle-continue-section{border-top:0!important;padding:26px 0!important;}\n.lifecycle-entry-grid{gap:18px!important;}\n.lifecycle-entry-card{\n  text-align:left!important;background:#fff!important;border:1px solid var(--batlas-border)!important;border-radius:5px!important;\n  padding:20px!important;box-shadow:none!important;\n}\n.lifecycle-entry-card:hover{border-color:var(--batlas-blue)!important;background:#f8fbfd!important;}\n.lifecycle-stage-name{\n  display:block!important;background:none!important;border:0!important;border-radius:0!important;padding:0!important;margin:0 0 8px!important;\n  color:var(--batlas-blue)!important;font-size:14px!important;font-weight:700!important;letter-spacing:.045em!important;text-transform:uppercase!important;\n}\n.lifecycle-entry-card strong{font-size:19px!important;font-weight:700!important;color:var(--batlas-navy)!important;}\n.lifecycle-entry-card>span:last-child{font-size:15px!important;font-weight:400!important;color:var(--batlas-grey)!important;}\n.lifecycle-principle{border-top:0!important;}\n\n.guided-match-header h1{font-size:clamp(36px,3.4vw,44px)!important;line-height:1.1!important;}\n.guided-match-header>p{font-size:17px!important;color:var(--batlas-grey)!important;}\n.guided-step h2{font-size:27px!important;color:var(--batlas-blue)!important;line-height:1.2!important;}\n.guided-step>p{font-size:16px!important;font-weight:400!important;color:var(--batlas-grey)!important;line-height:1.55!important;}\n.guided-field span,.guided-field small,.guided-dimension-group label span,.guided-section-help,.filter-help,.search-profile-description{\n  font-size:13px!important;color:var(--batlas-grey)!important;line-height:1.45!important;font-weight:400!important;\n}\n.guided-choice strong{font-size:16px!important;font-weight:700!important;color:var(--batlas-navy)!important;}\n.guided-choice small{font-size:14px!important;font-weight:400!important;color:var(--batlas-grey)!important;line-height:1.45!important;}\n.guided-progress{height:4px!important;background:#dbe5eb!important;}\n.guided-progress span{background:var(--batlas-blue)!important;}\n\n.guided-waterway-panel,.guided-optional-panel,.guided-preference-panel{\n  background:var(--batlas-light)!important;border:1px solid var(--batlas-border)!important;border-radius:7px!important;padding:24px!important;\n}\n.guided-waterway-panel .guided-choice,.guided-waterway-panel label{border:0!important;background:transparent!important;box-shadow:none!important;}\n.guided-waterway-panel .guided-choice:after,.guided-waterway-panel label:after{display:none!important;}\n.guided-waterway-panel .guided-choice-grid{gap:12px 28px!important;}\n\n.guided-choice-visual{display:grid!important;grid-template-columns:18px minmax(0,1fr) 76px!important;column-gap:12px!important;align-items:start!important;overflow:hidden!important;}\n.guided-choice-visual>input{grid-column:1!important;grid-row:1!important;}\n.guided-choice-visual>span{grid-column:2!important;grid-row:1!important;min-width:0!important;}\n.guided-choice-visual>.guided-option-visual{grid-column:3!important;grid-row:1!important;width:76px!important;height:46px!important;overflow:hidden!important;margin:0!important;}\n.guided-choice-visual>.guided-option-visual img,.guided-choice-visual>.guided-option-visual svg{width:76px!important;height:46px!important;max-width:76px!important;max-height:46px!important;object-fit:contain!important;display:block!important;}\n.guided-inline-icon.guided-icon-engine,.guided-option-mini-icon{display:none!important;}\n.guided-step[data-guided-step="3"] h3:last-of-type:before,.guided-step[data-guided-step="3"] h3:last-of-type:after{display:none!important;content:none!important;}\n\n.guided-actions{border-top:1px solid var(--batlas-border)!important;}\n#guidedNext,#guidedViewMatches{background:var(--batlas-blue)!important;border-color:var(--batlas-blue)!important;color:#fff!important;font-weight:700!important;}\n#guidedNext:hover,#guidedViewMatches:hover{background:var(--batlas-blue-dark)!important;}\n#guidedPrevious{background:#fff!important;border:1px solid #aebfcb!important;color:var(--batlas-navy)!important;font-weight:650!important;}\n#guidedPrevious:not(:disabled):hover{border-color:var(--batlas-blue)!important;color:var(--batlas-blue)!important;}\n#guidedPrevious:disabled{opacity:.45!important;}\n\n#discoverView .boat-card h2{font-size:20px!important;font-weight:750!important;color:var(--batlas-navy)!important;line-height:1.22!important;margin:10px 0 12px!important;}\n#discoverView .boat-card-buttons{gap:6px!important;margin:8px 0 14px!important;}\n#discoverView .boat-card-buttons .details-button{min-height:32px!important;padding:5px 10px!important;font-size:13px!important;font-weight:700!important;background:var(--batlas-blue)!important;border-color:var(--batlas-blue)!important;color:#fff!important;border-radius:4px!important;}\n#discoverView .boat-card-buttons .details-button:hover{background:var(--batlas-blue-dark)!important;}\n#discoverView .search-panel{font-size:15px!important;}\n#discoverView .search-panel h2{font-size:20px!important;}\n#discoverView .search-panel h3{font-size:15px!important;}\n#searchButton{background:var(--batlas-blue)!important;border-color:var(--batlas-blue)!important;color:#fff!important;font-weight:700!important;}\n#searchButton:hover{background:var(--batlas-blue-dark)!important;}\n#clearButton{background:#fff!important;color:var(--batlas-navy)!important;border-color:#aebfcb!important;}\n.temporary-image-filter{display:none!important;}\n\n@media(max-width:760px){\n  body{padding-top:64px;}\n  .site-header{min-height:64px!important;}\n  .guided-choice-visual{grid-template-columns:18px minmax(0,1fr)!important;}\n  .guided-choice-visual>.guided-option-visual{display:none!important;}\n}\n
+/* =====================================================
+   B-ATLAS v6.26.3 — BRAND + PAGE CONSISTENCY PASS
+   ===================================================== */
+:root{
+  --batlas-black:#17212b;
+  --batlas-navy:#102235;
+  --batlas-blue:#176fa8;
+  --batlas-grey:#566b7b;
+  --batlas-border:#c8d5de;
+  --batlas-surface:#f5f8fa;
+}
+
+/* Approved B-Atlas logo and fixed header */
+.site-header{
+  height:82px!important;
+  min-height:82px!important;
+  padding:8px 22px!important;
+  display:flex!important;
+  align-items:center!important;
+  gap:28px!important;
+}
+.header-brand{flex:0 0 auto!important;min-width:0!important;}
+.header-logo{display:flex!important;align-items:center!important;padding:0!important;text-decoration:none!important;}
+.batlas-header-logo{display:block;width:330px;max-width:34vw;height:auto;max-height:64px;object-fit:contain;object-position:left center;}
+.top-nav{margin-left:auto!important;align-self:stretch!important;display:flex!important;align-items:center!important;}
+.top-nav a{font-size:15px!important;font-weight:650!important;letter-spacing:.015em!important;color:var(--batlas-navy)!important;}
+.top-nav a:hover,.top-nav a:focus-visible{color:var(--batlas-blue)!important;}
+body{padding-top:82px!important;}
+
+/* A single top-level page geometry */
+.lifecycle-home,.guided-match-view,.contribution-view{
+  scroll-margin-top:100px!important;
+}
+.lifecycle-home,.guided-match-shell,.contribution-shell{
+  width:min(1180px,calc(100% - 40px))!important;
+  max-width:1180px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  box-sizing:border-box!important;
+}
+.lifecycle-home{padding:34px 0 56px!important;}
+.guided-match-view,.contribution-view{padding:34px 0 56px!important;background:#fff!important;}
+.guided-match-shell,.contribution-shell{
+  padding:0!important;
+  background:#fff!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.lifecycle-hero,.guided-match-header,.contribution-header{
+  max-width:980px!important;
+  margin:0 0 32px!important;
+  padding:0!important;
+}
+.workspace-eyebrow{
+  margin:0 0 8px!important;
+  font-size:13px!important;
+  font-weight:750!important;
+  line-height:1.2!important;
+  letter-spacing:.12em!important;
+  color:#667b8b!important;
+}
+.lifecycle-hero h1,.guided-match-header h1,.contribution-header h1,.information-page-title{
+  margin:0 0 12px!important;
+  font-size:clamp(36px,3.3vw,46px)!important;
+  line-height:1.08!important;
+  letter-spacing:-.025em!important;
+  font-weight:730!important;
+  color:var(--batlas-blue)!important;
+}
+.lifecycle-hero>p:last-child,.guided-match-header>p,.contribution-header>p{
+  margin:0!important;
+  max-width:950px!important;
+  font-size:17px!important;
+  line-height:1.55!important;
+  font-weight:400!important;
+  color:var(--batlas-grey)!important;
+}
+.top-level-back,.information-back-link{display:none!important;}
+
+/* Contribute: predictable alignment and card rhythm */
+.contribution-principle{
+  margin:0 0 26px!important;
+  padding:16px 18px!important;
+  border:1px solid var(--batlas-border)!important;
+  border-left:4px solid var(--batlas-blue)!important;
+  border-radius:5px!important;
+  background:var(--batlas-surface)!important;
+  font-size:15px!important;
+  line-height:1.55!important;
+  color:var(--batlas-grey)!important;
+}
+.contribution-type-groups{display:grid!important;gap:28px!important;}
+.contribution-type-group{margin:0!important;}
+.contribution-type-group h2{
+  margin:0 0 12px!important;
+  font-size:26px!important;
+  line-height:1.2!important;
+  color:var(--batlas-navy)!important;
+}
+.contribution-type-grid{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  align-items:stretch!important;
+  gap:12px!important;
+}
+.contribution-type-card{
+  min-height:132px!important;
+  height:100%!important;
+  padding:17px 17px 16px!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:flex-start!important;
+  text-align:left!important;
+  border:1px solid var(--batlas-border)!important;
+  border-radius:5px!important;
+  background:#fff!important;
+  box-shadow:none!important;
+  color:var(--batlas-navy)!important;
+}
+.contribution-type-card strong{
+  display:block!important;
+  margin:0 0 7px!important;
+  font-size:17px!important;
+  line-height:1.3!important;
+  font-weight:720!important;
+  color:var(--batlas-navy)!important;
+}
+.contribution-type-card span,.contribution-type-card p,.contribution-type-card small{
+  margin:0!important;
+  font-size:15px!important;
+  line-height:1.48!important;
+  font-weight:400!important;
+  color:var(--batlas-grey)!important;
+}
+.contribution-type-card:hover,.contribution-type-card:focus-visible{border-color:var(--batlas-blue)!important;background:#f8fbfd!important;}
+
+/* About/info treatment uses the same typographic hierarchy */
+.information-modal-content{max-width:1020px!important;padding:38px 42px!important;border-radius:6px!important;}
+#informationModalContent>.workspace-eyebrow{margin-bottom:8px!important;}
+#informationModalContent>.information-page-title{max-width:900px!important;}
+#informationModalContent>p{font-size:17px!important;line-height:1.55!important;color:var(--batlas-grey)!important;}
+.information-section h3{color:var(--batlas-navy)!important;}
+
+/* Research/Dream top content aligns to the same vertical baseline */
+#discoverView{scroll-margin-top:100px!important;}
+#discoverView .results-panel{padding-top:32px!important;}
+#discoverView .results-header{margin:0 0 16px!important;}
+#discoverView .results-header h2{
+  margin:0 0 4px!important;
+  font-size:32px!important;
+  line-height:1.15!important;
+  color:var(--batlas-blue)!important;
+  font-weight:730!important;
+}
+#discoverView .results-header p{font-size:16px!important;line-height:1.5!important;color:var(--batlas-grey)!important;}
+
+/* Moderator diagnostics: local file testing is intentional, not an error state */
+.moderator-access-link{font-weight:650!important;}
+
+@media(max-width:980px){
+  .site-header{height:auto!important;min-height:76px!important;padding:7px 14px!important;gap:12px!important;}
+  .batlas-header-logo{width:255px;max-width:38vw;}
+  .top-nav a{font-size:13px!important;padding:10px 7px!important;}
+  body{padding-top:76px!important;}
+}
+@media(max-width:760px){
+  .site-header{position:sticky!important;min-height:68px!important;flex-wrap:wrap!important;}
+  .batlas-header-logo{width:230px;max-width:72vw;max-height:56px;}
+  .top-nav{width:100%!important;overflow-x:auto!important;justify-content:flex-start!important;}
+  body{padding-top:0!important;}
+  .lifecycle-home,.guided-match-shell,.contribution-shell{width:min(100% - 28px,1180px)!important;}
+  .lifecycle-home,.guided-match-view,.contribution-view{padding-top:24px!important;}
+  .contribution-type-grid{grid-template-columns:1fr!important;}
+  .contribution-type-card{min-height:0!important;}
+}

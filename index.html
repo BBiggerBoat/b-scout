@@ -30,11 +30,11 @@
 }
 </script>
 
-<link rel="stylesheet" href="styles.css?v=6.26.2">
-<link rel="stylesheet" href="bscout-visual-standard.css?v=6.26.2">
-<link rel="stylesheet" href="guide-visual-standard.css?v=6.26.2">
-<link rel="stylesheet" href="home-visual-standard.css?v=6.26.2">
-<link rel="stylesheet" href="batlas-design-system.css?v=6.26.2">
+<link rel="stylesheet" href="styles.css?v=6.26.3">
+<link rel="stylesheet" href="bscout-visual-standard.css?v=6.26.3">
+<link rel="stylesheet" href="guide-visual-standard.css?v=6.26.3">
+<link rel="stylesheet" href="home-visual-standard.css?v=6.26.3">
+<link rel="stylesheet" href="batlas-design-system.css?v=6.26.3">
 
 </head>
 
@@ -50,7 +50,7 @@
 
     <div class="header-brand">
         <a href="#home" class="header-logo header-home-link" data-app-action="home" aria-label="Return to B-Atlas home" title="B-Atlas home">
-            <span class="brand-wordmark"><span class="brand-b">B</span><span class="brand-hyphen">-</span>Atlas</span><span class="brand-tagline">Boat Knowledge for Better Decisions</span>
+            <img src="images/batlas-logo.png?v=6.26.3" class="batlas-header-logo" alt="B-Atlas — Boat Knowledge for Better Decisions">
         </a>
     </div>
 
@@ -119,7 +119,7 @@
 
 <section id="contributionView" class="contribution-view" hidden aria-labelledby="contributionTitle">
   <div class="contribution-shell">
-    <button type="button" id="contributionBack" class="contribution-back">← Back to B-Atlas</button>
+    <button type="button" id="contributionBack" class="contribution-back top-level-back" hidden>← Back to B-Atlas</button>
     <header class="contribution-header">
       <p class="workspace-eyebrow">Improve B-Atlas</p>
       <h1 id="contributionTitle">Contribute knowledge</h1>
@@ -156,7 +156,7 @@
 
 <section id="guidedMatchView" class="guided-match-view" hidden aria-labelledby="guidedMatchTitle">
   <div class="guided-match-shell">
-    <button type="button" class="guided-back" data-app-action="home">← Back to lifecycle</button>
+    <button type="button" class="guided-back top-level-back" data-app-action="home" hidden>← Back to lifecycle</button>
     <header class="guided-match-header">
       <p class="workspace-eyebrow">Plan your boating</p>
       <h1 id="guidedMatchTitle">Understand what you want from a boat</h1>
@@ -980,7 +980,7 @@
 <div id="informationModal" class="modal" aria-hidden="true">
   <div class="modal-content information-modal-content">
     <button id="closeInformationModal" class="modal-close" aria-label="Close">×</button>
-    <button type="button" class="context-back-button" data-close-modal="informationModal">← Back to B-Atlas</button>
+    <button type="button" class="context-back-button information-back-link" data-close-modal="informationModal" hidden>← Back to B-Atlas</button>
     <div id="informationModalContent"></div>
   </div>
 </div>
@@ -1012,10 +1012,10 @@
 <script src="recommendationengine.js"></script>
 <script src="communityguide.js"></script>
 <script src="boatworkspace.js"></script>
-<script src="script.js?v=6.26.2"></script>
+<script src="script.js?v=6.26.3"></script>
 <script src="appbootstrap.js"></script>
 <script src="ownership.js"></script>
-<script src="applicationpolish.js?v=6.26.2"></script>
+<script src="applicationpolish.js?v=6.26.3"></script>
 <script src="communityapi.js"></script>
 <script src="contributionentry.js"></script>
 <script src="moderatoraccess.js"></script>

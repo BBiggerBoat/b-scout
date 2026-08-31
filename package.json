@@ -1,7 +1,7 @@
 {
   "name": "b-scout-public",
   "private": true,
-  "version": "6.26.2",
+  "version": "6.26.3",
   "description": "B-Atlas search, dimensions and market-metrics foundation with dual-mode community backend",
   "scripts": {
     "test:marketplace-signal": "node developer/test-marketplace-signal.js",

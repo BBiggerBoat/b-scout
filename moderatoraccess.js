@@ -2,6 +2,7 @@
 "use strict";
 const ACCESS_KEY="bscoutModeratorTestModeV1";
 function isLocalHost(){
+  if(String(root.location?.protocol||"").toLowerCase()==="file:") return true;
   const h=String(root.location?.hostname||"").toLowerCase();
   return h==="localhost"||h==="127.0.0.1"||h==="::1"||h.endsWith(".local")||/^10\./.test(h)||/^192\.168\./.test(h)||/^172\.(1[6-9]|2\d|3[0-1])\./.test(h);
 }

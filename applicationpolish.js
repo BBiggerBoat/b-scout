@@ -4,18 +4,18 @@
     const INFO_PAGES = {
         about: `
             <p class="workspace-eyebrow">About B-Atlas</p>
-            <h2>Boat knowledge for better decisions.</h2>
+            <h1 class="information-page-title">Boat knowledge for better decisions.</h1>
             <p>B-Atlas helps people discover boats, research models, make better buying decisions and contribute knowledge that improves the permanent Guides.</p>
             <section class="information-section"><h3>What makes B-Atlas different?</h3><p>It is not another marketplace search. B-Atlas helps buyers understand which boats deserve further investigation and why.</p></section>
             <blockquote>Known undesirable information eliminates boats. Unknown information does not.</blockquote>
             <section class="information-section"><h3>How it works</h3><ul><li>Search broadly across boat families and missions.</li><li>Keep incomplete candidates visible with lower confidence.</li><li>Review model knowledge, ownership trade-offs and inspection priorities.</li><li>Save, compare and investigate actual boats for sale.</li></ul></section>
             <section class="information-section"><h3>The lifecycle</h3><p>Discover → Research → Decide → Contribute → Improve. Community knowledge is reviewed before it changes the permanent Guide.</p></section>`,
         contact: `
-            <p class="workspace-eyebrow">Contact</p><h2>Contact B-Atlas</h2>
+            <p class="workspace-eyebrow">Contact</p><h1 class="information-page-title">Contact B-Atlas</h1>
             <p>B-Atlas is currently a prototype and public-interest boat knowledge project.</p>
             <p>Contact details and feedback channels will be added before public release.</p>`,
         privacy: `
-            <p class="workspace-eyebrow">Privacy</p><h2>Local prototype data</h2>
+            <p class="workspace-eyebrow">Privacy</p><h1 class="information-page-title">Local prototype data</h1>
             <p>This prototype stores Saved Models, notes, search preferences and comparison selections in the browser's local storage.</p>
             <p>No account or cloud synchronization is active in this build. Clearing browser storage or changing browsers/devices may remove locally saved work. Community contributions are separate and are submitted only when a user deliberately chooses to contribute.</p>`
     };
@@ -24,6 +24,15 @@
         const state = Object.assign({ bscoutView: view }, extra);
         const method = replace ? "replaceState" : "pushState";
         if (window.history?.[method]) window.history[method](state, "");
+    }
+
+
+    function scrollViewTop(node) {
+        if (!node) return;
+        const header = document.querySelector(".site-header");
+        const offset = (header?.getBoundingClientRect().height || 72) + 18;
+        const top = node.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
     }
 
     function closeModal(id) {
@@ -57,7 +66,7 @@
         if (guided) guided.hidden = true;
         if (contribute) contribute.hidden = true;
         if (discover) discover.hidden = false;
-        discover?.scrollIntoView({ behavior: "smooth", block: "start" });
+        scrollViewTop(discover);
         if (options.focusSearch) document.getElementById("textSearch")?.focus();
     }
 
@@ -75,7 +84,7 @@
         if (guide) guide.hidden = true;
         if (guided) guided.hidden = true;
         if (contribute) contribute.hidden = true;
-        home?.scrollIntoView({ behavior: "smooth", block: "start" });
+        scrollViewTop(home);
     }
 
 
@@ -94,7 +103,7 @@
         if (guided) guided.hidden = false;
         if (contribute) contribute.hidden = true;
         initializeGuidedProfile();
-        guided?.scrollIntoView({behavior:"smooth",block:"start"});
+        scrollViewTop(guided);
     }
 
     let guidedStep = 0;
@@ -433,7 +442,7 @@
         guidedStep = nextStep;
         renderGuidedStep();
         updateHistory("guided", { guidedStep });
-        document.querySelector("#guidedMatchView .guided-match-header")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        scrollViewTop(document.querySelector("#guidedMatchView .guided-match-header"));
     }
     document.getElementById("guidedPrevious")?.addEventListener("click", () => moveGuidedStep(-1));
     document.getElementById("guidedNext")?.addEventListener("click", () => moveGuidedStep(1));

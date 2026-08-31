@@ -648,3 +648,181 @@ body{font-size:17px;line-height:1.55}
   .guided-choice-visual{grid-template-columns:18px minmax(0,1fr)!important}
   .guided-choice-visual>.guided-option-visual{display:none!important}
 }
+
+
+/* =====================================================
+   B-ATLAS v6.26.3 — BRAND + PAGE CONSISTENCY PASS
+   ===================================================== */
+:root{
+  --batlas-black:#17212b;
+  --batlas-navy:#102235;
+  --batlas-blue:#176fa8;
+  --batlas-grey:#566b7b;
+  --batlas-border:#c8d5de;
+  --batlas-surface:#f5f8fa;
+}
+
+/* Approved B-Atlas logo and fixed header */
+.site-header{
+  height:82px!important;
+  min-height:82px!important;
+  padding:8px 22px!important;
+  display:flex!important;
+  align-items:center!important;
+  gap:28px!important;
+}
+.header-brand{flex:0 0 auto!important;min-width:0!important;}
+.header-logo{display:flex!important;align-items:center!important;padding:0!important;text-decoration:none!important;}
+.batlas-header-logo{display:block;width:330px;max-width:34vw;height:auto;max-height:64px;object-fit:contain;object-position:left center;}
+.top-nav{margin-left:auto!important;align-self:stretch!important;display:flex!important;align-items:center!important;}
+.top-nav a{font-size:15px!important;font-weight:650!important;letter-spacing:.015em!important;color:var(--batlas-navy)!important;}
+.top-nav a:hover,.top-nav a:focus-visible{color:var(--batlas-blue)!important;}
+body{padding-top:82px!important;}
+
+/* A single top-level page geometry */
+.lifecycle-home,.guided-match-view,.contribution-view{
+  scroll-margin-top:100px!important;
+}
+.lifecycle-home,.guided-match-shell,.contribution-shell{
+  width:min(1180px,calc(100% - 40px))!important;
+  max-width:1180px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  box-sizing:border-box!important;
+}
+.lifecycle-home{padding:34px 0 56px!important;}
+.guided-match-view,.contribution-view{padding:34px 0 56px!important;background:#fff!important;}
+.guided-match-shell,.contribution-shell{
+  padding:0!important;
+  background:#fff!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.lifecycle-hero,.guided-match-header,.contribution-header{
+  max-width:980px!important;
+  margin:0 0 32px!important;
+  padding:0!important;
+}
+.workspace-eyebrow{
+  margin:0 0 8px!important;
+  font-size:13px!important;
+  font-weight:750!important;
+  line-height:1.2!important;
+  letter-spacing:.12em!important;
+  color:#667b8b!important;
+}
+.lifecycle-hero h1,.guided-match-header h1,.contribution-header h1,.information-page-title{
+  margin:0 0 12px!important;
+  font-size:clamp(36px,3.3vw,46px)!important;
+  line-height:1.08!important;
+  letter-spacing:-.025em!important;
+  font-weight:730!important;
+  color:var(--batlas-blue)!important;
+}
+.lifecycle-hero>p:last-child,.guided-match-header>p,.contribution-header>p{
+  margin:0!important;
+  max-width:950px!important;
+  font-size:17px!important;
+  line-height:1.55!important;
+  font-weight:400!important;
+  color:var(--batlas-grey)!important;
+}
+.top-level-back,.information-back-link{display:none!important;}
+
+/* Contribute: predictable alignment and card rhythm */
+.contribution-principle{
+  margin:0 0 26px!important;
+  padding:16px 18px!important;
+  border:1px solid var(--batlas-border)!important;
+  border-left:4px solid var(--batlas-blue)!important;
+  border-radius:5px!important;
+  background:var(--batlas-surface)!important;
+  font-size:15px!important;
+  line-height:1.55!important;
+  color:var(--batlas-grey)!important;
+}
+.contribution-type-groups{display:grid!important;gap:28px!important;}
+.contribution-type-group{margin:0!important;}
+.contribution-type-group h2{
+  margin:0 0 12px!important;
+  font-size:26px!important;
+  line-height:1.2!important;
+  color:var(--batlas-navy)!important;
+}
+.contribution-type-grid{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  align-items:stretch!important;
+  gap:12px!important;
+}
+.contribution-type-card{
+  min-height:132px!important;
+  height:100%!important;
+  padding:17px 17px 16px!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:flex-start!important;
+  text-align:left!important;
+  border:1px solid var(--batlas-border)!important;
+  border-radius:5px!important;
+  background:#fff!important;
+  box-shadow:none!important;
+  color:var(--batlas-navy)!important;
+}
+.contribution-type-card strong{
+  display:block!important;
+  margin:0 0 7px!important;
+  font-size:17px!important;
+  line-height:1.3!important;
+  font-weight:720!important;
+  color:var(--batlas-navy)!important;
+}
+.contribution-type-card span,.contribution-type-card p,.contribution-type-card small{
+  margin:0!important;
+  font-size:15px!important;
+  line-height:1.48!important;
+  font-weight:400!important;
+  color:var(--batlas-grey)!important;
+}
+.contribution-type-card:hover,.contribution-type-card:focus-visible{border-color:var(--batlas-blue)!important;background:#f8fbfd!important;}
+
+/* About/info treatment uses the same typographic hierarchy */
+.information-modal-content{max-width:1020px!important;padding:38px 42px!important;border-radius:6px!important;}
+#informationModalContent>.workspace-eyebrow{margin-bottom:8px!important;}
+#informationModalContent>.information-page-title{max-width:900px!important;}
+#informationModalContent>p{font-size:17px!important;line-height:1.55!important;color:var(--batlas-grey)!important;}
+.information-section h3{color:var(--batlas-navy)!important;}
+
+/* Research/Dream top content aligns to the same vertical baseline */
+#discoverView{scroll-margin-top:100px!important;}
+#discoverView .results-panel{padding-top:32px!important;}
+#discoverView .results-header{margin:0 0 16px!important;}
+#discoverView .results-header h2{
+  margin:0 0 4px!important;
+  font-size:32px!important;
+  line-height:1.15!important;
+  color:var(--batlas-blue)!important;
+  font-weight:730!important;
+}
+#discoverView .results-header p{font-size:16px!important;line-height:1.5!important;color:var(--batlas-grey)!important;}
+
+/* Moderator diagnostics: local file testing is intentional, not an error state */
+.moderator-access-link{font-weight:650!important;}
+
+@media(max-width:980px){
+  .site-header{height:auto!important;min-height:76px!important;padding:7px 14px!important;gap:12px!important;}
+  .batlas-header-logo{width:255px;max-width:38vw;}
+  .top-nav a{font-size:13px!important;padding:10px 7px!important;}
+  body{padding-top:76px!important;}
+}
+@media(max-width:760px){
+  .site-header{position:sticky!important;min-height:68px!important;flex-wrap:wrap!important;}
+  .batlas-header-logo{width:230px;max-width:72vw;max-height:56px;}
+  .top-nav{width:100%!important;overflow-x:auto!important;justify-content:flex-start!important;}
+  body{padding-top:0!important;}
+  .lifecycle-home,.guided-match-shell,.contribution-shell{width:min(100% - 28px,1180px)!important;}
+  .lifecycle-home,.guided-match-view,.contribution-view{padding-top:24px!important;}
+  .contribution-type-grid{grid-template-columns:1fr!important;}
+  .contribution-type-card{min-height:0!important;}
+}

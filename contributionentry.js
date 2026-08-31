@@ -917,7 +917,7 @@
         $("contributionTypeGroups").hidden = false;
         const [data] = await Promise.all([loadTaxonomy(), loadModels()]);
         renderGroups(data, returnContext);
-        view?.scrollIntoView({ behavior: "smooth", block: "start" });
+        if (view) { const h=document.querySelector(".site-header")?.getBoundingClientRect().height||72; window.scrollTo({top:Math.max(0,view.getBoundingClientRect().top+window.scrollY-h-18),behavior:"smooth"}); }
     }
 
     function openGlobal(options = {}) { return open({ source: "global" }, options); }
