@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0",
+  "defaultLocale": "en",
+  "fallbackLocale": "en",
+  "supportedLocales": [
+    {
+      "code": "en",
+      "label": "English",
+      "status": "active"
+    },
+    {
+      "code": "fr",
+      "label": "Français",
+      "status": "ready"
+    },
+    {
+      "code": "de",
+      "label": "Deutsch",
+      "status": "ready"
+    },
+    {
+      "code": "es",
+      "label": "Español",
+      "status": "ready"
+    },
+    {
+      "code": "pt",
+      "label": "Português",
+      "status": "ready"
+    }
+  ],
+  "policy": {
+    "canonicalDataLanguage": "language-neutral",
+    "canonicalEnumValues": "codes",
+    "displayStrings": "translation-catalogs",
+    "fallbackBehaviour": "missing translation falls back to English key text; canonical values never change by locale"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.1",
+  "canonicalUnits": {
+    "length": "m",
+    "mass": "kg",
+    "volume": "L",
+    "power": "kW",
+    "speed": "kn",
+    "distance": "nm",
+    "area": "m2"
+  },
+  "units": {
+    "m": {
+      "dimension": "length",
+      "toCanonicalFactor": 1
+    },
+    "cm": {
+      "dimension": "length",
+      "toCanonicalFactor": 0.01
+    },
+    "ft": {
+      "dimension": "length",
+      "toCanonicalFactor": 0.3048
+    },
+    "in": {
+      "dimension": "length",
+      "toCanonicalFactor": 0.0254
+    },
+    "kg": {
+      "dimension": "mass",
+      "toCanonicalFactor": 1
+    },
+    "lb": {
+      "dimension": "mass",
+      "toCanonicalFactor": 0.45359237
+    },
+    "L": {
+      "dimension": "volume",
+      "toCanonicalFactor": 1
+    },
+    "us_gal": {
+      "dimension": "volume",
+      "toCanonicalFactor": 3.785411784
+    },
+    "imp_gal": {
+      "dimension": "volume",
+      "toCanonicalFactor": 4.54609
+    },
+    "kW": {
+      "dimension": "power",
+      "toCanonicalFactor": 1
+    },
+    "hp": {
+      "dimension": "power",
+      "toCanonicalFactor": 0.745699872
+    },
+    "kn": {
+      "dimension": "speed",
+      "toCanonicalFactor": 1
+    },
+    "nm": {
+      "dimension": "distance",
+      "toCanonicalFactor": 1
+    },
+    "m2": {
+      "dimension": "area",
+      "toCanonicalFactor": 1
+    },
+    "ft2": {
+      "dimension": "area",
+      "toCanonicalFactor": 0.09290304
+    }
+  },
+  "sourceParsing": {
+    "feetInches": {
+      "acceptedExamples": [
+        "27 ft 6 in",
+        "27' 6\""
+      ],
+      "storeOriginalText": true
+    },
+    "ambiguousGallons": {
+      "code": "gal_unknown",
+      "rule": "Never convert a source labelled only gal unless US vs Imperial gallons can be established. Preserve the raw source measurement until resolved."
+    }
+  },
+  "displayProfiles": {
+    "imperial": {
+      "lengthFormat": "ft_in",
+      "massUnit": "lb",
+      "volumeUnit": "us_gal",
+      "powerUnit": "hp",
+      "speedUnit": "kn",
+      "distanceUnit": "nm",
+      "areaUnit": "ft2"
+    },
+    "metric": {
+      "lengthUnit": "m",
+      "massUnit": "kg",
+      "volumeUnit": "L",
+      "powerUnit": "kW",
+      "speedUnit": "kn",
+      "distanceUnit": "nm",
+      "areaUnit": "m2"
+    },
+    "both": {
+      "primary": "imperial",
+      "secondary": "metric"
+    }
+  },
+  "policy": [
+    "Canonical numeric storage uses SI-derived units: metres, kilograms, litres and kilowatts.",
+    "Knots and nautical miles remain canonical marine units.",
+    "Original source value, source unit and source text belong in provenance/evidence records and are not discarded after normalization.",
+    "US gallons and Imperial gallons are distinct unit codes.",
+    "Area measurements use square metres canonically and preserve original source units."
+  ]
+}

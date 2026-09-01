@@ -1,561 +1,1868 @@
 {
-  "schemaVersion": 14,
-  "release": "v6.11-phase8c14-french-production-normalized",
-  "entity": "BoatModel",
-  "status": "Phase 8C-14 French production cruiser normalization completed",
+  "schemaVersion": "1.3",
+  "titleKey": "schema.title",
+  "canonicalDataLanguage": "language-neutral",
+  "defaultDisplayLocale": "en",
+  "unitRegistry": "data/unit-registry.json",
+  "localeConfig": "data/locale-config.json",
   "principles": [
-    "Known undesirable values may eliminate a candidate.",
-    "Unknown or missing values remain eligible and reduce confidence.",
-    "Unknown must never be represented as false, no, zero, poor or unsuitable.",
-    "Each field answers one defined question and must not duplicate another field.",
-    "Model-specific knowledge is ultimately stored with the authoritative boat model record.",
-    "Generated views may summarize authoritative model data but must not contain unique model knowledge.",
-    "No value may be invented to make a field appear complete."
+    "Known undesirable information may eliminate; missing information remains unknown and must not be treated as a negative.",
+    "Canonical field IDs describe meaning, not display units or language.",
+    "Canonical enum values are immutable language-neutral identifiers. Human-readable labels live in locale catalogs.",
+    "Measurements are stored in canonical internal units declared by the field registry; source values and source units are preserved separately.",
+    "US gallons and Imperial gallons are never conflated; unresolved 'gallon' sources remain unresolved.",
+    "Objective facts, normalized classifications, derived characteristics and editorial judgments are distinct data classes.",
+    "Power, sail and motorsailer models share one canonical architecture; non-applicable subsystem fields are explicitly Not Applicable rather than Unknown.",
+    "Primary propulsion mode is separate from mechanical propulsion so sailboats and motorsailers are represented correctly.",
+    "Preference matching consumes canonical facts and derived characteristics; preference questions do not automatically create new factual fields.",
+    "Every structured canonical field that may be corrected is individually correctable.",
+    "Canonical model values and source/evidence assertions are stored separately."
   ],
-  "fieldGroups": {
-    "Identity": [
-      "BoatModelID",
-      "ManufacturerID",
-      "Manufacturer",
-      "Model",
-      "Variant",
-      "Nickname"
-    ],
-    "Production": [
-      "FirstYear",
-      "LastYear",
-      "ModelVariations"
-    ],
-    "Specifications": [
-      "LOA_ft",
-      "HullLength_ft",
-      "LWL_ft",
-      "Beam_ft",
-      "Draft_ft",
-      "AirDraft_ft",
-      "Displacement_lb",
-      "FuelCapacity_gal",
-      "WaterCapacity_gal",
-      "HoldingCapacity_gal"
-    ],
-    "Configuration": [
-      "Configuration",
-      "NormalizedStyle",
-      "NormalizedHullType",
-      "FuelType",
-      "PropulsionType",
-      "EngineCount",
-      "Flybridge",
-      "AftCabin",
-      "SideDecks"
-    ],
-    "Accommodation": [
-      "Cabins",
-      "Berths",
-      "Heads",
-      "Shower"
-    ],
-    "ModelKnowledge": [
-      "Overview",
-      "Suitability",
-      "Strengths",
-      "TradeOffs",
-      "BestFor",
-      "AvoidIf",
-      "KnownConcerns",
-      "InspectionFocus",
-      "BuyerQuestions",
-      "OwnerActions"
-    ],
-    "Evidence": [
-      "EvidenceSummary",
-      "ResearchStatus",
-      "UnresolvedInformation"
-    ],
-    "LegacyMigration": [
-      "Weaknesses",
-      "CommonProblems",
-      "TypicalMission",
-      "DataConfidence",
-      "ResearchNotes"
-    ],
-    "supplementalIntelligence": [
-      "SupplementalIntelligence",
-      "SupplementalEvidence",
-      "SupplementalConfidence",
-      "SupplementalUpdatedAt",
-      "SupplementalRevision"
-    ]
-  },
-  "controlledValues": {
-    "ResearchStatus": [
-      "NotReviewed",
-      "InitialReview",
-      "PartiallyReviewed",
-      "Reviewed",
-      "Verified"
-    ],
-    "SuitabilityAssessment": [
-      "Good",
-      "Mixed",
-      "Limited",
-      "NotAssessed"
-    ],
-    "EvidenceType": [
-      "Factory documented",
-      "Technical or survey source",
-      "Multiple independent owner reports",
-      "Single owner report",
-      "Marketplace observation",
-      "Unverified",
-      "Conflicting information",
-      "Unknown"
-    ],
-    "EvidenceConfidence": [
-      "High",
-      "Moderate",
-      "Low",
-      "Conflicting",
-      "Unknown"
-    ],
-    "KnowledgeCoverage": [
-      "Strong",
-      "Partial",
-      "Limited",
-      "Unknown"
-    ]
-  },
-  "formatRules": {
-    "shortList": {
-      "type": "array",
-      "comparisonMaximumItems": 4,
-      "itemRule": "One concept per item. Use a short phrase or concise sentence. Do not store comma-separated pseudo-lists.",
-      "punctuation": "Short fragments omit terminal punctuation; complete sentences use normal punctuation."
+  "groups": [
+    {
+      "id": "identity",
+      "labelKey": "group.identity",
+      "fields": [
+        {
+          "id": "Manufacturer",
+          "labelKey": "field.Manufacturer",
+          "type": "text",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "Brand",
+          "labelKey": "field.Brand",
+          "type": "text",
+          "dataClass": "objective",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true
+        },
+        {
+          "id": "Builder",
+          "labelKey": "field.Builder",
+          "type": "text",
+          "dataClass": "objective",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true
+        },
+        {
+          "id": "Model",
+          "labelKey": "field.Model",
+          "type": "text",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "Variant",
+          "labelKey": "field.Variant",
+          "type": "text",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "Nickname",
+          "labelKey": "field.Nickname",
+          "type": "text",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "FirstYear",
+          "labelKey": "field.FirstYear",
+          "type": "integer",
+          "correctable": true,
+          "legacyKeys": [
+            "YearStart"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "LastYear",
+          "labelKey": "field.LastYear",
+          "type": "integer",
+          "correctable": true,
+          "legacyKeys": [
+            "YearEnd"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "Designer",
+          "labelKey": "field.Designer",
+          "type": "text",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "TotalBuilt",
+          "labelKey": "field.TotalBuilt",
+          "type": "integer",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "BuilderCountryCode",
+          "labelKey": "field.BuilderCountryCode",
+          "type": "text",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true
+        },
+        {
+          "id": "DesignCountryCode",
+          "labelKey": "field.DesignCountryCode",
+          "type": "text",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true
+        },
+        {
+          "id": "ModelAliases",
+          "labelKey": "field.ModelAliases",
+          "type": "array",
+          "dataClass": "objective",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true
+        }
+      ]
     },
-    "unknown": {
-      "storage": "Use null, an empty array, or the explicit controlled value Unknown/NotAssessed according to field type.",
-      "display": "Show Unknown or Not assessed when material. Do not convert missing information into a negative result.",
-      "filtering": "Unknown remains eligible and reduces confidence."
-    }
-  },
-  "definitions": {
-    "Overview": {
-      "question": "What is this boat model?",
-      "audience": [
-        "Dreamer",
-        "Buyer",
-        "Owner",
-        "Seller"
-      ],
-      "nature": "Factual synthesis",
-      "type": "string|null",
-      "format": "Two to four concise neutral sentences covering general configuration, intended use, layout character, typical propulsion and distinguishing design traits.",
-      "evidenceRequirement": "Supported by reliable specifications, period documentation, technical references or consistent model evidence.",
-      "unknownBehavior": "Use null. Display 'Overview not yet documented.'",
-      "mustNotContain": [
-        "Verdict language",
-        "Sales language",
-        "Best-for audiences",
-        "Unsupported rankings"
-      ],
-      "comparisonUse": "Not normally shown; the model header supplies identity."
+    {
+      "id": "vessel",
+      "labelKey": "group.vessel",
+      "fields": [
+        {
+          "id": "VesselCategoryCode",
+          "labelKey": "field.VesselCategoryCode",
+          "type": "enum",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": true,
+          "unknownAllowed": true,
+          "options": [
+            {
+              "code": "vessel.power",
+              "labelKey": "enum.vessel.power"
+            },
+            {
+              "code": "vessel.sail",
+              "labelKey": "enum.vessel.sail"
+            },
+            {
+              "code": "vessel.motorsailer",
+              "labelKey": "enum.vessel.motorsailer"
+            },
+            {
+              "code": "vessel.other",
+              "labelKey": "enum.vessel.other"
+            },
+            {
+              "code": "vessel.unknown",
+              "labelKey": "enum.vessel.unknown"
+            }
+          ]
+        },
+        {
+          "id": "PrimaryPropulsionModeCode",
+          "labelKey": "field.PrimaryPropulsionModeCode",
+          "type": "enum",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": true,
+          "unknownAllowed": true,
+          "options": [
+            {
+              "code": "primary_propulsion.power",
+              "labelKey": "enum.primary_propulsion.power"
+            },
+            {
+              "code": "primary_propulsion.sail",
+              "labelKey": "enum.primary_propulsion.sail"
+            },
+            {
+              "code": "primary_propulsion.sail_and_power",
+              "labelKey": "enum.primary_propulsion.sail_and_power"
+            },
+            {
+              "code": "primary_propulsion.other",
+              "labelKey": "enum.primary_propulsion.other"
+            },
+            {
+              "code": "primary_propulsion.unknown",
+              "labelKey": "enum.primary_propulsion.unknown"
+            }
+          ]
+        }
+      ]
     },
-    "Suitability": {
-      "question": "How well does this boat model fit defined use cases?",
-      "audience": [
-        "Buyer",
-        "Owner"
-      ],
-      "nature": "Interpretive, evidence-based",
-      "type": "object",
-      "format": "Keys represent defined use cases. Each value contains Assessment and Summary.",
-      "itemSchema": {
-        "Assessment": "Good|Mixed|Limited|NotAssessed",
-        "Summary": "concise string|null",
-        "EvidenceRefs": "array of evidence identifiers"
-      },
-      "evidenceRequirement": "Assessment must be traceable to dimensions, configuration, propulsion, documented capability or credible operating experience.",
-      "unknownBehavior": "Use NotAssessed with a null summary. Never infer Limited from missing evidence.",
-      "mustNotContain": [
-        "Generic praise",
-        "Owner personality descriptions",
-        "Known defect details"
-      ],
-      "comparisonUse": "Show selected or materially differentiating use cases only."
+    {
+      "id": "dimensions",
+      "labelKey": "group.dimensions",
+      "fields": [
+        {
+          "id": "LOA",
+          "labelKey": "field.LOA",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "legacyMeasurements": [
+            {
+              "key": "LOA_ft",
+              "unit": "ft"
+            },
+            {
+              "key": "LengthFt",
+              "unit": "ft"
+            }
+          ],
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "LWL",
+          "labelKey": "field.LWL",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "legacyMeasurements": [
+            {
+              "key": "LWL_ft",
+              "unit": "ft"
+            }
+          ],
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "Beam",
+          "labelKey": "field.Beam",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "legacyMeasurements": [
+            {
+              "key": "Beam_ft",
+              "unit": "ft"
+            },
+            {
+              "key": "BeamFt",
+              "unit": "ft"
+            }
+          ],
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "Draft",
+          "labelKey": "field.Draft",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "legacyMeasurements": [
+            {
+              "key": "Draft_ft",
+              "unit": "ft"
+            },
+            {
+              "key": "DraftFt",
+              "unit": "ft"
+            }
+          ],
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "AirDraft",
+          "labelKey": "field.AirDraft",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "legacyMeasurements": [
+            {
+              "key": "AirDraft_ft",
+              "unit": "ft"
+            }
+          ],
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "Headroom",
+          "labelKey": "field.Headroom",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "legacyMeasurements": [
+            {
+              "key": "Headroom_ft",
+              "unit": "ft"
+            },
+            {
+              "key": "Headroom_in",
+              "unit": "in"
+            },
+            {
+              "key": "InteriorHeadroom_in",
+              "unit": "in"
+            }
+          ],
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "Displacement",
+          "labelKey": "field.Displacement",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "mass",
+          "canonicalUnit": "kg",
+          "legacyMeasurements": [
+            {
+              "key": "Displacement_lb",
+              "unit": "lb"
+            },
+            {
+              "key": "DisplacementLb",
+              "unit": "lb"
+            }
+          ],
+          "allowedInputUnits": [
+            "kg",
+            "lb"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "kg",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "FuelCapacity",
+          "labelKey": "field.FuelCapacity",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "volume",
+          "canonicalUnit": "L",
+          "legacyMeasurements": [
+            {
+              "key": "FuelCapacity",
+              "unit": "gal_unknown"
+            },
+            {
+              "key": "FuelCapacityGal",
+              "unit": "gal_unknown"
+            }
+          ],
+          "allowedInputUnits": [
+            "L",
+            "us_gal",
+            "imp_gal"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "L",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "WaterCapacity",
+          "labelKey": "field.WaterCapacity",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "volume",
+          "canonicalUnit": "L",
+          "legacyMeasurements": [
+            {
+              "key": "WaterCapacity",
+              "unit": "gal_unknown"
+            },
+            {
+              "key": "WaterCapacityGal",
+              "unit": "gal_unknown"
+            }
+          ],
+          "allowedInputUnits": [
+            "L",
+            "us_gal",
+            "imp_gal"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "L",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "HoldingCapacity",
+          "labelKey": "field.HoldingCapacity",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "volume",
+          "canonicalUnit": "L",
+          "legacyMeasurements": [
+            {
+              "key": "HoldingCapacity",
+              "unit": "gal_unknown"
+            }
+          ],
+          "allowedInputUnits": [
+            "L",
+            "us_gal",
+            "imp_gal"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "L",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "CruiseSpeed",
+          "labelKey": "field.CruiseSpeed",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "speed",
+          "canonicalUnit": "kn",
+          "allowedInputUnits": [
+            "kn"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "kn",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "MaxSpeed",
+          "labelKey": "field.MaxSpeed",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "speed",
+          "canonicalUnit": "kn",
+          "allowedInputUnits": [
+            "kn"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "kn",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "Range",
+          "labelKey": "field.Range",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "distance",
+          "canonicalUnit": "nm",
+          "allowedInputUnits": [
+            "nm"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "nm",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "MastHeight",
+          "labelKey": "field.MastHeight",
+          "type": "measurement",
+          "dataClass": "objective",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true,
+          "canonicalUnit": "m",
+          "dimension": "length",
+          "allowedInputUnits": [
+            "m",
+            "cm",
+            "ft",
+            "in"
+          ]
+        },
+        {
+          "id": "SailArea",
+          "labelKey": "field.SailArea",
+          "type": "measurement",
+          "dataClass": "objective",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true,
+          "canonicalUnit": "m2",
+          "dimension": "area",
+          "allowedInputUnits": [
+            "m2",
+            "ft2"
+          ]
+        },
+        {
+          "id": "Ballast",
+          "labelKey": "field.Ballast",
+          "type": "measurement",
+          "dataClass": "objective",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true,
+          "canonicalUnit": "kg",
+          "dimension": "mass",
+          "allowedInputUnits": [
+            "kg",
+            "lb"
+          ]
+        }
+      ]
     },
-    "Strengths": {
-      "question": "What objective advantages does this boat model provide?",
-      "audience": [
-        "Buyer",
-        "Owner",
-        "Seller"
-      ],
-      "nature": "Interpretive factual",
-      "type": "array",
-      "format": "Two to four concise items for comparison; fuller list permitted in the Boat Guide.",
-      "evidenceRequirement": "Each item must be supported by specifications, design characteristics, technical sources or consistent independent reports.",
-      "unknownBehavior": "Use an empty array. Display 'No documented model-specific strengths yet.'",
-      "mustNotContain": [
-        "Best-for audience statements",
-        "Verdict labels",
-        "Unqualified promotional claims"
-      ],
-      "comparisonUse": "Primary decision-guidance row."
+    {
+      "id": "hull",
+      "labelKey": "group.hull",
+      "fields": [
+        {
+          "id": "HullMaterialCode",
+          "labelKey": "field.HullMaterialCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "HullMaterial"
+          ],
+          "options": [
+            {
+              "code": "hull_material.fiberglass",
+              "labelKey": "enum.hull_material.fiberglass"
+            },
+            {
+              "code": "hull_material.wood",
+              "labelKey": "enum.hull_material.wood"
+            },
+            {
+              "code": "hull_material.aluminum",
+              "labelKey": "enum.hull_material.aluminum"
+            },
+            {
+              "code": "hull_material.steel",
+              "labelKey": "enum.hull_material.steel"
+            },
+            {
+              "code": "hull_material.composite",
+              "labelKey": "enum.hull_material.composite"
+            },
+            {
+              "code": "hull_material.other",
+              "labelKey": "enum.hull_material.other"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "HullBehaviourCode",
+          "labelKey": "field.HullBehaviourCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "HullBehaviour",
+            "NormalizedHullType"
+          ],
+          "options": [
+            {
+              "code": "hull_behaviour.displacement",
+              "labelKey": "enum.hull_behaviour.displacement"
+            },
+            {
+              "code": "hull_behaviour.semi_displacement",
+              "labelKey": "enum.hull_behaviour.semi_displacement"
+            },
+            {
+              "code": "hull_behaviour.planing",
+              "labelKey": "enum.hull_behaviour.planing"
+            },
+            {
+              "code": "hull_behaviour.foiling",
+              "labelKey": "enum.hull_behaviour.foiling"
+            },
+            {
+              "code": "hull_behaviour.other",
+              "labelKey": "enum.hull_behaviour.other"
+            },
+            {
+              "code": "hull_behaviour.unknown",
+              "labelKey": "enum.hull_behaviour.unknown"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "HullConfigurationCode",
+          "labelKey": "field.HullConfigurationCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "NormalizedHullConfiguration"
+          ],
+          "options": [
+            {
+              "code": "hull_configuration.monohull",
+              "labelKey": "enum.hull_configuration.monohull"
+            },
+            {
+              "code": "hull_configuration.catamaran",
+              "labelKey": "enum.hull_configuration.catamaran"
+            },
+            {
+              "code": "hull_configuration.trimaran",
+              "labelKey": "enum.hull_configuration.trimaran"
+            },
+            {
+              "code": "hull_configuration.other",
+              "labelKey": "enum.hull_configuration.other"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "KeelConfigurationCode",
+          "labelKey": "field.KeelConfigurationCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "KeelConfiguration",
+            "KeelType"
+          ],
+          "options": [
+            {
+              "code": "keel.full_long",
+              "labelKey": "enum.keel.full_long"
+            },
+            {
+              "code": "keel.modified_full",
+              "labelKey": "enum.keel.modified_full"
+            },
+            {
+              "code": "keel.fin",
+              "labelKey": "enum.keel.fin"
+            },
+            {
+              "code": "keel.modified_fin",
+              "labelKey": "enum.keel.modified_fin"
+            },
+            {
+              "code": "keel.wing",
+              "labelKey": "enum.keel.wing"
+            },
+            {
+              "code": "keel.bulb",
+              "labelKey": "enum.keel.bulb"
+            },
+            {
+              "code": "keel.shoal",
+              "labelKey": "enum.keel.shoal"
+            },
+            {
+              "code": "keel.bilge_twin",
+              "labelKey": "enum.keel.bilge_twin"
+            },
+            {
+              "code": "keel.keel_centerboard",
+              "labelKey": "enum.keel.keel_centerboard"
+            },
+            {
+              "code": "keel.centerboard",
+              "labelKey": "enum.keel.centerboard"
+            },
+            {
+              "code": "keel.daggerboard",
+              "labelKey": "enum.keel.daggerboard"
+            },
+            {
+              "code": "keel.lifting",
+              "labelKey": "enum.keel.lifting"
+            },
+            {
+              "code": "keel.swing",
+              "labelKey": "enum.keel.swing"
+            },
+            {
+              "code": "keel.protective",
+              "labelKey": "enum.keel.protective"
+            },
+            {
+              "code": "keel.partial_skeg",
+              "labelKey": "enum.keel.partial_skeg"
+            },
+            {
+              "code": "keel.pocket",
+              "labelKey": "enum.keel.pocket"
+            },
+            {
+              "code": "keel.no_keel",
+              "labelKey": "enum.keel.no_keel"
+            },
+            {
+              "code": "keel.other",
+              "labelKey": "enum.keel.other"
+            },
+            {
+              "code": "keel.unknown",
+              "labelKey": "enum.keel.unknown"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "RudderTypeCode",
+          "labelKey": "field.RudderTypeCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "RudderType"
+          ],
+          "options": [
+            {
+              "code": "rudder.skeg_hung",
+              "labelKey": "enum.rudder.skeg_hung"
+            },
+            {
+              "code": "rudder.full_keel_attached",
+              "labelKey": "enum.rudder.full_keel_attached"
+            },
+            {
+              "code": "rudder.spade",
+              "labelKey": "enum.rudder.spade"
+            },
+            {
+              "code": "rudder.semi_balanced",
+              "labelKey": "enum.rudder.semi_balanced"
+            },
+            {
+              "code": "rudder.transom_hung",
+              "labelKey": "enum.rudder.transom_hung"
+            },
+            {
+              "code": "rudder.twin",
+              "labelKey": "enum.rudder.twin"
+            },
+            {
+              "code": "rudder.cassette",
+              "labelKey": "enum.rudder.cassette"
+            },
+            {
+              "code": "rudder.kick_up",
+              "labelKey": "enum.rudder.kick_up"
+            },
+            {
+              "code": "rudder.other",
+              "labelKey": "enum.rudder.other"
+            },
+            {
+              "code": "rudder.unknown",
+              "labelKey": "enum.rudder.unknown"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "RunningGearProtectionCode",
+          "labelKey": "field.RunningGearProtectionCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "RunningGearProtection"
+          ],
+          "options": [
+            {
+              "code": "running_gear.keel_protected",
+              "labelKey": "enum.running_gear.keel_protected"
+            },
+            {
+              "code": "running_gear.skeg_protected",
+              "labelKey": "enum.running_gear.skeg_protected"
+            },
+            {
+              "code": "running_gear.partial",
+              "labelKey": "enum.running_gear.partial"
+            },
+            {
+              "code": "running_gear.exposed",
+              "labelKey": "enum.running_gear.exposed"
+            },
+            {
+              "code": "running_gear.other",
+              "labelKey": "enum.running_gear.other"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "Construction",
+          "labelKey": "field.Construction",
+          "type": "text",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        }
+      ]
     },
-    "TradeOffs": {
-      "question": "What compromises are accepted in exchange for this boat model's design and strengths?",
-      "audience": [
-        "Buyer",
-        "Owner"
-      ],
-      "nature": "Interpretive factual",
-      "type": "array",
-      "format": "Two to four concise items for comparison.",
-      "evidenceRequirement": "Must follow from the model's design, layout, dimensions, propulsion, materials or ownership demands.",
-      "unknownBehavior": "Use an empty array. Display 'Trade-offs not yet documented.'",
-      "mustNotContain": [
-        "Normal compromise described as a defect",
-        "Generic age-related failure claims",
-        "Avoid-if phrasing"
-      ],
-      "comparisonUse": "Primary decision-guidance row.",
-      "renamedFrom": "Weaknesses"
+    {
+      "id": "propulsion",
+      "labelKey": "group.propulsion",
+      "fields": [
+        {
+          "id": "FuelCode",
+          "labelKey": "field.FuelCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "NormalizedFuel",
+            "Fuel"
+          ],
+          "options": [
+            {
+              "code": "fuel.diesel",
+              "labelKey": "enum.fuel.diesel"
+            },
+            {
+              "code": "fuel.gasoline",
+              "labelKey": "enum.fuel.gasoline"
+            },
+            {
+              "code": "fuel.electric",
+              "labelKey": "enum.fuel.electric"
+            },
+            {
+              "code": "fuel.hybrid",
+              "labelKey": "enum.fuel.hybrid"
+            },
+            {
+              "code": "fuel.mixed",
+              "labelKey": "enum.fuel.mixed"
+            },
+            {
+              "code": "fuel.other",
+              "labelKey": "enum.fuel.other"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "MechanicalPropulsionCode",
+          "labelKey": "field.MechanicalPropulsionCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "NormalizedPropulsion",
+            "Propulsion",
+            "PropulsionCode"
+          ],
+          "options": [
+            {
+              "code": "mechanical_propulsion.shaft",
+              "labelKey": "enum.mechanical_propulsion.shaft"
+            },
+            {
+              "code": "mechanical_propulsion.saildrive",
+              "labelKey": "enum.mechanical_propulsion.saildrive"
+            },
+            {
+              "code": "mechanical_propulsion.outboard",
+              "labelKey": "enum.mechanical_propulsion.outboard"
+            },
+            {
+              "code": "mechanical_propulsion.sterndrive",
+              "labelKey": "enum.mechanical_propulsion.sterndrive"
+            },
+            {
+              "code": "mechanical_propulsion.pod",
+              "labelKey": "enum.mechanical_propulsion.pod"
+            },
+            {
+              "code": "mechanical_propulsion.v_drive",
+              "labelKey": "enum.mechanical_propulsion.v_drive"
+            },
+            {
+              "code": "mechanical_propulsion.jet",
+              "labelKey": "enum.mechanical_propulsion.jet"
+            },
+            {
+              "code": "mechanical_propulsion.mixed",
+              "labelKey": "enum.mechanical_propulsion.mixed"
+            },
+            {
+              "code": "mechanical_propulsion.none",
+              "labelKey": "enum.mechanical_propulsion.none"
+            },
+            {
+              "code": "mechanical_propulsion.other",
+              "labelKey": "enum.mechanical_propulsion.other"
+            },
+            {
+              "code": "mechanical_propulsion.unknown",
+              "labelKey": "enum.mechanical_propulsion.unknown"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "EngineCount",
+          "labelKey": "field.EngineCount",
+          "type": "integer",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "EngineConfiguration",
+          "labelKey": "field.EngineConfiguration",
+          "type": "text",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "TypicalEngineID",
+          "labelKey": "field.TypicalEngineID",
+          "type": "text",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "EnginePowerPerEngine",
+          "labelKey": "field.EnginePowerPerEngine",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "power",
+          "canonicalUnit": "kW",
+          "allowedInputUnits": [
+            "kW",
+            "hp"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "kW",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "TotalInstalledPower",
+          "labelKey": "field.TotalInstalledPower",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "power",
+          "canonicalUnit": "kW",
+          "allowedInputUnits": [
+            "kW",
+            "hp"
+          ],
+          "dataClass": "derived",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "kW",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "CoolingCode",
+          "labelKey": "field.CoolingCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "Cooling"
+          ],
+          "options": [
+            {
+              "code": "cooling.fresh_water",
+              "labelKey": "enum.cooling.fresh_water"
+            },
+            {
+              "code": "cooling.raw_water",
+              "labelKey": "enum.cooling.raw_water"
+            },
+            {
+              "code": "cooling.fresh_raw",
+              "labelKey": "enum.cooling.fresh_raw"
+            },
+            {
+              "code": "cooling.outboard",
+              "labelKey": "enum.cooling.outboard"
+            },
+            {
+              "code": "cooling.other",
+              "labelKey": "enum.cooling.other"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "SteeringTypeCode",
+          "labelKey": "field.SteeringTypeCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "SteeringType"
+          ],
+          "options": [
+            {
+              "code": "steering.wheel",
+              "labelKey": "enum.steering.wheel"
+            },
+            {
+              "code": "steering.tiller",
+              "labelKey": "enum.steering.tiller"
+            },
+            {
+              "code": "steering.dual_wheel",
+              "labelKey": "enum.steering.dual_wheel"
+            },
+            {
+              "code": "steering.dual_station",
+              "labelKey": "enum.steering.dual_station"
+            },
+            {
+              "code": "steering.hydraulic",
+              "labelKey": "enum.steering.hydraulic"
+            },
+            {
+              "code": "steering.mechanical_cable",
+              "labelKey": "enum.steering.mechanical_cable"
+            },
+            {
+              "code": "steering.mechanical_linkage",
+              "labelKey": "enum.steering.mechanical_linkage"
+            },
+            {
+              "code": "steering.power_assisted",
+              "labelKey": "enum.steering.power_assisted"
+            },
+            {
+              "code": "steering.other",
+              "labelKey": "enum.steering.other"
+            },
+            {
+              "code": "steering.unknown",
+              "labelKey": "enum.steering.unknown"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "PropellerCount",
+          "labelKey": "field.PropellerCount",
+          "type": "integer",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "AuxiliaryEnginePresent",
+          "labelKey": "field.AuxiliaryEnginePresent",
+          "type": "boolean",
+          "dataClass": "objective",
+          "correctable": true,
+          "matchInput": true,
+          "unknownAllowed": true
+        }
+      ]
     },
-    "BestFor": {
-      "question": "Which owner, mission or ownership situation is most likely to suit the complete boat model package?",
-      "audience": [
-        "Dreamer",
-        "Buyer"
+    {
+      "id": "rig",
+      "labelKey": "group.rig",
+      "applicability": [
+        "vessel.sail",
+        "vessel.motorsailer"
       ],
-      "nature": "Advisory",
-      "type": "array",
-      "format": "Two to four plain-language audience, mission or ownership-situation statements.",
-      "evidenceRequirement": "Must synthesize supported suitability, strengths and trade-offs; it may not be generated from Strengths alone.",
-      "unknownBehavior": "Use an empty array. Display 'Best fit not yet assessed.'",
-      "mustNotContain": [
-        "Construction strengths",
-        "Verdict labels",
-        "Unsupported lifestyle assumptions"
-      ],
-      "comparisonUse": "Primary decision-guidance row."
+      "fields": [
+        {
+          "id": "RigTypeCode",
+          "labelKey": "field.RigTypeCode",
+          "type": "enum",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": true,
+          "unknownAllowed": true,
+          "options": [
+            {
+              "code": "rig.sloop",
+              "labelKey": "enum.rig.sloop"
+            },
+            {
+              "code": "rig.masthead_sloop",
+              "labelKey": "enum.rig.masthead_sloop"
+            },
+            {
+              "code": "rig.fractional_sloop",
+              "labelKey": "enum.rig.fractional_sloop"
+            },
+            {
+              "code": "rig.cutter",
+              "labelKey": "enum.rig.cutter"
+            },
+            {
+              "code": "rig.ketch",
+              "labelKey": "enum.rig.ketch"
+            },
+            {
+              "code": "rig.yawl",
+              "labelKey": "enum.rig.yawl"
+            },
+            {
+              "code": "rig.schooner",
+              "labelKey": "enum.rig.schooner"
+            },
+            {
+              "code": "rig.cat",
+              "labelKey": "enum.rig.cat"
+            },
+            {
+              "code": "rig.junk",
+              "labelKey": "enum.rig.junk"
+            },
+            {
+              "code": "rig.other",
+              "labelKey": "enum.rig.other"
+            },
+            {
+              "code": "rig.unknown",
+              "labelKey": "enum.rig.unknown"
+            }
+          ]
+        },
+        {
+          "id": "MastCount",
+          "labelKey": "field.MastCount",
+          "type": "integer",
+          "dataClass": "objective",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true
+        },
+        {
+          "id": "MastMaterialCode",
+          "labelKey": "field.MastMaterialCode",
+          "type": "enum",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true,
+          "options": [
+            {
+              "code": "mast.aluminum",
+              "labelKey": "enum.mast.aluminum"
+            },
+            {
+              "code": "mast.wood",
+              "labelKey": "enum.mast.wood"
+            },
+            {
+              "code": "mast.carbon",
+              "labelKey": "enum.mast.carbon"
+            },
+            {
+              "code": "mast.steel",
+              "labelKey": "enum.mast.steel"
+            },
+            {
+              "code": "mast.other",
+              "labelKey": "enum.mast.other"
+            },
+            {
+              "code": "mast.unknown",
+              "labelKey": "enum.mast.unknown"
+            }
+          ]
+        },
+        {
+          "id": "MastSteppingCode",
+          "labelKey": "field.MastSteppingCode",
+          "type": "enum",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true,
+          "options": [
+            {
+              "code": "mast_step.deck",
+              "labelKey": "enum.mast_step.deck"
+            },
+            {
+              "code": "mast_step.keel",
+              "labelKey": "enum.mast_step.keel"
+            },
+            {
+              "code": "mast_step.tabernacle",
+              "labelKey": "enum.mast_step.tabernacle"
+            },
+            {
+              "code": "mast_step.other",
+              "labelKey": "enum.mast_step.other"
+            },
+            {
+              "code": "mast_step.unknown",
+              "labelKey": "enum.mast_step.unknown"
+            }
+          ]
+        },
+        {
+          "id": "MastLoweringCode",
+          "labelKey": "field.MastLoweringCode",
+          "type": "enum",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": true,
+          "unknownAllowed": true,
+          "options": [
+            {
+              "code": "mast_lowering.designed_for_lowering",
+              "labelKey": "enum.mast_lowering.designed_for_lowering"
+            },
+            {
+              "code": "mast_lowering.possible_with_equipment",
+              "labelKey": "enum.mast_lowering.possible_with_equipment"
+            },
+            {
+              "code": "mast_lowering.not_practical",
+              "labelKey": "enum.mast_lowering.not_practical"
+            },
+            {
+              "code": "mast_lowering.other",
+              "labelKey": "enum.mast_lowering.other"
+            },
+            {
+              "code": "mast_lowering.unknown",
+              "labelKey": "enum.mast_lowering.unknown"
+            }
+          ]
+        },
+        {
+          "id": "StandingRiggingCode",
+          "labelKey": "field.StandingRiggingCode",
+          "type": "enum",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true,
+          "options": [
+            {
+              "code": "standing_rigging.wire",
+              "labelKey": "enum.standing_rigging.wire"
+            },
+            {
+              "code": "standing_rigging.rod",
+              "labelKey": "enum.standing_rigging.rod"
+            },
+            {
+              "code": "standing_rigging.synthetic",
+              "labelKey": "enum.standing_rigging.synthetic"
+            },
+            {
+              "code": "standing_rigging.unstayed",
+              "labelKey": "enum.standing_rigging.unstayed"
+            },
+            {
+              "code": "standing_rigging.other",
+              "labelKey": "enum.standing_rigging.other"
+            },
+            {
+              "code": "standing_rigging.unknown",
+              "labelKey": "enum.standing_rigging.unknown"
+            }
+          ]
+        },
+        {
+          "id": "MainsailTypeCode",
+          "labelKey": "field.MainsailTypeCode",
+          "type": "enum",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true,
+          "options": [
+            {
+              "code": "mainsail.conventional",
+              "labelKey": "enum.mainsail.conventional"
+            },
+            {
+              "code": "mainsail.in_mast_furling",
+              "labelKey": "enum.mainsail.in_mast_furling"
+            },
+            {
+              "code": "mainsail.in_boom_furling",
+              "labelKey": "enum.mainsail.in_boom_furling"
+            },
+            {
+              "code": "mainsail.gaff",
+              "labelKey": "enum.mainsail.gaff"
+            },
+            {
+              "code": "mainsail.other",
+              "labelKey": "enum.mainsail.other"
+            },
+            {
+              "code": "mainsail.unknown",
+              "labelKey": "enum.mainsail.unknown"
+            }
+          ]
+        },
+        {
+          "id": "HeadsailConfigurationCode",
+          "labelKey": "field.HeadsailConfigurationCode",
+          "type": "enum",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true,
+          "options": [
+            {
+              "code": "headsail.none",
+              "labelKey": "enum.headsail.none"
+            },
+            {
+              "code": "headsail.single",
+              "labelKey": "enum.headsail.single"
+            },
+            {
+              "code": "headsail.multiple",
+              "labelKey": "enum.headsail.multiple"
+            },
+            {
+              "code": "headsail.self_tacking",
+              "labelKey": "enum.headsail.self_tacking"
+            },
+            {
+              "code": "headsail.other",
+              "labelKey": "enum.headsail.other"
+            },
+            {
+              "code": "headsail.unknown",
+              "labelKey": "enum.headsail.unknown"
+            }
+          ]
+        }
+      ]
     },
-    "AvoidIf": {
-      "question": "Which significant requirements or expectations materially conflict with this boat model?",
-      "audience": [
-        "Buyer"
-      ],
-      "nature": "Advisory",
-      "type": "array",
-      "format": "One to four direct incompatibility statements beginning with a concrete requirement or expectation.",
-      "evidenceRequirement": "Must be grounded in a known specification, design characteristic, access limitation, performance boundary or maintenance burden.",
-      "unknownBehavior": "Use an empty array. Display 'No model-specific incompatibilities documented.' This does not mean none exist.",
-      "mustNotContain": [
-        "Vague cautions",
-        "Unknown treated as incompatible",
-        "Generic text applicable to every model"
-      ],
-      "comparisonUse": "Primary decision-guidance row."
+    {
+      "id": "layout",
+      "labelKey": "group.layout",
+      "fields": [
+        {
+          "id": "BoatFamilyCode",
+          "labelKey": "field.BoatFamilyCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "BoatFamily"
+          ],
+          "options": [
+            {
+              "code": "boat_family.trawler",
+              "labelKey": "enum.boat_family.trawler"
+            },
+            {
+              "code": "boat_family.tug",
+              "labelKey": "enum.boat_family.tug"
+            },
+            {
+              "code": "boat_family.tug_cruiser",
+              "labelKey": "enum.boat_family.tug_cruiser"
+            },
+            {
+              "code": "boat_family.downeast",
+              "labelKey": "enum.boat_family.downeast"
+            },
+            {
+              "code": "boat_family.express_cruiser",
+              "labelKey": "enum.boat_family.express_cruiser"
+            },
+            {
+              "code": "boat_family.motor_yacht",
+              "labelKey": "enum.boat_family.motor_yacht"
+            },
+            {
+              "code": "boat_family.sportfisher",
+              "labelKey": "enum.boat_family.sportfisher"
+            },
+            {
+              "code": "boat_family.pilothouse_cruiser",
+              "labelKey": "enum.boat_family.pilothouse_cruiser"
+            },
+            {
+              "code": "boat_family.cruising_sailboat",
+              "labelKey": "enum.boat_family.cruising_sailboat"
+            },
+            {
+              "code": "boat_family.performance_cruiser",
+              "labelKey": "enum.boat_family.performance_cruiser"
+            },
+            {
+              "code": "boat_family.bluewater_cruiser",
+              "labelKey": "enum.boat_family.bluewater_cruiser"
+            },
+            {
+              "code": "boat_family.daysailer",
+              "labelKey": "enum.boat_family.daysailer"
+            },
+            {
+              "code": "boat_family.racer_cruiser",
+              "labelKey": "enum.boat_family.racer_cruiser"
+            },
+            {
+              "code": "boat_family.pilothouse_sailboat",
+              "labelKey": "enum.boat_family.pilothouse_sailboat"
+            },
+            {
+              "code": "boat_family.motorsailer",
+              "labelKey": "enum.boat_family.motorsailer"
+            },
+            {
+              "code": "boat_family.other",
+              "labelKey": "enum.boat_family.other"
+            },
+            {
+              "code": "boat_family.unknown",
+              "labelKey": "enum.boat_family.unknown"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "StyleCode",
+          "labelKey": "field.StyleCode",
+          "type": "text",
+          "correctable": true,
+          "legacyKeys": [
+            "NormalizedStyle",
+            "Style"
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "Configuration",
+          "labelKey": "field.Configuration",
+          "type": "text",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "Cabins",
+          "labelKey": "field.Cabins",
+          "type": "integer",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "Berths",
+          "labelKey": "field.Berths",
+          "type": "integer",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "Heads",
+          "labelKey": "field.Heads",
+          "type": "integer",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "FlybridgeCode",
+          "labelKey": "field.FlybridgeCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "Flybridge"
+          ],
+          "options": [
+            {
+              "code": "availability.yes",
+              "labelKey": "enum.availability.yes"
+            },
+            {
+              "code": "availability.no",
+              "labelKey": "enum.availability.no"
+            },
+            {
+              "code": "availability.optional",
+              "labelKey": "enum.availability.optional"
+            },
+            {
+              "code": "availability.varies",
+              "labelKey": "enum.availability.varies"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": false
+        },
+        {
+          "id": "AftCabin",
+          "labelKey": "field.AftCabin",
+          "type": "boolean",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "SideDecksCode",
+          "labelKey": "field.SideDecksCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "SideDecks"
+          ],
+          "options": [
+            {
+              "code": "side_decks.wide",
+              "labelKey": "enum.side_decks.wide"
+            },
+            {
+              "code": "side_decks.moderate",
+              "labelKey": "enum.side_decks.moderate"
+            },
+            {
+              "code": "side_decks.narrow",
+              "labelKey": "enum.side_decks.narrow"
+            },
+            {
+              "code": "side_decks.asymmetric",
+              "labelKey": "enum.side_decks.asymmetric"
+            },
+            {
+              "code": "side_decks.none",
+              "labelKey": "enum.side_decks.none"
+            },
+            {
+              "code": "side_decks.varies",
+              "labelKey": "enum.side_decks.varies"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "GalleyUpWithHelm",
+          "labelKey": "field.GalleyUpWithHelm",
+          "type": "boolean",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "ShowerTypeCode",
+          "labelKey": "field.ShowerTypeCode",
+          "type": "enum",
+          "correctable": true,
+          "legacyKeys": [
+            "ShowerType",
+            "Shower"
+          ],
+          "options": [
+            {
+              "code": "shower.separate_stall",
+              "labelKey": "enum.shower.separate_stall"
+            },
+            {
+              "code": "shower.wet_head",
+              "labelKey": "enum.shower.wet_head"
+            },
+            {
+              "code": "shower.none",
+              "labelKey": "enum.shower.none"
+            },
+            {
+              "code": "shower.varies",
+              "labelKey": "enum.shower.varies"
+            },
+            {
+              "code": "shower.other",
+              "labelKey": "enum.shower.other"
+            }
+          ],
+          "dataClass": "normalized",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "WalkthroughTransom",
+          "labelKey": "field.WalkthroughTransom",
+          "type": "boolean",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "SideHelmDoor",
+          "labelKey": "field.SideHelmDoor",
+          "type": "boolean",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "RemovableFlybridge",
+          "labelKey": "field.RemovableFlybridge",
+          "type": "boolean",
+          "correctable": true,
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": true
+        },
+        {
+          "id": "Trailerable",
+          "labelKey": "field.Trailerable",
+          "type": "boolean",
+          "correctable": true,
+          "dataClass": "derived",
+          "unknownAllowed": true,
+          "matchInput": true
+        }
+      ]
     },
-    "KnownConcerns": {
-      "question": "What documented or repeatedly reported problems are associated with this boat model?",
-      "audience": [
-        "Buyer",
-        "Owner",
-        "Seller"
-      ],
-      "nature": "Factual and evidentiary",
-      "type": "array",
-      "format": "Structured concern objects; one affected system and concern per object.",
-      "itemSchema": {
-        "ConcernID": "stable string",
-        "System": "string",
-        "Description": "string",
-        "AffectedYears": "object|null",
-        "AffectedVariations": "array",
-        "BuyerQuestion": "string|null",
-        "InspectionAction": "string|null",
-        "OwnerAction": "string|null",
-        "EvidenceRefs": "array",
-        "Confidence": "High|Moderate|Low|Conflicting|Unknown"
-      },
-      "evidenceRequirement": "A model-specific concern requires factory documentation, a technical or survey source, or repeated independent reports. A single report must be labelled as such.",
-      "unknownBehavior": "Use an empty array. Display 'No documented model-specific concerns yet.' Do not imply the model has no problems.",
-      "mustNotContain": [
-        "Generic age-related risks presented as model defects",
-        "Unverified marketplace claims without labels",
-        "Trade-offs"
-      ],
-      "comparisonUse": "Not reproduced in full; informs Inspection Focus and Boat Guide disclosure."
-    },
-    "InspectionFocus": {
-      "question": "What should a buyer or surveyor inspect especially closely on this boat model?",
-      "audience": [
-        "Buyer"
-      ],
-      "nature": "Advisory derived from evidence",
-      "type": "array",
-      "format": "Three to six concise action-oriented checklist items in the Boat Guide; up to four in comparison.",
-      "evidenceRequirement": "Derived from Known Concerns, documented construction details, meaningful model variations or clearly labelled age-related risks.",
-      "unknownBehavior": "Use an empty array. Display 'No model-specific inspection focus recorded; use an age-appropriate general marine survey.'",
-      "mustNotContain": [
-        "Copied concern paragraphs",
-        "Comma-split prose fragments",
-        "Unsupported failure claims"
-      ],
-      "comparisonUse": "Primary buyer-risk row."
-    },
-    "BuyerQuestions": {
-      "question": "What should a buyer ask the seller before inspection or survey?",
-      "audience": [
-        "Buyer"
-      ],
-      "nature": "Advisory",
-      "type": "array",
-      "format": "Direct questions, each ending with a question mark and addressing one issue.",
-      "evidenceRequirement": "Derived from Known Concerns, Model Variations, missing material specifications or ownership-sensitive systems.",
-      "unknownBehavior": "Use an empty array. Display 'No model-specific buyer questions recorded.'",
-      "mustNotContain": [
-        "Survey instructions",
-        "Owner maintenance commands",
-        "Questions unrelated to this model"
-      ],
-      "comparisonUse": "Boat Guide only unless explicitly expanded."
-    },
-    "OwnerActions": {
-      "question": "What practical monitoring, prevention or maintenance actions are especially relevant to this boat model?",
-      "audience": [
-        "Owner",
-        "Seller"
-      ],
-      "nature": "Advisory",
-      "type": "array",
-      "format": "Action-oriented items describing what to monitor, prevent, document or address.",
-      "evidenceRequirement": "Derived from documented systems, Known Concerns or credible model-specific ownership experience.",
-      "unknownBehavior": "Use an empty array. Display 'No model-specific owner actions recorded.'",
-      "mustNotContain": [
-        "Calendar schedules",
-        "Reminders",
-        "Generic maintenance manuals reproduced as model advice"
-      ],
-      "comparisonUse": "Boat Guide and My Boat; not normally shown in model comparison."
-    },
-    "ModelVariations": {
-      "question": "Which production, layout, hull, engine, flybridge, cabin, builder or location differences materially affect use, maintenance or value?",
-      "audience": [
-        "Buyer",
-        "Owner",
-        "Seller"
-      ],
-      "nature": "Factual",
-      "type": "array",
-      "format": "Structured variation objects describing the affected period or version and its practical significance.",
-      "itemSchema": {
-        "VariationID": "stable string",
-        "Name": "string",
-        "Years": "object|null",
-        "Description": "string",
-        "PracticalEffect": "string",
-        "EvidenceRefs": "array",
-        "Confidence": "High|Moderate|Low|Conflicting|Unknown"
-      },
-      "evidenceRequirement": "Supported by factory documentation, reliable technical references or consistent evidence across examples.",
-      "unknownBehavior": "Use an empty array. Display 'Meaningful model variations not yet documented.'",
-      "mustNotContain": [
-        "Cosmetic differences with no practical effect",
-        "Unverified production assumptions"
-      ],
-      "comparisonUse": "Show only variations relevant to the compared version or a material buying decision."
-    },
-    "EvidenceSummary": {
-      "question": "What evidence supports a specific statement, and how certain is that statement?",
-      "audience": [
-        "Buyer",
-        "Owner",
-        "Editor"
-      ],
-      "nature": "Evidentiary metadata",
-      "type": "object",
-      "format": "Object containing KnowledgeCoverage, EvidenceQuality, Statements and UnresolvedInformation.",
-      "evidenceRequirement": "Confidence must reflect the quality, independence, agreement and specificity of cited evidence.",
-      "unknownBehavior": "Initialize KnowledgeCoverage and EvidenceQuality as Unknown with empty Statements and UnresolvedInformation arrays. Unknown evidence must not create a negative suitability result.",
-      "mustNotContain": [
-        "Whole-model High confidence without scope",
-        "Confidence inferred from field completeness alone",
-        "Recommendation labels"
-      ],
-      "comparisonUse": "Summarize as Research Coverage, Evidence Quality and material Unresolved Information.",
-      "objectSchema": {
-        "KnowledgeCoverage": "Strong|Partial|Limited|Unknown",
-        "EvidenceQuality": "High|Moderate|Low|Conflicting|Unknown",
-        "Statements": "array of scoped evidence items",
-        "UnresolvedInformation": "array of concise strings"
-      },
-      "statementSchema": {
-        "Scope": "field path or statement identifier",
-        "EvidenceRefs": "array",
-        "EvidenceTypes": "array of controlled EvidenceType values",
-        "Confidence": "High|Moderate|Low|Conflicting|Unknown",
-        "Notes": "string|null"
-      }
-    },
-    "EngineCount": {
-      "Question": "How many primary propulsion engines are normally installed?",
-      "Purpose": "Supports model comparison and the Twin Engines search requirement.",
-      "Nature": "Factual",
-      "Type": "integer|null",
-      "AllowedFormat": "1, 2, or another verified positive whole number; null when unknown or materially configuration-dependent.",
-      "EvidenceRequirement": "Factory documentation, technical reference, or model-specific configuration evidence.",
-      "UnknownState": "null. Unknown engine count must not eliminate a model from search.",
-      "Comparison": "May be shown with propulsion details when known."
-    }
-  },
-  "evidencePolicy": {
-    "labels": {
-      "Factory documented": "Published by the builder or in factory literature/manuals.",
-      "Technical or survey source": "Supported by a qualified technical reference, survey, service document or recognized specialist source.",
-      "Multiple independent owner reports": "Repeated by independent owners or communities with no apparent shared source.",
-      "Single owner report": "Reported by one owner and not independently corroborated.",
-      "Marketplace observation": "Observed in listings or asking-market patterns; not proof of factory specification or defect prevalence.",
-      "Unverified": "Claim exists but has not been adequately checked.",
-      "Conflicting information": "Credible sources disagree or model variations have not been resolved.",
-      "Unknown": "No adequate evidence currently available."
-    },
-    "confidenceScope": "Confidence attaches to a fact, statement, concern, variation or defined field—not automatically to the entire boat model.",
-    "highConfidenceRule": "High requires strong, specific and substantially consistent evidence. It must not be assigned solely because a record is complete.",
-    "conflictRule": "Conflicting credible evidence is preserved and displayed; it is not averaged into a false single answer.",
-    "applicationScope": {
-      "purpose": "Identify whether evidence applies to one model, a production period, a configuration, a model family or general age-related guidance.",
-      "allowedScopes": [
-        "Model",
-        "Generation",
-        "Production period",
-        "Configuration",
-        "Model family",
-        "Manufacturer",
-        "General age-related guidance"
+    {
+      "id": "regulatory",
+      "labelKey": "group.regulatory",
+      "fields": [
+        {
+          "id": "CECategoryCode",
+          "labelKey": "field.CECategoryCode",
+          "type": "enum",
+          "dataClass": "normalized",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true,
+          "options": [
+            {
+              "code": "ce.a",
+              "labelKey": "enum.ce.a"
+            },
+            {
+              "code": "ce.b",
+              "labelKey": "enum.ce.b"
+            },
+            {
+              "code": "ce.c",
+              "labelKey": "enum.ce.c"
+            },
+            {
+              "code": "ce.d",
+              "labelKey": "enum.ce.d"
+            },
+            {
+              "code": "ce.not_applicable",
+              "labelKey": "enum.ce.not_applicable"
+            },
+            {
+              "code": "ce.unknown",
+              "labelKey": "enum.ce.unknown"
+            }
+          ]
+        },
+        {
+          "id": "CertificationNotes",
+          "labelKey": "field.CertificationNotes",
+          "type": "text",
+          "dataClass": "objective",
+          "correctable": true,
+          "matchInput": false,
+          "unknownAllowed": true
+        }
       ]
     }
-  },
-  "fieldOwnership": {
-    "boatmodels.json": [
-      "BoatModelID",
-      "ManufacturerID",
-      "Manufacturer",
-      "Model",
-      "Variant",
-      "Nickname",
-      "FirstYear",
-      "LastYear",
-      "LOA_ft",
-      "HullLength_ft",
-      "LWL_ft",
-      "Configuration",
-      "Overview",
-      "Suitability",
-      "Strengths",
-      "TradeOffs",
-      "BestFor",
-      "AvoidIf",
-      "KnownConcerns",
-      "InspectionFocus",
-      "BuyerQuestions",
-      "OwnerActions",
-      "ModelVariations",
-      "EvidenceSummary",
-      "ResearchStatus",
-      "UnresolvedInformation"
-    ],
-    "data/registry/boat-registry.json": [
-      "Aliases",
-      "LegacyBoatModelIDs",
-      "Resolution",
-      "ResolutionNotes",
-      "AuditDisposition",
-      "IdentityStatus",
-      "RedirectTo"
-    ],
-    "generatedOnly": [
-      "comparison summaries",
-      "knowledge cards",
-      "coverage reports",
-      "search indexes"
-    ]
-  },
-  "migrationRules": {
-    "currentPhase": "Phase 6 editorial normalization completed. Legacy fields remain temporarily available for traceability and unresolved human review.",
-    "Weaknesses": "Review and migrate to TradeOffs. Do not automatically treat every weakness as a defect.",
-    "TypicalMission": "Review and distribute supported content between Suitability and BestFor.",
-    "CommonProblems": "Review manually. Migrate supported model-specific issues to KnownConcerns and derive InspectionFocus separately.",
-    "DataConfidence": "Retain temporarily for compatibility. Do not use as statement-level evidence or as a recommendation trigger.",
-    "ResearchNotes": "Retain as internal legacy research notes until model-specific claims and unresolved information are migrated.",
-    "listConversion": "Semicolon- or line-delimited lists may be mechanically normalized after audit. Never split narrative prose on commas.",
-    "preservation": "Ambiguous or unsupported legacy text must be preserved for review, not silently discarded or promoted into approved fields.",
-    "Phase5": {
-      "WeaknessesToTradeOffs": "Copy legacy Weaknesses into TradeOffs arrays when TradeOffs is empty; retain Weaknesses temporarily.",
-      "ListSplitting": "Split only on semicolons and line breaks. Never split automatically on commas.",
-      "Whitespace": "Trim leading/trailing whitespace, normalize line endings and repeated horizontal whitespace.",
-      "Unknowns": "Convert only explicit textual unknown markers in nullable text fields to null. Do not reinterpret false, No, or zero.",
-      "Statuses": "Migrate model research stages Favorite/None to Interested, Candidate to Shortlist, Research/Evaluating to Researching. Listing statuses remain separate.",
-      "AmbiguousProse": "Preserve unchanged for human review."
+  ],
+  "legacyCompatibility": {
+    "policy": "Legacy fields remain readable during migration. New accepted corrections publish canonical fields; runtime adapters must prefer canonical values when present.",
+    "measurementAliases": {
+      "LOA_ft": "LOA",
+      "LWL_ft": "LWL",
+      "Beam_ft": "Beam",
+      "Draft_ft": "Draft",
+      "AirDraft_ft": "AirDraft",
+      "Headroom_ft": "Headroom",
+      "Displacement_lb": "Displacement",
+      "FuelCapacity": "FuelCapacity",
+      "WaterCapacity": "WaterCapacity",
+      "HoldingCapacity": "HoldingCapacity"
     },
-    "Phase6": {
-      "Overview": "Neutral overviews generated from recorded identity, production, configuration, propulsion and accommodation facts.",
-      "StructuredIntelligence": "The 34 existing structured boat-intelligence records were migrated into Suitability, Strengths, TradeOffs, BestFor, AvoidIf, InspectionFocus and BuyerQuestions.",
-      "KnownConcerns": "Legacy CommonProblems were not promoted without model-specific support; generic age-related risks remain legacy review material.",
-      "InspectionFocus": "Derived only from structured model intelligence or reviewed manufacturer-family guidance, with scope warnings.",
-      "Evidence": "EvidenceSummary now contains scoped statements and conservative coverage/quality labels.",
-      "Unknowns": "Unsupported BestFor, Suitability, KnownConcerns, OwnerActions and ModelVariations remain empty rather than receiving generic filler.",
-      "Conflicts": "Conflicting dimensions are reported and preserved; no value is selected automatically."
-    },
-    "phase8A": "The 34 preserved structured-intelligence records were normalized into approved fields. Residual non-display research context was archived in ResearchNotes. Supplemental consolidation fields are retired.",
-    "phase8C1": "Grand Banks family records normalized with model/family evidence scope; legacy content retained but not promoted without support.",
-    "phase8C2": "Mainship family records normalized with model/family evidence scope; one supported Mainship 34 foredeck-core concern promoted."
-  },
-  "retiredFields": {
-    "YearStart": "Merged into FirstYear.",
-    "YearEnd": "Merged into LastYear.",
-    "Length_ft": "Retired in favour of LOA_ft; unique hull-length distinctions retained in HullLength_ft.",
-    "BoatSubFamily": "Exact duplicate of Configuration.",
-    "Confidence": "Replaced by scoped evidence confidence.",
-    "FeatureDataStatus": "Replaced by calculated field completeness.",
-    "Aliases": "Moved to boat registry.",
-    "LegacyBoatModelIDs": "Moved to boat registry.",
-    "IdentityResolution": "Moved to boat registry as Resolution.",
-    "IdentityResolutionNotes": "Moved to boat registry as ResolutionNotes.",
-    "AuditDisposition": "Moved to boat registry.",
-    "BScoutVerdictInComparison": "Removed because it duplicated BestFor, Strengths and TradeOffs.",
-    "WholeModelKnowledgeConfidence": "Replaced by scoped evidence and knowledge coverage."
-  },
-  "phase3Initialization": {
-    "recordCount": 287,
-    "rules": [
-      "Overview initializes as null.",
-      "Suitability initializes as an empty object until defined use cases are assessed.",
-      "New list fields initialize as empty arrays.",
-      "Existing Strengths and AvoidIf prose is preserved intact as one array item; it is not split or rewritten.",
-      "EvidenceSummary initializes with Unknown coverage and evidence quality, no statements, and no unresolved-information assertions.",
-      "Legacy Weaknesses, CommonProblems, TypicalMission, DataConfidence and ResearchNotes remain unchanged for later migration."
-    ]
-  },
-  "reviewStandards": {
-    "Reviewed": {
-      "description": "A model record may be marked Reviewed only when the minimum evidence and normalization standard is met.",
-      "requirements": [
-        "Verified model identity",
-        "Reasonably verified principal dimensions",
-        "At least one credible model-specific source",
-        "Model-specific neutral Overview",
-        "Normalized Strengths and Trade-offs",
-        "Explicit unresolved information",
-        "No unsupported broad High Confidence claims"
-      ],
-      "doesNotRequire": [
-        "Complete Known Concerns",
-        "Complete Model Variations",
-        "Complete Owner Actions"
-      ]
+    "enumAliases": {
+      "NormalizedFuel": "FuelCode",
+      "Fuel": "FuelCode",
+      "NormalizedPropulsion": "MechanicalPropulsionCode",
+      "Propulsion": "MechanicalPropulsionCode",
+      "HullBehaviour": "HullBehaviourCode",
+      "BoatFamily": "BoatFamilyCode",
+      "RudderType": "RudderTypeCode",
+      "KeelConfiguration": "KeelConfigurationCode",
+      "PropulsionCode": "MechanicalPropulsionCode"
     }
   },
-  "SchemaVersion": 11,
-  "Release": "v6.11-phase8c6-nordic-tug-normalized"
+  "schemaStatus": "LOCKED",
+  "schemaLockDate": "2026-08-31",
+  "architecture": {
+    "fieldRegistry": "data/field-registry.json",
+    "preferenceMap": "data/preference-map.json",
+    "unitRegistry": "data/unit-registry.json",
+    "localeConfig": "data/locale-config.json",
+    "canonicalFactSchema": "knowledge/data/canonical-fact.schema.json",
+    "evidenceAssertionSchema": "knowledge/data/evidence-assertion.schema.json",
+    "derivedCharacteristics": "data/derived-characteristics.json"
+  },
+  "scope": "global-power-sail-motorsailer"
 }

@@ -1,11 +1,14 @@
 {
-  "schemaVersion": 16,
-  "release": "v6.11-phase8c17-specialist-models-normalized",
+  "schemaVersion": 17,
+  "release": "v6.28.1-canonical-schema-multilingual-unit-ready",
   "purpose": "Document authoritative runtime data and completed normalization through Batch 7 sail-derived motorsailers and crossover cruisers.",
   "principles": [
     "Known undesirable information may eliminate a candidate.",
     "Unknown information remains eligible and reduces confidence rather than causing elimination.",
-    "Each fact should have one authoritative managed source; summaries and validation reports should be generated."
+    "Each fact should have one authoritative managed source; summaries and validation reports should be generated.",
+    "Canonical controlled values are language-neutral codes; interface language is supplied by locale catalogs.",
+    "Canonical measurements use metres, kilograms, litres and kilowatts; knots and nautical miles remain marine-standard.",
+    "Original source measurements are preserved in provenance records, including explicit distinction between US and Imperial gallons."
   ],
   "managed": [
     {
@@ -122,6 +125,22 @@
     {
       "path": "data/community-contribution.schema.json",
       "role": "Base data contract for account-free community contribution records."
+    },
+    {
+      "path": "data/locale-config.json",
+      "role": "Supported locale and fallback configuration; does not duplicate canonical boat data."
+    },
+    {
+      "path": "data/i18n/en.json",
+      "role": "English UI/schema labels for language-neutral canonical keys."
+    },
+    {
+      "path": "data/unit-registry.json",
+      "role": "Canonical unit and conversion registry for Imperial, Metric and Both display support."
+    },
+    {
+      "path": "knowledge/data/canonical-fact.schema.json",
+      "role": "Canonical fact/provenance contract preserving source value and source unit."
     }
   ],
   "generated": [

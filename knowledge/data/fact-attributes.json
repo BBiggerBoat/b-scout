@@ -45,7 +45,9 @@
     "DataType": "number",
     "Unit": "ft",
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "LOA"
   },
   {
     "AttributeID": "LWL_ft",
@@ -53,7 +55,9 @@
     "DataType": "number",
     "Unit": "ft",
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "LWL"
   },
   {
     "AttributeID": "Beam_ft",
@@ -61,7 +65,9 @@
     "DataType": "number",
     "Unit": "ft",
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "Beam"
   },
   {
     "AttributeID": "Draft_ft",
@@ -69,7 +75,9 @@
     "DataType": "number",
     "Unit": "ft",
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "Draft"
   },
   {
     "AttributeID": "AirDraft_ft",
@@ -77,7 +85,9 @@
     "DataType": "number",
     "Unit": "ft",
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "AirDraft"
   },
   {
     "AttributeID": "Displacement_lb",
@@ -85,7 +95,9 @@
     "DataType": "number",
     "Unit": "lb",
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "Displacement"
   },
   {
     "AttributeID": "FuelCapacity",
@@ -93,7 +105,9 @@
     "DataType": "number",
     "Unit": "gal",
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "FuelCapacity"
   },
   {
     "AttributeID": "WaterCapacity",
@@ -101,7 +115,9 @@
     "DataType": "number",
     "Unit": "gal",
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "WaterCapacity"
   },
   {
     "AttributeID": "HoldingCapacity",
@@ -109,7 +125,9 @@
     "DataType": "number",
     "Unit": "gal",
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "HoldingCapacity"
   },
   {
     "AttributeID": "Berths",
@@ -141,7 +159,9 @@
     "DataType": "boolean",
     "Unit": null,
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "ShowerTypeCode"
   },
   {
     "AttributeID": "HullType",
@@ -149,7 +169,9 @@
     "DataType": "string",
     "Unit": null,
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "HullBehaviourCode"
   },
   {
     "AttributeID": "Construction",
@@ -165,7 +187,9 @@
     "DataType": "string",
     "Unit": null,
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "KeelConfigurationCode"
   },
   {
     "AttributeID": "Fuel",
@@ -173,7 +197,9 @@
     "DataType": "string",
     "Unit": null,
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "FuelCode"
   },
   {
     "AttributeID": "EngineConfiguration",
@@ -189,7 +215,9 @@
     "DataType": "string",
     "Unit": null,
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "PropulsionCode"
   },
   {
     "AttributeID": "Flybridge",
@@ -197,7 +225,9 @@
     "DataType": "string",
     "Unit": null,
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "FlybridgeCode"
   },
   {
     "AttributeID": "AftCabin",
@@ -213,7 +243,9 @@
     "DataType": "string",
     "Unit": null,
     "PreferredFactRequired": false,
-    "Active": true
+    "Active": true,
+    "Deprecated": true,
+    "ReplacementAttributeID": "SideDecksCode"
   },
   {
     "AttributeID": "GreatLoopSuitable",
@@ -270,5 +302,415 @@
     "Unit": null,
     "PreferredFactRequired": false,
     "Active": true
+  },
+  {
+    "AttributeID": "Nickname",
+    "Category": "identity",
+    "DataType": "string",
+    "Unit": null,
+    "LabelKey": "field.Nickname",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "Designer",
+    "Category": "identity",
+    "DataType": "string",
+    "Unit": null,
+    "LabelKey": "field.Designer",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "TotalBuilt",
+    "Category": "identity",
+    "DataType": "number",
+    "Unit": null,
+    "LabelKey": "field.TotalBuilt",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "LOA",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "m",
+    "LabelKey": "field.LOA",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "LWL",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "m",
+    "LabelKey": "field.LWL",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "Beam",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "m",
+    "LabelKey": "field.Beam",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "Draft",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "m",
+    "LabelKey": "field.Draft",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "AirDraft",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "m",
+    "LabelKey": "field.AirDraft",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "Headroom",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "m",
+    "LabelKey": "field.Headroom",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "Displacement",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "kg",
+    "LabelKey": "field.Displacement",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "FuelCapacity",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "L",
+    "LabelKey": "field.FuelCapacity",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "WaterCapacity",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "L",
+    "LabelKey": "field.WaterCapacity",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "HoldingCapacity",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "L",
+    "LabelKey": "field.HoldingCapacity",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "CruiseSpeed",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "kn",
+    "LabelKey": "field.CruiseSpeed",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "MaxSpeed",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "kn",
+    "LabelKey": "field.MaxSpeed",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "Range",
+    "Category": "dimensions",
+    "DataType": "number",
+    "Unit": "nm",
+    "LabelKey": "field.Range",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "HullMaterialCode",
+    "Category": "hull",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.HullMaterialCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "HullBehaviourCode",
+    "Category": "hull",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.HullBehaviourCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "HullConfigurationCode",
+    "Category": "hull",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.HullConfigurationCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "KeelConfigurationCode",
+    "Category": "hull",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.KeelConfigurationCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "RudderTypeCode",
+    "Category": "hull",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.RudderTypeCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "RunningGearProtectionCode",
+    "Category": "hull",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.RunningGearProtectionCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "FuelCode",
+    "Category": "propulsion",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.FuelCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "PropulsionCode",
+    "Category": "propulsion",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.PropulsionCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "EngineCount",
+    "Category": "propulsion",
+    "DataType": "number",
+    "Unit": null,
+    "LabelKey": "field.EngineCount",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "TypicalEngineID",
+    "Category": "propulsion",
+    "DataType": "string",
+    "Unit": null,
+    "LabelKey": "field.TypicalEngineID",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "EnginePowerPerEngine",
+    "Category": "propulsion",
+    "DataType": "number",
+    "Unit": "kW",
+    "LabelKey": "field.EnginePowerPerEngine",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "TotalInstalledPower",
+    "Category": "propulsion",
+    "DataType": "number",
+    "Unit": "kW",
+    "LabelKey": "field.TotalInstalledPower",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "CoolingCode",
+    "Category": "propulsion",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.CoolingCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "SteeringTypeCode",
+    "Category": "propulsion",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.SteeringTypeCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "PropellerCount",
+    "Category": "propulsion",
+    "DataType": "number",
+    "Unit": null,
+    "LabelKey": "field.PropellerCount",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "BoatFamilyCode",
+    "Category": "layout",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.BoatFamilyCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "StyleCode",
+    "Category": "layout",
+    "DataType": "string",
+    "Unit": null,
+    "LabelKey": "field.StyleCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "Configuration",
+    "Category": "layout",
+    "DataType": "string",
+    "Unit": null,
+    "LabelKey": "field.Configuration",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "FlybridgeCode",
+    "Category": "layout",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.FlybridgeCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "SideDecksCode",
+    "Category": "layout",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.SideDecksCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "GalleyUpWithHelm",
+    "Category": "layout",
+    "DataType": "boolean",
+    "Unit": null,
+    "LabelKey": "field.GalleyUpWithHelm",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "ShowerTypeCode",
+    "Category": "layout",
+    "DataType": "code",
+    "Unit": null,
+    "LabelKey": "field.ShowerTypeCode",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "WalkthroughTransom",
+    "Category": "layout",
+    "DataType": "boolean",
+    "Unit": null,
+    "LabelKey": "field.WalkthroughTransom",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "SideHelmDoor",
+    "Category": "layout",
+    "DataType": "boolean",
+    "Unit": null,
+    "LabelKey": "field.SideHelmDoor",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
+  },
+  {
+    "AttributeID": "RemovableFlybridge",
+    "Category": "layout",
+    "DataType": "boolean",
+    "Unit": null,
+    "LabelKey": "field.RemovableFlybridge",
+    "PreferredFactRequired": false,
+    "Active": true,
+    "Canonical": true
   }
 ]

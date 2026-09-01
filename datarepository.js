@@ -52,6 +52,23 @@
         });
     }
 
+
+    function applyCanonicalCompatibility(row) {
+        if (!row || typeof row !== "object") return row;
+        const c = global.BAtlasCanonical;
+        const out = { ...row };
+        const lengthPairs = [["LOA","LOA_ft"],["LWL","LWL_ft"],["Beam","Beam_ft"],["Draft","Draft_ft"],["AirDraft","AirDraft_ft"],["Headroom","Headroom_ft"]];
+        for (const [canonical, legacy] of lengthPairs) if (Number.isFinite(Number(out[canonical])) && c) out[legacy] = c.fromCanonical(Number(out[canonical]), "ft");
+        if (Number.isFinite(Number(out.Displacement)) && c) out.Displacement_lb = c.fromCanonical(Number(out.Displacement), "lb");
+        if (Number.isFinite(Number(out.FuelCapacity)) && c) out.FuelCapacityGal = c.fromCanonical(Number(out.FuelCapacity), "us_gal");
+        if (Number.isFinite(Number(out.WaterCapacity)) && c) out.WaterCapacityGal = c.fromCanonical(Number(out.WaterCapacity), "us_gal");
+        if (Number.isFinite(Number(out.HoldingCapacity)) && c) out.HoldingCapacityGal = c.fromCanonical(Number(out.HoldingCapacity), "us_gal");
+        const enumPairs = [["FuelCode","NormalizedFuel"],["PropulsionCode","NormalizedPropulsion"],["HullBehaviourCode","HullBehaviour"],["BoatFamilyCode","BoatFamily"],["RudderTypeCode","RudderType"],["KeelConfigurationCode","KeelConfiguration"],["SideDecksCode","SideDecks"],["ShowerTypeCode","ShowerType"]];
+        for (const [canonical, legacy] of enumPairs) if (out[canonical] !== undefined && out[canonical] !== null) out[legacy] = out[canonical];
+        if (!out.PropulsionCode && out.MechanicalPropulsionCode) out.PropulsionCode = out.MechanicalPropulsionCode;
+        return out;
+    }
+
     function loadApplicationData(options) {
         const settings = options || {};
         const manifest = Object.assign({}, DEFAULT_MANIFEST, settings.manifest || {});
@@ -62,6 +79,7 @@
             fetchJson(url, fetchImpl).then(value => [name, ensureArray(value, name)])
         )).then(async results => {
             const data = Object.fromEntries(results);
+            if (Array.isArray(data.boats)) data.boats = data.boats.map(applyCanonicalCompatibility);
             try {
                 const request = fetchImpl || global.fetch;
                 const response = await request(`${COMMUNITY_API_BASE}/api/public/overlays`, { cache: "no-store" });
@@ -69,7 +87,7 @@
                     const overlay = await response.json();
                     if (Array.isArray(data.boats)) {
                         const patches = overlay?.modelPatches || {};
-                        data.boats = data.boats.map(row => patches[row.BoatModelID] ? { ...row, ...patches[row.BoatModelID] } : row);
+                        data.boats = data.boats.map(row => applyCanonicalCompatibility(patches[row.BoatModelID] ? { ...row, ...patches[row.BoatModelID] } : row));
                         if (Array.isArray(overlay?.addedModels)) {
                             const ids = new Set(data.boats.map(x => x.BoatModelID));
                             for (const row of overlay.addedModels) if (row?.BoatModelID && !ids.has(row.BoatModelID)) { data.boats.push(row); ids.add(row.BoatModelID); }
@@ -95,6 +113,7 @@
         DEFAULT_MANIFEST,
         fetchJson,
         loadApplicationData,
-        ensureArray
+        ensureArray,
+        applyCanonicalCompatibility
     };
 })(typeof window !== "undefined" ? window : globalThis);

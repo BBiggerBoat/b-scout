@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "schemaVersion": "1.3",
+  "rules": [
+    {
+      "id": "derived.trailerability",
+      "status": "defined-not-yet-implemented",
+      "inputs": [
+        "LOA",
+        "Beam",
+        "AirDraft",
+        "Displacement"
+      ],
+      "outputType": "state",
+      "states": [
+        "known_true",
+        "known_false",
+        "unknown"
+      ],
+      "rulePolicy": "Version the rule. Unknown required inputs reduce confidence and must not become false."
+    },
+    {
+      "id": "derived.tall_crew_fit",
+      "status": "future",
+      "inputs": [
+        "Headroom"
+      ],
+      "possibleFutureInputs": [
+        "BerthLength",
+        "HelmErgonomics"
+      ],
+      "rulePolicy": "Do not store TallCrewSuitable as a raw fact."
+    },
+    {
+      "id": "derived.route_fit",
+      "status": "future",
+      "inputs": [
+        "LOA",
+        "Beam",
+        "Draft",
+        "AirDraft"
+      ],
+      "rulePolicy": "Route limits are separate data. Missing boat dimensions produce unknown route fit, not exclusion."
+    },
+    {
+      "id": "derived.overnight_capacity",
+      "status": "future",
+      "inputs": [
+        "Berths",
+        "Cabins"
+      ],
+      "rulePolicy": "Derived from accommodation facts and requested crew/guest count."
+    },
+    {
+      "id": "derived.shoal_draft_fit",
+      "status": "future",
+      "inputs": [
+        "Draft",
+        "KeelConfigurationCode"
+      ],
+      "rulePolicy": "Threshold is user/context dependent. Missing draft yields unknown, not false."
+    },
+    {
+      "id": "derived.sail_area_displacement_ratio",
+      "status": "future",
+      "inputs": [
+        "SailArea",
+        "Displacement"
+      ],
+      "outputType": "number",
+      "rulePolicy": "Calculate from canonical SI values; display formula/version metadata."
+    },
+    {
+      "id": "derived.displacement_length_ratio",
+      "status": "future",
+      "inputs": [
+        "Displacement",
+        "LWL"
+      ],
+      "outputType": "number",
+      "rulePolicy": "Version formula and conversions; do not store as an objective fact."
+    },
+    {
+      "id": "derived.ballast_ratio",
+      "status": "future",
+      "inputs": [
+        "Ballast",
+        "Displacement"
+      ],
+      "outputType": "number",
+      "rulePolicy": "Unknown ballast/displacement yields unknown."
+    },
+    {
+      "id": "derived.theoretical_hull_speed",
+      "status": "future",
+      "inputs": [
+        "LWL"
+      ],
+      "outputType": "measurement",
+      "canonicalUnit": "kn",
+      "rulePolicy": "Derived estimate, not measured performance."
+    }
+  ]
+}

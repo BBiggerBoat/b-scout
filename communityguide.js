@@ -76,7 +76,19 @@ function renderResources(modelId){
 }
 function renderPhotos(modelId){
  const rows=reviewedForModel(modelId,["photo"]); if(!rows.length)return"";
- return `<div class="community-photo-grid">${rows.map(r=>{const p=r.Payload||{};const att=(r.AttachmentRefs||[])[0];const published=(r.PublishedAttachmentURLs||[])[0];return `<figure class="community-photo-card"${!published&&att?` data-community-photo="${esc(att)}"`:""}>${published?`<img src="${esc(published)}" alt="Community-contributed model photo">`:`<div class="community-photo-placeholder">Owner photo</div>`}<figcaption><strong>${esc(p.PhotoCategory||"Photo")}</strong>${r.ModelYear?` · ${esc(r.ModelYear)}`:""}${r.Variant?` · ${esc(r.Variant)}`:""}${p.PhotoState?` · ${esc(p.PhotoState)}`:""}${p.Caption?`<span>${esc(p.Caption)}</span>`:""}${r.DisplayName?`<small>Credit: ${esc(r.DisplayName)}</small>`:""}</figcaption></figure>`}).join("")}</div>`;
+ const cards=[];
+ for(const r of rows){
+  const p=r.Payload||{};
+  const refs=Array.isArray(r.AttachmentRefs)?r.AttachmentRefs:[];
+  const publishedUrls=Array.isArray(r.PublishedAttachmentURLs)?r.PublishedAttachmentURLs:[];
+  const photoCount=Math.max(refs.length,publishedUrls.length,1);
+  for(let i=0;i<photoCount;i+=1){
+   const att=refs[i]||null;
+   const published=publishedUrls[i]||null;
+   cards.push(`<figure class="community-photo-card"${!published&&att?` data-community-photo="${esc(att)}"`:""}>${published?`<img src="${esc(published)}" alt="Community-contributed model photo">`:`<div class="community-photo-placeholder">Owner photo</div>`}<figcaption><strong>${esc(p.PhotoCategory||"Photo")}</strong>${r.ModelYear?` · ${esc(r.ModelYear)}`:""}${r.Variant?` · ${esc(r.Variant)}`:""}${p.PhotoState?` · ${esc(p.PhotoState)}`:""}${p.Caption?`<span>${esc(p.Caption)}</span>`:""}${r.DisplayName?`<small>Credit: ${esc(r.DisplayName)}</small>`:""}</figcaption></figure>`);
+  }
+ }
+ return `<div class="community-photo-grid">${cards.join("")}</div>`;
 }
 function openDb(){return new Promise((resolve,reject)=>{if(!root.indexedDB){reject(new Error("Attachment storage unavailable"));return}const q=root.indexedDB.open(ATTACHMENT_DB,1);q.onsuccess=()=>resolve(q.result);q.onerror=()=>reject(q.error)})}
 async function getAttachment(id){const db=await openDb();try{return await new Promise((resolve,reject)=>{const tx=db.transaction(ATTACHMENT_STORE,"readonly");const q=tx.objectStore(ATTACHMENT_STORE).get(id);q.onsuccess=()=>resolve(q.result||null);q.onerror=()=>reject(q.error)})}finally{db.close()}}
@@ -85,7 +97,7 @@ async function enhance(container){
  for(const fig of container.querySelectorAll("[data-community-photo]")){try{const row=await getAttachment(fig.dataset.communityPhoto);if(row?.Blob){const url=URL.createObjectURL(row.Blob);const holder=fig.querySelector(".community-photo-placeholder");if(holder){const img=document.createElement("img");img.src=url;img.alt=fig.querySelector("figcaption strong")?.textContent||"Community-contributed model photo";img.onload=()=>URL.revokeObjectURL(url);holder.replaceWith(img)}}}catch{/* attachment may live in another moderator browser */}}
  container.querySelectorAll("[data-community-attachment]").forEach(btn=>btn.addEventListener("click",async()=>{try{const row=await getAttachment(btn.dataset.communityAttachment);if(!row?.Blob)throw new Error();const url=URL.createObjectURL(row.Blob);root.open(url,"_blank","noopener");setTimeout(()=>URL.revokeObjectURL(url),60000)}catch{root.alert?.("This approved attachment is not stored in this browser. The shared contribution service will make cross-device attachments available in a later infrastructure phase.")}}));
 }
-function counts(modelId){return {research:itemsForModel(modelId).filter(i=>["ownership_experience","problem_weakness","other"].includes(i.Category)).length,buyer:itemsForModel(modelId).filter(i=>["buyer_inspection_advice","problem_weakness"].includes(i.Category)).length,photos:reviewedForModel(modelId,["photo"]).length,resources:reviewedForModel(modelId,["manual_document","resource"]).length}}
+function counts(modelId){const photoRows=reviewedForModel(modelId,["photo"]);const photoCount=photoRows.reduce((sum,r)=>sum+Math.max((r.AttachmentRefs||[]).length,(r.PublishedAttachmentURLs||[]).length,1),0);return {research:itemsForModel(modelId).filter(i=>["ownership_experience","problem_weakness","other"].includes(i.Category)).length,buyer:itemsForModel(modelId).filter(i=>["buyer_inspection_advice","problem_weakness"].includes(i.Category)).length,photos:photoCount,resources:reviewedForModel(modelId,["manual_document","resource"]).length}}
 root.BScoutCommunityGuide={init,itemsForModel,renderResearch,renderBuyer,renderResources,renderPhotos,enhance,counts};
 if(typeof document!=="undefined")init().then(()=>{try{root.BScoutBoatWorkspace?.refreshActiveTab?.()}catch{}});
 })(typeof globalThis!=="undefined"?globalThis:this);

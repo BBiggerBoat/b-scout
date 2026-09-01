@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://b-atlas.org/schema/canonical-fact.schema.json",
+  "title": "B-Atlas Canonical Fact State",
+  "description": "One selected canonical state for one model field. Source assertions are stored separately and linked by EvidenceAssertionIDs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "FactID",
+    "BoatModelID",
+    "FieldID",
+    "ValueState"
+  ],
+  "properties": {
+    "FactID": {
+      "type": "string"
+    },
+    "BoatModelID": {
+      "type": "string"
+    },
+    "FieldID": {
+      "type": "string"
+    },
+    "ValueState": {
+      "enum": [
+        "known",
+        "unknown",
+        "not_applicable",
+        "conflicting"
+      ]
+    },
+    "CanonicalValue": {},
+    "CanonicalUnit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "EvidenceAssertionIDs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unrated"
+      ]
+    },
+    "VerificationStatus": {
+      "enum": [
+        "unverified",
+        "reviewed",
+        "verified",
+        "disputed"
+      ]
+    },
+    "ResolutionNote": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "UpdatedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

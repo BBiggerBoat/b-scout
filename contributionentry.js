@@ -3,6 +3,9 @@
 
     let taxonomy = null;
     let modelCatalog = null;
+    let modelSchema = null;
+    let unitRegistry = null;
+    let localeMessages = {};
     let returnContext = { source: "global" };
     let selectedType = null;
     const COMMUNITY_API_BASE = "https://api.b-atlas.org";
@@ -29,14 +32,108 @@
     const implementedTypes = new Set(["ownership_experience", "problem_weakness", "buyer_inspection_advice", "correction", "other", "photo", "manual_document", "resource", "new_model", "new_manufacturer"]);
     const laterPhase = {};
 
-    const modelFields = [
-        ["YearStart", "First production year"], ["YearEnd", "Last production year"],
-        ["LengthFt", "Length"], ["BeamFt", "Beam"], ["DraftFt", "Draft"],
-        ["DisplacementLb", "Displacement"], ["FuelCapacityGal", "Fuel capacity"],
-        ["WaterCapacityGal", "Water capacity"], ["NormalizedHullType", "Hull type"],
-        ["NormalizedFuel", "Fuel"], ["NormalizedPropulsion", "Propulsion"],
-        ["BoatFamily", "Boat family"], ["ModelCharacter", "Model character"], ["Other", "Something else"]
+    const fallbackModelFields = [
+        ["FirstYear", "First production year"], ["LastYear", "Last production year"],
+        ["LOA_ft", "Length overall (LOA)"], ["Beam_ft", "Beam"], ["Draft_ft", "Draft"],
+        ["Displacement_lb", "Displacement"], ["NormalizedFuel", "Fuel"],
+        ["NormalizedPropulsion", "Propulsion"], ["EngineCount", "Engine count"],
+        ["BoatFamily", "Boat family"], ["HullBehaviour", "Hull behaviour"],
+        ["KeelConfiguration", "Keel configuration"], ["RudderType", "Rudder type"],
+        ["Trailerable", "Trailerable"], ["Other", "Something else"]
     ];
+
+    async function loadModelSchema() {
+        if (modelSchema) return modelSchema;
+        try {
+            const [schemaResponse, unitResponse, localeResponse] = await Promise.all([
+                fetch("data/model-schema.json", { cache: "no-store" }),
+                fetch("data/unit-registry.json", { cache: "no-store" }),
+                fetch("data/i18n/en.json", { cache: "no-store" })
+            ]);
+            if (!schemaResponse.ok) throw new Error(`Model schema HTTP ${schemaResponse.status}`);
+            modelSchema = await schemaResponse.json();
+            unitRegistry = unitResponse.ok ? await unitResponse.json() : null;
+            const locale = localeResponse.ok ? await localeResponse.json() : null;
+            localeMessages = locale?.messages || {};
+        } catch (error) {
+            console.error("Model schema could not be loaded", error);
+            modelSchema = { groups: [] };
+        }
+        return modelSchema;
+    }
+
+    function tr(key, fallback) { return localeMessages?.[key] || fallback || key; }
+
+    function correctableSchemaFields() {
+        const groups = Array.isArray(modelSchema?.groups) ? modelSchema.groups : [];
+        return groups.map(group => ({
+            label: tr(group.labelKey, group.id),
+            fields: (group.fields || []).filter(field => field.correctable)
+        })).filter(group => group.fields.length);
+    }
+
+    function correctionFieldOptions() {
+        const groups = correctableSchemaFields();
+        if (!groups.length) return selectOptions(fallbackModelFields);
+        return groups.map(group =>
+            `<optgroup label="${escapeHtml(group.label)}">${group.fields.map(field =>
+                `<option value="${escapeHtml(field.id)}">${escapeHtml(tr(field.labelKey, field.id))}</option>`
+            ).join("")}</optgroup>`
+        ).join("") + `<optgroup label="Other"><option value="Other">Something else</option></optgroup>`;
+    }
+
+    function schemaField(fieldId) {
+        for (const group of (modelSchema?.groups || [])) {
+            const found = (group.fields || []).find(field => field.id === fieldId);
+            if (found) return found;
+        }
+        return null;
+    }
+
+    function currentSchemaValue(model, field) {
+        if (!model?.data || !field) return undefined;
+        if (field.type === "measurement") {
+            const direct = Number(model.data[field.id]);
+            if (Number.isFinite(direct)) return globalThis.BAtlasCanonical?.formatMeasurement(direct, field.dimension, "imperial") || direct;
+            for (const legacy of (field.legacyMeasurements || [])) {
+                const raw = model.data[legacy.key];
+                if (raw === undefined || raw === null || raw === "") continue;
+                if (legacy.unit === "gal_unknown") return `${raw} gal (source gallon type unresolved)`;
+                const canonical = globalThis.BAtlasCanonical?.toCanonical(raw, legacy.unit);
+                if (canonical !== null && canonical !== undefined) return globalThis.BAtlasCanonical?.formatMeasurement(canonical, field.dimension, "imperial") || raw;
+            }
+            return undefined;
+        }
+        let value = model.data[field.id];
+        if ((value === undefined || value === null || value === "") && Array.isArray(field.legacyKeys)) {
+            for (const alias of field.legacyKeys) {
+                const candidate = model.data[alias];
+                if (candidate !== undefined && candidate !== null && candidate !== "") { value = candidate; break; }
+            }
+        }
+        return value;
+    }
+
+    function proposedControl(field) {
+        if (!field || field.id === "Other") return `<input id="correctionProposedValue" name="ProposedValue" required maxlength="300">`;
+        if (field.type === "measurement") {
+            const units = (field.allowedInputUnits || [field.canonicalUnit]).map(unit => {
+                const labels = {m:"metres",ft:"feet",in:"inches",kg:"kilograms",lb:"pounds",L:"litres",us_gal:"US gallons",imp_gal:"Imperial gallons",kW:"kW",hp:"hp",kn:"knots",nm:"nautical miles"};
+                return `<option value="${escapeHtml(unit)}">${escapeHtml(labels[unit] || unit)}</option>`;
+            }).join("");
+            return `<div class="contribution-measurement-input"><input id="correctionProposedValue" name="ProposedValue" type="number" step="any" inputmode="decimal" required><select id="correctionProposedUnit" name="ProposedUnit" required>${units}</select></div>`;
+        }
+        if (field.type === "enum") {
+            const opts = (field.options || []).map(option => `<option value="${escapeHtml(option.code)}">${escapeHtml(tr(option.labelKey, option.code))}</option>`).join("");
+            return `<select id="correctionProposedValue" name="ProposedValue" required><option value="">Choose a value</option>${opts}</select>`;
+        }
+        if (field.type === "boolean") {
+            return `<select id="correctionProposedValue" name="ProposedValue" required><option value="">Choose a value</option><option value="true">Yes</option><option value="false">No</option><option value="unknown">Unknown / not established</option></select>`;
+        }
+        if (field.type === "integer") return `<input id="correctionProposedValue" name="ProposedValue" type="number" step="1" inputmode="numeric" required>`;
+        if (field.type === "number") return `<input id="correctionProposedValue" name="ProposedValue" type="number" step="any" inputmode="decimal" required>`;
+        return `<input id="correctionProposedValue" name="ProposedValue" required maxlength="300">`;
+    }
 
     async function loadTaxonomy() {
         if (taxonomy) return taxonomy;
@@ -187,10 +284,10 @@
     function correctionForm() {
         return `${modelIdentityFields(true)}${commonOptionalFields()}
         <div class="contribution-field-row">
-          <div class="contribution-field"><label for="correctionField">What needs correcting? *</label><select id="correctionField" name="CorrectionField" required><option value="">Choose a field</option>${selectOptions(modelFields)}</select></div>
+          <div class="contribution-field"><label for="correctionField">What needs correcting? *</label><select id="correctionField" name="CorrectionField" required><option value="">Choose a field</option>${correctionFieldOptions()}</select></div>
           <div class="contribution-field"><label for="correctionCurrentValue">B-Atlas currently says</label><input id="correctionCurrentValue" name="CurrentValue" readonly placeholder="Select a field"></div>
         </div>
-        <div class="contribution-field contribution-field-wide"><label for="correctionProposedValue">What should it say? *</label><input id="correctionProposedValue" name="ProposedValue" required maxlength="300"></div>
+        <div class="contribution-field contribution-field-wide"><label for="correctionProposedValue">What should it say? *</label><div id="correctionProposedControl">${proposedControl(null)}</div></div>
         <div class="contribution-field contribution-field-wide"><label for="correctionEvidence">How do you know? *</label><select id="correctionEvidence" name="EvidenceType" required><option value="">Choose one</option>${selectOptions([["direct_owner_observation","I own / owned this model"],["manufacturer_documentation","Manufacturer documentation"],["manual_brochure","Manual or brochure"],["survey","Survey"],["professional_inspection","Professional source"],["other","Other source"]])}</select></div>
         <div class="contribution-field contribution-field-wide"><label for="correctionExplanation">Explanation or source <span>optional</span></label><textarea id="correctionExplanation" name="Explanation" maxlength="1000" rows="4"></textarea></div>
         <div class="contribution-field contribution-field-wide"><label for="correctionSourceURL">Source link <span>optional</span></label><input id="correctionSourceURL" name="SourceURL" type="url" placeholder="https://"></div>`;
@@ -337,7 +434,7 @@
     function submitArea() {
         return `<div class="contribution-submit-area">
           <p><strong>No account required.</strong> B-Atlas collects only the contribution itself plus any optional display name or clarification email you choose to provide. Do not include home addresses, phone numbers, exact boat locations or other unnecessary personal information.</p>
-          <p><strong>Prototype storage:</strong> this contribution and any attachment remain only in this browser until B-Atlas has a shared moderation service.</p>
+          <p><strong>Shared moderation:</strong> submissions and permitted attachments are sent to the B-Atlas moderation queue for review before publication.</p>
           <button type="submit" class="contribution-submit-button">Save contribution for review</button>
         </div>`;
     }
@@ -386,14 +483,25 @@
     }
 
     function updateCorrectionCurrentValue() {
-        const field = $("correctionField")?.value;
+        const fieldId = $("correctionField")?.value;
         const current = $("correctionCurrentValue");
+        const control = $("correctionProposedControl");
         if (!current) return;
-        if (!field) { current.value = ""; return; }
-        if (field === "Other") { current.value = "See Guide / describe below"; return; }
+        if (!fieldId) {
+            current.value = "";
+            if (control) control.innerHTML = proposedControl(null);
+            return;
+        }
+        if (fieldId === "Other") {
+            current.value = "See Guide / describe below";
+            if (control) control.innerHTML = proposedControl({ id:"Other", type:"text" });
+            return;
+        }
+        const field = schemaField(fieldId);
         const model = selectedModelFromForm();
-        const value = model?.data?.[field];
+        const value = currentSchemaValue(model, field || { id:fieldId });
         current.value = value === null || value === undefined || value === "" ? "Unknown / not populated" : (Array.isArray(value) ? value.join(", ") : String(value));
+        if (control) control.innerHTML = proposedControl(field || { id:fieldId, type:"text" });
     }
 
     function bindDynamicFields() {
@@ -766,7 +874,7 @@
         const year = fd.get("ModelYear");
         const evidence = fd.get("EvidenceType") || null;
         const payload = {};
-        ["Category","ExperienceLength","Area","Severity","Title","Narrative","Repair","Importance","Advice","Why","CorrectionField","CurrentValue","ProposedValue","Explanation","PhotoCategory","PhotoState","Caption","DocumentType","DocumentTitle","DocumentManufacturer","DocumentDelivery","DocumentSourceName","DocumentNotes","ResourceType","ResourceTitle","ResourceNotes","ProposedManufacturer","ProposedModel","ProposedVariant","ProposedBoatFamily","ProposedYearStart","ProposedYearEnd","ProposedLengthFt","ProposedBeamFt","ProposedFuel","ProposedPropulsion","ProposedHullType","NewModelNotes","ProposedCountry","NewManufacturerNotes"].forEach(key => {
+        ["Category","ExperienceLength","Area","Severity","Title","Narrative","Repair","Importance","Advice","Why","CorrectionField","CurrentValue","ProposedValue","ProposedUnit","Explanation","PhotoCategory","PhotoState","Caption","DocumentType","DocumentTitle","DocumentManufacturer","DocumentDelivery","DocumentSourceName","DocumentNotes","ResourceType","ResourceTitle","ResourceNotes","ProposedManufacturer","ProposedModel","ProposedVariant","ProposedBoatFamily","ProposedYearStart","ProposedYearEnd","ProposedLengthFt","ProposedBeamFt","ProposedFuel","ProposedPropulsion","ProposedHullType","NewModelNotes","ProposedCountry","NewManufacturerNotes"].forEach(key => {
             const value = fd.get(key);
             if (value !== null && String(value).trim() !== "") payload[key] = String(value).trim();
         });
@@ -916,7 +1024,7 @@
         $("contributionSelectionState").hidden = true;
         $("contributionFormPanel").hidden = true;
         $("contributionTypeGroups").hidden = false;
-        const [data] = await Promise.all([loadTaxonomy(), loadModels()]);
+        const [data] = await Promise.all([loadTaxonomy(), loadModels(), loadModelSchema()]);
         renderGroups(data, returnContext);
         if (view) { const h=document.querySelector(".site-header")?.getBoundingClientRect().height||72; window.scrollTo({top:Math.max(0,view.getBoundingClientRect().top+window.scrollY-h-18),behavior:"smooth"}); }
     }

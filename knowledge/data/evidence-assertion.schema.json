@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://b-atlas.org/schema/evidence-assertion.schema.json",
+  "title": "B-Atlas Evidence Assertion",
+  "description": "A source-backed assertion about one model field. Multiple assertions may support or conflict with the selected canonical fact.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "EvidenceAssertionID",
+    "BoatModelID",
+    "FieldID",
+    "SourceRef",
+    "AssertionState"
+  ],
+  "properties": {
+    "EvidenceAssertionID": {
+      "type": "string"
+    },
+    "BoatModelID": {
+      "type": "string"
+    },
+    "FieldID": {
+      "type": "string"
+    },
+    "SourceRef": {
+      "type": "string"
+    },
+    "AssertionState": {
+      "enum": [
+        "supports",
+        "conflicts",
+        "context_only",
+        "unresolved"
+      ]
+    },
+    "SourceValue": {},
+    "SourceUnit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "SourceText": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "NormalizedCandidateValue": {},
+    "CanonicalUnit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ConversionRule": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "SourceLanguage": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ObservedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "CapturedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

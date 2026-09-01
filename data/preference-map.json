@@ -1,0 +1,205 @@
+{
+  "version": "1.0",
+  "schemaVersion": "1.3",
+  "principle": "Preferences map to canonical facts or versioned derived rules. A preference question does not itself define a canonical fact.",
+  "mappings": [
+    {
+      "preferenceId": "length_range",
+      "type": "direct",
+      "fields": [
+        "LOA"
+      ]
+    },
+    {
+      "preferenceId": "beam_range",
+      "type": "direct",
+      "fields": [
+        "Beam"
+      ]
+    },
+    {
+      "preferenceId": "fuel",
+      "type": "direct",
+      "fields": [
+        "FuelCode"
+      ]
+    },
+    {
+      "preferenceId": "propulsion",
+      "type": "direct",
+      "fields": [
+        "MechanicalPropulsionCode"
+      ]
+    },
+    {
+      "preferenceId": "engine_count",
+      "type": "direct",
+      "fields": [
+        "EngineCount"
+      ]
+    },
+    {
+      "preferenceId": "boat_family",
+      "type": "direct",
+      "fields": [
+        "BoatFamilyCode"
+      ]
+    },
+    {
+      "preferenceId": "hull_behaviour",
+      "type": "direct",
+      "fields": [
+        "HullBehaviourCode"
+      ]
+    },
+    {
+      "preferenceId": "walkthrough_transom",
+      "type": "direct",
+      "fields": [
+        "WalkthroughTransom"
+      ]
+    },
+    {
+      "preferenceId": "side_helm_door",
+      "type": "direct",
+      "fields": [
+        "SideHelmDoor"
+      ]
+    },
+    {
+      "preferenceId": "galley_up_with_helm",
+      "type": "direct",
+      "fields": [
+        "GalleyUpWithHelm"
+      ]
+    },
+    {
+      "preferenceId": "separate_shower",
+      "type": "direct",
+      "fields": [
+        "ShowerTypeCode"
+      ],
+      "matchValues": [
+        "shower.separate_stall"
+      ]
+    },
+    {
+      "preferenceId": "aft_cabin",
+      "type": "direct",
+      "fields": [
+        "AftCabin"
+      ]
+    },
+    {
+      "preferenceId": "removable_flybridge",
+      "type": "direct",
+      "fields": [
+        "RemovableFlybridge"
+      ]
+    },
+    {
+      "preferenceId": "long_keel",
+      "type": "direct",
+      "fields": [
+        "KeelConfigurationCode"
+      ],
+      "matchValues": [
+        "keel.full_long"
+      ]
+    },
+    {
+      "preferenceId": "skeg_hung_rudder",
+      "type": "direct",
+      "fields": [
+        "RudderTypeCode"
+      ],
+      "matchValues": [
+        "rudder.skeg_hung"
+      ]
+    },
+    {
+      "preferenceId": "wide_side_decks",
+      "type": "direct",
+      "fields": [
+        "SideDecksCode"
+      ],
+      "matchValues": [
+        "side_decks.wide"
+      ]
+    },
+    {
+      "preferenceId": "trailerable",
+      "type": "derived",
+      "derivedCharacteristicId": "derived.trailerability"
+    },
+    {
+      "preferenceId": "tall_crew",
+      "type": "derived",
+      "derivedCharacteristicId": "derived.tall_crew_fit"
+    },
+    {
+      "preferenceId": "route_fit",
+      "type": "derived",
+      "derivedCharacteristicId": "derived.route_fit"
+    },
+    {
+      "preferenceId": "overnight_capacity",
+      "type": "derived",
+      "derivedCharacteristicId": "derived.overnight_capacity"
+    },
+    {
+      "preferenceId": "vessel_category",
+      "type": "direct",
+      "fields": [
+        "VesselCategoryCode"
+      ]
+    },
+    {
+      "preferenceId": "primary_propulsion_mode",
+      "type": "direct",
+      "fields": [
+        "PrimaryPropulsionModeCode"
+      ]
+    },
+    {
+      "preferenceId": "rig_type",
+      "type": "direct",
+      "fields": [
+        "RigTypeCode"
+      ]
+    },
+    {
+      "preferenceId": "fixed_vs_lifting_keel",
+      "type": "direct",
+      "fields": [
+        "KeelConfigurationCode"
+      ]
+    },
+    {
+      "preferenceId": "mast_lowering",
+      "type": "direct",
+      "fields": [
+        "MastLoweringCode"
+      ]
+    },
+    {
+      "preferenceId": "wheel_vs_tiller",
+      "type": "direct",
+      "fields": [
+        "SteeringTypeCode"
+      ]
+    },
+    {
+      "preferenceId": "auxiliary_engine",
+      "type": "direct",
+      "fields": [
+        "AuxiliaryEnginePresent"
+      ]
+    },
+    {
+      "preferenceId": "shoal_draft",
+      "type": "derived",
+      "derivedCharacteristicId": "derived.shoal_draft_fit"
+    }
+  ]
+}

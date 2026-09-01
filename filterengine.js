@@ -73,19 +73,34 @@
         const modelText = searchableText(boat);
 
         if (wanted === "galley up with helm") {
+            if (boat.GalleyUpWithHelm === true || String(boat.GalleyUpWithHelm).toLowerCase() === "true") return true;
             return galley.includes("galley up") || galley.includes("saloon galley") || modelText.includes("galley up");
         }
         if (wanted === "removable flybridge") {
+            if (boat.RemovableFlybridge === true || String(boat.RemovableFlybridge).toLowerCase() === "true") return true;
             return modelText.includes("removable flybridge") || modelText.includes("removeable flybridge") ||
                 modelText.includes("removable bridge") || modelText.includes("flybridge is removable") ||
                 modelText.includes("flybridge can be removed") || modelText.includes("removable upper helm");
         }
         if (wanted === "long keel") {
-            return keel.includes("long keel") || keel.includes("full length keel") || keel.includes("full length");
+            const canonicalKeel = normalizeText(boat.KeelConfigurationCode || boat.KeelConfiguration);
+            return canonicalKeel.includes("full long keel") || canonicalKeel.includes("long keel") ||
+                keel.includes("long keel") || keel.includes("full length keel") || keel.includes("full length");
         }
         if (wanted === "skeg hung rudder") {
-            return keel.includes("skeg mounted rudder") || keel.includes("skeg hung rudder") ||
+            const rudder = normalizeText(boat.RudderTypeCode || boat.RudderType);
+            return rudder.includes("skeg hung") || keel.includes("skeg mounted rudder") || keel.includes("skeg hung rudder") ||
                 (keel.includes("skeg") && keel.includes("rudder"));
+        }
+        if (wanted === "walkthrough transom") {
+            return boat.WalkthroughTransom === true || String(boat.WalkthroughTransom).toLowerCase() === "true" || modelText.includes("walkthrough transom") || modelText.includes("walk through transom");
+        }
+        if (wanted === "side helm door") {
+            return boat.SideHelmDoor === true || String(boat.SideHelmDoor).toLowerCase() === "true" || modelText.includes("side helm door") || modelText.includes("helm door");
+        }
+        if (wanted === "separate shower") {
+            const showerType = normalizeText(boat.ShowerType);
+            return showerType.includes("separate stall") || normalizeText(boat.Shower).includes("separate") || normalizeText(boat.Shower).includes("stall shower");
         }
 
         const values = [
@@ -116,9 +131,10 @@
             if (value === "Often") return { matched: berths >= 4 && (cabins === null || cabins >= 2), unknown: cabins === null };
         }
         if (key === "tallestCrewHeight") {
-            const headroom = numericValue(boat.Headroom_in ?? boat.InteriorHeadroom_in ?? boat.Headroom_ft);
+            const canonicalInches = global.BAtlasCanonical?.inches(boat, "Headroom_m", [{key:"Headroom_in",unit:"in"},{key:"InteriorHeadroom_in",unit:"in"},{key:"Headroom_ft",unit:"ft"}]);
+            const headroom = canonicalInches ?? numericValue(boat.Headroom_in ?? boat.InteriorHeadroom_in ?? boat.Headroom_ft);
             if (headroom === null) return { matched: false, unknown: true };
-            const inches = headroom < 10 ? headroom * 12 : headroom;
+            const inches = canonicalInches ?? (headroom < 10 ? headroom * 12 : headroom);
             return { matched: inches >= numericValue(value), unknown: false };
         }
         return { matched: false, unknown: true };
@@ -192,12 +208,16 @@
         // Routes, Dimensions, and Characteristics are hard filters.
         // Missing registry data is retained; a known conflict eliminates the model.
         if (typeof routeEvaluator === "function" && !routeEvaluator(boat, profile, routes || [])) reasons.push("route-compatibility");
-        if (belowMinimum(boat.LOA_ft, profile.minLength)) reasons.push("min-length");
-        if (exceedsMaximum(boat.LOA_ft, profile.maxLength)) reasons.push("max-length");
-        if (belowMinimum(boat.Beam_ft, profile.minBeam)) reasons.push("min-beam");
-        if (exceedsMaximum(boat.Beam_ft, profile.maxBeam)) reasons.push("max-beam");
-        if (exceedsMaximum(boat.Draft_ft, profile.maxDraft)) reasons.push("max-draft");
-        if (exceedsMaximum(boat.AirDraft_ft, profile.maxAirDraft)) reasons.push("max-air-draft");
+        const loaFt = global.BAtlasCanonical?.feet(boat, "LOA", [{key:"LOA_ft",unit:"ft"},{key:"LengthFt",unit:"ft"}]) ?? boat.LOA_ft;
+        const beamFt = global.BAtlasCanonical?.feet(boat, "Beam", [{key:"Beam_ft",unit:"ft"},{key:"BeamFt",unit:"ft"}]) ?? boat.Beam_ft;
+        const draftFt = global.BAtlasCanonical?.feet(boat, "Draft", [{key:"Draft_ft",unit:"ft"},{key:"DraftFt",unit:"ft"}]) ?? boat.Draft_ft;
+        const airDraftFt = global.BAtlasCanonical?.feet(boat, "AirDraft", [{key:"AirDraft_ft",unit:"ft"}]) ?? boat.AirDraft_ft;
+        if (belowMinimum(loaFt, profile.minLength)) reasons.push("min-length");
+        if (exceedsMaximum(loaFt, profile.maxLength)) reasons.push("max-length");
+        if (belowMinimum(beamFt, profile.minBeam)) reasons.push("min-beam");
+        if (exceedsMaximum(beamFt, profile.maxBeam)) reasons.push("max-beam");
+        if (exceedsMaximum(draftFt, profile.maxDraft)) reasons.push("max-draft");
+        if (exceedsMaximum(airDraftFt, profile.maxAirDraft)) reasons.push("max-air-draft");
         if (profile.styles?.length) {
             const actualStyle = boat.NormalizedStyle || boat.Style;
             if (known(actualStyle) && !selectedIncludes("boatStyle", profile.styles, actualStyle)) reasons.push("style");
