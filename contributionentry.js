@@ -64,10 +64,29 @@
 
     function tr(key, fallback) { return localeMessages?.[key] || fallback || key; }
 
+    function humanFieldLabel(field) {
+        const raw = String(field?.id || "");
+        return raw
+            .replace(/Code$/, "")
+            .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+            .replace(/_/g, " ")
+            .replace(/\bloa\b/i, "LOA")
+            .replace(/^./, c => c.toUpperCase());
+    }
+
+    function humanEnumValue(value) {
+        const raw = String(value ?? "");
+        if (!raw) return raw;
+        const translated = tr(`enum.${raw}`, "");
+        if (translated) return translated;
+        const tail = raw.includes(".") ? raw.split(".").slice(1).join(" ") : raw;
+        return tail.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+    }
+
     function correctableSchemaFields() {
         const groups = Array.isArray(modelSchema?.groups) ? modelSchema.groups : [];
         return groups.map(group => ({
-            label: tr(group.labelKey, group.id),
+            label: tr(group.labelKey, String(group.id || "").replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase())),
             fields: (group.fields || []).filter(field => field.correctable)
         })).filter(group => group.fields.length);
     }
@@ -77,7 +96,7 @@
         if (!groups.length) return selectOptions(fallbackModelFields);
         return groups.map(group =>
             `<optgroup label="${escapeHtml(group.label)}">${group.fields.map(field =>
-                `<option value="${escapeHtml(field.id)}">${escapeHtml(tr(field.labelKey, field.id))}</option>`
+                `<option value="${escapeHtml(field.id)}">${escapeHtml(tr(field.labelKey, humanFieldLabel(field)))}</option>`
             ).join("")}</optgroup>`
         ).join("") + `<optgroup label="Other"><option value="Other">Something else</option></optgroup>`;
     }
@@ -105,12 +124,14 @@
             return undefined;
         }
         let value = model.data[field.id];
+        if (field.type === "enum" && value !== undefined && value !== null && value !== "") return humanEnumValue(value);
         if ((value === undefined || value === null || value === "") && Array.isArray(field.legacyKeys)) {
             for (const alias of field.legacyKeys) {
                 const candidate = model.data[alias];
                 if (candidate !== undefined && candidate !== null && candidate !== "") { value = candidate; break; }
             }
         }
+        if (field.type === "enum" && value !== undefined && value !== null && value !== "") return humanEnumValue(value);
         return value;
     }
 

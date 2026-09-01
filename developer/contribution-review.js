@@ -169,10 +169,12 @@ async function saveDecision(){
   const status=(action==="corrected"||action==="created"||action==="knowledge_created")?"approved":action;
   row={...row,CanonicalDraft:canonicalDraft||row.CanonicalDraft||null,ModerationStatus:status,ReviewAction:action,ModeratorNotes:$("moderatorNotes").value.trim()||null,TaxonomySignal:normalizeSignal($("taxonomySignal").value)||null,MergedKnowledgeItemID:knowledgeId,CanonicalActionRef:["corrected","created"].includes(action)?($("canonicalActionRef").value.trim()||(promoted?.id?`${promoted.type}:${promoted.id}`:(action==="created"?"Promote moderator-enriched canonical draft":null))):null,CreatedKnowledgeTitle:action==="knowledge_created"?$("knowledgeTitle").value.trim():null,CreatedKnowledgeSummary:action==="knowledge_created"?($("knowledgeSummary").value.trim()||null):null,EvidenceRelationship:knowledgeId?$("evidenceRelationship").value:null,KnowledgeState:knowledgeId?$("knowledgeState").value:null,ApplicabilityConfidence:knowledgeId?$("applicabilityConfidence").value:null,KnowledgeYearFrom:knowledgeId?($("knowledgeYearFrom").value||null):null,KnowledgeYearTo:knowledgeId?($("knowledgeYearTo").value||null):null,KnowledgeVariants:knowledgeId?($("knowledgeVariants").value.trim()||null):null,ConflictSummary:knowledgeId?($("conflictSummary").value.trim()||null):null,ReviewedAt:new Date().toISOString()};
   pending=pending.filter(r=>r.ContributionID!==selectedId);reviewed=reviewed.filter(r=>r.ContributionID!==selectedId);reviewed.push(row);write(PENDING_KEY,pending);write(REVIEWED_KEY,reviewed);refreshKnowledgeSummaries();
-  if(sharedConnected&&root.BScoutCommunityAPI) await root.BScoutCommunityAPI.saveAdminSnapshot(localSnapshot());
-  if(action==="created"&&promoted) sharedMessage(`Promoted ${promoted.type} ${promoted.id}. The canonical record has been written. The moderation decision is saved.`);
-  else if(sharedConnected) sharedMessage("Moderation decision saved to the shared queue. Use Publish reviewed knowledge to update public Guide/community files.");
-  else sharedMessage("Moderation decision saved in this browser-local test queue.");
+  if(sharedConnected&&root.BScoutCommunityAPI) {
+    await root.BScoutCommunityAPI.saveAdminSnapshot(localSnapshot());
+    const published = await root.BScoutCommunityAPI.publish();
+    if(action==="created"&&promoted) sharedMessage(`Promoted ${promoted.type} ${promoted.id}. The moderation decision is saved and public data has been refreshed.`);
+    else sharedMessage(`Moderation decision saved and published. ${published?.canonicalCorrections || 0} canonical correction${published?.canonicalCorrections===1?"":"s"} applied in this publish.`);
+  } else sharedMessage("Moderation decision saved in this browser-local test queue.");
   renderQueue();await openRecord(selectedId)
  }catch(e){alert(e.message||String(e))}
 }

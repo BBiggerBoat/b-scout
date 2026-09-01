@@ -32,6 +32,52 @@
             .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
             .replace(/"/g, "&quot;").replace(/'/g, "&#039;");
     }
+
+    function humanCode(value) {
+        if (value === undefined || value === null || value === "") return null;
+        const raw = String(value);
+        const special = {
+            "rudder.skeg_hung":"Skeg-hung",
+            "rudder.full_keel_attached":"Full-keel attached",
+            "rudder.spade":"Spade",
+            "rudder.semi_balanced":"Semi-balanced",
+            "rudder.transom_hung":"Transom-hung",
+            "rudder.twin":"Twin rudders",
+            "shower.separate_stall":"Separate shower stall",
+            "shower.wet_head":"Wet head",
+            "shower.none":"No interior shower",
+            "shower.varies":"Varies by boat",
+            "mechanical_propulsion.shaft":"Shaft",
+            "mechanical_propulsion.saildrive":"Saildrive",
+            "vessel.power":"Power",
+            "vessel.sail":"Sail",
+            "vessel.motorsailer":"Motorsailer",
+            "primary_propulsion.power":"Power",
+            "primary_propulsion.sail":"Sail",
+            "primary_propulsion.sail_and_power":"Sail and power",
+            "keel.full_long":"Full / long keel"
+        };
+        if (special[raw]) return special[raw];
+        const tail = raw.includes(".") ? raw.split(".").slice(1).join(" ") : raw;
+        return tail.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    function canonicalOrLegacy(boat, canonicalKey, legacyKeys=[]) {
+        const direct = boat?.[canonicalKey];
+        if (direct !== undefined && direct !== null && direct !== "") return direct;
+        for (const key of legacyKeys) {
+            const value = boat?.[key];
+            if (value !== undefined && value !== null && value !== "") return value;
+        }
+        return null;
+    }
+
+    function displayCanonical(boat, canonicalKey, legacyKeys=[]) {
+        const value = canonicalOrLegacy(boat, canonicalKey, legacyKeys);
+        if (value === null) return null;
+        return String(value).includes(".") ? humanCode(value) : value;
+    }
+
     function arr(value) { return Array.isArray(value) ? value : []; }
     function known(value) { return value !== undefined && value !== null && value !== ""; }
     function boatName(boat) { return [boat?.Manufacturer, boat?.Model, boat?.Variant].filter(Boolean).join(" ") || "Unknown model"; }
@@ -164,11 +210,24 @@
                 ${field("Designer", boat.Designer)}${field("Boat Model ID", boat.BoatModelID)}
             </div></section>
             <section class="workspace-card"><h3>Hull and Propulsion</h3><div class="workspace-fact-grid">
-                ${field("Style", boat.Style || boat.NormalizedStyle)}${field("Hull Form", boat.HullType || boat.NormalizedHullForm)}${field("Hull Configuration", boat.NormalizedHullConfiguration)}${field("Construction", boat.Construction)}
-                ${field("Fuel", boat.Fuel)}${field("Propulsion", boat.Propulsion)}${boat.RarityScore != null ? field("Rarity", `${boat.RarityScore}/5${boat.RarityLabel ? ` — ${boat.RarityLabel}` : ""}`) : ""}${boat.PriceLevel != null ? field("Price Level", `${boat.PriceLevel}/5${boat.PriceLevelLabel ? ` — ${boat.PriceLevelLabel}` : ""}`) : ""}${field("Flybridge", boat.Flybridge)}${field("Side Decks", boat.SideDecks)}
+                ${field("Vessel Category", displayCanonical(boat, "VesselCategoryCode"))}
+                ${field("Style", displayCanonical(boat, "StyleCode", ["Style","NormalizedStyle"]))}
+                ${field("Hull Form", displayCanonical(boat, "HullBehaviourCode", ["HullType","NormalizedHullForm"]))}
+                ${field("Hull Configuration", displayCanonical(boat, "HullConfigurationCode", ["NormalizedHullConfiguration"]))}
+                ${field("Keel Configuration", displayCanonical(boat, "KeelConfigurationCode", ["KeelConfiguration","KeelType"]))}
+                ${field("Rudder", displayCanonical(boat, "RudderTypeCode", ["RudderType"]))}
+                ${field("Construction", boat.Construction)}
+                ${field("Fuel", displayCanonical(boat, "FuelCode", ["Fuel"]))}
+                ${field("Primary Propulsion", displayCanonical(boat, "PrimaryPropulsionModeCode"))}
+                ${field("Mechanical Propulsion", displayCanonical(boat, "MechanicalPropulsionCode", ["PropulsionCode","Propulsion","NormalizedPropulsion"]))}
+                ${boat.RarityScore != null ? field("Rarity", `${boat.RarityScore}/5${boat.RarityLabel ? ` — ${boat.RarityLabel}` : ""}`) : ""}
+                ${boat.PriceLevel != null ? field("Price Level", `${boat.PriceLevel}/5${boat.PriceLevelLabel ? ` — ${boat.PriceLevelLabel}` : ""}`) : ""}
+                ${field("Flybridge", displayCanonical(boat, "FlybridgeCode", ["Flybridge"]))}
+                ${field("Side Decks", displayCanonical(boat, "SideDecksCode", ["SideDecks"]))}
             </div></section>
             <section class="workspace-card"><h3>Accommodation and Systems</h3><div class="workspace-fact-grid">
-                ${field("Berths", boat.Berths)}${field("Cabins", boat.Cabins)}${field("Heads", boat.Heads)}${field("Shower", boat.Shower)}
+                ${field("Berths", boat.Berths)}${field("Cabins", boat.Cabins)}${field("Heads", boat.Heads)}
+                ${field("Shower", displayCanonical(boat, "ShowerTypeCode", ["ShowerType","Shower"]))}
                 ${field("Fuel Capacity", boat.FuelCapacity)}${field("Water Capacity", boat.WaterCapacity)}${field("Holding Capacity", boat.HoldingCapacity)}${field("Headroom", boat.Headroom_ft, " ft")}
             </div></section>
             <section class="workspace-card"><h3>Model Strengths & Trade-offs</h3>
