@@ -502,6 +502,121 @@
       "identifierPolicy": "Stable ID. Add/deprecate/map rather than rename after validation begins."
     },
     {
+      "fieldId": "HeadroomSalon",
+      "groupId": "dimensions",
+      "applicability": null,
+      "labelKey": "field.HeadroomSalon",
+      "dataClass": "objective",
+      "type": "measurement",
+      "canonicalUnit": "m",
+      "dimension": "length",
+      "vocabulary": null,
+      "correctable": true,
+      "matchInput": false,
+      "unknownAllowed": true,
+      "legacyKeys": [],
+      "legacyMeasurements": [],
+      "allowedInputUnits": [
+        "m",
+        "ft",
+        "in"
+      ],
+      "evidenceExpectation": "source-backed or directly observable at the stated location",
+      "identifierPolicy": "Stable ID. Add/deprecate/map rather than rename after validation begins."
+    },
+    {
+      "fieldId": "HeadroomHelm",
+      "groupId": "dimensions",
+      "applicability": null,
+      "labelKey": "field.HeadroomHelm",
+      "dataClass": "objective",
+      "type": "measurement",
+      "canonicalUnit": "m",
+      "dimension": "length",
+      "vocabulary": null,
+      "correctable": true,
+      "matchInput": false,
+      "unknownAllowed": true,
+      "legacyKeys": [],
+      "legacyMeasurements": [],
+      "allowedInputUnits": [
+        "m",
+        "ft",
+        "in"
+      ],
+      "evidenceExpectation": "source-backed or directly observable at the stated location",
+      "identifierPolicy": "Stable ID. Add/deprecate/map rather than rename after validation begins."
+    },
+    {
+      "fieldId": "HeadroomGalley",
+      "groupId": "dimensions",
+      "applicability": null,
+      "labelKey": "field.HeadroomGalley",
+      "dataClass": "objective",
+      "type": "measurement",
+      "canonicalUnit": "m",
+      "dimension": "length",
+      "vocabulary": null,
+      "correctable": true,
+      "matchInput": false,
+      "unknownAllowed": true,
+      "legacyKeys": [],
+      "legacyMeasurements": [],
+      "allowedInputUnits": [
+        "m",
+        "ft",
+        "in"
+      ],
+      "evidenceExpectation": "source-backed or directly observable at the stated location",
+      "identifierPolicy": "Stable ID. Add/deprecate/map rather than rename after validation begins."
+    },
+    {
+      "fieldId": "HeadroomHead",
+      "groupId": "dimensions",
+      "applicability": null,
+      "labelKey": "field.HeadroomHead",
+      "dataClass": "objective",
+      "type": "measurement",
+      "canonicalUnit": "m",
+      "dimension": "length",
+      "vocabulary": null,
+      "correctable": true,
+      "matchInput": false,
+      "unknownAllowed": true,
+      "legacyKeys": [],
+      "legacyMeasurements": [],
+      "allowedInputUnits": [
+        "m",
+        "ft",
+        "in"
+      ],
+      "evidenceExpectation": "source-backed or directly observable at the stated location",
+      "identifierPolicy": "Stable ID. Add/deprecate/map rather than rename after validation begins."
+    },
+    {
+      "fieldId": "HeadroomForwardCabin",
+      "groupId": "dimensions",
+      "applicability": null,
+      "labelKey": "field.HeadroomForwardCabin",
+      "dataClass": "objective",
+      "type": "measurement",
+      "canonicalUnit": "m",
+      "dimension": "length",
+      "vocabulary": null,
+      "correctable": true,
+      "matchInput": false,
+      "unknownAllowed": true,
+      "legacyKeys": [],
+      "legacyMeasurements": [],
+      "allowedInputUnits": [
+        "m",
+        "ft",
+        "in"
+      ],
+      "evidenceExpectation": "source-backed or directly observable at the stated location",
+      "identifierPolicy": "Stable ID. Add/deprecate/map rather than rename after validation begins."
+    },
+    {
       "fieldId": "Displacement",
       "groupId": "dimensions",
       "applicability": null,
@@ -910,7 +1025,10 @@
       "legacyMeasurements": [],
       "allowedInputUnits": [],
       "evidenceExpectation": "normalized from source-backed facts",
-      "identifierPolicy": "Stable ID. Add/deprecate/map rather than rename after validation begins."
+      "identifierPolicy": "Stable ID. Add/deprecate/map rather than rename after validation begins.",
+      "allowedValues": [
+        "rudder.none_external_drive"
+      ]
     },
     {
       "fieldId": "RunningGearProtectionCode",
@@ -1545,6 +1663,29 @@
       "legacyMeasurements": [],
       "allowedInputUnits": [],
       "evidenceExpectation": "source-backed or directly observable",
+      "identifierPolicy": "Stable ID. Add/deprecate/map rather than rename after validation begins."
+    },
+    {
+      "fieldId": "VBerthLength",
+      "groupId": "layout",
+      "applicability": null,
+      "labelKey": "field.VBerthLength",
+      "dataClass": "objective",
+      "type": "measurement",
+      "canonicalUnit": "m",
+      "dimension": "length",
+      "vocabulary": null,
+      "correctable": true,
+      "matchInput": false,
+      "unknownAllowed": true,
+      "legacyKeys": [],
+      "legacyMeasurements": [],
+      "allowedInputUnits": [
+        "m",
+        "ft",
+        "in"
+      ],
+      "evidenceExpectation": "source-backed or directly measured usable sleeping length",
       "identifierPolicy": "Stable ID. Add/deprecate/map rather than rename after validation begins."
     },
     {

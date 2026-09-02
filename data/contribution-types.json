@@ -37,7 +37,7 @@
         },
         {
           "id": "correction",
-          "label": "Correct B-Atlas information",
+          "label": "Add or correct model information",
           "scope": [
             "manufacturer",
             "model"

@@ -8,6 +8,26 @@ BASE = 'https://b-atlas.org/'
 TODAY = date.today().isoformat()
 models = json.loads((ROOT/'boatmodels.json').read_text(encoding='utf-8'))
 
+# Runtime-equivalent canonical compatibility for generated public pages.
+# Canonical SI/code fields win when known; legacy fields remain fallbacks.
+FT_PER_M = 3.280839895013123
+LB_PER_KG = 2.2046226218487757
+ENUM_LABELS = {
+    'fuel.diesel':'Diesel','fuel.gasoline':'Gasoline','fuel.mixed':'Mixed Diesel/Gasoline',
+    'mechanical_propulsion.shaft':'Shaft','mechanical_propulsion.v_drive':'Shaft/V-Drive',
+    'mechanical_propulsion.sterndrive':'Sterndrive','mechanical_propulsion.stern_drive':'Sterndrive',
+    'mechanical_propulsion.outboard':'Outboard','mechanical_propulsion.pod':'Pod',
+    'hull_behaviour.displacement':'Displacement','hull_behaviour.semi_displacement':'Semi-Displacement','hull_behaviour.planing':'Planing'
+}
+for m in models:
+    for canon,legacy,factor in [('LOA','LOA_ft',FT_PER_M),('Beam','Beam_ft',FT_PER_M),('Draft','Draft_ft',FT_PER_M),('AirDraft','AirDraft_ft',FT_PER_M),('Displacement','Displacement_lb',LB_PER_KG)]:
+        if isinstance(m.get(canon),(int,float)):
+            m[legacy]=m[canon]*factor
+    if m.get('FuelCode'): m['NormalizedFuel']=ENUM_LABELS.get(m['FuelCode'], str(m['FuelCode']).split('.')[-1].replace('_',' ').title())
+    if m.get('MechanicalPropulsionCode'): m['NormalizedPropulsion']=ENUM_LABELS.get(m['MechanicalPropulsionCode'], str(m['MechanicalPropulsionCode']).split('.')[-1].replace('_',' ').title())
+    if m.get('HullBehaviourCode'): m['HullBehaviour']=ENUM_LABELS.get(m['HullBehaviourCode'], str(m['HullBehaviourCode']).split('.')[-1].replace('_',' ').title())
+    if m.get('BoatFamilyCode'): m['BoatFamily']=str(m['BoatFamilyCode']).split('.')[-1].replace('_',' ').title()
+
 
 def slugify(s):
     s = str(s or '').lower().strip()
@@ -83,6 +103,13 @@ if models_dir.exists():
         if mt: id_to_slug[mt.group(1)] = p.parent.name
 for m in models:
     id_to_slug.setdefault(m.get('BoatModelID'), model_slug(m))
+# Prevent two canonical identities from overwriting the same generated page after an identity split.
+used_slugs={}
+for m in models:
+    mid=m.get('BoatModelID'); slug=id_to_slug[mid]
+    if slug in used_slugs and used_slugs[slug] != mid:
+        id_to_slug[mid]=f'{slug}-{str(mid).lower()}'
+    used_slugs[id_to_slug[mid]]=mid
 
 model_by_id={m.get('BoatModelID'):m for m in models}
 
@@ -254,7 +281,7 @@ for m in models:
     desc=trunc(f'{nm}: specs, dimensions, hull and propulsion data, buyer trade-offs, inspection focus and model-specific concerns where evidence exists.')
     url=f'{BASE}models/{slug}/'
     specs=[]
-    for lab,v in [('Length',fmt(num(m,'LengthFt','LOA_ft'),' ft')),('Beam',fmt(num(m,'BeamFt','Beam_ft'),' ft')),('Draft',fmt(num(m,'DraftFt','Draft_ft'),' ft')),('Hull behaviour',text(m,'HullBehaviour','NormalizedHullType','HullType') or 'Unknown'),('Fuel',text(m,'NormalizedFuel','Fuel') or 'Unknown'),('Propulsion',text(m,'NormalizedPropulsion','Propulsion') or 'Unknown'),('Engine configuration',text(m,'EngineConfiguration') or 'Unknown'),('Boat family',text(m,'BoatFamily','NormalizedStyle','Style') or 'Unknown'),('Construction',text(m,'Construction') or 'Unknown')]:
+    for lab,v in [('LOA',fmt(num(m,'LengthFt','LOA_ft'),' ft')),('LWL',fmt(num(m,'LWL_ft'),' ft')),('Beam',fmt(num(m,'BeamFt','Beam_ft'),' ft')),('Draft',fmt(num(m,'DraftFt','Draft_ft'),' ft')),('Hull behaviour',text(m,'HullBehaviour','NormalizedHullType','HullType') or 'Unknown'),('Fuel',text(m,'NormalizedFuel','Fuel') or 'Unknown'),('Propulsion',text(m,'NormalizedPropulsion','Propulsion') or 'Unknown'),('Engine configuration',text(m,'EngineConfiguration') or 'Unknown'),('Boat family',text(m,'BoatFamily','NormalizedStyle','Style') or 'Unknown'),('Construction',text(m,'Construction') or 'Unknown')]:
         specs.append(f'<div><dt>{esc(lab)}</dt><dd>{esc(v)}</dd></div>')
     img=m.get('ImageURL')
     img_html=f'<img class="hero-img" src="../../{esc(img)}" alt="{esc(nm)}" loading="eager">' if img else ''
@@ -299,7 +326,7 @@ url=BASE+'models/'; title='Boat Model Guides: Specs, Concerns & Buyer Research |
 # Update public footer links/version without adding primary-nav clutter.
 idx=ROOT/'index.html'; s=idx.read_text(encoding='utf-8')
 s=s.replace('<a href="models/">Browse Model Guides</a>', '<a href="models/">Browse Model Guides</a>\n    <a href="boats/">Find by Criteria</a>\n    <a href="compare/">Compare Models</a>')
-s=re.sub(r'Version 6\.23\.\d+[^<]*', 'Version 6.23.4 — Search Experience Integration', s)
+pkg=json.loads((ROOT/'package.json').read_text(encoding='utf-8')); release=pkg.get('version',''); s=re.sub(r'Version [0-9]+\.[0-9]+\.[0-9]+[^<]*', f'Version {release}', s)
 idx.write_text(s,encoding='utf-8')
 
 # Sitemap: only stable, useful public pages.
@@ -316,7 +343,7 @@ xml.append('</urlset>')
 
 # Maintainability notes.
 report={
- 'version':'6.27.0', 'generated':TODAY, 'model_pages':len(models), 'manufacturer_pages':len(manufacturer_slugs),
+ 'version':json.loads((ROOT/'package.json').read_text(encoding='utf-8')).get('version',''), 'generated':TODAY, 'model_pages':len(models), 'manufacturer_pages':len(manufacturer_slugs),
  'constraint_pages':len(criteria_defs), 'comparison_pages':len(pairs), 'sitemap_urls':len(urls),
  'principle':'Generate stable, useful pages from canonical model data. Do not generate every possible filter or model pair.'
 }

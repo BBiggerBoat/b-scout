@@ -1,11 +1,11 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-07T14:33:45.559Z",
+  "generatedAt": "2026-09-02T20:02:14.003Z",
   "status": "Passed",
   "summary": {
     "manufacturerCount": 80,
-    "boatIdentityCount": 256,
-    "aliasCount": 691,
+    "boatIdentityCount": 259,
+    "aliasCount": 1156,
     "duplicateBoatModelIDs": 0,
     "unregisteredBoatModelIDs": 0,
     "orphanRegistryIDs": 0

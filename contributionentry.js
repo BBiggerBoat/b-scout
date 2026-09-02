@@ -302,13 +302,26 @@
         <div class="contribution-field contribution-field-wide"><label for="inspectionWhy">Why does it matter? <span>optional</span></label><textarea id="inspectionWhy" name="Why" maxlength="800" rows="3"></textarea></div>`;
     }
 
+    function correctionMeasurementGuidance(fieldId) {
+        const notes = {
+            Headroom: "If possible, choose a location-specific headroom field instead. A single general headroom value can hide important low areas.",
+            HeadroomSalon: "Measure from the finished cabin sole to the lowest fixed overhead where an adult normally stands in the saloon/main cabin.",
+            HeadroomHelm: "Measure at the normal standing helm position, from finished sole/deck to the lowest fixed overhead. Do not measure through an open hatch.",
+            HeadroomGalley: "Measure at the primary cooking/preparation standing position, from finished sole to the lowest fixed overhead.",
+            HeadroomHead: "Measure inside the head compartment at the normal standing area near the toilet/sink. Note if the shower has different clearance.",
+            HeadroomForwardCabin: "Measure at the normal standing/dressing area in the forward cabin, not above the berth mattress unless that is the only standing area.",
+            VBerthLength: "Measure usable sleeping length on the mattress/cushion surface. If the berth is tapered, measure the longest practical sleeping axis and describe where you measured it."
+        };
+        return notes[fieldId] || "";
+    }
+
     function correctionForm() {
         return `${modelIdentityFields(true)}${commonOptionalFields()}
         <div class="contribution-field-row">
-          <div class="contribution-field"><label for="correctionField">What needs correcting? *</label><select id="correctionField" name="CorrectionField" required><option value="">Choose a field</option>${correctionFieldOptions()}</select></div>
+          <div class="contribution-field"><label for="correctionField">What information are you adding or correcting? *</label><select id="correctionField" name="CorrectionField" required><option value="">Choose a field</option>${correctionFieldOptions()}</select></div>
           <div class="contribution-field"><label for="correctionCurrentValue">B-Atlas currently says</label><input id="correctionCurrentValue" name="CurrentValue" readonly placeholder="Select a field"></div>
         </div>
-        <div class="contribution-field contribution-field-wide"><label for="correctionProposedValue">What should it say? *</label><div id="correctionProposedControl">${proposedControl(null)}</div></div>
+        <div class="contribution-field contribution-field-wide"><label for="correctionProposedValue">What should it say? *</label><div id="correctionProposedControl">${proposedControl(null)}</div><small id="correctionMeasurementGuidance" hidden></small></div>
         <div class="contribution-field contribution-field-wide"><label for="correctionEvidence">How do you know? *</label><select id="correctionEvidence" name="EvidenceType" required><option value="">Choose one</option>${selectOptions([["direct_owner_observation","I own / owned this model"],["manufacturer_documentation","Manufacturer documentation"],["manual_brochure","Manual or brochure"],["survey","Survey"],["professional_inspection","Professional source"],["other","Other source"]])}</select></div>
         <div class="contribution-field contribution-field-wide"><label for="correctionExplanation">Explanation or source <span>optional</span></label><textarea id="correctionExplanation" name="Explanation" maxlength="1000" rows="4"></textarea></div>
         <div class="contribution-field contribution-field-wide"><label for="correctionSourceURL">Source link <span>optional</span></label><input id="correctionSourceURL" name="SourceURL" type="url" placeholder="https://"></div>`;
@@ -523,6 +536,12 @@
         const value = currentSchemaValue(model, field || { id:fieldId });
         current.value = value === null || value === undefined || value === "" ? "Unknown / not populated" : (Array.isArray(value) ? value.join(", ") : String(value));
         if (control) control.innerHTML = proposedControl(field || { id:fieldId, type:"text" });
+        const guidance = $("correctionMeasurementGuidance");
+        if (guidance) {
+            const text = correctionMeasurementGuidance(fieldId);
+            guidance.textContent = text;
+            guidance.hidden = !text;
+        }
     }
 
     function bindDynamicFields() {
@@ -1047,6 +1066,13 @@
         $("contributionTypeGroups").hidden = false;
         const [data] = await Promise.all([loadTaxonomy(), loadModels(), loadModelSchema()]);
         renderGroups(data, returnContext);
+        if (options.typeId) {
+            selectType(options.typeId);
+            if (options.fieldId && options.typeId === "correction") {
+                const fieldSelect = $("correctionField");
+                if (fieldSelect) { fieldSelect.value = options.fieldId; updateCorrectionCurrentValue(); }
+            }
+        }
         if (view) { const h=document.querySelector(".site-header")?.getBoundingClientRect().height||72; window.scrollTo({top:Math.max(0,view.getBoundingClientRect().top+window.scrollY-h-18),behavior:"smooth"}); }
     }
 

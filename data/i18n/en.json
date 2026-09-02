@@ -133,7 +133,7 @@
     "field.Beam": "Beam",
     "field.Draft": "Draft",
     "field.AirDraft": "Air draft / bridge clearance",
-    "field.Headroom": "Interior headroom",
+    "field.Headroom": "Published/general interior headroom",
     "field.Displacement": "Displacement",
     "field.FuelCapacity": "Fuel capacity",
     "field.WaterCapacity": "Water capacity",
@@ -265,6 +265,13 @@
     "enum.ce.c": "CE Category C",
     "enum.ce.d": "CE Category D",
     "enum.ce.not_applicable": "Not applicable",
-    "enum.ce.unknown": "Unknown"
-  }
+    "enum.ce.unknown": "Unknown",
+    "field.HeadroomSalon": "Saloon / main-cabin headroom",
+    "field.HeadroomHelm": "Helm headroom",
+    "field.HeadroomGalley": "Galley headroom",
+    "field.HeadroomHead": "Head-compartment headroom",
+    "field.HeadroomForwardCabin": "Forward-cabin headroom",
+    "field.VBerthLength": "V-berth usable length"
+  },
+  "enum.rudder.none_external_drive": "No separate rudder (steered by outboard/drive)"
 }

@@ -399,3 +399,8 @@ body{color:var(--bs-text-primary)}
   background:#fff;
 }
 .boat-guide-subsection-body{border-radius:0 0 6px 6px;background:#fff}
+
+/* v6.61 missing-fact contribution prompt */
+.workspace-fact.is-unknown span{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.workspace-missing-contribution{padding:0!important;border:0!important;background:transparent!important;color:var(--bs-accent,#356f9f)!important;font:inherit;font-size:11px!important;font-weight:700!important;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+.workspace-missing-contribution:hover{text-decoration-thickness:2px}

@@ -173,8 +173,9 @@ function evaluateFuel(boat, userProfile) {
     }
 
     // RULE 2: If boat fuel is unknown
-    const boatFuel = boat ? boat.Fuel : null;
-    if (!boatFuel || boatFuel.trim() === "" || boatFuel.toLowerCase() === "unknown") {
+    const boatFuelRaw = boat ? (Object.prototype.hasOwnProperty.call(boat,"FuelCode") ? boat.FuelCode : (boat.NormalizedFuel || boat.Fuel)) : null;
+    const boatFuel = boatFuelRaw && String(boatFuelRaw).includes(".") ? String(boatFuelRaw).split(".").pop().replace(/_/g, " ") : boatFuelRaw;
+    if (!boatFuel || boatFuel.trim() === "" || /(^|[._ -])(unknown|mixed)([._ -]|$)|configuration[ _-]?dependent|conflict/i.test(boatFuel)) {
         return buildResult(
             featureKey,
             importance,
@@ -335,8 +336,9 @@ function evaluateHullType(boat, userProfile) {
     }
 
     // RULE 2: If boat hull type is unknown
-    const boatHull = boat ? boat.HullType : null;
-    if (!boatHull || boatHull.trim() === "" || boatHull.toLowerCase() === "unknown") {
+    const boatHullRaw = boat ? (Object.prototype.hasOwnProperty.call(boat,"HullBehaviourCode") ? boat.HullBehaviourCode : (boat.HullBehaviour || boat.NormalizedHullForm || boat.HullType)) : null;
+    const boatHull = boatHullRaw && String(boatHullRaw).includes(".") ? String(boatHullRaw).split(".").pop().replace(/_/g, " ") : boatHullRaw;
+    if (!boatHull || boatHull.trim() === "" || /(^|[._ -])(unknown|mixed)([._ -]|$)|configuration[ _-]?dependent|conflict/i.test(boatHull)) {
         return buildResult(
             featureKey,
             importance,

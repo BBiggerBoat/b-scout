@@ -6,7 +6,8 @@
       "Albin"
     ],
     "ModelTerms": [
-      "25"
+      "25",
+      "25 Motor Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -30,7 +31,8 @@
     ],
     "ModelTerms": [
       "27",
-      "27 Sport"
+      "27 Sport",
+      "27 Sport Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -155,7 +157,9 @@
       "26 Duffy Cruiser",
       "Duffy 26 Downeast",
       "26 / Duffy 26",
-      "26 / Duffy 26 Duffy Hull"
+      "26 / Duffy 26 Duffy Hull",
+      "Duffy 26",
+      "Duffy 26 Semi-Custom Downeast Hull"
     ],
     "SourceModelTerms": {}
   },
@@ -182,7 +186,8 @@
       "2452",
       "2452 Classic Cruiser",
       "2452 Ciera Express",
-      "2452 Ciera Express Classic Cruiser"
+      "2452 Ciera Express Classic Cruiser",
+      "2452 Ciera Express Hardtop Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -195,7 +200,8 @@
     "ModelTerms": [
       "2855",
       "2855 Ciera",
-      "2855 Ciera Sunbridge"
+      "2855 Ciera Sunbridge",
+      "2855 Ciera Sunbridge Multi-Generation Sunbridge"
     ],
     "SourceModelTerms": {}
   },
@@ -209,7 +215,9 @@
       "2859",
       "2859 Classic Cruiser",
       "2859 Ciera Express",
-      "2859 Ciera Express Classic Cruiser"
+      "2859 Ciera Express Classic Cruiser",
+      "2859 Ciera Express Hardtop Cruiser",
+      "2859 Super Classic / Ciera Express"
     ],
     "SourceModelTerms": {}
   },
@@ -222,7 +230,9 @@
     "ModelTerms": [
       "3055",
       "3055 Ciera",
-      "3055 Ciera Sunbridge"
+      "3055 Ciera Sunbridge",
+      "3055 Ciera Sunbridge / 305 SB",
+      "3055 Ciera Sunbridge / 305 SB Express Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -234,7 +244,8 @@
     ],
     "ModelTerms": [
       "3058",
-      "3058 Command Bridge"
+      "3058 Command Bridge",
+      "3058 Command Bridge Command Bridge Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -246,7 +257,8 @@
     ],
     "ModelTerms": [
       "3218",
-      "3218 Motoryacht"
+      "3218 Motoryacht",
+      "3218 Motoryacht Flybridge Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -258,7 +270,9 @@
     ],
     "ModelTerms": [
       "3258",
-      "3258 Ciera Command Bridge"
+      "3258 Ciera Command Bridge",
+      "3258 Command Bridge",
+      "3258 Command Bridge Command Bridge Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -270,7 +284,9 @@
     ],
     "ModelTerms": [
       "3288",
-      "3288 Motor Yacht"
+      "3288 Motor Yacht",
+      "3270 / 3288 Motor Yacht",
+      "3270 / 3288 Motor Yacht Explorer / Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -282,7 +298,8 @@
     ],
     "ModelTerms": [
       "3388",
-      "3388 Motor Yacht"
+      "3388 Motor Yacht",
+      "3388 Motor Yacht Flybridge Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -294,7 +311,8 @@
     ],
     "ModelTerms": [
       "3788",
-      "3788 Motor Yacht"
+      "3788 Motor Yacht",
+      "3788 Motor Yacht Two-Generation Flybridge Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -306,7 +324,9 @@
     ],
     "ModelTerms": [
       "3888",
-      "3888 Motor Yacht"
+      "3888 Motor Yacht",
+      "3870 / 3888 Motor Yacht",
+      "3870 / 3888 Motor Yacht Mid-Cabin Flybridge Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -404,7 +424,8 @@
       "52",
       "52 Swift Trawler",
       "Swift Trawler 52",
-      "Swift Trawler 52 Flybridge"
+      "Swift Trawler 52 Flybridge",
+      "Swift Trawler 52 Flybridge Flagship"
     ],
     "SourceModelTerms": {}
   },
@@ -418,7 +439,8 @@
       "11",
       "11 Antares",
       "Antares 11",
-      "Antares 11 Coupe"
+      "Antares 11 Coupe",
+      "Antares 11 Coupé"
     ],
     "SourceModelTerms": {}
   },
@@ -432,7 +454,8 @@
       "7",
       "7 Antares",
       "Antares 7",
-      "Antares 7 Pilothouse Outboard"
+      "Antares 7 Pilothouse Outboard",
+      "Antares 7 Cruising / Fishing"
     ],
     "SourceModelTerms": {}
   },
@@ -446,7 +469,8 @@
       "8",
       "8 Antares",
       "Antares 8",
-      "Antares 8 Pilothouse Outboard"
+      "Antares 8 Pilothouse Outboard",
+      "Antares 8 Cruising / Fishing"
     ],
     "SourceModelTerms": {}
   },
@@ -460,7 +484,20 @@
       "9",
       "9 Antares",
       "Antares 9",
-      "Antares 9 Pilothouse Outboard"
+      "Antares 9 Pilothouse Outboard",
+      "Antares 9 Generation 1"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "BENE-ANT-9-S2",
+    "CanonicalName": "Beneteau Antares 9 Generation 2",
+    "ManufacturerTerms": [
+      "Beneteau"
+    ],
+    "ModelTerms": [
+      "Antares 9",
+      "Antares 9 Generation 2"
     ],
     "SourceModelTerms": {}
   },
@@ -474,7 +511,8 @@
       "8",
       "8 Barracuda",
       "Barracuda 8",
-      "Barracuda 8 Sport Fishing Pilothouse"
+      "Barracuda 8 Sport Fishing Pilothouse",
+      "Barracuda 8 Sport-Fishing Pilothouse"
     ],
     "SourceModelTerms": {}
   },
@@ -488,7 +526,8 @@
       "9",
       "9 Barracuda",
       "Barracuda 9",
-      "Barracuda 9 Sport Fishing Pilothouse"
+      "Barracuda 9 Sport Fishing Pilothouse",
+      "Barracuda 9 Sport-Fishing Pilothouse"
     ],
     "SourceModelTerms": {}
   },
@@ -500,7 +539,9 @@
     ],
     "ModelTerms": [
       "32",
-      "32 Downeast"
+      "32 Downeast",
+      "32 Flye Point / Semi-Custom Downeast",
+      "32 / Flye Point 32"
     ],
     "SourceModelTerms": {}
   },
@@ -511,7 +552,8 @@
       "Back Cove"
     ],
     "ModelTerms": [
-      "26"
+      "26",
+      "26 Downeast Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -522,7 +564,8 @@
       "Back Cove"
     ],
     "ModelTerms": [
-      "29"
+      "29",
+      "29 Downeast Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -534,7 +577,8 @@
     ],
     "ModelTerms": [
       "30",
-      "30 Trawler"
+      "30 Trawler",
+      "30 Downeast Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -546,7 +590,8 @@
     ],
     "ModelTerms": [
       "32",
-      "32 Trawler"
+      "32 Trawler",
+      "32 Downeast Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -557,7 +602,8 @@
       "Back Cove"
     ],
     "ModelTerms": [
-      "33"
+      "33",
+      "33 Downeast Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -569,7 +615,8 @@
     ],
     "ModelTerms": [
       "34",
-      "34 Trawler"
+      "34 Trawler",
+      "34 Downeast Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -581,7 +628,8 @@
     ],
     "ModelTerms": [
       "37",
-      "37 Trawler"
+      "37 Trawler",
+      "37 Downeast Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -595,7 +643,8 @@
       "39",
       "39 O",
       "39O",
-      "39O Outboard"
+      "39O Outboard",
+      "39O Outboard Salon Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -606,7 +655,8 @@
       "Back Cove"
     ],
     "ModelTerms": [
-      "41"
+      "41",
+      "41 Flagship Downeast Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -689,7 +739,9 @@
     ],
     "ModelTerms": [
       "28",
-      "28 Voyager"
+      "28 Voyager",
+      "2827 Voyager / 2897 Mariner",
+      "2827 Voyager / 2897 Mariner Flybridge Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -715,7 +767,8 @@
     ],
     "ModelTerms": [
       "33",
-      "33 Mariner"
+      "33 Mariner",
+      "3297 / 330 Mariner"
     ],
     "SourceModelTerms": {}
   },
@@ -729,7 +782,8 @@
       "350",
       "350 Aft Cabin",
       "33 / 350",
-      "33 / 350 Aft Cabin"
+      "33 / 350 Aft Cabin",
+      "33 / 350 Aft Cabin Aft Cabin Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -741,7 +795,9 @@
     ],
     "ModelTerms": [
       "356",
-      "356 Aft Cabin"
+      "356 Aft Cabin",
+      "355 / 356 Motor Yacht",
+      "355 / 356 Motor Yacht Aft Cabin Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -781,7 +837,9 @@
     ],
     "ModelTerms": [
       "40",
-      "40 Aft Cabin"
+      "40 Aft Cabin",
+      "3807 / 390 Aft Cabin",
+      "3807 / 390 Aft Cabin Aft Cabin Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -793,7 +851,9 @@
     ],
     "ModelTerms": [
       "42",
-      "42 Aft Cabin"
+      "42 Aft Cabin",
+      "4207 Aft Cabin",
+      "4207 Aft Cabin Aft Cabin Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -833,7 +893,8 @@
       "TomCat 255",
       "30 TomCat",
       "25 TomCat TomCat 255",
-      "25 TomCat / TomCat 255"
+      "25 TomCat / TomCat 255",
+      "TomCat 255 Power Catamaran"
     ],
     "SourceModelTerms": {}
   },
@@ -846,7 +907,9 @@
     "ModelTerms": [
       "26",
       "26 ProAngler",
-      "26 ProAngler (cruiser conversions)"
+      "26 ProAngler (cruiser conversions)",
+      "26 Pro Angler",
+      "26 Pro Angler Walkaround Fishing"
     ],
     "SourceModelTerms": {}
   },
@@ -858,7 +921,8 @@
     ],
     "ModelTerms": [
       "26",
-      "26 Venture"
+      "26 Venture",
+      "26 Venture Venture Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -936,7 +1000,8 @@
     ],
     "ModelTerms": [
       "28",
-      "28 Trawler"
+      "28 Trawler",
+      "28 Sedan Trawler"
     ],
     "SourceModelTerms": {}
   },
@@ -971,7 +1036,8 @@
     ],
     "ModelTerms": [
       "36 Trawler Mk II",
-      "36 Sedan"
+      "36 Sedan",
+      "36 Trawler"
     ],
     "SourceModelTerms": {}
   },
@@ -1027,7 +1093,8 @@
     "ModelTerms": [
       "30",
       "30 Flybridge",
-      "30 Flybridge Trawler"
+      "30 Flybridge Trawler",
+      "30 PowerYacht"
     ],
     "SourceModelTerms": {}
   },
@@ -1043,7 +1110,8 @@
       "33 Poweryacht",
       "33 Flybridge",
       "33 Cruiser",
-      "33 Trawler"
+      "33 Trawler",
+      "33 PowerYacht"
     ],
     "SourceModelTerms": {}
   },
@@ -1059,7 +1127,8 @@
       "36 Poweryacht",
       "36 Flybridge",
       "36 Cruiser",
-      "36 Trawler"
+      "36 Trawler",
+      "36 PowerYacht"
     ],
     "SourceModelTerms": {}
   },
@@ -1087,7 +1156,10 @@
       "2980",
       "Cruisers 2980",
       "2980 Esprit",
-      "Cruisers 2980 Esprit"
+      "Cruisers 2980 Esprit",
+      "288 / 298 Villa Vee / 2980 Esprit",
+      "288 / 298 Villa Vee / 2980 Esprit Flybridge Cruiser",
+      "Cruisers 288 / 298 Villa Vee / 2980 Esprit"
     ],
     "SourceModelTerms": {}
   },
@@ -1100,7 +1172,23 @@
     "ModelTerms": [
       "320",
       "320 Express",
-      "Cruisers 320 Express"
+      "Cruisers 320 Express",
+      "3275 / 320 Express",
+      "3275 / 320 Express Express Cruiser",
+      "Cruisers 3275 / 320 Express"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "CRUY-3260",
+    "CanonicalName": "Cruisers Yachts 3260 Esprit Open Interior / No Mid-Cabin",
+    "ManufacturerTerms": [
+      "Cruisers Yachts"
+    ],
+    "ModelTerms": [
+      "3260 Esprit",
+      "3260 Esprit Open Interior / No Mid-Cabin",
+      "Cruisers 3260 / 3270 Esprit"
     ],
     "SourceModelTerms": {}
   },
@@ -1114,7 +1202,10 @@
       "3280",
       "Cruisers 3280",
       "3280 Esprit",
-      "Cruisers 3280 Esprit"
+      "Cruisers 3280 Esprit",
+      "3270 Esprit",
+      "3270 Esprit Mid-Cabin",
+      "Cruisers 3260 / 3270 Esprit"
     ],
     "SourceModelTerms": {}
   },
@@ -1128,7 +1219,8 @@
       "3375",
       "Cruisers 3375",
       "3375 Esprit",
-      "Cruisers 3375 Esprit"
+      "Cruisers 3375 Esprit",
+      "3375 Esprit Express Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1143,7 +1235,8 @@
       "Cruisers 3470",
       "3470 / 340",
       "3470 / 340 Express",
-      "Cruisers 3470 / 340 Express"
+      "Cruisers 3470 / 340 Express",
+      "3470 / 340 Express Express Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1158,7 +1251,8 @@
       "3650 Aft Cabin",
       "3650 / 3750 / 375",
       "3650 / 3750 / 375 Motor Yacht",
-      "Cruisers 3650 / 3750 / 375 Motor Yacht"
+      "Cruisers 3650 / 3750 / 375 Motor Yacht",
+      "3650 / 3750 / 375 Motor Yacht Aft Cabin Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -1172,7 +1266,10 @@
       "3870",
       "Cruisers 3870",
       "3870 Express",
-      "Cruisers 3870 Express"
+      "Cruisers 3870 Express",
+      "3870 Esprit / Express",
+      "3870 Esprit / Express Express Cruiser",
+      "Cruisers 3870 Esprit / Express"
     ],
     "SourceModelTerms": {}
   },
@@ -1185,7 +1282,9 @@
     "ModelTerms": [
       "390",
       "390 Express",
-      "Cruisers 390 Express"
+      "Cruisers 390 Express",
+      "390 Sports Coupe",
+      "Cruisers 390 Sports Coupe"
     ],
     "SourceModelTerms": {}
   },
@@ -1199,7 +1298,9 @@
       "4050",
       "Cruisers 4050",
       "4050 Express Motor Yacht",
-      "Cruisers 4050 Express Motor Yacht"
+      "Cruisers 4050 Express Motor Yacht",
+      "4050 / 405 / 415 Express Motor Yacht",
+      "Cruisers 4050 / 405 / 415 Express Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -1310,7 +1411,9 @@
     ],
     "ModelTerms": [
       "38",
-      "38 Trawler"
+      "38 Trawler",
+      "38 Passagemaker",
+      "38 Passagemaker Wood Passagemaker"
     ],
     "SourceModelTerms": {}
   },
@@ -1347,7 +1450,8 @@
     ],
     "ModelTerms": [
       "43",
-      "43 Trawler"
+      "43 Trawler",
+      "43 Trawler Flush Deck"
     ],
     "SourceModelTerms": {}
   },
@@ -1371,7 +1475,8 @@
     ],
     "ModelTerms": [
       "47",
-      "47 POC Motor Yacht"
+      "47 POC Motor Yacht",
+      "47 POC Motor Yacht Performance Offshore Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1394,7 +1499,8 @@
       "Duffy"
     ],
     "ModelTerms": [
-      "29"
+      "29",
+      "29 Downeast Hull"
     ],
     "SourceModelTerms": {}
   },
@@ -1406,7 +1512,8 @@
     ],
     "ModelTerms": [
       "31",
-      "31 Downeast"
+      "31 Downeast",
+      "31 Downeast / Lobsterboat Hull"
     ],
     "SourceModelTerms": {}
   },
@@ -1418,7 +1525,8 @@
     ],
     "ModelTerms": [
       "35",
-      "35 Downeast"
+      "35 Downeast",
+      "35 Downeast / Lobsterboat Hull"
     ],
     "SourceModelTerms": {}
   },
@@ -1429,7 +1537,8 @@
       "Duffy"
     ],
     "ModelTerms": [
-      "37"
+      "37",
+      "37 Downeast / Lobsterboat Hull"
     ],
     "SourceModelTerms": {}
   },
@@ -1440,7 +1549,8 @@
       "Duffy"
     ],
     "ModelTerms": [
-      "39"
+      "39",
+      "39 Extended Duffy 37 / Custom Downeast"
     ],
     "SourceModelTerms": {}
   },
@@ -1451,7 +1561,8 @@
       "Duffy"
     ],
     "ModelTerms": [
-      "42"
+      "42",
+      "42 Downeast / Lobsterboat Hull"
     ],
     "SourceModelTerms": {}
   },
@@ -1463,7 +1574,9 @@
     ],
     "ModelTerms": [
       "36",
-      "36 TrawlerCat"
+      "36 TrawlerCat",
+      "TrawlerCat 36",
+      "TrawlerCat 36 Power Catamaran"
     ],
     "SourceModelTerms": {}
   },
@@ -1476,7 +1589,8 @@
     "ModelTerms": [
       "44",
       "44 TrawlerCat",
-      "TrawlerCat 44"
+      "TrawlerCat 44",
+      "44 TrawlerCat Power Catamaran"
     ],
     "SourceModelTerms": {}
   },
@@ -1488,7 +1602,8 @@
     ],
     "ModelTerms": [
       "36",
-      "36 Cruiser"
+      "36 Cruiser",
+      "36 Cruiser Enclosed Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1500,7 +1615,8 @@
     ],
     "ModelTerms": [
       "36",
-      "36 Open"
+      "36 Open",
+      "36 Open Walkaround Day Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1512,7 +1628,8 @@
     ],
     "ModelTerms": [
       "40",
-      "40 Cruiser"
+      "40 Cruiser",
+      "40 Cruiser Enclosed Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1524,7 +1641,8 @@
     ],
     "ModelTerms": [
       "40",
-      "40 Open"
+      "40 Open",
+      "40 Open Walkaround Day Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1535,7 +1653,8 @@
       "Fortier"
     ],
     "ModelTerms": [
-      "26"
+      "26",
+      "26 Bass Boat / Downeast Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1548,7 +1667,8 @@
     "ModelTerms": [
       "33",
       "33 Downeast",
-      "Fortier 33"
+      "Fortier 33",
+      "33 Downeast Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1562,7 +1682,8 @@
       "40",
       "40 Pilgrim",
       "Pilgrim 40",
-      "Pilgrim 40 Motor Yacht"
+      "Pilgrim 40 Motor Yacht",
+      "Pilgrim 40 North Castle / Gozzard Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -1655,7 +1776,8 @@
       "Greenline"
     ],
     "ModelTerms": [
-      "33"
+      "33",
+      "33 Diesel / Hybrid / Electric Sedan"
     ],
     "SourceModelTerms": {}
   },
@@ -1666,7 +1788,8 @@
       "Greenline"
     ],
     "ModelTerms": [
-      "39"
+      "39",
+      "39 Diesel / Hybrid / Electric Sedan"
     ],
     "SourceModelTerms": {}
   },
@@ -1677,7 +1800,8 @@
       "Great Harbour"
     ],
     "ModelTerms": [
-      "GH37"
+      "GH37",
+      "GH37 Raised-Pilothouse Liveaboard Trawler"
     ],
     "SourceModelTerms": {}
   },
@@ -1688,7 +1812,8 @@
       "Great Harbour"
     ],
     "ModelTerms": [
-      "N37"
+      "N37",
+      "N37 Navigator / Long-Range Trawler"
     ],
     "SourceModelTerms": {}
   },
@@ -1803,7 +1928,9 @@
     ],
     "ModelTerms": [
       "38",
-      "38 Coastal Commander"
+      "38 Coastal Commander",
+      "38 Barracuda Coastal",
+      "38 Barracuda Coastal Coastal Houseboat Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1817,7 +1944,8 @@
       "29",
       "29 Surfhunter",
       "Hunt Surfhunter 29",
-      "Surfhunter 29"
+      "Surfhunter 29",
+      "Surfhunter 29 Deep-V Express Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -1832,7 +1960,9 @@
       "36 Harrier",
       "Hunt Harrier 36",
       "Surfhunter 36 Coupe",
-      "Surfhunter 36 Coupe Surfhunter Coupe"
+      "Surfhunter 36 Coupe Surfhunter Coupe",
+      "Surfhunter 36",
+      "Hunt Surfhunter 36 Coupe"
     ],
     "SourceModelTerms": {}
   },
@@ -1996,7 +2126,8 @@
       "695 NC",
       "NC695",
       "Merry Fisher 695",
-      "Merry Fisher 695 Pilothouse Outboard"
+      "Merry Fisher 695 Pilothouse Outboard",
+      "Merry Fisher 695 Series 1 / Series 2"
     ],
     "SourceModelTerms": {}
   },
@@ -2010,7 +2141,9 @@
       "795",
       "795 Merry Fisher",
       "Merry Fisher 795",
-      "Merry Fisher 795 Pilothouse Outboard"
+      "Merry Fisher 795 Pilothouse Outboard",
+      "Merry Fisher 795 Series 1 / Series 2",
+      "Merry Fisher 795 / NC 795"
     ],
     "SourceModelTerms": {}
   },
@@ -2024,7 +2157,8 @@
       "855",
       "855 Merry Fisher",
       "Merry Fisher 855",
-      "Merry Fisher 855 Pilothouse Outboard"
+      "Merry Fisher 855 Pilothouse Outboard",
+      "Merry Fisher 855 Twin-Outboard Weekender"
     ],
     "SourceModelTerms": {}
   },
@@ -2039,7 +2173,8 @@
       "895 Merry Fisher",
       "Merry Fisher 895",
       "Merry Fisher 895 Pilothouse Outboard",
-      "Merry Fisher 895 / NC 895"
+      "Merry Fisher 895 / NC 895",
+      "Merry Fisher 895 Series 1 / Series 2"
     ],
     "SourceModelTerms": {}
   },
@@ -2054,7 +2189,8 @@
       "895 NC Sport",
       "NC895 Sport",
       "Merry Fisher 895 Sport",
-      "Merry Fisher 895 Sport Sport Pilothouse"
+      "Merry Fisher 895 Sport Sport Pilothouse",
+      "Merry Fisher 895 Sport Walkaround Sport Pilothouse"
     ],
     "SourceModelTerms": {}
   },
@@ -2101,6 +2237,21 @@
     "ModelTerms": [
       "44",
       "44 AE",
+      "Krogen 44 AE",
+      "44 Trawler",
+      "Krogen 44 Trawler / Classic"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "KDKR-44-AE",
+    "CanonicalName": "Kadey-Krogen 44 AE Advanced Ergonomics",
+    "ManufacturerTerms": [
+      "Kadey-Krogen"
+    ],
+    "ModelTerms": [
+      "44 AE",
+      "44 AE Advanced Ergonomics",
       "Krogen 44 AE"
     ],
     "SourceModelTerms": {}
@@ -2127,7 +2278,8 @@
     "ModelTerms": [
       "30",
       "30 Alura",
-      "Alura 30"
+      "Alura 30",
+      "30 Alura Downeast-Profile Fishing Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -2139,7 +2291,20 @@
     ],
     "ModelTerms": [
       "341",
-      "341 Sedan"
+      "341 Sedan",
+      "341 Sedan Flybridge Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MERI-341-SE-03",
+    "CanonicalName": "Meridian 341 Sedan Original Generation / Bayliner 3488 lineage",
+    "ManufacturerTerms": [
+      "Meridian"
+    ],
+    "ModelTerms": [
+      "341 Sedan",
+      "341 Sedan Original Generation / Bayliner 3488 lineage"
     ],
     "SourceModelTerms": {}
   },
@@ -2151,7 +2316,8 @@
     ],
     "ModelTerms": [
       "381",
-      "381 Sedan"
+      "381 Sedan",
+      "381 Sedan Flybridge Sedan"
     ],
     "SourceModelTerms": {}
   },
@@ -2189,7 +2355,8 @@
       "Mainship 34 Motor Cruiser",
       "Mainship 34 MK I",
       "Mainship 34 Mark I",
-      "Mainship 34 Trawler"
+      "Mainship 34 Trawler",
+      "34 MKI"
     ],
     "SourceModelTerms": {
       "BOATS_COM_US": "34",
@@ -2214,9 +2381,66 @@
       "Mainship II",
       "Mainship 34T II",
       "34 MK II",
-      "34 Mark II"
+      "34 Mark II",
+      "34 MKII"
     ],
     "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "MNSH-34-MK3",
+    "CanonicalName": "Mainship 34 MKIII",
+    "ManufacturerTerms": [
+      "Mainship"
+    ],
+    "ModelTerms": [
+      "34 MK I",
+      "34 Mk 1",
+      "34 Mark I",
+      "34 Diesel Cruiser",
+      "34 Motor Cruiser",
+      "34",
+      "Mainship 34 Diesel Cruiser",
+      "Mainship 34 Motor Cruiser",
+      "Mainship 34 MK I",
+      "Mainship 34 Mark I",
+      "Mainship 34 Trawler",
+      "34 III",
+      "34 MK III",
+      "34 Mark III",
+      "Mainship 34 III",
+      "34 MKIII"
+    ],
+    "SourceModelTerms": {
+      "BOATS_COM_US": "34",
+      "BOATTRADER": "34",
+      "BOATS_COM_CA": "34",
+      "YACHTWORLD_CA": "34",
+      "YACHTWORLD_US": "34",
+      "BOATDEALERS_CA": "34"
+    }
+  },
+  {
+    "BoatModelID": "MNSH-34-TR",
+    "CanonicalName": "Mainship 34T",
+    "ManufacturerTerms": [
+      "Mainship"
+    ],
+    "ModelTerms": [
+      "34 Trawler",
+      "Mainship 34 Trawler",
+      "34 Trawler 2005",
+      "Mainship 34 Trawler 2005-2009",
+      "34",
+      "34T"
+    ],
+    "SourceModelTerms": {
+      "BOATS_COM_US": "34",
+      "BOATTRADER": "34",
+      "BOATS_COM_CA": "34",
+      "YACHTWORLD_CA": "34",
+      "YACHTWORLD_US": "34",
+      "BOATDEALERS_CA": "34"
+    }
   },
   {
     "BoatModelID": "MNSH-350-TR",
@@ -2374,7 +2598,8 @@
     ],
     "ModelTerms": [
       "31+",
-      "31+ Patrol"
+      "31+ Patrol",
+      "31+ All-Weather Pilothouse"
     ],
     "SourceModelTerms": {}
   },
@@ -2388,7 +2613,8 @@
       "26",
       "26 Pilothouse",
       "Nordic Tug 26 Pilothouse",
-      "Nordic Tugs 26 Pilothouse"
+      "Nordic Tugs 26 Pilothouse",
+      "Nordic Tug 26"
     ],
     "SourceModelTerms": {}
   },
@@ -2471,7 +2697,8 @@
       "24",
       "24 Nomad Pilothouse",
       "Nomad",
-      "Nomad 24 Pocket Trawler"
+      "Nomad 24 Pocket Trawler",
+      "Nomad Pocket Trawler"
     ],
     "SourceModelTerms": {}
   },
@@ -2485,7 +2712,8 @@
       "32",
       "32 Wanderer Pilothouse",
       "Wanderer",
-      "Wanderer 32 Pilothouse / Motorsailer"
+      "Wanderer 32 Pilothouse / Motorsailer",
+      "Wanderer Power Cruiser / Optional Motorsailer"
     ],
     "SourceModelTerms": {}
   },
@@ -2497,7 +2725,8 @@
     ],
     "ModelTerms": [
       "3003",
-      "3003 Aft Cabin Coupe"
+      "3003 Aft Cabin Coupe",
+      "3003 Aft-Cabin Coupé"
     ],
     "SourceModelTerms": {}
   },
@@ -2510,7 +2739,8 @@
     "ModelTerms": [
       "365",
       "365 Coupe",
-      "365 Coupé"
+      "365 Coupé",
+      "365 Coupé Sidewalk Coupé Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -2534,7 +2764,8 @@
     ],
     "ModelTerms": [
       "38",
-      "38 Sedan"
+      "38 Sedan",
+      "38 Sedan Europa Sedan"
     ],
     "SourceModelTerms": {}
   },
@@ -2545,22 +2776,10 @@
       "Nordhavn"
     ],
     "ModelTerms": [
-      "40"
+      "40",
+      "40 Ocean Passagemaker"
     ],
     "SourceModelTerms": {}
-  },
-  {
-    "BoatModelID": "OCEA-36-SE",
-    "CanonicalName": "Ocean Alexander 36 Sedan",
-    "ManufacturerTerms": [
-      "Ocean Alexander"
-    ],
-    "ModelTerms": [
-      "36",
-      "36 Sedan"
-    ],
-    "SourceModelTerms": {},
-    "Manufacturer": null
   },
   {
     "BoatModelID": "OCAL-39-SE",
@@ -2570,7 +2789,23 @@
     ],
     "ModelTerms": [
       "39",
-      "39 Sedan"
+      "39 Sedan",
+      "39 Sedan Flybridge Sedan"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "OCEA-36-SE",
+    "CanonicalName": "Ocean Alexander 36 Sedan",
+    "ManufacturerTerms": [
+      "Ocean Alexander",
+      "Oceania Yachts"
+    ],
+    "ModelTerms": [
+      "36",
+      "36 Sedan",
+      "36 Sedan Sedan Trawler",
+      "Oceania 36 Sedan"
     ],
     "SourceModelTerms": {}
   },
@@ -2584,7 +2819,8 @@
       "34",
       "34 Passagemaker",
       "34 PowerCat / Passagemaker",
-      "34 PowerCat"
+      "34 PowerCat",
+      "34 PowerCat Power Catamaran"
     ],
     "SourceModelTerms": {}
   },
@@ -2596,7 +2832,8 @@
     ],
     "ModelTerms": [
       "29",
-      "29 Trawler"
+      "29 Trawler",
+      "29 Coastal Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -2610,7 +2847,8 @@
       "36",
       "36 Trawler",
       "36 Coastal Cruiser",
-      "36 Coastal Cruiser Trawler"
+      "36 Coastal Cruiser Trawler",
+      "36 Coastal Cruiser Double Cabin"
     ],
     "SourceModelTerms": {}
   },
@@ -2706,7 +2944,8 @@
       "R-29 CB",
       "R29 CB",
       "29 Command Bridge",
-      "R-29"
+      "R-29",
+      "R-29 CB Command Bridge"
     ],
     "SourceModelTerms": {
       "BOATS_COM_US": "R-29",
@@ -2738,7 +2977,9 @@
     ],
     "ModelTerms": [
       "R-31",
-      "R-31 Command Bridge"
+      "R-31 Command Bridge",
+      "R-31 CB",
+      "R-31 CB Command Bridge"
     ],
     "SourceModelTerms": {}
   },
@@ -2750,7 +2991,9 @@
     ],
     "ModelTerms": [
       "R-43",
-      "R-43 Command Bridge"
+      "R-43 Command Bridge",
+      "R-43 CB",
+      "R-43 CB Command Bridge"
     ],
     "SourceModelTerms": {}
   },
@@ -2762,7 +3005,9 @@
     ],
     "ModelTerms": [
       "R-43",
-      "R-43 Sedan"
+      "R-43 Sedan",
+      "R-43 S",
+      "R-43 S Sedan"
     ],
     "SourceModelTerms": {}
   },
@@ -2816,7 +3061,9 @@
       "29 Sedan",
       "R-29",
       "R29",
-      "29"
+      "29",
+      "R-29 S",
+      "R-29 S Sedan"
     ],
     "SourceModelTerms": {
       "BOATS_COM_US": "R-29",
@@ -2835,7 +3082,9 @@
     ],
     "ModelTerms": [
       "R-31",
-      "R-31 Sedan"
+      "R-31 Sedan",
+      "R-31 S",
+      "R-31 S Sedan"
     ],
     "SourceModelTerms": {}
   },
@@ -2848,7 +3097,8 @@
     "ModelTerms": [
       "RF-246",
       "RF-246 Yarmouth / current cruising layout",
-      "246 Yarmouth"
+      "246 Yarmouth",
+      "246"
     ],
     "SourceModelTerms": {}
   },
@@ -2886,7 +3136,8 @@
     ],
     "ModelTerms": [
       "34",
-      "34 Express"
+      "34 Express",
+      "34 Hard Top Express"
     ],
     "SourceModelTerms": {}
   },
@@ -2913,7 +3164,8 @@
       "26 Hardtop",
       "26 Double-Ender",
       "26 HT",
-      "26 HT Hardtop"
+      "26 HT Hardtop",
+      "26 HT Hardtop Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -2925,7 +3177,9 @@
     ],
     "ModelTerms": [
       "35",
-      "35 Pilothouse"
+      "35 Pilothouse",
+      "Coot 35",
+      "Coot 35 Steel Pocket Trawler"
     ],
     "SourceModelTerms": {}
   },
@@ -2937,7 +3191,9 @@
     ],
     "ModelTerms": [
       "40",
-      "40 Pilothouse"
+      "40 Pilothouse",
+      "Coot 38",
+      "Coot 38 Steel Pocket Trawler"
     ],
     "SourceModelTerms": {}
   },
@@ -2949,7 +3205,9 @@
     ],
     "ModelTerms": [
       "34",
-      "34 Tri-Cabin"
+      "34 Tri-Cabin",
+      "34 Double Cabin Trawler",
+      "34 Double Cabin Trawler Tri-Cabin / Double Cabin"
     ],
     "SourceModelTerms": {}
   },
@@ -2960,7 +3218,8 @@
       "SeaPiper"
     ],
     "ModelTerms": [
-      "35"
+      "35",
+      "35 Narrow-Beam Long-Range Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -2973,7 +3232,32 @@
     "ModelTerms": [
       "340",
       "340 Sundancer",
-      "340 Sundancer (multi-generation)"
+      "340 Sundancer (multi-generation)",
+      "340 Sundancer Generation 1"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SEAR-340-SU-03",
+    "CanonicalName": "Sea Ray 340 Sundancer Generation 3",
+    "ManufacturerTerms": [
+      "Sea Ray"
+    ],
+    "ModelTerms": [
+      "340 Sundancer",
+      "340 Sundancer Generation 3"
+    ],
+    "SourceModelTerms": {}
+  },
+  {
+    "BoatModelID": "SEAR-340-SU-99",
+    "CanonicalName": "Sea Ray 340 Sundancer Generation 2",
+    "ManufacturerTerms": [
+      "Sea Ray"
+    ],
+    "ModelTerms": [
+      "340 Sundancer",
+      "340 Sundancer Generation 2"
     ],
     "SourceModelTerms": {}
   },
@@ -2987,7 +3271,8 @@
       "390",
       "390 Motor Yacht",
       "390 / 40",
-      "390 / 40 Motor Yacht"
+      "390 / 40 Motor Yacht",
+      "390 / 40 Motor Yacht Flush-Deck Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -2999,7 +3284,8 @@
     ],
     "ModelTerms": [
       "24",
-      "24 Sport Trawler"
+      "24 Sport Trawler",
+      "24 Sport Trawler / Coastal Cruiser"
     ],
     "SourceModelTerms": {}
   },
@@ -3025,7 +3311,9 @@
       "26",
       "26 SRD",
       "26 Reverse Displacement",
-      "26 SRD / Reverse Deadrise"
+      "26 SRD / Reverse Deadrise",
+      "38 SRD",
+      "38 SRD Schulz Reverse Deadrise"
     ],
     "SourceModelTerms": {}
   },
@@ -3037,7 +3325,8 @@
     ],
     "ModelTerms": [
       "34",
-      "34 Motor Yacht"
+      "34 Motor Yacht",
+      "34 Motor Yacht Aft Cabin Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -3049,7 +3338,8 @@
     ],
     "ModelTerms": [
       "352",
-      "352 Motor Yacht"
+      "352 Motor Yacht",
+      "352 Motor Yacht SideWalk Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -3063,7 +3353,8 @@
       "372",
       "372 Motor Yacht",
       "372 / 392",
-      "372 / 392 Motor Yacht"
+      "372 / 392 Motor Yacht",
+      "372 / 392 Motor Yacht SideWalk Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -3075,7 +3366,8 @@
     ],
     "ModelTerms": [
       "40",
-      "40 Aft Cabin"
+      "40 Aft Cabin",
+      "40 Aft Cabin Double Cabin Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -3087,7 +3379,8 @@
     ],
     "ModelTerms": [
       "22",
-      "22 Pocket Cruiser"
+      "22 Pocket Cruiser",
+      "22 Bass Boat / Lobsterboat"
     ],
     "SourceModelTerms": {}
   },
@@ -3100,7 +3393,8 @@
     "ModelTerms": [
       "26",
       "26 Bass Boat / Sedan",
-      "26 Pocket Cruiser"
+      "26 Pocket Cruiser",
+      "26 Bass Boat / Sedan / Lobsterboat"
     ],
     "SourceModelTerms": {}
   },
@@ -3113,7 +3407,8 @@
     ],
     "ModelTerms": [
       "24",
-      "XL 2400"
+      "XL 2400",
+      "XL 2400 Long-Cockpit Pilothouse"
     ],
     "SourceModelTerms": {}
   },
@@ -3128,7 +3423,8 @@
       "24",
       "24 Cruiser",
       "24 Explorer",
-      "Explorer 2400"
+      "Explorer 2400",
+      "Explorer 2400 Long-Cabin Pilothouse"
     ],
     "SourceModelTerms": {}
   },
@@ -3141,7 +3437,9 @@
     ],
     "ModelTerms": [
       "27",
-      "27 Pilot / Navigator / Seamaster family"
+      "27 Pilot / Navigator / Seamaster family",
+      "27 Seamaster / Navigator / Pilot",
+      "27 Family"
     ],
     "SourceModelTerms": {}
   },
@@ -3166,7 +3464,8 @@
     ],
     "ModelTerms": [
       "37",
-      "37 Sedan"
+      "37 Sedan",
+      "37 Sedan Flybridge Sedan"
     ],
     "SourceModelTerms": {}
   },
@@ -3193,7 +3492,9 @@
     ],
     "ModelTerms": [
       "36",
-      "36 Tri-Cabin"
+      "36 Tri-Cabin",
+      "F-36 Tri-Cabin",
+      "F-36 Tri-Cabin Tri-Cabin Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -3205,7 +3506,9 @@
     ],
     "ModelTerms": [
       "34",
-      "34 Original Diesel"
+      "34 Original Diesel",
+      "34 Original Diesel / Inboard",
+      "34 Diesel"
     ],
     "SourceModelTerms": {}
   },
@@ -3217,7 +3520,8 @@
     ],
     "ModelTerms": [
       "36",
-      "36 Double Cabin"
+      "36 Double Cabin",
+      "36 Double Cabin Aft Cabin Motor Yacht"
     ],
     "SourceModelTerms": {}
   },
@@ -3229,7 +3533,9 @@
     ],
     "ModelTerms": [
       "36",
-      "36 Trawler"
+      "36 Trawler",
+      "36 Tri-Cabin Trawler",
+      "Marine 36 Tri-Cabin Trawler"
     ],
     "SourceModelTerms": {}
   },
@@ -3241,7 +3547,10 @@
     ],
     "ModelTerms": [
       "40",
-      "40 Trawler"
+      "40 Trawler",
+      "40 Europa",
+      "40 Europa Europa / Sedan Trawler",
+      "Marine 40 Europa"
     ],
     "SourceModelTerms": {}
   },
@@ -3255,7 +3564,8 @@
       "30",
       "30 Vega Voyager",
       "Vega 30 Voyager",
-      "30 Vega Voyager Raised Pilothouse"
+      "30 Vega Voyager Raised Pilothouse",
+      "Vega 30 Voyager Raised Pilothouse"
     ],
     "SourceModelTerms": {}
   },
@@ -3270,7 +3580,9 @@
       "36 Vega 36 Family",
       "Vega 36",
       "36 Vega",
-      "36 Vega Family"
+      "36 Vega Family",
+      "Vega 36 Standard Cruiser",
+      "Vega 36 Standard Cruiser Flybridge Sedan"
     ],
     "SourceModelTerms": {}
   },
@@ -3285,7 +3597,8 @@
       "40 Vega 40 Nomad",
       "Vega 40 Nomad",
       "40 Vega Nomad",
-      "40 Vega Nomad Widebody Flybridge Sedan"
+      "40 Vega Nomad Widebody Flybridge Sedan",
+      "Vega 40 Nomad Widebody Flybridge Sedan"
     ],
     "SourceModelTerms": {}
   },
@@ -3297,61 +3610,10 @@
     ],
     "ModelTerms": [
       "26",
-      "26 SN"
+      "26 SN",
+      "26 Snekke",
+      "26 Snekke 26 SN / Norwegian Snekke"
     ],
     "SourceModelTerms": {}
-  },
-  {
-    "BoatModelID": "MNSH-34-MK3",
-    "CanonicalName": "Mainship 34 MKIII",
-    "ManufacturerTerms": [
-      "Mainship"
-    ],
-    "ModelTerms": [
-      "34 MK I",
-      "34 Mk 1",
-      "34 Mark I",
-      "34 Diesel Cruiser",
-      "34 Motor Cruiser",
-      "34",
-      "Mainship 34 Diesel Cruiser",
-      "Mainship 34 Motor Cruiser",
-      "Mainship 34 MK I",
-      "Mainship 34 Mark I",
-      "Mainship 34 Trawler",
-      "34 III",
-      "34 MK III",
-      "34 Mark III",
-      "Mainship 34 III"
-    ],
-    "SourceModelTerms": {
-      "BOATS_COM_US": "34",
-      "BOATTRADER": "34",
-      "BOATS_COM_CA": "34",
-      "YACHTWORLD_CA": "34",
-      "YACHTWORLD_US": "34",
-      "BOATDEALERS_CA": "34"
-    }
-  },
-  {
-    "BoatModelID": "MNSH-34-TR",
-    "CanonicalName": "Mainship 34T",
-    "ManufacturerTerms": [
-      "Mainship"
-    ],
-    "ModelTerms": [
-      "34 Trawler",
-      "Mainship 34 Trawler",
-      "34 Trawler 2005",
-      "Mainship 34 Trawler 2005-2009"
-    ],
-    "SourceModelTerms": {
-      "BOATS_COM_US": "34",
-      "BOATTRADER": "34",
-      "BOATS_COM_CA": "34",
-      "YACHTWORLD_CA": "34",
-      "YACHTWORLD_US": "34",
-      "BOATDEALERS_CA": "34"
-    }
   }
 ]

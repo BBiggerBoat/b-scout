@@ -1,46 +1,49 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-07T14:33:45.559Z",
-  "boatCount": 256,
+  "generatedAt": "2026-09-02T20:02:14.003Z",
+  "boatCount": 259,
   "normalizedCoverage": {
-    "NormalizedFuel": 252,
-    "NormalizedPropulsion": 254,
-    "NormalizedHullForm": 255,
-    "NormalizedHullConfiguration": 256,
-    "NormalizedStyle": 256
+    "NormalizedFuel": 255,
+    "NormalizedPropulsion": 257,
+    "NormalizedHullForm": 258,
+    "NormalizedHullConfiguration": 259,
+    "NormalizedStyle": 259
   },
   "canonicalValueCounts": {
     "NormalizedFuel": {
       "Diesel": 178,
-      "Gasoline": 69,
+      "Gasoline": 72,
       "Unknown": 4,
       "Mixed Diesel/Gasoline": 5
     },
     "NormalizedPropulsion": {
-      "Shaft": 197,
-      "Outboard": 32,
-      "Sterndrive": 16,
+      "Shaft": 195,
+      "Outboard": 33,
+      "Sterndrive": 17,
       "Unknown": 2,
       "Pod": 6,
-      "Shaft/V-Drive": 2,
+      "Mixed": 1,
+      "Shaft/V-Drive": 4,
       "Mixed Outboard/Shaft": 1
     },
     "NormalizedHullForm": {
-      "Displacement": 23,
-      "Semi-Displacement": 135,
-      "Planing": 93,
+      "Displacement": 24,
+      "Semi-Displacement": 127,
+      "Planing": 62,
+      "Modified-V": 37,
       "Unknown": 1,
-      "Modified-V": 4
+      "Catamaran": 3,
+      "Deep-V": 5
     },
     "NormalizedHullConfiguration": {
-      "Monohull": 252,
+      "Monohull": 255,
       "Catamaran": 4
     },
     "NormalizedStyle": {
-      "Motor Yacht": 25,
-      "Trawler": 75,
-      "Cruiser": 65,
-      "Downeast": 18,
+      "Motor Yacht": 22,
+      "Trawler": 78,
+      "Cruiser": 69,
+      "Downeast": 17,
       "Downeast Cruiser": 26,
       "Sport Fisher": 3,
       "Pilothouse": 4,

@@ -96,15 +96,21 @@
             const raw = doc.getElementById(id)?.value;
             return raw === undefined || raw === null || raw === "" ? null : Number(String(raw).replace(",", "."));
         };
+        const lengthFeetValue = id => {
+            const value = numericValue(id);
+            if (value === null || !Number.isFinite(value)) return value;
+            const profile = global.BAtlasCanonical?.getUnitProfile?.() || "imperial";
+            return profile === "metric" ? value / 0.3048 : value;
+        };
         return {
             textSearch: doc.getElementById("textSearch")?.value?.trim().toLowerCase() || "",
             routes: checkedValues(".routeFilter:checked"),
             cruisingIntent: [],
             maxPrice: null,
-            minLength: numericValue("minLength"),
-            maxLength: numericValue("maxLength"),
-            minBeam: numericValue("minBeam"),
-            maxBeam: numericValue("maxBeam"),
+            minLength: lengthFeetValue("minLength"),
+            maxLength: lengthFeetValue("maxLength"),
+            minBeam: lengthFeetValue("minBeam"),
+            maxBeam: lengthFeetValue("maxBeam"),
             maxDraft: null,
             maxAirDraft: null,
             styles: checkedValues(".styleFilter:checked"),

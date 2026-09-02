@@ -1,18 +1,25 @@
 {
-  "schemaVersion": 2,
-  "release": "v6.31",
-  "generatedAt": "2026-07-27T00:00:00Z",
+  "schemaVersion": 7,
+  "release": "6.44.0",
+  "generatedAt": "2026-09-02",
   "status": "Passed",
   "summary": {
-    "manufacturerCount": 79,
-    "boatIdentityCount": 315,
-    "legacyRedirectCount": 315,
-    "duplicateCurrentBoatModelIDs": 0,
-    "unmappedLegacyBoatModelIDs": 0,
-    "migrationStatus": "Complete"
+    "canonicalModelCount": 259,
+    "registryRecordCount": 259,
+    "uniqueRegistryIDs": 259,
+    "searchAliasRecordCount": 259,
+    "unregisteredBoatModelIDs": 0,
+    "orphanRegistryIDs": 0,
+    "duplicateRegistryIDs": 0,
+    "missingSearchAliasIDs": 0
+  },
+  "issues": {
+    "unregisteredBoatIds": [],
+    "orphanRegistryIds": [],
+    "missingSearchAliasIds": []
   },
   "releaseGate": {
     "approved": true,
-    "message": "v6.31 identities registered; legacy redirects retained."
+    "message": "Canonical model database, identity registry and search-alias database are synchronized."
   }
 }

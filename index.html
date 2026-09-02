@@ -40,6 +40,7 @@
 <a data-app-action="contribute" href="#contribute">Contribute</a>
 <a class="moderator-access-link" hidden="" href="developer/contribution-review.html" id="moderatorTopAccessLink">Moderator</a>
 <a data-app-action="about" href="#about">About</a>
+<label class="unit-profile-control" for="unitProfileSelect"><span class="sr-only">Measurement units</span><select id="unitProfileSelect" aria-label="Measurement units"><option value="imperial">Imperial</option><option value="metric">Metric</option><option value="both">Both</option></select></label>
 </nav>
 </header>
 <!-- =====================================================
@@ -148,14 +149,14 @@
 <section aria-labelledby="guidedLengthHeading" class="guided-dimension-group">
 <h3 class="guided-dimension-heading" id="guidedLengthHeading">LENGTH</h3>
 <div class="guided-field-grid guided-dimension-fields">
-<label>Minimum <span>Use only when smaller models would not meet your needs. Unknown length remains a candidate.</span><input data-mirror-id="minLength" inputmode="decimal" placeholder="Feet" type="number"/></label>
-<label>Maximum <span>Leave blank when flexible. Include swim platforms or pulpits when your marina measures overall length.</span><input data-mirror-id="maxLength" inputmode="decimal" placeholder="Feet" type="number"/></label>
+<label>Minimum <span>Use only when smaller models would not meet your needs. Unknown length remains a candidate.</span><input data-mirror-id="minLength" inputmode="decimal" data-unit-input="length" placeholder="Feet" type="number"/></label>
+<label>Maximum <span>Leave blank when flexible. Include swim platforms or pulpits when your marina measures overall length.</span><input data-mirror-id="maxLength" inputmode="decimal" data-unit-input="length" placeholder="Feet" type="number"/></label>
 </div>
 </section>
 <section aria-labelledby="guidedBeamHeading" class="guided-dimension-group">
 <h3 class="guided-dimension-heading" id="guidedBeamHeading">BEAM</h3>
 <div class="guided-field-grid guided-dimension-fields">
-<label>Minimum <span>Use only when a narrower model would be unsuitable. Unknown beam remains a candidate.</span><input data-mirror-id="minBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Feet, e.g. 9.5" type="text"/></label>
+<label>Minimum <span>Use only when a narrower model would be unsuitable. Unknown beam remains a candidate.</span><input data-mirror-id="minBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" data-unit-input="length" placeholder="Feet, e.g. 9.5" type="text"/></label>
 <label>Maximum <span>Confirm the usable width of your slip—not only its advertised size.</span><input data-mirror-id="maxBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Feet, e.g. 10.5" type="text"/></label>
 </div>
 </section>
@@ -300,19 +301,19 @@
 <div class="filter-content">
 <section class="filter-section compact-number-row">
 <label for="minLength">Min Length (ft)</label>
-<input id="minLength" inputmode="decimal" placeholder="24" type="number"/>
+<input id="minLength" data-unit-input="length" inputmode="decimal" placeholder="24" type="number"/>
 </section>
 <section class="filter-section compact-number-row">
 <label for="maxLength">Max Length (ft)</label>
-<input id="maxLength" inputmode="decimal" placeholder="33" type="number"/>
+<input id="maxLength" data-unit-input="length" inputmode="decimal" placeholder="33" type="number"/>
 </section>
 <section class="filter-section compact-number-row">
 <label for="minBeam">Min Beam (ft)</label>
-<input id="minBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="9.5" type="text"/>
+<input id="minBeam" data-unit-input="length" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="9.5" type="text"/>
 </section>
 <section class="filter-section compact-number-row">
 <label for="maxBeam">Max Beam (ft)</label>
-<input id="maxBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="10.5" type="text"/>
+<input id="maxBeam" data-unit-input="length" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="10.5" type="text"/>
 </section>
 </div>
 </div>
@@ -447,6 +448,30 @@
 <a data-app-action="about" href="#about">About</a>
 <a data-app-action="research-models" href="#boat-guides">Research Models</a>
 <a href="models/">Browse Model Guides</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
 <a href="boats/">Find by Criteria</a>
 <a href="compare/">Compare Models</a>
 <a data-app-action="saved-models" href="#saved-models">Saved Models</a>
@@ -454,7 +479,7 @@
 <a data-app-action="privacy" href="#privacy">Privacy</a>
 <a class="moderator-access-link" hidden="" href="developer/contribution-review.html" id="moderatorAccessLink">Moderator</a>
 </nav>
-<span>Version 6.25.0 — B-Atlas Rebrand &amp; Visual Simplification</span>
+<span>Version 6.61.0</span>
 </footer>
 </main>
 </div>
@@ -840,7 +865,7 @@ Engine manual — paper copy aboard..." rows="7"></textarea>
 <script src="searchstatemanager.js"></script>
 <script src="valuenormalizer.js"></script>
 <script src="searchprofilemanager.js"></script>
-<script src="canonicaldata.js?v=6.43.0"></script>
+<script src="canonicaldata.js?v=6.45.0"></script>
 <script src="filterengine.js?v=6.28.3"></script>
 <script src="searchorchestrator.js"></script>
 <script src="engine.js"></script>
@@ -859,8 +884,8 @@ Engine manual — paper copy aboard..." rows="7"></textarea>
 <script src="intelligencelayer.js"></script>
 <script src="recommendationengine.js"></script>
 <script src="communityguide.js?v=6.27.2"></script>
-<script src="boatworkspace.js?v=6.43.0"></script>
-<script src="script.js?v=6.27.0"></script>
+<script src="boatworkspace.js?v=6.45.0"></script>
+<script src="script.js?v=6.45.0"></script>
 <script src="appbootstrap.js"></script>
 <script src="ownership.js"></script>
 <script src="applicationpolish.js?v=6.27.0"></script>

@@ -404,6 +404,111 @@
           }
         },
         {
+          "id": "HeadroomSalon",
+          "labelKey": "field.HeadroomSalon",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "HeadroomHelm",
+          "labelKey": "field.HeadroomHelm",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "HeadroomGalley",
+          "labelKey": "field.HeadroomGalley",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "HeadroomHead",
+          "labelKey": "field.HeadroomHead",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
+          "id": "HeadroomForwardCabin",
+          "labelKey": "field.HeadroomForwardCabin",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
+        },
+        {
           "id": "Displacement",
           "labelKey": "field.Displacement",
           "type": "measurement",
@@ -1774,6 +1879,27 @@
           "dataClass": "derived",
           "unknownAllowed": true,
           "matchInput": true
+        },
+        {
+          "id": "VBerthLength",
+          "labelKey": "field.VBerthLength",
+          "type": "measurement",
+          "correctable": true,
+          "dimension": "length",
+          "canonicalUnit": "m",
+          "allowedInputUnits": [
+            "m",
+            "ft",
+            "in"
+          ],
+          "dataClass": "objective",
+          "unknownAllowed": true,
+          "matchInput": false,
+          "storage": {
+            "value": "number",
+            "canonicalUnit": "m",
+            "sourceMeasurementPreservedInEvidence": true
+          }
         }
       ]
     },

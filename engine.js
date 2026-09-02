@@ -1,24 +1,8 @@
 const routeChecks = [
-    {
-        boatField: "AirDraft_ft",
-        routeField: "MaxAirDraftFt",
-        label: "Air Draft"
-    },
-    {
-        boatField: "Draft_ft",
-        routeField: "MaxDraftFt",
-        label: "Draft"
-    },
-    {
-        boatField: "Beam_ft",
-        routeField: "MaxBeamFt",
-        label: "Beam"
-    },
-    {
-        boatField: "LOA_ft",
-        routeField: "MaxLengthFt",
-        label: "Length"
-    }
+    { canonicalField: "AirDraft", boatField: "AirDraft_ft", routeField: "MaxAirDraftFt", label: "Air Draft" },
+    { canonicalField: "Draft", boatField: "Draft_ft", routeField: "MaxDraftFt", label: "Draft" },
+    { canonicalField: "Beam", boatField: "Beam_ft", routeField: "MaxBeamFt", label: "Beam" },
+    { canonicalField: "LOA", boatField: "LOA_ft", routeField: "MaxLengthFt", label: "Length" }
 ];
 
 function failsLimit(boatValue, routeLimit) {
@@ -50,7 +34,9 @@ function passesRouteCompatibility(boat, userProfile, routes) {
         }
 
         for (const check of routeChecks) {
-            const boatValue = boat[check.boatField];
+            const boatValue = (typeof BAtlasCanonical !== "undefined" && BAtlasCanonical)
+                ? BAtlasCanonical.feet(boat, check.canonicalField, [{ key: check.boatField, unit: "ft" }])
+                : boat[check.boatField];
             let routeLimit = matchedRoute[check.routeField];
             if (routeLimit === undefined) {
                 routeLimit = matchedRoute["Route" + check.routeField];

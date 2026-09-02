@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "canonicalUnits": {
     "length": "m",
     "mass": "kg",
@@ -114,5 +114,28 @@
     "Original source value, source unit and source text belong in provenance/evidence records and are not discarded after normalization.",
     "US gallons and Imperial gallons are distinct unit codes.",
     "Area measurements use square metres canonically and preserve original source units."
-  ]
+  ],
+  "userPreference": {
+    "storageKey": "batlas.unitProfile",
+    "allowed": [
+      "imperial",
+      "metric",
+      "both"
+    ],
+    "default": "imperial",
+    "planInputRule": "Metric profile accepts metres; Imperial and Both accept feet. Search constraints remain stored in feet until the Plan/search state is migrated to SI in a later compatibility-safe release."
+  },
+  "capacityMigration": {
+    "status": "in_progress",
+    "rule": "Never label or convert a legacy gallon value as US gallons unless the source gallon basis is verified. Mixed legacy FuelCapacity/WaterCapacity/HoldingCapacity records use explicit UnitStatus metadata until source units are resolved.",
+    "statusCodes": [
+      "canonical_litres",
+      "canonical_litres_assumed_us_gal",
+      "source_us_gal",
+      "source_imp_gal",
+      "legacy_gallon_basis_unverified",
+      "conflicting_legacy_capacity_values",
+      "unit_unverified"
+    ]
+  }
 }

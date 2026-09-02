@@ -2,16 +2,27 @@
 "use strict";
 const FACTORS={m:1,cm:.01,ft:.3048,in:.0254,kg:1,lb:.45359237,L:1,us_gal:3.785411784,imp_gal:4.54609,kW:1,hp:.745699872,kn:1,nm:1};
 const CANON={length:"m",mass:"kg",volume:"L",power:"kW",speed:"kn",distance:"nm"};
-function n(v){const x=Number(v);return Number.isFinite(x)?x:null;}
+const UNIT_PROFILE_KEY="batlas.unitProfile";
+const VALID_PROFILES=new Set(["imperial","metric","both"]);
+function n(v){if(v===undefined||v===null||v==="")return null;const x=Number(v);return Number.isFinite(x)?x:null;}
 function toCanonical(value,unit){const x=n(value),f=FACTORS[unit];return x===null||!f?null:x*f;}
 function fromCanonical(value,unit){const x=n(value),f=FACTORS[unit];return x===null||!f?null:x/f;}
 function first(row,keys){for(const k of keys||[]){if(row&&row[k]!==undefined&&row[k]!==null&&row[k]!=="")return row[k];}return null;}
-function canonicalMeasurement(row,key,legacy){const direct=n(row?.[key]);if(direct!==null)return direct;for(const item of legacy||[]){const raw=n(row?.[item.key]);if(raw===null||item.unit==="gal_unknown")continue;const cv=toCanonical(raw,item.unit);if(cv!==null)return cv;}return null;}
+function canonicalMeasurement(row,key,legacy){const hasCanonical=!!row&&Object.prototype.hasOwnProperty.call(row,key);const direct=n(row?.[key]);if(direct!==null)return direct;if(hasCanonical)return null;for(const item of legacy||[]){const raw=n(row?.[item.key]);if(raw===null||item.unit==="gal_unknown")continue;const cv=toCanonical(raw,item.unit);if(cv!==null)return cv;}return null;}
 function feet(row,key,legacy){const m=canonicalMeasurement(row,key,legacy);return m===null?null:fromCanonical(m,"ft");}
 function inches(row,key,legacy){const m=canonicalMeasurement(row,key,legacy);return m===null?null:fromCanonical(m,"in");}
 function enumCode(row,key,legacyKeys){const direct=first(row,[key]);if(direct!==null)return String(direct);return first(row,legacyKeys||[]);}
 function formatFeetInches(m){const total=fromCanonical(m,"in");if(total===null)return null;let rounded=Math.round(total);let ft=Math.floor(rounded/12),inch=rounded-ft*12;if(inch===12){ft++;inch=0;}return `${ft}′ ${inch}″`;}
-function formatMeasurement(value,dimension,profile="imperial"){
+function getUnitProfile(){
+ try{const saved=global.localStorage?.getItem(UNIT_PROFILE_KEY);return VALID_PROFILES.has(saved)?saved:"imperial";}catch{return "imperial";}
+}
+function setUnitProfile(profile){
+ const next=VALID_PROFILES.has(profile)?profile:"imperial";
+ try{global.localStorage?.setItem(UNIT_PROFILE_KEY,next);}catch{}
+ if(global.document){global.document.documentElement.dataset.unitProfile=next;global.document.dispatchEvent(new CustomEvent("batlas:unitprofilechange",{detail:{profile:next}}));}
+ return next;
+}
+function formatSingle(value,dimension,profile){
  const x=n(value); if(x===null)return null;
  if(dimension==="speed")return `${x.toFixed(1).replace(/\.0$/,'')} kn`;
  if(dimension==="distance")return `${x.toFixed(0)} nm`;
@@ -26,6 +37,36 @@ function formatMeasurement(value,dimension,profile="imperial"){
  if(dimension==="volume")return `${Math.round(fromCanonical(x,"us_gal")).toLocaleString()} US gal`;
  if(dimension==="power")return `${Math.round(fromCanonical(x,"hp"))} hp`;
  return String(x);
+}
+function formatMeasurement(value,dimension,profile=getUnitProfile()){
+ const x=n(value); if(x===null)return null;
+ if(profile==="both" && !["speed","distance"].includes(dimension)){
+  const imperial=formatSingle(x,dimension,"imperial"), metric=formatSingle(x,dimension,"metric");
+  return imperial&&metric?`${imperial} / ${metric}`:(imperial||metric);
+ }
+ return formatSingle(x,dimension,profile);
+}
+function safeCanonicalMeasurement(row,key,dimension,legacy=[]){
+ const direct=n(row?.[key]);
+ if(direct!==null)return direct;
+ return canonicalMeasurement(row,key,legacy);
+}
+function formatBoatMeasurement(row,key,dimension,legacy=[],profile=getUnitProfile()){
+ const value=safeCanonicalMeasurement(row,key,dimension,legacy);
+ return value===null?null:formatMeasurement(value,dimension,profile);
+}
+function formatUnverifiedVolume(row,key,legacyKey){
+ const canonical=n(row?.[key]);
+ const legacy=n(row?.[legacyKey]);
+ const status=row?.[`${key}UnitStatus`];
+ if(status==="canonical_litres" && canonical!==null)return formatMeasurement(canonical,"volume",getUnitProfile());
+ if(status==="canonical_litres_assumed_us_gal" && canonical!==null)return `${formatMeasurement(canonical,"volume",getUnitProfile())} (US-gal conversion basis pending verification)`;
+ if(status==="source_us_gal" && legacy!==null)return formatMeasurement(toCanonical(legacy,"us_gal"),"volume",getUnitProfile());
+ if(status==="source_imp_gal" && legacy!==null)return formatMeasurement(toCanonical(legacy,"imp_gal"),"volume",getUnitProfile());
+ if(status==="conflicting_legacy_capacity_values")return "Conflicting capacity values — verify source units";
+ if(legacy!==null)return `${legacy.toLocaleString()} gal (US/Imperial basis unverified)`;
+ if(canonical!==null)return `${canonical.toLocaleString()} (unit unverified)`;
+ return null;
 }
 
 function phaseMatchesContext(phase,context={}){
@@ -62,5 +103,5 @@ function effectiveCanonicalValue(row,fieldId,context={}){
  return {value:null,source:result.status==="ambiguous"?"production_phase_ambiguous":"model",phase:null,status:result.status==="ambiguous"?"ambiguous":"unknown"};
 }
 
-global.BAtlasCanonical={FACTORS,CANON,toCanonical,fromCanonical,canonicalMeasurement,feet,inches,enumCode,formatMeasurement,phaseMatchesContext,resolveProductionPhase,phaseOverride,effectiveCanonicalValue};
+global.BAtlasCanonical={FACTORS,CANON,toCanonical,fromCanonical,canonicalMeasurement,feet,inches,enumCode,formatMeasurement,formatBoatMeasurement,formatUnverifiedVolume,getUnitProfile,setUnitProfile,phaseMatchesContext,resolveProductionPhase,phaseOverride,effectiveCanonicalValue};
 })(typeof window!=="undefined"?window:globalThis);

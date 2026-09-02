@@ -826,3 +826,6 @@ body{padding-top:82px!important;}
   .contribution-type-grid{grid-template-columns:1fr!important;}
   .contribution-type-card{min-height:0!important;}
 }
+
+/* v6.45 measurement profile control */
+.unit-profile-control{display:inline-flex;align-items:center;margin-left:.4rem}.unit-profile-control select{font:inherit;font-size:.84rem;padding:.35rem 1.6rem .35rem .55rem;border:1px solid #aeb8c4;border-radius:4px;background:#fff;color:#0b2d55}.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}

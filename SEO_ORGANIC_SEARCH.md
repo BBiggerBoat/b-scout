@@ -1,4 +1,4 @@
-# B-Atlas Organic Search Foundations — v6.23.3
+# B-Atlas Organic Search Foundations — v6.27.0
 
 Generated search surfaces:
 
@@ -23,13 +23,13 @@ Run `python developer/generate-search-landing-pages.py` after material changes t
 
 ```json
 {
-  "version": "6.23.3",
-  "generated": "2026-08-17",
-  "model_pages": 253,
+  "version": "6.61.0",
+  "generated": "2026-09-02",
+  "model_pages": 259,
   "manufacturer_pages": 48,
   "constraint_pages": 23,
   "comparison_pages": 15,
-  "sitemap_urls": 344,
+  "sitemap_urls": 350,
   "principle": "Generate stable, useful pages from canonical model data. Do not generate every possible filter or model pair."
 }
 ```

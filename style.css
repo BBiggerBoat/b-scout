@@ -47,3 +47,8 @@
 .moderator-access-link::before{content:"⚙ ";}
 
 .contribution-review-link{display:inline-flex;margin-top:.65rem;font-weight:700;text-decoration:none;}
+
+/* v6.61 missing-fact contribution prompt */
+.workspace-fact.is-unknown span{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.workspace-missing-contribution{padding:0!important;border:0!important;background:transparent!important;color:var(--bs-accent,#356f9f)!important;font:inherit;font-size:11px!important;font-weight:700!important;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+.workspace-missing-contribution:hover{text-decoration-thickness:2px}

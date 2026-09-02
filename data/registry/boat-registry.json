@@ -2,12 +2,14 @@
   {
     "BoatModelID": "ALBN-25",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ALBIN",
-    "CanonicalName": "Albin 25",
+    "ManufacturerCode": "ALBN",
+    "CanonicalName": "Albin 25 Motor Cruiser",
     "Model": "25",
-    "Variant": "",
+    "Variant": "Motor Cruiser",
     "Aliases": [
-      "ALB-25"
+      "ALB-25",
+      "Albin 25",
+      "25"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -16,13 +18,14 @@
   {
     "BoatModelID": "ALBN-27-FC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ALBIN",
-    "CanonicalName": "Albin 27",
+    "ManufacturerCode": "ALBN",
+    "CanonicalName": "Albin 27 Family Cruiser",
     "Model": "27",
     "Variant": "Family Cruiser",
     "Aliases": [
       "ALB-27-FC",
-      "Albin 27 Family Cruiser"
+      "Albin 27",
+      "27 Family Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -31,13 +34,15 @@
   {
     "BoatModelID": "ALBN-27-SP",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ALBIN",
-    "CanonicalName": "Albin 27",
+    "ManufacturerCode": "ALBN",
+    "CanonicalName": "Albin 27 Sport Cruiser",
     "Model": "27",
-    "Variant": "Sport",
+    "Variant": "Sport Cruiser",
     "Aliases": [
       "ALB-27-SP",
-      "Albin 27 Sport"
+      "Albin 27 Sport",
+      "Albin 27",
+      "27 Sport"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -46,14 +51,15 @@
   {
     "BoatModelID": "ALBN-28-FL",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ALBIN",
-    "CanonicalName": "Albin 28 Tournament Express",
+    "ManufacturerCode": "ALBN",
+    "CanonicalName": "Albin 28 Tournament Express Flush Deck",
     "Model": "28 Tournament Express",
     "Variant": "Flush Deck",
     "Aliases": [
       "ALB-28-FL",
-      "Albin 28 Tournament Express Flush Deck",
-      "Albin 28 Tournament Express — Flush Deck"
+      "Albin 28 Tournament Express — Flush Deck",
+      "Albin 28 Tournament Express",
+      "28 Tournament Express Flush Deck"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -62,14 +68,15 @@
   {
     "BoatModelID": "ALBN-28-TE-EB",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ALBIN",
-    "CanonicalName": "Albin 28 Tournament Express",
+    "ManufacturerCode": "ALBN",
+    "CanonicalName": "Albin 28 Tournament Express Engine Box",
     "Model": "28 Tournament Express",
     "Variant": "Engine Box",
     "Aliases": [
       "ALB-28-TE-EB",
-      "Albin 28 Tournament Express Engine Box",
-      "Albin 28 Tournament Express — Engine Box"
+      "Albin 28 Tournament Express — Engine Box",
+      "Albin 28 Tournament Express",
+      "28 Tournament Express Engine Box"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -78,13 +85,14 @@
   {
     "BoatModelID": "ALBN-30-FC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ALBIN",
-    "CanonicalName": "Albin 30",
+    "ManufacturerCode": "ALBN",
+    "CanonicalName": "Albin 30 Family Cruiser",
     "Model": "30",
     "Variant": "Family Cruiser",
     "Aliases": [
       "ALB-30-TE",
-      "Albin 30 Family Cruiser"
+      "Albin 30",
+      "30 Family Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -93,14 +101,15 @@
   {
     "BoatModelID": "ALBN-32-PL",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ALBIN",
-    "CanonicalName": "Albin 32+2",
+    "ManufacturerCode": "ALBN",
+    "CanonicalName": "Albin 32+2 Command Bridge",
     "Model": "32+2",
     "Variant": "Command Bridge",
     "Aliases": [
       "ALB-32-PL",
       "Albin 32 Plus 2 Command Bridge",
-      "Albin 32+2 Command Bridge"
+      "Albin 32+2",
+      "32+2 Command Bridge"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -109,14 +118,15 @@
   {
     "BoatModelID": "ALBN-36-CL",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ALBIN",
-    "CanonicalName": "Albin 36",
+    "ManufacturerCode": "ALBN",
+    "CanonicalName": "Albin 36 Trawler",
     "Model": "36",
     "Variant": "Trawler",
     "Aliases": [
       "ALB-36-CL",
       "Albin 36 Classic",
-      "Albin 36 Trawler"
+      "Albin 36",
+      "36 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -125,13 +135,14 @@
   {
     "BoatModelID": "ALBN-40-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ALBIN",
-    "CanonicalName": "Albin 40",
+    "ManufacturerCode": "ALBN",
+    "CanonicalName": "Albin 40 Trawler",
     "Model": "40",
     "Variant": "Trawler",
     "Aliases": [
       "ALB-40-TR",
-      "Albin 40 Trawler"
+      "Albin 40",
+      "40 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -140,13 +151,14 @@
   {
     "BoatModelID": "AMTG-34",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "AMERICAN",
+    "ManufacturerCode": "AMTG",
     "CanonicalName": "American Tug 34",
     "Model": "34",
-    "Variant": "Trawler",
+    "Variant": "",
     "Aliases": [
       "AME-34",
-      "American Tug 34 Trawler"
+      "American Tug 34 Trawler",
+      "34 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -155,13 +167,14 @@
   {
     "BoatModelID": "AMTG-365",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "AMERICAN",
+    "ManufacturerCode": "AMTG",
     "CanonicalName": "American Tug 365",
     "Model": "365",
-    "Variant": "Trawler",
+    "Variant": "",
     "Aliases": [
       "AME-365",
-      "American Tug 365 Trawler"
+      "American Tug 365 Trawler",
+      "365 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -170,13 +183,14 @@
   {
     "BoatModelID": "AMTG-395",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "AMERICAN",
+    "ManufacturerCode": "AMTG",
     "CanonicalName": "American Tug 395",
     "Model": "395",
-    "Variant": "Trawler",
+    "Variant": "",
     "Aliases": [
       "AME-395",
-      "American Tug 395 Trawler"
+      "American Tug 395 Trawler",
+      "395 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -186,13 +200,16 @@
     "BoatModelID": "ATLB-26-DU",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "ATLANTIC",
-    "CanonicalName": "Atlantic Boat 26 / Duffy 26",
-    "Model": "26 / Duffy 26",
-    "Variant": "Duffy Hull",
+    "CanonicalName": "Atlantic Boat Duffy 26 Semi-Custom Downeast Hull",
+    "Model": "Duffy 26",
+    "Variant": "Semi-Custom Downeast Hull",
     "Aliases": [
       "ATL-26-DU",
       "Atlantic Boat 26 / Duffy 26 Duffy Hull",
-      "Duffy 26 Downeast"
+      "Duffy 26 Downeast",
+      "Atlantic Boat 26 / Duffy 26",
+      "26 / Duffy 26 Duffy Hull",
+      "Duffy 26"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -201,14 +218,15 @@
   {
     "BoatModelID": "ATLB-37-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ATLANTIC",
+    "ManufacturerCode": "ATLB",
     "CanonicalName": "Atlantic 37 Double Cabin",
-    "Model": "37 Double Cabin",
+    "Model": "37",
     "Variant": "Double Cabin",
     "Aliases": [
       "ATL-37-TR",
       "Atlantic 37 Double Cabin Double Cabin",
-      "Atlantic 37 Trawler"
+      "Atlantic 37 Trawler",
+      "37 Double Cabin Double Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -217,14 +235,16 @@
   {
     "BoatModelID": "BAYL-2452",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 2452 Ciera Express",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 2452 Ciera Express Hardtop Cruiser",
     "Model": "2452 Ciera Express",
-    "Variant": "Classic Cruiser",
+    "Variant": "Hardtop Cruiser",
     "Aliases": [
       "BAY-2452",
       "Bayliner 2452 Ciera Express Classic Cruiser",
-      "Bayliner 2452 Classic Cruiser"
+      "Bayliner 2452 Classic Cruiser",
+      "Bayliner 2452 Ciera Express",
+      "2452 Ciera Express Classic Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -233,14 +253,16 @@
   {
     "BoatModelID": "BAYL-2855",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 2855 Ciera Sunbridge",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 2855 Ciera Sunbridge Multi-Generation Sunbridge",
     "Model": "2855 Ciera Sunbridge",
-    "Variant": "Ciera",
+    "Variant": "Multi-Generation Sunbridge",
     "Aliases": [
       "BAY-2855",
       "Bayliner 2855 Ciera",
-      "Bayliner 2855 Ciera Sunbridge Ciera"
+      "Bayliner 2855 Ciera Sunbridge Ciera",
+      "Bayliner 2855 Ciera Sunbridge",
+      "2855 Ciera Sunbridge Ciera"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -249,14 +271,17 @@
   {
     "BoatModelID": "BAYL-2859",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 2859 Ciera Express",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 2859 Ciera Express Hardtop Cruiser",
     "Model": "2859 Ciera Express",
-    "Variant": "Classic Cruiser",
+    "Variant": "Hardtop Cruiser",
     "Aliases": [
       "BAY-2859",
       "Bayliner 2859 Ciera Express Classic Cruiser",
-      "Bayliner 2859 Classic Cruiser"
+      "Bayliner 2859 Classic Cruiser",
+      "Bayliner 2859 Ciera Express",
+      "2859 Ciera Express Classic Cruiser",
+      "Bayliner 2859 Super Classic / Ciera Express"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -265,14 +290,17 @@
   {
     "BoatModelID": "BAYL-3055",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 3055 Ciera Sunbridge",
-    "Model": "3055 Ciera Sunbridge",
-    "Variant": "Ciera",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 3055 Ciera Sunbridge / 305 SB Express Cruiser",
+    "Model": "3055 Ciera Sunbridge / 305 SB",
+    "Variant": "Express Cruiser",
     "Aliases": [
       "BAY-3055",
       "Bayliner 3055 Ciera",
-      "Bayliner 3055 Ciera Sunbridge Ciera"
+      "Bayliner 3055 Ciera Sunbridge Ciera",
+      "Bayliner 3055 Ciera Sunbridge",
+      "3055 Ciera Sunbridge Ciera",
+      "Bayliner 3055 Ciera Sunbridge / 305 SB"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -281,13 +309,15 @@
   {
     "BoatModelID": "BAYL-3058",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 3058 Command Bridge",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 3058 Command Bridge Command Bridge Cruiser",
     "Model": "3058 Command Bridge",
-    "Variant": "",
+    "Variant": "Command Bridge Cruiser",
     "Aliases": [
       "BAY-3058",
-      "Bayliner 3058"
+      "Bayliner 3058",
+      "Bayliner 3058 Command Bridge",
+      "3058 Command Bridge"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -296,13 +326,15 @@
   {
     "BoatModelID": "BAYL-3218",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 3218 Motoryacht",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 3218 Motoryacht Flybridge Motor Yacht",
     "Model": "3218 Motoryacht",
-    "Variant": "",
+    "Variant": "Flybridge Motor Yacht",
     "Aliases": [
       "BAY-3218",
-      "Bayliner 3218"
+      "Bayliner 3218",
+      "Bayliner 3218 Motoryacht",
+      "3218 Motoryacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -311,13 +343,16 @@
   {
     "BoatModelID": "BAYL-3258",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 3258 Ciera Command Bridge",
-    "Model": "3258 Ciera Command Bridge",
-    "Variant": "",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 3258 Command Bridge Command Bridge Cruiser",
+    "Model": "3258 Command Bridge",
+    "Variant": "Command Bridge Cruiser",
     "Aliases": [
       "BAY-3258",
-      "Bayliner 3258"
+      "Bayliner 3258",
+      "Bayliner 3258 Ciera Command Bridge",
+      "3258 Ciera Command Bridge",
+      "Bayliner 3258 Command Bridge"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -326,29 +361,21 @@
   {
     "BoatModelID": "BAYL-3288-MO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 3270 Motor Yacht",
-    "Model": "3270 Motor Yacht",
-    "Variant": "",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 3270 / 3288 Motor Yacht Explorer / Motor Yacht",
+    "Model": "3270 / 3288 Motor Yacht",
+    "Variant": "Explorer / Motor Yacht",
     "Aliases": [
       "BAY-3270",
       "Bayliner 3270",
-      "Bayliner 3270 Motoryacht"
-    ],
-    "Active": true,
-    "RedirectTo": null,
-    "Notes": ""
-  },
-  {
-    "BoatModelID": "BAYL-3288-MO",
-    "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 3288 Motor Yacht",
-    "Model": "3288 Motor Yacht",
-    "Variant": "Motor Yacht",
-    "Aliases": [
+      "Bayliner 3270 Motoryacht",
+      "Bayliner 3270 Motor Yacht",
+      "3270 Motor Yacht",
       "BAY-3288-MO",
-      "Bayliner 3288 Motor Yacht Motor Yacht"
+      "Bayliner 3288 Motor Yacht Motor Yacht",
+      "Bayliner 3288 Motor Yacht",
+      "3288 Motor Yacht Motor Yacht",
+      "Bayliner 3270 / 3288 Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -357,13 +384,15 @@
   {
     "BoatModelID": "BAYL-3388",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 3388 Motor Yacht",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 3388 Motor Yacht Flybridge Motor Yacht",
     "Model": "3388 Motor Yacht",
-    "Variant": "",
+    "Variant": "Flybridge Motor Yacht",
     "Aliases": [
       "BAY-3388",
-      "Bayliner 3388"
+      "Bayliner 3388",
+      "Bayliner 3388 Motor Yacht",
+      "3388 Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -372,13 +401,15 @@
   {
     "BoatModelID": "BAYL-3788",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 3788 Motor Yacht",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 3788 Motor Yacht Two-Generation Flybridge Motor Yacht",
     "Model": "3788 Motor Yacht",
-    "Variant": "Motor Yacht",
+    "Variant": "Two-Generation Flybridge Motor Yacht",
     "Aliases": [
       "BAY-3788",
-      "Bayliner 3788 Motor Yacht Motor Yacht"
+      "Bayliner 3788 Motor Yacht Motor Yacht",
+      "Bayliner 3788 Motor Yacht",
+      "3788 Motor Yacht Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -387,13 +418,16 @@
   {
     "BoatModelID": "BAYL-3888-MO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 3888 Motor Yacht",
-    "Model": "3888 Motor Yacht",
-    "Variant": "Motor Yacht",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 3870 / 3888 Motor Yacht Mid-Cabin Flybridge Motor Yacht",
+    "Model": "3870 / 3888 Motor Yacht",
+    "Variant": "Mid-Cabin Flybridge Motor Yacht",
     "Aliases": [
       "BAY-3888-MO",
-      "Bayliner 3888 Motor Yacht Motor Yacht"
+      "Bayliner 3888 Motor Yacht Motor Yacht",
+      "Bayliner 3888 Motor Yacht",
+      "3888 Motor Yacht Motor Yacht",
+      "Bayliner 3870 / 3888 Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -402,14 +436,16 @@
   {
     "BoatModelID": "BAYL-4087",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BAYLINER",
-    "CanonicalName": "Bayliner 4087 Cockpit Motor Yacht",
+    "ManufacturerCode": "BAYL",
+    "CanonicalName": "Bayliner 4087 Cockpit Motor Yacht Cockpit Motor Yacht",
     "Model": "4087 Cockpit Motor Yacht",
-    "Variant": "Aft Cabin",
+    "Variant": "Cockpit Motor Yacht",
     "Aliases": [
       "BAY-4087",
       "Bayliner 4087 Aft Cabin",
-      "Bayliner 4087 Cockpit Motor Yacht Aft Cabin"
+      "Bayliner 4087 Cockpit Motor Yacht Aft Cabin",
+      "Bayliner 4087 Cockpit Motor Yacht",
+      "4087 Cockpit Motor Yacht Aft Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -419,14 +455,15 @@
     "BoatModelID": "BENE-30-SW",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Swift Trawler 30",
+    "CanonicalName": "Beneteau Swift Trawler 30 Flybridge",
     "Model": "Swift Trawler 30",
     "Variant": "Flybridge",
     "Aliases": [
       "BEN-30-SW",
       "Beneteau 30",
-      "Beneteau Swift Trawler 30 Flybridge",
-      "Beneteau Swift Trawler 30 Sedan"
+      "Beneteau Swift Trawler 30 Sedan",
+      "Beneteau Swift Trawler 30",
+      "Swift Trawler 30 Flybridge"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -436,7 +473,7 @@
     "BoatModelID": "BENE-34-SW",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Swift Trawler 34",
+    "CanonicalName": "Beneteau Swift Trawler 34 Flybridge or Sedan",
     "Model": "Swift Trawler 34",
     "Variant": "Flybridge or Sedan",
     "Aliases": [
@@ -445,7 +482,8 @@
       "Beneteau 34",
       "Beneteau 34 Swift Trawler",
       "Beneteau 36",
-      "Beneteau Swift Trawler 34 Flybridge or Sedan"
+      "Beneteau Swift Trawler 34",
+      "Swift Trawler 34 Flybridge or Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -455,14 +493,15 @@
     "BoatModelID": "BENE-35-SW",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Swift Trawler 35",
+    "CanonicalName": "Beneteau Swift Trawler 35 Flybridge",
     "Model": "Swift Trawler 35",
     "Variant": "Flybridge",
     "Aliases": [
       "BEN-35-SW",
       "Beneteau 35",
       "Beneteau 35 Swift Trawler",
-      "Beneteau Swift Trawler 35 Flybridge"
+      "Beneteau Swift Trawler 35",
+      "Swift Trawler 35 Flybridge"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -472,13 +511,14 @@
     "BoatModelID": "BENE-47",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Swift Trawler 47",
+    "CanonicalName": "Beneteau Swift Trawler 47 Flybridge",
     "Model": "Swift Trawler 47",
     "Variant": "Flybridge",
     "Aliases": [
       "BEN-47",
       "Beneteau 47",
-      "Beneteau Swift Trawler 47 Flybridge"
+      "Beneteau Swift Trawler 47",
+      "Swift Trawler 47 Flybridge"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -488,13 +528,14 @@
     "BoatModelID": "BENE-48",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Swift Trawler 48",
+    "CanonicalName": "Beneteau Swift Trawler 48 Flybridge",
     "Model": "Swift Trawler 48",
     "Variant": "Flybridge",
     "Aliases": [
       "BEN-48",
       "Beneteau 48",
-      "Beneteau Swift Trawler 48 Flybridge"
+      "Beneteau Swift Trawler 48",
+      "Swift Trawler 48 Flybridge"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -504,13 +545,15 @@
     "BoatModelID": "BENE-52",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Swift Trawler 52",
+    "CanonicalName": "Beneteau Swift Trawler 52 Flybridge Flagship",
     "Model": "Swift Trawler 52",
-    "Variant": "Flybridge",
+    "Variant": "Flybridge Flagship",
     "Aliases": [
       "BEN-52",
       "Beneteau 52",
-      "Beneteau Swift Trawler 52 Flybridge"
+      "Beneteau Swift Trawler 52 Flybridge",
+      "Beneteau Swift Trawler 52",
+      "Swift Trawler 52 Flybridge"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -520,13 +563,15 @@
     "BoatModelID": "BENE-ANT-11",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Antares 11",
+    "CanonicalName": "Beneteau Antares 11 Coupé",
     "Model": "Antares 11",
-    "Variant": "Coupe",
+    "Variant": "Coupé",
     "Aliases": [
       "BEN-ANT-11",
       "Beneteau 11",
-      "Beneteau Antares 11 Coupe"
+      "Beneteau Antares 11 Coupe",
+      "Beneteau Antares 11",
+      "Antares 11 Coupe"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -536,13 +581,15 @@
     "BoatModelID": "BENE-ANT-7",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Antares 7",
+    "CanonicalName": "Beneteau Antares 7 Cruising / Fishing",
     "Model": "Antares 7",
-    "Variant": "Pilothouse Outboard",
+    "Variant": "Cruising / Fishing",
     "Aliases": [
       "BEN-ANT-7",
       "Beneteau 7",
-      "Beneteau Antares 7 Pilothouse Outboard"
+      "Beneteau Antares 7 Pilothouse Outboard",
+      "Beneteau Antares 7",
+      "Antares 7 Pilothouse Outboard"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -552,13 +599,15 @@
     "BoatModelID": "BENE-ANT-8",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Antares 8",
+    "CanonicalName": "Beneteau Antares 8 Cruising / Fishing",
     "Model": "Antares 8",
-    "Variant": "Pilothouse Outboard",
+    "Variant": "Cruising / Fishing",
     "Aliases": [
       "BEN-ANT-8",
       "Beneteau 8",
-      "Beneteau Antares 8 Pilothouse Outboard"
+      "Beneteau Antares 8 Pilothouse Outboard",
+      "Beneteau Antares 8",
+      "Antares 8 Pilothouse Outboard"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -568,13 +617,29 @@
     "BoatModelID": "BENE-ANT-9",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Antares 9",
+    "CanonicalName": "Beneteau Antares 9 Generation 1",
     "Model": "Antares 9",
-    "Variant": "Pilothouse Outboard",
+    "Variant": "Generation 1",
     "Aliases": [
       "BEN-ANT-9",
       "Beneteau 9",
-      "Beneteau Antares 9 Pilothouse Outboard"
+      "Beneteau Antares 9 Pilothouse Outboard",
+      "Beneteau Antares 9",
+      "Antares 9 Pilothouse Outboard"
+    ],
+    "Active": true,
+    "RedirectTo": null,
+    "Notes": ""
+  },
+  {
+    "BoatModelID": "BENE-ANT-9-S2",
+    "IdentityStatus": "ActiveV7",
+    "ManufacturerCode": "BENE",
+    "CanonicalName": "Beneteau Antares 9 Generation 2",
+    "Model": "Antares 9",
+    "Variant": "Generation 2",
+    "Aliases": [
+      "Beneteau Antares 9"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -584,13 +649,15 @@
     "BoatModelID": "BENE-BAR-8",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Barracuda 8",
+    "CanonicalName": "Beneteau Barracuda 8 Sport-Fishing Pilothouse",
     "Model": "Barracuda 8",
-    "Variant": "Sport Fishing Pilothouse",
+    "Variant": "Sport-Fishing Pilothouse",
     "Aliases": [
       "BEN-BAR-8",
       "Beneteau 8",
-      "Beneteau Barracuda 8 Sport Fishing Pilothouse"
+      "Beneteau Barracuda 8 Sport Fishing Pilothouse",
+      "Beneteau Barracuda 8",
+      "Barracuda 8 Sport Fishing Pilothouse"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -600,13 +667,15 @@
     "BoatModelID": "BENE-BAR-9",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "BENE",
-    "CanonicalName": "Beneteau Barracuda 9",
+    "CanonicalName": "Beneteau Barracuda 9 Sport-Fishing Pilothouse",
     "Model": "Barracuda 9",
-    "Variant": "Sport Fishing Pilothouse",
+    "Variant": "Sport-Fishing Pilothouse",
     "Aliases": [
       "BEN-BAR-9",
       "Beneteau 9",
-      "Beneteau Barracuda 9 Sport Fishing Pilothouse"
+      "Beneteau Barracuda 9 Sport Fishing Pilothouse",
+      "Beneteau Barracuda 9",
+      "Barracuda 9 Sport Fishing Pilothouse"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -615,13 +684,16 @@
   {
     "BoatModelID": "BHMB-32",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BHM",
-    "CanonicalName": "BHM 32",
+    "ManufacturerCode": "BHMB",
+    "CanonicalName": "BHM 32 Flye Point / Semi-Custom Downeast",
     "Model": "32",
-    "Variant": "Downeast",
+    "Variant": "Flye Point / Semi-Custom Downeast",
     "Aliases": [
       "BHM 32 Downeast",
-      "BHM-32"
+      "BHM-32",
+      "BHM 32",
+      "32 Downeast",
+      "BHM 32 / Flye Point 32"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -630,12 +702,14 @@
   {
     "BoatModelID": "BKCV-26",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BACK",
-    "CanonicalName": "Back Cove 26",
+    "ManufacturerCode": "BKCV",
+    "CanonicalName": "Back Cove 26 Downeast Cruiser",
     "Model": "26",
-    "Variant": "",
+    "Variant": "Downeast Cruiser",
     "Aliases": [
-      "BAC-26"
+      "BAC-26",
+      "Back Cove 26",
+      "26"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -644,12 +718,14 @@
   {
     "BoatModelID": "BKCV-29",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BACK",
-    "CanonicalName": "Back Cove 29",
+    "ManufacturerCode": "BKCV",
+    "CanonicalName": "Back Cove 29 Downeast Cruiser",
     "Model": "29",
-    "Variant": "",
+    "Variant": "Downeast Cruiser",
     "Aliases": [
-      "BAC-29"
+      "BAC-29",
+      "Back Cove 29",
+      "29"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -658,13 +734,15 @@
   {
     "BoatModelID": "BKCV-30",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BACK",
-    "CanonicalName": "Back Cove 30",
+    "ManufacturerCode": "BKCV",
+    "CanonicalName": "Back Cove 30 Downeast Cruiser",
     "Model": "30",
-    "Variant": "Trawler",
+    "Variant": "Downeast Cruiser",
     "Aliases": [
       "BAC-30",
-      "Back Cove 30 Trawler"
+      "Back Cove 30 Trawler",
+      "Back Cove 30",
+      "30 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -673,13 +751,15 @@
   {
     "BoatModelID": "BKCV-32",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BACK",
-    "CanonicalName": "Back Cove 32",
+    "ManufacturerCode": "BKCV",
+    "CanonicalName": "Back Cove 32 Downeast Cruiser",
     "Model": "32",
-    "Variant": "Trawler",
+    "Variant": "Downeast Cruiser",
     "Aliases": [
       "BAC-32",
-      "Back Cove 32 Trawler"
+      "Back Cove 32 Trawler",
+      "Back Cove 32",
+      "32 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -688,12 +768,14 @@
   {
     "BoatModelID": "BKCV-33",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BACK",
-    "CanonicalName": "Back Cove 33",
+    "ManufacturerCode": "BKCV",
+    "CanonicalName": "Back Cove 33 Downeast Cruiser",
     "Model": "33",
-    "Variant": "",
+    "Variant": "Downeast Cruiser",
     "Aliases": [
-      "BAC-33"
+      "BAC-33",
+      "Back Cove 33",
+      "33"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -702,13 +784,15 @@
   {
     "BoatModelID": "BKCV-34",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BACK",
-    "CanonicalName": "Back Cove 34",
+    "ManufacturerCode": "BKCV",
+    "CanonicalName": "Back Cove 34 Downeast Cruiser",
     "Model": "34",
-    "Variant": "Trawler",
+    "Variant": "Downeast Cruiser",
     "Aliases": [
       "BAC-34",
-      "Back Cove 34 Trawler"
+      "Back Cove 34 Trawler",
+      "Back Cove 34",
+      "34 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -717,13 +801,15 @@
   {
     "BoatModelID": "BKCV-37",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BACK",
-    "CanonicalName": "Back Cove 37",
+    "ManufacturerCode": "BKCV",
+    "CanonicalName": "Back Cove 37 Downeast Cruiser",
     "Model": "37",
-    "Variant": "Trawler",
+    "Variant": "Downeast Cruiser",
     "Aliases": [
       "BAC-37",
-      "Back Cove 37 Trawler"
+      "Back Cove 37 Trawler",
+      "Back Cove 37",
+      "37 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -732,13 +818,15 @@
   {
     "BoatModelID": "BKCV-39O",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BACKCOVE",
-    "CanonicalName": "Back Cove 39O",
+    "ManufacturerCode": "BKCV",
+    "CanonicalName": "Back Cove 39O Outboard Salon Cruiser",
     "Model": "39O",
-    "Variant": "Outboard",
+    "Variant": "Outboard Salon Cruiser",
     "Aliases": [
       "BAC-39O",
-      "Back Cove 39O Outboard"
+      "Back Cove 39O Outboard",
+      "Back Cove 39O",
+      "39O Outboard"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -747,12 +835,14 @@
   {
     "BoatModelID": "BKCV-41",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "BACKCOVE",
-    "CanonicalName": "Back Cove 41",
+    "ManufacturerCode": "BKCV",
+    "CanonicalName": "Back Cove 41 Flagship Downeast Cruiser",
     "Model": "41",
-    "Variant": "",
+    "Variant": "Flagship Downeast Cruiser",
     "Aliases": [
-      "BAC-41"
+      "BAC-41",
+      "Back Cove 41",
+      "41"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -761,14 +851,15 @@
   {
     "BoatModelID": "CALF-34-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CALIFORNIAN",
-    "CanonicalName": "Californian 34 LRC",
+    "ManufacturerCode": "CALF",
+    "CanonicalName": "Californian 34 LRC Long Range Cruiser",
     "Model": "34 LRC",
     "Variant": "Long Range Cruiser",
     "Aliases": [
       "CAL-34-TR",
-      "Californian 34 LRC Long Range Cruiser",
-      "Californian 34 Trawler"
+      "Californian 34 Trawler",
+      "Californian 34 LRC",
+      "34 LRC Long Range Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -777,14 +868,15 @@
   {
     "BoatModelID": "CALF-38-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CALIFORNIAN",
-    "CanonicalName": "Californian 38 LRC Sedan",
+    "ManufacturerCode": "CALF",
+    "CanonicalName": "Californian 38 LRC Sedan Long Range Cruiser Sedan",
     "Model": "38 LRC Sedan",
     "Variant": "Long Range Cruiser Sedan",
     "Aliases": [
       "CAL-38-TR",
-      "Californian 38 LRC Sedan Long Range Cruiser Sedan",
-      "Californian 38 Trawler"
+      "Californian 38 Trawler",
+      "Californian 38 LRC Sedan",
+      "38 LRC Sedan Long Range Cruiser Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -793,16 +885,17 @@
   {
     "BoatModelID": "CAMA-28-GN",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CAMANO",
-    "CanonicalName": "Camano 28/31",
+    "ManufacturerCode": "CAMA",
+    "CanonicalName": "Camano 28/31 Gnome",
     "Model": "28/31",
     "Variant": "Gnome",
     "Aliases": [
       "CAM-28-GN",
       "Camano 28 Gnome",
-      "Camano 28/31 Gnome",
       "Camano 31 Gnome",
-      "Camano Gnome"
+      "Camano Gnome",
+      "Camano 28/31",
+      "28/31 Gnome"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -811,17 +904,18 @@
   {
     "BoatModelID": "CAMA-31-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CAMANO",
-    "CanonicalName": "Camano 28/31",
+    "ManufacturerCode": "CAMA",
+    "CanonicalName": "Camano 28/31 Troll",
     "Model": "28/31",
     "Variant": "Troll",
     "Aliases": [
       "CAM-31-TR",
       "Camano 28 Troll",
-      "Camano 28/31 Troll",
       "Camano 30 Troll",
       "Camano 31 Troll",
-      "Camano Troll"
+      "Camano Troll",
+      "Camano 28/31",
+      "28/31 Troll"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -830,15 +924,16 @@
   {
     "BoatModelID": "CAMA-41",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CAMANO",
-    "CanonicalName": "Camano 41",
+    "ManufacturerCode": "CAMA",
+    "CanonicalName": "Camano 41 Trawler",
     "Model": "41",
     "Variant": "Trawler",
     "Aliases": [
       "CAM-41",
       "Camano 41 Flybridge",
       "Camano 41 Grand Trawler",
-      "Camano 41 Trawler"
+      "Camano 41",
+      "41 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -847,13 +942,16 @@
   {
     "BoatModelID": "CARV-28-V",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 28",
-    "Model": "28",
-    "Variant": "Voyager",
+    "ManufacturerCode": "CARV",
+    "CanonicalName": "Carver 2827 Voyager / 2897 Mariner Flybridge Cruiser",
+    "Model": "2827 Voyager / 2897 Mariner",
+    "Variant": "Flybridge Cruiser",
     "Aliases": [
       "CAR-28-V",
-      "Carver 28 Voyager"
+      "Carver 28 Voyager",
+      "Carver 28",
+      "28 Voyager",
+      "Carver 2827 Voyager / 2897 Mariner"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -862,28 +960,16 @@
   {
     "BoatModelID": "CARV-32-AC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 32",
-    "Model": "32",
+    "ManufacturerCode": "CARV",
+    "CanonicalName": "Carver 3207 Aft Cabin Aft Cabin",
+    "Model": "3207 Aft Cabin",
     "Variant": "Aft Cabin",
     "Aliases": [
       "CAR-32-AC",
-      "Carver 32 Aft Cabin"
-    ],
-    "Active": false,
-    "RedirectTo": null,
-    "Notes": ""
-  },
-  {
-    "BoatModelID": "CARV-350-AF",
-    "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 33",
-    "Model": "33",
-    "Variant": "Aft Cabin",
-    "Aliases": [
-      "CAR-33-AC",
-      "Carver 33 Aft Cabin"
+      "Carver 32 Aft Cabin",
+      "Carver 32",
+      "32 Aft Cabin",
+      "Carver 3207 Aft Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -892,13 +978,16 @@
   {
     "BoatModelID": "CARV-33-MAR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 33",
-    "Model": "33",
+    "ManufacturerCode": "CARV",
+    "CanonicalName": "Carver 3297 / 330 Mariner Mariner",
+    "Model": "3297 / 330 Mariner",
     "Variant": "Mariner",
     "Aliases": [
       "CAR-33-MAR",
-      "Carver 33 Mariner"
+      "Carver 33 Mariner",
+      "Carver 33",
+      "33 Mariner",
+      "Carver 3297 / 330 Mariner"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -907,13 +996,20 @@
   {
     "BoatModelID": "CARV-350-AF",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 350",
-    "Model": "350",
-    "Variant": "Aft Cabin",
+    "ManufacturerCode": "CARV",
+    "CanonicalName": "Carver 33 / 350 Aft Cabin Aft Cabin Motor Yacht",
+    "Model": "33 / 350 Aft Cabin",
+    "Variant": "Aft Cabin Motor Yacht",
     "Aliases": [
+      "CAR-33-AC",
+      "Carver 33 Aft Cabin",
+      "Carver 33",
+      "33 Aft Cabin",
       "CAR-350-AF",
-      "Carver 350 Aft Cabin"
+      "Carver 350 Aft Cabin",
+      "Carver 350",
+      "350 Aft Cabin",
+      "Carver 33 / 350 Aft Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -922,28 +1018,20 @@
   {
     "BoatModelID": "CARV-356-AF",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 355",
-    "Model": "355",
-    "Variant": "Aft Cabin",
+    "ManufacturerCode": "CARV",
+    "CanonicalName": "Carver 355 / 356 Motor Yacht Aft Cabin Motor Yacht",
+    "Model": "355 / 356 Motor Yacht",
+    "Variant": "Aft Cabin Motor Yacht",
     "Aliases": [
       "CAR-355-AC",
-      "Carver 355 Aft Cabin"
-    ],
-    "Active": false,
-    "RedirectTo": null,
-    "Notes": ""
-  },
-  {
-    "BoatModelID": "CARV-356-AF",
-    "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 356",
-    "Model": "356",
-    "Variant": "Aft Cabin",
-    "Aliases": [
+      "Carver 355 Aft Cabin",
+      "Carver 355",
+      "355 Aft Cabin",
       "CAR-356-AF",
-      "Carver 356 Aft Cabin"
+      "Carver 356 Aft Cabin",
+      "Carver 356",
+      "356 Aft Cabin",
+      "Carver 355 / 356 Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -952,13 +1040,16 @@
   {
     "BoatModelID": "CARV-36-AC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 36",
-    "Model": "36",
+    "ManufacturerCode": "CARV",
+    "CanonicalName": "Carver 3607 Aft Cabin Aft Cabin",
+    "Model": "3607 Aft Cabin",
     "Variant": "Aft Cabin",
     "Aliases": [
       "CAR-36-AC",
-      "Carver 36 Aft Cabin"
+      "Carver 36 Aft Cabin",
+      "Carver 36",
+      "36 Aft Cabin",
+      "Carver 3607 Aft Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -967,13 +1058,16 @@
   {
     "BoatModelID": "CARV-36-MAR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 36",
-    "Model": "36",
+    "ManufacturerCode": "CARV",
+    "CanonicalName": "Carver 350 / 36 Mariner Mariner",
+    "Model": "350 / 36 Mariner",
     "Variant": "Mariner",
     "Aliases": [
       "CAR-36-MAR",
-      "Carver 36 Mariner"
+      "Carver 36 Mariner",
+      "Carver 36",
+      "36 Mariner",
+      "Carver 350 / 36 Mariner"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -982,13 +1076,16 @@
   {
     "BoatModelID": "CARV-40-AC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 40",
-    "Model": "40",
-    "Variant": "Aft Cabin",
+    "ManufacturerCode": "CARV",
+    "CanonicalName": "Carver 3807 / 390 Aft Cabin Aft Cabin Motor Yacht",
+    "Model": "3807 / 390 Aft Cabin",
+    "Variant": "Aft Cabin Motor Yacht",
     "Aliases": [
       "CAR-40-AC",
-      "Carver 40 Aft Cabin"
+      "Carver 40 Aft Cabin",
+      "Carver 40",
+      "40 Aft Cabin",
+      "Carver 3807 / 390 Aft Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -997,13 +1094,16 @@
   {
     "BoatModelID": "CARV-42-AC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CARVER",
-    "CanonicalName": "Carver 42",
-    "Model": "42",
-    "Variant": "Aft Cabin",
+    "ManufacturerCode": "CARV",
+    "CanonicalName": "Carver 4207 Aft Cabin Aft Cabin Motor Yacht",
+    "Model": "4207 Aft Cabin",
+    "Variant": "Aft Cabin Motor Yacht",
     "Aliases": [
       "CAR-42-AC",
-      "Carver 42 Aft Cabin"
+      "Carver 42 Aft Cabin",
+      "Carver 42",
+      "42 Aft Cabin",
+      "Carver 4207 Aft Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1012,13 +1112,15 @@
   {
     "BoatModelID": "CDRY-22-CR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CDORY",
-    "CanonicalName": "C-Dory 22",
-    "Model": "22",
+    "ManufacturerCode": "CDRY",
+    "CanonicalName": "C-Dory 22 Cruiser Cruiser",
+    "Model": "22 Cruiser",
     "Variant": "Cruiser",
     "Aliases": [
       "C-Dory 22 Cruiser",
-      "CDO-22-CR"
+      "CDO-22-CR",
+      "C-Dory 22",
+      "22 Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1027,13 +1129,15 @@
   {
     "BoatModelID": "CDRY-25-CR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CDORY",
-    "CanonicalName": "C-Dory 25",
-    "Model": "25",
+    "ManufacturerCode": "CDRY",
+    "CanonicalName": "C-Dory 25 Cruiser Cruiser",
+    "Model": "25 Cruiser",
     "Variant": "Cruiser",
     "Aliases": [
       "C-Dory 25 Cruiser",
-      "CDO-25-CR"
+      "CDO-25-CR",
+      "C-Dory 25",
+      "25 Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1042,17 +1146,20 @@
   {
     "BoatModelID": "CDRY-25-TC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CDORY",
-    "CanonicalName": "C-Dory 25 TomCat",
-    "Model": "25 TomCat",
-    "Variant": "TomCat 255",
+    "ManufacturerCode": "CDRY",
+    "CanonicalName": "C-Dory TomCat 255 Power Catamaran",
+    "Model": "TomCat 255",
+    "Variant": "Power Catamaran",
     "Aliases": [
       "25 TomCat",
       "C-Dory 25 TomCat / TomCat 255",
       "C-Dory 25 TomCat TomCat 255",
       "C-Dory 30 TomCat",
       "CDRY-30-TC",
-      "TomCat 255"
+      "TomCat 255",
+      "C-Dory 25 TomCat",
+      "25 TomCat TomCat 255",
+      "C-Dory TomCat 255"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1061,14 +1168,17 @@
   {
     "BoatModelID": "CDRY-26-PA",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CDORY",
-    "CanonicalName": "C-Dory 26",
-    "Model": "26",
-    "Variant": "ProAngler",
+    "ManufacturerCode": "CDRY",
+    "CanonicalName": "C-Dory 26 Pro Angler Walkaround Fishing",
+    "Model": "26 Pro Angler",
+    "Variant": "Walkaround Fishing",
     "Aliases": [
       "C-Dory 26 ProAngler",
       "C-Dory 26 ProAngler (cruiser conversions)",
-      "CD-26-PA"
+      "CD-26-PA",
+      "C-Dory 26",
+      "26 ProAngler",
+      "C-Dory 26 Pro Angler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1077,13 +1187,15 @@
   {
     "BoatModelID": "CDRY-26-V",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CDORY",
-    "CanonicalName": "C-Dory 26",
-    "Model": "26",
-    "Variant": "Venture",
+    "ManufacturerCode": "CDRY",
+    "CanonicalName": "C-Dory 26 Venture Venture Cruiser",
+    "Model": "26 Venture",
+    "Variant": "Venture Cruiser",
     "Aliases": [
       "C-Dory 26 Venture",
-      "CD-26-V"
+      "CD-26-V",
+      "C-Dory 26",
+      "26 Venture"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1092,14 +1204,15 @@
   {
     "BoatModelID": "CHBB-34-SE",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CHB",
-    "CanonicalName": "CHB 34",
+    "ManufacturerCode": "CHBB",
+    "CanonicalName": "CHB 34 Sedan",
     "Model": "34",
     "Variant": "Sedan",
     "Aliases": [
       "CHB 34 Classic",
-      "CHB 34 Sedan",
-      "CHB 34 Trawler"
+      "CHB 34 Trawler",
+      "CHB 34",
+      "34 Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1108,14 +1221,15 @@
   {
     "BoatModelID": "CHBB-34-TC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CHB",
-    "CanonicalName": "CHB 34",
+    "ManufacturerCode": "CHBB",
+    "CanonicalName": "CHB 34 Tri-Cabin",
     "Model": "34",
     "Variant": "Tri-Cabin",
     "Aliases": [
       "CHB 34 Classic Trawler",
       "CHB 34 Double Cabin",
-      "CHB 34 Tri-Cabin"
+      "CHB 34",
+      "34 Tri-Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1124,14 +1238,15 @@
   {
     "BoatModelID": "CHBY-34-SE",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CHB",
+    "ManufacturerCode": "CHBB",
     "CanonicalName": "CHB 34 Double Cabin",
-    "Model": "34 Double Cabin",
+    "Model": "34",
     "Variant": "Double Cabin",
     "Aliases": [
       "CHB 34 Double Cabin Sedan",
       "CHB 34 Sedan",
-      "CHB-34-SE"
+      "CHB-34-SE",
+      "34 Double Cabin Double Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1140,14 +1255,15 @@
   {
     "BoatModelID": "CHBY-35",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CHB",
+    "ManufacturerCode": "CHBB",
     "CanonicalName": "CHB 35 Sundeck",
-    "Model": "35 Sundeck",
-    "Variant": "Trawler",
+    "Model": "35",
+    "Variant": "Sundeck",
     "Aliases": [
       "CHB 35 Sundeck Trawler",
       "CHB 35 Trawler",
-      "CHB-35"
+      "CHB-35",
+      "35 Sundeck Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1156,14 +1272,15 @@
   {
     "BoatModelID": "CHBY-40",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CHB",
+    "ManufacturerCode": "CHBB",
     "CanonicalName": "CHB 40 Double Cabin",
-    "Model": "40 Double Cabin",
-    "Variant": "Trawler",
+    "Model": "40",
+    "Variant": "Double Cabin",
     "Aliases": [
       "CHB 40 Double Cabin Trawler",
       "CHB 40 Trawler",
-      "CHB-40"
+      "CHB-40",
+      "40 Double Cabin Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1172,13 +1289,16 @@
   {
     "BoatModelID": "CHLY-28",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CHEOY",
-    "CanonicalName": "Cheoy Lee 28 Trawler",
-    "Model": "28 Trawler",
-    "Variant": "Trawler",
+    "ManufacturerCode": "CHLY",
+    "CanonicalName": "Cheoy Lee 28 Sedan Trawler Sedan",
+    "Model": "28 Sedan Trawler",
+    "Variant": "Sedan",
     "Aliases": [
       "CHE-28",
-      "Cheoy Lee 28 Trawler Trawler"
+      "Cheoy Lee 28 Trawler Trawler",
+      "Cheoy Lee 28 Trawler",
+      "28 Trawler Trawler",
+      "Cheoy Lee 28 Sedan Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1187,14 +1307,14 @@
   {
     "BoatModelID": "CHLY-32",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CHEOY",
-    "CanonicalName": "Cheoy Lee 32 Trawler",
+    "ManufacturerCode": "CHLY",
+    "CanonicalName": "Cheoy Lee 32 Trawler Trawler",
     "Model": "32 Trawler",
     "Variant": "Trawler",
     "Aliases": [
       "CHLY-32",
-      "Cheoy Lee 32 Trawler Trawler",
-      "Cheoy Lee 32 Trawler"
+      "Cheoy Lee 32 Trawler",
+      "32 Trawler Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1203,13 +1323,14 @@
   {
     "BoatModelID": "CHLY-35",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CHEOY",
-    "CanonicalName": "Cheoy Lee 35 Trawler",
+    "ManufacturerCode": "CHLY",
+    "CanonicalName": "Cheoy Lee 35 Trawler Trawler",
     "Model": "35 Trawler",
     "Variant": "Trawler",
     "Aliases": [
       "CHE-35",
-      "Cheoy Lee 35 Trawler Trawler"
+      "Cheoy Lee 35 Trawler",
+      "35 Trawler Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1218,16 +1339,19 @@
   {
     "BoatModelID": "CHLY-36-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CHEOY",
-    "CanonicalName": "Cheoy Lee 36 Trawler Mk II",
-    "Model": "36 Trawler Mk II",
+    "ManufacturerCode": "CHLY",
+    "CanonicalName": "Cheoy Lee 36 Trawler Trawler",
+    "Model": "36 Trawler",
     "Variant": "Trawler",
     "Aliases": [
       "CHE-36-SE",
       "CHLY-36-SE",
       "CHLY-36-TR",
       "Cheoy Lee 36 Sedan",
-      "Cheoy Lee 36 Trawler Mk II Trawler"
+      "Cheoy Lee 36 Trawler Mk II Trawler",
+      "Cheoy Lee 36 Trawler Mk II",
+      "36 Trawler Mk II Trawler",
+      "Cheoy Lee 36 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1236,18 +1360,19 @@
   {
     "BoatModelID": "CPDR-28-CR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CAPE",
-    "CanonicalName": "Cape Dory 28",
+    "ManufacturerCode": "CPDR",
+    "CanonicalName": "Cape Dory 28 Cruiser",
     "Model": "28",
-    "Variant": "Power Cruiser",
+    "Variant": "Cruiser",
     "Aliases": [
       "CAP-28-PH",
       "CAPD-28-CR",
       "CPDR-28-PH",
-      "Cape Dory 28 Cruiser",
       "Cape Dory 28 Pilothouse",
       "Cape Dory 28 Power",
-      "Cape Dory 28 Power Cruiser"
+      "Cape Dory 28 Power Cruiser",
+      "Cape Dory 28",
+      "28 Power Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1256,16 +1381,17 @@
   {
     "BoatModelID": "CPDR-28-FB",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CAPE",
-    "CanonicalName": "Cape Dory 28",
+    "ManufacturerCode": "CPDR",
+    "CanonicalName": "Cape Dory 28 Flybridge Cruiser",
     "Model": "28",
     "Variant": "Flybridge Cruiser",
     "Aliases": [
       "CAP-28-FB",
       "Cape Dory 28 Fly Bridge Cruiser",
       "Cape Dory 28 Flybridge",
-      "Cape Dory 28 Flybridge Cruiser",
-      "Cape Dory 28 Trawler"
+      "Cape Dory 28 Trawler",
+      "Cape Dory 28",
+      "28 Flybridge Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1274,14 +1400,15 @@
   {
     "BoatModelID": "CPDR-28-OF",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CAPE",
-    "CanonicalName": "Cape Dory 28",
+    "ManufacturerCode": "CPDR",
+    "CanonicalName": "Cape Dory 28 Open Fisherman",
     "Model": "28",
     "Variant": "Open Fisherman",
     "Aliases": [
       "CAP-28-OF",
-      "Cape Dory 28 Open Fisherman",
-      "Cape Dory 28 Open Sportsman"
+      "Cape Dory 28 Open Sportsman",
+      "Cape Dory 28",
+      "28 Open Fisherman"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1290,15 +1417,17 @@
   {
     "BoatModelID": "CPDR-30-FB",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CAPE",
-    "CanonicalName": "Cape Dory 30",
+    "ManufacturerCode": "CPDR",
+    "CanonicalName": "Cape Dory 30 Flybridge",
     "Model": "30",
     "Variant": "Flybridge",
     "Aliases": [
       "CAP-30-FB",
       "CAPD-30-FB",
-      "Cape Dory 30 Flybridge",
-      "Cape Dory 30 Flybridge Trawler"
+      "Cape Dory 30 Flybridge Trawler",
+      "Cape Dory 30",
+      "30 Flybridge",
+      "Cape Dory 30 PowerYacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1307,17 +1436,19 @@
   {
     "BoatModelID": "CPDR-33-FB",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CAPE",
-    "CanonicalName": "Cape Dory 33",
+    "ManufacturerCode": "CPDR",
+    "CanonicalName": "Cape Dory 33 Flybridge",
     "Model": "33",
-    "Variant": "Power Yacht",
+    "Variant": "Flybridge",
     "Aliases": [
       "CAP-33-FB",
       "Cape Dory 33 Cruiser",
-      "Cape Dory 33 Flybridge",
       "Cape Dory 33 Power Yacht",
       "Cape Dory 33 Poweryacht",
-      "Cape Dory 33 Trawler"
+      "Cape Dory 33 Trawler",
+      "Cape Dory 33",
+      "33 Power Yacht",
+      "Cape Dory 33 PowerYacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1326,17 +1457,19 @@
   {
     "BoatModelID": "CPDR-36-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CAPE",
-    "CanonicalName": "Cape Dory 36",
+    "ManufacturerCode": "CPDR",
+    "CanonicalName": "Cape Dory 36 Flybridge",
     "Model": "36",
-    "Variant": "Power Yacht",
+    "Variant": "Flybridge",
     "Aliases": [
       "CD-36-TR",
       "Cape Dory 36 Cruiser",
-      "Cape Dory 36 Flybridge",
       "Cape Dory 36 Power Yacht",
       "Cape Dory 36 Poweryacht",
-      "Cape Dory 36 Trawler"
+      "Cape Dory 36 Trawler",
+      "Cape Dory 36",
+      "36 Power Yacht",
+      "Cape Dory 36 PowerYacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1345,15 +1478,17 @@
   {
     "BoatModelID": "CPDR-40-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CAPE",
-    "CanonicalName": "Cape Dory 40",
-    "Model": "40",
+    "ManufacturerCode": "CPDR",
+    "CanonicalName": "Cape Dory 40 Explorer Explorer",
+    "Model": "40 Explorer",
     "Variant": "Explorer",
     "Aliases": [
       "CD-40-TR",
       "Cape Dory 40 Explorer",
       "Cape Dory 40 Explorer Trawler",
-      "Cape Dory 40 Trawler"
+      "Cape Dory 40 Trawler",
+      "Cape Dory 40",
+      "40 Explorer"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1362,13 +1497,16 @@
   {
     "BoatModelID": "CRUY-2980",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CRUISERS",
-    "CanonicalName": "Cruisers Yachts 2980",
-    "Model": "2980",
-    "Variant": "",
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts 288 / 298 Villa Vee / 2980 Esprit Flybridge Cruiser",
+    "Model": "288 / 298 Villa Vee / 2980 Esprit",
+    "Variant": "Flybridge Cruiser",
     "Aliases": [
       "CRU-2980",
-      "Cruisers 2980"
+      "Cruisers 2980",
+      "Cruisers Yachts 2980",
+      "2980",
+      "Cruisers 288 / 298 Villa Vee / 2980 Esprit"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1377,14 +1515,31 @@
   {
     "BoatModelID": "CRUY-320-EXP",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CRUISERS",
-    "CanonicalName": "Cruisers Yachts 320",
-    "Model": "320",
-    "Variant": "Express",
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts 3275 / 320 Express Express Cruiser",
+    "Model": "3275 / 320 Express",
+    "Variant": "Express Cruiser",
     "Aliases": [
       "CRU-320-EXP",
       "Cruisers 320 Express",
-      "Cruisers Yachts 320 Express"
+      "Cruisers Yachts 320 Express",
+      "Cruisers Yachts 320",
+      "320 Express",
+      "Cruisers 3275 / 320 Express"
+    ],
+    "Active": false,
+    "RedirectTo": null,
+    "Notes": ""
+  },
+  {
+    "BoatModelID": "CRUY-3260",
+    "IdentityStatus": "ActiveV7",
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts 3260 Esprit Open Interior / No Mid-Cabin",
+    "Model": "3260 Esprit",
+    "Variant": "Open Interior / No Mid-Cabin",
+    "Aliases": [
+      "Cruisers 3260 / 3270 Esprit"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1393,13 +1548,16 @@
   {
     "BoatModelID": "CRUY-3280",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CRUISERS",
-    "CanonicalName": "Cruisers Yachts 3280",
-    "Model": "3280",
-    "Variant": "",
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts 3270 Esprit Mid-Cabin",
+    "Model": "3270 Esprit",
+    "Variant": "Mid-Cabin",
     "Aliases": [
       "CRU-3280",
-      "Cruisers 3280"
+      "Cruisers 3280",
+      "Cruisers Yachts 3280",
+      "3280",
+      "Cruisers 3260 / 3270 Esprit"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1408,13 +1566,16 @@
   {
     "BoatModelID": "CRUY-3375",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CRUISERS",
-    "CanonicalName": "Cruisers Yachts 3375",
-    "Model": "3375",
-    "Variant": "",
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts 3375 Esprit Express Cruiser",
+    "Model": "3375 Esprit",
+    "Variant": "Express Cruiser",
     "Aliases": [
       "CRU-3375",
-      "Cruisers 3375"
+      "Cruisers 3375",
+      "Cruisers Yachts 3375",
+      "3375",
+      "Cruisers 3375 Esprit"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1423,13 +1584,16 @@
   {
     "BoatModelID": "CRUY-3470",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CRUISERS",
-    "CanonicalName": "Cruisers Yachts 3470",
-    "Model": "3470",
-    "Variant": "",
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts 3470 / 340 Express Express Cruiser",
+    "Model": "3470 / 340 Express",
+    "Variant": "Express Cruiser",
     "Aliases": [
       "CRU-3470",
-      "Cruisers 3470"
+      "Cruisers 3470",
+      "Cruisers Yachts 3470",
+      "3470",
+      "Cruisers 3470 / 340 Express"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1438,13 +1602,16 @@
   {
     "BoatModelID": "CRUY-3650-AF",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CRUISERS",
-    "CanonicalName": "Cruisers Yachts 3650",
-    "Model": "3650",
-    "Variant": "Aft Cabin",
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts 3650 / 3750 / 375 Motor Yacht Aft Cabin Motor Yacht",
+    "Model": "3650 / 3750 / 375 Motor Yacht",
+    "Variant": "Aft Cabin Motor Yacht",
     "Aliases": [
       "CRU-3650-AF",
-      "Cruisers Yachts 3650 Aft Cabin"
+      "Cruisers Yachts 3650 Aft Cabin",
+      "Cruisers Yachts 3650",
+      "3650 Aft Cabin",
+      "Cruisers 3650 / 3750 / 375 Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1453,13 +1620,16 @@
   {
     "BoatModelID": "CRUY-3870",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CRUISERS",
-    "CanonicalName": "Cruisers Yachts 3870",
-    "Model": "3870",
-    "Variant": "",
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts 3870 Esprit / Express Express Cruiser",
+    "Model": "3870 Esprit / Express",
+    "Variant": "Express Cruiser",
     "Aliases": [
       "CRU-3870",
-      "Cruisers 3870"
+      "Cruisers 3870",
+      "Cruisers Yachts 3870",
+      "3870",
+      "Cruisers 3870 Esprit / Express"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1468,14 +1638,17 @@
   {
     "BoatModelID": "CRUY-390-EXP",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CRUISERS",
-    "CanonicalName": "Cruisers Yachts 390",
-    "Model": "390",
-    "Variant": "Express",
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts 390 Sports Coupe Sports Coupe",
+    "Model": "390 Sports Coupe",
+    "Variant": "Sports Coupe",
     "Aliases": [
       "CRU-390-EXP",
       "Cruisers 390 Express",
-      "Cruisers Yachts 390 Express"
+      "Cruisers Yachts 390 Express",
+      "Cruisers Yachts 390",
+      "390 Express",
+      "Cruisers 390 Sports Coupe"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1484,13 +1657,16 @@
   {
     "BoatModelID": "CRUY-4050",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CRUISERS",
-    "CanonicalName": "Cruisers Yachts 4050",
-    "Model": "4050",
-    "Variant": "",
+    "ManufacturerCode": "CRUY",
+    "CanonicalName": "Cruisers Yachts 4050 / 405 / 415 Express Motor Yacht Express Motor Yacht",
+    "Model": "4050 / 405 / 415 Express Motor Yacht",
+    "Variant": "Express Motor Yacht",
     "Aliases": [
       "CRU-4050",
-      "Cruisers 4050"
+      "Cruisers 4050",
+      "Cruisers Yachts 4050",
+      "4050",
+      "Cruisers 4050 / 405 / 415 Express Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1499,14 +1675,15 @@
   {
     "BoatModelID": "CUTW-24",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CUTWATER",
-    "CanonicalName": "Cutwater C-24 C",
+    "ManufacturerCode": "CUTW",
+    "CanonicalName": "Cutwater C-24 C Coupe",
     "Model": "C-24 C",
     "Variant": "Coupe",
     "Aliases": [
       "CUT-24",
       "Cutwater C-24",
-      "Cutwater C-24 C Coupe"
+      "Cutwater C-24 C",
+      "C-24 C Coupe"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1515,13 +1692,14 @@
   {
     "BoatModelID": "CUTW-26",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CUTWATER",
-    "CanonicalName": "Cutwater C-26",
+    "ManufacturerCode": "CUTW",
+    "CanonicalName": "Cutwater C-26 Cruiser",
     "Model": "C-26",
     "Variant": "Cruiser",
     "Aliases": [
       "CUT-26",
-      "Cutwater C-26 Cruiser"
+      "Cutwater C-26",
+      "C-26 Cruiser"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1530,14 +1708,15 @@
   {
     "BoatModelID": "CUTW-28-P",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CUTWATER",
-    "CanonicalName": "Cutwater C-28",
+    "ManufacturerCode": "CUTW",
+    "CanonicalName": "Cutwater C-28 Cruiser",
     "Model": "C-28",
     "Variant": "Cruiser",
     "Aliases": [
       "CUT-28-P",
-      "Cutwater C-28 Cruiser",
-      "Cutwater C-28 Pilothouse"
+      "Cutwater C-28 Pilothouse",
+      "Cutwater C-28",
+      "C-28 Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1546,14 +1725,15 @@
   {
     "BoatModelID": "CUTW-30-C",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CUTWATER",
-    "CanonicalName": "Cutwater C-30 CB",
+    "ManufacturerCode": "CUTW",
+    "CanonicalName": "Cutwater C-30 CB Command Bridge",
     "Model": "C-30 CB",
     "Variant": "Command Bridge",
     "Aliases": [
       "CUT-30-C",
-      "Cutwater C-30 CB Command Bridge",
-      "Cutwater C-30 Coupe"
+      "Cutwater C-30 Coupe",
+      "Cutwater C-30 CB",
+      "C-30 CB Command Bridge"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1562,14 +1742,15 @@
   {
     "BoatModelID": "CUTW-30-P",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CUTWATER",
-    "CanonicalName": "Cutwater C-30 S",
+    "ManufacturerCode": "CUTW",
+    "CanonicalName": "Cutwater C-30 S Sedan",
     "Model": "C-30 S",
     "Variant": "Sedan",
     "Aliases": [
       "CUT-30-P",
       "Cutwater C-30 Pilothouse",
-      "Cutwater C-30 S Sedan"
+      "Cutwater C-30 S",
+      "C-30 S Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1578,14 +1759,15 @@
   {
     "BoatModelID": "CUTW-32",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "CUTWATER",
-    "CanonicalName": "Cutwater C-32 CB",
+    "ManufacturerCode": "CUTW",
+    "CanonicalName": "Cutwater C-32 CB Command Bridge",
     "Model": "C-32 CB",
     "Variant": "Command Bridge",
     "Aliases": [
       "CUT-32",
       "Cutwater C-32",
-      "Cutwater C-32 CB Command Bridge"
+      "Cutwater C-32 CB",
+      "C-32 CB Command Bridge"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1594,14 +1776,16 @@
   {
     "BoatModelID": "DEFE-34-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DEFEVER",
-    "CanonicalName": "DeFever 34 Passagemaker",
+    "ManufacturerCode": "DEFE",
+    "CanonicalName": "DeFever 34 Passagemaker Passagemaker",
     "Model": "34 Passagemaker",
-    "Variant": "Trawler",
+    "Variant": "Passagemaker",
     "Aliases": [
       "DEF-34-TR",
       "DeFever 34 Passagemaker Trawler",
-      "DeFever 34 Trawler"
+      "DeFever 34 Trawler",
+      "DeFever 34 Passagemaker",
+      "34 Passagemaker Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1610,13 +1794,16 @@
   {
     "BoatModelID": "DEFE-38-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DEFEVER",
-    "CanonicalName": "DeFever 38 Trawler",
-    "Model": "38 Trawler",
-    "Variant": "Trawler",
+    "ManufacturerCode": "DEFE",
+    "CanonicalName": "DeFever 38 Passagemaker Wood Passagemaker",
+    "Model": "38 Passagemaker",
+    "Variant": "Wood Passagemaker",
     "Aliases": [
       "DEF-38-TR",
-      "DeFever 38 Trawler Trawler"
+      "DeFever 38 Trawler Trawler",
+      "DeFever 38 Trawler",
+      "38 Trawler Trawler",
+      "DeFever 38 Passagemaker"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1625,13 +1812,15 @@
   {
     "BoatModelID": "DEFE-40-EURO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DEFEVER",
-    "CanonicalName": "DeFever 40 Offshore Cruiser",
+    "ManufacturerCode": "DEFE",
+    "CanonicalName": "DeFever 40 Offshore Cruiser Offshore Cruiser",
     "Model": "40 Offshore Cruiser",
-    "Variant": "",
+    "Variant": "Offshore Cruiser",
     "Aliases": [
       "DEF-40-EURO",
-      "DeFever 40 Euro"
+      "DeFever 40 Euro",
+      "DeFever 40 Offshore Cruiser",
+      "40 Offshore Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1640,13 +1829,15 @@
   {
     "BoatModelID": "DEFE-41",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DEFEVER",
-    "CanonicalName": "DeFever 41 Trawler",
+    "ManufacturerCode": "DEFE",
+    "CanonicalName": "DeFever 41 Trawler Trawler",
     "Model": "41 Trawler",
-    "Variant": "",
+    "Variant": "Trawler",
     "Aliases": [
       "DEF-41",
-      "DeFever 41"
+      "DeFever 41",
+      "DeFever 41 Trawler",
+      "41 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1655,13 +1846,15 @@
   {
     "BoatModelID": "DEFE-43",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DEFEVER",
-    "CanonicalName": "DeFever 43 Trawler",
+    "ManufacturerCode": "DEFE",
+    "CanonicalName": "DeFever 43 Trawler Flush Deck",
     "Model": "43 Trawler",
-    "Variant": "",
+    "Variant": "Flush Deck",
     "Aliases": [
       "DEF-43",
-      "DeFever 43"
+      "DeFever 43",
+      "DeFever 43 Trawler",
+      "43 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1670,13 +1863,15 @@
   {
     "BoatModelID": "DEFE-45",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DEFEVER",
-    "CanonicalName": "DeFever 45 Pilothouse",
+    "ManufacturerCode": "DEFE",
+    "CanonicalName": "DeFever 45 Pilothouse Pilothouse",
     "Model": "45 Pilothouse",
-    "Variant": "",
+    "Variant": "Pilothouse",
     "Aliases": [
       "DEF-45",
-      "DeFever 45"
+      "DeFever 45",
+      "DeFever 45 Pilothouse",
+      "45 Pilothouse"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1685,13 +1880,15 @@
   {
     "BoatModelID": "DEFE-47",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DEFEVER",
-    "CanonicalName": "DeFever 47 POC Motor Yacht",
+    "ManufacturerCode": "DEFE",
+    "CanonicalName": "DeFever 47 POC Motor Yacht Performance Offshore Cruiser",
     "Model": "47 POC Motor Yacht",
-    "Variant": "",
+    "Variant": "Performance Offshore Cruiser",
     "Aliases": [
       "DEF-47",
-      "DeFever 47"
+      "DeFever 47",
+      "DeFever 47 POC Motor Yacht",
+      "47 POC Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1700,13 +1897,15 @@
   {
     "BoatModelID": "DEFE-49",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DEFEVER",
-    "CanonicalName": "DeFever 49 Cockpit Motor Yacht",
+    "ManufacturerCode": "DEFE",
+    "CanonicalName": "DeFever 49 Cockpit Motor Yacht Cockpit Motor Yacht",
     "Model": "49 Cockpit Motor Yacht",
-    "Variant": "",
+    "Variant": "Cockpit Motor Yacht",
     "Aliases": [
       "DEF-49",
-      "DeFever 49"
+      "DeFever 49",
+      "DeFever 49 Cockpit Motor Yacht",
+      "49 Cockpit Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1715,12 +1914,14 @@
   {
     "BoatModelID": "DUFF-29",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DUFFY",
-    "CanonicalName": "Duffy 29",
+    "ManufacturerCode": "DUFF",
+    "CanonicalName": "Duffy 29 Downeast Hull",
     "Model": "29",
-    "Variant": "",
+    "Variant": "Downeast Hull",
     "Aliases": [
-      "DUF-29"
+      "DUF-29",
+      "Duffy 29",
+      "29"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1729,13 +1930,15 @@
   {
     "BoatModelID": "DUFF-31",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DUFFY",
-    "CanonicalName": "Duffy 31",
+    "ManufacturerCode": "DUFF",
+    "CanonicalName": "Duffy 31 Downeast / Lobsterboat Hull",
     "Model": "31",
-    "Variant": "Downeast",
+    "Variant": "Downeast / Lobsterboat Hull",
     "Aliases": [
       "DUF-31",
-      "Duffy 31 Downeast"
+      "Duffy 31 Downeast",
+      "Duffy 31",
+      "31 Downeast"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1744,13 +1947,15 @@
   {
     "BoatModelID": "DUFF-35",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DUFFY",
-    "CanonicalName": "Duffy 35",
+    "ManufacturerCode": "DUFF",
+    "CanonicalName": "Duffy 35 Downeast / Lobsterboat Hull",
     "Model": "35",
-    "Variant": "Downeast",
+    "Variant": "Downeast / Lobsterboat Hull",
     "Aliases": [
       "DUF-35",
-      "Duffy 35 Downeast"
+      "Duffy 35 Downeast",
+      "Duffy 35",
+      "35 Downeast"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1759,12 +1964,14 @@
   {
     "BoatModelID": "DUFF-37",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DUFFY",
-    "CanonicalName": "Duffy 37",
+    "ManufacturerCode": "DUFF",
+    "CanonicalName": "Duffy 37 Downeast / Lobsterboat Hull",
     "Model": "37",
-    "Variant": "",
+    "Variant": "Downeast / Lobsterboat Hull",
     "Aliases": [
-      "DUF-37"
+      "DUF-37",
+      "Duffy 37",
+      "37"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1773,12 +1980,14 @@
   {
     "BoatModelID": "DUFF-39",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DUFFY",
-    "CanonicalName": "Duffy 39",
+    "ManufacturerCode": "DUFF",
+    "CanonicalName": "Duffy 39 Extended Duffy 37 / Custom Downeast",
     "Model": "39",
-    "Variant": "",
+    "Variant": "Extended Duffy 37 / Custom Downeast",
     "Aliases": [
-      "DUF-39"
+      "DUF-39",
+      "Duffy 39",
+      "39"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1787,12 +1996,14 @@
   {
     "BoatModelID": "DUFF-42",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "DUFFY",
-    "CanonicalName": "Duffy 42",
+    "ManufacturerCode": "DUFF",
+    "CanonicalName": "Duffy 42 Downeast / Lobsterboat Hull",
     "Model": "42",
-    "Variant": "",
+    "Variant": "Downeast / Lobsterboat Hull",
     "Aliases": [
-      "DUF-42"
+      "DUF-42",
+      "Duffy 42",
+      "42"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1801,13 +2012,15 @@
   {
     "BoatModelID": "ENDE-36-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ENDEAVOUR",
-    "CanonicalName": "Endeavour 36 TrawlerCat",
-    "Model": "36 TrawlerCat",
-    "Variant": "",
+    "ManufacturerCode": "ENDE",
+    "CanonicalName": "Endeavour TrawlerCat 36 Power Catamaran",
+    "Model": "TrawlerCat 36",
+    "Variant": "Power Catamaran",
     "Aliases": [
       "END-36-TR",
-      "Endeavour 36 TrawlerCat"
+      "Endeavour 36 TrawlerCat",
+      "36 TrawlerCat",
+      "Endeavour TrawlerCat 36"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1816,14 +2029,15 @@
   {
     "BoatModelID": "ENDE-44",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ENDEAVOUR",
-    "CanonicalName": "Endeavour 44 TrawlerCat",
+    "ManufacturerCode": "ENDE",
+    "CanonicalName": "Endeavour 44 TrawlerCat Power Catamaran",
     "Model": "44 TrawlerCat",
-    "Variant": "",
+    "Variant": "Power Catamaran",
     "Aliases": [
       "ETC-44",
       "Endeavour 44 TrawlerCat",
-      "Endeavour TrawlerCat 44"
+      "Endeavour TrawlerCat 44",
+      "44 TrawlerCat"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1832,14 +2046,16 @@
   {
     "BoatModelID": "FJRD-36",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "FJORD",
-    "CanonicalName": "Fjord 36 Cruiser",
+    "ManufacturerCode": "FJRD",
+    "CanonicalName": "Fjord 36 Cruiser Enclosed Cruiser",
     "Model": "36 Cruiser",
-    "Variant": "Cruiser",
+    "Variant": "Enclosed Cruiser",
     "Aliases": [
       "FJ-36",
       "Fjord 36",
-      "Fjord 36 Cruiser Cruiser"
+      "Fjord 36 Cruiser Cruiser",
+      "Fjord 36 Cruiser",
+      "36 Cruiser Cruiser"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1848,14 +2064,16 @@
   {
     "BoatModelID": "FJRD-36-OPEN",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "FJORD",
-    "CanonicalName": "Fjord 36 Open",
+    "ManufacturerCode": "FJRD",
+    "CanonicalName": "Fjord 36 Open Walkaround Day Cruiser",
     "Model": "36 Open",
-    "Variant": "Open",
+    "Variant": "Walkaround Day Cruiser",
     "Aliases": [
       "FJ-36-OPEN",
       "Fjord 36",
-      "Fjord 36 Open Open"
+      "Fjord 36 Open Open",
+      "Fjord 36 Open",
+      "36 Open Open"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1864,14 +2082,16 @@
   {
     "BoatModelID": "FJRD-40",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "FJORD",
-    "CanonicalName": "Fjord 40 Cruiser",
+    "ManufacturerCode": "FJRD",
+    "CanonicalName": "Fjord 40 Cruiser Enclosed Cruiser",
     "Model": "40 Cruiser",
-    "Variant": "Cruiser",
+    "Variant": "Enclosed Cruiser",
     "Aliases": [
       "FJ-40",
       "Fjord 40",
-      "Fjord 40 Cruiser Cruiser"
+      "Fjord 40 Cruiser Cruiser",
+      "Fjord 40 Cruiser",
+      "40 Cruiser Cruiser"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1880,14 +2100,16 @@
   {
     "BoatModelID": "FJRD-40-OPEN",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "FJORD",
-    "CanonicalName": "Fjord 40 Open",
+    "ManufacturerCode": "FJRD",
+    "CanonicalName": "Fjord 40 Open Walkaround Day Cruiser",
     "Model": "40 Open",
-    "Variant": "Open",
+    "Variant": "Walkaround Day Cruiser",
     "Aliases": [
       "FJ-40-OPEN",
       "Fjord 40",
-      "Fjord 40 Open Open"
+      "Fjord 40 Open Open",
+      "Fjord 40 Open",
+      "40 Open Open"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -1896,11 +2118,14 @@
   {
     "BoatModelID": "FORT-26",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "FORTIER",
-    "CanonicalName": "Fortier 26",
+    "ManufacturerCode": "FORT",
+    "CanonicalName": "Fortier 26 Bass Boat / Downeast Cruiser",
     "Model": "26",
-    "Variant": "",
-    "Aliases": [],
+    "Variant": "Bass Boat / Downeast Cruiser",
+    "Aliases": [
+      "Fortier 26",
+      "26"
+    ],
     "Active": false,
     "RedirectTo": null,
     "Notes": ""
@@ -1908,14 +2133,16 @@
   {
     "BoatModelID": "FORT-33",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "FORTIER",
-    "CanonicalName": "Fortier 33",
+    "ManufacturerCode": "FORT",
+    "CanonicalName": "Fortier 33 Downeast Cruiser",
     "Model": "33",
-    "Variant": "",
+    "Variant": "Downeast Cruiser",
     "Aliases": [
       "FORT-33-DE",
       "FOR-33-DE",
-      "Fortier 33 Downeast"
+      "Fortier 33 Downeast",
+      "Fortier 33",
+      "33"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1924,14 +2151,16 @@
   {
     "BoatModelID": "GOZZ-40-PI",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GOZZARD",
-    "CanonicalName": "Gozzard Pilgrim 40",
+    "ManufacturerCode": "GOZZ",
+    "CanonicalName": "Gozzard Pilgrim 40 North Castle / Gozzard Motor Yacht",
     "Model": "Pilgrim 40",
-    "Variant": "Motor Yacht",
+    "Variant": "North Castle / Gozzard Motor Yacht",
     "Aliases": [
       "GOZ-40-PI",
       "Gozzard 40 Pilgrim",
-      "Gozzard Pilgrim 40"
+      "Gozzard Pilgrim 40",
+      "Pilgrim 40 Motor Yacht",
+      "Pilgrim 40"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1940,13 +2169,15 @@
   {
     "BoatModelID": "GRBK-32-CL",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GRAND",
-    "CanonicalName": "Grand Banks 32",
+    "ManufacturerCode": "GRBK",
+    "CanonicalName": "Grand Banks 32 Sedan",
     "Model": "32",
-    "Variant": "Classic",
+    "Variant": "Sedan",
     "Aliases": [
       "GB-32-CL",
-      "Grand Banks 32 Classic"
+      "Grand Banks 32 Classic",
+      "Grand Banks 32",
+      "32 Classic"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1955,13 +2186,14 @@
   {
     "BoatModelID": "GRBK-36-CL",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GRAND",
-    "CanonicalName": "Grand Banks 36",
+    "ManufacturerCode": "GRBK",
+    "CanonicalName": "Grand Banks 36 Classic",
     "Model": "36",
     "Variant": "Classic",
     "Aliases": [
       "GB-36-CL",
-      "Grand Banks 36 Classic"
+      "Grand Banks 36",
+      "36 Classic"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1970,13 +2202,14 @@
   {
     "BoatModelID": "GRBK-36-EU",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GRAND",
-    "CanonicalName": "Grand Banks 36",
+    "ManufacturerCode": "GRBK",
+    "CanonicalName": "Grand Banks 36 Europa",
     "Model": "36",
     "Variant": "Europa",
     "Aliases": [
       "GB-36-EU",
-      "Grand Banks 36 Europa"
+      "Grand Banks 36",
+      "36 Europa"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -1985,13 +2218,14 @@
   {
     "BoatModelID": "GRBK-42-CL",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GRAND",
-    "CanonicalName": "Grand Banks 42",
+    "ManufacturerCode": "GRBK",
+    "CanonicalName": "Grand Banks 42 Classic",
     "Model": "42",
     "Variant": "Classic",
     "Aliases": [
       "GB-42-CL",
-      "Grand Banks 42 Classic"
+      "Grand Banks 42",
+      "42 Classic"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2000,13 +2234,14 @@
   {
     "BoatModelID": "GRBK-46-CL",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GRAND",
-    "CanonicalName": "Grand Banks 46",
+    "ManufacturerCode": "GRBK",
+    "CanonicalName": "Grand Banks 46 Classic",
     "Model": "46",
     "Variant": "Classic",
     "Aliases": [
       "GB-46-CL",
-      "Grand Banks 46 Classic"
+      "Grand Banks 46",
+      "46 Classic"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2015,13 +2250,14 @@
   {
     "BoatModelID": "GRBK-49-MY",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GRAND",
-    "CanonicalName": "Grand Banks 49",
+    "ManufacturerCode": "GRBK",
+    "CanonicalName": "Grand Banks 49 Motor Yacht",
     "Model": "49",
     "Variant": "Motor Yacht",
     "Aliases": [
       "GB-49-MY",
-      "Grand Banks 49 Motor Yacht"
+      "Grand Banks 49",
+      "49 Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2030,14 +2266,16 @@
   {
     "BoatModelID": "GRNL-33",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GREENLINE",
-    "CanonicalName": "Greenline 33",
+    "ManufacturerCode": "GRNL",
+    "CanonicalName": "Greenline 33 Diesel / Hybrid / Electric Sedan",
     "Model": "33",
-    "Variant": "",
+    "Variant": "Diesel / Hybrid / Electric Sedan",
     "Aliases": [
       "GRN-33",
       "GRN-33-HY",
-      "Greenline 33 Hybrid"
+      "Greenline 33 Hybrid",
+      "Greenline 33",
+      "33"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2046,12 +2284,14 @@
   {
     "BoatModelID": "GRNL-39",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GREENLINE",
-    "CanonicalName": "Greenline 39",
+    "ManufacturerCode": "GRNL",
+    "CanonicalName": "Greenline 39 Diesel / Hybrid / Electric Sedan",
     "Model": "39",
-    "Variant": "",
+    "Variant": "Diesel / Hybrid / Electric Sedan",
     "Aliases": [
-      "GRN-39"
+      "GRN-39",
+      "Greenline 39",
+      "39"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2060,12 +2300,14 @@
   {
     "BoatModelID": "GRTH-GH37",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GREAT",
-    "CanonicalName": "Great Harbour GH37",
+    "ManufacturerCode": "GRTH",
+    "CanonicalName": "Great Harbour GH37 Raised-Pilothouse Liveaboard Trawler",
     "Model": "GH37",
-    "Variant": "",
+    "Variant": "Raised-Pilothouse Liveaboard Trawler",
     "Aliases": [
-      "GRE-GH37"
+      "GRE-GH37",
+      "Great Harbour GH37",
+      "GH37"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2074,12 +2316,14 @@
   {
     "BoatModelID": "GRTH-N37",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GREAT",
-    "CanonicalName": "Great Harbour N37",
+    "ManufacturerCode": "GRTH",
+    "CanonicalName": "Great Harbour N37 Navigator / Long-Range Trawler",
     "Model": "N37",
-    "Variant": "",
+    "Variant": "Navigator / Long-Range Trawler",
     "Aliases": [
-      "GRE-N37"
+      "GRE-N37",
+      "Great Harbour N37",
+      "N37"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2088,13 +2332,14 @@
   {
     "BoatModelID": "GULF-36-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GULFSTAR",
-    "CanonicalName": "Gulfstar 36 Trawler",
+    "ManufacturerCode": "GULF",
+    "CanonicalName": "Gulfstar 36 Trawler Trawler",
     "Model": "36 Trawler",
     "Variant": "Trawler",
     "Aliases": [
       "GUL-36-TR",
-      "Gulfstar 36 Trawler Trawler"
+      "Gulfstar 36 Trawler",
+      "36 Trawler Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2103,13 +2348,14 @@
   {
     "BoatModelID": "GULF-43-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GULFSTAR",
-    "CanonicalName": "Gulfstar 43 Trawler",
+    "ManufacturerCode": "GULF",
+    "CanonicalName": "Gulfstar 43 Trawler Trawler",
     "Model": "43 Trawler",
     "Variant": "Trawler",
     "Aliases": [
       "GS-43-TR",
-      "Gulfstar 43 Trawler Trawler"
+      "Gulfstar 43 Trawler",
+      "43 Trawler Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2118,13 +2364,14 @@
   {
     "BoatModelID": "GULF-44-MC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GULFSTAR",
-    "CanonicalName": "Gulfstar 44 Motor Cruiser",
+    "ManufacturerCode": "GULF",
+    "CanonicalName": "Gulfstar 44 Motor Cruiser Motor Cruiser",
     "Model": "44 Motor Cruiser",
     "Variant": "Motor Cruiser",
     "Aliases": [
       "GS-44-MC",
-      "Gulfstar 44 Motor Cruiser Motor Cruiser"
+      "Gulfstar 44 Motor Cruiser",
+      "44 Motor Cruiser Motor Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2133,14 +2380,15 @@
   {
     "BoatModelID": "GULF-49-MC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "GULFSTAR",
-    "CanonicalName": "Gulfstar 49 Motor Yacht",
+    "ManufacturerCode": "GULF",
+    "CanonicalName": "Gulfstar 49 Motor Yacht Motor Yacht",
     "Model": "49 Motor Yacht",
     "Variant": "Motor Yacht",
     "Aliases": [
       "GS-49-MC",
       "Gulfstar 49 Motor Cruiser",
-      "Gulfstar 49 Motor Yacht Motor Yacht"
+      "Gulfstar 49 Motor Yacht",
+      "49 Motor Yacht Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2149,14 +2397,16 @@
   {
     "BoatModelID": "HELM-31-CA",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "HELMSMAN",
-    "CanonicalName": "Helmsman 31 Sedan",
+    "ManufacturerCode": "HELM",
+    "CanonicalName": "Helmsman 31 Sedan Sedan",
     "Model": "31 Sedan",
     "Variant": "Sedan",
     "Aliases": [
       "HEL-31-CA",
       "Helmsman 31 Camano",
-      "Helmsman 31 Sedan Camano"
+      "Helmsman 31 Sedan Camano",
+      "Helmsman 31 Sedan",
+      "31 Sedan Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2165,14 +2415,16 @@
   {
     "BoatModelID": "HELM-38E-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "HELMSMAN",
-    "CanonicalName": "Helmsman 38E Pilothouse",
+    "ManufacturerCode": "HELM",
+    "CanonicalName": "Helmsman 38E Pilothouse Pilothouse",
     "Model": "38E Pilothouse",
     "Variant": "Pilothouse",
     "Aliases": [
       "HEL-38E-TR",
       "Helmsman 38E Pilothouse Trawler",
-      "Helmsman 38E Trawler"
+      "Helmsman 38E Trawler",
+      "Helmsman 38E Pilothouse",
+      "38E Pilothouse Pilothouse"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2181,14 +2433,16 @@
   {
     "BoatModelID": "HELM-43-E",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "HELMSMAN",
-    "CanonicalName": "Helmsman 43E Pilothouse",
+    "ManufacturerCode": "HELM",
+    "CanonicalName": "Helmsman 43E Pilothouse Pilothouse",
     "Model": "43E Pilothouse",
     "Variant": "Pilothouse",
     "Aliases": [
       "HLM-43-E",
       "Helmsman 43E",
-      "Helmsman 43E Pilothouse E"
+      "Helmsman 43E Pilothouse E",
+      "Helmsman 43E Pilothouse",
+      "43E Pilothouse Pilothouse"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2197,13 +2451,14 @@
   {
     "BoatModelID": "HELM-46-PH",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "HELMSMAN",
-    "CanonicalName": "Helmsman 46 Pilothouse",
+    "ManufacturerCode": "HELM",
+    "CanonicalName": "Helmsman 46 Pilothouse Pilothouse",
     "Model": "46 Pilothouse",
     "Variant": "Pilothouse",
     "Aliases": [
       "HLM-46-PH",
-      "Helmsman 46 Pilothouse Pilothouse"
+      "Helmsman 46 Pilothouse",
+      "46 Pilothouse Pilothouse"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2212,13 +2467,16 @@
   {
     "BoatModelID": "HLMN-38-CO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "HOLIDAY",
-    "CanonicalName": "Holiday Mansion 38",
-    "Model": "38",
-    "Variant": "Coastal Commander",
+    "ManufacturerCode": "HLMN",
+    "CanonicalName": "Holiday Mansion 38 Barracuda Coastal Coastal Houseboat Cruiser",
+    "Model": "38 Barracuda Coastal",
+    "Variant": "Coastal Houseboat Cruiser",
     "Aliases": [
       "HOL-38-CO",
-      "Holiday Mansion 38 Coastal Commander"
+      "Holiday Mansion 38 Coastal Commander",
+      "Holiday Mansion 38",
+      "38 Coastal Commander",
+      "Holiday Mansion 38 Barracuda Coastal"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2228,12 +2486,14 @@
     "BoatModelID": "HUNT-29",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "HUNT",
-    "CanonicalName": "Hunt Yachts Surfhunter 29",
+    "CanonicalName": "Hunt Yachts Surfhunter 29 Deep-V Express Cruiser",
     "Model": "Surfhunter 29",
-    "Variant": "Surfhunter",
+    "Variant": "Deep-V Express Cruiser",
     "Aliases": [
       "Hunt Surfhunter 29",
-      "Hunt Yachts Surfhunter 29 Surfhunter"
+      "Hunt Yachts Surfhunter 29 Surfhunter",
+      "Hunt Yachts Surfhunter 29",
+      "Surfhunter 29 Surfhunter"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2244,11 +2504,13 @@
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "HUNT",
     "CanonicalName": "Hunt Yachts Surfhunter 36 Coupe",
-    "Model": "Surfhunter 36 Coupe",
-    "Variant": "Surfhunter Coupe",
+    "Model": "Surfhunter 36",
+    "Variant": "Coupe",
     "Aliases": [
       "Hunt Harrier 36",
-      "Hunt Yachts Surfhunter 36 Coupe Surfhunter Coupe"
+      "Hunt Yachts Surfhunter 36 Coupe Surfhunter Coupe",
+      "Surfhunter 36 Coupe Surfhunter Coupe",
+      "Hunt Surfhunter 36 Coupe"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2257,12 +2519,13 @@
   {
     "BoatModelID": "ISGY-32-EU",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ISLANDGYPSY",
-    "CanonicalName": "Island Gypsy 32 Europa",
+    "ManufacturerCode": "ISGY",
+    "CanonicalName": "Island Gypsy 32 Europa Europa",
     "Model": "32 Europa",
     "Variant": "Europa",
     "Aliases": [
-      "Island Gypsy 32 Europa Europa"
+      "Island Gypsy 32 Europa",
+      "32 Europa Europa"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2271,12 +2534,13 @@
   {
     "BoatModelID": "ISGY-32-FI",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ISLANDGYPSY",
-    "CanonicalName": "Island Gypsy 32 Fisherman",
+    "ManufacturerCode": "ISGY",
+    "CanonicalName": "Island Gypsy 32 Fisherman Fisherman",
     "Model": "32 Fisherman",
     "Variant": "Fisherman",
     "Aliases": [
-      "Island Gypsy 32 Fisherman Fisherman"
+      "Island Gypsy 32 Fisherman",
+      "32 Fisherman Fisherman"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2285,16 +2549,17 @@
   {
     "BoatModelID": "ISGY-32-SE",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ISLANDGYPSY",
-    "CanonicalName": "Island Gypsy 32 Sedan",
+    "ManufacturerCode": "ISGY",
+    "CanonicalName": "Island Gypsy 32 Sedan Sedan",
     "Model": "32 Sedan",
     "Variant": "Sedan",
     "Aliases": [
-      "Island Gypsy 32 Sedan Sedan",
       "ISGY-32",
       "ISL-32",
       "Island Gypsy 32 Sedan Trawler",
-      "Island Gypsy 32 Trawler"
+      "Island Gypsy 32 Trawler",
+      "Island Gypsy 32 Sedan",
+      "32 Sedan Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2303,14 +2568,16 @@
   {
     "BoatModelID": "ISGY-36",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ISLAND",
-    "CanonicalName": "Island Gypsy 36 Classic",
+    "ManufacturerCode": "ISGY",
+    "CanonicalName": "Island Gypsy 36 Classic Classic",
     "Model": "36 Classic",
-    "Variant": "Trawler",
+    "Variant": "Classic",
     "Aliases": [
       "ISL-36",
       "Island Gypsy 36 Classic Trawler",
-      "Island Gypsy 36 Trawler"
+      "Island Gypsy 36 Trawler",
+      "Island Gypsy 36 Classic",
+      "36 Classic Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2319,14 +2586,16 @@
   {
     "BoatModelID": "ISGY-36EURO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ISLAND",
-    "CanonicalName": "Island Gypsy 36 Europa",
+    "ManufacturerCode": "ISGY",
+    "CanonicalName": "Island Gypsy 36 Europa Europa",
     "Model": "36 Europa",
-    "Variant": "Euro",
+    "Variant": "Europa",
     "Aliases": [
       "IG-36EURO",
       "Island Gypsy 36 Euro",
-      "Island Gypsy 36 Europa Euro"
+      "Island Gypsy 36 Europa Euro",
+      "Island Gypsy 36 Europa",
+      "36 Europa Euro"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2335,13 +2604,15 @@
   {
     "BoatModelID": "ISGY-40",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ISLAND",
-    "CanonicalName": "Island Gypsy 40 Classic",
+    "ManufacturerCode": "ISGY",
+    "CanonicalName": "Island Gypsy 40 Classic Classic",
     "Model": "40 Classic",
-    "Variant": "",
+    "Variant": "Classic",
     "Aliases": [
       "ISL-40",
-      "Island Gypsy 40"
+      "Island Gypsy 40",
+      "Island Gypsy 40 Classic",
+      "40 Classic"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2350,13 +2621,15 @@
   {
     "BoatModelID": "ISGY-44",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ISLAND",
-    "CanonicalName": "Island Gypsy 44 Motor Cruiser",
+    "ManufacturerCode": "ISGY",
+    "CanonicalName": "Island Gypsy 44 Motor Cruiser Motor Cruiser",
     "Model": "44 Motor Cruiser",
-    "Variant": "",
+    "Variant": "Motor Cruiser",
     "Aliases": [
       "ISL-44",
-      "Island Gypsy 44"
+      "Island Gypsy 44",
+      "Island Gypsy 44 Motor Cruiser",
+      "44 Motor Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2366,7 +2639,7 @@
     "BoatModelID": "JEAU-1095",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "JEAU",
-    "CanonicalName": "Jeanneau Merry Fisher 1095 Coupé",
+    "CanonicalName": "Jeanneau Merry Fisher 1095 Coupé Coupé",
     "Model": "Merry Fisher 1095 Coupé",
     "Variant": "Coupé",
     "Aliases": [
@@ -2375,8 +2648,9 @@
       "Jeanneau 1095",
       "Jeanneau Merry Fisher 1095",
       "Jeanneau Merry Fisher 1095 Coupé / NC 1095",
-      "Jeanneau Merry Fisher 1095 Coupé Coupé",
-      "Jeanneau NC1095"
+      "Jeanneau NC1095",
+      "Jeanneau Merry Fisher 1095 Coupé",
+      "Merry Fisher 1095 Coupé Coupé"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2386,15 +2660,16 @@
     "BoatModelID": "JEAU-1095-FLY",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "JEAU",
-    "CanonicalName": "Jeanneau Merry Fisher 1095 Fly",
+    "CanonicalName": "Jeanneau Merry Fisher 1095 Fly Flybridge",
     "Model": "Merry Fisher 1095 Fly",
     "Variant": "Flybridge",
     "Aliases": [
       "JEA-1095-FLY",
       "Jeanneau 1095",
       "Jeanneau Merry Fisher 1095 Fly / NC 1095 Fly",
-      "Jeanneau Merry Fisher 1095 Fly Flybridge",
-      "Jeanneau NC1095 Fly"
+      "Jeanneau NC1095 Fly",
+      "Jeanneau Merry Fisher 1095 Fly",
+      "Merry Fisher 1095 Fly Flybridge"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2404,13 +2679,14 @@
     "BoatModelID": "JEAU-605",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "JEAU",
-    "CanonicalName": "Jeanneau Merry Fisher 605",
+    "CanonicalName": "Jeanneau Merry Fisher 605 Pilothouse Outboard",
     "Model": "Merry Fisher 605",
     "Variant": "Pilothouse Outboard",
     "Aliases": [
       "JEA-605",
       "Jeanneau 605",
-      "Jeanneau Merry Fisher 605 Pilothouse Outboard"
+      "Jeanneau Merry Fisher 605",
+      "Merry Fisher 605 Pilothouse Outboard"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2420,13 +2696,14 @@
     "BoatModelID": "JEAU-635",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "JEAU",
-    "CanonicalName": "Jeanneau Merry Fisher 635",
+    "CanonicalName": "Jeanneau Merry Fisher 635 Pilothouse",
     "Model": "Merry Fisher 635",
     "Variant": "Pilothouse",
     "Aliases": [
       "JEA-635",
       "Jeanneau 635",
-      "Jeanneau Merry Fisher 635 Pilothouse"
+      "Jeanneau Merry Fisher 635",
+      "Merry Fisher 635 Pilothouse"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2436,14 +2713,16 @@
     "BoatModelID": "JEAU-695",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "JEAU",
-    "CanonicalName": "Jeanneau Merry Fisher 695",
+    "CanonicalName": "Jeanneau Merry Fisher 695 Series 1 / Series 2",
     "Model": "Merry Fisher 695",
-    "Variant": "Pilothouse Outboard",
+    "Variant": "Series 1 / Series 2",
     "Aliases": [
       "JEA-695",
       "Jeanneau 695",
       "Jeanneau Merry Fisher 695 Pilothouse Outboard",
-      "Jeanneau NC695"
+      "Jeanneau NC695",
+      "Jeanneau Merry Fisher 695",
+      "Merry Fisher 695 Pilothouse Outboard"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2453,9 +2732,9 @@
     "BoatModelID": "JEAU-795",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "JEAU",
-    "CanonicalName": "Jeanneau Merry Fisher 795",
+    "CanonicalName": "Jeanneau Merry Fisher 795 Series 1 / Series 2",
     "Model": "Merry Fisher 795",
-    "Variant": "Pilothouse Outboard",
+    "Variant": "Series 1 / Series 2",
     "Aliases": [
       "JEA-795",
       "Jeanneau 795",
@@ -2463,7 +2742,10 @@
       "Jeanneau NC 795",
       "Jeanneau NC795",
       "MF 795",
-      "Merry Fisher 795"
+      "Merry Fisher 795",
+      "Jeanneau Merry Fisher 795",
+      "Merry Fisher 795 Pilothouse Outboard",
+      "Jeanneau Merry Fisher 795 / NC 795"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2473,13 +2755,15 @@
     "BoatModelID": "JEAU-855",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "JEAU",
-    "CanonicalName": "Jeanneau Merry Fisher 855",
+    "CanonicalName": "Jeanneau Merry Fisher 855 Twin-Outboard Weekender",
     "Model": "Merry Fisher 855",
-    "Variant": "Pilothouse Outboard",
+    "Variant": "Twin-Outboard Weekender",
     "Aliases": [
       "JEA-855",
       "Jeanneau 855",
-      "Jeanneau Merry Fisher 855 Pilothouse Outboard"
+      "Jeanneau Merry Fisher 855 Pilothouse Outboard",
+      "Jeanneau Merry Fisher 855",
+      "Merry Fisher 855 Pilothouse Outboard"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2489,16 +2773,18 @@
     "BoatModelID": "JEAU-895",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "JEAU",
-    "CanonicalName": "Jeanneau Merry Fisher 895",
+    "CanonicalName": "Jeanneau Merry Fisher 895 Series 1 / Series 2",
     "Model": "Merry Fisher 895",
-    "Variant": "Pilothouse Outboard",
+    "Variant": "Series 1 / Series 2",
     "Aliases": [
       "JEA-895",
       "JEA-NC895",
       "Jeanneau 895",
       "Jeanneau Merry Fisher 895 / NC 895",
       "Jeanneau Merry Fisher 895 Pilothouse Outboard",
-      "Jeanneau NC895"
+      "Jeanneau NC895",
+      "Jeanneau Merry Fisher 895",
+      "Merry Fisher 895 Pilothouse Outboard"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2508,14 +2794,16 @@
     "BoatModelID": "JEAU-895-SP",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "JEAU",
-    "CanonicalName": "Jeanneau Merry Fisher 895 Sport",
+    "CanonicalName": "Jeanneau Merry Fisher 895 Sport Walkaround Sport Pilothouse",
     "Model": "Merry Fisher 895 Sport",
-    "Variant": "Sport Pilothouse",
+    "Variant": "Walkaround Sport Pilothouse",
     "Aliases": [
       "JEA-895-SP",
       "Jeanneau 895",
       "Jeanneau Merry Fisher 895 Sport Sport Pilothouse",
-      "Jeanneau NC895 Sport"
+      "Jeanneau NC895 Sport",
+      "Jeanneau Merry Fisher 895 Sport",
+      "Merry Fisher 895 Sport Sport Pilothouse"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2524,14 +2812,15 @@
   {
     "BoatModelID": "KDKR-36-MA",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "KROGEN",
-    "CanonicalName": "Kadey-Krogen 36 Manatee",
+    "ManufacturerCode": "KDKR",
+    "CanonicalName": "Kadey-Krogen 36 Manatee Manatee",
     "Model": "36 Manatee",
     "Variant": "Manatee",
     "Aliases": [
       "KRO-36-MA",
-      "Kadey-Krogen 36 Manatee Manatee",
-      "Krogen 36 Manatee"
+      "Krogen 36 Manatee",
+      "Kadey-Krogen 36 Manatee",
+      "36 Manatee Manatee"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2540,13 +2829,14 @@
   {
     "BoatModelID": "KDKR-39",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "KROGEN",
+    "ManufacturerCode": "KDKR",
     "CanonicalName": "Kadey-Krogen 39",
     "Model": "39",
     "Variant": "",
     "Aliases": [
       "KRO-39",
-      "Krogen 39"
+      "Krogen 39",
+      "39"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2555,12 +2845,13 @@
   {
     "BoatModelID": "KDKR-42",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "KROGEN",
+    "ManufacturerCode": "KDKR",
     "CanonicalName": "Kadey-Krogen 42",
     "Model": "42",
     "Variant": "",
     "Aliases": [
-      "Krogen 42"
+      "Krogen 42",
+      "42"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2569,13 +2860,29 @@
   {
     "BoatModelID": "KDKR-44",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "KROGEN",
-    "CanonicalName": "Kadey-Krogen 44",
+    "ManufacturerCode": "KDKR",
+    "CanonicalName": "Kadey-Krogen 44 Trawler",
     "Model": "44",
-    "Variant": "AE",
+    "Variant": "Trawler",
     "Aliases": [
       "Kadey-Krogen 44 AE",
       "Krogen 44",
+      "Krogen 44 AE",
+      "Kadey-Krogen 44",
+      "44 AE"
+    ],
+    "Active": true,
+    "RedirectTo": null,
+    "Notes": ""
+  },
+  {
+    "BoatModelID": "KDKR-44-AE",
+    "IdentityStatus": "ActiveV7",
+    "ManufacturerCode": "KDKR",
+    "CanonicalName": "Kadey-Krogen 44 AE Advanced Ergonomics",
+    "Model": "44 AE",
+    "Variant": "Advanced Ergonomics",
+    "Aliases": [
       "Krogen 44 AE"
     ],
     "Active": true,
@@ -2585,13 +2892,14 @@
   {
     "BoatModelID": "KDKR-48-NS",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "KROGEN",
-    "CanonicalName": "Kadey-Krogen 48 North Sea",
+    "ManufacturerCode": "KDKR",
+    "CanonicalName": "Kadey-Krogen 48 North Sea North Sea",
     "Model": "48 North Sea",
     "Variant": "North Sea",
     "Aliases": [
-      "Kadey-Krogen 48 North Sea North Sea",
-      "Krogen 48 North Sea"
+      "Krogen 48 North Sea",
+      "Kadey-Krogen 48 North Sea",
+      "48 North Sea North Sea"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2600,14 +2908,16 @@
   {
     "BoatModelID": "LUHR-30",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "LUHRS",
-    "CanonicalName": "Luhrs 30",
-    "Model": "30",
-    "Variant": "Alura",
+    "ManufacturerCode": "LUHR",
+    "CanonicalName": "Luhrs 30 Alura Downeast-Profile Fishing Cruiser",
+    "Model": "30 Alura",
+    "Variant": "Downeast-Profile Fishing Cruiser",
     "Aliases": [
       "LUH-30",
       "Luhrs 30 Alura",
-      "Luhrs Alura 30"
+      "Luhrs Alura 30",
+      "Luhrs 30",
+      "30 Alura"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2616,12 +2926,28 @@
   {
     "BoatModelID": "MERI-341-SE",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MERIDIAN",
-    "CanonicalName": "Meridian 341",
-    "Model": "341",
-    "Variant": "Sedan",
+    "ManufacturerCode": "MERI",
+    "CanonicalName": "Meridian 341 Sedan Flybridge Sedan",
+    "Model": "341 Sedan",
+    "Variant": "Flybridge Sedan",
     "Aliases": [
       "MER-341-SE",
+      "Meridian 341 Sedan",
+      "Meridian 341",
+      "341 Sedan"
+    ],
+    "Active": false,
+    "RedirectTo": null,
+    "Notes": ""
+  },
+  {
+    "BoatModelID": "MERI-341-SE-03",
+    "IdentityStatus": "ActiveV7",
+    "ManufacturerCode": "MERI",
+    "CanonicalName": "Meridian 341 Sedan Original Generation / Bayliner 3488 lineage",
+    "Model": "341 Sedan",
+    "Variant": "Original Generation / Bayliner 3488 lineage",
+    "Aliases": [
       "Meridian 341 Sedan"
     ],
     "Active": false,
@@ -2631,13 +2957,15 @@
   {
     "BoatModelID": "MERI-381-SE",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MERIDIAN",
-    "CanonicalName": "Meridian 381",
-    "Model": "381",
-    "Variant": "Sedan",
+    "ManufacturerCode": "MERI",
+    "CanonicalName": "Meridian 381 Sedan Flybridge Sedan",
+    "Model": "381 Sedan",
+    "Variant": "Flybridge Sedan",
     "Aliases": [
       "MER-381-SE",
-      "Meridian 381 Sedan"
+      "Meridian 381 Sedan",
+      "Meridian 381",
+      "381 Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2646,14 +2974,15 @@
   {
     "BoatModelID": "MNSH-30-PI",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MAINSHIP",
-    "CanonicalName": "Mainship 30",
+    "ManufacturerCode": "MNSH",
+    "CanonicalName": "Mainship 30 Pilot",
     "Model": "30",
-    "Variant": "Pilot Express",
+    "Variant": "Pilot",
     "Aliases": [
       "MAI-30-PI",
-      "Mainship 30 Pilot",
-      "Mainship 30 Pilot Express"
+      "Mainship 30 Pilot Express",
+      "Mainship 30",
+      "30 Pilot Express"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2662,15 +2991,18 @@
   {
     "BoatModelID": "MNSH-34-MK1",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MAINSHIP",
-    "CanonicalName": "Mainship 34",
+    "ManufacturerCode": "MNSH",
+    "CanonicalName": "Mainship 34 Diesel Cruiser",
     "Model": "34",
-    "Variant": "MK I",
+    "Variant": "Diesel Cruiser",
     "Aliases": [
       "MAI-34-MK1",
       "MAI-34-TR",
       "Mainship 34 MK I",
-      "Mainship 34 Mk I Motor Cruiser"
+      "Mainship 34 Mk I Motor Cruiser",
+      "Mainship 34",
+      "34 MK I",
+      "Mainship 34 MKI"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2679,14 +3011,44 @@
   {
     "BoatModelID": "MNSH-34-MK2",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MAINSHIP",
-    "CanonicalName": "Mainship 34",
+    "ManufacturerCode": "MNSH",
+    "CanonicalName": "Mainship 34 II",
     "Model": "34",
-    "Variant": "34 II",
+    "Variant": "II",
     "Aliases": [
       "MAI-34-MK2",
       "Mainship 34 34 II",
-      "Mainship 34 II"
+      "Mainship 34",
+      "34 34 II",
+      "Mainship 34 MKII"
+    ],
+    "Active": true,
+    "RedirectTo": null,
+    "Notes": ""
+  },
+  {
+    "BoatModelID": "MNSH-34-MK3",
+    "IdentityStatus": "ActiveV7",
+    "ManufacturerCode": "MNSH",
+    "CanonicalName": "Mainship 34 III",
+    "Model": "34",
+    "Variant": "III",
+    "Aliases": [
+      "Mainship 34 MKIII"
+    ],
+    "Active": true,
+    "RedirectTo": null,
+    "Notes": ""
+  },
+  {
+    "BoatModelID": "MNSH-34-TR",
+    "IdentityStatus": "ActiveV7",
+    "ManufacturerCode": "MNSH",
+    "CanonicalName": "Mainship 34 Trawler",
+    "Model": "34",
+    "Variant": "Trawler",
+    "Aliases": [
+      "Mainship 34T"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2695,14 +3057,15 @@
   {
     "BoatModelID": "MNSH-350-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MAINSHIP",
-    "CanonicalName": "Mainship 350",
+    "ManufacturerCode": "MNSH",
+    "CanonicalName": "Mainship 350 Trawler",
     "Model": "350",
-    "Variant": "Trawler — early 350 designation",
+    "Variant": "Trawler",
     "Aliases": [
       "MAI-350-TR",
-      "Mainship 350 Trawler",
-      "Mainship 350 Trawler — early 350 designation"
+      "Mainship 350 Trawler — early 350 designation",
+      "Mainship 350",
+      "350 Trawler — early 350 designation"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2711,14 +3074,15 @@
   {
     "BoatModelID": "MNSH-390-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MAINSHIP",
-    "CanonicalName": "Mainship 390",
+    "ManufacturerCode": "MNSH",
+    "CanonicalName": "Mainship 390 Trawler",
     "Model": "390",
-    "Variant": "Trawler — renamed 350 family",
+    "Variant": "Trawler",
     "Aliases": [
       "MAI-390-TR",
-      "Mainship 390 Trawler",
-      "Mainship 390 Trawler — renamed 350 family"
+      "Mainship 390 Trawler — renamed 350 family",
+      "Mainship 390",
+      "390 Trawler — renamed 350 family"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2727,14 +3091,15 @@
   {
     "BoatModelID": "MNSH-400-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MAINSHIP",
-    "CanonicalName": "Mainship 400",
+    "ManufacturerCode": "MNSH",
+    "CanonicalName": "Mainship 400 Trawler",
     "Model": "400",
-    "Variant": "Trawler / 41 Expedition / 414 Trawler",
+    "Variant": "Trawler",
     "Aliases": [
       "MAI-400-TR",
-      "Mainship 400 Trawler",
-      "Mainship 400 Trawler / 41 Expedition / 414 Trawler"
+      "Mainship 400 Trawler / 41 Expedition / 414 Trawler",
+      "Mainship 400",
+      "400 Trawler / 41 Expedition / 414 Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2745,13 +3110,14 @@
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "MONK",
     "CanonicalName": "Monk 36 Trawler",
-    "Model": "36 Trawler",
+    "Model": "36",
     "Variant": "Trawler",
     "Aliases": [
       "MON-36-TR",
       "Monk 36",
       "Monk 36 Trawler Trawler",
-      "North Sea Yachts Monk 36"
+      "North Sea Yachts Monk 36",
+      "36 Trawler Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2760,13 +3126,14 @@
   {
     "BoatModelID": "MRTR-36-DO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MARINE",
+    "ManufacturerCode": "MTRA",
     "CanonicalName": "Marine Trader 36 Double Cabin",
-    "Model": "36 Double Cabin",
+    "Model": "36",
     "Variant": "Double Cabin",
     "Aliases": [
       "MAR-36-DO",
-      "Marine Trader 36 Double Cabin Double Cabin"
+      "Marine Trader 36 Double Cabin Double Cabin",
+      "36 Double Cabin Double Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2775,14 +3142,15 @@
   {
     "BoatModelID": "MRTR-38-SD",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MARINETRADER",
+    "ManufacturerCode": "MTRA",
     "CanonicalName": "Marine Trader 38 Double Cabin",
-    "Model": "38 Double Cabin",
+    "Model": "38",
     "Variant": "Double Cabin",
     "Aliases": [
       "MT-38-SD",
       "Marine Trader 38 Double Cabin Sundeck",
-      "Marine Trader 38 Sundeck"
+      "Marine Trader 38 Sundeck",
+      "38 Double Cabin Double Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2791,13 +3159,14 @@
   {
     "BoatModelID": "MRTR-38-SD2",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MARINETRADER",
+    "ManufacturerCode": "MTRA",
     "CanonicalName": "Marine Trader 38 Sundeck",
-    "Model": "38 Sundeck",
+    "Model": "38",
     "Variant": "Sundeck",
     "Aliases": [
       "MT-38-SD2",
-      "Marine Trader 38 Sundeck Sundeck"
+      "Marine Trader 38 Sundeck Sundeck",
+      "38 Sundeck Sundeck"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2806,13 +3175,14 @@
   {
     "BoatModelID": "MRTR-40-DC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MARINETRADER",
+    "ManufacturerCode": "MTRA",
     "CanonicalName": "Marine Trader 40 Double Cabin",
-    "Model": "40 Double Cabin",
+    "Model": "40",
     "Variant": "Double Cabin",
     "Aliases": [
       "MT-40-DC",
-      "Marine Trader 40 Double Cabin Double Cabin"
+      "Marine Trader 40 Double Cabin Double Cabin",
+      "40 Double Cabin Double Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2821,14 +3191,15 @@
   {
     "BoatModelID": "MRTR-44-TC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MARINETRADER",
-    "CanonicalName": "Marine Trader 44 Tri Cabin",
-    "Model": "44 Tri Cabin",
+    "ManufacturerCode": "MTRA",
+    "CanonicalName": "Marine Trader 44 Tri-Cabin",
+    "Model": "44",
     "Variant": "Tri-Cabin",
     "Aliases": [
       "MT-44-TC",
       "Marine Trader 44 Tri Cabin Tri-Cabin",
-      "Marine Trader 44 Tri-Cabin"
+      "Marine Trader 44 Tri Cabin",
+      "44 Tri Cabin Tri-Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2837,13 +3208,14 @@
   {
     "BoatModelID": "MTRA-34-EU",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MARINETRADER",
-    "CanonicalName": "Marine Trader 34",
+    "ManufacturerCode": "MTRA",
+    "CanonicalName": "Marine Trader 34 Europa",
     "Model": "34",
     "Variant": "Europa",
     "Aliases": [
-      "Marine Trader 34 Europa",
-      "Marine Trader 34 Europa Sedan"
+      "Marine Trader 34 Europa Sedan",
+      "Marine Trader 34",
+      "34 Europa"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2852,14 +3224,15 @@
   {
     "BoatModelID": "MTRA-34-SE",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "MARINETRADER",
-    "CanonicalName": "Marine Trader 34",
+    "ManufacturerCode": "MTRA",
+    "CanonicalName": "Marine Trader 34 Sedan",
     "Model": "34",
     "Variant": "Sedan",
     "Aliases": [
       "Marine Trader 34 Classic",
-      "Marine Trader 34 Sedan",
-      "Marine Trader 34 Trawler"
+      "Marine Trader 34 Trawler",
+      "Marine Trader 34",
+      "34 Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2868,13 +3241,15 @@
   {
     "BoatModelID": "NDST-31P",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "NORD_STAR",
-    "CanonicalName": "Nord Star 31+",
+    "ManufacturerCode": "NDST",
+    "CanonicalName": "Nord Star 31+ All-Weather Pilothouse",
     "Model": "31+",
-    "Variant": "",
+    "Variant": "All-Weather Pilothouse",
     "Aliases": [
       "NDS-31P",
-      "Nord Star 31+ Patrol"
+      "Nord Star 31+ Patrol",
+      "Nord Star 31+",
+      "31+"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -2892,7 +3267,9 @@
       "NDTG-26-PH",
       "NOR-26-PH",
       "Nordic Tug 26 Pilothouse",
-      "Nordic Tugs 26 Pilothouse"
+      "Nordic Tugs 26 Pilothouse",
+      "26",
+      "Nordic Tug 26"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2911,7 +3288,8 @@
       "NDTG-32-PH",
       "NOR-32-PH",
       "Nordic Tug 32 Pilothouse",
-      "Nordic Tugs 32 Pilothouse"
+      "Nordic Tugs 32 Pilothouse",
+      "32"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2926,7 +3304,8 @@
     "Variant": "",
     "Aliases": [
       "NOR-34",
-      "Nordic Tug 34"
+      "Nordic Tug 34",
+      "34"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2945,7 +3324,8 @@
       "NDTG-37-PH",
       "NOR-37-PH",
       "Nordic Tug 37 Pilothouse",
-      "Nordic Tugs 37 Pilothouse"
+      "Nordic Tugs 37 Pilothouse",
+      "37"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2960,7 +3340,8 @@
     "Variant": "",
     "Aliases": [
       "NOR-39",
-      "Nordic Tug 39"
+      "Nordic Tug 39",
+      "39"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2970,7 +3351,7 @@
     "BoatModelID": "NDTG-42",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "NORDIC",
-    "CanonicalName": "Nordic Tug 42",
+    "CanonicalName": "Nordic Tugs 42",
     "Model": "42",
     "Variant": "",
     "Aliases": [
@@ -2978,7 +3359,8 @@
       "Nordic Tug 42 Pilothouse",
       "Nordic Tugs 42 Pilothouse",
       "NDTG-42-PH",
-      "Nordic Tugs 42"
+      "Nordic Tug 42",
+      "42"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -2987,14 +3369,16 @@
   {
     "BoatModelID": "NMBL-24-NO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "NIMBLE",
-    "CanonicalName": "Nimble Nomad",
+    "ManufacturerCode": "NMBL",
+    "CanonicalName": "Nimble Nomad Pocket Trawler",
     "Model": "Nomad",
-    "Variant": "24 Pocket Trawler",
+    "Variant": "Pocket Trawler",
     "Aliases": [
       "NIM-24-NO",
       "Nimble 24 Nomad Pilothouse",
-      "Nimble Nomad 24 Pocket Trawler"
+      "Nimble Nomad 24 Pocket Trawler",
+      "Nimble Nomad",
+      "Nomad 24 Pocket Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3003,14 +3387,16 @@
   {
     "BoatModelID": "NMBL-32-WA",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "NIMBLE",
-    "CanonicalName": "Nimble Wanderer",
+    "ManufacturerCode": "NMBL",
+    "CanonicalName": "Nimble Wanderer Power Cruiser / Optional Motorsailer",
     "Model": "Wanderer",
-    "Variant": "32 Pilothouse / Motorsailer",
+    "Variant": "Power Cruiser / Optional Motorsailer",
     "Aliases": [
       "NIM-32-WA",
       "Nimble 32 Wanderer Pilothouse",
-      "Nimble Wanderer 32 Pilothouse / Motorsailer"
+      "Nimble Wanderer 32 Pilothouse / Motorsailer",
+      "Nimble Wanderer",
+      "Wanderer 32 Pilothouse / Motorsailer"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3020,12 +3406,14 @@
     "BoatModelID": "NMBS-3003",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "NMBS",
-    "CanonicalName": "Nimbus 3003",
+    "CanonicalName": "Nimbus 3003 Aft-Cabin Coupé",
     "Model": "3003",
-    "Variant": "Aft Cabin Coupe",
+    "Variant": "Aft-Cabin Coupé",
     "Aliases": [
       "NIM-3003",
-      "Nimbus 3003 Aft Cabin Coupe"
+      "Nimbus 3003 Aft Cabin Coupe",
+      "Nimbus 3003",
+      "3003 Aft Cabin Coupe"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3034,15 +3422,17 @@
   {
     "BoatModelID": "NMBS-365-CO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "NIMBUS",
-    "CanonicalName": "Nimbus 365 Coupé",
+    "ManufacturerCode": "NMBS",
+    "CanonicalName": "Nimbus 365 Coupé Sidewalk Coupé Cruiser",
     "Model": "365 Coupé",
-    "Variant": "Coupé",
+    "Variant": "Sidewalk Coupé Cruiser",
     "Aliases": [
       "NIM-365-CO",
       "Nimbus 365",
       "Nimbus 365 Coupe",
-      "Nimbus 365 Coupé Coupé"
+      "Nimbus 365 Coupé Coupé",
+      "Nimbus 365 Coupé",
+      "365 Coupé Coupé"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3051,13 +3441,15 @@
   {
     "BoatModelID": "NPAC-28",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "NORTH",
-    "CanonicalName": "North Pacific 28 Pilothouse",
+    "ManufacturerCode": "NPAC",
+    "CanonicalName": "North Pacific 28 Pilothouse Pilothouse",
     "Model": "28 Pilothouse",
-    "Variant": "",
+    "Variant": "Pilothouse",
     "Aliases": [
       "NORP-28",
-      "North Pacific 28"
+      "North Pacific 28",
+      "North Pacific 28 Pilothouse",
+      "28 Pilothouse"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3066,13 +3458,15 @@
   {
     "BoatModelID": "NPAC-38",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "NORTH",
-    "CanonicalName": "North Pacific 38 Sedan",
+    "ManufacturerCode": "NPAC",
+    "CanonicalName": "North Pacific 38 Sedan Europa Sedan",
     "Model": "38 Sedan",
-    "Variant": "",
+    "Variant": "Europa Sedan",
     "Aliases": [
       "NORP-38",
-      "North Pacific 38"
+      "North Pacific 38",
+      "North Pacific 38 Sedan",
+      "38 Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3081,43 +3475,49 @@
   {
     "BoatModelID": "NRDH-40",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "NORDHAVN",
-    "CanonicalName": "Nordhavn 40",
+    "ManufacturerCode": "NRDH",
+    "CanonicalName": "Nordhavn 40 Ocean Passagemaker",
     "Model": "40",
-    "Variant": "",
+    "Variant": "Ocean Passagemaker",
     "Aliases": [
       "NOR-40",
-      "Nordhavn 40"
+      "Nordhavn 40",
+      "40"
     ],
     "Active": false,
     "RedirectTo": null,
     "Notes": "Phase 8C-17 specialist model identity normalized."
   },
   {
-    "BoatModelID": "OCEA-36-SE",
+    "BoatModelID": "OCAL-39-SE",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "OCEAN",
-    "CanonicalName": "Ocean Alexander 36 Sedan",
-    "Model": "36 Sedan",
-    "Variant": "Sedan",
+    "ManufacturerCode": "OCAL",
+    "CanonicalName": "Ocean Alexander 39 Sedan Flybridge Sedan",
+    "Model": "39 Sedan",
+    "Variant": "Flybridge Sedan",
     "Aliases": [
-      "OCE-36-SE",
-      "Ocean Alexander 36 Sedan Sedan"
+      "OCE-39-SE",
+      "Ocean Alexander 39 Sedan Sedan",
+      "Ocean Alexander 39 Sedan",
+      "39 Sedan Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
     "Notes": ""
   },
   {
-    "BoatModelID": "OCAL-39-SE",
+    "BoatModelID": "OCEA-36-SE",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "OCEAN",
-    "CanonicalName": "Ocean Alexander 39 Sedan",
-    "Model": "39 Sedan",
-    "Variant": "Sedan",
+    "CanonicalName": "Oceania Yachts 36 Sedan Sedan Trawler",
+    "Model": "36 Sedan",
+    "Variant": "Sedan Trawler",
     "Aliases": [
-      "OCE-39-SE",
-      "Ocean Alexander 39 Sedan Sedan"
+      "OCE-36-SE",
+      "Ocean Alexander 36 Sedan Sedan",
+      "Ocean Alexander 36 Sedan",
+      "36 Sedan Sedan",
+      "Oceania 36 Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3126,15 +3526,17 @@
   {
     "BoatModelID": "PDQB-34-PA",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "PDQ",
-    "CanonicalName": "PDQ 34 PowerCat",
-    "Model": "34",
-    "Variant": "PowerCat / Passagemaker",
+    "ManufacturerCode": "PDQB",
+    "CanonicalName": "PDQ 34 PowerCat Power Catamaran",
+    "Model": "34 PowerCat",
+    "Variant": "Power Catamaran",
     "Aliases": [
       "PDQ 34 Passagemaker",
       "PDQ-34-PA",
       "PDQ 34",
-      "PDQ 34 PowerCat"
+      "PDQ 34 PowerCat",
+      "34 PowerCat / Passagemaker",
+      "PDQ 34 PowerCat / Passagemaker"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3143,13 +3545,16 @@
   {
     "BoatModelID": "PRAI-29-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "PRAIRIE",
-    "CanonicalName": "Prairie 29 Trawler",
-    "Model": "29 Trawler",
-    "Variant": "Trawler",
+    "ManufacturerCode": "PRAI",
+    "CanonicalName": "Prairie 29 Coastal Cruiser Coastal Cruiser",
+    "Model": "29 Coastal Cruiser",
+    "Variant": "Coastal Cruiser",
     "Aliases": [
       "PRA-29-TR",
-      "Prairie 29 Trawler Trawler"
+      "Prairie 29 Trawler Trawler",
+      "Prairie 29 Trawler",
+      "29 Trawler Trawler",
+      "Prairie 29 Coastal Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3158,14 +3563,16 @@
   {
     "BoatModelID": "PRAI-36-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "PRAIRIE",
-    "CanonicalName": "Prairie 36 Coastal Cruiser",
+    "ManufacturerCode": "PRAI",
+    "CanonicalName": "Prairie 36 Coastal Cruiser Double Cabin",
     "Model": "36 Coastal Cruiser",
-    "Variant": "Trawler",
+    "Variant": "Double Cabin",
     "Aliases": [
       "PRA-36-TR",
       "Prairie 36 Coastal Cruiser Trawler",
-      "Prairie 36 Trawler"
+      "Prairie 36 Trawler",
+      "Prairie 36 Coastal Cruiser",
+      "36 Coastal Cruiser Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3174,14 +3581,15 @@
   {
     "BoatModelID": "RNGR-21-CLASSIC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-21",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-21 Classic diesel",
     "Model": "R-21",
     "Variant": "Classic diesel",
     "Aliases": [
       "RAN-21-CLASSIC",
       "Ranger Tug R-21 Classic",
-      "Ranger Tugs R-21 Classic diesel"
+      "Ranger Tugs R-21",
+      "R-21 Classic diesel"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3190,14 +3598,15 @@
   {
     "BoatModelID": "RNGR-21-EC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-21",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-21 EC diesel",
     "Model": "R-21",
     "Variant": "EC diesel",
     "Aliases": [
       "RAN-21-EC",
       "Ranger Tug R-21 EC",
-      "Ranger Tugs R-21 EC diesel"
+      "Ranger Tugs R-21",
+      "R-21 EC diesel"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3206,14 +3615,15 @@
   {
     "BoatModelID": "RNGR-25-CLASSIC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-25",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-25 Classic diesel",
     "Model": "R-25",
     "Variant": "Classic diesel",
     "Aliases": [
       "RAN-25-CLASSIC",
       "Ranger Tug R-25 Classic",
-      "Ranger Tugs R-25 Classic diesel"
+      "Ranger Tugs R-25",
+      "R-25 Classic diesel"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3222,14 +3632,15 @@
   {
     "BoatModelID": "RNGR-25-SC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-25",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-25 SC diesel",
     "Model": "R-25",
     "Variant": "SC diesel",
     "Aliases": [
       "RAN-25-SC",
       "Ranger Tug R-25 SC",
-      "Ranger Tugs R-25 SC diesel"
+      "Ranger Tugs R-25",
+      "R-25 SC diesel"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3238,14 +3649,15 @@
   {
     "BoatModelID": "RNGR-27-OB",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-27",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-27 Single-outboard NW/LE",
     "Model": "R-27",
     "Variant": "Single-outboard NW/LE",
     "Aliases": [
       "RAN-27-OB",
       "Ranger Tugs R-27 NW/LE",
-      "Ranger Tugs R-27 Single-outboard NW/LE"
+      "Ranger Tugs R-27",
+      "R-27 Single-outboard NW/LE"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3254,14 +3666,15 @@
   {
     "BoatModelID": "RNGR-27-RT",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-27",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-27 Classic diesel",
     "Model": "R-27",
     "Variant": "Classic diesel",
     "Aliases": [
       "RAN-27-RT",
       "Ranger Tug R-27 Classic",
-      "Ranger Tugs R-27 Classic diesel"
+      "Ranger Tugs R-27",
+      "R-27 Classic diesel"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3270,13 +3683,16 @@
   {
     "BoatModelID": "RNGR-29-CB",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-29",
-    "Model": "R-29",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-29 CB Command Bridge",
+    "Model": "R-29 CB",
     "Variant": "Command Bridge",
     "Aliases": [
       "RAN-29-CB",
-      "Ranger Tugs R-29 Command Bridge"
+      "Ranger Tugs R-29 Command Bridge",
+      "Ranger Tugs R-29",
+      "R-29 Command Bridge",
+      "Ranger Tugs R-29 CB"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3285,14 +3701,15 @@
   {
     "BoatModelID": "RNGR-29-CLASSIC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-29",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-29 Classic diesel",
     "Model": "R-29",
     "Variant": "Classic diesel",
     "Aliases": [
       "RAN-29-CLASSIC",
       "Ranger Tug R-29 Classic",
-      "Ranger Tugs R-29 Classic diesel"
+      "Ranger Tugs R-29",
+      "R-29 Classic diesel"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3301,13 +3718,16 @@
   {
     "BoatModelID": "RNGR-31-CB",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-31",
-    "Model": "R-31",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-31 CB Command Bridge",
+    "Model": "R-31 CB",
     "Variant": "Command Bridge",
     "Aliases": [
       "RAN-31-CB",
-      "Ranger Tugs R-31 Command Bridge"
+      "Ranger Tugs R-31 Command Bridge",
+      "Ranger Tugs R-31",
+      "R-31 Command Bridge",
+      "Ranger Tugs R-31 CB"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3316,13 +3736,16 @@
   {
     "BoatModelID": "RNGR-43-CB",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-43",
-    "Model": "R-43",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-43 CB Command Bridge",
+    "Model": "R-43 CB",
     "Variant": "Command Bridge",
     "Aliases": [
       "RAN-43-CB",
-      "Ranger Tugs R-43 Command Bridge"
+      "Ranger Tugs R-43 Command Bridge",
+      "Ranger Tugs R-43",
+      "R-43 Command Bridge",
+      "Ranger Tugs R-43 CB"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3331,13 +3754,16 @@
   {
     "BoatModelID": "RNGR-43-S",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-43",
-    "Model": "R-43",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-43 S Sedan",
+    "Model": "R-43 S",
     "Variant": "Sedan",
     "Aliases": [
       "RAN-43-S",
-      "Ranger Tugs R-43 Sedan"
+      "Ranger Tugs R-43 Sedan",
+      "Ranger Tugs R-43",
+      "R-43 Sedan",
+      "Ranger Tugs R-43 S"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3346,13 +3772,14 @@
   {
     "BoatModelID": "RNGR-R-23",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-23",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-23 Current outboard",
     "Model": "R-23",
     "Variant": "Current outboard",
     "Aliases": [
       "RAN-R-23",
-      "Ranger Tugs R-23 Current outboard"
+      "Ranger Tugs R-23",
+      "R-23 Current outboard"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3361,13 +3788,14 @@
   {
     "BoatModelID": "RNGR-R-25",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-25",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-25 Current outboard",
     "Model": "R-25",
     "Variant": "Current outboard",
     "Aliases": [
       "RAN-R-25",
-      "Ranger Tugs R-25 Current outboard"
+      "Ranger Tugs R-25",
+      "R-25 Current outboard"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3376,13 +3804,14 @@
   {
     "BoatModelID": "RNGR-R-27",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-27",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-27 Current twin-outboard",
     "Model": "R-27",
     "Variant": "Current twin-outboard",
     "Aliases": [
       "RAN-R-27",
-      "Ranger Tugs R-27 Current twin-outboard"
+      "Ranger Tugs R-27",
+      "R-27 Current twin-outboard"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3391,13 +3820,16 @@
   {
     "BoatModelID": "RNGR-R-29",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-29",
-    "Model": "R-29",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-29 S Sedan",
+    "Model": "R-29 S",
     "Variant": "Sedan",
     "Aliases": [
       "RAN-R-29",
-      "Ranger Tugs R-29 Sedan"
+      "Ranger Tugs R-29 Sedan",
+      "Ranger Tugs R-29",
+      "R-29 Sedan",
+      "Ranger Tugs R-29 S"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3406,13 +3838,16 @@
   {
     "BoatModelID": "RNGR-R-31",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "RANGER_TUGS",
-    "CanonicalName": "Ranger Tugs R-31",
-    "Model": "R-31",
+    "ManufacturerCode": "RNGR",
+    "CanonicalName": "Ranger Tugs R-31 S Sedan",
+    "Model": "R-31 S",
     "Variant": "Sedan",
     "Aliases": [
       "RAN-R-31",
-      "Ranger Tugs R-31 Sedan"
+      "Ranger Tugs R-31 Sedan",
+      "Ranger Tugs R-31",
+      "R-31 Sedan",
+      "Ranger Tugs R-31 S"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3421,14 +3856,15 @@
   {
     "BoatModelID": "ROSB-246",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ROSBOROUGH",
-    "CanonicalName": "Rosborough RF-246",
-    "Model": "RF-246",
-    "Variant": "Yarmouth / current cruising layout",
+    "ManufacturerCode": "ROSB",
+    "CanonicalName": "Rosborough 246 Yarmouth",
+    "Model": "246",
+    "Variant": "Yarmouth",
     "Aliases": [
       "ROS-246",
-      "Rosborough 246 Yarmouth",
-      "Rosborough RF-246 Yarmouth / current cruising layout"
+      "Rosborough RF-246 Yarmouth / current cruising layout",
+      "Rosborough RF-246",
+      "RF-246 Yarmouth / current cruising layout"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3437,15 +3873,16 @@
   {
     "BoatModelID": "ROSB-246-LS",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ROSBOROUGH",
-    "CanonicalName": "Rosborough RF-246",
+    "ManufacturerCode": "ROSB",
+    "CanonicalName": "Rosborough RF-246 Legacy Sedan Cruiser Diesel",
     "Model": "RF-246",
     "Variant": "Legacy Sedan Cruiser Diesel",
     "Aliases": [
       "ROS-246-LS",
       "Rosborough RF-246 LS Sedan",
-      "Rosborough RF-246 Legacy Sedan Cruiser Diesel",
-      "Rosborough RF-246 Sedan Cruiser Diesel"
+      "Rosborough RF-246 Sedan Cruiser Diesel",
+      "Rosborough RF-246",
+      "RF-246 Legacy Sedan Cruiser Diesel"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3454,15 +3891,16 @@
   {
     "BoatModelID": "ROSB-246-WH",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "ROSBOROUGH",
-    "CanonicalName": "Rosborough RF-246",
+    "ManufacturerCode": "ROSB",
+    "CanonicalName": "Rosborough RF-246 Custom Wheelhouse",
     "Model": "RF-246",
     "Variant": "Custom Wheelhouse",
     "Aliases": [
       "ROS-246-WH",
       "Rosborough 246 Custom Wheelhouse",
-      "Rosborough RF-246 Custom Wheelhouse",
-      "Rosborough RF-246 Wheelhouse Custom"
+      "Rosborough RF-246 Wheelhouse Custom",
+      "Rosborough RF-246",
+      "RF-246 Custom Wheelhouse"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3471,13 +3909,15 @@
   {
     "BoatModelID": "SABR-34-EX",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SABRE",
-    "CanonicalName": "Sabre 34 Express",
-    "Model": "34 Express",
-    "Variant": "Express",
+    "ManufacturerCode": "SABR",
+    "CanonicalName": "Sabre 34 Hard Top Express",
+    "Model": "34",
+    "Variant": "Hard Top Express",
     "Aliases": [
       "SAB-34-EX",
-      "Sabre 34 Express Express"
+      "Sabre 34 Express Express",
+      "Sabre 34 Express",
+      "34 Express Express"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3486,13 +3926,14 @@
   {
     "BoatModelID": "SABR-38-SA",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SABRE",
-    "CanonicalName": "Sabre 38 Salon Express",
+    "ManufacturerCode": "SABR",
+    "CanonicalName": "Sabre 38 Salon Express Salon Express",
     "Model": "38 Salon Express",
     "Variant": "Salon Express",
     "Aliases": [
       "SAB-38-SA",
-      "Sabre 38 Salon Express Salon Express"
+      "Sabre 38 Salon Express",
+      "38 Salon Express Salon Express"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3502,14 +3943,16 @@
     "BoatModelID": "SAGA-26-HT",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "SAGA",
-    "CanonicalName": "Saga 26 HT",
+    "CanonicalName": "Saga 26 HT Hardtop Cruiser",
     "Model": "26 HT",
-    "Variant": "Hardtop",
+    "Variant": "Hardtop Cruiser",
     "Aliases": [
       "SAG-26-HT",
       "Saga 26",
       "Saga 26 Double-Ender",
-      "Saga 26 HT Hardtop"
+      "Saga 26 HT Hardtop",
+      "Saga 26 HT",
+      "26 HT Hardtop"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3518,12 +3961,15 @@
   {
     "BoatModelID": "SEAH-35-PH",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SEAHORSE",
-    "CanonicalName": "Seahorse 35",
-    "Model": "35",
-    "Variant": "Pilothouse",
+    "ManufacturerCode": "SEAH",
+    "CanonicalName": "Seahorse Coot 35 Steel Pocket Trawler",
+    "Model": "Coot 35",
+    "Variant": "Steel Pocket Trawler",
     "Aliases": [
-      "Seahorse 35 Pilothouse"
+      "Seahorse 35 Pilothouse",
+      "Seahorse 35",
+      "35 Pilothouse",
+      "Seahorse Coot 35"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3532,12 +3978,15 @@
   {
     "BoatModelID": "SEAH-38-CO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SEAHORSE",
-    "CanonicalName": "Seahorse 40",
-    "Model": "40",
-    "Variant": "Pilothouse",
+    "ManufacturerCode": "SEAH",
+    "CanonicalName": "Seahorse Coot 38 Steel Pocket Trawler",
+    "Model": "Coot 38",
+    "Variant": "Steel Pocket Trawler",
     "Aliases": [
-      "Seahorse 40 Pilothouse"
+      "Seahorse 40 Pilothouse",
+      "Seahorse 40",
+      "40 Pilothouse",
+      "Seahorse Coot 38"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3546,14 +3995,17 @@
   {
     "BoatModelID": "SEAL-34-TC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SEALORD",
-    "CanonicalName": "Sealord 34 Tri-Cabin",
-    "Model": "34 Tri-Cabin",
-    "Variant": "Tri-Cabin",
+    "ManufacturerCode": "SEAL",
+    "CanonicalName": "Sealord 34 Double Cabin Trawler Tri-Cabin / Double Cabin",
+    "Model": "34 Double Cabin Trawler",
+    "Variant": "Tri-Cabin / Double Cabin",
     "Aliases": [
       "Chien Hwa Sealord 34",
       "Sealord 34 Tri-Cabin Tri-Cabin",
-      "Sealord Tricabin"
+      "Sealord Tricabin",
+      "Sealord 34 Tri-Cabin",
+      "34 Tri-Cabin Tri-Cabin",
+      "Sealord 34 Double Cabin Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3562,12 +4014,14 @@
   {
     "BoatModelID": "SEAP-35",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SEAPIPER",
-    "CanonicalName": "SeaPiper 35",
+    "ManufacturerCode": "SEAP",
+    "CanonicalName": "SeaPiper 35 Narrow-Beam Long-Range Cruiser",
     "Model": "35",
-    "Variant": "",
+    "Variant": "Narrow-Beam Long-Range Cruiser",
     "Aliases": [
-      "SEA-35"
+      "SEA-35",
+      "SeaPiper 35",
+      "35"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3576,12 +4030,42 @@
   {
     "BoatModelID": "SEAR-340-SU",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SEA",
-    "CanonicalName": "Sea Ray 340",
-    "Model": "340",
-    "Variant": "Sundancer",
+    "ManufacturerCode": "SEAR",
+    "CanonicalName": "Sea Ray 340 Sundancer Generation 1",
+    "Model": "340 Sundancer",
+    "Variant": "Generation 1",
     "Aliases": [
       "SEA-340-SU",
+      "Sea Ray 340 Sundancer",
+      "Sea Ray 340",
+      "340 Sundancer"
+    ],
+    "Active": false,
+    "RedirectTo": null,
+    "Notes": ""
+  },
+  {
+    "BoatModelID": "SEAR-340-SU-03",
+    "IdentityStatus": "ActiveV7",
+    "ManufacturerCode": "SEAR",
+    "CanonicalName": "Sea Ray 340 Sundancer Generation 3",
+    "Model": "340 Sundancer",
+    "Variant": "Generation 3",
+    "Aliases": [
+      "Sea Ray 340 Sundancer"
+    ],
+    "Active": false,
+    "RedirectTo": null,
+    "Notes": ""
+  },
+  {
+    "BoatModelID": "SEAR-340-SU-99",
+    "IdentityStatus": "ActiveV7",
+    "ManufacturerCode": "SEAR",
+    "CanonicalName": "Sea Ray 340 Sundancer Generation 2",
+    "Model": "340 Sundancer",
+    "Variant": "Generation 2",
+    "Aliases": [
       "Sea Ray 340 Sundancer"
     ],
     "Active": false,
@@ -3591,13 +4075,16 @@
   {
     "BoatModelID": "SEAR-390-MO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SEA",
-    "CanonicalName": "Sea Ray 390",
-    "Model": "390",
-    "Variant": "Motor Yacht",
+    "ManufacturerCode": "SEAR",
+    "CanonicalName": "Sea Ray 390 / 40 Motor Yacht Flush-Deck Motor Yacht",
+    "Model": "390 / 40 Motor Yacht",
+    "Variant": "Flush-Deck Motor Yacht",
     "Aliases": [
       "SEA-390-MO",
-      "Sea Ray 390 Motor Yacht"
+      "Sea Ray 390 Motor Yacht",
+      "Sea Ray 390",
+      "390 Motor Yacht",
+      "Sea Ray 390 / 40 Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3606,12 +4093,14 @@
   {
     "BoatModelID": "SEAW-24-ST",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SEAWAY",
-    "CanonicalName": "Seaway 24",
+    "ManufacturerCode": "SEAW",
+    "CanonicalName": "Seaway 24 Sport Trawler / Coastal Cruiser",
     "Model": "24",
-    "Variant": "Sport Trawler",
+    "Variant": "Sport Trawler / Coastal Cruiser",
     "Aliases": [
-      "Seaway 24 Sport Trawler"
+      "Seaway 24 Sport Trawler",
+      "Seaway 24",
+      "24 Sport Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3620,12 +4109,14 @@
   {
     "BoatModelID": "SEAW-28-CC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SEAWAY",
-    "CanonicalName": "Seaway 28",
-    "Model": "28",
+    "ManufacturerCode": "SEAW",
+    "CanonicalName": "Seaway 28 Coastal Cruiser Coastal Cruiser",
+    "Model": "28 Coastal Cruiser",
     "Variant": "Coastal Cruiser",
     "Aliases": [
-      "Seaway 28 Coastal Cruiser"
+      "Seaway 28 Coastal Cruiser",
+      "Seaway 28",
+      "28 Coastal Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3634,15 +4125,17 @@
   {
     "BoatModelID": "SHAN-38-SRD",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SHANNON",
-    "CanonicalName": "Shannon 26 SRD",
-    "Model": "26",
-    "Variant": "SRD / Reverse Deadrise",
+    "ManufacturerCode": "SHAN",
+    "CanonicalName": "Shannon 38 SRD Schulz Reverse Deadrise",
+    "Model": "38 SRD",
+    "Variant": "Schulz Reverse Deadrise",
     "Aliases": [
       "SHA-26-SR",
       "Shannon 26 Reverse Displacement",
       "Shannon 26 SRD",
-      "Shannon 26"
+      "Shannon 26",
+      "26 SRD / Reverse Deadrise",
+      "Shannon 38 SRD"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3651,13 +4144,15 @@
   {
     "BoatModelID": "SILV-34-MO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SILVERTON",
-    "CanonicalName": "Silverton 34",
-    "Model": "34",
-    "Variant": "Motor Yacht",
+    "ManufacturerCode": "SILV",
+    "CanonicalName": "Silverton 34 Motor Yacht Aft Cabin Motor Yacht",
+    "Model": "34 Motor Yacht",
+    "Variant": "Aft Cabin Motor Yacht",
     "Aliases": [
       "SIL-34-MO",
-      "Silverton 34 Motor Yacht"
+      "Silverton 34 Motor Yacht",
+      "Silverton 34",
+      "34 Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3666,13 +4161,15 @@
   {
     "BoatModelID": "SILV-352-MO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SILVERTON",
-    "CanonicalName": "Silverton 352",
-    "Model": "352",
-    "Variant": "Motor Yacht",
+    "ManufacturerCode": "SILV",
+    "CanonicalName": "Silverton 352 Motor Yacht SideWalk Motor Yacht",
+    "Model": "352 Motor Yacht",
+    "Variant": "SideWalk Motor Yacht",
     "Aliases": [
       "SIL-352-MO",
-      "Silverton 352 Motor Yacht"
+      "Silverton 352 Motor Yacht",
+      "Silverton 352",
+      "352 Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3681,13 +4178,16 @@
   {
     "BoatModelID": "SILV-372",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SILVERTON",
-    "CanonicalName": "Silverton 372",
-    "Model": "372",
-    "Variant": "Motor Yacht",
+    "ManufacturerCode": "SILV",
+    "CanonicalName": "Silverton 372 / 392 Motor Yacht SideWalk Motor Yacht",
+    "Model": "372 / 392 Motor Yacht",
+    "Variant": "SideWalk Motor Yacht",
     "Aliases": [
       "SIL-372",
-      "Silverton 372 Motor Yacht"
+      "Silverton 372 Motor Yacht",
+      "Silverton 372",
+      "372 Motor Yacht",
+      "Silverton 372 / 392 Motor Yacht"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3696,13 +4196,15 @@
   {
     "BoatModelID": "SILV-40-AC",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "SILVERTON",
-    "CanonicalName": "Silverton 40",
-    "Model": "40",
-    "Variant": "Aft Cabin",
+    "ManufacturerCode": "SILV",
+    "CanonicalName": "Silverton 40 Aft Cabin Double Cabin Motor Yacht",
+    "Model": "40 Aft Cabin",
+    "Variant": "Double Cabin Motor Yacht",
     "Aliases": [
       "SIL-40-AC",
-      "Silverton 40 Aft Cabin"
+      "Silverton 40 Aft Cabin",
+      "Silverton 40",
+      "40 Aft Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3712,12 +4214,14 @@
     "BoatModelID": "SISU-22-CO",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "SISU",
-    "CanonicalName": "Sisu 22",
+    "CanonicalName": "Sisu 22 Bass Boat / Lobsterboat",
     "Model": "22",
-    "Variant": "",
+    "Variant": "Bass Boat / Lobsterboat",
     "Aliases": [
       "SIS-22-CO",
-      "Sisu 22 Pocket Cruiser"
+      "Sisu 22 Pocket Cruiser",
+      "Sisu 22",
+      "22"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3727,13 +4231,15 @@
     "BoatModelID": "SISU-26-BA",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "SISU",
-    "CanonicalName": "Sisu 26",
+    "CanonicalName": "Sisu 26 Bass Boat / Sedan / Lobsterboat",
     "Model": "26",
-    "Variant": "Bass Boat / Sedan",
+    "Variant": "Bass Boat / Sedan / Lobsterboat",
     "Aliases": [
       "SIS-26-BA",
       "Sisu 26 Bass Boat / Sedan",
-      "Sisu 26 Pocket Cruiser"
+      "Sisu 26 Pocket Cruiser",
+      "Sisu 26",
+      "26 Bass Boat / Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3743,15 +4249,16 @@
     "BoatModelID": "SSPT-24",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "SEASPORT",
-    "CanonicalName": "Sea Sport XL 2400",
+    "CanonicalName": "Sea Sport XL 2400 Long-Cockpit Pilothouse",
     "Model": "XL 2400",
-    "Variant": "",
+    "Variant": "Long-Cockpit Pilothouse",
     "Aliases": [
       "SSP-24",
       "Sea Sport 2400 XL",
       "Sea Sport XL 2400",
       "SeaSport 2400 XL",
-      "Seasport XL 2400"
+      "Seasport XL 2400",
+      "XL 2400"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3761,16 +4268,17 @@
     "BoatModelID": "SSPT-24-EX",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "SEASPORT",
-    "CanonicalName": "Sea Sport Explorer 2400",
+    "CanonicalName": "Sea Sport Explorer 2400 Long-Cabin Pilothouse",
     "Model": "Explorer 2400",
-    "Variant": "",
+    "Variant": "Long-Cabin Pilothouse",
     "Aliases": [
       "SSP-24-EX",
       "Sea Sport 2400 Explorer",
       "Sea Sport Explorer 2400",
       "SeaSport Explorer 2400",
       "Seasport 24 Cruiser",
-      "Seasport 24 Explorer"
+      "Seasport 24 Explorer",
+      "Explorer 2400"
     ],
     "Active": true,
     "RedirectTo": null,
@@ -3780,15 +4288,17 @@
     "BoatModelID": "SSPT-27",
     "IdentityStatus": "ActiveV7",
     "ManufacturerCode": "SEASPORT",
-    "CanonicalName": "Sea Sport 27",
+    "CanonicalName": "Sea Sport 27 Seamaster / Navigator / Pilot",
     "Model": "27",
-    "Variant": "Pilot / Navigator / Seamaster family",
+    "Variant": "Seamaster / Navigator / Pilot",
     "Aliases": [
       "SSP-27",
       "Sea Sport 27",
       "Sea Sport 27 Navigator",
       "Sea Sport 27 Pilot",
-      "Sea Sport 27 Seamaster"
+      "Sea Sport 27 Seamaster",
+      "27 Pilot / Navigator / Seamaster family",
+      "Sea Sport 27 Family"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3797,14 +4307,15 @@
   {
     "BoatModelID": "TOLL-34-SE",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "TOLLYCRAFT",
-    "CanonicalName": "Tollycraft 34 Sport Sedan",
+    "ManufacturerCode": "TOLL",
+    "CanonicalName": "Tollycraft 34 Sport Sedan Sport Sedan",
     "Model": "34 Sport Sedan",
     "Variant": "Sport Sedan",
     "Aliases": [
       "TOL-34-SE",
       "Tollycraft 34 Sedan",
-      "Tollycraft 34 Sport Sedan Sport Sedan"
+      "Tollycraft 34 Sport Sedan",
+      "34 Sport Sedan Sport Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3813,13 +4324,15 @@
   {
     "BoatModelID": "TOLL-37-SE",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "TOLLYCRAFT",
-    "CanonicalName": "Tollycraft 37 Sedan",
+    "ManufacturerCode": "TOLL",
+    "CanonicalName": "Tollycraft 37 Sedan Flybridge Sedan",
     "Model": "37 Sedan",
-    "Variant": "Sedan",
+    "Variant": "Flybridge Sedan",
     "Aliases": [
       "TOL-37-SE",
-      "Tollycraft 37 Sedan Sedan"
+      "Tollycraft 37 Sedan Sedan",
+      "Tollycraft 37 Sedan",
+      "37 Sedan Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3828,17 +4341,18 @@
   {
     "BoatModelID": "TPMC-32-EA",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "TRANSPACIFIC",
-    "CanonicalName": "Eagle 32 Pilothouse",
-    "Model": "Eagle 32 Pilothouse",
-    "Variant": "Pilothouse Trawler",
+    "ManufacturerCode": "TPMC",
+    "CanonicalName": "Transpacific Marine Eagle 32 Pilothouse",
+    "Model": "Eagle 32",
+    "Variant": "Pilothouse",
     "Aliases": [
       "Eagle 32",
       "Eagle 32 Pilothouse",
       "Marine Eagle 32",
       "Transpacific Eagle 32",
       "Transpacific Marine Eagle 32 Pilothouse Pilothouse Trawler",
-      "Transpacific Marine Eagle 32 Pilothouse Trawler"
+      "Transpacific Marine Eagle 32 Pilothouse Trawler",
+      "Eagle 32 Pilothouse Pilothouse Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3847,13 +4361,16 @@
   {
     "BoatModelID": "TROJ-36-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "TROJAN",
-    "CanonicalName": "Trojan 36",
-    "Model": "36",
-    "Variant": "Tri-Cabin",
+    "ManufacturerCode": "TROJ",
+    "CanonicalName": "Trojan F-36 Tri-Cabin Tri-Cabin Motor Yacht",
+    "Model": "F-36 Tri-Cabin",
+    "Variant": "Tri-Cabin Motor Yacht",
     "Aliases": [
       "TRO-36-TR",
-      "Trojan 36 Tri-Cabin"
+      "Trojan 36 Tri-Cabin",
+      "Trojan 36",
+      "36 Tri-Cabin",
+      "Trojan F-36 Tri-Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3862,13 +4379,16 @@
   {
     "BoatModelID": "TRUN-34",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "TRUE",
-    "CanonicalName": "True North 34",
+    "ManufacturerCode": "TRUN",
+    "CanonicalName": "True North 34 Original Diesel / Inboard",
     "Model": "34",
-    "Variant": "Original Diesel",
+    "Variant": "Original Diesel / Inboard",
     "Aliases": [
       "TRU-34",
-      "True North 34 Original Diesel"
+      "True North 34 Original Diesel",
+      "True North 34",
+      "34 Original Diesel",
+      "True North 34 Diesel"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3877,13 +4397,15 @@
   {
     "BoatModelID": "UNIF-36-DO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "UNIFLITE",
-    "CanonicalName": "Uniflite 36 Double Cabin",
+    "ManufacturerCode": "UNIF",
+    "CanonicalName": "Uniflite 36 Double Cabin Aft Cabin Motor Yacht",
     "Model": "36 Double Cabin",
-    "Variant": "Double Cabin",
+    "Variant": "Aft Cabin Motor Yacht",
     "Aliases": [
       "UNI-36-DO",
-      "Uniflite 36 Double Cabin Double Cabin"
+      "Uniflite 36 Double Cabin Double Cabin",
+      "Uniflite 36 Double Cabin",
+      "36 Double Cabin Double Cabin"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3892,12 +4414,15 @@
   {
     "BoatModelID": "UNIV-36-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "UNIVERSAL",
-    "CanonicalName": "Universal 36 Trawler",
-    "Model": "36 Trawler",
-    "Variant": "Trawler",
+    "ManufacturerCode": "UNIV",
+    "CanonicalName": "Universal 36 Tri-Cabin Trawler Tri-Cabin",
+    "Model": "36 Tri-Cabin Trawler",
+    "Variant": "Tri-Cabin",
     "Aliases": [
-      "Universal 36 Trawler Trawler"
+      "Universal 36 Trawler Trawler",
+      "Universal 36 Trawler",
+      "36 Trawler Trawler",
+      "Universal Marine 36 Tri-Cabin Trawler"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3906,12 +4431,15 @@
   {
     "BoatModelID": "UNIV-40-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "UNIVERSAL",
-    "CanonicalName": "Universal 40 Trawler",
-    "Model": "40 Trawler",
-    "Variant": "Trawler",
+    "ManufacturerCode": "UNIV",
+    "CanonicalName": "Universal 40 Europa Europa / Sedan Trawler",
+    "Model": "40 Europa",
+    "Variant": "Europa / Sedan Trawler",
     "Aliases": [
-      "Universal 40 Trawler Trawler"
+      "Universal 40 Trawler Trawler",
+      "Universal 40 Trawler",
+      "40 Trawler Trawler",
+      "Universal Marine 40 Europa"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3920,15 +4448,17 @@
   {
     "BoatModelID": "WILL-30-VO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "WILLARD",
-    "CanonicalName": "Willard 30 Vega Voyager",
-    "Model": "30 Vega Voyager",
+    "ManufacturerCode": "WILL",
+    "CanonicalName": "Willard Vega 30 Voyager Raised Pilothouse",
+    "Model": "Vega 30 Voyager",
     "Variant": "Raised Pilothouse",
     "Aliases": [
       "WIL-30-VO",
       "Willard 30 Vega Voyager Raised Pilothouse",
       "Willard 30 Voyager",
-      "Willard Vega 30 Voyager"
+      "Willard Vega 30 Voyager",
+      "Willard 30 Vega Voyager",
+      "30 Vega Voyager Raised Pilothouse"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3937,15 +4467,18 @@
   {
     "BoatModelID": "WILL-36-TR",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "WILLARD",
-    "CanonicalName": "Willard 36 Vega",
-    "Model": "36 Vega",
-    "Variant": "Family",
+    "ManufacturerCode": "WILL",
+    "CanonicalName": "Willard Vega 36 Standard Cruiser Flybridge Sedan",
+    "Model": "Vega 36 Standard Cruiser",
+    "Variant": "Flybridge Sedan",
     "Aliases": [
       "WIL-36-TR",
       "Willard 36 Trawler",
       "Willard 36 Vega Family",
-      "Willard Vega 36"
+      "Willard Vega 36",
+      "Willard 36 Vega",
+      "36 Vega Family",
+      "Willard Vega 36 Standard Cruiser"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3954,15 +4487,17 @@
   {
     "BoatModelID": "WILL-40-NO",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "WILLARD",
-    "CanonicalName": "Willard 40 Vega Nomad",
-    "Model": "40 Vega Nomad",
+    "ManufacturerCode": "WILL",
+    "CanonicalName": "Willard Vega 40 Nomad Widebody Flybridge Sedan",
+    "Model": "Vega 40 Nomad",
     "Variant": "Widebody Flybridge Sedan",
     "Aliases": [
       "WIL-40-NO",
       "Willard 40 Nomad",
       "Willard 40 Vega Nomad Widebody Flybridge Sedan",
-      "Willard Vega 40 Nomad"
+      "Willard Vega 40 Nomad",
+      "Willard 40 Vega Nomad",
+      "40 Vega Nomad Widebody Flybridge Sedan"
     ],
     "Active": false,
     "RedirectTo": null,
@@ -3971,15 +4506,17 @@
   {
     "BoatModelID": "WIND-26-SN",
     "IdentityStatus": "ActiveV7",
-    "ManufacturerCode": "WINDY",
-    "CanonicalName": "Windy 26",
-    "Model": "26",
-    "Variant": "SN",
+    "ManufacturerCode": "WIND",
+    "CanonicalName": "Windy 26 Snekke 26 SN / Norwegian Snekke",
+    "Model": "26 Snekke",
+    "Variant": "26 SN / Norwegian Snekke",
     "Aliases": [
       "Windy 26 S.N.",
       "Windy 26 SN",
       "Windy 26 SN Snekke",
-      "Windy 26 Snekke"
+      "Windy 26 Snekke",
+      "Windy 26",
+      "26 SN"
     ],
     "Active": false,
     "RedirectTo": null,

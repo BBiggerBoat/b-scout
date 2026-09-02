@@ -78,11 +78,24 @@
         return String(value).includes(".") ? humanCode(value) : value;
     }
 
+
+    function unitProfile(){ return root.BAtlasCanonical?.getUnitProfile?.() || "imperial"; }
+    function measure(boat,key,dimension,legacy){
+        return root.BAtlasCanonical?.formatBoatMeasurement?.(boat,key,dimension,legacy||[],unitProfile()) || null;
+    }
+    function volume(boat,key,legacyKey){
+        return root.BAtlasCanonical?.formatUnverifiedVolume?.(boat,key,legacyKey) || null;
+    }
+
     function arr(value) { return Array.isArray(value) ? value : []; }
     function known(value) { return value !== undefined && value !== null && value !== ""; }
     function boatName(boat) { return [boat?.Manufacturer, boat?.Model, boat?.Variant].filter(Boolean).join(" ") || "Unknown model"; }
-    function field(label, value, suffix) {
-        return `<div class="workspace-fact"><strong>${esc(label)}</strong><span>${known(value) ? `${esc(value)}${suffix || ""}` : "Unknown"}</span></div>`;
+    function field(label, value, suffix, contributionFieldId) {
+        const hasValue = known(value);
+        const missingAction = !hasValue && contributionFieldId
+            ? `<button type="button" class="workspace-missing-contribution" data-contribute-field="${esc(contributionFieldId)}">Know this? Add it</button>`
+            : "";
+        return `<div class="workspace-fact${!hasValue ? " is-unknown" : ""}"><strong>${esc(label)}</strong><span>${hasValue ? `${esc(value)}${suffix || ""}` : "Unknown"}${missingAction}</span></div>`;
     }
     function textList(items, emptyText) {
         const values = arr(items).filter(Boolean);
@@ -188,7 +201,7 @@
                 <p>${esc(boat.TypicalMission || "Mission fit has not been documented.")}</p>
             </section>
             <section class="workspace-card"><h3>Quick Specifications</h3><div class="workspace-fact-grid">
-                ${field("Length", boat.LOA_ft, " ft")}${field("Beam", boat.Beam_ft, " ft")}${field("Draft", boat.Draft_ft, " ft")}${field("Air Draft", boat.AirDraft_ft, " ft")}
+                ${field("LOA", measure(boat,"LOA","length",[{key:"LOA_ft",unit:"ft"},{key:"LengthFt",unit:"ft"}]))}${field("LWL", measure(boat,"LWL","length",[{key:"LWL_ft",unit:"ft"}]))}${field("Beam", measure(boat,"Beam","length",[{key:"Beam_ft",unit:"ft"},{key:"BeamFt",unit:"ft"}]))}${field("Draft", measure(boat,"Draft","length",[{key:"Draft_ft",unit:"ft"},{key:"DraftFt",unit:"ft"}]))}${field("Air Draft", measure(boat,"AirDraft","length",[{key:"AirDraft_ft",unit:"ft"}]))}
                 ${field("Fuel", boat.Fuel)}${field("Propulsion", boat.Propulsion)}${boat.RarityScore != null ? field("Rarity", `${boat.RarityScore}/5${boat.RarityLabel ? ` — ${boat.RarityLabel}` : ""}`) : ""}${boat.PriceLevel != null ? field("Price Level", `${boat.PriceLevel}/5${boat.PriceLevelLabel ? ` — ${boat.PriceLevelLabel}` : ""}`) : ""}
             </div></section>
             <section class="workspace-card"><h3>Why it remains a candidate</h3>${textList(positives, "No confirmed strengths have been recorded.")}</section>
@@ -269,7 +282,14 @@
             <section class="workspace-card"><h3>Accommodation and Systems</h3><div class="workspace-fact-grid">
                 ${field("Berths", boat.Berths)}${field("Cabins", boat.Cabins)}${field("Heads", boat.Heads)}
                 ${field("Shower", displayCanonical(boat, "ShowerTypeCode", ["ShowerType","Shower"]))}
-                ${field("Fuel Capacity", boat.FuelCapacity)}${field("Water Capacity", boat.WaterCapacity)}${field("Holding Capacity", boat.HoldingCapacity)}${field("Headroom", boat.Headroom_ft, " ft")}
+                ${field("Fuel Capacity", volume(boat,"FuelCapacity","FuelCapacityGal"))}${field("Water Capacity", volume(boat,"WaterCapacity","WaterCapacityGal"))}${field("Holding Capacity", volume(boat,"HoldingCapacity","HoldingCapacityGal"))}
+                ${field("Published / general headroom", measure(boat,"Headroom","length",[{key:"Headroom_ft",unit:"ft"},{key:"Headroom_in",unit:"in"},{key:"InteriorHeadroom_in",unit:"in"}]), "", "Headroom")}
+                ${field("Saloon / main cabin", measure(boat,"HeadroomSalon","length",[]), "", "HeadroomSalon")}
+                ${field("Helm", measure(boat,"HeadroomHelm","length",[]), "", "HeadroomHelm")}
+                ${field("Galley", measure(boat,"HeadroomGalley","length",[]), "", "HeadroomGalley")}
+                ${field("Head compartment", measure(boat,"HeadroomHead","length",[]), "", "HeadroomHead")}
+                ${field("Forward cabin", measure(boat,"HeadroomForwardCabin","length",[]), "", "HeadroomForwardCabin")}
+                ${field("V-berth usable length", measure(boat,"VBerthLength","length",[]), "", "VBerthLength")}
             </div></section>
             <section class="workspace-card"><h3>Model Strengths & Trade-offs</h3>
                 <div class="workspace-three-column"><div><h4>Strengths</h4>${textList(arr(intelligence.strengths).length ? intelligence.strengths : splitText(boat.Strengths))}</div>
@@ -664,6 +684,14 @@
     if (typeof document !== "undefined") {
         document.addEventListener("click", event => {
             const tab = event.target.closest(".boat-workspace-tab"); if (tab) setTab(tab.dataset.workspaceTab);
+            const missing = event.target.closest(".workspace-missing-contribution");
+            if (missing && currentBoat && root.BScoutContributions?.open) {
+                event.preventDefault();
+                root.BScoutContributions.open({
+                    source:"guide", modelId:currentBoat.BoatModelID || "", manufacturer:currentBoat.Manufacturer || currentBoat.Make || "",
+                    model:currentBoat.Model || "", variant:currentBoat.Variant || "", guideName:boatName(currentBoat)
+                }, { typeId:"correction", fieldId:missing.dataset.contributeField || "" });
+            }
         });
         document.addEventListener("keydown", event => {
             const tab = event.target.closest?.(".boat-workspace-tab");

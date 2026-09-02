@@ -83,8 +83,9 @@
                 modelText.includes("flybridge can be removed") || modelText.includes("removable upper helm");
         }
         if (wanted === "long keel") {
+            const keelCode = String(boat.KeelConfigurationCode || "").trim().toLowerCase();
             const canonicalKeel = normalizeText(boat.KeelConfigurationCode || boat.KeelConfiguration);
-            return canonicalKeel.includes("full long keel") || canonicalKeel.includes("long keel") ||
+            return keelCode === "keel.full_long" || canonicalKeel.includes("full long") || canonicalKeel.includes("long keel") ||
                 keel.includes("long keel") || keel.includes("full length keel") || keel.includes("full length");
         }
         if (wanted === "skeg hung rudder") {
@@ -99,8 +100,17 @@
             return boat.SideHelmDoor === true || String(boat.SideHelmDoor).toLowerCase() === "true" || modelText.includes("side helm door") || modelText.includes("helm door");
         }
         if (wanted === "separate shower") {
-            const showerType = normalizeText(boat.ShowerType);
-            return showerType.includes("separate stall") || normalizeText(boat.Shower).includes("separate") || normalizeText(boat.Shower).includes("stall shower");
+            const showerCode = String(boat.ShowerTypeCode || "").trim().toLowerCase();
+            const showerType = normalizeText(boat.ShowerTypeCode || boat.ShowerType);
+            return showerCode === "shower.separate_stall" || showerType.includes("separate stall") || normalizeText(boat.Shower).includes("separate") || normalizeText(boat.Shower).includes("stall shower");
+        }
+        if (wanted === "wide side decks") {
+            const sideCode = String(boat.SideDecksCode || "").trim().toLowerCase();
+            return sideCode === "side_decks.wide" || normalizeText(boat.SideDecks).includes("wide");
+        }
+        if (wanted === "aft cabin") {
+            if (typeof boat.AftCabin === "boolean") return boat.AftCabin;
+            return ["yes","true","aft cabin"].includes(String(boat.AftCabin || "").trim().toLowerCase()) || modelText.includes("aft cabin");
         }
 
         const values = [
@@ -191,9 +201,33 @@
             if (domain === "fuel" && ["gas", "gasoline", "petrol"].includes(text)) return "gasoline";
             return text;
         };
-        const selectedIncludes = (domain, selected, actual) => normalizer
-            ? normalizer.matches(domain, selected, actual)
-            : selected.map(value => fallbackNormalize(domain, value)).includes(fallbackNormalize(domain, actual));
+        const canonicalComparable = value => {
+            const text = String(value == null ? "" : value).trim();
+            if (!text) return text;
+            const suffix = text.includes(".") ? text.split(".").pop() : text;
+            return suffix.replace(/_/g, " ");
+        };
+        const selectedIncludes = (domain, selected, actual) => {
+            const comparableActual = canonicalComparable(actual);
+            return normalizer
+                ? normalizer.matches(domain, selected, comparableActual)
+                : selected.map(value => fallbackNormalize(domain, value)).includes(fallbackNormalize(domain, comparableActual));
+        };
+        const uncertainCanonical = value => {
+            const text = normalizeText(canonicalComparable(value));
+            return !text || text === "unknown" || text === "mixed" || text.includes("configuration dependent") || text.includes("conflict");
+        };
+        const canonicalPlanValue = (boat, key, legacyKeys=[]) => {
+            if (boat && Object.prototype.hasOwnProperty.call(boat, key)) {
+                const value = boat[key];
+                return uncertainCanonical(value) ? null : value;
+            }
+            for (const legacyKey of legacyKeys) {
+                const value = boat?.[legacyKey];
+                if (known(value) && !uncertainCanonical(value)) return value;
+            }
+            return null;
+        };
         const exceedsMaximum = (actual, maximum) => {
             const actualNumber = numericValue(actual);
             const maximumNumber = numericValue(maximum);
@@ -208,10 +242,10 @@
         // Routes, Dimensions, and Characteristics are hard filters.
         // Missing registry data is retained; a known conflict eliminates the model.
         if (typeof routeEvaluator === "function" && !routeEvaluator(boat, profile, routes || [])) reasons.push("route-compatibility");
-        const loaFt = global.BAtlasCanonical?.feet(boat, "LOA", [{key:"LOA_ft",unit:"ft"},{key:"LengthFt",unit:"ft"}]) ?? boat.LOA_ft;
-        const beamFt = global.BAtlasCanonical?.feet(boat, "Beam", [{key:"Beam_ft",unit:"ft"},{key:"BeamFt",unit:"ft"}]) ?? boat.Beam_ft;
-        const draftFt = global.BAtlasCanonical?.feet(boat, "Draft", [{key:"Draft_ft",unit:"ft"},{key:"DraftFt",unit:"ft"}]) ?? boat.Draft_ft;
-        const airDraftFt = global.BAtlasCanonical?.feet(boat, "AirDraft", [{key:"AirDraft_ft",unit:"ft"}]) ?? boat.AirDraft_ft;
+        const loaFt = global.BAtlasCanonical ? global.BAtlasCanonical.feet(boat, "LOA", [{key:"LOA_ft",unit:"ft"},{key:"LengthFt",unit:"ft"}]) : boat.LOA_ft;
+        const beamFt = global.BAtlasCanonical ? global.BAtlasCanonical.feet(boat, "Beam", [{key:"Beam_ft",unit:"ft"},{key:"BeamFt",unit:"ft"}]) : boat.Beam_ft;
+        const draftFt = global.BAtlasCanonical ? global.BAtlasCanonical.feet(boat, "Draft", [{key:"Draft_ft",unit:"ft"},{key:"DraftFt",unit:"ft"}]) : boat.Draft_ft;
+        const airDraftFt = global.BAtlasCanonical ? global.BAtlasCanonical.feet(boat, "AirDraft", [{key:"AirDraft_ft",unit:"ft"}]) : boat.AirDraft_ft;
         if (belowMinimum(loaFt, profile.minLength)) reasons.push("min-length");
         if (exceedsMaximum(loaFt, profile.maxLength)) reasons.push("max-length");
         if (belowMinimum(beamFt, profile.minBeam)) reasons.push("min-beam");
@@ -223,8 +257,8 @@
             if (known(actualStyle) && !selectedIncludes("boatStyle", profile.styles, actualStyle)) reasons.push("style");
         }
         if (profile.boatFamilies?.length) {
-            const familyCandidates = [boat.BoatFamily, boat.NormalizedStyle, boat.Style, boat.Configuration]
-                .filter(known).map(normalizeText);
+            const familyCandidates = [boat.BoatFamilyCode, boat.BoatFamily, boat.NormalizedStyle, boat.Style, boat.Configuration]
+                .filter(known).map(value => normalizeText(canonicalComparable(value)));
             const familyMatches = profile.boatFamilies.some(selected => {
                 const wanted = normalizeText(selected);
                 return familyCandidates.some(actual =>
@@ -244,20 +278,24 @@
         if (profile.configurations?.length && known(boat.Configuration) && !profile.configurations.includes(boat.Configuration)) reasons.push("configuration");
         if (profile.constructionMaterials?.length && known(boat.Construction) && !selectedIncludes("construction", profile.constructionMaterials, boat.Construction)) reasons.push("construction-material");
         if (profile.hullTypes?.length) {
-            const actualHull = boat.NormalizedHullForm || boat.HullType;
+            const actualHull = canonicalPlanValue(boat, "HullBehaviourCode", ["HullBehaviour","NormalizedHullForm","HullType"]);
             if (known(actualHull) && !selectedIncludes("hullType", profile.hullTypes, actualHull)) reasons.push("hull-type");
         }
-        if (profile.fuels?.length && known(boat.Fuel) && !selectedIncludes("fuel", profile.fuels, boat.Fuel)) reasons.push("fuel");
-        if (profile.propulsion?.length && known(boat.Propulsion) && !selectedIncludes("propulsion", profile.propulsion, boat.Propulsion)) reasons.push("propulsion");
+        const actualFuel = canonicalPlanValue(boat, "FuelCode", ["NormalizedFuel","Fuel"]);
+        if (profile.fuels?.length && known(actualFuel) && !selectedIncludes("fuel", profile.fuels, actualFuel)) reasons.push("fuel");
+        const actualPropulsion = canonicalPlanValue(boat, "MechanicalPropulsionCode", ["PropulsionCode","NormalizedPropulsion","Propulsion"]);
+        if (profile.propulsion?.length && known(actualPropulsion) && !selectedIncludes("propulsion", profile.propulsion, actualPropulsion)) reasons.push("propulsion");
         // Engine count is a hard filter only when known. Unknown engine count remains eligible.
         const selectedEngineCounts = Array.isArray(profile.engineCounts) && profile.engineCounts.length
             ? profile.engineCounts.map(Number)
             : (profile.twinEngines ? [2] : []); // backward compatibility for older saved profiles
         if (selectedEngineCounts.length && known(boat.EngineCount) && !selectedEngineCounts.includes(numericValue(boat.EngineCount))) reasons.push("engine-count");
         if (profile.flybridge && known(boat.Flybridge) && boat.Flybridge !== profile.flybridge) reasons.push("flybridge");
-        if (profile.sideDecks && known(boat.SideDecks)) {
-            const allowed = { "Wide": ["Wide"], "Moderate+": ["Wide", "Moderate"], "Limited+": ["Wide", "Moderate", "Limited"], "Narrow+": ["Wide", "Moderate", "Limited", "Narrow"], "None": ["None"] }[profile.sideDecks];
-            if (allowed && !allowed.includes(boat.SideDecks)) reasons.push("side-decks");
+        const actualSideDecks = boat.SideDecksCode || boat.SideDecks;
+        if (profile.sideDecks && known(actualSideDecks)) {
+            const allowed = { "Wide": ["wide"], "Moderate+": ["wide", "moderate"], "Limited+": ["wide", "moderate", "limited"], "Narrow+": ["wide", "moderate", "limited", "narrow"], "None": ["none"] }[profile.sideDecks];
+            const actual = normalizeText(canonicalComparable(actualSideDecks));
+            if (allowed && !allowed.includes(actual)) reasons.push("side-decks");
         }
         if (profile.trailerable && known(boat.Trailerable)) {
             const actual = booleanLike(boat.Trailerable, ["yes", "true", "trailerable"]);

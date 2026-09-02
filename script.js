@@ -167,7 +167,12 @@ function applySearchSettingsToControls(settings) {
         const wanted = new Set((selected || []).map(String));
         document.querySelectorAll(selector).forEach(element => { element.checked = wanted.has(String(element.value)); });
     };
-    setValue("textSearch", values.textSearch || ""); setValue("minLength", values.minLength ?? ""); setValue("maxLength", values.maxLength ?? ""); setValue("minBeam", values.minBeam ?? ""); setValue("maxBeam", values.maxBeam ?? "");
+    const displayLengthInput = value => {
+        if (value === undefined || value === null || value === "") return "";
+        const profile = window.BAtlasCanonical?.getUnitProfile?.() || "imperial";
+        return profile === "metric" ? Number((Number(value) * 0.3048).toFixed(2)) : value;
+    };
+    setValue("textSearch", values.textSearch || ""); setValue("minLength", displayLengthInput(values.minLength)); setValue("maxLength", displayLengthInput(values.maxLength)); setValue("minBeam", displayLengthInput(values.minBeam)); setValue("maxBeam", displayLengthInput(values.maxBeam));
     setValue("flybridgeFilter", values.flybridge || ""); setValue("sideDeckFilter", values.sideDecks || ""); setValue("trailerFilter", values.trailerable || ""); setValue("loopFilter", values.greatLoop || "");
     setValue("crewComposition", values.crewComposition || ""); setValue("tallestCrewHeight", values.tallestCrewHeight ?? ""); setValue("guestFrequency", values.guestFrequency || "");
     setCheckedValues(".routeFilter", values.routes); setCheckedValues(".styleFilter", values.styles); setCheckedValues(".familyFilter", values.boatFamilies);
@@ -181,7 +186,12 @@ function applySearchSettingsToControls(settings) {
 function describeSearchProfile(settings) {
     const s = settings || {}; const lines = [];
     if (s.textSearch) lines.push(`Search: ${s.textSearch}`); if (s.routes?.length) lines.push(`Routes: ${s.routes.join(", ")}`);
-    if (s.minLength) lines.push(`Minimum length: ${s.minLength} ft`); if (s.maxLength) lines.push(`Maximum length: ${s.maxLength} ft`); if (s.minBeam) lines.push(`Minimum beam: ${s.minBeam} ft`); if (s.maxBeam) lines.push(`Maximum beam: ${s.maxBeam} ft`);
+    const fmtConstraint = value => {
+        if (value === undefined || value === null || value === "") return null;
+        const metres = Number(value) * 0.3048;
+        return window.BAtlasCanonical?.formatMeasurement?.(metres, "length", window.BAtlasCanonical.getUnitProfile()) || `${value} ft`;
+    };
+    if (s.minLength) lines.push(`Minimum length: ${fmtConstraint(s.minLength)}`); if (s.maxLength) lines.push(`Maximum length: ${fmtConstraint(s.maxLength)}`); if (s.minBeam) lines.push(`Minimum beam: ${fmtConstraint(s.minBeam)}`); if (s.maxBeam) lines.push(`Maximum beam: ${fmtConstraint(s.maxBeam)}`);
     if (s.fuels?.length) lines.push(`Fuel: ${s.fuels.join(", ")}`); if (s.boatFamilies?.length) lines.push(`Boat family: ${s.boatFamilies.join(", ")}`);
     if (s.configurations?.length) lines.push(`Sub-Family: ${s.configurations.join(", ")}`); if (s.hullTypes?.length) lines.push(`Hull behaviour: ${s.hullTypes.join(", ")}`);
     if (s.constructionMaterials?.length) lines.push(`Construction: ${s.constructionMaterials.join(", ")}`); if (s.propulsion?.length) lines.push(`Propulsion: ${s.propulsion.join(", ")}`);
@@ -207,119 +217,26 @@ function initMissionTemplates() { /* Retained startup hook; preset templates wer
 
 function evaluateMissionHardConstraint(boat, mission) {
 
-    let result = {
-        passed: true,
-        confidence: 100,
-        issues: []
+    let result = { passed: true, confidence: 100, issues: [] };
+    const canonicalFeet = (field, legacyField) => {
+        if (window.BAtlasCanonical) return window.BAtlasCanonical.feet(boat, field, [{ key: legacyField, unit: "ft" }]);
+        const value = boat?.[legacyField];
+        return value === undefined || value === null || value === "" ? null : Number(value);
     };
-
-
-    // Length Check
-
-    if (
-        boat.LOA_ft !== undefined &&
-        boat.LOA_ft !== "" &&
-        mission.MissionMaxLengthFt !== undefined &&
-        mission.MissionMaxLengthFt !== ""
-    ) {
-
-        if (Number(boat.LOA_ft) > Number(mission.MissionMaxLengthFt)) {
-
-            result.passed = false;
-
-            result.issues.push(
-                "Length exceeds mission limit"
-            );
-
-        }
-
-    } else {
-
-        result.confidence -= 10;
-
+    const checks = [
+        ["LOA", "LOA_ft", "MissionMaxLengthFt", "Length exceeds mission limit"],
+        ["Beam", "Beam_ft", "MissionMaxBeamFt", "Beam exceeds mission limit"],
+        ["Draft", "Draft_ft", "MissionMaxDraftFt", "Draft exceeds mission limit"],
+        ["AirDraft", "AirDraft_ft", "MissionMaxAirDraftFt", "Air draft exceeds mission limit"]
+    ];
+    for (const [canonicalField, legacyField, missionField, message] of checks) {
+        const actual = canonicalFeet(canonicalField, legacyField);
+        const limit = mission?.[missionField];
+        if (limit === undefined || limit === null || limit === "") continue;
+        if (actual === null || !Number.isFinite(Number(actual))) { result.confidence -= 10; continue; }
+        if (Number(actual) > Number(limit)) { result.passed = false; result.issues.push(message); }
     }
-
-
-    // Beam Check
-
-    if (
-        boat.Beam_ft !== undefined &&
-        boat.Beam_ft !== "" &&
-        mission.MissionMaxBeamFt !== undefined &&
-        mission.MissionMaxBeamFt !== ""
-    ) {
-
-        if (Number(boat.Beam_ft) > Number(mission.MissionMaxBeamFt)) {
-
-            result.passed = false;
-
-            result.issues.push(
-                "Beam exceeds mission limit"
-            );
-
-        }
-
-    } else {
-
-        result.confidence -= 10;
-
-    }
-
-
-    // Draft Check
-
-    if (
-        boat.Draft_ft !== undefined &&
-        boat.Draft_ft !== "" &&
-        mission.MissionMaxDraftFt !== undefined &&
-        mission.MissionMaxDraftFt !== ""
-    ) {
-
-        if (Number(boat.Draft_ft) > Number(mission.MissionMaxDraftFt)) {
-
-            result.passed = false;
-
-            result.issues.push(
-                "Draft exceeds mission limit"
-            );
-
-        }
-
-    } else {
-
-        result.confidence -= 10;
-
-    }
-
-
-    // Air Draft Check
-
-    if (
-        boat.AirDraft_ft !== undefined &&
-        boat.AirDraft_ft !== "" &&
-        mission.MissionMaxAirDraftFt !== undefined &&
-        mission.MissionMaxAirDraftFt !== ""
-    ) {
-
-        if (Number(boat.AirDraft_ft) > Number(mission.MissionMaxAirDraftFt)) {
-
-            result.passed = false;
-
-            result.issues.push(
-                "Air draft exceeds mission limit"
-            );
-
-        }
-
-    } else {
-
-        result.confidence -= 10;
-
-    }
-
-
     return result;
-
 }
 
 // ===========================================
@@ -3228,11 +3145,12 @@ function renderComparisonTable() {
         { label: "Search Fit Score", key: "search_fit_score" },
         { label: "Status", key: "status" },
         { label: "My Rating", key: "research_rating" },
-        { label: "LOA", key: "LOA_ft", suffix: " ft" },
-        { label: "Beam", key: "Beam_ft", suffix: " ft" },
-        { label: "Draft", key: "Draft_ft", suffix: " ft" },
-        { label: "Air Draft", key: "AirDraft_ft", suffix: " ft" },
-        { label: "Displacement", key: "Displacement_lb", suffix: " lb" },
+        { label: "LOA", key: "LOA", dimension: "length", legacy: [{key:"LOA_ft",unit:"ft"}] },
+        { label: "LWL", key: "LWL", dimension: "length", legacy: [{key:"LWL_ft",unit:"ft"}] },
+        { label: "Beam", key: "Beam", dimension: "length", legacy: [{key:"Beam_ft",unit:"ft"}] },
+        { label: "Draft", key: "Draft", dimension: "length", legacy: [{key:"Draft_ft",unit:"ft"}] },
+        { label: "Air Draft", key: "AirDraft", dimension: "length", legacy: [{key:"AirDraft_ft",unit:"ft"}] },
+        { label: "Displacement", key: "Displacement", dimension: "mass", legacy: [{key:"Displacement_lb",unit:"lb"}] },
         { label: "Hull Type", key: "HullType" },
         { label: "Boat Style", key: "Style" },
         { label: "Fuel Type", key: "Fuel" },
@@ -3240,9 +3158,9 @@ function renderComparisonTable() {
         { label: "Flybridge", key: "Flybridge" },
         { label: "Aft Cabin", key: "AftCabin" },
         { label: "Side Decks", key: "SideDecks" },
-        { label: "Fuel Capacity", key: "FuelCapacity", suffix: " gal" },
-        { label: "Water Capacity", key: "WaterCapacity", suffix: " gal" },
-        { label: "Holding Capacity", key: "HoldingCapacity", suffix: " gal" },
+        { label: "Fuel Capacity", key: "FuelCapacity", volumeLegacy: "FuelCapacityGal" },
+        { label: "Water Capacity", key: "WaterCapacity", volumeLegacy: "WaterCapacityGal" },
+        { label: "Holding Capacity", key: "HoldingCapacity", volumeLegacy: "HoldingCapacityGal" },
         { label: "Berths", key: "Berths" },
         { label: "Cabins", key: "Cabins" },
         { label: "Heads", key: "Heads" },
@@ -3305,6 +3223,10 @@ function renderComparisonTable() {
                 } else {
                     val = "<em>No notebook notes yet</em>";
                 }
+            } else if (row.dimension && window.BAtlasCanonical) {
+                val = window.BAtlasCanonical.formatBoatMeasurement(boat, row.key, row.dimension, row.legacy || [], window.BAtlasCanonical.getUnitProfile()) || "Unknown";
+            } else if (row.volumeLegacy && window.BAtlasCanonical) {
+                val = window.BAtlasCanonical.formatUnverifiedVolume(boat, row.key, row.volumeLegacy) || "Unknown";
             } else {
                 let rawVal = boat[row.key];
                 if (rawVal === undefined || rawVal === null || rawVal === "") {
@@ -3370,6 +3292,43 @@ if (typeof document !== "undefined") {
         if (boat && window.BScoutBoatWorkspace) window.BScoutBoatWorkspace.open(boat, "overview");
     });
 }
+
+// v6.45 measurement profile
+function initUnitProfileControl() {
+    const select = document.getElementById("unitProfileSelect");
+    if (!select || !window.BAtlasCanonical) return;
+    const refreshLabels = () => {
+        const profile = window.BAtlasCanonical.getUnitProfile();
+        select.value = profile;
+        document.documentElement.dataset.unitProfile = profile;
+        const metric = profile === "metric";
+        document.querySelectorAll('[data-unit-input="length"]').forEach(input => {
+            const guided = input.dataset.mirrorId;
+            if (guided) input.placeholder = metric ? (guided.toLowerCase().includes("beam") ? "Metres, e.g. 3.2" : "Metres") : (guided.toLowerCase().includes("beam") ? "Feet, e.g. 10.5" : "Feet");
+        });
+    };
+    refreshLabels();
+    select.addEventListener("change", () => {
+        const previous = window.BAtlasCanonical.getUnitProfile();
+        const next = select.value;
+        const previousMetric = previous === "metric";
+        const nextMetric = next === "metric";
+        if (previousMetric !== nextMetric) {
+            document.querySelectorAll('[data-unit-input="length"]').forEach(input => {
+                const raw = Number(String(input.value || "").replace(",", "."));
+                if (!Number.isFinite(raw)) return;
+                const converted = nextMetric ? raw * 0.3048 : raw / 0.3048;
+                input.value = String(Number(converted.toFixed(2)));
+            });
+        }
+        window.BAtlasCanonical.setUnitProfile(next);
+        refreshLabels();
+        if (window.BScoutBoatWorkspace?.refreshActiveTab) window.BScoutBoatWorkspace.refreshActiveTab();
+        if (document.getElementById("comparisonModal")?.style.display === "block") renderComparisonTable();
+        updateSearchProfileSummary();
+    });
+}
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initUnitProfileControl); else initUnitProfileControl();
 
 // Ownership bridge: expose current listing context without changing listing behaviour.
 if (typeof window !== "undefined") {

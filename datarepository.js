@@ -61,9 +61,13 @@
         const lengthPairs = [["LOA","LOA_ft"],["LWL","LWL_ft"],["Beam","Beam_ft"],["Draft","Draft_ft"],["AirDraft","AirDraft_ft"],["Headroom","Headroom_ft"]];
         for (const [canonical, legacy] of lengthPairs) if (Number.isFinite(Number(out[canonical])) && c) out[legacy] = c.fromCanonical(Number(out[canonical]), "ft");
         if (Number.isFinite(Number(out.Displacement)) && c) out.Displacement_lb = c.fromCanonical(Number(out.Displacement), "lb");
-        if (Number.isFinite(Number(out.FuelCapacity)) && c) out.FuelCapacityGal = c.fromCanonical(Number(out.FuelCapacity), "us_gal");
-        if (Number.isFinite(Number(out.WaterCapacity)) && c) out.WaterCapacityGal = c.fromCanonical(Number(out.WaterCapacity), "us_gal");
-        if (Number.isFinite(Number(out.HoldingCapacity)) && c) out.HoldingCapacityGal = c.fromCanonical(Number(out.HoldingCapacity), "us_gal");
+        // Capacity fields predate the SI canonical migration and contain mixed unit semantics.
+        // Never synthesize gallon values unless the record explicitly declares its canonical unit state.
+        for (const key of ["FuelCapacity","WaterCapacity","HoldingCapacity"]) {
+            if (out[`${key}UnitStatus`] === "canonical_litres" && Number.isFinite(Number(out[key])) && c) {
+                out[`${key}Gal`] = c.fromCanonical(Number(out[key]), "us_gal");
+            }
+        }
         const enumPairs = [["FuelCode","NormalizedFuel"],["PropulsionCode","NormalizedPropulsion"],["HullBehaviourCode","HullBehaviour"],["BoatFamilyCode","BoatFamily"],["RudderTypeCode","RudderType"],["KeelConfigurationCode","KeelConfiguration"],["SideDecksCode","SideDecks"],["ShowerTypeCode","ShowerType"]];
         for (const [canonical, legacy] of enumPairs) if (out[canonical] !== undefined && out[canonical] !== null) out[legacy] = out[canonical];
         if (!out.PropulsionCode && out.MechanicalPropulsionCode) out.PropulsionCode = out.MechanicalPropulsionCode;
