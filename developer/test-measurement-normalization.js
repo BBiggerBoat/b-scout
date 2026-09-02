@@ -8,6 +8,6 @@ assert.strictEqual(c.formatMeasurement(9.144,'length','metric'),'9.14 m');
 assert.strictEqual(c.formatMeasurement(9.144,'length','both'),'30′ 0″ / 9.14 m');
 assert.strictEqual(c.formatMeasurement(378.5411784,'volume','imperial'),'100 US gal');
 assert.strictEqual(c.formatBoatMeasurement({LWL_ft:25},'LWL','length',[{key:'LWL_ft',unit:'ft'}],'metric'),'7.62 m');
-assert.strictEqual(c.formatUnverifiedVolume({FuelCapacity:100,FuelCapacityGal:100,FuelCapacityUnitStatus:'legacy_gallon_basis_unverified'},'FuelCapacity','FuelCapacityGal'),'100 gal (US/Imperial basis unverified)');
-c.setUnitProfile('metric'); assert.strictEqual(c.getUnitProfile(),'metric');
+assert.strictEqual(c.formatUnverifiedVolume({FuelCapacity:100,FuelCapacityGal:100,FuelCapacityUnitStatus:'legacy_gallon_basis_unverified'},'FuelCapacity','FuelCapacityGal'),'100 gal (basis unverified) / metric not verified');
+c.setUnitProfile('metric'); assert.strictEqual(c.getUnitProfile(),'both');
 console.log('measurement normalization tests passed');

@@ -189,7 +189,7 @@ function describeSearchProfile(settings) {
     const fmtConstraint = value => {
         if (value === undefined || value === null || value === "") return null;
         const metres = Number(value) * 0.3048;
-        return window.BAtlasCanonical?.formatMeasurement?.(metres, "length", window.BAtlasCanonical.getUnitProfile()) || `${value} ft`;
+        return window.BAtlasCanonical?.formatMeasurement?.(metres, "length", "both") || `${value} ft`;
     };
     if (s.minLength) lines.push(`Minimum length: ${fmtConstraint(s.minLength)}`); if (s.maxLength) lines.push(`Maximum length: ${fmtConstraint(s.maxLength)}`); if (s.minBeam) lines.push(`Minimum beam: ${fmtConstraint(s.minBeam)}`); if (s.maxBeam) lines.push(`Maximum beam: ${fmtConstraint(s.maxBeam)}`);
     if (s.fuels?.length) lines.push(`Fuel: ${s.fuels.join(", ")}`); if (s.boatFamilies?.length) lines.push(`Boat family: ${s.boatFamilies.join(", ")}`);
@@ -3224,7 +3224,7 @@ function renderComparisonTable() {
                     val = "<em>No notebook notes yet</em>";
                 }
             } else if (row.dimension && window.BAtlasCanonical) {
-                val = window.BAtlasCanonical.formatBoatMeasurement(boat, row.key, row.dimension, row.legacy || [], window.BAtlasCanonical.getUnitProfile()) || "Unknown";
+                val = window.BAtlasCanonical.formatBoatMeasurement(boat, row.key, row.dimension, row.legacy || [], "both") || "Unknown";
             } else if (row.volumeLegacy && window.BAtlasCanonical) {
                 val = window.BAtlasCanonical.formatUnverifiedVolume(boat, row.key, row.volumeLegacy) || "Unknown";
             } else {
@@ -3293,43 +3293,7 @@ if (typeof document !== "undefined") {
     });
 }
 
-// v6.45 measurement profile
-function initUnitProfileControl() {
-    const select = document.getElementById("unitProfileSelect");
-    if (!select || !window.BAtlasCanonical) return;
-    const refreshLabels = () => {
-        const profile = window.BAtlasCanonical.getUnitProfile();
-        select.value = profile;
-        document.documentElement.dataset.unitProfile = profile;
-        const metric = profile === "metric";
-        document.querySelectorAll('[data-unit-input="length"]').forEach(input => {
-            const guided = input.dataset.mirrorId;
-            if (guided) input.placeholder = metric ? (guided.toLowerCase().includes("beam") ? "Metres, e.g. 3.2" : "Metres") : (guided.toLowerCase().includes("beam") ? "Feet, e.g. 10.5" : "Feet");
-        });
-    };
-    refreshLabels();
-    select.addEventListener("change", () => {
-        const previous = window.BAtlasCanonical.getUnitProfile();
-        const next = select.value;
-        const previousMetric = previous === "metric";
-        const nextMetric = next === "metric";
-        if (previousMetric !== nextMetric) {
-            document.querySelectorAll('[data-unit-input="length"]').forEach(input => {
-                const raw = Number(String(input.value || "").replace(",", "."));
-                if (!Number.isFinite(raw)) return;
-                const converted = nextMetric ? raw * 0.3048 : raw / 0.3048;
-                input.value = String(Number(converted.toFixed(2)));
-            });
-        }
-        window.BAtlasCanonical.setUnitProfile(next);
-        refreshLabels();
-        if (window.BScoutBoatWorkspace?.refreshActiveTab) window.BScoutBoatWorkspace.refreshActiveTab();
-        if (document.getElementById("comparisonModal")?.style.display === "block") renderComparisonTable();
-        updateSearchProfileSummary();
-    });
-}
-if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initUnitProfileControl); else initUnitProfileControl();
-
+// v6.64 display units are always Imperial / Metric. Plan input units remain explicit at the input context.
 // Ownership bridge: expose current listing context without changing listing behaviour.
 if (typeof window !== "undefined") {
     Object.defineProperty(window, "activeListingId", { configurable: true, get: () => activeListingId });

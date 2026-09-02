@@ -3113,3 +3113,57 @@ body{padding-top:82px!important;}
   .contribution-type-grid{grid-template-columns:1fr!important;}
   .contribution-type-card{min-height:0!important;}
 }
+
+/* =====================================================
+   v6.63 MODEL KNOWLEDGE SCORE
+===================================================== */
+.workspace-knowledge-score { grid-column:1/-1; padding:22px; }
+.knowledge-score-layout { display:grid; grid-template-columns:150px minmax(0,1fr); gap:24px; align-items:center; }
+.knowledge-score-gauge { --score-accent:#64748b; width:132px; height:132px; border-radius:50%; display:grid; place-items:center; background:conic-gradient(var(--score-accent) calc(var(--knowledge-score) * 1%), #e2e8f0 0); position:relative; }
+.knowledge-score-gauge::after { content:""; position:absolute; inset:11px; border-radius:50%; background:#fff; }
+.knowledge-score-gauge-inner { position:relative; z-index:1; display:flex; align-items:flex-end; justify-content:center; gap:2px; line-height:1; }
+.knowledge-score-gauge-inner strong { font-size:40px; color:#0f172a; letter-spacing:-.04em; }
+.knowledge-score-gauge-inner span { font-size:17px; font-weight:700; color:#64748b; padding-bottom:5px; }
+.workspace-knowledge-score[data-score-tier="developing"] .knowledge-score-gauge { --score-accent:#64748b; }
+.workspace-knowledge-score[data-score-tier="good"] .knowledge-score-gauge { --score-accent:#3b82a0; }
+.workspace-knowledge-score[data-score-tier="strong"] .knowledge-score-gauge { --score-accent:#2563eb; }
+.workspace-knowledge-score[data-score-tier="excellent"] .knowledge-score-gauge,
+.workspace-knowledge-score[data-score-tier="complete"] .knowledge-score-gauge { --score-accent:#2f7d5c; }
+.knowledge-score-copy h3 { margin:2px 0 8px; font-size:24px; }
+.knowledge-score-copy p { margin:0 0 14px; color:#475569; max-width:760px; }
+.knowledge-score-goal,.knowledge-score-evidence { display:flex; flex-wrap:wrap; align-items:baseline; gap:7px 12px; margin-top:7px; }
+.knowledge-score-goal span,.knowledge-score-evidence span { color:#64748b; font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; }
+.knowledge-score-goal strong,.knowledge-score-evidence strong { color:#1e293b; }
+.knowledge-score-evidence small { flex-basis:100%; color:#64748b; }
+.knowledge-score-opportunities { margin-top:20px; padding-top:18px; border-top:1px solid #e2e8f0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
+.knowledge-score-opportunity-heading { grid-column:1/-1; display:flex; align-items:baseline; justify-content:space-between; gap:18px; margin-bottom:2px; }
+.knowledge-score-opportunity-heading span { color:#64748b; font-size:13px; }
+.knowledge-score-opportunity { width:100%; display:flex; justify-content:space-between; align-items:center; gap:14px; min-height:58px; padding:10px 12px; border:1px solid #cbd5e1; border-radius:7px; background:#fff; color:#1e293b; text-align:left; box-shadow:none; }
+.knowledge-score-opportunity:hover { border-color:#2563eb; background:#f8fbff; }
+.knowledge-score-opportunity span { display:flex; flex-direction:column; gap:3px; min-width:0; }
+.knowledge-score-opportunity strong { font-size:14px; }
+.knowledge-score-opportunity small { color:#64748b; font-weight:500; }
+.knowledge-score-opportunity b { min-width:36px; padding:5px 8px; border-radius:999px; background:#e8f1ff; color:#0f4c81; text-align:center; font-size:13px; }
+.knowledge-score-principle { margin:15px 0 0; color:#64748b; font-size:13px; }
+.workspace-missing-contribution { margin-left:7px; padding:0; border:0; background:transparent; color:#0f4c81; font:inherit; font-size:12px; font-weight:700; text-decoration:underline; text-underline-offset:2px; cursor:pointer; }
+.workspace-fact .workspace-missing-contribution { display:block; margin:4px 0 0; text-align:left; }
+.knowledge-score-opportunity.workspace-missing-contribution { margin:0; padding:10px 12px; border:1px solid #cbd5e1; text-decoration:none; font-size:inherit; }
+@media (max-width:700px) {
+  .knowledge-score-layout { grid-template-columns:1fr; }
+  .knowledge-score-gauge { width:116px; height:116px; }
+  .knowledge-score-opportunities { grid-template-columns:1fr; }
+  .knowledge-score-opportunity-heading { flex-direction:column; gap:3px; }
+}
+
+/* v6.64 — clearer Accommodation/Systems hierarchy */
+.workspace-fact-group + .workspace-fact-group { margin-top:20px; }
+.workspace-fact-group-title {
+  margin:0 0 9px;
+  padding:0 0 6px;
+  border-bottom:1px solid #dbe4ec;
+  color:#334155;
+  font-size:13px;
+  font-weight:750;
+  letter-spacing:.035em;
+  text-transform:uppercase;
+}

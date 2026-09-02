@@ -8,6 +8,7 @@
     let localeMessages = {};
     let returnContext = { source: "global" };
     let selectedType = null;
+    let scoreImpact = null;
     const COMMUNITY_API_BASE = "https://api.b-atlas.org";
 
     const STORAGE_KEY = "bscoutPendingContributionsV1";
@@ -113,13 +114,13 @@
         if (!model?.data || !field) return undefined;
         if (field.type === "measurement") {
             const direct = Number(model.data[field.id]);
-            if (Number.isFinite(direct)) return globalThis.BAtlasCanonical?.formatMeasurement(direct, field.dimension, "imperial") || direct;
+            if (Number.isFinite(direct)) return globalThis.BAtlasCanonical?.formatMeasurement(direct, field.dimension, "both") || direct;
             for (const legacy of (field.legacyMeasurements || [])) {
                 const raw = model.data[legacy.key];
                 if (raw === undefined || raw === null || raw === "") continue;
                 if (legacy.unit === "gal_unknown") return `${raw} gal (source gallon type unresolved)`;
                 const canonical = globalThis.BAtlasCanonical?.toCanonical(raw, legacy.unit);
-                if (canonical !== null && canonical !== undefined) return globalThis.BAtlasCanonical?.formatMeasurement(canonical, field.dimension, "imperial") || raw;
+                if (canonical !== null && canonical !== undefined) return globalThis.BAtlasCanonical?.formatMeasurement(canonical, field.dimension, "both") || raw;
             }
             return undefined;
         }
@@ -142,7 +143,7 @@
                 const labels = {m:"metres",ft:"feet",in:"inches",kg:"kilograms",lb:"pounds",L:"litres",us_gal:"US gallons",imp_gal:"Imperial gallons",kW:"kW",hp:"hp",kn:"knots",nm:"nautical miles"};
                 return `<option value="${escapeHtml(unit)}">${escapeHtml(labels[unit] || unit)}</option>`;
             }).join("");
-            return `<div class="contribution-measurement-input"><input id="correctionProposedValue" name="ProposedValue" type="number" step="any" inputmode="decimal" required><select id="correctionProposedUnit" name="ProposedUnit" required>${units}</select></div>`;
+            return `<div class="contribution-measurement-input"><input id="correctionProposedValue" name="ProposedValue" type="number" step="any" inputmode="decimal" required><select id="correctionProposedUnit" name="ProposedUnit" required><option value="">Choose unit</option>${units}</select></div>`;
         }
         if (field.type === "enum") {
             const opts = (field.options || []).map(option => `<option value="${escapeHtml(option.code)}">${escapeHtml(tr(option.labelKey, option.code))}</option>`).join("");
@@ -495,7 +496,10 @@
         groups.hidden = true;
         panel.hidden = false;
         $("contributionFormTitle").textContent = type.label;
-        $("contributionFormIntro").textContent = "Share only what you know. Year, variant and attribution stay optional unless they are useful to the contribution.";
+        const impactText = scoreImpact && Number.isFinite(scoreImpact.from) && Number.isFinite(scoreImpact.to) && scoreImpact.to > scoreImpact.from
+            ? ` If verified, this contribution could raise this model's Knowledge Score from ${scoreImpact.from}% to ${scoreImpact.to}%.`
+            : "";
+        $("contributionFormIntro").textContent = "Share only what you know. Year, variant and attribution stay optional unless they are useful to the contribution." + impactText;
         form.innerHTML = renderers[type.id]() + submitArea();
         formOpenedAt = Date.now();
         bindDynamicFields();
@@ -1021,9 +1025,11 @@
         if (message) {
             message.hidden = false;
             const reviewLink = root.BScoutModeratorAccess?.enabled?.() ? `<a class="contribution-review-link" href="developer/contribution-review.html?contribution=${encodeURIComponent(record.ContributionID)}">Open Moderator Review →</a>` : "";
+            const impactResult = scoreImpact && Number.isFinite(scoreImpact.from) && Number.isFinite(scoreImpact.to) && scoreImpact.to > scoreImpact.from
+              ? `<span>If verified and accepted into the canonical Guide, this could move the model's Knowledge Score from <strong>${scoreImpact.from}%</strong> to <strong>${scoreImpact.to}%</strong>.</span>` : "";
             message.innerHTML = sharedResult
-              ? `<strong>Contribution submitted.</strong><span>It has been added to B-Atlas's shared moderation queue as contribution ${escapeHtml(record.ContributionID)}.</span>${reviewLink}`
-              : `<strong>Contribution saved locally.</strong><span>The shared B-Atlas service is not available, so this contribution remains only in this browser's fallback queue. Pending local records: ${count}.</span>${reviewLink}`;
+              ? `<strong>Contribution submitted.</strong><span>It has been added to B-Atlas's shared moderation queue as contribution ${escapeHtml(record.ContributionID)}.</span>${impactResult}${reviewLink}`
+              : `<strong>Contribution saved locally.</strong><span>The shared B-Atlas service is not available, so this contribution remains only in this browser's fallback queue. Pending local records: ${count}.</span>${impactResult}${reviewLink}`;
             message.scrollIntoView({ behavior:"smooth", block:"nearest" });
         }
     }
@@ -1056,6 +1062,7 @@
     async function open(context = {}, options = {}) {
         returnContext = Object.assign({ source: "global" }, context);
         selectedType = null;
+        scoreImpact = options.impact || null;
         if (options.history !== false && root.history?.pushState) root.history.pushState({ bscoutView: "contribute", contributionSource: returnContext.source }, "");
         hidePrimaryViews();
         const view = $("contributionView");

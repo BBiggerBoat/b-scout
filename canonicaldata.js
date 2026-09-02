@@ -13,12 +13,10 @@ function feet(row,key,legacy){const m=canonicalMeasurement(row,key,legacy);retur
 function inches(row,key,legacy){const m=canonicalMeasurement(row,key,legacy);return m===null?null:fromCanonical(m,"in");}
 function enumCode(row,key,legacyKeys){const direct=first(row,[key]);if(direct!==null)return String(direct);return first(row,legacyKeys||[]);}
 function formatFeetInches(m){const total=fromCanonical(m,"in");if(total===null)return null;let rounded=Math.round(total);let ft=Math.floor(rounded/12),inch=rounded-ft*12;if(inch===12){ft++;inch=0;}return `${ft}′ ${inch}″`;}
-function getUnitProfile(){
- try{const saved=global.localStorage?.getItem(UNIT_PROFILE_KEY);return VALID_PROFILES.has(saved)?saved:"imperial";}catch{return "imperial";}
-}
+function getUnitProfile(){ return "both"; }
 function setUnitProfile(profile){
- const next=VALID_PROFILES.has(profile)?profile:"imperial";
- try{global.localStorage?.setItem(UNIT_PROFILE_KEY,next);}catch{}
+ const next="both";
+ try{global.localStorage?.removeItem(UNIT_PROFILE_KEY);}catch{}
  if(global.document){global.document.documentElement.dataset.unitProfile=next;global.document.dispatchEvent(new CustomEvent("batlas:unitprofilechange",{detail:{profile:next}}));}
  return next;
 }
@@ -64,7 +62,7 @@ function formatUnverifiedVolume(row,key,legacyKey){
  if(status==="source_us_gal" && legacy!==null)return formatMeasurement(toCanonical(legacy,"us_gal"),"volume",getUnitProfile());
  if(status==="source_imp_gal" && legacy!==null)return formatMeasurement(toCanonical(legacy,"imp_gal"),"volume",getUnitProfile());
  if(status==="conflicting_legacy_capacity_values")return "Conflicting capacity values — verify source units";
- if(legacy!==null)return `${legacy.toLocaleString()} gal (US/Imperial basis unverified)`;
+ if(legacy!==null)return `${legacy.toLocaleString()} gal (basis unverified) / metric not verified`;
  if(canonical!==null)return `${canonical.toLocaleString()} (unit unverified)`;
  return null;
 }

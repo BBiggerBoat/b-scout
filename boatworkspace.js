@@ -79,7 +79,7 @@
     }
 
 
-    function unitProfile(){ return root.BAtlasCanonical?.getUnitProfile?.() || "imperial"; }
+    function unitProfile(){ return "both"; }
     function measure(boat,key,dimension,legacy){
         return root.BAtlasCanonical?.formatBoatMeasurement?.(boat,key,dimension,legacy||[],unitProfile()) || null;
     }
@@ -96,6 +96,41 @@
             ? `<button type="button" class="workspace-missing-contribution" data-contribute-field="${esc(contributionFieldId)}">Know this? Add it</button>`
             : "";
         return `<div class="workspace-fact${!hasValue ? " is-unknown" : ""}"><strong>${esc(label)}</strong><span>${hasValue ? `${esc(value)}${suffix || ""}` : "Unknown"}${missingAction}</span></div>`;
+    }
+    function knowledgeScore() {
+        return root.BAtlasModelKnowledgeScore?.scoreModel?.(currentBoat) || null;
+    }
+    function contributionPrompt(fieldId) {
+        if (/^Headroom|VBerthLength$/.test(fieldId)) return "Measure yours";
+        if (["LOA","LWL","Beam","Draft","AirDraft","Displacement","FuelCapacity","WaterCapacity","HoldingCapacity"].includes(fieldId)) return "Add a measurement";
+        return "Add what you know";
+    }
+    function renderKnowledgeScoreCard(options = {}) {
+        const scoreData = knowledgeScore();
+        if (!scoreData) return "";
+        const coverage = getKnowledge()?.Coverage || null;
+        const evidence = root.BAtlasModelKnowledgeScore?.evidenceStrength?.(coverage, currentBoat) || {label:"Not yet verified",detail:"No verified sources attached"};
+        const opportunities = scoreData.opportunities.slice(0, options.limit || 4);
+        const goalText = scoreData.score >= 100
+            ? "This model has reached the current B-Atlas knowledge goal. New evidence can still improve verification and resolve model-year differences."
+            : `${scoreData.goal.points} point${scoreData.goal.points===1?"":"s"} to ${scoreData.goal.label}. Owners and researchers can help close the most useful gaps.`;
+        const opportunityHtml = opportunities.length ? `<div class="knowledge-score-opportunities"><div class="knowledge-score-opportunity-heading"><strong>Help improve this model</strong><span>${scoreData.missing.length} scored fact${scoreData.missing.length===1?"":"s"} still need help</span></div>${opportunities.map(item => `<button type="button" class="knowledge-score-opportunity workspace-missing-contribution" data-contribute-field="${esc(item.id)}" data-score-from="${scoreData.score}" data-score-to="${item.projectedScore}"><span><strong>${esc(item.label)}</strong><small>${esc(contributionPrompt(item.id))}</small></span><b>+${item.impact}</b></button>`).join("")}</div>` : "";
+        return `<section class="workspace-card workspace-knowledge-score" data-score-tier="${esc(scoreData.tier.id)}">
+            <div class="knowledge-score-layout">
+                <div class="knowledge-score-gauge" role="img" aria-label="Model Knowledge Score ${scoreData.score} percent, ${esc(scoreData.tier.label)}" style="--knowledge-score:${Number(scoreData.score)}">
+                    <div class="knowledge-score-gauge-inner"><strong>${scoreData.score}</strong><span>%</span></div>
+                </div>
+                <div class="knowledge-score-copy">
+                    <span class="workspace-label">Model Knowledge Score</span>
+                    <h3>${esc(scoreData.tier.label)} knowledge</h3>
+                    <p>${esc(goalText)}</p>
+                    <div class="knowledge-score-goal"><span>Community goal</span><strong>${scoreData.score >= 100 ? "Maintain 100%" : `${scoreData.goal.target}% — ${esc(scoreData.goal.label)}`}</strong></div>
+                    <div class="knowledge-score-evidence"><span>Evidence strength</span><strong>${esc(evidence.label)}</strong><small>${esc(evidence.detail)}</small></div>
+                </div>
+            </div>
+            ${opportunityHtml}
+            <p class="knowledge-score-principle">Unknown information keeps a model in consideration. Contributions improve the shared record; evidence quality is tracked separately from completeness.</p>
+        </section>`;
     }
     function textList(items, emptyText) {
         const values = arr(items).filter(Boolean);
@@ -201,16 +236,12 @@
                 <p>${esc(boat.TypicalMission || "Mission fit has not been documented.")}</p>
             </section>
             <section class="workspace-card"><h3>Quick Specifications</h3><div class="workspace-fact-grid">
-                ${field("LOA", measure(boat,"LOA","length",[{key:"LOA_ft",unit:"ft"},{key:"LengthFt",unit:"ft"}]))}${field("LWL", measure(boat,"LWL","length",[{key:"LWL_ft",unit:"ft"}]))}${field("Beam", measure(boat,"Beam","length",[{key:"Beam_ft",unit:"ft"},{key:"BeamFt",unit:"ft"}]))}${field("Draft", measure(boat,"Draft","length",[{key:"Draft_ft",unit:"ft"},{key:"DraftFt",unit:"ft"}]))}${field("Air Draft", measure(boat,"AirDraft","length",[{key:"AirDraft_ft",unit:"ft"}]))}
+                ${field("LOA", measure(boat,"LOA","length",[{key:"LOA_ft",unit:"ft"},{key:"LengthFt",unit:"ft"}]), "", "LOA")}${field("LWL", measure(boat,"LWL","length",[{key:"LWL_ft",unit:"ft"}]), "", "LWL")}${field("Beam", measure(boat,"Beam","length",[{key:"Beam_ft",unit:"ft"},{key:"BeamFt",unit:"ft"}]), "", "Beam")}${field("Draft", measure(boat,"Draft","length",[{key:"Draft_ft",unit:"ft"},{key:"DraftFt",unit:"ft"}]), "", "Draft")}${field("Air Draft", measure(boat,"AirDraft","length",[{key:"AirDraft_ft",unit:"ft"}]), "", "AirDraft")}
                 ${field("Fuel", boat.Fuel)}${field("Propulsion", boat.Propulsion)}${boat.RarityScore != null ? field("Rarity", `${boat.RarityScore}/5${boat.RarityLabel ? ` — ${boat.RarityLabel}` : ""}`) : ""}${boat.PriceLevel != null ? field("Price Level", `${boat.PriceLevel}/5${boat.PriceLevelLabel ? ` — ${boat.PriceLevelLabel}` : ""}`) : ""}
             </div></section>
             <section class="workspace-card"><h3>Why it remains a candidate</h3>${textList(positives, "No confirmed strengths have been recorded.")}</section>
             <section class="workspace-card"><h3>Cautions and unknowns</h3>${textList([...arr(cautions), ...arr(conflicts)], "No cautions have been recorded.")}</section>
-            <section class="workspace-card workspace-coverage-summary"><h3>Knowledge confidence</h3>
-                <div class="workspace-progress-line"><span style="width:${Number(coverage?.OverallScore || 0)}%"></span></div>
-                <strong>${coverage?.OverallScore ?? 0}% structural coverage</strong>
-                <p>${coverage?.VerifiedSourceCount || 0} verified source${coverage?.VerifiedSourceCount === 1 ? "" : "s"}; unknown information does not eliminate the model.</p>
-            </section>
+            ${renderKnowledgeScoreCard({limit:4})}
         </div>`;
     }
 
@@ -223,7 +254,7 @@
                 : fact.FieldID === "Displacement" ? "mass"
                 : ["FuelCapacity","WaterCapacity","HoldingCapacity"].includes(fact.FieldID) ? "volume"
                 : ["EnginePowerPerEngine"].includes(fact.FieldID) ? "power" : null;
-            if (dimension) return root.BAtlasCanonical.formatMeasurement(value, dimension, "imperial");
+            if (dimension) return root.BAtlasCanonical.formatMeasurement(value, dimension, "both");
         }
         return String(value).includes(".") ? humanCode(value) : String(value);
     }
@@ -260,37 +291,52 @@
         return `<div class="workspace-section-stack">
             <section class="workspace-card"><h3>Identity</h3><div class="workspace-fact-grid">
                 ${field("Manufacturer", boat.Manufacturer)}${field("Model", boat.Model)}${field("Variant", boat.Variant)}${field("Production Years", `${boat.FirstYear || "?"}–${boat.LastYear || "?"}`)}
-                ${field("Designer", boat.Designer)}${field("Boat Model ID", boat.BoatModelID)}
+                ${field("Designer", boat.Designer, "", "Designer")}${field("Boat Model ID", boat.BoatModelID)}
             </div></section>
             ${renderProductionPhases()}
             <section class="workspace-card"><h3>Hull and Propulsion</h3><div class="workspace-fact-grid">
-                ${field("Vessel Category", displayCanonical(boat, "VesselCategoryCode"))}
+                ${field("Vessel Category", displayCanonical(boat, "VesselCategoryCode"), "", "VesselCategoryCode")}
                 ${field("Style", displayCanonical(boat, "StyleCode", ["Style","NormalizedStyle"]))}
-                ${field("Hull Form", displayCanonical(boat, "HullBehaviourCode", ["HullType","NormalizedHullForm"]))}
-                ${field("Hull Configuration", displayCanonical(boat, "HullConfigurationCode", ["NormalizedHullConfiguration"]))}
-                ${field("Keel Configuration", displayCanonical(boat, "KeelConfigurationCode", ["KeelConfiguration","KeelType"]))}
-                ${field("Rudder", displayCanonical(boat, "RudderTypeCode", ["RudderType"]))}
-                ${field("Construction", boat.Construction)}
-                ${field("Fuel", displayCanonical(boat, "FuelCode", ["Fuel"]))}
-                ${field("Primary Propulsion", displayCanonical(boat, "PrimaryPropulsionModeCode"))}
-                ${field("Mechanical Propulsion", displayCanonical(boat, "MechanicalPropulsionCode", ["PropulsionCode","Propulsion","NormalizedPropulsion"]))}
+                ${field("Hull Form", displayCanonical(boat, "HullBehaviourCode", ["HullType","NormalizedHullForm"]), "", "HullBehaviourCode")}
+                ${field("Hull Configuration", displayCanonical(boat, "HullConfigurationCode", ["NormalizedHullConfiguration"]), "", "HullConfigurationCode")}
+                ${field("Keel Configuration", displayCanonical(boat, "KeelConfigurationCode", ["KeelConfiguration","KeelType"]), "", "KeelConfigurationCode")}
+                ${field("Rudder", displayCanonical(boat, "RudderTypeCode", ["RudderType"]), "", "RudderTypeCode")}
+                ${field("Construction", boat.Construction, "", "Construction")}
+                ${field("Fuel", displayCanonical(boat, "FuelCode", ["Fuel"]), "", "FuelCode")}
+                ${field("Primary Propulsion", displayCanonical(boat, "PrimaryPropulsionModeCode"), "", "PrimaryPropulsionModeCode")}
+                ${field("Mechanical Propulsion", displayCanonical(boat, "MechanicalPropulsionCode", ["PropulsionCode","Propulsion","NormalizedPropulsion"]), "", "MechanicalPropulsionCode")}
                 ${boat.RarityScore != null ? field("Rarity", `${boat.RarityScore}/5${boat.RarityLabel ? ` — ${boat.RarityLabel}` : ""}`) : ""}
                 ${boat.PriceLevel != null ? field("Price Level", `${boat.PriceLevel}/5${boat.PriceLevelLabel ? ` — ${boat.PriceLevelLabel}` : ""}`) : ""}
                 ${field("Flybridge", displayCanonical(boat, "FlybridgeCode", ["Flybridge"]))}
                 ${field("Side Decks", displayCanonical(boat, "SideDecksCode", ["SideDecks"]))}
             </div></section>
-            <section class="workspace-card"><h3>Accommodation and Systems</h3><div class="workspace-fact-grid">
-                ${field("Berths", boat.Berths)}${field("Cabins", boat.Cabins)}${field("Heads", boat.Heads)}
-                ${field("Shower", displayCanonical(boat, "ShowerTypeCode", ["ShowerType","Shower"]))}
-                ${field("Fuel Capacity", volume(boat,"FuelCapacity","FuelCapacityGal"))}${field("Water Capacity", volume(boat,"WaterCapacity","WaterCapacityGal"))}${field("Holding Capacity", volume(boat,"HoldingCapacity","HoldingCapacityGal"))}
-                ${field("Published / general headroom", measure(boat,"Headroom","length",[{key:"Headroom_ft",unit:"ft"},{key:"Headroom_in",unit:"in"},{key:"InteriorHeadroom_in",unit:"in"}]), "", "Headroom")}
-                ${field("Saloon / main cabin", measure(boat,"HeadroomSalon","length",[]), "", "HeadroomSalon")}
-                ${field("Helm", measure(boat,"HeadroomHelm","length",[]), "", "HeadroomHelm")}
-                ${field("Galley", measure(boat,"HeadroomGalley","length",[]), "", "HeadroomGalley")}
-                ${field("Head compartment", measure(boat,"HeadroomHead","length",[]), "", "HeadroomHead")}
-                ${field("Forward cabin", measure(boat,"HeadroomForwardCabin","length",[]), "", "HeadroomForwardCabin")}
-                ${field("V-berth usable length", measure(boat,"VBerthLength","length",[]), "", "VBerthLength")}
-            </div></section>
+            <section class="workspace-card"><h3>Accommodation and Systems</h3>
+                <div class="workspace-fact-group">
+                    <h4 class="workspace-fact-group-title">Accommodation</h4>
+                    <div class="workspace-fact-grid">
+                        ${field("Berths", boat.Berths, "", "Berths")}${field("Cabins", boat.Cabins, "", "Cabins")}${field("Heads", boat.Heads, "", "Heads")}
+                        ${field("Shower", displayCanonical(boat, "ShowerTypeCode", ["ShowerType","Shower"]), "", "ShowerTypeCode")}
+                    </div>
+                </div>
+                <div class="workspace-fact-group">
+                    <h4 class="workspace-fact-group-title">Tankage</h4>
+                    <div class="workspace-fact-grid">
+                        ${field("Fuel capacity", volume(boat,"FuelCapacity","FuelCapacityGal"), "", "FuelCapacity")}${field("Water capacity", volume(boat,"WaterCapacity","WaterCapacityGal"), "", "WaterCapacity")}${field("Holding capacity", volume(boat,"HoldingCapacity","HoldingCapacityGal"), "", "HoldingCapacity")}
+                    </div>
+                </div>
+                <div class="workspace-fact-group">
+                    <h4 class="workspace-fact-group-title">Headroom / Interior Fit</h4>
+                    <div class="workspace-fact-grid">
+                        ${field("Published / general headroom", measure(boat,"Headroom","length",[{key:"Headroom_ft",unit:"ft"},{key:"Headroom_in",unit:"in"},{key:"InteriorHeadroom_in",unit:"in"}]), "", "Headroom")}
+                        ${field("Saloon / main cabin headroom", measure(boat,"HeadroomSalon","length",[]), "", "HeadroomSalon")}
+                        ${field("Helm headroom", measure(boat,"HeadroomHelm","length",[]), "", "HeadroomHelm")}
+                        ${field("Galley headroom", measure(boat,"HeadroomGalley","length",[]), "", "HeadroomGalley")}
+                        ${field("Head compartment headroom", measure(boat,"HeadroomHead","length",[]), "", "HeadroomHead")}
+                        ${field("Forward cabin headroom", measure(boat,"HeadroomForwardCabin","length",[]), "", "HeadroomForwardCabin")}
+                        ${field("V-berth usable length", measure(boat,"VBerthLength","length",[]), "", "VBerthLength")}
+                    </div>
+                </div>
+            </section>
             <section class="workspace-card"><h3>Model Strengths & Trade-offs</h3>
                 <div class="workspace-three-column"><div><h4>Strengths</h4>${textList(arr(intelligence.strengths).length ? intelligence.strengths : splitText(boat.Strengths))}</div>
                 <div><h4>Trade-offs</h4>${textList(arr(intelligence.tradeoffs).length ? intelligence.tradeoffs : splitText(boat.Weaknesses))}</div>
@@ -361,12 +407,12 @@
     }
 
     function renderProgress() {
-        const coverage = getKnowledge()?.Coverage;
-        if (!coverage) return `<section class="workspace-card"><h3>Research Progress</h3><p class="workspace-empty">Coverage has not been calculated.</p></section>`;
-        const categories = Object.entries(coverage.Categories || {});
-        return `<div class="workspace-section-stack"><section class="workspace-card workspace-progress-hero"><span class="workspace-label">Overall structural coverage</span><strong>${esc(coverage.OverallScore)}%</strong><div class="workspace-progress-line"><span style="width:${Number(coverage.OverallScore||0)}%"></span></div><p>${esc(coverage.CoverageStatus)} coverage · ${coverage.FactCount} facts · ${coverage.SourceCount} source${coverage.SourceCount===1?"":"s"}</p></section>
-        <section class="workspace-card"><h3>Coverage by category</h3><div class="workspace-coverage-grid">${categories.map(([label,data])=>`<div><div><strong>${esc(label)}</strong><span>${esc(data.Score)}%</span></div><div class="workspace-progress-line"><span style="width:${Number(data.Score||0)}%"></span></div><small>${esc(data.Known)} of ${esc(data.Total)} fields known</small></div>`).join("")}</div></section>
-        <section class="workspace-card"><h3>Research status</h3><div class="workspace-fact-grid">${field("Verified Sources", coverage.VerifiedSourceCount)}${field("Contradictions", coverage.ContradictionCount)}${field("Relationships", coverage.RelationshipCount)}${field("Structured Facts", coverage.FactCount)}</div><p class="workspace-note">Coverage measures presence. Verification is tracked separately.</p></section></div>`;
+        const scoreData = knowledgeScore();
+        const coverage = getKnowledge()?.Coverage || {};
+        if (!scoreData) return `<section class="workspace-card"><h3>Model Knowledge Score</h3><p class="workspace-empty">Knowledge scoring has not been calculated.</p></section>`;
+        return `<div class="workspace-section-stack">${renderKnowledgeScoreCard({limit:6})}
+        <section class="workspace-card"><h3>Knowledge by category</h3><div class="workspace-coverage-grid">${scoreData.groups.map(data=>`<div><div><strong>${esc(data.label)}</strong><span>${esc(data.score)}%</span></div><div class="workspace-progress-line"><span style="width:${Number(data.score||0)}%"></span></div><small>${esc(data.known)} of ${esc(data.total)} scored facts known</small></div>`).join("")}</div></section>
+        <section class="workspace-card"><h3>Evidence status</h3><div class="workspace-fact-grid">${field("Verified Sources", coverage.VerifiedSourceCount || 0)}${field("Contradictions", coverage.ContradictionCount || 0)}${field("Relationships", coverage.RelationshipCount || 0)}${field("Structured Facts", coverage.FactCount || 0)}</div><p class="workspace-note">The Model Knowledge Score measures useful recorded knowledge. Evidence strength and contradictions are tracked separately so completeness never masquerades as certainty.</p></section></div>`;
     }
 
 
@@ -690,7 +736,11 @@
                 root.BScoutContributions.open({
                     source:"guide", modelId:currentBoat.BoatModelID || "", manufacturer:currentBoat.Manufacturer || currentBoat.Make || "",
                     model:currentBoat.Model || "", variant:currentBoat.Variant || "", guideName:boatName(currentBoat)
-                }, { typeId:"correction", fieldId:missing.dataset.contributeField || "" });
+                }, {
+                    typeId:"correction",
+                    fieldId:missing.dataset.contributeField || "",
+                    impact: missing.dataset.scoreFrom && missing.dataset.scoreTo ? { from:Number(missing.dataset.scoreFrom), to:Number(missing.dataset.scoreTo) } : null
+                });
             }
         });
         document.addEventListener("keydown", event => {
