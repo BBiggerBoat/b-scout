@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://b-atlas.org/schema/production-phase.schema.json",
+  "title": "B-Atlas Production Phase",
+  "description": "A materially distinct production phase/generation within one canonical model. It preserves construction, dimensional or design changes without creating artificial duplicate models.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ProductionPhaseID",
+    "BoatModelID",
+    "Sequence",
+    "StartYear",
+    "EndYear",
+    "BoundaryPrecision",
+    "ReasonCodes",
+    "FactOverrides"
+  ],
+  "properties": {
+    "ProductionPhaseID": {
+      "type": "string"
+    },
+    "BoatModelID": {
+      "type": "string"
+    },
+    "Sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "StartYear": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "EndYear": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "BoundaryPrecision": {
+      "enum": [
+        "exact_year",
+        "within_year",
+        "approximate_year",
+        "transition_years",
+        "unknown"
+      ]
+    },
+    "TransitionYears": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "uniqueItems": true
+    },
+    "LabelKey": {
+      "type": "string"
+    },
+    "ReasonCodes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "construction_change",
+          "dimension_change",
+          "hull_redesign",
+          "layout_change",
+          "propulsion_change",
+          "builder_change",
+          "yard_change",
+          "regulatory_change",
+          "model_refresh",
+          "other"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "ApplicabilityNote": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "FactOverrides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "FieldID",
+          "ValueState",
+          "CanonicalValue",
+          "Confidence"
+        ],
+        "properties": {
+          "FieldID": {
+            "type": "string"
+          },
+          "ValueState": {
+            "enum": [
+              "known",
+              "unknown",
+              "not_applicable",
+              "conflicting"
+            ]
+          },
+          "CanonicalValue": {},
+          "CanonicalUnit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "unrated"
+            ]
+          },
+          "EvidenceAssertionIDs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ResolutionNote": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "EvidenceAssertionIDs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

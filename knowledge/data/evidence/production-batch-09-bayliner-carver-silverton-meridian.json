@@ -1,0 +1,1849 @@
+{
+  "batchId": "production-09-bayliner-carver-silverton-meridian",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "BAYL-2452-identity",
+      "BoatModelID": "BAYL-2452",
+      "FieldID": "Model",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner",
+      "AssertionState": "supports",
+      "SourceValue": "2452 Ciera Express",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "2452 Ciera Express",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model retained; this batch does not promote additional unsupported precision beyond existing legacy measurements.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-2855-identity",
+      "BoatModelID": "BAYL-2855",
+      "FieldID": "Model",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner",
+      "AssertionState": "supports",
+      "SourceValue": "2855 Ciera Sunbridge",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "2855 Ciera Sunbridge",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model retained; this batch does not promote additional unsupported precision beyond existing legacy measurements.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-2859-identity",
+      "BoatModelID": "BAYL-2859",
+      "FieldID": "Model",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner",
+      "AssertionState": "supports",
+      "SourceValue": "2859 Ciera Express",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "2859 Ciera Express",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model retained; this batch does not promote additional unsupported precision beyond existing legacy measurements.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3055-identity",
+      "BoatModelID": "BAYL-3055",
+      "FieldID": "Model",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner",
+      "AssertionState": "supports",
+      "SourceValue": "3055 Ciera Sunbridge / 305 SB",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "3055 Ciera Sunbridge / 305 SB",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model retained; this batch does not promote additional unsupported precision beyond existing legacy measurements.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3058-identity",
+      "BoatModelID": "BAYL-3058",
+      "FieldID": "Model",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner",
+      "AssertionState": "supports",
+      "SourceValue": "3058 Command Bridge",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "3058 Command Bridge",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model retained; this batch does not promote additional unsupported precision beyond existing legacy measurements.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3218-identity",
+      "BoatModelID": "BAYL-3218",
+      "FieldID": "Model",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner",
+      "AssertionState": "supports",
+      "SourceValue": "3218 Motoryacht",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "3218 Motoryacht",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model retained; this batch does not promote additional unsupported precision beyond existing legacy measurements.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3258-identity",
+      "BoatModelID": "BAYL-3258",
+      "FieldID": "Model",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner",
+      "AssertionState": "supports",
+      "SourceValue": "3258 Command Bridge",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "3258 Command Bridge",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model retained; this batch does not promote additional unsupported precision beyond existing legacy measurements.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3288-loa",
+      "BoatModelID": "BAYL-3288-MO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3270-explorer-3270-3288-motor-yacht-1981-95",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.779,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3288-beam",
+      "BoatModelID": "BAYL-3288-MO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3270-explorer-3270-3288-motor-yacht-1981-95",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.5052,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3288-draft",
+      "BoatModelID": "BAYL-3288-MO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3270-explorer-3270-3288-motor-yacht-1981-95",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.889,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3288-disp",
+      "BoatModelID": "BAYL-3288-MO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3270-explorer-3270-3288-motor-yacht-1981-95",
+      "AssertionState": "supports",
+      "SourceValue": 12500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5669.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3288-rename",
+      "BoatModelID": "BAYL-3288-MO",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3270-explorer-3270-3288-motor-yacht-1981-95",
+      "AssertionState": "supports",
+      "SourceValue": "3270 Explorer → 3270 Motor Yacht → 3288 Motor Yacht",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": [
+        "3270 Explorer",
+        "3270 Motor Yacht",
+        "3288 Motor Yacht"
+      ],
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3388-loa",
+      "BoatModelID": "BAYL-3388",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3388-motor-yacht-1996-2001",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.033,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3388-beam",
+      "BoatModelID": "BAYL-3388",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3388-motor-yacht-1996-2001",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.5052,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3388-draft",
+      "BoatModelID": "BAYL-3388",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3388-motor-yacht-1996-2001",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8128,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3388-disp",
+      "BoatModelID": "BAYL-3388",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3388-motor-yacht-1996-2001",
+      "AssertionState": "supports",
+      "SourceValue": 15500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7030.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3388-lineage",
+      "BoatModelID": "BAYL-3388",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3388-motor-yacht-1996-2001",
+      "AssertionState": "supports",
+      "SourceValue": "updated version of 3288 with fresh profile and hull refinements",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3788-gen1-loa",
+      "BoatModelID": "BAYL-3788",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3788-motor-yacht-1996-99",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.7348,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 1996,
+        "endYear": 1999
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3788-gen1-beam",
+      "BoatModelID": "BAYL-3788",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3788-motor-yacht-1996-99",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.064,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 1996,
+        "endYear": 1999
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3788-gen1-draft",
+      "BoatModelID": "BAYL-3788",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3788-motor-yacht-1996-99",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.889,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 1996,
+        "endYear": 1999
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3788-gen1-disp",
+      "BoatModelID": "BAYL-3788",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3788-motor-yacht-1996-99",
+      "AssertionState": "supports",
+      "SourceValue": 20000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9071.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 1996,
+        "endYear": 1999
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3788-gen2-loa",
+      "BoatModelID": "BAYL-3788",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3788-motor-yacht-2001-02",
+      "AssertionState": "supports",
+      "SourceValue": "39 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.9888,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 2001,
+        "endYear": 2002
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3788-gen2-beam",
+      "BoatModelID": "BAYL-3788",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3788-motor-yacht-2001-02",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1402,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 2001,
+        "endYear": 2002
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3788-gen2-draft",
+      "BoatModelID": "BAYL-3788",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3788-motor-yacht-2001-02",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.016,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 2001,
+        "endYear": 2002
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3788-gen2-disp",
+      "BoatModelID": "BAYL-3788",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3788-motor-yacht-2001-02",
+      "AssertionState": "supports",
+      "SourceValue": 22274,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10103.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 2001,
+        "endYear": 2002
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3788-meridian",
+      "BoatModelID": "BAYL-3788",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3788-motor-yacht-2001-02",
+      "AssertionState": "supports",
+      "SourceValue": "2001–02 revised 3788 became Meridian 381 Sedan in 2003",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3888-loa",
+      "BoatModelID": "BAYL-3888-MO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3870-3888-motor-yacht-1983-94",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.6332,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3888-beam",
+      "BoatModelID": "BAYL-3888-MO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3870-3888-motor-yacht-1983-94",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0894,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3888-draft",
+      "BoatModelID": "BAYL-3888-MO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3870-3888-motor-yacht-1983-94",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9652,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3888-disp",
+      "BoatModelID": "BAYL-3888-MO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3870-3888-motor-yacht-1983-94",
+      "AssertionState": "supports",
+      "SourceValue": 17500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7937.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-3888-enginevar",
+      "BoatModelID": "BAYL-3888-MO",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/3870-3888-motor-yacht-1983-94",
+      "AssertionState": "unresolved",
+      "SourceValue": "135 hp Mitsubishi → 175 hp U.S. Marine → 210 hp Hino diesels",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-4087-loa",
+      "BoatModelID": "BAYL-4087",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/4087-cockpit-motor-yacht-1996-2002",
+      "AssertionState": "supports",
+      "SourceValue": "41 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.6238,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-4087-beam",
+      "BoatModelID": "BAYL-4087",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/4087-cockpit-motor-yacht-1996-2002",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.9878,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-4087-draft",
+      "BoatModelID": "BAYL-4087",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/4087-cockpit-motor-yacht-1996-2002",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.143,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-4087-disp",
+      "BoatModelID": "BAYL-4087",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/4087-cockpit-motor-yacht-1996-2002",
+      "AssertionState": "supports",
+      "SourceValue": 24000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10886.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BAYL-4087-lineage",
+      "BoatModelID": "BAYL-4087",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/bayliner/4087-cockpit-motor-yacht-1996-2002",
+      "AssertionState": "supports",
+      "SourceValue": "cockpit version of Bayliner 3587 Motor Yacht",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-28-V-loa",
+      "BoatModelID": "CARV-28-V",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/2827-voyager-2897-mariner-1983-90",
+      "AssertionState": "supports",
+      "SourceValue": "28 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 8.5344,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-28-V-beam",
+      "BoatModelID": "CARV-28-V",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/2827-voyager-2897-mariner-1983-90",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.3782,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-28-V-draft",
+      "BoatModelID": "CARV-28-V",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/2827-voyager-2897-mariner-1983-90",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-28-V-disp",
+      "BoatModelID": "CARV-28-V",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/2827-voyager-2897-mariner-1983-90",
+      "AssertionState": "supports",
+      "SourceValue": 10300,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 4672.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-32-AC-loa",
+      "BoatModelID": "CARV-32-AC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3207-aft-cabin-1983-90",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.7536,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-32-AC-lwl",
+      "BoatModelID": "CARV-32-AC",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3207-aft-cabin-1983-90",
+      "AssertionState": "supports",
+      "SourceValue": "28 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.5598,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-32-AC-beam",
+      "BoatModelID": "CARV-32-AC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3207-aft-cabin-1983-90",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.5306,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-32-AC-draft",
+      "BoatModelID": "CARV-32-AC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3207-aft-cabin-1983-90",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-32-AC-disp",
+      "BoatModelID": "CARV-32-AC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3207-aft-cabin-1983-90",
+      "AssertionState": "supports",
+      "SourceValue": 12000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5443.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-33-MAR-loa",
+      "BoatModelID": "CARV-33-MAR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3297-mariner-330-mariner-1985-96",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.8298,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-33-MAR-beam",
+      "BoatModelID": "CARV-33-MAR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3297-mariner-330-mariner-1985-96",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.7592,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-33-MAR-draft",
+      "BoatModelID": "CARV-33-MAR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3297-mariner-330-mariner-1985-96",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8382,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-33-MAR-disp",
+      "BoatModelID": "CARV-33-MAR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3297-mariner-330-mariner-1985-96",
+      "AssertionState": "supports",
+      "SourceValue": 12000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5443.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-350-AF-loa",
+      "BoatModelID": "CARV-350-AF",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/33-aft-cabin-350-aft-cabin-1991-94",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.9728,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-350-AF-beam",
+      "BoatModelID": "CARV-350-AF",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/33-aft-cabin-350-aft-cabin-1991-94",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0386,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-350-AF-draft",
+      "BoatModelID": "CARV-350-AF",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/33-aft-cabin-350-aft-cabin-1991-94",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.7874,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-350-AF-disp",
+      "BoatModelID": "CARV-350-AF",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/33-aft-cabin-350-aft-cabin-1991-94",
+      "AssertionState": "supports",
+      "SourceValue": 16600,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7529.6,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-36-AC-loa",
+      "BoatModelID": "CARV-36-AC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3607-aft-cabin-1982-89",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.8458,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-36-AC-lwl",
+      "BoatModelID": "CARV-36-AC",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3607-aft-cabin-1982-89",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.5504,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-36-AC-beam",
+      "BoatModelID": "CARV-36-AC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3607-aft-cabin-1982-89",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.81,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-36-AC-draft",
+      "BoatModelID": "CARV-36-AC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3607-aft-cabin-1982-89",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9652,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-36-AC-disp",
+      "BoatModelID": "CARV-36-AC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3607-aft-cabin-1982-89",
+      "AssertionState": "supports",
+      "SourceValue": 18500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8391.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-36-MAR-loa",
+      "BoatModelID": "CARV-36-MAR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/350-mariner-36-mariner-1997-2012",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.1506,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-36-MAR-beam",
+      "BoatModelID": "CARV-36-MAR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/350-mariner-36-mariner-1997-2012",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.8862,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-36-MAR-draft",
+      "BoatModelID": "CARV-36-MAR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/350-mariner-36-mariner-1997-2012",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9398,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-36-MAR-disp",
+      "BoatModelID": "CARV-36-MAR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/350-mariner-36-mariner-1997-2012",
+      "AssertionState": "supports",
+      "SourceValue": 18800,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8527.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-40-AC-loa",
+      "BoatModelID": "CARV-40-AC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3807-aft-cabin-390-aft-cabin-1987-95",
+      "AssertionState": "supports",
+      "SourceValue": "37 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.43,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-40-AC-beam",
+      "BoatModelID": "CARV-40-AC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3807-aft-cabin-390-aft-cabin-1987-95",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.2672,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-40-AC-draft",
+      "BoatModelID": "CARV-40-AC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3807-aft-cabin-390-aft-cabin-1987-95",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.016,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-40-AC-disp",
+      "BoatModelID": "CARV-40-AC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/3807-aft-cabin-390-aft-cabin-1987-95",
+      "AssertionState": "supports",
+      "SourceValue": 22750,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10319.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-42-AC-loa",
+      "BoatModelID": "CARV-42-AC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/4207-aft-cabin-1985-91",
+      "AssertionState": "supports",
+      "SourceValue": "42 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.8016,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-42-AC-beam",
+      "BoatModelID": "CARV-42-AC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/4207-aft-cabin-1985-91",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.572,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-42-AC-draft",
+      "BoatModelID": "CARV-42-AC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/4207-aft-cabin-1985-91",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-42-AC-disp",
+      "BoatModelID": "CARV-42-AC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/4207-aft-cabin-1985-91",
+      "AssertionState": "supports",
+      "SourceValue": 23600,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10704.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-356-length-typo",
+      "BoatModelID": "CARV-356-AF",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/355-356-motor-yacht-1995-2003",
+      "AssertionState": "conflicts",
+      "SourceValue": "30 ft 0 in",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "HMY page's 30 ft figure is incompatible with model identity and surrounding lineage; it is not promoted.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-356-rest-beam",
+      "BoatModelID": "CARV-356-AF",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/355-356-motor-yacht-1995-2003",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0386,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-356-rest-draft",
+      "BoatModelID": "CARV-356-AF",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/355-356-motor-yacht-1995-2003",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-356-rest-disp",
+      "BoatModelID": "CARV-356-AF",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/355-356-motor-yacht-1995-2003",
+      "AssertionState": "supports",
+      "SourceValue": 19300,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8754.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CARV-356-lineage",
+      "BoatModelID": "CARV-356-AF",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/carver/355-356-motor-yacht-1995-2003",
+      "AssertionState": "supports",
+      "SourceValue": "updated version of 33/350 Motor Yacht; called 355 in 1995–98 and 356 thereafter",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-34-MO-loa",
+      "BoatModelID": "SILV-34-MO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/34-motor-yacht-1993-96",
+      "AssertionState": "supports",
+      "SourceValue": "39 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.1412,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-34-MO-beam",
+      "BoatModelID": "SILV-34-MO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/34-motor-yacht-1993-96",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.9116,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-34-MO-draft",
+      "BoatModelID": "SILV-34-MO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/34-motor-yacht-1993-96",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-34-MO-disp",
+      "BoatModelID": "SILV-34-MO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/34-motor-yacht-1993-96",
+      "AssertionState": "supports",
+      "SourceValue": 16368,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7424.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-352-MO-loa",
+      "BoatModelID": "SILV-352-MO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/352-motor-yacht-1997-2002",
+      "AssertionState": "supports",
+      "SourceValue": "41 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.5984,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-352-MO-beam",
+      "BoatModelID": "SILV-352-MO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/352-motor-yacht-1997-2002",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.9624,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-352-MO-draft",
+      "BoatModelID": "SILV-352-MO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/352-motor-yacht-1997-2002",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-352-MO-disp",
+      "BoatModelID": "SILV-352-MO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/352-motor-yacht-1997-2002",
+      "AssertionState": "supports",
+      "SourceValue": 20809,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9438.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-372-loa",
+      "BoatModelID": "SILV-372",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/372-392-motor-yacht-1996-2001",
+      "AssertionState": "supports",
+      "SourceValue": "43 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.335,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-372-beam",
+      "BoatModelID": "SILV-372",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/372-392-motor-yacht-1996-2001",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.2926,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-372-draft",
+      "BoatModelID": "SILV-372",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/372-392-motor-yacht-1996-2001",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-372-disp",
+      "BoatModelID": "SILV-372",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/372-392-motor-yacht-1996-2001",
+      "AssertionState": "supports",
+      "SourceValue": 23577,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10694.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-40-AC-loa",
+      "BoatModelID": "SILV-40-AC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/40-aft-cabin-1982-90",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-40-AC-beam",
+      "BoatModelID": "SILV-40-AC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/40-aft-cabin-1982-90",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.2672,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-40-AC-draft",
+      "BoatModelID": "SILV-40-AC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/40-aft-cabin-1982-90",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-40-AC-disp",
+      "BoatModelID": "SILV-40-AC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/40-aft-cabin-1982-90",
+      "AssertionState": "supports",
+      "SourceValue": 24000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10886.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SILV-372-rename",
+      "BoatModelID": "SILV-372",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/silverton/372-392-motor-yacht-1996-2001",
+      "AssertionState": "supports",
+      "SourceValue": "372 Motor Yacht, called 392 Motor Yacht from 1999–2001",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": [
+        "372 Motor Yacht",
+        "392 Motor Yacht"
+      ],
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-341-EARLY-loa",
+      "BoatModelID": "MERI-341-SE-03",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/341-sedan-2003-04",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.7442,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-341-EARLY-beam",
+      "BoatModelID": "MERI-341-SE-03",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/341-sedan-2003-04",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.556,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-341-EARLY-draft",
+      "BoatModelID": "MERI-341-SE-03",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/341-sedan-2003-04",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9652,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-341-EARLY-disp",
+      "BoatModelID": "MERI-341-SE-03",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/341-sedan-2003-04",
+      "AssertionState": "supports",
+      "SourceValue": 17000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7711.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-341-EARLY-lineage",
+      "BoatModelID": "MERI-341-SE-03",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/341-sedan-2003-04",
+      "AssertionState": "supports",
+      "SourceValue": "originally marketed as Bayliner 3488 Command Bridge; became Meridian 341 in 2003",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-341-LATE-loa",
+      "BoatModelID": "MERI-341-SE",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/341-sedan-2005-14",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.922,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-341-LATE-beam",
+      "BoatModelID": "MERI-341-SE",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/341-sedan-2005-14",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.81,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-341-LATE-draft",
+      "BoatModelID": "MERI-341-SE",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/341-sedan-2005-14",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-341-LATE-disp",
+      "BoatModelID": "MERI-341-SE",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/341-sedan-2005-14",
+      "AssertionState": "supports",
+      "SourceValue": 18254,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8279.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-341-split",
+      "BoatModelID": "MERI-341-SE",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/341-sedan-2005-14",
+      "AssertionState": "supports",
+      "SourceValue": "2005–14 341 is explicitly a completely different boat from the 2003–04 341",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "B-Atlas splits the single legacy record into two canonical identities.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-381-loa",
+      "BoatModelID": "MERI-381-SE",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/381-sedan-2003-06",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.7348,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-381-beam",
+      "BoatModelID": "MERI-381-SE",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/381-sedan-2003-06",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1402,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-381-draft",
+      "BoatModelID": "MERI-381-SE",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/381-sedan-2003-06",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.016,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-381-disp",
+      "BoatModelID": "MERI-381-SE",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/381-sedan-2003-06",
+      "AssertionState": "supports",
+      "SourceValue": 22275,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10103.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MERI-381-lineage",
+      "BoatModelID": "MERI-381-SE",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/meridian/381-sedan-2003-06",
+      "AssertionState": "supports",
+      "SourceValue": "slightly revised version of 2001 Bayliner 3788; renamed Meridian 381 in 2003",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}

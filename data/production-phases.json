@@ -1,0 +1,1644 @@
+[
+  {
+    "ProductionPhaseID": "GRBK-32-CL:P1",
+    "BoatModelID": "GRBK-32-CL",
+    "Sequence": 1,
+    "StartYear": 1965,
+    "EndYear": 1973,
+    "BoundaryPrecision": "within_year",
+    "TransitionYears": [
+      1973
+    ],
+    "LabelKey": "phase.GR.BK32.wood",
+    "ReasonCodes": [
+      "construction_change"
+    ],
+    "ApplicabilityNote": "Wood construction through the 1973 transition. A year-only match for 1973 is insufficient to determine material.",
+    "FactOverrides": [
+      {
+        "FieldID": "HullMaterialCode",
+        "ValueState": "known",
+        "CanonicalValue": "hull_material.wood",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-32-CL-material"
+        ],
+        "ResolutionNote": "Phase-specific construction; not a separate canonical model."
+      }
+    ],
+    "EvidenceAssertionIDs": [
+      "GRBK-32-CL-material"
+    ],
+    "Notes": "Same Grand Banks 32 Sedan model identity; construction differs."
+  },
+  {
+    "ProductionPhaseID": "GRBK-32-CL:P2",
+    "BoatModelID": "GRBK-32-CL",
+    "Sequence": 2,
+    "StartYear": 1973,
+    "EndYear": 1995,
+    "BoundaryPrecision": "within_year",
+    "TransitionYears": [
+      1973
+    ],
+    "LabelKey": "phase.GR.BK32.fiberglass",
+    "ReasonCodes": [
+      "construction_change"
+    ],
+    "ApplicabilityNote": "Fiberglass production begins during the 1973 transition. A 1973 listing needs hull material or hull-number evidence to select the phase.",
+    "FactOverrides": [
+      {
+        "FieldID": "HullMaterialCode",
+        "ValueState": "known",
+        "CanonicalValue": "hull_material.fiberglass",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-32-CL-material"
+        ],
+        "ResolutionNote": "Phase-specific construction; not a separate canonical model."
+      }
+    ],
+    "EvidenceAssertionIDs": [
+      "GRBK-32-CL-material"
+    ],
+    "Notes": "Dimensions remain model-wide because no material dimensional break is being asserted."
+  },
+  {
+    "ProductionPhaseID": "GRBK-36-CL:P1",
+    "BoatModelID": "GRBK-36-CL",
+    "Sequence": 1,
+    "StartYear": 1965,
+    "EndYear": 1973,
+    "BoundaryPrecision": "within_year",
+    "TransitionYears": [
+      1973
+    ],
+    "LabelKey": "phase.GR.BK36.wood_original",
+    "ReasonCodes": [
+      "construction_change"
+    ],
+    "ApplicabilityNote": "Original-size wood hull. Fiberglass transition occurred during 1973.",
+    "FactOverrides": [
+      {
+        "FieldID": "HullMaterialCode",
+        "ValueState": "known",
+        "CanonicalValue": "hull_material.wood",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-36-CL-material"
+        ],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "LOA",
+        "ValueState": "known",
+        "CanonicalValue": 11.0744,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-36-CL-sizechange"
+        ],
+        "ResolutionNote": "Original hull length."
+      },
+      {
+        "FieldID": "Beam",
+        "ValueState": "known",
+        "CanonicalValue": 3.7084,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-36-CL-beamchange"
+        ],
+        "ResolutionNote": "Original hull beam."
+      }
+    ],
+    "EvidenceAssertionIDs": [
+      "GRBK-36-CL-material",
+      "GRBK-36-CL-sizechange",
+      "GRBK-36-CL-beamchange"
+    ],
+    "Notes": "Construction change does not create a new model."
+  },
+  {
+    "ProductionPhaseID": "GRBK-36-CL:P2",
+    "BoatModelID": "GRBK-36-CL",
+    "Sequence": 2,
+    "StartYear": 1973,
+    "EndYear": 1987,
+    "BoundaryPrecision": "transition_years",
+    "TransitionYears": [
+      1973,
+      1987,
+      1988
+    ],
+    "LabelKey": "phase.GR.BK36.fiberglass_original",
+    "ReasonCodes": [
+      "construction_change",
+      "hull_redesign",
+      "dimension_change"
+    ],
+    "ApplicabilityNote": "Original-size fiberglass hull. The later enlargement is reported around 1987/88, so boundary-year boats may require hull-specific evidence.",
+    "FactOverrides": [
+      {
+        "FieldID": "HullMaterialCode",
+        "ValueState": "known",
+        "CanonicalValue": "hull_material.fiberglass",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-36-CL-material"
+        ],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "LOA",
+        "ValueState": "known",
+        "CanonicalValue": 11.0744,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-36-CL-sizechange"
+        ],
+        "ResolutionNote": "Original fiberglass hull length."
+      },
+      {
+        "FieldID": "Beam",
+        "ValueState": "known",
+        "CanonicalValue": 3.7084,
+        "CanonicalUnit": "m",
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [
+          "GRBK-36-CL-beamchange"
+        ],
+        "ResolutionNote": "Source places the beam update around 1988."
+      }
+    ],
+    "EvidenceAssertionIDs": [
+      "GRBK-36-CL-material",
+      "GRBK-36-CL-sizechange",
+      "GRBK-36-CL-beamchange"
+    ],
+    "Notes": "Boundary is intentionally conservative because sources describe the length and beam changes as 1987/88."
+  },
+  {
+    "ProductionPhaseID": "GRBK-36-CL:P3",
+    "BoatModelID": "GRBK-36-CL",
+    "Sequence": 3,
+    "StartYear": 1987,
+    "EndYear": 2004,
+    "BoundaryPrecision": "transition_years",
+    "TransitionYears": [
+      1987,
+      1988
+    ],
+    "LabelKey": "phase.GR.BK36.fiberglass_enlarged",
+    "ReasonCodes": [
+      "hull_redesign",
+      "dimension_change"
+    ],
+    "ApplicabilityNote": "Enlarged fiberglass hull. 1987/88 is treated as a transition period rather than an exact universal cutoff.",
+    "FactOverrides": [
+      {
+        "FieldID": "HullMaterialCode",
+        "ValueState": "known",
+        "CanonicalValue": "hull_material.fiberglass",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-36-CL-material"
+        ],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "LOA",
+        "ValueState": "known",
+        "CanonicalValue": 11.2268,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-36-CL-sizechange"
+        ],
+        "ResolutionNote": "Enlarged hull length."
+      },
+      {
+        "FieldID": "Beam",
+        "ValueState": "known",
+        "CanonicalValue": 3.8608,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-36-CL-beamchange"
+        ],
+        "ResolutionNote": "Enlarged hull beam."
+      }
+    ],
+    "EvidenceAssertionIDs": [
+      "GRBK-36-CL-sizechange",
+      "GRBK-36-CL-beamchange"
+    ],
+    "Notes": "Still the canonical Grand Banks 36 Classic; phase is used to resolve year-sensitive specifications."
+  },
+  {
+    "ProductionPhaseID": "GRBK-42-CL:P1",
+    "BoatModelID": "GRBK-42-CL",
+    "Sequence": 1,
+    "StartYear": 1975,
+    "EndYear": 1990,
+    "BoundaryPrecision": "transition_years",
+    "TransitionYears": [
+      1991,
+      1992
+    ],
+    "LabelKey": "phase.GR.BK42.original",
+    "ReasonCodes": [
+      "hull_redesign",
+      "dimension_change"
+    ],
+    "ApplicabilityNote": "Original 42 Classic hull before the 1991/92 enlargement.",
+    "FactOverrides": [
+      {
+        "FieldID": "LOA",
+        "ValueState": "known",
+        "CanonicalValue": 12.9794,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-42-CL-sizechange"
+        ],
+        "ResolutionNote": "Original hull length."
+      },
+      {
+        "FieldID": "Beam",
+        "ValueState": "known",
+        "CanonicalValue": 4.1402,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-42-CL-beamchange"
+        ],
+        "ResolutionNote": "Original hull beam."
+      }
+    ],
+    "EvidenceAssertionIDs": [
+      "GRBK-42-CL-sizechange",
+      "GRBK-42-CL-beamchange"
+    ],
+    "Notes": "All production in this model run is fiberglass; phase distinction is dimensional/design, not a separate model name."
+  },
+  {
+    "ProductionPhaseID": "GRBK-42-CL:P2",
+    "BoatModelID": "GRBK-42-CL",
+    "Sequence": 2,
+    "StartYear": 1991,
+    "EndYear": 2004,
+    "BoundaryPrecision": "transition_years",
+    "TransitionYears": [
+      1991,
+      1992
+    ],
+    "LabelKey": "phase.GR.BK42.enlarged",
+    "ReasonCodes": [
+      "hull_redesign",
+      "dimension_change"
+    ],
+    "ApplicabilityNote": "Lengthened/widened hull beginning around 1991; some references describe the model-year change as 1992.",
+    "FactOverrides": [
+      {
+        "FieldID": "LOA",
+        "ValueState": "known",
+        "CanonicalValue": 13.1826,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-42-CL-sizechange"
+        ],
+        "ResolutionNote": "Enlarged hull length."
+      },
+      {
+        "FieldID": "Beam",
+        "ValueState": "known",
+        "CanonicalValue": 4.2926,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [
+          "GRBK-42-CL-beamchange"
+        ],
+        "ResolutionNote": "Enlarged hull beam."
+      }
+    ],
+    "EvidenceAssertionIDs": [
+      "GRBK-42-CL-sizechange",
+      "GRBK-42-CL-beamchange"
+    ],
+    "Notes": "Hull number evidence is preferable for 1991/92 boundary boats."
+  },
+  {
+    "ProductionPhaseID": "MNSH-30-PI:P1",
+    "BoatModelID": "MNSH-30-PI",
+    "Sequence": 1,
+    "StartYear": 1998,
+    "EndYear": 2002,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.mainship.30pilot.original",
+    "ReasonCodes": [
+      "hull_redesign",
+      "layout_change",
+      "propulsion_change"
+    ],
+    "ApplicabilityNote": "Original 30 Pilot hull and cabin arrangement.",
+    "FactOverrides": [
+      {
+        "FieldID": "Draft",
+        "ValueState": "known",
+        "CanonicalValue": 0.889,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "KeelConfigurationCode",
+        "ValueState": "known",
+        "CanonicalValue": "keel.partial_skeg",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "EnginePowerPerEngine",
+        "ValueState": "known",
+        "CanonicalValue": 126.77,
+        "CanonicalUnit": "kW",
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "MNSH-30-PI:P2",
+    "BoatModelID": "MNSH-30-PI",
+    "Sequence": 2,
+    "StartYear": 2003,
+    "EndYear": 2008,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.mainship.30pilot.series2",
+    "ReasonCodes": [
+      "hull_redesign",
+      "layout_change",
+      "propulsion_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Series II introduced in 2003 with shortened keel, propeller tunnel, five-blade prop and revised interior.",
+    "FactOverrides": [
+      {
+        "FieldID": "Draft",
+        "ValueState": "known",
+        "CanonicalValue": 0.6858,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "KeelConfigurationCode",
+        "ValueState": "known",
+        "CanonicalValue": "keel.partial_skeg",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "EnginePowerPerEngine",
+        "ValueState": "known",
+        "CanonicalValue": 234.9,
+        "CanonicalUnit": "kW",
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "MNSH-350-TR:P1",
+    "BoatModelID": "MNSH-350-TR",
+    "Sequence": 1,
+    "StartYear": 1996,
+    "EndYear": 1998,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.mainship.350390.350",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original marketing designation: 350 Trawler.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "MNSH-390-TR:P2",
+    "BoatModelID": "MNSH-390-TR",
+    "Sequence": 2,
+    "StartYear": 1999,
+    "EndYear": 2005,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.mainship.350390.390",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Same successful hull/model line renamed 390 Trawler for 1999–2005.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "MNSH-400-TR:P1",
+    "BoatModelID": "MNSH-400-TR",
+    "Sequence": 1,
+    "StartYear": 2003,
+    "EndYear": 2008,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.mainship.400.400",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Marketed as Mainship 400 Trawler.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "MNSH-400-TR:P2",
+    "BoatModelID": "MNSH-400-TR",
+    "Sequence": 2,
+    "StartYear": 2009,
+    "EndYear": 2009,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.mainship.400.41expedition",
+    "ReasonCodes": [
+      "model_refresh",
+      "layout_change"
+    ],
+    "ApplicabilityNote": "Renamed 41 Expedition; 2009 also brought a salon redesign.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "MNSH-400-TR:P3",
+    "BoatModelID": "MNSH-400-TR",
+    "Sequence": 3,
+    "StartYear": 2010,
+    "EndYear": 2012,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.mainship.400.414",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed 414 Trawler for 2010–2012.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "MONK-36-TR:P1",
+    "BoatModelID": "MONK-36-TR",
+    "Sequence": 1,
+    "StartYear": 1982,
+    "EndYear": 1991,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.monk.36.taiwan",
+    "ReasonCodes": [
+      "builder_change",
+      "yard_change",
+      "layout_change",
+      "propulsion_change"
+    ],
+    "ApplicabilityNote": "Taiwan-built phase; heavy exterior teak and aft-head tub are characteristic.",
+    "FactOverrides": [
+      {
+        "FieldID": "ShowerTypeCode",
+        "ValueState": "known",
+        "CanonicalValue": "shower.separate_stall",
+        "CanonicalUnit": null,
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "MONK-36-TR:P2",
+    "BoatModelID": "MONK-36-TR",
+    "Sequence": 2,
+    "StartYear": 1992,
+    "EndYear": 2007,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.monk.36.canada",
+    "ReasonCodes": [
+      "builder_change",
+      "yard_change",
+      "layout_change",
+      "propulsion_change"
+    ],
+    "ApplicabilityNote": "Nova Scotia-built phase; exterior teak reduced, aft-head tub eliminated and master berth placement revised.",
+    "FactOverrides": [
+      {
+        "FieldID": "ShowerTypeCode",
+        "ValueState": "known",
+        "CanonicalValue": "shower.separate_stall",
+        "CanonicalUnit": null,
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "NDTG-26:P1",
+    "BoatModelID": "NDTG-26",
+    "Sequence": 1,
+    "StartYear": 1980,
+    "EndYear": 1994,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.nordic.26.original",
+    "ReasonCodes": [
+      "layout_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original Nordic Tug 26 production; earlier salon arrangement.",
+    "FactOverrides": [
+      {
+        "FieldID": "EnginePowerPerEngine",
+        "ValueState": "known",
+        "CanonicalValue": 37.28,
+        "CanonicalUnit": "kW",
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "NDTG-26:P2",
+    "BoatModelID": "NDTG-26",
+    "Sequence": 2,
+    "StartYear": 1995,
+    "EndYear": 1997,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.nordic.26.2-26",
+    "ReasonCodes": [
+      "layout_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "2-26 update introduced wider catwalks, raked stack and booth-style dinette.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "NDTG-26:P3",
+    "BoatModelID": "NDTG-26",
+    "Sequence": 3,
+    "StartYear": 2009,
+    "EndYear": 2018,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.nordic.26.reintroduced",
+    "ReasonCodes": [
+      "model_refresh",
+      "propulsion_change"
+    ],
+    "ApplicabilityNote": "Reintroduced Nordic Tug 26 production; modernized engine package.",
+    "FactOverrides": [
+      {
+        "FieldID": "EnginePowerPerEngine",
+        "ValueState": "known",
+        "CanonicalValue": 74.57,
+        "CanonicalUnit": "kW",
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "NDTG-32:P1",
+    "BoatModelID": "NDTG-32",
+    "Sequence": 1,
+    "StartYear": 1986,
+    "EndYear": 2001,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.nordic.32.original",
+    "ReasonCodes": [
+      "layout_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original Nordic Tug 32 configuration.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "NDTG-32:P2",
+    "BoatModelID": "NDTG-32",
+    "Sequence": 2,
+    "StartYear": 2002,
+    "EndYear": 2007,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.nordic.32.plus",
+    "ReasonCodes": [
+      "layout_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "32+ update introduced island berth, enlarged head and integral swim platform.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "NDTG-32:P3",
+    "BoatModelID": "NDTG-32",
+    "Sequence": 3,
+    "StartYear": 2008,
+    "EndYear": 2012,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.nordic.32.proppocket",
+    "ReasonCodes": [
+      "hull_redesign",
+      "propulsion_change"
+    ],
+    "ApplicabilityNote": "2008 hull revision introduced a propeller pocket.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "KDKR-42:P1",
+    "BoatModelID": "KDKR-42",
+    "Sequence": 1,
+    "StartYear": 1977,
+    "EndYear": 1984,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.krogen.42.early",
+    "ReasonCodes": [
+      "construction_change"
+    ],
+    "ApplicabilityNote": "Early Krogen 42 with glass-over-plywood decks/superstructure construction.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "KDKR-42:P2",
+    "BoatModelID": "KDKR-42",
+    "Sequence": 2,
+    "StartYear": 1985,
+    "EndYear": 1994,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.krogen.42.fiberglass_superstructure",
+    "ReasonCodes": [
+      "construction_change"
+    ],
+    "ApplicabilityNote": "Fiberglass superstructure introduced around hull #65 in 1985.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "KDKR-42:P3",
+    "BoatModelID": "KDKR-42",
+    "Sequence": 3,
+    "StartYear": 1995,
+    "EndYear": 1998,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.krogen.42.solid_hull",
+    "ReasonCodes": [
+      "construction_change"
+    ],
+    "ApplicabilityNote": "Hull construction changed from cored to solid fiberglass in 1995.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "GULF-36-TR:P1",
+    "BoatModelID": "GULF-36-TR",
+    "Sequence": 1,
+    "StartYear": 1972,
+    "EndYear": 1974,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.gulfstar.36.original",
+    "ReasonCodes": [
+      "layout_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original trunk/aft-cabin arrangement before the 1975 MK II.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "GULF-36-TR:P2",
+    "BoatModelID": "GULF-36-TR",
+    "Sequence": 2,
+    "StartYear": 1975,
+    "EndYear": 1976,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.gulfstar.36.mk2",
+    "ReasonCodes": [
+      "layout_change",
+      "model_refresh",
+      "propulsion_change"
+    ],
+    "ApplicabilityNote": "MK II added a raised aft deck, full-beam master, larger flybridge, bigger rudders and revised interior.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "GULF-43-TR:P1",
+    "BoatModelID": "GULF-43-TR",
+    "Sequence": 1,
+    "StartYear": 1972,
+    "EndYear": 1974,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.gulfstar.43.original",
+    "ReasonCodes": [
+      "layout_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original trunk-cabin version.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "GULF-43-TR:P2",
+    "BoatModelID": "GULF-43-TR",
+    "Sequence": 2,
+    "StartYear": 1975,
+    "EndYear": 1977,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.gulfstar.43.mk2",
+    "ReasonCodes": [
+      "layout_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "MK II sundeck introduced in 1975 with redesigned flybridge, full teak interior and enlarged aft master.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "AMTG-34:P1",
+    "BoatModelID": "AMTG-34",
+    "Sequence": 1,
+    "StartYear": 2001,
+    "EndYear": 2011,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.americantug.34.original",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original AT 34 marketing designation within the 34/365 hull lineage.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "AMTG-365:P2",
+    "BoatModelID": "AMTG-365",
+    "Sequence": 2,
+    "StartYear": 2005,
+    "EndYear": null,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.americantug.365",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "365 designation in the continuing American Tug 34/365 family.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "SABR-38-SA:P1",
+    "BoatModelID": "SABR-38-SA",
+    "Sequence": 1,
+    "StartYear": 2012,
+    "EndYear": 2021,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.sabre.38.ips",
+    "ReasonCodes": [
+      "propulsion_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original Salon Express generation used pod-drive architecture.",
+    "FactOverrides": [
+      {
+        "FieldID": "MechanicalPropulsionCode",
+        "ValueState": "known",
+        "CanonicalValue": "mechanical_propulsion.pod",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "SABR-38-SA:P2",
+    "BoatModelID": "SABR-38-SA",
+    "Sequence": 2,
+    "StartYear": 2026,
+    "EndYear": null,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.sabre.38.dpi",
+    "ReasonCodes": [
+      "propulsion_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Reintroduced 2026 with Volvo Penta DPI driveline.",
+    "FactOverrides": [
+      {
+        "FieldID": "MechanicalPropulsionCode",
+        "ValueState": "known",
+        "CanonicalValue": "mechanical_propulsion.sterndrive",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "GRTH-GH37:P1",
+    "BoatModelID": "GRTH-GH37",
+    "Sequence": 1,
+    "StartYear": 1997,
+    "EndYear": 2009,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.greatharbour.gh37.original",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original GH-series liveaboard trawler generation.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "GRTH-N37:P1",
+    "BoatModelID": "GRTH-N37",
+    "Sequence": 1,
+    "StartYear": 2001,
+    "EndYear": 2015,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.greatharbour.n37.secondgen",
+    "ReasonCodes": [
+      "model_refresh",
+      "layout_change"
+    ],
+    "ApplicabilityNote": "N-series second-generation Great Harbour trawler.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "BAYL-3288-MO:P1",
+    "BoatModelID": "BAYL-3288-MO",
+    "Sequence": 1,
+    "StartYear": 1981,
+    "EndYear": 1984,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.bayliner.3270explorer",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original 3270 Explorer designation.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "BAYL-3288-MO:P2",
+    "BoatModelID": "BAYL-3288-MO",
+    "Sequence": 2,
+    "StartYear": 1985,
+    "EndYear": 1988,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.bayliner.3270my",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed 3270 Motor Yacht; flybridge/radar-arch update.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "BAYL-3288-MO:P3",
+    "BoatModelID": "BAYL-3288-MO",
+    "Sequence": 3,
+    "StartYear": 1989,
+    "EndYear": 1995,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.bayliner.3288",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed/evolved into 3288 Motor Yacht.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "BAYL-3788:P1",
+    "BoatModelID": "BAYL-3788",
+    "Sequence": 1,
+    "StartYear": 1996,
+    "EndYear": 1999,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.bayliner.3788.gen1",
+    "ReasonCodes": [
+      "hull_redesign",
+      "layout_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original 3788 generation.",
+    "FactOverrides": [
+      {
+        "FieldID": "LOA",
+        "ValueState": "known",
+        "CanonicalValue": 11.7348,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Beam",
+        "ValueState": "known",
+        "CanonicalValue": 4.064,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Draft",
+        "ValueState": "known",
+        "CanonicalValue": 0.889,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Displacement",
+        "ValueState": "known",
+        "CanonicalValue": 9071.8,
+        "CanonicalUnit": "kg",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "BAYL-3788:P2",
+    "BoatModelID": "BAYL-3788",
+    "Sequence": 2,
+    "StartYear": 2001,
+    "EndYear": 2002,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.bayliner.3788.gen2",
+    "ReasonCodes": [
+      "hull_redesign",
+      "layout_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Updated 3788 generation; revised hull/interior. Became Meridian 381 in 2003.",
+    "FactOverrides": [
+      {
+        "FieldID": "LOA",
+        "ValueState": "known",
+        "CanonicalValue": 11.9888,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Beam",
+        "ValueState": "known",
+        "CanonicalValue": 4.1402,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Draft",
+        "ValueState": "known",
+        "CanonicalValue": 1.016,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Displacement",
+        "ValueState": "known",
+        "CanonicalValue": 10103.3,
+        "CanonicalUnit": "kg",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CARV-36-MAR:P1",
+    "BoatModelID": "CARV-36-MAR",
+    "Sequence": 1,
+    "StartYear": 1997,
+    "EndYear": 2003,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.carver.350mariner",
+    "ReasonCodes": [
+      "model_refresh",
+      "layout_change"
+    ],
+    "ApplicabilityNote": "Marketed as 350 Mariner.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CARV-36-MAR:P2",
+    "BoatModelID": "CARV-36-MAR",
+    "Sequence": 2,
+    "StartYear": 2004,
+    "EndYear": 2012,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.carver.36mariner",
+    "ReasonCodes": [
+      "model_refresh",
+      "layout_change"
+    ],
+    "ApplicabilityNote": "Renamed 36 Mariner; 2004 floorplan revision.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "SILV-372:P1",
+    "BoatModelID": "SILV-372",
+    "Sequence": 1,
+    "StartYear": 1996,
+    "EndYear": 1998,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.silverton.372",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Marketed as 372 Motor Yacht.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "SILV-372:P2",
+    "BoatModelID": "SILV-372",
+    "Sequence": 2,
+    "StartYear": 1999,
+    "EndYear": 2001,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.silverton.392",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed 392 Motor Yacht.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "JEAU-795:P1",
+    "BoatModelID": "JEAU-795",
+    "Sequence": 1,
+    "StartYear": 2017,
+    "EndYear": 2020,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.jeanneau.mf795.gen1",
+    "ReasonCodes": [
+      "hull_redesign",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original Merry Fisher 795 generation.",
+    "FactOverrides": [
+      {
+        "FieldID": "LOA",
+        "ValueState": "known",
+        "CanonicalValue": 7.43,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Draft",
+        "ValueState": "known",
+        "CanonicalValue": 0.5,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Displacement",
+        "ValueState": "known",
+        "CanonicalValue": 2150,
+        "CanonicalUnit": "kg",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "JEAU-795:P2",
+    "BoatModelID": "JEAU-795",
+    "Sequence": 2,
+    "StartYear": 2021,
+    "EndYear": null,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.jeanneau.mf795.series2",
+    "ReasonCodes": [
+      "hull_redesign",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Current Merry Fisher 795 Series 2 specification.",
+    "FactOverrides": [
+      {
+        "FieldID": "LOA",
+        "ValueState": "known",
+        "CanonicalValue": 7.19,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Draft",
+        "ValueState": "known",
+        "CanonicalValue": 0.58,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Displacement",
+        "ValueState": "known",
+        "CanonicalValue": 2153,
+        "CanonicalUnit": "kg",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-2980:P1",
+    "BoatModelID": "CRUY-2980",
+    "Sequence": 1,
+    "StartYear": 1978,
+    "EndYear": 1983,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.288",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Marketed as 288 Villa Vee.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-2980:P2",
+    "BoatModelID": "CRUY-2980",
+    "Sequence": 2,
+    "StartYear": 1984,
+    "EndYear": 1987,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.298",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed 298 Villa Vee.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-2980:P3",
+    "BoatModelID": "CRUY-2980",
+    "Sequence": 3,
+    "StartYear": 1988,
+    "EndYear": 1990,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.2980",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed 2980 Esprit.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-320-EXP:P1",
+    "BoatModelID": "CRUY-320-EXP",
+    "Sequence": 1,
+    "StartYear": 2002,
+    "EndYear": 2003,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.3275",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Marketed as 3275 Express.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-320-EXP:P2",
+    "BoatModelID": "CRUY-320-EXP",
+    "Sequence": 2,
+    "StartYear": 2004,
+    "EndYear": 2006,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.320",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed 320 Express.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-3470:P1",
+    "BoatModelID": "CRUY-3470",
+    "Sequence": 1,
+    "StartYear": 2001,
+    "EndYear": 2003,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.3470",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Marketed as 3470 Express.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-3470:P2",
+    "BoatModelID": "CRUY-3470",
+    "Sequence": 2,
+    "StartYear": 2004,
+    "EndYear": 2007,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.340",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed 340 Express.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-3650-AF:P1",
+    "BoatModelID": "CRUY-3650-AF",
+    "Sequence": 1,
+    "StartYear": 1995,
+    "EndYear": 1999,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.3650",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Marketed as 3650 Motor Yacht.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-3650-AF:P2",
+    "BoatModelID": "CRUY-3650-AF",
+    "Sequence": 2,
+    "StartYear": 2000,
+    "EndYear": 2003,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.3750",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed 3750 Motor Yacht.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-3650-AF:P3",
+    "BoatModelID": "CRUY-3650-AF",
+    "Sequence": 3,
+    "StartYear": 2004,
+    "EndYear": 2005,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.375",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed 375 Motor Yacht.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-3870:P1",
+    "BoatModelID": "CRUY-3870",
+    "Sequence": 1,
+    "StartYear": 1998,
+    "EndYear": 1999,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.3870esprit",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Marketed as 3870 Esprit.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "CRUY-3870:P2",
+    "BoatModelID": "CRUY-3870",
+    "Sequence": 2,
+    "StartYear": 2000,
+    "EndYear": 2003,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.cruisers.3870express",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Renamed 3870 Express.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "UNIF-36-DO:P1",
+    "BoatModelID": "UNIF-36-DO",
+    "Sequence": 1,
+    "StartYear": 1972,
+    "EndYear": 1983,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.uniflite.36.original",
+    "ReasonCodes": [
+      "construction_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original solid-fiberglass 36 Double Cabin.",
+    "FactOverrides": [
+      {
+        "FieldID": "HullMaterialCode",
+        "ValueState": "known",
+        "CanonicalValue": "hull_material.fiberglass",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Displacement",
+        "ValueState": "known",
+        "CanonicalValue": 9525.4,
+        "CanonicalUnit": "kg",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "UNIF-36-DO:P2",
+    "BoatModelID": "UNIF-36-DO",
+    "Sequence": 2,
+    "StartYear": 1984,
+    "EndYear": 1984,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.uniflite.36.ii",
+    "ReasonCodes": [
+      "construction_change",
+      "layout_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "36 II introduced with cored hull, new flybridge profile and revised interior; roughly 3,000 lb lighter.",
+    "FactOverrides": [
+      {
+        "FieldID": "HullMaterialCode",
+        "ValueState": "known",
+        "CanonicalValue": "hull_material.fiberglass_composite",
+        "CanonicalUnit": null,
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "Displacement",
+        "ValueState": "known",
+        "CanonicalValue": 8164.7,
+        "CanonicalUnit": "kg",
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "NRDH-40:P1",
+    "BoatModelID": "NRDH-40",
+    "Sequence": 1,
+    "StartYear": 1998,
+    "EndYear": 2003,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.nordhavn.40.original",
+    "ReasonCodes": [
+      "propulsion_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Original N40 generation; early published specifications show 4'9 draft and 105 hp Lugger.",
+    "FactOverrides": [
+      {
+        "FieldID": "Draft",
+        "ValueState": "known",
+        "CanonicalValue": 1.4478,
+        "CanonicalUnit": "m",
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "EnginePowerPerEngine",
+        "ValueState": "known",
+        "CanonicalValue": 78.3,
+        "CanonicalUnit": "kW",
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "NRDH-40:P2",
+    "BoatModelID": "NRDH-40",
+    "Sequence": 2,
+    "StartYear": 2004,
+    "EndYear": 2018,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.nordhavn.40.ii",
+    "ReasonCodes": [
+      "yard_change",
+      "propulsion_change",
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "N40II refinement era; molds moved to South Coast yard in China, windows/rubrail and machinery evolved while the hull/scantlings remained fundamentally the same.",
+    "FactOverrides": [
+      {
+        "FieldID": "Draft",
+        "ValueState": "known",
+        "CanonicalValue": 1.5748,
+        "CanonicalUnit": "m",
+        "Confidence": "high",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      },
+      {
+        "FieldID": "EnginePowerPerEngine",
+        "ValueState": "known",
+        "CanonicalValue": 119.31,
+        "CanonicalUnit": "kW",
+        "Confidence": "medium",
+        "EvidenceAssertionIDs": [],
+        "ResolutionNote": null
+      }
+    ],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "LUHR-30:P1",
+    "BoatModelID": "LUHR-30",
+    "Sequence": 1,
+    "StartYear": 1987,
+    "EndYear": 1987,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.luhrs.30alura.original",
+    "ReasonCodes": [
+      "hull_redesign"
+    ],
+    "ApplicabilityNote": "Original keel configuration before the vibration-reduction redesign.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "LUHR-30:P2",
+    "BoatModelID": "LUHR-30",
+    "Sequence": 2,
+    "StartYear": 1988,
+    "EndYear": 1990,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.luhrs.30alura.keelredesign",
+    "ReasonCodes": [
+      "hull_redesign"
+    ],
+    "ApplicabilityNote": "Keel redesigned in 1988 to reduce vibration; same Alura 30 model identity.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "SEAR-390-MO:P1",
+    "BoatModelID": "SEAR-390-MO",
+    "Sequence": 1,
+    "StartYear": 2003,
+    "EndYear": 2005,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.searay.390my",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Marketed as Sea Ray 390 Motor Yacht.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  },
+  {
+    "ProductionPhaseID": "SEAR-390-MO:P2",
+    "BoatModelID": "SEAR-390-MO",
+    "Sequence": 2,
+    "StartYear": 2006,
+    "EndYear": 2007,
+    "BoundaryPrecision": "exact_year",
+    "LabelKey": "phase.searay.40my",
+    "ReasonCodes": [
+      "model_refresh"
+    ],
+    "ApplicabilityNote": "Same model line renamed Sea Ray 40 Motor Yacht.",
+    "FactOverrides": [],
+    "EvidenceAssertionIDs": [],
+    "Notes": null
+  }
+]

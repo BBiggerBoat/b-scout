@@ -1,0 +1,2047 @@
+{
+  "batchId": "production-04-defever-nordic-tugs-kadey-krogen-willard",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "DEFE-34-TR-loa",
+      "BoatModelID": "DEFE-34-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/34-passagemaker-1974-76",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.4648,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-34-TR-lwl",
+      "BoatModelID": "DEFE-34-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/34-passagemaker-1974-76",
+      "AssertionState": "supports",
+      "SourceValue": "30 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.1948,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-34-TR-beam",
+      "BoatModelID": "DEFE-34-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/34-passagemaker-1974-76",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.7338,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-34-TR-draft",
+      "BoatModelID": "DEFE-34-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/34-passagemaker-1974-76",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.016,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-34-TR-disp",
+      "BoatModelID": "DEFE-34-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/34-passagemaker-1974-76",
+      "AssertionState": "supports",
+      "SourceValue": 21000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9525.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-40-EURO-loa",
+      "BoatModelID": "DEFE-40-EURO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/40-offshore-cruiser-1984-91",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-40-EURO-lwl",
+      "BoatModelID": "DEFE-40-EURO",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/40-offshore-cruiser-1984-91",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.8204,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-40-EURO-beam",
+      "BoatModelID": "DEFE-40-EURO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/40-offshore-cruiser-1984-91",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.4196,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-40-EURO-draft",
+      "BoatModelID": "DEFE-40-EURO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/40-offshore-cruiser-1984-91",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1684,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-40-EURO-disp",
+      "BoatModelID": "DEFE-40-EURO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/40-offshore-cruiser-1984-91",
+      "AssertionState": "supports",
+      "SourceValue": 29000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 13154.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-41-loa",
+      "BoatModelID": "DEFE-41",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/41-trawler-1980-95",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.3698,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-41-lwl",
+      "BoatModelID": "DEFE-41",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/41-trawler-1980-95",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.541,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-41-beam",
+      "BoatModelID": "DEFE-41",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/41-trawler-1980-95",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.318,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-41-draft",
+      "BoatModelID": "DEFE-41",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/41-trawler-1980-95",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-41-disp",
+      "BoatModelID": "DEFE-41",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/41-trawler-1980-95",
+      "AssertionState": "supports",
+      "SourceValue": 23000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10432.6,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-43-loa",
+      "BoatModelID": "DEFE-43",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/43-trawler-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": "42 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.8524,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-43-lwl",
+      "BoatModelID": "DEFE-43",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/43-trawler-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.1506,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-43-beam",
+      "BoatModelID": "DEFE-43",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/43-trawler-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.2672,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-43-draft",
+      "BoatModelID": "DEFE-43",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/43-trawler-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.3462,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-43-disp",
+      "BoatModelID": "DEFE-43",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/43-trawler-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": 40836,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 18522.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-45-loa",
+      "BoatModelID": "DEFE-45",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/45-pilothouse-2002-08",
+      "AssertionState": "supports",
+      "SourceValue": "45 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 13.716,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-45-lwl",
+      "BoatModelID": "DEFE-45",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/45-pilothouse-2002-08",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.3444,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-45-beam",
+      "BoatModelID": "DEFE-45",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/45-pilothouse-2002-08",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.572,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-45-draft",
+      "BoatModelID": "DEFE-45",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/45-pilothouse-2002-08",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1684,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-45-disp",
+      "BoatModelID": "DEFE-45",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/45-pilothouse-2002-08",
+      "AssertionState": "supports",
+      "SourceValue": 38000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 17236.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-47-loa",
+      "BoatModelID": "DEFE-47",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/47-poc-motor-yacht-1986-92",
+      "AssertionState": "supports",
+      "SourceValue": "46 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 14.2748,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-47-beam",
+      "BoatModelID": "DEFE-47",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/47-poc-motor-yacht-1986-92",
+      "AssertionState": "supports",
+      "SourceValue": "16 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.8768,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-47-draft",
+      "BoatModelID": "DEFE-47",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/47-poc-motor-yacht-1986-92",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.4224,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-47-disp",
+      "BoatModelID": "DEFE-47",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/47-poc-motor-yacht-1986-92",
+      "AssertionState": "supports",
+      "SourceValue": 43200,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 19595.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-49-loa",
+      "BoatModelID": "DEFE-49",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/49-cockpit-motor-yacht-1994-2006",
+      "AssertionState": "supports",
+      "SourceValue": "48 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 14.8844,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-49-lwl",
+      "BoatModelID": "DEFE-49",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/49-cockpit-motor-yacht-1994-2006",
+      "AssertionState": "supports",
+      "SourceValue": "43 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.2588,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-49-beam",
+      "BoatModelID": "DEFE-49",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/49-cockpit-motor-yacht-1994-2006",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.572,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-49-draft",
+      "BoatModelID": "DEFE-49",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/49-cockpit-motor-yacht-1994-2006",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.397,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-49-disp",
+      "BoatModelID": "DEFE-49",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/defever/49-cockpit-motor-yacht-1994-2006",
+      "AssertionState": "supports",
+      "SourceValue": 54000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 24494.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-38-TR-loa",
+      "BoatModelID": "DEFE-38-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.boats.com/power-boats/1972-defever-38-passagemaker-10176112/",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.2682,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-38-TR-beam",
+      "BoatModelID": "DEFE-38-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.boats.com/power-boats/1972-defever-38-passagemaker-10176112/",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1656,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-38-TR-draft",
+      "BoatModelID": "DEFE-38-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.boats.com/power-boats/1972-defever-38-passagemaker-10176112/",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-38-TR-disp",
+      "BoatModelID": "DEFE-38-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.boats.com/power-boats/1972-defever-38-passagemaker-10176112/",
+      "AssertionState": "supports",
+      "SourceValue": 24000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10886.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-38-TR-year",
+      "BoatModelID": "DEFE-38-TR",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://www.boats.com/power-boats/1972-defever-38-passagemaker-10176112/",
+      "AssertionState": "conflicts",
+      "SourceValue": 1972,
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "A documented 1972 wood 38 Passagemaker contradicts the legacy 1979 start year. Model production range is left unresolved.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-38-TR-builder",
+      "BoatModelID": "DEFE-38-TR",
+      "FieldID": "Builder",
+      "SourceRef": "https://www.boats.com/power-boats/1972-defever-38-passagemaker-10176112/",
+      "AssertionState": "supports",
+      "SourceValue": "Oriental Boat Co., Yokosuka, Japan",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Oriental Boat Co.",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DEFE-lineage",
+      "BoatModelID": "DEFE-38-TR",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://passagemaker.com/design-restoration-and-refit/a-tribute-to-art-defever-1918-2013/",
+      "AssertionState": "supports",
+      "SourceValue": "DeFever's earlier full-displacement wood designs preceded later fiberglass/twin-engine evolutions",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Supports retaining wood designs as distinct historical identities where model names/designations differ.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-26-loa",
+      "BoatModelID": "NDTG-26",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/26-tug-1980-18",
+      "AssertionState": "supports",
+      "SourceValue": "28 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.763,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-26-lwl",
+      "BoatModelID": "NDTG-26",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/26-tug-1980-18",
+      "AssertionState": "supports",
+      "SourceValue": "25 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.6708,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-26-beam",
+      "BoatModelID": "NDTG-26",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/26-tug-1980-18",
+      "AssertionState": "supports",
+      "SourceValue": "9 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.8956,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-26-draft",
+      "BoatModelID": "NDTG-26",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/26-tug-1980-18",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-26-disp",
+      "BoatModelID": "NDTG-26",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/26-tug-1980-18",
+      "AssertionState": "supports",
+      "SourceValue": 8500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 3855.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-26-phases",
+      "BoatModelID": "NDTG-26",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/26-tug-1980-18",
+      "AssertionState": "supports",
+      "SourceValue": "2-26 update introduced in 1995; production ended 1997; reintroduced 2009",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-32-loa",
+      "BoatModelID": "NDTG-32",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/32-34-tug-1986-current",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 2 in later/current family spec",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.414,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-32-lwl",
+      "BoatModelID": "NDTG-32",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/32-34-tug-1986-current",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.9568,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-32-beam",
+      "BoatModelID": "NDTG-32",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/32-34-tug-1986-current",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.3528,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-32-draft",
+      "BoatModelID": "NDTG-32",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/32-34-tug-1986-current",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-32-disp",
+      "BoatModelID": "NDTG-32",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/32-34-tug-1986-current",
+      "AssertionState": "supports",
+      "SourceValue": 16000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7257.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-32-phase2002",
+      "BoatModelID": "NDTG-32",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/32-34-tug-1986-current",
+      "AssertionState": "supports",
+      "SourceValue": "32+ introduced 2002 with island berth, larger head and integral swim platform",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-32-phase2008",
+      "BoatModelID": "NDTG-32",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/32-34-tug-1986-current",
+      "AssertionState": "supports",
+      "SourceValue": "prop-pocket hull introduced in 2008",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-34-continuity",
+      "BoatModelID": "NDTG-34",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/nordic/32-34-tug-1986-current",
+      "AssertionState": "supports",
+      "SourceValue": "HMY catalogs the 32-34 as one continuing tug family",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "B-Atlas retains separate 32 and 34 searchable records because marketplace designation changed.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-34-loa",
+      "BoatModelID": "NDTG-34",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.nordictugs.com/vessels",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.6426,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-34-lwl",
+      "BoatModelID": "NDTG-34",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.nordictugs.com/vessels",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.9568,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-34-beam",
+      "BoatModelID": "NDTG-34",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.nordictugs.com/vessels",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.4544,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-34-draft",
+      "BoatModelID": "NDTG-34",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.nordictugs.com/vessels",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1176,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-34-disp",
+      "BoatModelID": "NDTG-34",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.nordictugs.com/vessels",
+      "AssertionState": "supports",
+      "SourceValue": 15700,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7121.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-37-loa",
+      "BoatModelID": "NDTG-37",
+      "FieldID": "LOA",
+      "SourceRef": "https://nordictug37forsale.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.8618,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-37-lwl",
+      "BoatModelID": "NDTG-37",
+      "FieldID": "LWL",
+      "SourceRef": "https://nordictug37forsale.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": "37 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.3792,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-37-beam",
+      "BoatModelID": "NDTG-37",
+      "FieldID": "Beam",
+      "SourceRef": "https://nordictug37forsale.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.937,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-37-draft",
+      "BoatModelID": "NDTG-37",
+      "FieldID": "Draft",
+      "SourceRef": "https://nordictug37forsale.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.3208,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-37-disp",
+      "BoatModelID": "NDTG-37",
+      "FieldID": "Displacement",
+      "SourceRef": "https://nordictug37forsale.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": 22600,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10251.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-39-lineage",
+      "BoatModelID": "NDTG-39",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.boats.com/reviews/nordic-tug-39-used-boat-review/",
+      "AssertionState": "supports",
+      "SourceValue": "39 replaced the 37 in 2010 and uses the same Lynn Senour-designed hull",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Distinct market model name with strong shared-hull lineage.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-42-spec",
+      "BoatModelID": "NDTG-42",
+      "FieldID": "Designer",
+      "SourceRef": "https://nordictug42.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": "Lynn Senour",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Lynn Senour",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-42-loa",
+      "BoatModelID": "NDTG-42",
+      "FieldID": "LOA",
+      "SourceRef": "https://nordictug42.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": "44 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.6144,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-42-lwl",
+      "BoatModelID": "NDTG-42",
+      "FieldID": "LWL",
+      "SourceRef": "https://nordictug42.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.684,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-42-beam",
+      "BoatModelID": "NDTG-42",
+      "FieldID": "Beam",
+      "SourceRef": "https://nordictug42.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.2164,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-42-draft",
+      "BoatModelID": "NDTG-42",
+      "FieldID": "Draft",
+      "SourceRef": "https://nordictug42.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.397,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NDTG-42-disp",
+      "BoatModelID": "NDTG-42",
+      "FieldID": "Displacement",
+      "SourceRef": "https://nordictug42.com/specifications/",
+      "AssertionState": "supports",
+      "SourceValue": 31400,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 14242.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-36-MA-loa",
+      "BoatModelID": "KDKR-36-MA",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/36-manatee-1984-92",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.0744,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-36-MA-lwl",
+      "BoatModelID": "KDKR-36-MA",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/36-manatee-1984-92",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.3632,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-36-MA-beam",
+      "BoatModelID": "KDKR-36-MA",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/36-manatee-1984-92",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1656,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-36-MA-draft",
+      "BoatModelID": "KDKR-36-MA",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/36-manatee-1984-92",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9652,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-36-MA-disp",
+      "BoatModelID": "KDKR-36-MA",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/36-manatee-1984-92",
+      "AssertionState": "supports",
+      "SourceValue": 23000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10432.6,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-36-MA-built",
+      "BoatModelID": "KDKR-36-MA",
+      "FieldID": "TotalBuilt",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/36-manatee-1984-92",
+      "AssertionState": "supports",
+      "SourceValue": 99,
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 99,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-39-loa",
+      "BoatModelID": "KDKR-39",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/39-trawler-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": "43 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.3096,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-39-lwl",
+      "BoatModelID": "KDKR-39",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/39-trawler-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.176,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-39-beam",
+      "BoatModelID": "KDKR-39",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/39-trawler-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.3434,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-39-draft",
+      "BoatModelID": "KDKR-39",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/39-trawler-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.2954,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-39-disp",
+      "BoatModelID": "KDKR-39",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/39-trawler-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": 33470,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 15181.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-39-ballast",
+      "BoatModelID": "KDKR-39",
+      "FieldID": "Ballast",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/39-trawler-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": 2000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 907.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-39-intro",
+      "BoatModelID": "KDKR-39",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://www.kadeykrogen.com/our-history/",
+      "AssertionState": "supports",
+      "SourceValue": 1997,
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 1997,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-39-end",
+      "BoatModelID": "KDKR-39",
+      "FieldID": "LastYear",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/39-trawler-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": 2008,
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 2008,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-42-loa",
+      "BoatModelID": "KDKR-42",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/42-trawler-1977-98",
+      "AssertionState": "supports",
+      "SourceValue": "42 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.9032,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-42-lwl",
+      "BoatModelID": "KDKR-42",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/42-trawler-1977-98",
+      "AssertionState": "supports",
+      "SourceValue": "39 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.938,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-42-beam",
+      "BoatModelID": "KDKR-42",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/42-trawler-1977-98",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.572,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-42-draft",
+      "BoatModelID": "KDKR-42",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/42-trawler-1977-98",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.397,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-42-disp",
+      "BoatModelID": "KDKR-42",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/42-trawler-1977-98",
+      "AssertionState": "supports",
+      "SourceValue": 40000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 18143.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-42-ballast",
+      "BoatModelID": "KDKR-42",
+      "FieldID": "Ballast",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/42-trawler-1977-98",
+      "AssertionState": "supports",
+      "SourceValue": 2500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 1134.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-42-construction",
+      "BoatModelID": "KDKR-42",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/42-trawler-1977-98",
+      "AssertionState": "supports",
+      "SourceValue": "fiberglass superstructure in 1985; cored hull became solid fiberglass in 1995",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-42-built",
+      "BoatModelID": "KDKR-42",
+      "FieldID": "TotalBuilt",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/42-trawler-1977-98",
+      "AssertionState": "supports",
+      "SourceValue": 206,
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 206,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-loa",
+      "BoatModelID": "KDKR-44",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/44-trawler-2004-17",
+      "AssertionState": "supports",
+      "SourceValue": "49 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 14.9352,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-lwl",
+      "BoatModelID": "KDKR-44",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/44-trawler-2004-17",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.4714,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-beam",
+      "BoatModelID": "KDKR-44",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/44-trawler-2004-17",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft 6 in molded",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.7244,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-draft",
+      "BoatModelID": "KDKR-44",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/44-trawler-2004-17",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.3716,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-disp",
+      "BoatModelID": "KDKR-44",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/44-trawler-2004-17",
+      "AssertionState": "supports",
+      "SourceValue": 43140,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 19568.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-ballast",
+      "BoatModelID": "KDKR-44",
+      "FieldID": "Ballast",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/44-trawler-2004-17",
+      "AssertionState": "supports",
+      "SourceValue": 2500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 1134.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-split",
+      "BoatModelID": "KDKR-44",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.marinelink.com/news/kadeykrogen-trawler-yacht343911",
+      "AssertionState": "supports",
+      "SourceValue": "44 AE introduced as a new Advanced Ergonomics model replacing/updating the prior 44",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "B-Atlas splits 44 Trawler and 44 AE into separate canonical identities rather than treating AE as a 2004-starting variant.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-AE-loa",
+      "BoatModelID": "KDKR-44-AE",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.kadeykrogen.com/wp-content/uploads/sites/10/2023/05/44-AE-Standard-Equipment-List.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "49 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 14.9352,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-AE-lwl",
+      "BoatModelID": "KDKR-44-AE",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.kadeykrogen.com/wp-content/uploads/sites/10/2023/05/44-AE-Standard-Equipment-List.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.4714,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-AE-beam",
+      "BoatModelID": "KDKR-44-AE",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.kadeykrogen.com/wp-content/uploads/sites/10/2023/05/44-AE-Standard-Equipment-List.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft 6 in molded",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.7244,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-AE-draft",
+      "BoatModelID": "KDKR-44-AE",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.kadeykrogen.com/wp-content/uploads/sites/10/2023/05/44-AE-Standard-Equipment-List.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.3716,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-AE-disp",
+      "BoatModelID": "KDKR-44-AE",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.kadeykrogen.com/wp-content/uploads/sites/10/2023/05/44-AE-Standard-Equipment-List.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 43140,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 19568.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-AE-ballast",
+      "BoatModelID": "KDKR-44-AE",
+      "FieldID": "Ballast",
+      "SourceRef": "https://www.kadeykrogen.com/wp-content/uploads/sites/10/2023/05/44-AE-Standard-Equipment-List.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 2500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 1134.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-AE-engine",
+      "BoatModelID": "KDKR-44-AE",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.kadeykrogen.com/wp-content/uploads/sites/10/2023/05/44-AE-Standard-Equipment-List.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 160,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 119.31,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-44-AE-rudder",
+      "BoatModelID": "KDKR-44-AE",
+      "FieldID": "RunningGearProtectionCode",
+      "SourceRef": "https://www.kadeykrogen.com/wp-content/uploads/sites/10/2023/05/44-AE-Standard-Equipment-List.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "stainless rudder with protective shoe",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "running_gear.keel_protected",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-48-NS-loa",
+      "BoatModelID": "KDKR-48-NS",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/48-north-sea-1996-2010",
+      "AssertionState": "supports",
+      "SourceValue": "53 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 16.1544,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-48-NS-lwl",
+      "BoatModelID": "KDKR-48-NS",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/48-north-sea-1996-2010",
+      "AssertionState": "supports",
+      "SourceValue": "45 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.843,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-48-NS-beam",
+      "BoatModelID": "KDKR-48-NS",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/48-north-sea-1996-2010",
+      "AssertionState": "supports",
+      "SourceValue": "16 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 5.08,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-48-NS-draft",
+      "BoatModelID": "KDKR-48-NS",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/48-north-sea-1996-2010",
+      "AssertionState": "supports",
+      "SourceValue": "5 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.524,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-48-NS-disp",
+      "BoatModelID": "KDKR-48-NS",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/48-north-sea-1996-2010",
+      "AssertionState": "supports",
+      "SourceValue": 56450,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 25605.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-48-NS-ballast",
+      "BoatModelID": "KDKR-48-NS",
+      "FieldID": "Ballast",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/48-north-sea-1996-2010",
+      "AssertionState": "supports",
+      "SourceValue": 4500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 2041.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "KDKR-48-NS-years",
+      "BoatModelID": "KDKR-48-NS",
+      "FieldID": "ProductionYears",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/krogen/48-north-sea-1996-2010",
+      "AssertionState": "supports",
+      "SourceValue": "1996–2010",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "WILL-history",
+      "BoatModelID": "WILL-30-VO",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://willardboats.org/about",
+      "AssertionState": "supports",
+      "SourceValue": "Vega was a hull-style designation, not a model; Vega 30 series Voyager/Searcher/Nomad/Horizon built 1973–75",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "B-Atlas retains Voyager as the actual model/variant identity and avoids treating 'Vega' alone as a model.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "WILL-36-lineage",
+      "BoatModelID": "WILL-36-TR",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://willardboats.org/about",
+      "AssertionState": "supports",
+      "SourceValue": "Willard built three 36-foot models: Standard Cruiser, Motorsailer and Aft Pilothouse",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "WILL-36-example",
+      "BoatModelID": "WILL-36-TR",
+      "FieldID": "ProductionExample",
+      "SourceRef": "https://willardboats.org/boats/saga",
+      "AssertionState": "supports",
+      "SourceValue": "1963 Vega 36 Standard, hull 18",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "WILL-40-lineage",
+      "BoatModelID": "WILL-40-NO",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://willardboats.org/boats/vega40",
+      "AssertionState": "supports",
+      "SourceValue": "Vega 40 (1973–77) included Nomad, Voyager and Motorsailer; new Willard 40 from 1977–2003 was a separate updated model with molded superstructure and side decks",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Confirms that B-Atlas should not merge Vega 40 Nomad with the later Willard 40.",
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}

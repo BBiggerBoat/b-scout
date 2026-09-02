@@ -1,0 +1,1220 @@
+{
+  "batchId": "production-11-prairie-tollycraft-uniflite-trojan-ocean-alexander-nordhavn-seapiper-seahorse",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-02",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "PRAI-29-loa",
+      "BoatModelID": "PRAI-29-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/prairie/29-coastal-cruiser-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 8.8392,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-29-lwl",
+      "BoatModelID": "PRAI-29-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/prairie/29-coastal-cruiser-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": "26 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 7.9248,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-29-beam",
+      "BoatModelID": "PRAI-29-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/prairie/29-coastal-cruiser-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.6322,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-29-draft",
+      "BoatModelID": "PRAI-29-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/prairie/29-coastal-cruiser-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-29-disp",
+      "BoatModelID": "PRAI-29-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/prairie/29-coastal-cruiser-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": 12000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5443.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-29-head",
+      "BoatModelID": "PRAI-29-TR",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/prairie/29-coastal-cruiser-1978-81",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9304,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-29-history",
+      "BoatModelID": "PRAI-29-TR",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://prairieboatworks.org/prairie-29-coastal-cruiser/",
+      "AssertionState": "supports",
+      "SourceValue": "design commissioned in 1977; owner/builder history treats Prairie 29 as 1977 introduction",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 1977,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "HMY labels 1978–81. B-Atlas preserves 1977 as design/introduction start and 1981 as last normal production year.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-36-loa",
+      "BoatModelID": "PRAI-36-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://prairieboatworks.org/prairie-36-coastal-cruiser/",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.1506,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-36-beam",
+      "BoatModelID": "PRAI-36-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://prairieboatworks.org/prairie-36-coastal-cruiser/",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.191,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-36-draft",
+      "BoatModelID": "PRAI-36-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://prairieboatworks.org/prairie-36-coastal-cruiser/",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-36-disp",
+      "BoatModelID": "PRAI-36-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://prairieboatworks.org/prairie-36-coastal-cruiser/",
+      "AssertionState": "supports",
+      "SourceValue": 22000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9979.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-36-air",
+      "BoatModelID": "PRAI-36-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://prairieboatworks.org/prairie-36-coastal-cruiser/",
+      "AssertionState": "supports",
+      "SourceValue": "19 ft 9 in mast up",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 6.0198,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-36-head",
+      "BoatModelID": "PRAI-36-TR",
+      "FieldID": "Headroom",
+      "SourceRef": "https://prairieboatworks.org/prairie-36-coastal-cruiser/",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9558,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PRAI-36-successor",
+      "BoatModelID": "PRAI-36-TR",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/atlantic/37-double-cabin-1982-92",
+      "AssertionState": "supports",
+      "SourceValue": "Prairie 36 tooling acquired and reintroduced in 1982 as Atlantic 37 Double Cabin",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-34-loa",
+      "BoatModelID": "TOLL-34-SE",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/tollycraft/34-sport-sedan-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.3632,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-34-beam",
+      "BoatModelID": "TOLL-34-SE",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/tollycraft/34-sport-sedan-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.81,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-34-draft",
+      "BoatModelID": "TOLL-34-SE",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/tollycraft/34-sport-sedan-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-34-disp",
+      "BoatModelID": "TOLL-34-SE",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/tollycraft/34-sport-sedan-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": 17000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7711.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-34-air",
+      "BoatModelID": "TOLL-34-SE",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/tollycraft/34-sport-sedan-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.2418,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-34-hull",
+      "BoatModelID": "TOLL-34-SE",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/tollycraft/34-sport-sedan-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "modified-V, 13° aft deadrise",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-34-fuel",
+      "BoatModelID": "TOLL-34-SE",
+      "FieldID": "FuelCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/tollycraft/34-sport-sedan-1987-93",
+      "AssertionState": "unresolved",
+      "SourceValue": "several engine options including diesels; twin gasoline common",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-37-loa",
+      "BoatModelID": "TOLL-37-SE",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.boattrader.com/boat/1980-tollycraft-37-sedan-9807336/",
+      "AssertionState": "supports",
+      "SourceValue": "37 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.3792,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-37-beam",
+      "BoatModelID": "TOLL-37-SE",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.boattrader.com/boat/1980-tollycraft-37-sedan-9807336/",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0132,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-37-draft",
+      "BoatModelID": "TOLL-37-SE",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.boattrader.com/boat/1980-tollycraft-37-sedan-9807336/",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-37-disp",
+      "BoatModelID": "TOLL-37-SE",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.boattrader.com/boat/1980-tollycraft-37-sedan-9807336/",
+      "AssertionState": "supports",
+      "SourceValue": 22000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9979.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-37-air",
+      "BoatModelID": "TOLL-37-SE",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.boattrader.com/boat/1980-tollycraft-37-sedan-9807336/",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.81,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-37-hull",
+      "BoatModelID": "TOLL-37-SE",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.boattrader.com/boat/1980-tollycraft-37-sedan-9807336/",
+      "AssertionState": "supports",
+      "SourceValue": "modified-V, 8° transom deadrise",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TOLL-37-fuelvar",
+      "BoatModelID": "TOLL-37-SE",
+      "FieldID": "FuelCode",
+      "SourceRef": "https://www.boattrader.com/boat/1980-tollycraft-37-sedan-9807336/",
+      "AssertionState": "unresolved",
+      "SourceValue": "surviving examples documented with gasoline and diesel inboards",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIF-36-loa",
+      "BoatModelID": "UNIF-36-DO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/uniflite/36-double-cabin-1972-84",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.9728,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIF-36-beam",
+      "BoatModelID": "UNIF-36-DO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/uniflite/36-double-cabin-1972-84",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.7592,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIF-36-draft",
+      "BoatModelID": "UNIF-36-DO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/uniflite/36-double-cabin-1972-84",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8128,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIF-36-disp",
+      "BoatModelID": "UNIF-36-DO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/uniflite/36-double-cabin-1972-84",
+      "AssertionState": "supports",
+      "SourceValue": 21000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9525.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIF-36-air",
+      "BoatModelID": "UNIF-36-DO",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/uniflite/36-double-cabin-1972-84",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.7338,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIF-36-phase",
+      "BoatModelID": "UNIF-36-DO",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/uniflite/36-double-cabin-1972-84",
+      "AssertionState": "supports",
+      "SourceValue": "1984 36 II introduced fully cored hull, new flybridge and revised interior; ~3000 lb lighter",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TROJ-F36-code",
+      "BoatModelID": "TROJ-36-TR",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.trojanboats.net/trojan-numbering-70-87.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "Trojan model 363 = F-36 Tri Cabin",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": [
+        "Model 363"
+      ],
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Manufacturer-era numbering documentation confirms F-36 was an explicit fiberglass-series model designation, supporting B-Atlas treatment as its own canonical identity.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TROJ-F36-loa",
+      "BoatModelID": "TROJ-36-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://ca.boats.com/power-boats/1977-trojan-36-tri-cabin-10068102/",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.9728,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TROJ-F36-beam",
+      "BoatModelID": "TROJ-36-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://ca.boats.com/power-boats/1977-trojan-36-tri-cabin-10068102/",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.9624,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TROJ-F36-draft",
+      "BoatModelID": "TROJ-36-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://ca.boats.com/power-boats/1977-trojan-36-tri-cabin-10068102/",
+      "AssertionState": "supports",
+      "SourceValue": "approx 3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TROJ-F36-disp",
+      "BoatModelID": "TROJ-36-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://ca.boats.com/power-boats/1977-trojan-36-tri-cabin-10068102/",
+      "AssertionState": "supports",
+      "SourceValue": 18000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8164.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TROJ-F36-fuel",
+      "BoatModelID": "TROJ-36-TR",
+      "FieldID": "FuelCode",
+      "SourceRef": "https://ca.boats.com/power-boats/1977-trojan-36-tri-cabin-10068102/",
+      "AssertionState": "unresolved",
+      "SourceValue": "gasoline common; diesel examples documented",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Fuel should not be universally forced to gasoline.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "OA39-beam",
+      "BoatModelID": "OCAL-39-SE",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.boats.com/power-boats/1986-ocean-alexander-39-sedan-10098720/",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.3688,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "OA39-draft",
+      "BoatModelID": "OCAL-39-SE",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.boats.com/power-boats/1986-ocean-alexander-39-sedan-10098720/",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9652,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "OA39-extension",
+      "BoatModelID": "OCAL-39-SE",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.boats.com/power-boats/1986-ocean-alexander-39-sedan-10098720/",
+      "AssertionState": "unresolved",
+      "SourceValue": "39 ft nominal / 42 ft 6 in actual listing LOA",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Surviving 39s often carry integrated or added swim-grid extensions. Model-wide LOA is intentionally not promoted from listing examples.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NRDH-40-loa",
+      "BoatModelID": "NRDH-40",
+      "FieldID": "LOA",
+      "SourceRef": "https://nordhavn.com/nordhavn-yacht-models/retired-models/n40/",
+      "AssertionState": "supports",
+      "SourceValue": "39 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.1158,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NRDH-40-lwl",
+      "BoatModelID": "NRDH-40",
+      "FieldID": "LWL",
+      "SourceRef": "https://nordhavn.com/nordhavn-yacht-models/retired-models/n40/",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.795,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NRDH-40-beam",
+      "BoatModelID": "NRDH-40",
+      "FieldID": "Beam",
+      "SourceRef": "https://nordhavn.com/nordhavn-yacht-models/retired-models/n40/",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.4196,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NRDH-40-disp",
+      "BoatModelID": "NRDH-40",
+      "FieldID": "Displacement",
+      "SourceRef": "https://nordhavn.com/nordhavn-yacht-models/retired-models/n40/",
+      "AssertionState": "supports",
+      "SourceValue": 50000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 22679.6,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NRDH-40-hull",
+      "BoatModelID": "NRDH-40",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://nordhavn.com/nordhavn-yacht-models/retired-models/n40/",
+      "AssertionState": "supports",
+      "SourceValue": "full-displacement ocean passagemaker",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.displacement",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NRDH-40-phase-original",
+      "BoatModelID": "NRDH-40",
+      "FieldID": "Draft",
+      "SourceRef": "https://nordhavn.com/wp-content/uploads/2021/02/circumnavigatorII.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.4478,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 1998,
+        "endYear": 2003
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NRDH-40-phase-ii",
+      "BoatModelID": "NRDH-40",
+      "FieldID": "Draft",
+      "SourceRef": "https://nordhavn.com/nordhavn-yacht-models/retired-models/n40/",
+      "AssertionState": "supports",
+      "SourceValue": "5 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.5748,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 2004,
+        "endYear": 2018
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NRDH-40-generation",
+      "BoatModelID": "NRDH-40",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://nordhavn.com/wp-content/uploads/2021/02/circumnavigatorIV.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "1998 N40; 2004 N40II; 45 N40 and 25 N40II reported",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "N40II is a refinement/yard-change generation, not a wholly new hull identity.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAP-35-loa",
+      "BoatModelID": "SEAP-35",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.seapiper.com/wp-content/uploads/2020/07/SeaPiper-35-SPECIFICATION-9-2.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 11 in hull",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.9474,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAP-35-lwl",
+      "BoatModelID": "SEAP-35",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.seapiper.com/wp-content/uploads/2020/07/SeaPiper-35-SPECIFICATION-9-2.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "33 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.1854,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAP-35-beam",
+      "BoatModelID": "SEAP-35",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.seapiper.com/wp-content/uploads/2020/07/SeaPiper-35-SPECIFICATION-9-2.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "8 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.5908,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAP-35-draft",
+      "BoatModelID": "SEAP-35",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.seapiper.com/wp-content/uploads/2020/07/SeaPiper-35-SPECIFICATION-9-2.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.889,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAP-35-disp",
+      "BoatModelID": "SEAP-35",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.seapiper.com/wp-content/uploads/2020/07/SeaPiper-35-SPECIFICATION-9-2.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "16,500 lb design displacement",
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7484.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAP-35-power",
+      "BoatModelID": "SEAP-35",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.seapiper.com/wp-content/uploads/2020/07/SeaPiper-35-SPECIFICATION-9-2.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 85,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 63.38,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAP-35-tankage",
+      "BoatModelID": "SEAP-35",
+      "FieldID": "FuelCapacity",
+      "SourceRef": "https://www.seapiper.com/wp-content/uploads/2020/07/SeaPiper-35-SPECIFICATION-9-2.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "200 US gal approx / 760 L",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 760,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAP-35-range",
+      "BoatModelID": "SEAP-35",
+      "FieldID": "Range",
+      "SourceRef": "https://www.seapiper.com/wp-content/uploads/2020/07/SeaPiper-35-SPECIFICATION-9-2.pdf",
+      "AssertionState": "unresolved",
+      "SourceValue": "1,400–2,000 nm",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "nm",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Range depends on operating speed/load; retained as evidence range rather than scalar.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-35-loa",
+      "BoatModelID": "SEAH-35-PH",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.boatsdata.com/2021-seahorse-coot-35-%26-38-37112/specs",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.87,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-35-lwl",
+      "BoatModelID": "SEAH-35-PH",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.boatsdata.com/2021-seahorse-coot-35-%26-38-37112/specs",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.65,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-35-beam",
+      "BoatModelID": "SEAH-35-PH",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.boatsdata.com/2021-seahorse-coot-35-%26-38-37112/specs",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.96,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-35-draft",
+      "BoatModelID": "SEAH-35-PH",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.boatsdata.com/2021-seahorse-coot-35-%26-38-37112/specs",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.19,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-35-disp",
+      "BoatModelID": "SEAH-35-PH",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.boatsdata.com/2021-seahorse-coot-35-%26-38-37112/specs",
+      "AssertionState": "supports",
+      "SourceValue": "28,000 lb",
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 12701,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-35-material",
+      "BoatModelID": "SEAH-35-PH",
+      "FieldID": "HullMaterialCode",
+      "SourceRef": "https://www.boatsdata.com/2021-seahorse-coot-35-%26-38-37112/specs",
+      "AssertionState": "supports",
+      "SourceValue": "steel trawler construction",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_material.steel",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-38-loa",
+      "BoatModelID": "SEAH-38-CO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.yachtfocus.com/en/boat/2025-seahorse-coot38-522264/",
+      "AssertionState": "supports",
+      "SourceValue": "11.582 m / 38 ft",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 11.582,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-38-lwl",
+      "BoatModelID": "SEAH-38-CO",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.yachtfocus.com/en/boat/2025-seahorse-coot38-522264/",
+      "AssertionState": "supports",
+      "SourceValue": "10.561 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 10.561,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-38-beam",
+      "BoatModelID": "SEAH-38-CO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.yachtfocus.com/en/boat/2025-seahorse-coot38-522264/",
+      "AssertionState": "supports",
+      "SourceValue": "3.912 m / 13 ft",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.912,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-38-draft",
+      "BoatModelID": "SEAH-38-CO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.yachtfocus.com/en/boat/2025-seahorse-coot38-522264/",
+      "AssertionState": "supports",
+      "SourceValue": "1.16 m / 3 ft 11 in",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 1.16,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-38-displacement-conflict",
+      "BoatModelID": "SEAH-38-CO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://seahorse-marine.ueniweb.com/products/pocket/coot-38-35-50767788",
+      "AssertionState": "conflicts",
+      "SourceValue": "28,000 lb on Seahorse marketing page vs 37,400 lb loaded on newer listing/spec text",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "No single model-wide displacement is promoted until builder documentation resolves light/loaded definitions.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAH-38-material",
+      "BoatModelID": "SEAH-38-CO",
+      "FieldID": "HullMaterialCode",
+      "SourceRef": "https://seahorse-marine.ueniweb.com/products/pocket/coot-38-35-50767788",
+      "AssertionState": "supports",
+      "SourceValue": "very strong steel hull with FRP superstructure",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_material.steel",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    }
+  ]
+}

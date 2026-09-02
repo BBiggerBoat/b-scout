@@ -69,6 +69,18 @@
         "string",
         "null"
       ]
+    },
+    "ProductionPhaseID": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ScopeType": {
+      "enum": [
+        "model",
+        "production_phase"
+      ]
     }
   }
 }

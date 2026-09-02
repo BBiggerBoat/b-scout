@@ -1,0 +1,1609 @@
+{
+  "batchId": "production-07-back-cove-sabre-duffy-fortier-hunt",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "BKCV-26-loa",
+      "BoatModelID": "BKCV-26",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-26",
+      "AssertionState": "supports",
+      "SourceValue": "26 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.0772,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-26-beam",
+      "BoatModelID": "BKCV-26",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-26",
+      "AssertionState": "supports",
+      "SourceValue": "9 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.8448,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-26-draft",
+      "BoatModelID": "BKCV-26",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-26",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.762,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-26-power",
+      "BoatModelID": "BKCV-26",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-26",
+      "AssertionState": "supports",
+      "SourceValue": "single diesel, 200–260 hp",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.shaft",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-29-loa",
+      "BoatModelID": "BKCV-29",
+      "FieldID": "LOA",
+      "SourceRef": "https://backcoveyachts.com/pdf/bc29.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.9916,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-29-beam",
+      "BoatModelID": "BKCV-29",
+      "FieldID": "Beam",
+      "SourceRef": "https://backcoveyachts.com/pdf/bc29.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.175,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-29-draft",
+      "BoatModelID": "BKCV-29",
+      "FieldID": "Draft",
+      "SourceRef": "https://backcoveyachts.com/pdf/bc29.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "30 in",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.762,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-29-disp",
+      "BoatModelID": "BKCV-29",
+      "FieldID": "Displacement",
+      "SourceRef": "https://backcoveyachts.com/pdf/bc29.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 10000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 4535.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-29-beam-conflict",
+      "BoatModelID": "BKCV-29",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-29",
+      "AssertionState": "conflicts",
+      "SourceValue": "9 ft 5 in (page also says 3.20 m)",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "9 ft 5 in conflicts with 3.20 m and original brochure 10 ft 5 in. Canonical beam uses original brochure.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-30-loa",
+      "BoatModelID": "BKCV-30",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.414,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-30-beam",
+      "BoatModelID": "BKCV-30",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.429,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-30-draft",
+      "BoatModelID": "BKCV-30",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8128,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-30-disp",
+      "BoatModelID": "BKCV-30",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 12300,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5579.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-32-loa",
+      "BoatModelID": "BKCV-32",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "37 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 11.2776,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-32-beam",
+      "BoatModelID": "BKCV-32",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.6068,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-32-draft",
+      "BoatModelID": "BKCV-32",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-32-disp",
+      "BoatModelID": "BKCV-32",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 17500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7937.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-34-loa",
+      "BoatModelID": "BKCV-34",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.7094,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-34-beam",
+      "BoatModelID": "BKCV-34",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-34-draft",
+      "BoatModelID": "BKCV-34",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9398,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-34-disp",
+      "BoatModelID": "BKCV-34",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 16500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7484.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-37-loa",
+      "BoatModelID": "BKCV-37",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "42 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.8016,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-37-beam",
+      "BoatModelID": "BKCV-37",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0386,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-37-draft",
+      "BoatModelID": "BKCV-37",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0922,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-37-disp",
+      "BoatModelID": "BKCV-37",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.backcoveyachts.com/backcove/wp-content/uploads/2017/03/BC_Full_Line_Bro_2017.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 24300,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 11022.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-33-loa",
+      "BoatModelID": "BKCV-33",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-33",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.5664,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-33-beam",
+      "BoatModelID": "BKCV-33",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-33",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-33-draft",
+      "BoatModelID": "BKCV-33",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-33",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9398,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-33-rename",
+      "BoatModelID": "BKCV-33",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-33",
+      "AssertionState": "supports",
+      "SourceValue": "Back Cove 33 relaunched as Back Cove 34 in 2012",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-39O-loa",
+      "BoatModelID": "BKCV-39O",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.backcoveyachts.com/motor-yachts/back-cove-39o",
+      "AssertionState": "supports",
+      "SourceValue": "43 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.2588,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-39O-beam",
+      "BoatModelID": "BKCV-39O",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.backcoveyachts.com/motor-yachts/back-cove-39o",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1148,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-39O-draft",
+      "BoatModelID": "BKCV-39O",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.backcoveyachts.com/motor-yachts/back-cove-39o",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.7112,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-39O-power",
+      "BoatModelID": "BKCV-39O",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.backcoveyachts.com/motor-yachts/back-cove-39o",
+      "AssertionState": "supports",
+      "SourceValue": "triple Mercury V10 400 or twin V12 600",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.outboard",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-41-loa",
+      "BoatModelID": "BKCV-41",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-41",
+      "AssertionState": "supports",
+      "SourceValue": "46 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 14.0462,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-41-beam",
+      "BoatModelID": "BKCV-41",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-41",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.2672,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-41-draft",
+      "BoatModelID": "BKCV-41",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-41",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.143,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BKCV-41-power",
+      "BoatModelID": "BKCV-41",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.backcoveyachts.com/owners/heritage-models/back-cove-41",
+      "AssertionState": "supports",
+      "SourceValue": "single diesel straight shaft",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.shaft",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-34-EX-hull",
+      "BoatModelID": "SABR-34-EX",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.sabreyachts.com/owners/heritage-models/sabre-34-hard-top-express",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 6 in hull length",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.5156,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-34-EX-beam",
+      "BoatModelID": "SABR-34-EX",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.sabreyachts.com/owners/heritage-models/sabre-34-hard-top-express",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0386,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-34-EX-draft",
+      "BoatModelID": "SABR-34-EX",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.sabreyachts.com/owners/heritage-models/sabre-34-hard-top-express",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-34-shower",
+      "BoatModelID": "SABR-34-EX",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.sabreyachts.com/owners/heritage-models/sabre-34-hard-top-express",
+      "AssertionState": "supports",
+      "SourceValue": "spacious head with separate shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-38-SA-hull",
+      "BoatModelID": "SABR-38-SA",
+      "FieldID": "HullLength",
+      "SourceRef": "https://www.sabreyachts.com/sabre/wp-content/uploads/2012/10/38xbrochure.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 11.5824,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-38-SA-beam",
+      "BoatModelID": "SABR-38-SA",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.sabreyachts.com/sabre/wp-content/uploads/2012/10/38xbrochure.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.064,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-38-SA-draft",
+      "BoatModelID": "SABR-38-SA",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.sabreyachts.com/sabre/wp-content/uploads/2012/10/38xbrochure.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.016,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-38-SA-disp",
+      "BoatModelID": "SABR-38-SA",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.sabreyachts.com/sabre/wp-content/uploads/2012/10/38xbrochure.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 21500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9752.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-38-SA-head",
+      "BoatModelID": "SABR-38-SA",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.sabreyachts.com/sabre/wp-content/uploads/2012/10/38xbrochure.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9812,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-38-phase-old",
+      "BoatModelID": "SABR-38-SA",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.sabreyachts.com/sabre/wp-content/uploads/2012/10/38xbrochure.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "pod drivetrain",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.pod",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 2012,
+        "endYear": 2021
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SABR-38-phase-new",
+      "BoatModelID": "SABR-38-SA",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.sabreyachts.com/sabre-38-reintroduced-with-volva-penta",
+      "AssertionState": "supports",
+      "SourceValue": "Volvo Penta Aquamatic DPI",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.sterndrive",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 2026,
+        "endYear": null
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-history",
+      "BoatModelID": "DUFF-35",
+      "FieldID": "BuilderHistory",
+      "SourceRef": "https://www.atlanticboat.com/history-of-duffy-boats/",
+      "AssertionState": "supports",
+      "SourceValue": "Duffy & Duffy founded 1975; merged with Flye Point Marine in 1995 to form Atlantic Boat Company",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-35-origin",
+      "BoatModelID": "DUFF-35",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://www.atlanticboat.com/history-of-duffy-boats/",
+      "AssertionState": "supports",
+      "SourceValue": "Spencer Lincoln design in 1981; over 370 hulls built since 1982",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 1982,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-kits",
+      "BoatModelID": "DUFF-31",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.atlanticboat.com/duffy-kits/",
+      "AssertionState": "supports",
+      "SourceValue": "current Duffy kits offered in 26, 31, 35, 37 and 42 ft sizes",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Supports continuing hull-family identity independent of custom yacht finish.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-31-loa",
+      "BoatModelID": "DUFF-31",
+      "FieldID": "LOA",
+      "SourceRef": "https://kraftpower.com/wp-content/uploads/2025/06/Duffy-31-Application-Page-v1-1.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.4488,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-31-beam",
+      "BoatModelID": "DUFF-31",
+      "FieldID": "Beam",
+      "SourceRef": "https://kraftpower.com/wp-content/uploads/2025/06/Duffy-31-Application-Page-v1-1.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.3528,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-31-draft",
+      "BoatModelID": "DUFF-31",
+      "FieldID": "Draft",
+      "SourceRef": "https://kraftpower.com/wp-content/uploads/2025/06/Duffy-31-Application-Page-v1-1.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-35-loa",
+      "BoatModelID": "DUFF-35",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/35-flybridge-1983-2003",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.6934,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-35-lwl",
+      "BoatModelID": "DUFF-35",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/35-flybridge-1983-2003",
+      "AssertionState": "supports",
+      "SourceValue": "33 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.16,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-35-beam",
+      "BoatModelID": "DUFF-35",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/35-flybridge-1983-2003",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.6322,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-35-draft",
+      "BoatModelID": "DUFF-35",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/35-flybridge-1983-2003",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-35-disp",
+      "BoatModelID": "DUFF-35",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/35-flybridge-1983-2003",
+      "AssertionState": "supports",
+      "SourceValue": 12000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5443.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-35-shower",
+      "BoatModelID": "DUFF-35",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/35-flybridge-1983-2003",
+      "AssertionState": "supports",
+      "SourceValue": "large stall shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-37-loa",
+      "BoatModelID": "DUFF-37",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.boattrader.com/boat/2006-duffy-37-downeast-9969281/",
+      "AssertionState": "supports",
+      "SourceValue": "37 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 11.2776,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-37-beam",
+      "BoatModelID": "DUFF-37",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.boattrader.com/boat/2006-duffy-37-downeast-9969281/",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0132,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-37-draft",
+      "BoatModelID": "DUFF-37",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.boattrader.com/boat/2006-duffy-37-downeast-9969281/",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-37-disp",
+      "BoatModelID": "DUFF-37",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.boattrader.com/boat/2006-duffy-37-downeast-9969281/",
+      "AssertionState": "supports",
+      "SourceValue": 27000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 12247.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-42-loa",
+      "BoatModelID": "DUFF-42",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/42-flybridge-1985-2006",
+      "AssertionState": "supports",
+      "SourceValue": "42 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.8016,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-42-beam",
+      "BoatModelID": "DUFF-42",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/42-flybridge-1985-2006",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.4196,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-42-draft",
+      "BoatModelID": "DUFF-42",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/42-flybridge-1985-2006",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.3716,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-42-disp",
+      "BoatModelID": "DUFF-42",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/42-flybridge-1985-2006",
+      "AssertionState": "supports",
+      "SourceValue": 28000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 12700.6,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-42-head",
+      "BoatModelID": "DUFF-42",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/42-flybridge-1985-2006",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.905,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-42-enginevar",
+      "BoatModelID": "DUFF-42",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/duffy/42-flybridge-1985-2006",
+      "AssertionState": "unresolved",
+      "SourceValue": "single 375 hp Cat common; many later boats twin 375 hp Cats",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "EngineCount should remain hull/finish specific on semi-custom Duffy 42s.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-29-unresolved",
+      "BoatModelID": "DUFF-29",
+      "FieldID": "CanonicalStatus",
+      "SourceRef": "https://www.atlanticboat.com/history-of-duffy-boats/",
+      "AssertionState": "unresolved",
+      "SourceValue": "Duffy family historical model; insufficient strong model-specific dimensional source in this pass",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "DUFF-39-unresolved",
+      "BoatModelID": "DUFF-39",
+      "FieldID": "CanonicalStatus",
+      "SourceRef": "https://www.atlanticboat.com/history-of-duffy-boats/",
+      "AssertionState": "unresolved",
+      "SourceValue": "Extended/custom Duffy 37 lineage; insufficient strong model-specific universal dimensions in this pass",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-26-loa",
+      "BoatModelID": "FORT-26",
+      "FieldID": "LOA",
+      "SourceRef": "https://fortierboats.com/fortier-26/",
+      "AssertionState": "supports",
+      "SourceValue": "26.9 ft",
+      "SourceUnit": "ft_decimal",
+      "NormalizedCandidateValue": 8.1534,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-26-beam",
+      "BoatModelID": "FORT-26",
+      "FieldID": "Beam",
+      "SourceRef": "https://fortierboats.com/fortier-26/",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.048,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-26-draft",
+      "BoatModelID": "FORT-26",
+      "FieldID": "Draft",
+      "SourceRef": "https://fortierboats.com/fortier-26/",
+      "AssertionState": "supports",
+      "SourceValue": "30 in",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.762,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-26-disp",
+      "BoatModelID": "FORT-26",
+      "FieldID": "Displacement",
+      "SourceRef": "https://fortierboats.com/fortier-26/",
+      "AssertionState": "supports",
+      "SourceValue": 6500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 2948.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-26-engine",
+      "BoatModelID": "FORT-26",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://fortierboats.com/fortier-26/",
+      "AssertionState": "supports",
+      "SourceValue": 230,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 171.51,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-26-protection",
+      "BoatModelID": "FORT-26",
+      "FieldID": "RunningGearProtectionCode",
+      "SourceRef": "https://fortierboats.com/fortier-26/",
+      "AssertionState": "supports",
+      "SourceValue": "full molded keel and skeg protect shaft and rudder",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "running_gear.skeg_protected",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-33-loa",
+      "BoatModelID": "FORT-33",
+      "FieldID": "LOA",
+      "SourceRef": "https://fortierboats.com/fortier-33/",
+      "AssertionState": "supports",
+      "SourceValue": "33 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.2108,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-33-beam",
+      "BoatModelID": "FORT-33",
+      "FieldID": "Beam",
+      "SourceRef": "https://fortierboats.com/fortier-33/",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.556,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-33-draft",
+      "BoatModelID": "FORT-33",
+      "FieldID": "Draft",
+      "SourceRef": "https://fortierboats.com/fortier-33/",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8128,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-33-disp",
+      "BoatModelID": "FORT-33",
+      "FieldID": "Displacement",
+      "SourceRef": "https://fortierboats.com/fortier-33/",
+      "AssertionState": "supports",
+      "SourceValue": 12000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5443.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FORT-33-propulsion",
+      "BoatModelID": "FORT-33",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://fortierboats.com/fortier-33/",
+      "AssertionState": "unresolved",
+      "SourceValue": "standard twin diesel inboards; optional Volvo IPS",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model-level propulsion remains unresolved because both shaft and IPS configurations were factory-supported.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-29-loa",
+      "BoatModelID": "HUNT-29",
+      "FieldID": "LOA",
+      "SourceRef": "https://huntyachts.com/wp-content/uploads/2015/11/2016-Surfhunter-29-standard-equipment-11-3-15.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.9916,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-29-beam",
+      "BoatModelID": "HUNT-29",
+      "FieldID": "Beam",
+      "SourceRef": "https://huntyachts.com/wp-content/uploads/2015/11/2016-Surfhunter-29-standard-equipment-11-3-15.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.2004,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-29-draft",
+      "BoatModelID": "HUNT-29",
+      "FieldID": "Draft",
+      "SourceRef": "https://huntyachts.com/wp-content/uploads/2015/11/2016-Surfhunter-29-standard-equipment-11-3-15.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft prop draft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-29-disp",
+      "BoatModelID": "HUNT-29",
+      "FieldID": "Displacement",
+      "SourceRef": "https://huntyachts.com/wp-content/uploads/2015/11/2016-Surfhunter-29-standard-equipment-11-3-15.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 9000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 4082.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-29-propvar",
+      "BoatModelID": "HUNT-29",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://huntyachts.com/wp-content/uploads/2015/05/3-18-15-Model-Comparison-Form-25-36.pdf",
+      "AssertionState": "unresolved",
+      "SourceValue": "sterndrive, V-drive, waterjet and outboard configurations documented",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-36-loa",
+      "BoatModelID": "HUNT-36",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.yachtingmagazine.com/new-coupe-hunt/",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.1252,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-36-beam",
+      "BoatModelID": "HUNT-36",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.yachtingmagazine.com/new-coupe-hunt/",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.4544,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-36-draft",
+      "BoatModelID": "HUNT-36",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.yachtingmagazine.com/new-coupe-hunt/",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-36-disp",
+      "BoatModelID": "HUNT-36",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.yachtingmagazine.com/new-coupe-hunt/",
+      "AssertionState": "supports",
+      "SourceValue": 14000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 6350.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-36-propvar",
+      "BoatModelID": "HUNT-36",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.yachtingmagazine.com/new-coupe-hunt/",
+      "AssertionState": "unresolved",
+      "SourceValue": "standard Cummins/ZF pod; optional diesel inboard shaft",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HUNT-36-shower",
+      "BoatModelID": "HUNT-36",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.yachtingmagazine.com/new-coupe-hunt/",
+      "AssertionState": "supports",
+      "SourceValue": "separate stall shower with seat",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}

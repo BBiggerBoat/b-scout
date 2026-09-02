@@ -1,0 +1,843 @@
+{
+  "batchId": "pilot-01",
+  "schemaVersion": "1.3",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-loa",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.8806,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-lwl",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.9154,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-beam",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": "8 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.5908,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-draft",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-disp",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": 8800,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 3991.6,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-sail",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "SailArea",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": 216,
+      "SourceUnit": "ft2",
+      "NormalizedCandidateValue": 20.067,
+      "CanonicalUnit": "m2",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-mast",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "MastHeight",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.017,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-power",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": 50,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 37.28,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-shower",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": "separate shower compartment",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-rudder",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "RudderTypeCode",
+      "SourceRef": "https://ca.boats.com/power-boats/1996-nimble-wanderer-10046445/",
+      "AssertionState": "supports",
+      "SourceValue": "long-skeg keel with fully supported rudder",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "rudder.skeg_hung",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Listing description supports skeg-supported/fully supported rudder; retained as moderate confidence rather than factory-grade evidence.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-category",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "VesselCategoryCode",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": "available with or without mast; described as a motorsailer",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "vessel.motorsailer",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model-level classification. Individual mastless hulls are power-only variants.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-loa",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "supports",
+      "SourceValue": "26 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.1534,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-lwl",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "supports",
+      "SourceValue": "24 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.4168,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-beam",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "supports",
+      "SourceValue": "9 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.9464,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-draft",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.762,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-disp",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "supports",
+      "SourceValue": 6500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 2948.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-shower-wet",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://marinesource.com/boats-for-sale/listing_print.cfm?listingnmb=100734428",
+      "AssertionState": "supports",
+      "SourceValue": "diverter/wand shower in enclosed head",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.wet_head",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Stock examples and owner documentation support an enclosed wet-head arrangement, not a dedicated shower stall.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-shower-no-standalone",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://motorcityboatwerks.com/boats/albin-27-family-cruiser/",
+      "AssertionState": "supports",
+      "SourceValue": "factory boat did not have a standalone shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.wet_head",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Owner restoration source explicitly distinguishes the factory head from a later custom standalone shower.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-years-conflict",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "LastYear",
+      "SourceRef": "https://albin27.com/",
+      "AssertionState": "conflicts",
+      "SourceValue": "approximately 1992",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "HMY/PowerBoat Guide lists 1983–95. Production end remains unresolved at pilot stage.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-loa",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.7282,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-lwl",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": "30 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.3726,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-beam",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.5052,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-draft",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.143,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-disp",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": 17000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7711.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-totalbuilt",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "TotalBuilt",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": 861,
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 861,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-material",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "HullMaterialCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "unresolved",
+      "SourceValue": "wood until 1973; fiberglass thereafter",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "A single model-level material code would be misleading across the full production run. Preserve year-dependent assertions instead.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-shower",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": "hand-held shower in head",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.wet_head",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-loa",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft overall",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.4488,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-beam",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/camano/28-31-1990-2007",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.2004,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-draft",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/camano/28-31-1990-2007",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-fuel-early",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "FuelCapacity",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 92.4,
+      "SourceUnit": "us_gal",
+      "NormalizedCandidateValue": 349.77,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "notes": "handbook standard; later boats differ"
+      },
+      "Notes": "Do not promote to one universal model scalar because later production used larger tanks.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-water-early",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "WaterCapacity",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 67,
+      "SourceUnit": "us_gal",
+      "NormalizedCandidateValue": 253.62,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "notes": "handbook standard; later boats differ"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-holding-early",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "HoldingCapacity",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 14.5,
+      "SourceUnit": "us_gal",
+      "NormalizedCandidateValue": 54.89,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "notes": "handbook standard; later boats differ"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-model-name",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "Model",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "Troll sold as Camano 28, later renamed Camano 31",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Keep current 28/31 cross-era naming/aliases during migration.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-loa",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "27 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.509,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-lwl",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "25 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.8994,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-beam",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "9 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.0226,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-draft-factory",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "conflicts",
+      "SourceValue": "2 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.889,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Association page states data are based on the 1986 factory brochure.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-draft-hmy",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/28-flybridge-cruiser-1985-91",
+      "AssertionState": "conflicts",
+      "SourceValue": "2 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8382,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Canonical Draft deliberately left unset until year/configuration discrepancy is resolved.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-keel",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "KeelConfigurationCode",
+      "SourceRef": "https://www.manualslib.com/manual/4227315/Cape-Dory-28-Power.html",
+      "AssertionState": "supports",
+      "SourceValue": "full keel protecting prop and rudder",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "keel.full_long",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-fuel-mix",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "FuelCode",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "275 hp gasoline or 200 bhp Volvo turbodiesel",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "fuel.mixed",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Fuel varies by installed engine; fuel.mixed means model family supports both, not that an individual hull uses mixed fuel.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-loa",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 0 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.9728,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-lwl",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 0 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.7536,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-beam",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.7084,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-draft",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-disp",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": 21000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9525.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-keel",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "KeelConfigurationCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "long prop-protecting keel",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "keel.protective",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-shower",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "tub/shower in aft head",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Mapped to separate bathing enclosure rather than wet head.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-engines",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "unresolved",
+      "SourceValue": "single diesel described; twin configurations also exist in market/family evidence",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "EngineCount deliberately left unset at model level.",
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}

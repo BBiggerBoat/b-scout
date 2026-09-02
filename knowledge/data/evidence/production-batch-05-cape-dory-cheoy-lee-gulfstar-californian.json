@@ -1,0 +1,1777 @@
+{
+  "batchId": "production-05-cape-dory-cheoy-lee-gulfstar-californian",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-loa",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "27 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.509,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-lwl",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "25 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.8994,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-beam",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "9 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.0226,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-draft",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.889,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-keel",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "KeelConfigurationCode",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "full keel and molded-in skeg protecting rudder and prop",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "keel.full_long",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-OF-loa",
+      "BoatModelID": "CPDR-28-OF",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "27 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.509,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-OF-lwl",
+      "BoatModelID": "CPDR-28-OF",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "25 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.8994,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-OF-beam",
+      "BoatModelID": "CPDR-28-OF",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "9 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.0226,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-OF-draft",
+      "BoatModelID": "CPDR-28-OF",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.889,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-OF-keel",
+      "BoatModelID": "CPDR-28-OF",
+      "FieldID": "KeelConfigurationCode",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "full keel and molded-in skeg protecting rudder and prop",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "keel.full_long",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-CR-loa",
+      "BoatModelID": "CPDR-28-CR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "27 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.509,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-CR-lwl",
+      "BoatModelID": "CPDR-28-CR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "25 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.8994,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-CR-beam",
+      "BoatModelID": "CPDR-28-CR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "9 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.0226,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-CR-draft",
+      "BoatModelID": "CPDR-28-CR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.889,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-CR-keel",
+      "BoatModelID": "CPDR-28-CR",
+      "FieldID": "KeelConfigurationCode",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "full keel and molded-in skeg protecting rudder and prop",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "keel.full_long",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-FB-draft-hmy",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/28-flybridge-cruiser-1985-91",
+      "AssertionState": "conflicts",
+      "SourceValue": "2 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8382,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Secondary guide conflicts with brochure-derived 2 ft 11 in. Canonical value follows brochure-derived source.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-OF-draft-hmy",
+      "BoatModelID": "CPDR-28-OF",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/28-open-fisherman-1985-90",
+      "AssertionState": "conflicts",
+      "SourceValue": "2 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8382,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Secondary guide conflicts with brochure-derived 2 ft 11 in. Canonical value follows brochure-derived source.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-displacement",
+      "BoatModelID": "CPDR-28-CR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": 8000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 3628.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Brochure-derived association page gives 8,000 lb for Cruiser. Open/Sport weights differ; Flybridge weight is not safely universalized.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-28-fuel-variation",
+      "BoatModelID": "CPDR-28-FB",
+      "FieldID": "FuelCode",
+      "SourceRef": "https://www.capedory.org/specs/cd28pwr.htm",
+      "AssertionState": "supports",
+      "SourceValue": "275 hp Chrysler gasoline or 200 bhp Volvo turbodiesel",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "fuel.mixed",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-30-FB-loa",
+      "BoatModelID": "CPDR-30-FB",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/30-flybridge-1990-91",
+      "AssertionState": "supports",
+      "SourceValue": "30 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.2202,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-30-FB-beam",
+      "BoatModelID": "CPDR-30-FB",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/30-flybridge-1990-91",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-30-FB-draft",
+      "BoatModelID": "CPDR-30-FB",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/30-flybridge-1990-91",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-30-FB-disp",
+      "BoatModelID": "CPDR-30-FB",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/30-flybridge-1990-91",
+      "AssertionState": "supports",
+      "SourceValue": 12500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5669.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-30-hull",
+      "BoatModelID": "CPDR-30-FB",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/30-flybridge-1990-91",
+      "AssertionState": "supports",
+      "SourceValue": "hard-chine modified-V; explicitly not semi-displacement",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-33-FB-loa",
+      "BoatModelID": "CPDR-33-FB",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/33-flybridge-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.0076,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-33-FB-beam",
+      "BoatModelID": "CPDR-33-FB",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/33-flybridge-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.7084,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-33-FB-draft",
+      "BoatModelID": "CPDR-33-FB",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/33-flybridge-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.889,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-33-FB-disp",
+      "BoatModelID": "CPDR-33-FB",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/33-flybridge-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": 15500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7030.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-33-built",
+      "BoatModelID": "CPDR-33-FB",
+      "FieldID": "TotalBuilt",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/33-flybridge-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": 23,
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 23,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-33-shower",
+      "BoatModelID": "CPDR-33-FB",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/33-flybridge-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "large head with separate stall shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-36-TR-loa",
+      "BoatModelID": "CPDR-36-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/36-flybridge-1988-90",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.8966,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-36-TR-beam",
+      "BoatModelID": "CPDR-36-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/36-flybridge-1988-90",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1148,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-36-TR-draft",
+      "BoatModelID": "CPDR-36-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/36-flybridge-1988-90",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-36-TR-disp",
+      "BoatModelID": "CPDR-36-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/36-flybridge-1988-90",
+      "AssertionState": "supports",
+      "SourceValue": 18000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8164.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-36-hull",
+      "BoatModelID": "CPDR-36-TR",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cape-dory/36-flybridge-1988-90",
+      "AssertionState": "supports",
+      "SourceValue": "modified-V hull with long prop-protecting keel",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-40-TR-loa",
+      "BoatModelID": "CPDR-40-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.capedory.org/specs/cd40pwr_explorer.htm",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-40-TR-beam",
+      "BoatModelID": "CPDR-40-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.capedory.org/specs/cd40pwr_explorer.htm",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.2164,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-40-TR-draft",
+      "BoatModelID": "CPDR-40-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.capedory.org/specs/cd40pwr_explorer.htm",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.143,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-40-TR-disp",
+      "BoatModelID": "CPDR-40-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.capedory.org/specs/cd40pwr_explorer.htm",
+      "AssertionState": "supports",
+      "SourceValue": 25000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 11339.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-40-TR-air",
+      "BoatModelID": "CPDR-40-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.capedory.org/specs/cd40pwr_explorer.htm",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0386,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-40-TR-head",
+      "BoatModelID": "CPDR-40-TR",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.capedory.org/specs/cd40pwr_explorer.htm",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9558,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-40-designer",
+      "BoatModelID": "CPDR-40-TR",
+      "FieldID": "Designer",
+      "SourceRef": "https://www.capedory.org/specs/cd40pwr_explorer.htm",
+      "AssertionState": "supports",
+      "SourceValue": "Clive M. Dent, N.A.",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Clive M. Dent",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-40-years",
+      "BoatModelID": "CPDR-40-TR",
+      "FieldID": "ProductionYears",
+      "SourceRef": "https://www.capedory.org/specs/cd40pwr_explorer.htm",
+      "AssertionState": "supports",
+      "SourceValue": "1992–1994",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Corrects legacy 1992–1995 range.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CPDR-40-builderphase",
+      "BoatModelID": "CPDR-40-TR",
+      "FieldID": "Builder",
+      "SourceRef": "https://www.capedory.org/specs/cd40pwr_explorer.htm",
+      "AssertionState": "unresolved",
+      "SourceValue": "hull #1 Cape Dory; later boats Newport Shipyards",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Builder changed after acquisition of Cape Dory name/molds; not a new model identity.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-28-loa",
+      "BoatModelID": "CHLY-28",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "27 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.509,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-28-beam",
+      "BoatModelID": "CHLY-28",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.1242,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-28-draft",
+      "BoatModelID": "CHLY-28",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-28-disp",
+      "BoatModelID": "CHLY-28",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": 14500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 6577.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-32-loa",
+      "BoatModelID": "CHLY-32",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.7282,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-32-lwl",
+      "BoatModelID": "CHLY-32",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.9916,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-32-beam",
+      "BoatModelID": "CHLY-32",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-32-draft",
+      "BoatModelID": "CHLY-32",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.3462,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-35-loa",
+      "BoatModelID": "CHLY-35",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.6426,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-35-beam",
+      "BoatModelID": "CHLY-35",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-35-draft",
+      "BoatModelID": "CHLY-35",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0922,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-35-disp",
+      "BoatModelID": "CHLY-35",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": 23500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10659.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-32-secondary",
+      "BoatModelID": "CHLY-32",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cheoy-lee/32-trawler-1977-86",
+      "AssertionState": "supports",
+      "SourceValue": 19000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8618.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-32-engine",
+      "BoatModelID": "CHLY-32",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": 120,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 89.48,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-35-build",
+      "BoatModelID": "CHLY-35",
+      "FieldID": "HullMaterialCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cheoy-lee/35-trawler-1979-86",
+      "AssertionState": "supports",
+      "SourceValue": "solid fiberglass hull with teak overlays on decks/cabintop",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_material.fiberglass",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHLY-36-mk2",
+      "BoatModelID": "CHLY-36-TR",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.cheoyleeassociation.com/Power/Powertrawler3.htm",
+      "AssertionState": "supports",
+      "SourceValue": "Trawler 36 MKII: 36 ft 6 in LOA, 13 ft beam, 3 ft 6 in draft",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": [
+        "36 MKII"
+      ],
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Dimensions apply to documented MKII brochure, not automatically to all boats in broad 1968–79 record.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-36-TR-loa",
+      "BoatModelID": "GULF-36-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/36-trawler-1972-76",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.049,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-36-TR-lwl",
+      "BoatModelID": "GULF-36-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/36-trawler-1972-76",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.4488,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-36-TR-beam",
+      "BoatModelID": "GULF-36-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/36-trawler-1972-76",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-36-TR-draft",
+      "BoatModelID": "GULF-36-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/36-trawler-1972-76",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-36-TR-disp",
+      "BoatModelID": "GULF-36-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/36-trawler-1972-76",
+      "AssertionState": "supports",
+      "SourceValue": 16000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7257.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-36-TR-air",
+      "BoatModelID": "GULF-36-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/36-trawler-1972-76",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-36-lineage",
+      "BoatModelID": "GULF-36-TR",
+      "FieldID": "HullLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/36-trawler-1972-76",
+      "AssertionState": "supports",
+      "SourceValue": "same semi-displacement hull as Gulfstar 36 Motorsailer",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-36-phase",
+      "BoatModelID": "GULF-36-TR",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/36-trawler-1972-76",
+      "AssertionState": "supports",
+      "SourceValue": "MK II introduced 1975 with raised aft deck, full-beam master, larger flybridge, bigger rudders and revised interior",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-43-TR-loa",
+      "BoatModelID": "GULF-43-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/43-trawler-1972-77",
+      "AssertionState": "supports",
+      "SourceValue": "43 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.208,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-43-TR-lwl",
+      "BoatModelID": "GULF-43-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/43-trawler-1972-77",
+      "AssertionState": "supports",
+      "SourceValue": "39 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.938,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-43-TR-beam",
+      "BoatModelID": "GULF-43-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/43-trawler-1972-77",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.2418,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-43-TR-draft",
+      "BoatModelID": "GULF-43-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/43-trawler-1972-77",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-43-TR-disp",
+      "BoatModelID": "GULF-43-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/43-trawler-1972-77",
+      "AssertionState": "supports",
+      "SourceValue": 21000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9525.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-43-TR-air",
+      "BoatModelID": "GULF-43-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/43-trawler-1972-77",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-43-lineage",
+      "BoatModelID": "GULF-43-TR",
+      "FieldID": "HullLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/43-trawler-1972-77",
+      "AssertionState": "supports",
+      "SourceValue": "built on Gulfstar 43 Motorsailer hull",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-43-phase",
+      "BoatModelID": "GULF-43-TR",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/43-trawler-1972-77",
+      "AssertionState": "supports",
+      "SourceValue": "MK II sundeck introduced 1975",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-44-MC-loa",
+      "BoatModelID": "GULF-44-MC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/44-motor-cruiser-1978-80",
+      "AssertionState": "supports",
+      "SourceValue": "44 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.5382,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-44-MC-beam",
+      "BoatModelID": "GULF-44-MC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/44-motor-cruiser-1978-80",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.4196,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-44-MC-draft",
+      "BoatModelID": "GULF-44-MC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/44-motor-cruiser-1978-80",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-44-MC-disp",
+      "BoatModelID": "GULF-44-MC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/44-motor-cruiser-1978-80",
+      "AssertionState": "supports",
+      "SourceValue": 28400,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 12882.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-44-MC-air",
+      "BoatModelID": "GULF-44-MC",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/44-motor-cruiser-1978-80",
+      "AssertionState": "supports",
+      "SourceValue": "16 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.953,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-44-built",
+      "BoatModelID": "GULF-44-MC",
+      "FieldID": "TotalBuilt",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/44-motor-cruiser-1978-80",
+      "AssertionState": "supports",
+      "SourceValue": 105,
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 105,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-44-hull",
+      "BoatModelID": "GULF-44-MC",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/44-motor-cruiser-1978-80",
+      "AssertionState": "supports",
+      "SourceValue": "full-displacement hull with deep keel",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.displacement",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-49-MC-loa",
+      "BoatModelID": "GULF-49-MC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/49-motor-yacht-1984-87",
+      "AssertionState": "supports",
+      "SourceValue": "49 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 14.9352,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-49-MC-lwl",
+      "BoatModelID": "GULF-49-MC",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/49-motor-yacht-1984-87",
+      "AssertionState": "supports",
+      "SourceValue": "44 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.5128,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-49-MC-beam",
+      "BoatModelID": "GULF-49-MC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/49-motor-yacht-1984-87",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.5974,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-49-MC-draft",
+      "BoatModelID": "GULF-49-MC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/49-motor-yacht-1984-87",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1684,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-49-MC-disp",
+      "BoatModelID": "GULF-49-MC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/49-motor-yacht-1984-87",
+      "AssertionState": "supports",
+      "SourceValue": 42000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 19050.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-49-MC-air",
+      "BoatModelID": "GULF-49-MC",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/49-motor-yacht-1984-87",
+      "AssertionState": "supports",
+      "SourceValue": "17 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 5.1816,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GULF-49-layout",
+      "BoatModelID": "GULF-49-MC",
+      "FieldID": "Cabins",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/gulfstar/49-motor-yacht-1984-87",
+      "AssertionState": "supports",
+      "SourceValue": 3,
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 3,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Two three-stateroom / three-head floorplans; stall showers in each head.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-34-TR-loa",
+      "BoatModelID": "CALF-34-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/34-lrc-1977-85",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.5156,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-34-TR-beam",
+      "BoatModelID": "CALF-34-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/34-lrc-1977-85",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.7592,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-34-TR-draft",
+      "BoatModelID": "CALF-34-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/34-lrc-1977-85",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9652,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-34-TR-disp",
+      "BoatModelID": "CALF-34-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/34-lrc-1977-85",
+      "AssertionState": "supports",
+      "SourceValue": 18000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8164.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-34-TR-air",
+      "BoatModelID": "CALF-34-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/34-lrc-1977-85",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.2512,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-34-hull",
+      "BoatModelID": "CALF-34-TR",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/34-lrc-1977-85",
+      "AssertionState": "supports",
+      "SourceValue": "solid-fiberglass modified-V with true planing-speed capability",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-34-shower",
+      "BoatModelID": "CALF-34-TR",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/34-lrc-1977-85",
+      "AssertionState": "supports",
+      "SourceValue": "head with stall shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-38-TR-loa",
+      "BoatModelID": "CALF-38-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/38-lrc-sedan-1978-85",
+      "AssertionState": "supports",
+      "SourceValue": "37 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.4808,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-38-TR-lwl",
+      "BoatModelID": "CALF-38-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/38-lrc-sedan-1978-85",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.1252,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-38-TR-beam",
+      "BoatModelID": "CALF-38-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/38-lrc-sedan-1978-85",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.9624,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-38-TR-draft",
+      "BoatModelID": "CALF-38-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/38-lrc-sedan-1978-85",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-38-TR-disp",
+      "BoatModelID": "CALF-38-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/38-lrc-sedan-1978-85",
+      "AssertionState": "supports",
+      "SourceValue": 28000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 12700.6,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-38-hull",
+      "BoatModelID": "CALF-38-TR",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/38-lrc-sedan-1978-85",
+      "AssertionState": "supports",
+      "SourceValue": "modified-V hull provides true planing-speed performance",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CALF-38-shower",
+      "BoatModelID": "CALF-38-TR",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/californian/38-lrc-sedan-1978-85",
+      "AssertionState": "supports",
+      "SourceValue": "large head with separate stall shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}

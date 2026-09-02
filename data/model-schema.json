@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.3",
+  "schemaVersion": "1.4",
   "titleKey": "schema.title",
   "canonicalDataLanguage": "language-neutral",
   "defaultDisplayLocale": "en",
@@ -16,7 +16,8 @@
     "Primary propulsion mode is separate from mechanical propulsion so sailboats and motorsailers are represented correctly.",
     "Preference matching consumes canonical facts and derived characteristics; preference questions do not automatically create new factual fields.",
     "Every structured canonical field that may be corrected is individually correctable.",
-    "Canonical model values and source/evidence assertions are stored separately."
+    "Canonical model values and source/evidence assertions are stored separately.",
+    "Production phases/generations are separate scoped records under one canonical model. Construction or dimensional changes do not create duplicate models unless builder/market identity changed or continuity would materially mislead."
   ],
   "groups": [
     {
@@ -1864,5 +1865,7 @@
     "evidenceAssertionSchema": "knowledge/data/evidence-assertion.schema.json",
     "derivedCharacteristics": "data/derived-characteristics.json"
   },
-  "scope": "global-power-sail-motorsailer"
+  "scope": "global-power-sail-motorsailer",
+  "productionPhaseRegistry": "data/production-phases.json",
+  "productionPhaseSchema": "knowledge/data/production-phase.schema.json"
 }

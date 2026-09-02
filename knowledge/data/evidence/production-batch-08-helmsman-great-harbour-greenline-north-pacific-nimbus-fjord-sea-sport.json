@@ -1,0 +1,1588 @@
+{
+  "batchId": "production-08-helmsman-great-harbour-greenline-north-pacific-nimbus-fjord-sea-sport",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "HELM-31-loa",
+      "BoatModelID": "HELM-31-CA",
+      "FieldID": "LOA",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/31-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.4488,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-31-beam",
+      "BoatModelID": "HELM-31-CA",
+      "FieldID": "Beam",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/31-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.2004,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-31-draft",
+      "BoatModelID": "HELM-31-CA",
+      "FieldID": "Draft",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/31-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-31-disp",
+      "BoatModelID": "HELM-31-CA",
+      "FieldID": "Displacement",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/31-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": 11500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5216.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-31-lineage",
+      "BoatModelID": "HELM-31-CA",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/31-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "Helmsman 31 is an update of the Camano 31 design, of which more than 270 were built",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-38-loa",
+      "BoatModelID": "HELM-38E-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://helmsmantrawlers.com/38e-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.446,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-38-beam",
+      "BoatModelID": "HELM-38E-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://helmsmantrawlers.com/38e-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.2418,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-38-draft",
+      "BoatModelID": "HELM-38E-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://helmsmantrawlers.com/38e-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-38-disp",
+      "BoatModelID": "HELM-38E-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://helmsmantrawlers.com/38e-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": 30000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 13607.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-38-hull",
+      "BoatModelID": "HELM-38E-TR",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://helmsmantrawlers.com/38e-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": "semi-displacement soft-chine hull with full keel and strong stainless skeg",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.semi_displacement",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-43-loa",
+      "BoatModelID": "HELM-43-E",
+      "FieldID": "LOA",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/helmsman-trawlers-43e-pilothouse-exterior-interior/",
+      "AssertionState": "supports",
+      "SourceValue": "45 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.8684,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-43-beam",
+      "BoatModelID": "HELM-43-E",
+      "FieldID": "Beam",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/helmsman-trawlers-43e-pilothouse-exterior-interior/",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.318,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-43-draft",
+      "BoatModelID": "HELM-43-E",
+      "FieldID": "Draft",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/helmsman-trawlers-43e-pilothouse-exterior-interior/",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.3716,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-43-disp",
+      "BoatModelID": "HELM-43-E",
+      "FieldID": "Displacement",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/helmsman-trawlers-43e-pilothouse-exterior-interior/",
+      "AssertionState": "supports",
+      "SourceValue": 35000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 15875.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-43-layout",
+      "BoatModelID": "HELM-43-E",
+      "FieldID": "AftCabin",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/helmsman-trawlers-43e-pilothouse-exterior-interior/",
+      "AssertionState": "supports",
+      "SourceValue": "two staterooms; forward head and day head",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": false,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Corrects legacy aft-cabin=true classification.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-46-loa",
+      "BoatModelID": "HELM-46-PH",
+      "FieldID": "LOA",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/46-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": "50 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 15.2654,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-46-lwl",
+      "BoatModelID": "HELM-46-PH",
+      "FieldID": "LWL",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/46-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": "42 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.954,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-46-beam",
+      "BoatModelID": "HELM-46-PH",
+      "FieldID": "Beam",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/46-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": "16 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.953,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-46-draft",
+      "BoatModelID": "HELM-46-PH",
+      "FieldID": "Draft",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/46-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": "5 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.524,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-46-disp",
+      "BoatModelID": "HELM-46-PH",
+      "FieldID": "Displacement",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/46-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": "52,000 lb dry",
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 23586.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "HELM-46-designer",
+      "BoatModelID": "HELM-46-PH",
+      "FieldID": "Designer",
+      "SourceRef": "https://helmsmantrawlers.com/helmsman-trawlers/46-pilothouse/",
+      "AssertionState": "supports",
+      "SourceValue": "Ivan Erdevicki",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Ivan Erdevicki",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-GH37-loa",
+      "BoatModelID": "GRTH-GH37",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.greatharbourtrawlers.com/gh37-specifications-and-layout.html",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.2268,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-GH37-lwl",
+      "BoatModelID": "GRTH-GH37",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.greatharbourtrawlers.com/gh37-specifications-and-layout.html",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.9982,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-GH37-beam",
+      "BoatModelID": "GRTH-GH37",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.greatharbourtrawlers.com/gh37-specifications-and-layout.html",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.826,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-GH37-draft",
+      "BoatModelID": "GRTH-GH37",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.greatharbourtrawlers.com/gh37-specifications-and-layout.html",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-GH37-disp",
+      "BoatModelID": "GRTH-GH37",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.greatharbourtrawlers.com/gh37-specifications-and-layout.html",
+      "AssertionState": "supports",
+      "SourceValue": 48000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 21772.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-GH37-engines",
+      "BoatModelID": "GRTH-GH37",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.greatharbourtrawlers.com/gh37-specifications-and-layout.html",
+      "AssertionState": "supports",
+      "SourceValue": "twin naturally aspirated 54 hp diesels",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 2,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-N37-loa",
+      "BoatModelID": "GRTH-N37",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.greatharbourtrawlers.com/n37.html",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.2268,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-N37-lwl",
+      "BoatModelID": "GRTH-N37",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.greatharbourtrawlers.com/n37.html",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.9982,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-N37-beam",
+      "BoatModelID": "GRTH-N37",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.greatharbourtrawlers.com/n37.html",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.826,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-N37-draft",
+      "BoatModelID": "GRTH-N37",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.greatharbourtrawlers.com/n37.html",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-N37-disp",
+      "BoatModelID": "GRTH-N37",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.greatharbourtrawlers.com/n37.html",
+      "AssertionState": "supports",
+      "SourceValue": 48000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 21772.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-N37-engines",
+      "BoatModelID": "GRTH-N37",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.greatharbourtrawlers.com/n37.html",
+      "AssertionState": "supports",
+      "SourceValue": "twin naturally aspirated 54 hp diesels",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 2,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRTH-N37-generation",
+      "BoatModelID": "GRTH-N37",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.greatharbourtrawlers.com/uploads/4/9/4/8/49488989/n37slick.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "N series is Great Harbour's second generation of full-displacement trawler yachts",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-33-loa",
+      "BoatModelID": "GRNL-33",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/807848/GREENLINE-33.html",
+      "AssertionState": "supports",
+      "SourceValue": "9.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 9.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-33-lwl",
+      "BoatModelID": "GRNL-33",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/807848/GREENLINE-33.html",
+      "AssertionState": "supports",
+      "SourceValue": "9.85 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 9.85,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-33-beam",
+      "BoatModelID": "GRNL-33",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/807848/GREENLINE-33.html",
+      "AssertionState": "supports",
+      "SourceValue": "3.49 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.49,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-33-draft",
+      "BoatModelID": "GRNL-33",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/807848/GREENLINE-33.html",
+      "AssertionState": "supports",
+      "SourceValue": "0.70 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.7,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-33-disp",
+      "BoatModelID": "GRNL-33",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/807848/GREENLINE-33.html",
+      "AssertionState": "supports",
+      "SourceValue": "4.8 t",
+      "SourceUnit": "t",
+      "NormalizedCandidateValue": 4800,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-33-propulsion",
+      "BoatModelID": "GRNL-33",
+      "FieldID": "PrimaryPropulsionModeCode",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/807848/GREENLINE-33.html",
+      "AssertionState": "supports",
+      "SourceValue": "diesel / hybrid examples",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "primary_propulsion.power",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model family was marketed in diesel, hybrid and electric configurations; fuel/energy source remains configuration-specific.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-39-loa",
+      "BoatModelID": "GRNL-39",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.eyachts.com.au/wp-content/uploads/2024/05/Greenline-Yachts-brochure-2024.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "11.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 11.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-39-beam",
+      "BoatModelID": "GRNL-39",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.eyachts.com.au/wp-content/uploads/2024/05/Greenline-Yachts-brochure-2024.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "3.75 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.75,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-39-draft",
+      "BoatModelID": "GRNL-39",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.eyachts.com.au/wp-content/uploads/2024/05/Greenline-Yachts-brochure-2024.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "0.90 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.9,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-39-disp",
+      "BoatModelID": "GRNL-39",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.eyachts.com.au/wp-content/uploads/2024/05/Greenline-Yachts-brochure-2024.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "7000 kg approx",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 7000,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-39-air",
+      "BoatModelID": "GRNL-39",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.eyachts.com.au/wp-content/uploads/2024/05/Greenline-Yachts-brochure-2024.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "3.16 m minimum bridge clearance",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.16,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRNL-39-designer",
+      "BoatModelID": "GRNL-39",
+      "FieldID": "Designer",
+      "SourceRef": "https://www.greenlinehybrid.ca/models/greenline39",
+      "AssertionState": "supports",
+      "SourceValue": "J&J Design",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "J&J Design",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NPAC-38-loa",
+      "BoatModelID": "NPAC-38",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.canadianyachting.ca/images/PDF/CYE_May2013-1.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "41 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.6492,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NPAC-38-beam",
+      "BoatModelID": "NPAC-38",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.canadianyachting.ca/images/PDF/CYE_May2013-1.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.8862,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NPAC-38-draft",
+      "BoatModelID": "NPAC-38",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.canadianyachting.ca/images/PDF/CYE_May2013-1.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NPAC-38-disp",
+      "BoatModelID": "NPAC-38",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.canadianyachting.ca/images/PDF/CYE_May2013-1.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 24000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10886.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NPAC-38-engine",
+      "BoatModelID": "NPAC-38",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.canadianyachting.ca/images/PDF/CYE_May2013-1.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 250,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 186.42,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NPAC-38-lineage",
+      "BoatModelID": "NPAC-38",
+      "FieldID": "BoatFamilyCode",
+      "SourceRef": "https://northpacificyachts.com/news/",
+      "AssertionState": "supports",
+      "SourceValue": "traditional sedan trawler; modified-V hull and command bridge",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "boat_family.trawler",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NPAC-28-conservative",
+      "BoatModelID": "NPAC-28",
+      "FieldID": "CanonicalStatus",
+      "SourceRef": "https://northpacificyachts.com/news/",
+      "AssertionState": "unresolved",
+      "SourceValue": "North Pacific 28 Pilothouse was part of the model line; model-specific factory page no longer available",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Legacy dimensions retained at moderate confidence; no new false precision added.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBS-365-loa",
+      "BoatModelID": "NMBS-365-CO",
+      "FieldID": "LOA",
+      "SourceRef": "https://nimbus.se/boats/365-coupe/",
+      "AssertionState": "supports",
+      "SourceValue": "11.56 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 11.56,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBS-365-beam",
+      "BoatModelID": "NMBS-365-CO",
+      "FieldID": "Beam",
+      "SourceRef": "https://nimbus.se/boats/365-coupe/",
+      "AssertionState": "supports",
+      "SourceValue": "3.50 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.5,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBS-365-draft",
+      "BoatModelID": "NMBS-365-CO",
+      "FieldID": "Draft",
+      "SourceRef": "https://nimbus.se/boats/365-coupe/",
+      "AssertionState": "supports",
+      "SourceValue": "1.14 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 1.14,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBS-365-disp",
+      "BoatModelID": "NMBS-365-CO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://nimbus.se/boats/365-coupe/",
+      "AssertionState": "supports",
+      "SourceValue": "6391 kg single-engine configuration",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 6391,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBS-365-air",
+      "BoatModelID": "NMBS-365-CO",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://nimbus.se/boats/365-coupe/",
+      "AssertionState": "supports",
+      "SourceValue": "3.92 m max",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.92,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBS-365-engines",
+      "BoatModelID": "NMBS-365-CO",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://nimbus.se/boats/365-coupe/",
+      "AssertionState": "unresolved",
+      "SourceValue": "single D4/D6 or twin D4 alternatives",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Engine count and power must remain configuration-specific.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBS-3003-conservative",
+      "BoatModelID": "NMBS-3003",
+      "FieldID": "CanonicalStatus",
+      "SourceRef": "https://www.nimbus.se/",
+      "AssertionState": "unresolved",
+      "SourceValue": "historic Nimbus 3003; insufficient primary model-specific source retrieved in this batch",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Legacy dimensions retained conservatively; no unsupported new production claims.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-36-open-identity",
+      "BoatModelID": "FJRD-36-OPEN",
+      "FieldID": "Model",
+      "SourceRef": "https://fjordboats.com/gb/historical-models/fjord-36-open/",
+      "AssertionState": "supports",
+      "SourceValue": "FJORD 36 Open legacy model",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "36 Open",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-36-open-hull",
+      "BoatModelID": "FJRD-36-OPEN",
+      "FieldID": "HullLength",
+      "SourceRef": "https://fjordboats.hr/en/used-boats/fjord-36-open",
+      "AssertionState": "supports",
+      "SourceValue": "10.80 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 10.8,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-36-open-beam",
+      "BoatModelID": "FJRD-36-OPEN",
+      "FieldID": "Beam",
+      "SourceRef": "https://fjordboats.hr/en/used-boats/fjord-36-open",
+      "AssertionState": "supports",
+      "SourceValue": "3.65 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.65,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-36-open-draft",
+      "BoatModelID": "FJRD-36-OPEN",
+      "FieldID": "Draft",
+      "SourceRef": "https://fjordboats.hr/en/used-boats/fjord-36-open",
+      "AssertionState": "supports",
+      "SourceValue": "0.90 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.9,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-36-open-disp",
+      "BoatModelID": "FJRD-36-OPEN",
+      "FieldID": "Displacement",
+      "SourceRef": "https://fjordboats.hr/en/used-boats/fjord-36-open",
+      "AssertionState": "supports",
+      "SourceValue": "6.40 t",
+      "SourceUnit": "t",
+      "NormalizedCandidateValue": 6400,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-36-open-power",
+      "BoatModelID": "FJRD-36-OPEN",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://fjordboats.hr/en/used-boats/fjord-36-open",
+      "AssertionState": "supports",
+      "SourceValue": "2 x Volvo D4 300",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.pod",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "FJORD 36 Open commonly used Volvo IPS; source is official regional FJORD site.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-36-cruiser",
+      "BoatModelID": "FJRD-36",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://fjordboats.com/gb/historical-models/fjord-36-open/",
+      "AssertionState": "supports",
+      "SourceValue": "36 Cruiser and 36 Open share the FJORD 36 platform family",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-open-loa",
+      "BoatModelID": "FJRD-40-OPEN",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.devalk.nl/nl/jachtmakelaardij/501359/FJORD-40-OPEN.html",
+      "AssertionState": "supports",
+      "SourceValue": "11.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 11.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-open-lwl",
+      "BoatModelID": "FJRD-40-OPEN",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.devalk.nl/nl/jachtmakelaardij/501359/FJORD-40-OPEN.html",
+      "AssertionState": "supports",
+      "SourceValue": "10.95 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 10.95,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-open-beam",
+      "BoatModelID": "FJRD-40-OPEN",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.devalk.nl/nl/jachtmakelaardij/501359/FJORD-40-OPEN.html",
+      "AssertionState": "supports",
+      "SourceValue": "3.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-open-draft",
+      "BoatModelID": "FJRD-40-OPEN",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.devalk.nl/nl/jachtmakelaardij/501359/FJORD-40-OPEN.html",
+      "AssertionState": "supports",
+      "SourceValue": "0.95 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.95,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-open-disp",
+      "BoatModelID": "FJRD-40-OPEN",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.devalk.nl/nl/jachtmakelaardij/501359/FJORD-40-OPEN.html",
+      "AssertionState": "supports",
+      "SourceValue": "7.75 t",
+      "SourceUnit": "t",
+      "NormalizedCandidateValue": 7750,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-open-power",
+      "BoatModelID": "FJRD-40-OPEN",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.devalk.nl/nl/jachtmakelaardij/501359/FJORD-40-OPEN.html",
+      "AssertionState": "supports",
+      "SourceValue": "twin Volvo Penta IPS 500",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.pod",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-legacy",
+      "BoatModelID": "FJRD-40-OPEN",
+      "FieldID": "Model",
+      "SourceRef": "https://fjordboats.com/gb/historical-models/fjord-40-open/",
+      "AssertionState": "supports",
+      "SourceValue": "FJORD 40 Open legacy model",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "40 Open",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-cr-loa",
+      "BoatModelID": "FJRD-40",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/500843/Fjord-40-cruiser.html",
+      "AssertionState": "supports",
+      "SourceValue": "11.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 11.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-cr-beam",
+      "BoatModelID": "FJRD-40",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/500843/Fjord-40-cruiser.html",
+      "AssertionState": "supports",
+      "SourceValue": "3.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-cr-draft",
+      "BoatModelID": "FJRD-40",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/500843/Fjord-40-cruiser.html",
+      "AssertionState": "supports",
+      "SourceValue": "0.90 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.9,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-cr-disp",
+      "BoatModelID": "FJRD-40",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/500843/Fjord-40-cruiser.html",
+      "AssertionState": "supports",
+      "SourceValue": "10 t",
+      "SourceUnit": "t",
+      "NormalizedCandidateValue": 10000,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-cr-air",
+      "BoatModelID": "FJRD-40",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/500843/Fjord-40-cruiser.html",
+      "AssertionState": "supports",
+      "SourceValue": "3.40 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.4,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "FJRD-40-cr-hull",
+      "BoatModelID": "FJRD-40",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.devalk.nl/en/yachtbrokerage/500843/Fjord-40-cruiser.html",
+      "AssertionState": "supports",
+      "SourceValue": "deep-V hull",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-loa",
+      "BoatModelID": "SSPT-24",
+      "FieldID": "LOA",
+      "SourceRef": "https://seasportboats.com/boat/xl-2400/",
+      "AssertionState": "supports",
+      "SourceValue": "24 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 7.3152,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-beam",
+      "BoatModelID": "SSPT-24",
+      "FieldID": "Beam",
+      "SourceRef": "https://seasportboats.com/boat/xl-2400/",
+      "AssertionState": "supports",
+      "SourceValue": "8 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.5908,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-draft",
+      "BoatModelID": "SSPT-24",
+      "FieldID": "Draft",
+      "SourceRef": "https://seasportboats.com/boat/xl-2400/",
+      "AssertionState": "supports",
+      "SourceValue": "39 in motors down",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-disp",
+      "BoatModelID": "SSPT-24",
+      "FieldID": "Displacement",
+      "SourceRef": "https://seasportboats.com/boat/xl-2400/",
+      "AssertionState": "supports",
+      "SourceValue": 5000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 2268.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-head",
+      "BoatModelID": "SSPT-24",
+      "FieldID": "Headroom",
+      "SourceRef": "https://seasportboats.com/boat/xl-2400/",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9304,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-engines",
+      "BoatModelID": "SSPT-24",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://seasportboats.com/boat/xl-2400/",
+      "AssertionState": "unresolved",
+      "SourceValue": "single 250 or twin 150 outboards",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-EX-loa",
+      "BoatModelID": "SSPT-24-EX",
+      "FieldID": "LOA",
+      "SourceRef": "https://seasportboats.com/boat/explorer-2400/",
+      "AssertionState": "supports",
+      "SourceValue": "24 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 7.3152,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-EX-beam",
+      "BoatModelID": "SSPT-24-EX",
+      "FieldID": "Beam",
+      "SourceRef": "https://seasportboats.com/boat/explorer-2400/",
+      "AssertionState": "supports",
+      "SourceValue": "8 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.5908,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-EX-draft",
+      "BoatModelID": "SSPT-24-EX",
+      "FieldID": "Draft",
+      "SourceRef": "https://seasportboats.com/boat/explorer-2400/",
+      "AssertionState": "supports",
+      "SourceValue": "39 in motors down",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-EX-disp",
+      "BoatModelID": "SSPT-24-EX",
+      "FieldID": "Displacement",
+      "SourceRef": "https://seasportboats.com/boat/explorer-2400/",
+      "AssertionState": "supports",
+      "SourceValue": 5500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 2494.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-EX-head",
+      "BoatModelID": "SSPT-24-EX",
+      "FieldID": "Headroom",
+      "SourceRef": "https://seasportboats.com/boat/explorer-2400/",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9304,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-24-EX-layout",
+      "BoatModelID": "SSPT-24-EX",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://seasportboats.com/series/2400/",
+      "AssertionState": "supports",
+      "SourceValue": "enclosed stand-up head",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.wet_head",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Separate stall is not asserted.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "SSPT-27-conservative",
+      "BoatModelID": "SSPT-27",
+      "FieldID": "CanonicalStatus",
+      "SourceRef": "https://seasportboats.com/series/2400/",
+      "AssertionState": "unresolved",
+      "SourceValue": "27-foot Sea Sport family is historical/current-lineage but broad Seamaster/Navigator/Pilot identity needs a dedicated split review",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}

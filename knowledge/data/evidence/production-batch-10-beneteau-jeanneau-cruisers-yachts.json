@@ -1,0 +1,2000 @@
+{
+  "batchId": "production-10-beneteau-jeanneau-cruisers-yachts",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "BENE-30-SW-loa",
+      "BoatModelID": "BENE-30-SW",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/en-us/heritage-swift-trawler/swift-trawler-30",
+      "AssertionState": "supports",
+      "SourceValue": "9.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 9.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-30-SW-beam",
+      "BoatModelID": "BENE-30-SW",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/en-us/heritage-swift-trawler/swift-trawler-30",
+      "AssertionState": "supports",
+      "SourceValue": "3.53 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.53,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-30-SW-disp",
+      "BoatModelID": "BENE-30-SW",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/en-us/heritage-swift-trawler/swift-trawler-30",
+      "AssertionState": "supports",
+      "SourceValue": "6000 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 6000,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-34-SW-loa",
+      "BoatModelID": "BENE-34-SW",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-34",
+      "AssertionState": "supports",
+      "SourceValue": "10.98 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 10.98,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-34-SW-beam",
+      "BoatModelID": "BENE-34-SW",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-34",
+      "AssertionState": "supports",
+      "SourceValue": "4.00 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 4.0,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-34-SW-disp",
+      "BoatModelID": "BENE-34-SW",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-34",
+      "AssertionState": "supports",
+      "SourceValue": "7450 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 7450,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-35-SW-loa",
+      "BoatModelID": "BENE-35-SW",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/former-swift-trawler/swift-trawler-35",
+      "AssertionState": "supports",
+      "SourceValue": "11.29 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 11.29,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-35-SW-beam",
+      "BoatModelID": "BENE-35-SW",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/former-swift-trawler/swift-trawler-35",
+      "AssertionState": "supports",
+      "SourceValue": "4.03 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 4.03,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-35-SW-draft",
+      "BoatModelID": "BENE-35-SW",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.beneteau.com/former-swift-trawler/swift-trawler-35",
+      "AssertionState": "supports",
+      "SourceValue": "1.17 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 1.17,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-35-SW-disp",
+      "BoatModelID": "BENE-35-SW",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/former-swift-trawler/swift-trawler-35",
+      "AssertionState": "supports",
+      "SourceValue": "8252 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 8252,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-47-loa",
+      "BoatModelID": "BENE-47",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/en-us/heritage-swift-trawler/swift-trawler-47",
+      "AssertionState": "supports",
+      "SourceValue": "14.74 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 14.74,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-47-beam",
+      "BoatModelID": "BENE-47",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/en-us/heritage-swift-trawler/swift-trawler-47",
+      "AssertionState": "supports",
+      "SourceValue": "4.5 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 4.5,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-47-disp",
+      "BoatModelID": "BENE-47",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/en-us/heritage-swift-trawler/swift-trawler-47",
+      "AssertionState": "supports",
+      "SourceValue": "12685 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 12685,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-48-loa",
+      "BoatModelID": "BENE-48",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-48",
+      "AssertionState": "supports",
+      "SourceValue": "14.74 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 14.74,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-48-beam",
+      "BoatModelID": "BENE-48",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-48",
+      "AssertionState": "supports",
+      "SourceValue": "4.5 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 4.5,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-48-draft",
+      "BoatModelID": "BENE-48",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-48",
+      "AssertionState": "supports",
+      "SourceValue": "1.15 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 1.15,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-48-disp",
+      "BoatModelID": "BENE-48",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-48",
+      "AssertionState": "supports",
+      "SourceValue": "12200 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 12200,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-52-loa",
+      "BoatModelID": "BENE-52",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-52",
+      "AssertionState": "supports",
+      "SourceValue": "17 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 17.0,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-52-beam",
+      "BoatModelID": "BENE-52",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-52",
+      "AssertionState": "supports",
+      "SourceValue": "4.92 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 4.92,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-52-draft",
+      "BoatModelID": "BENE-52",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-52",
+      "AssertionState": "supports",
+      "SourceValue": "1.2 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 1.2,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-52-disp",
+      "BoatModelID": "BENE-52",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-52",
+      "AssertionState": "supports",
+      "SourceValue": "20490 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 20490,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-48-weight-conflict",
+      "BoatModelID": "BENE-48",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-48",
+      "AssertionState": "conflicts",
+      "SourceValue": "27,896 lb vs 12,200 kg",
+      "SourceUnit": "mixed",
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "The manufacturer's imperial and metric weights do not convert to one another. Canonical value uses the metric figure repeated across regional Beneteau pages.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-52-weight-conflict",
+      "BoatModelID": "BENE-52",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/swift-trawler/swift-trawler-52",
+      "AssertionState": "conflicts",
+      "SourceValue": "41,160 lb vs 20,490 kg",
+      "SourceUnit": "mixed",
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Manufacturer imperial and metric figures are inconsistent. Canonical value uses 20,490 kg.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-7-loa",
+      "BoatModelID": "BENE-ANT-7",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/en-us/antares-2012-2022/antares-7",
+      "AssertionState": "supports",
+      "SourceValue": "7.48 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 7.48,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-7-beam",
+      "BoatModelID": "BENE-ANT-7",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/en-us/antares-2012-2022/antares-7",
+      "AssertionState": "supports",
+      "SourceValue": "2.53 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.53,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-7-disp",
+      "BoatModelID": "BENE-ANT-7",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/en-us/antares-2012-2022/antares-7",
+      "AssertionState": "supports",
+      "SourceValue": "1886 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 1886,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-8-loa",
+      "BoatModelID": "BENE-ANT-8",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/antares-outboard/antares-8",
+      "AssertionState": "supports",
+      "SourceValue": "8.06 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 8.06,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-8-beam",
+      "BoatModelID": "BENE-ANT-8",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/antares-outboard/antares-8",
+      "AssertionState": "supports",
+      "SourceValue": "2.8 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.8,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-8-disp",
+      "BoatModelID": "BENE-ANT-8",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/antares-outboard/antares-8",
+      "AssertionState": "supports",
+      "SourceValue": "2545 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 2545,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-11-loa",
+      "BoatModelID": "BENE-ANT-11",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/en-us/antares-outboard/antares-11",
+      "AssertionState": "supports",
+      "SourceValue": "11.16 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 11.16,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-11-beam",
+      "BoatModelID": "BENE-ANT-11",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/en-us/antares-outboard/antares-11",
+      "AssertionState": "supports",
+      "SourceValue": "3.51 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.51,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-11-disp",
+      "BoatModelID": "BENE-ANT-11",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/en-us/antares-outboard/antares-11",
+      "AssertionState": "supports",
+      "SourceValue": "6103 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 6103,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-9-loa",
+      "BoatModelID": "BENE-ANT-9",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/5th-generation-antares-2012-today/antares-9",
+      "AssertionState": "supports",
+      "SourceValue": "9.12 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 9.12,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-9-beam",
+      "BoatModelID": "BENE-ANT-9",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/5th-generation-antares-2012-today/antares-9",
+      "AssertionState": "supports",
+      "SourceValue": "2.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-9-disp",
+      "BoatModelID": "BENE-ANT-9",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/5th-generation-antares-2012-today/antares-9",
+      "AssertionState": "supports",
+      "SourceValue": "4259 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 4259,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-9-S2-loa",
+      "BoatModelID": "BENE-ANT-9-S2",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/en-us/antares/antares-9",
+      "AssertionState": "supports",
+      "SourceValue": "8.23 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 8.23,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-9-S2-beam",
+      "BoatModelID": "BENE-ANT-9-S2",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/en-us/antares/antares-9",
+      "AssertionState": "supports",
+      "SourceValue": "2.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-9-S2-disp",
+      "BoatModelID": "BENE-ANT-9-S2",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/en-us/antares/antares-9",
+      "AssertionState": "supports",
+      "SourceValue": "4620 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 4620,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-ANT-9-split",
+      "BoatModelID": "BENE-ANT-9-S2",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.beneteau.com/en-us/antares/antares-9",
+      "AssertionState": "supports",
+      "SourceValue": "New Antares 9 announced for 2025 with materially different 8.23 m hull from prior 9.12 m generation",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "B-Atlas creates a separate canonical generation instead of one misleading 2018-current record.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-BAR-8-loa",
+      "BoatModelID": "BENE-BAR-8",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/heritage-powerboats/barracuda",
+      "AssertionState": "supports",
+      "SourceValue": "7.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 7.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-BAR-8-beam",
+      "BoatModelID": "BENE-BAR-8",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/heritage-powerboats/barracuda",
+      "AssertionState": "supports",
+      "SourceValue": "2.80 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.8,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-BAR-9-loa",
+      "BoatModelID": "BENE-BAR-9",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.beneteau.com/barracuda/barracuda-9",
+      "AssertionState": "supports",
+      "SourceValue": "9.10 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 9.1,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-BAR-9-beam",
+      "BoatModelID": "BENE-BAR-9",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.beneteau.com/barracuda/barracuda-9",
+      "AssertionState": "supports",
+      "SourceValue": "2.98 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.98,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "BENE-BAR-9-disp",
+      "BoatModelID": "BENE-BAR-9",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.beneteau.com/barracuda/barracuda-9",
+      "AssertionState": "supports",
+      "SourceValue": "4439 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 4439,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-605-loa",
+      "BoatModelID": "JEAU-605",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/656-merry-fisher-605",
+      "AssertionState": "supports",
+      "SourceValue": "5.66 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 5.66,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-605-beam",
+      "BoatModelID": "JEAU-605",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/656-merry-fisher-605",
+      "AssertionState": "supports",
+      "SourceValue": "2.44 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.44,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-605-draft",
+      "BoatModelID": "JEAU-605",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/656-merry-fisher-605",
+      "AssertionState": "supports",
+      "SourceValue": "0.45 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.45,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-605-disp",
+      "BoatModelID": "JEAU-605",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/656-merry-fisher-605",
+      "AssertionState": "supports",
+      "SourceValue": "1200 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 1200,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-635-loa",
+      "BoatModelID": "JEAU-635",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/283-merry-fisher-635",
+      "AssertionState": "supports",
+      "SourceValue": "6.37 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 6.37,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-635-draft",
+      "BoatModelID": "JEAU-635",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/283-merry-fisher-635",
+      "AssertionState": "supports",
+      "SourceValue": "0.65 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.65,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-635-disp",
+      "BoatModelID": "JEAU-635",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/283-merry-fisher-635",
+      "AssertionState": "supports",
+      "SourceValue": "1360 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 1360,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-695-loa",
+      "BoatModelID": "JEAU-695",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/645-merry-fisher-695",
+      "AssertionState": "supports",
+      "SourceValue": "6.71 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 6.71,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-695-beam",
+      "BoatModelID": "JEAU-695",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/645-merry-fisher-695",
+      "AssertionState": "supports",
+      "SourceValue": "2.54 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.54,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-695-disp",
+      "BoatModelID": "JEAU-695",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/645-merry-fisher-695",
+      "AssertionState": "supports",
+      "SourceValue": "1625 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 1625,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-855-loa",
+      "BoatModelID": "JEAU-855",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jeanneau.com/en-au/boats/powerboat/9-merry-fisher/29-merry-fisher-855",
+      "AssertionState": "supports",
+      "SourceValue": "8.72 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 8.72,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-855-beam",
+      "BoatModelID": "JEAU-855",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.jeanneau.com/en-au/boats/powerboat/9-merry-fisher/29-merry-fisher-855",
+      "AssertionState": "supports",
+      "SourceValue": "2.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-855-draft",
+      "BoatModelID": "JEAU-855",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.jeanneau.com/en-au/boats/powerboat/9-merry-fisher/29-merry-fisher-855",
+      "AssertionState": "supports",
+      "SourceValue": "0.56 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.56,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-855-disp",
+      "BoatModelID": "JEAU-855",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.jeanneau.com/en-au/boats/powerboat/9-merry-fisher/29-merry-fisher-855",
+      "AssertionState": "supports",
+      "SourceValue": "2900 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 2900,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-895-loa",
+      "BoatModelID": "JEAU-895",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jeanneau.com/en-au/boats/powerboat/9-merry-fisher/697-merry-fisher-895",
+      "AssertionState": "supports",
+      "SourceValue": "8.94 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 8.94,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-895-draft",
+      "BoatModelID": "JEAU-895",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.jeanneau.com/en-au/boats/powerboat/9-merry-fisher/697-merry-fisher-895",
+      "AssertionState": "supports",
+      "SourceValue": "0.68 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.68,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-895-disp",
+      "BoatModelID": "JEAU-895",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.jeanneau.com/en-au/boats/powerboat/9-merry-fisher/697-merry-fisher-895",
+      "AssertionState": "supports",
+      "SourceValue": "4197 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 4197,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-895-SP-loa",
+      "BoatModelID": "JEAU-895-SP",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/43-merry-fisher-sport/671-merry-fisher-895-sport",
+      "AssertionState": "supports",
+      "SourceValue": "8.83 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 8.83,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-895-SP-beam",
+      "BoatModelID": "JEAU-895-SP",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/43-merry-fisher-sport/671-merry-fisher-895-sport",
+      "AssertionState": "supports",
+      "SourceValue": "2.99 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.99,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-895-SP-draft",
+      "BoatModelID": "JEAU-895-SP",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/43-merry-fisher-sport/671-merry-fisher-895-sport",
+      "AssertionState": "supports",
+      "SourceValue": "0.66 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.66,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-895-SP-disp",
+      "BoatModelID": "JEAU-895-SP",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/43-merry-fisher-sport/671-merry-fisher-895-sport",
+      "AssertionState": "supports",
+      "SourceValue": "3737 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 3737,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-1095-loa",
+      "BoatModelID": "JEAU-1095",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/618-merry-fisher-1095-coupe",
+      "AssertionState": "supports",
+      "SourceValue": "10.5 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 10.5,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-1095-draft",
+      "BoatModelID": "JEAU-1095",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/618-merry-fisher-1095-coupe",
+      "AssertionState": "supports",
+      "SourceValue": "0.69 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.69,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-1095-disp",
+      "BoatModelID": "JEAU-1095",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/618-merry-fisher-1095-coupe",
+      "AssertionState": "supports",
+      "SourceValue": "4638 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 4638,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-1095-FLY-loa",
+      "BoatModelID": "JEAU-1095-FLY",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/710-merry-fisher-1095-fly",
+      "AssertionState": "supports",
+      "SourceValue": "10.45 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 10.45,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-1095-FLY-beam",
+      "BoatModelID": "JEAU-1095-FLY",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/710-merry-fisher-1095-fly",
+      "AssertionState": "supports",
+      "SourceValue": "3.37 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.37,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-1095-FLY-draft",
+      "BoatModelID": "JEAU-1095-FLY",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/710-merry-fisher-1095-fly",
+      "AssertionState": "supports",
+      "SourceValue": "0.66 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.66,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-635-regional-conflict",
+      "BoatModelID": "JEAU-635",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.jeanneau.com/en-us/boats/powerboat/9-merry-fisher/312-merry-fisher-635",
+      "AssertionState": "conflicts",
+      "SourceValue": "0.40 m / 1180 kg on US regional page versus 0.65 m / 1360 kg on global page",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Canonical values follow global Jeanneau model page; regional difference is preserved.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-795-old",
+      "BoatModelID": "JEAU-795",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/27-merry-fisher-795",
+      "AssertionState": "supports",
+      "SourceValue": "7.43 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 7.43,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 2017,
+        "endYear": 2020
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "JEAU-795-new",
+      "BoatModelID": "JEAU-795",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jeanneau.com/boats/powerboat/9-merry-fisher/657-merry-fisher-795",
+      "AssertionState": "supports",
+      "SourceValue": "7.19 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 7.19,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "startYear": 2021,
+        "endYear": null
+      },
+      "Notes": "Series 2 dimensions are scoped rather than replacing earlier-generation dimensions.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-2980-loa",
+      "BoatModelID": "CRUY-2980",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/288-298-villa-vee-2980-esprit-1978-90",
+      "AssertionState": "supports",
+      "SourceValue": "28 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.7376,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-2980-lwl",
+      "BoatModelID": "CRUY-2980",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/288-298-villa-vee-2980-esprit-1978-90",
+      "AssertionState": "supports",
+      "SourceValue": "24 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.5946,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-2980-beam",
+      "BoatModelID": "CRUY-2980",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/288-298-villa-vee-2980-esprit-1978-90",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.2512,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-2980-draft",
+      "BoatModelID": "CRUY-2980",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/288-298-villa-vee-2980-esprit-1978-90",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8382,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-2980-disp",
+      "BoatModelID": "CRUY-2980",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/288-298-villa-vee-2980-esprit-1978-90",
+      "AssertionState": "supports",
+      "SourceValue": 9500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 4309.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-320-EXP-loa",
+      "BoatModelID": "CRUY-320-EXP",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/320-express-2002-06",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.8966,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-320-EXP-beam",
+      "BoatModelID": "CRUY-320-EXP",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/320-express-2002-06",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.429,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-320-EXP-draft",
+      "BoatModelID": "CRUY-320-EXP",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/320-express-2002-06",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 11 in drive down",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.889,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-320-EXP-disp",
+      "BoatModelID": "CRUY-320-EXP",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/320-express-2002-06",
+      "AssertionState": "supports",
+      "SourceValue": 13500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 6123.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3375-loa",
+      "BoatModelID": "CRUY-3375",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3375-esprit-1996-2000",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.8204,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3375-beam",
+      "BoatModelID": "CRUY-3375",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3375-esprit-1996-2000",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.556,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3375-draft",
+      "BoatModelID": "CRUY-3375",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3375-esprit-1996-2000",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3375-disp",
+      "BoatModelID": "CRUY-3375",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3375-esprit-1996-2000",
+      "AssertionState": "supports",
+      "SourceValue": 12500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5669.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3470-loa",
+      "BoatModelID": "CRUY-3470",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3470-express-340-express-2001-07",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.1252,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3470-beam",
+      "BoatModelID": "CRUY-3470",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3470-express-340-express-2001-07",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.556,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3470-draft",
+      "BoatModelID": "CRUY-3470",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3470-express-340-express-2001-07",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3650-AF-loa",
+      "BoatModelID": "CRUY-3650-AF",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3650-3750-motor-yacht-375-motor-yacht-1995-2005",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.446,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3650-AF-beam",
+      "BoatModelID": "CRUY-3650-AF",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3650-3750-motor-yacht-375-motor-yacht-1995-2005",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1656,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3650-AF-draft",
+      "BoatModelID": "CRUY-3650-AF",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3650-3750-motor-yacht-375-motor-yacht-1995-2005",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9652,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3870-loa",
+      "BoatModelID": "CRUY-3870",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3870-express-1998-2003",
+      "AssertionState": "supports",
+      "SourceValue": "43 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.1826,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3870-beam",
+      "BoatModelID": "CRUY-3870",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3870-express-1998-2003",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1148,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3870-draft",
+      "BoatModelID": "CRUY-3870",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3870-express-1998-2003",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3870-disp",
+      "BoatModelID": "CRUY-3870",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3870-express-1998-2003",
+      "AssertionState": "supports",
+      "SourceValue": 19500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8845.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-390-EXP-loa",
+      "BoatModelID": "CRUY-390-EXP",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/390-sports-coupe-2007-11",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.2428,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-390-EXP-beam",
+      "BoatModelID": "CRUY-390-EXP",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/390-sports-coupe-2007-11",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.9624,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-390-EXP-draft",
+      "BoatModelID": "CRUY-390-EXP",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/390-sports-coupe-2007-11",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.143,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-390-EXP-disp",
+      "BoatModelID": "CRUY-390-EXP",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/390-sports-coupe-2007-11",
+      "AssertionState": "supports",
+      "SourceValue": 22000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9979.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-4050-loa",
+      "BoatModelID": "CRUY-4050",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/405-415-express-motor-yacht-2003-14",
+      "AssertionState": "supports",
+      "SourceValue": "42 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.954,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-4050-beam",
+      "BoatModelID": "CRUY-4050",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/405-415-express-motor-yacht-2003-14",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1656,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-4050-draft",
+      "BoatModelID": "CRUY-4050",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/405-415-express-motor-yacht-2003-14",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-4050-disp",
+      "BoatModelID": "CRUY-4050",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/405-415-express-motor-yacht-2003-14",
+      "AssertionState": "supports",
+      "SourceValue": 31000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 14061.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3280-loa",
+      "BoatModelID": "CRUY-3280",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3260-esprit-3270-esprit-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "30 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.398,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3280-beam",
+      "BoatModelID": "CRUY-3280",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3260-esprit-3270-esprit-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.302,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3280-draft",
+      "BoatModelID": "CRUY-3280",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3260-esprit-3270-esprit-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3280-disp",
+      "BoatModelID": "CRUY-3280",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3260-esprit-3270-esprit-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": 10500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 4762.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3260-loa",
+      "BoatModelID": "CRUY-3260",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3260-esprit-3270-esprit-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "30 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.398,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3260-beam",
+      "BoatModelID": "CRUY-3260",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3260-esprit-3270-esprit-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.302,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3260-draft",
+      "BoatModelID": "CRUY-3260",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3260-esprit-3270-esprit-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3260-disp",
+      "BoatModelID": "CRUY-3260",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3260-esprit-3270-esprit-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": 10500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 4762.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3260-split",
+      "BoatModelID": "CRUY-3260",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3260-esprit-3270-esprit-1988-94",
+      "AssertionState": "supports",
+      "SourceValue": "3260 and 3270 look alike externally but have materially different interiors; 3270 has mid-cabin, 3260 does not",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "B-Atlas splits the former combined 3260/3270 record into two canonical models.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3650-enginefuel",
+      "BoatModelID": "CRUY-3650-AF",
+      "FieldID": "FuelCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3650-3750-motor-yacht-375-motor-yacht-1995-2005",
+      "AssertionState": "unresolved",
+      "SourceValue": "gas and diesel weights/power options documented",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Fuel type and displacement depend on installation.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-390-prop",
+      "BoatModelID": "CRUY-390-EXP",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/390-sports-coupe-2007-11",
+      "AssertionState": "unresolved",
+      "SourceValue": "V-drive inboards or Volvo IPS",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CRUY-3375-prop",
+      "BoatModelID": "CRUY-3375",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cruisers/3375-esprit-1996-2000",
+      "AssertionState": "unresolved",
+      "SourceValue": "sterndrive or V-drive gas inboard",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}

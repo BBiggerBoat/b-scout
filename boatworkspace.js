@@ -201,6 +201,46 @@
         </div>`;
     }
 
+
+    function phaseFactDisplay(fact) {
+        if (!fact || fact.ValueState !== "known") return "Unknown";
+        const value = fact.CanonicalValue;
+        if (fact.CanonicalUnit && root.BAtlasCanonical?.formatMeasurement) {
+            const dimension = ["LOA","LWL","Beam","Draft","AirDraft","Headroom","MastHeight"].includes(fact.FieldID) ? "length"
+                : fact.FieldID === "Displacement" ? "mass"
+                : ["FuelCapacity","WaterCapacity","HoldingCapacity"].includes(fact.FieldID) ? "volume"
+                : ["EnginePowerPerEngine"].includes(fact.FieldID) ? "power" : null;
+            if (dimension) return root.BAtlasCanonical.formatMeasurement(value, dimension, "imperial");
+        }
+        return String(value).includes(".") ? humanCode(value) : String(value);
+    }
+
+    function renderProductionPhases() {
+        const phases = arr(currentBoat?.ProductionPhases);
+        if (!phases.length) return "";
+        const rows = phases.map(phase => {
+            const years = `${phase.StartYear ?? "?"}–${phase.EndYear ?? "?"}`;
+            const facts = arr(phase.FactOverrides).filter(f => f.ValueState === "known");
+            const changes = facts.map(f => {
+                const label = String(f.FieldID || "").replace(/Code$/,"").replace(/([a-z0-9])([A-Z])/g,"$1 $2");
+                return `${label}: ${phaseFactDisplay(f)}`;
+            });
+            const boundary = phase.BoundaryPrecision === "within_year"
+                ? "transition occurred within a model year"
+                : phase.BoundaryPrecision === "transition_years"
+                    ? `transition around ${(phase.TransitionYears || []).join("/")}`
+                    : "";
+            return `<div class="workspace-fact-table-row"><span><strong>${esc(years)}</strong>${boundary ? `<small>${esc(boundary)}</small>` : ""}</span><span>${esc(changes.join(" · ") || "No phase-specific facts recorded")}</span><span>${esc(phase.ApplicabilityNote || "")}</span></div>`;
+        }).join("");
+        return `<section class="workspace-card"><h3>Production Evolution</h3>
+            <p class="workspace-note">These are production phases of the same canonical model, not separate models. Phase-specific facts override model-wide values only when the applicable phase can be identified.</p>
+            <div class="workspace-fact-table">
+                <div class="workspace-fact-table-head"><span>Production phase</span><span>Material changes</span><span>Boundary / applicability</span></div>
+                ${rows}
+            </div>
+        </section>`;
+    }
+
     function renderKnowledge() {
         const boat = currentBoat;
         const intelligence = currentCard?.intelligence || {};
@@ -209,6 +249,7 @@
                 ${field("Manufacturer", boat.Manufacturer)}${field("Model", boat.Model)}${field("Variant", boat.Variant)}${field("Production Years", `${boat.FirstYear || "?"}–${boat.LastYear || "?"}`)}
                 ${field("Designer", boat.Designer)}${field("Boat Model ID", boat.BoatModelID)}
             </div></section>
+            ${renderProductionPhases()}
             <section class="workspace-card"><h3>Hull and Propulsion</h3><div class="workspace-fact-grid">
                 ${field("Vessel Category", displayCanonical(boat, "VesselCategoryCode"))}
                 ${field("Style", displayCanonical(boat, "StyleCode", ["Style","NormalizedStyle"]))}

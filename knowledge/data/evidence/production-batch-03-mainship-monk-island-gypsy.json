@@ -1,0 +1,1901 @@
+{
+  "batchId": "production-03-mainship-monk-island-gypsy",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "MNSH-30-PI-hull",
+      "BoatModelID": "MNSH-30-PI",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/30-pilot-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": "30 ft hull",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-30-PI-beam",
+      "BoatModelID": "MNSH-30-PI",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/30-pilot-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.1242,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-30-PI-disp",
+      "BoatModelID": "MNSH-30-PI",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/30-pilot-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": 10000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 4535.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-30-PI-phase",
+      "BoatModelID": "MNSH-30-PI",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/30-pilot-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 11 in original; 2 ft 3 in Series II",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Direct evidence for 2003 Series II production phases; model-wide draft intentionally unset.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-30-PI-shower",
+      "BoatModelID": "MNSH-30-PI",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/30-pilot-1998-2008",
+      "AssertionState": "supports",
+      "SourceValue": "stand-up head with shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.wet_head",
+      "CanonicalUnit": null,
+      "Confidence": "medium",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "No separate stall is described.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK1-loa",
+      "BoatModelID": "MNSH-34-MK1",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-diesel-cruiser-1978-82",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.3632,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK1-beam",
+      "BoatModelID": "MNSH-34-MK1",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-diesel-cruiser-1978-82",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.6322,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK1-draft",
+      "BoatModelID": "MNSH-34-MK1",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-diesel-cruiser-1978-82",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK1-disp",
+      "BoatModelID": "MNSH-34-MK1",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-diesel-cruiser-1978-82",
+      "AssertionState": "supports",
+      "SourceValue": 14000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 6350.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK1-identity",
+      "BoatModelID": "MNSH-34-MK1",
+      "FieldID": "Variant",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-diesel-cruiser-1978-82",
+      "AssertionState": "supports",
+      "SourceValue": "Diesel Cruiser",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Diesel Cruiser",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK1-shower",
+      "BoatModelID": "MNSH-34-MK1",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-diesel-cruiser-1978-82",
+      "AssertionState": "supports",
+      "SourceValue": "separate stall shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK2-loa",
+      "BoatModelID": "MNSH-34-MK2",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-ii-1979-82",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.3632,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK2-beam",
+      "BoatModelID": "MNSH-34-MK2",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-ii-1979-82",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.6322,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK2-draft",
+      "BoatModelID": "MNSH-34-MK2",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-ii-1979-82",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK2-disp",
+      "BoatModelID": "MNSH-34-MK2",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-ii-1979-82",
+      "AssertionState": "supports",
+      "SourceValue": 14000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 6350.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK2-identity",
+      "BoatModelID": "MNSH-34-MK2",
+      "FieldID": "Variant",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-ii-1979-82",
+      "AssertionState": "supports",
+      "SourceValue": "II",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "II",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK2-shower",
+      "BoatModelID": "MNSH-34-MK2",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-ii-1979-82",
+      "AssertionState": "supports",
+      "SourceValue": "separate stall shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK3-loa",
+      "BoatModelID": "MNSH-34-MK3",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-iii-1983-88",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.3632,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK3-beam",
+      "BoatModelID": "MNSH-34-MK3",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-iii-1983-88",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.6322,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK3-draft",
+      "BoatModelID": "MNSH-34-MK3",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-iii-1983-88",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK3-disp",
+      "BoatModelID": "MNSH-34-MK3",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-iii-1983-88",
+      "AssertionState": "supports",
+      "SourceValue": 14000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 6350.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK3-identity",
+      "BoatModelID": "MNSH-34-MK3",
+      "FieldID": "Variant",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-iii-1983-88",
+      "AssertionState": "supports",
+      "SourceValue": "III",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "III",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK3-shower",
+      "BoatModelID": "MNSH-34-MK3",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-iii-1983-88",
+      "AssertionState": "supports",
+      "SourceValue": "separate stall shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-MK2-start",
+      "BoatModelID": "MNSH-34-MK2",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-ii-1979-82",
+      "AssertionState": "conflicts",
+      "SourceValue": "heading says 1979–82; text says introduced in 1980",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Current 1979 start retained; source is internally inconsistent.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-350-TR-loa",
+      "BoatModelID": "MNSH-350-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "39 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.1158,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-350-TR-lwl",
+      "BoatModelID": "MNSH-350-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.5918,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-350-TR-beam",
+      "BoatModelID": "MNSH-350-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.318,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-350-TR-draft",
+      "BoatModelID": "MNSH-350-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1176,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-350-TR-disp",
+      "BoatModelID": "MNSH-350-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": 22000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9979.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-350-TR-air",
+      "BoatModelID": "MNSH-350-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "18 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 5.6896,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-390-TR-loa",
+      "BoatModelID": "MNSH-390-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "39 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.1158,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-390-TR-lwl",
+      "BoatModelID": "MNSH-390-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.5918,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-390-TR-beam",
+      "BoatModelID": "MNSH-390-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.318,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-390-TR-draft",
+      "BoatModelID": "MNSH-390-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1176,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-390-TR-disp",
+      "BoatModelID": "MNSH-390-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": 22000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9979.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-390-TR-air",
+      "BoatModelID": "MNSH-390-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "18 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 5.6896,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-350390-rename",
+      "BoatModelID": "MNSH-350-TR",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "supports",
+      "SourceValue": "350 Trawler called 390 Trawler in 1999–2005",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": [
+        "390 Trawler"
+      ],
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Same continuing hull/model line; separate B-Atlas records retained for user/search recognition.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-350390-engines",
+      "BoatModelID": "MNSH-390-TR",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/350-390-trawler-1996-2005",
+      "AssertionState": "unresolved",
+      "SourceValue": "single and twin diesel choices",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-400-TR-loa",
+      "BoatModelID": "MNSH-400-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/400-trawler-414-trawler-2003-12",
+      "AssertionState": "supports",
+      "SourceValue": "41 ft 4 in with pulpit",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.5984,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-400-TR-lwl",
+      "BoatModelID": "MNSH-400-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/400-trawler-414-trawler-2003-12",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft 4 in hull length",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.684,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-400-TR-beam",
+      "BoatModelID": "MNSH-400-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/400-trawler-414-trawler-2003-12",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.318,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-400-TR-draft",
+      "BoatModelID": "MNSH-400-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/400-trawler-414-trawler-2003-12",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1176,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-400-TR-disp",
+      "BoatModelID": "MNSH-400-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/400-trawler-414-trawler-2003-12",
+      "AssertionState": "supports",
+      "SourceValue": 24000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10886.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-400-TR-air",
+      "BoatModelID": "MNSH-400-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/400-trawler-414-trawler-2003-12",
+      "AssertionState": "supports",
+      "SourceValue": "19 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 5.842,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-400-renames",
+      "BoatModelID": "MNSH-400-TR",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/400-trawler-414-trawler-2003-12",
+      "AssertionState": "supports",
+      "SourceValue": "400 Trawler; called 41 Expedition in 2009 and 414 Trawler in 2010–12",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": [
+        "41 Expedition",
+        "414 Trawler"
+      ],
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-400-layout2009",
+      "BoatModelID": "MNSH-400-TR",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/400-trawler-414-trawler-2003-12",
+      "AssertionState": "supports",
+      "SourceValue": "2009 interior redesign removed forward dinette for large L-shaped sofa",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Captured as production phase rather than separate model.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-TR-loa",
+      "BoatModelID": "MNSH-34-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-trawler-2005-09",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft 10 in with pulpit",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.8364,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-TR-beam",
+      "BoatModelID": "MNSH-34-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-trawler-2005-09",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.3434,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-TR-draft",
+      "BoatModelID": "MNSH-34-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-trawler-2005-09",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.016,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-TR-disp",
+      "BoatModelID": "MNSH-34-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-trawler-2005-09",
+      "AssertionState": "supports",
+      "SourceValue": 20000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9071.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-TR-air",
+      "BoatModelID": "MNSH-34-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-trawler-2005-09",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.572,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-TR-head",
+      "BoatModelID": "MNSH-34-TR",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-trawler-2005-09",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9304,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MNSH-34-TR-eng",
+      "BoatModelID": "MNSH-34-TR",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/mainship/34-trawler-2005-09",
+      "AssertionState": "unresolved",
+      "SourceValue": "single 240 hp or twin 315 hp Yanmar",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Do not force EngineCount=1 at model level; current record legacy count remains but canonical count intentionally omitted.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MONK-36-TR-loa",
+      "BoatModelID": "MONK-36-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/monk/36-trawler-1982-2007",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.9728,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MONK-36-TR-lwl",
+      "BoatModelID": "MONK-36-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/monk/36-trawler-1982-2007",
+      "AssertionState": "supports",
+      "SourceValue": "33 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.0584,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MONK-36-TR-beam",
+      "BoatModelID": "MONK-36-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/monk/36-trawler-1982-2007",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.9624,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MONK-36-TR-draft",
+      "BoatModelID": "MONK-36-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/monk/36-trawler-1982-2007",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MONK-36-TR-disp",
+      "BoatModelID": "MONK-36-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/monk/36-trawler-1982-2007",
+      "AssertionState": "supports",
+      "SourceValue": 18000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8164.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MONK-36-TR-air",
+      "BoatModelID": "MONK-36-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/monk/36-trawler-1982-2007",
+      "AssertionState": "supports",
+      "SourceValue": "17 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 5.461,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MONK-36-TR-builderphase",
+      "BoatModelID": "MONK-36-TR",
+      "FieldID": "Builder",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/monk/36-trawler-1982-2007",
+      "AssertionState": "supports",
+      "SourceValue": "Taiwan through 1991; Nova Scotia after 1992",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Builder/yard transition is represented as production phases, not new model.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MONK-36-TR-layoutphase",
+      "BoatModelID": "MONK-36-TR",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/monk/36-trawler-1982-2007",
+      "AssertionState": "supports",
+      "SourceValue": "post-1992 tub removed and master berth moved from wall",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MONK-36-TR-built",
+      "BoatModelID": "MONK-36-TR",
+      "FieldID": "TotalBuilt",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/monk/36-trawler-1982-2007",
+      "AssertionState": "unresolved",
+      "SourceValue": "over 250 reported",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "medium",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Reported total, not promoted as an exact canonical count.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-SE-loa",
+      "BoatModelID": "ISGY-32-SE",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-sedan-1981-2000",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 0 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.7536,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-SE-lwl",
+      "BoatModelID": "ISGY-32-SE",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-sedan-1981-2000",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.017,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-SE-beam",
+      "BoatModelID": "ISGY-32-SE",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-sedan-1981-2000",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-SE-draft",
+      "BoatModelID": "ISGY-32-SE",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-sedan-1981-2000",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1176,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-SE-disp",
+      "BoatModelID": "ISGY-32-SE",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-sedan-1981-2000",
+      "AssertionState": "supports",
+      "SourceValue": 16400,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7438.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-EU-loa",
+      "BoatModelID": "ISGY-32-EU",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-europa-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 0 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.7536,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-EU-lwl",
+      "BoatModelID": "ISGY-32-EU",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-europa-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.017,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-EU-beam",
+      "BoatModelID": "ISGY-32-EU",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-europa-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-EU-draft",
+      "BoatModelID": "ISGY-32-EU",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-europa-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1176,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-EU-disp",
+      "BoatModelID": "ISGY-32-EU",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-europa-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": 16400,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7438.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-FI-loa",
+      "BoatModelID": "ISGY-32-FI",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-fisherman-1982-97",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.779,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-FI-lwl",
+      "BoatModelID": "ISGY-32-FI",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-fisherman-1982-97",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.0424,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-FI-beam",
+      "BoatModelID": "ISGY-32-FI",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-fisherman-1982-97",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-FI-draft",
+      "BoatModelID": "ISGY-32-FI",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-fisherman-1982-97",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1176,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-FI-disp",
+      "BoatModelID": "ISGY-32-FI",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-fisherman-1982-97",
+      "AssertionState": "supports",
+      "SourceValue": 13000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5896.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-FI-hullshare",
+      "BoatModelID": "ISGY-32-FI",
+      "FieldID": "HullLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-fisherman-1982-97",
+      "AssertionState": "supports",
+      "SourceValue": "same two-piece semi-displacement hull mold as 32 Sedan",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Separate named model/variant despite shared hull.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-FI-engines",
+      "BoatModelID": "ISGY-32-FI",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-fisherman-1982-97",
+      "AssertionState": "unresolved",
+      "SourceValue": "single 275 hp or optional twin 210 hp",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-32-EU-shower",
+      "BoatModelID": "ISGY-32-EU",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/32-europa-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": "split head with separate stall shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36-loa",
+      "BoatModelID": "ISGY-36",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-classic-1978-2001",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.9728,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36-lwl",
+      "BoatModelID": "ISGY-36",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-classic-1978-2001",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.0076,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36-beam",
+      "BoatModelID": "ISGY-36",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-classic-1978-2001",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.9624,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36-draft",
+      "BoatModelID": "ISGY-36",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-classic-1978-2001",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36-disp",
+      "BoatModelID": "ISGY-36",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-classic-1978-2001",
+      "AssertionState": "supports",
+      "SourceValue": 27000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 12247.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36-air",
+      "BoatModelID": "ISGY-36",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-classic-1978-2001",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.81,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36-alias",
+      "BoatModelID": "ISGY-36",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-classic-1978-2001",
+      "AssertionState": "supports",
+      "SourceValue": "same as 36 Quad Cabin",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": [
+        "36 Quad Cabin"
+      ],
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36-engines",
+      "BoatModelID": "ISGY-36",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-classic-1978-2001",
+      "AssertionState": "unresolved",
+      "SourceValue": "single or twin diesels",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36EURO-loa",
+      "BoatModelID": "ISGY-36EURO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-europa-1980-98",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.9728,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36EURO-lwl",
+      "BoatModelID": "ISGY-36EURO",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-europa-1980-98",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.0076,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36EURO-beam",
+      "BoatModelID": "ISGY-36EURO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-europa-1980-98",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1148,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36EURO-draft",
+      "BoatModelID": "ISGY-36EURO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-europa-1980-98",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1938,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36EURO-disp",
+      "BoatModelID": "ISGY-36EURO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-europa-1980-98",
+      "AssertionState": "supports",
+      "SourceValue": 25520,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 11575.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36EURO-air",
+      "BoatModelID": "ISGY-36EURO",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-europa-1980-98",
+      "AssertionState": "supports",
+      "SourceValue": "16 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.8768,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-36EURO-engines",
+      "BoatModelID": "ISGY-36EURO",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/36-europa-1980-98",
+      "AssertionState": "supports",
+      "SourceValue": "twin 135 hp Lehman described",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 2,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-40-loa",
+      "BoatModelID": "ISGY-40",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/40-classic-1995-98",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-40-lwl",
+      "BoatModelID": "ISGY-40",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/40-classic-1995-98",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.7442,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-40-beam",
+      "BoatModelID": "ISGY-40",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/40-classic-1995-98",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.3434,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-40-draft",
+      "BoatModelID": "ISGY-40",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/40-classic-1995-98",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-40-disp",
+      "BoatModelID": "ISGY-40",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/40-classic-1995-98",
+      "AssertionState": "supports",
+      "SourceValue": 34000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 15422.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-40-air",
+      "BoatModelID": "ISGY-40",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/40-classic-1995-98",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0386,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-40-head",
+      "BoatModelID": "ISGY-40",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/40-classic-1995-98",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9304,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-40-redesign",
+      "BoatModelID": "ISGY-40",
+      "FieldID": "Model",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/40-classic-1995-98",
+      "AssertionState": "supports",
+      "SourceValue": "redesigned in 1995 with straight sheer and revised flybridge",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Current B-Atlas record starts in 1995, so it represents the redesigned production and does not need a pre-1995 phase.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-40-layout",
+      "BoatModelID": "ISGY-40",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/40-classic-1995-98",
+      "AssertionState": "unresolved",
+      "SourceValue": "three-stateroom layout eventually replaced by two-stateroom layout",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Source does not give a clean year boundary; retain as layout variability, not a dated phase.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-44-loa",
+      "BoatModelID": "ISGY-44",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/44-motor-cruiser-1980-96",
+      "AssertionState": "supports",
+      "SourceValue": "44 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.4874,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-44-lwl",
+      "BoatModelID": "ISGY-44",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/44-motor-cruiser-1980-96",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.811,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-44-beam",
+      "BoatModelID": "ISGY-44",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/44-motor-cruiser-1980-96",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.6736,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-44-draft",
+      "BoatModelID": "ISGY-44",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/44-motor-cruiser-1980-96",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.2954,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-44-disp",
+      "BoatModelID": "ISGY-44",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/44-motor-cruiser-1980-96",
+      "AssertionState": "supports",
+      "SourceValue": 38500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 17463.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-44-air",
+      "BoatModelID": "ISGY-44",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/44-motor-cruiser-1980-96",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1402,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ISGY-44-layout",
+      "BoatModelID": "ISGY-44",
+      "FieldID": "AftCabin",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/island-gypsy/44-motor-cruiser-1980-96",
+      "AssertionState": "supports",
+      "SourceValue": "amidships master; bow guest; starboard bunk cabin",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": false,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Corrects legacy aft-cabin assumption. This Motor Cruiser is a three-stateroom sedan/cruiser arrangement, not a conventional aft-cabin model.",
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}

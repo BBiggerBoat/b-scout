@@ -27,5 +27,40 @@ function formatMeasurement(value,dimension,profile="imperial"){
  if(dimension==="power")return `${Math.round(fromCanonical(x,"hp"))} hp`;
  return String(x);
 }
-global.BAtlasCanonical={FACTORS,CANON,toCanonical,fromCanonical,canonicalMeasurement,feet,inches,enumCode,formatMeasurement};
+
+function phaseMatchesContext(phase,context={}){
+ const y=Number(context.year);
+ if(Number.isFinite(y)){
+  const sy=Number(phase?.StartYear), ey=Number(phase?.EndYear);
+  if(Number.isFinite(sy)&&y<sy)return false;
+  if(Number.isFinite(ey)&&y>ey)return false;
+ }
+ const material=context.HullMaterialCode||context.hullMaterialCode;
+ if(material){
+  const materialFact=(phase?.FactOverrides||[]).find(f=>f.FieldID==="HullMaterialCode"&&f.ValueState==="known");
+  if(materialFact&&String(materialFact.CanonicalValue)!==String(material))return false;
+ }
+ return true;
+}
+function resolveProductionPhase(row,context={}){
+ const phases=Array.isArray(row?.ProductionPhases)?row.ProductionPhases:[];
+ const matches=phases.filter(p=>phaseMatchesContext(p,context));
+ return {status:matches.length===1?"resolved":matches.length>1?"ambiguous":"none",phase:matches.length===1?matches[0]:null,matches};
+}
+function phaseOverride(phase,fieldId){
+ const fact=(phase?.FactOverrides||[]).find(f=>String(f.FieldID)===String(fieldId));
+ return fact&&fact.ValueState==="known"?fact.CanonicalValue:null;
+}
+function effectiveCanonicalValue(row,fieldId,context={}){
+ const result=resolveProductionPhase(row,context);
+ if(result.status==="resolved"){
+  const value=phaseOverride(result.phase,fieldId);
+  if(value!==null&&value!==undefined)return {value,source:"production_phase",phase:result.phase,status:"known"};
+ }
+ const direct=row?.[fieldId];
+ if(direct!==undefined&&direct!==null&&direct!=="")return {value:direct,source:"model",phase:null,status:"known"};
+ return {value:null,source:result.status==="ambiguous"?"production_phase_ambiguous":"model",phase:null,status:result.status==="ambiguous"?"ambiguous":"unknown"};
+}
+
+global.BAtlasCanonical={FACTORS,CANON,toCanonical,fromCanonical,canonicalMeasurement,feet,inches,enumCode,formatMeasurement,phaseMatchesContext,resolveProductionPhase,phaseOverride,effectiveCanonicalValue};
 })(typeof window!=="undefined"?window:globalThis);

@@ -82,6 +82,42 @@
         "string",
         "null"
       ]
+    },
+    "ProductionPhaseID": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Applicability": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "scope": {
+          "type": "string"
+        },
+        "startYear": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "endYear": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
     }
   }
 }

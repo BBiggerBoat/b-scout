@@ -5,6 +5,7 @@
 
     const DEFAULT_MANIFEST = Object.freeze({
         boats: "boatmodels.json",
+        productionPhases: "data/production-phases.json",
         routes: "routes.json",
         missionTemplates: "data/missionTemplates.json",
         searchProfiles: "data/search-profiles.json",
@@ -79,7 +80,19 @@
             fetchJson(url, fetchImpl).then(value => [name, ensureArray(value, name)])
         )).then(async results => {
             const data = Object.fromEntries(results);
-            if (Array.isArray(data.boats)) data.boats = data.boats.map(applyCanonicalCompatibility);
+            if (Array.isArray(data.boats)) {
+                const phaseIndex = new Map();
+                for (const phase of (Array.isArray(data.productionPhases) ? data.productionPhases : [])) {
+                    if (!phase?.BoatModelID) continue;
+                    if (!phaseIndex.has(phase.BoatModelID)) phaseIndex.set(phase.BoatModelID, []);
+                    phaseIndex.get(phase.BoatModelID).push(phase);
+                }
+                for (const list of phaseIndex.values()) list.sort((a,b) => Number(a.Sequence||0)-Number(b.Sequence||0));
+                data.boats = data.boats.map(row => applyCanonicalCompatibility({
+                    ...row,
+                    ProductionPhases: phaseIndex.get(row.BoatModelID) || []
+                }));
+            }
             try {
                 const request = fetchImpl || global.fetch;
                 const response = await request(`${COMMUNITY_API_BASE}/api/public/overlays`, { cache: "no-store" });

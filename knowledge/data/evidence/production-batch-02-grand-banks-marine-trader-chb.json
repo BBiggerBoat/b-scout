@@ -1,0 +1,1455 @@
+{
+  "batchId": "production-02-grand-banks-marine-trader-chb",
+  "schemaVersion": "1.3",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-loa",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.7282,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-lwl",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": "30 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.3726,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-beam",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.5052,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-draft",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.143,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-disp",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "supports",
+      "SourceValue": 17000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7711.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-32-CL-material",
+      "BoatModelID": "GRBK-32-CL",
+      "FieldID": "HullMaterialCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/32-sedan-1965-95",
+      "AssertionState": "unresolved",
+      "SourceValue": "wood until 1973; fiberglass thereafter",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "No single material code applies across the full production run.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-CL-sizechange",
+      "BoatModelID": "GRBK-36-CL",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-classic-1965-2004",
+      "AssertionState": "unresolved",
+      "SourceValue": "36 ft 4 in / 36 ft 10 in",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Six inches added to length in 1987/88; canonical model-wide LOA intentionally unset.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-CL-beamchange",
+      "BoatModelID": "GRBK-36-CL",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-classic-1965-2004",
+      "AssertionState": "unresolved",
+      "SourceValue": "12 ft 2 in / 12 ft 8 in",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Four to six inches added to beam during the late-1980s update.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-CL-material",
+      "BoatModelID": "GRBK-36-CL",
+      "FieldID": "HullMaterialCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-classic-1965-2004",
+      "AssertionState": "unresolved",
+      "SourceValue": "Philippine mahogany until mid-1973; fiberglass thereafter",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-CL-lwl",
+      "BoatModelID": "GRBK-36-CL",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-classic-1965-2004",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.7188,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-CL-draft",
+      "BoatModelID": "GRBK-36-CL",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-classic-1965-2004",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-CL-disp",
+      "BoatModelID": "GRBK-36-CL",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-classic-1965-2004",
+      "AssertionState": "supports",
+      "SourceValue": 26000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 11793.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-CL-air",
+      "BoatModelID": "GRBK-36-CL",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-classic-1965-2004",
+      "AssertionState": "supports",
+      "SourceValue": "22 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 6.8072,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-EU-loa",
+      "BoatModelID": "GRBK-36-EU",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-europa-1988-98",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.2268,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-EU-lwl",
+      "BoatModelID": "GRBK-36-EU",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-europa-1988-98",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.7188,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-EU-beam",
+      "BoatModelID": "GRBK-36-EU",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-europa-1988-98",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.8608,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-EU-draft",
+      "BoatModelID": "GRBK-36-EU",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-europa-1988-98",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-EU-disp",
+      "BoatModelID": "GRBK-36-EU",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-europa-1988-98",
+      "AssertionState": "supports",
+      "SourceValue": 27000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 12247.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-EU-headroom",
+      "BoatModelID": "GRBK-36-EU",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-europa-1988-98",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9304,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-36-EU-engines",
+      "BoatModelID": "GRBK-36-EU",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/36-europa-1988-98",
+      "AssertionState": "unresolved",
+      "SourceValue": "single 135 hp or twin 210 hp",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Both single- and twin-engine installations are documented.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-42-CL-sizechange",
+      "BoatModelID": "GRBK-42-CL",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/42-classic-1975-2004",
+      "AssertionState": "unresolved",
+      "SourceValue": "42 ft 7 in / 43 ft 3 in",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Hull lengthened/widened beginning around 1991/92; no universal model scalar.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-42-CL-beamchange",
+      "BoatModelID": "GRBK-42-CL",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/42-classic-1975-2004",
+      "AssertionState": "unresolved",
+      "SourceValue": "13 ft 7 in / 14 ft 1 in",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-42-CL-lwl",
+      "BoatModelID": "GRBK-42-CL",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/42-classic-1975-2004",
+      "AssertionState": "supports",
+      "SourceValue": "41 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.5222,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-42-CL-draft",
+      "BoatModelID": "GRBK-42-CL",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/42-classic-1975-2004",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.27,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-42-CL-disp",
+      "BoatModelID": "GRBK-42-CL",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/42-classic-1975-2004",
+      "AssertionState": "supports",
+      "SourceValue": 37400,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 16964.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-42-CL-air",
+      "BoatModelID": "GRBK-42-CL",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/42-classic-1975-2004",
+      "AssertionState": "supports",
+      "SourceValue": "22 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 6.858,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-42-CL-engines",
+      "BoatModelID": "GRBK-42-CL",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/42-classic-1975-2004",
+      "AssertionState": "unresolved",
+      "SourceValue": "many engine options; single and twin examples documented",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-46-CL-loa",
+      "BoatModelID": "GRBK-46-CL",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/46-classic-1985-2005",
+      "AssertionState": "supports",
+      "SourceValue": "47 ft 1 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 14.351,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-46-CL-lwl",
+      "BoatModelID": "GRBK-46-CL",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/46-classic-1985-2005",
+      "AssertionState": "supports",
+      "SourceValue": "44 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.6652,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-46-CL-beam",
+      "BoatModelID": "GRBK-46-CL",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/46-classic-1985-2005",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.4958,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-46-CL-draft",
+      "BoatModelID": "GRBK-46-CL",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/46-classic-1985-2005",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.3462,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-46-CL-disp",
+      "BoatModelID": "GRBK-46-CL",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/46-classic-1985-2005",
+      "AssertionState": "supports",
+      "SourceValue": 42960,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 19486.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-46-CL-air",
+      "BoatModelID": "GRBK-46-CL",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/46-classic-1985-2005",
+      "AssertionState": "supports",
+      "SourceValue": "23 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.1882,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-46-CL-years",
+      "BoatModelID": "GRBK-46-CL",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://preowned.grandbanks.com/yacht-listing/1992-grand-banks-46-classic-saturday/",
+      "AssertionState": "unresolved",
+      "SourceValue": "Grand Banks history says production run 1985–2007; heritage list says 1987–2004",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Current public B-Atlas year range remains unchanged until official lineage is reconciled.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-49-MY-loa",
+      "BoatModelID": "GRBK-49-MY",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/49-motor-yacht-1986-99",
+      "AssertionState": "supports",
+      "SourceValue": "50 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 15.3924,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-49-MY-lwl",
+      "BoatModelID": "GRBK-49-MY",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/49-motor-yacht-1986-99",
+      "AssertionState": "supports",
+      "SourceValue": "48 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 14.859,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-49-MY-beam",
+      "BoatModelID": "GRBK-49-MY",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/49-motor-yacht-1986-99",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.699,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-49-MY-draft",
+      "BoatModelID": "GRBK-49-MY",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/49-motor-yacht-1986-99",
+      "AssertionState": "supports",
+      "SourceValue": "5 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.5748,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "GRBK-49-MY-disp",
+      "BoatModelID": "GRBK-49-MY",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/grand-banks/49-motor-yacht-1986-99",
+      "AssertionState": "supports",
+      "SourceValue": 60000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 27215.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MTRA-34-SE-loa",
+      "BoatModelID": "MTRA-34-SE",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/34-sedan-1973-2001",
+      "AssertionState": "supports",
+      "SourceValue": "33 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.2108,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MTRA-34-SE-lwl",
+      "BoatModelID": "MTRA-34-SE",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/34-sedan-1973-2001",
+      "AssertionState": "supports",
+      "SourceValue": "30 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.2202,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MTRA-34-SE-beam",
+      "BoatModelID": "MTRA-34-SE",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/34-sedan-1973-2001",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.5814,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MTRA-34-SE-draft",
+      "BoatModelID": "MTRA-34-SE",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/34-sedan-1973-2001",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MTRA-34-SE-disp",
+      "BoatModelID": "MTRA-34-SE",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/34-sedan-1973-2001",
+      "AssertionState": "supports",
+      "SourceValue": 19600,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8890.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MTRA-34-EU-identity",
+      "BoatModelID": "MTRA-34-EU",
+      "FieldID": "Variant",
+      "SourceRef": "https://marinesource.com/boat/marine-trader-europa-1982-washington-2543b6429-for-sale",
+      "AssertionState": "supports",
+      "SourceValue": "34 Europa marketplace identity",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Europa",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Multiple listings support usage of '34 Europa', but factory model lineage/production range remains weakly documented. Dimensions are not promoted from listing-only evidence.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-loa",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.9728,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-lwl",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.7536,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-beam",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.7084,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-draft",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-disp",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": 21000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9525.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-36-DO-shower",
+      "BoatModelID": "MRTR-36-DO",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/36-double-cabin-1975-93",
+      "AssertionState": "supports",
+      "SourceValue": "tub/shower in aft head",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-38-SD-loa",
+      "BoatModelID": "MRTR-38-SD",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/38-double-cabin-1980-2000",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 11.5824,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-38-SD-lwl",
+      "BoatModelID": "MRTR-38-SD",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/38-double-cabin-1980-2000",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.5664,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-38-SD-beam",
+      "BoatModelID": "MRTR-38-SD",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/38-double-cabin-1980-2000",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.9116,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-38-SD-draft",
+      "BoatModelID": "MRTR-38-SD",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/38-double-cabin-1980-2000",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-38-SD-disp",
+      "BoatModelID": "MRTR-38-SD",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/38-double-cabin-1980-2000",
+      "AssertionState": "supports",
+      "SourceValue": 22000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9979.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-38-SD-engines",
+      "BoatModelID": "MRTR-38-SD",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/38-double-cabin-1980-2000",
+      "AssertionState": "unresolved",
+      "SourceValue": "nearly all single 120/135 hp Lehman; later twin 210 hp Cummins examples",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-38-SD2-identity",
+      "BoatModelID": "MRTR-38-SD2",
+      "FieldID": "Model",
+      "SourceRef": "https://marinesource.com/boat/marine-trader-38-sundeck-1984-key-west-177eda5293-for-sale",
+      "AssertionState": "unresolved",
+      "SourceValue": "1984-era 38 Sundeck listings exist around 38 x 14 x 4 ft",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Current B-Atlas record spans 1985–98, while later 2010-era 38 Sundecks are 14 ft 6 in wide and materially different.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-38-SD2-generation",
+      "BoatModelID": "MRTR-38-SD2",
+      "FieldID": "Model",
+      "SourceRef": "https://marinesource.com/boat/marine-trader-38-sundeck-2010-johns-island-177b8a9af3-for-sale",
+      "AssertionState": "conflicts",
+      "SourceValue": "2010 Marine Trader 38 Sundeck: 38 ft, 14 ft 6 in beam, single Cummins",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Evidence indicates the name was reused for a later generation; identity should be split before dimensions are canonicalized.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-40-DC-loa",
+      "BoatModelID": "MRTR-40-DC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/40-double-cabin-1974-85",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-40-DC-lwl",
+      "BoatModelID": "MRTR-40-DC",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/40-double-cabin-1974-85",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.1506,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-40-DC-beam",
+      "BoatModelID": "MRTR-40-DC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/40-double-cabin-1974-85",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1656,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-40-DC-draft",
+      "BoatModelID": "MRTR-40-DC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/40-double-cabin-1974-85",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 1.2192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-40-DC-disp",
+      "BoatModelID": "MRTR-40-DC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/40-double-cabin-1974-85",
+      "AssertionState": "supports",
+      "SourceValue": 30000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 13607.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-40-DC-engines",
+      "BoatModelID": "MRTR-40-DC",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/40-double-cabin-1974-85",
+      "AssertionState": "unresolved",
+      "SourceValue": "single 120 hp Lehman; twin-engine models also exist",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-40-DC-years",
+      "BoatModelID": "MRTR-40-DC",
+      "FieldID": "LastYear",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/marine-trader/40-double-cabin-1974-85",
+      "AssertionState": "unresolved",
+      "SourceValue": "page heading 1974–85; text says remained in production until 1986",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-44-TC-loa",
+      "BoatModelID": "MRTR-44-TC",
+      "FieldID": "LOA",
+      "SourceRef": "https://old.hmy.com/yachting/powerboat-guide/marine-trader-yachts/44-tri-cabin/",
+      "AssertionState": "supports",
+      "SourceValue": "44 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 13.4112,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-44-TC-beam",
+      "BoatModelID": "MRTR-44-TC",
+      "FieldID": "Beam",
+      "SourceRef": "https://old.hmy.com/yachting/powerboat-guide/marine-trader-yachts/44-tri-cabin/",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.3688,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-44-TC-draft",
+      "BoatModelID": "MRTR-44-TC",
+      "FieldID": "Draft",
+      "SourceRef": "https://old.hmy.com/yachting/powerboat-guide/marine-trader-yachts/44-tri-cabin/",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.27,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "MRTR-44-TC-engines",
+      "BoatModelID": "MRTR-44-TC",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://old.hmy.com/yachting/powerboat-guide/marine-trader-yachts/44-tri-cabin/",
+      "AssertionState": "unresolved",
+      "SourceValue": "single or twin 120 hp Lehman",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-34-SE-loa",
+      "BoatModelID": "CHBY-34-SE",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/34-double-cabin-1972-85",
+      "AssertionState": "supports",
+      "SourceValue": "33 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.2108,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-34-SE-lwl",
+      "BoatModelID": "CHBY-34-SE",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/34-double-cabin-1972-85",
+      "AssertionState": "supports",
+      "SourceValue": "30 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.2202,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-34-SE-beam",
+      "BoatModelID": "CHBY-34-SE",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/34-double-cabin-1972-85",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.5814,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-34-SE-draft",
+      "BoatModelID": "CHBY-34-SE",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/34-double-cabin-1972-85",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-34-SE-disp",
+      "BoatModelID": "CHBY-34-SE",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/34-double-cabin-1972-85",
+      "AssertionState": "supports",
+      "SourceValue": 17000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7711.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-34-SE-lineage",
+      "BoatModelID": "CHBY-34-SE",
+      "FieldID": "Builder",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/34-double-cabin-1972-85",
+      "AssertionState": "supports",
+      "SourceValue": "CHB; imported by Marine Trader; related names include La Paz, Eagle and CHB 34 DC",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "CHB",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "This establishes brand/importer ambiguity as a real lineage issue rather than separate unrelated designs.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-35-loa",
+      "BoatModelID": "CHBY-35",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/35-sundeck-1983-86",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.4648,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-35-lwl",
+      "BoatModelID": "CHBY-35",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/35-sundeck-1983-86",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.6012,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-35-beam",
+      "BoatModelID": "CHBY-35",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/35-sundeck-1983-86",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-35-draft",
+      "BoatModelID": "CHBY-35",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/35-sundeck-1983-86",
+      "AssertionState": "supports",
+      "SourceValue": "4 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.27,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-35-disp",
+      "BoatModelID": "CHBY-35",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/35-sundeck-1983-86",
+      "AssertionState": "supports",
+      "SourceValue": 18700,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8482.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-35-alias",
+      "BoatModelID": "CHBY-35",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/35-sundeck-1983-86",
+      "AssertionState": "supports",
+      "SourceValue": "also marketed as Ponderosa 35 and Fu Hwa 35",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": [
+        "Ponderosa 35",
+        "Fu Hwa 35"
+      ],
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBB-34-SE-identity",
+      "BoatModelID": "CHBB-34-SE",
+      "FieldID": "Model",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/34-double-cabin-1972-85",
+      "AssertionState": "unresolved",
+      "SourceValue": "possible layout/importer overlap with CHB/Marine Trader 34 family",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Do not merge automatically. Requires hull/floorplan lineage review.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBB-34-TC-identity",
+      "BoatModelID": "CHBB-34-TC",
+      "FieldID": "Model",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/chb/34-double-cabin-1972-85",
+      "AssertionState": "unresolved",
+      "SourceValue": "possible layout/importer overlap with CHB/Marine Trader 34 family",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Do not merge automatically. Requires hull/floorplan lineage review.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CHBY-40-identity",
+      "BoatModelID": "CHBY-40",
+      "FieldID": "Model",
+      "SourceRef": "https://bbiggerboat.github.io/b-scout/models/chb-40-double-cabin-double-cabin/",
+      "AssertionState": "unresolved",
+      "SourceValue": "current B-Atlas record lacks sufficiently strong independent model-specific documentation",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "low",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Broad trawler classification retained; dimensions/engine assumptions are not promoted to canonical fields.",
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}

@@ -1,0 +1,1659 @@
+{
+  "batchId": "production-13-final-remaining-manufacturers",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-02",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "ENDE36-loa",
+      "BoatModelID": "ENDE-36-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/trawlercat-36-1998-2005",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.9728,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE36-lwl",
+      "BoatModelID": "ENDE-36-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/trawlercat-36-1998-2005",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.5156,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE36-beam",
+      "BoatModelID": "ENDE-36-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/trawlercat-36-1998-2005",
+      "AssertionState": "supports",
+      "SourceValue": "15 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.572,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE36-draft",
+      "BoatModelID": "ENDE-36-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/trawlercat-36-1998-2005",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE36-disp",
+      "BoatModelID": "ENDE-36-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/trawlercat-36-1998-2005",
+      "AssertionState": "supports",
+      "SourceValue": 16000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7257.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE36-hull",
+      "BoatModelID": "ENDE-36-TR",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/trawlercat-36-1998-2005",
+      "AssertionState": "supports",
+      "SourceValue": "pair of full-displacement catamaran hulls",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.displacement",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE36-water-conflict",
+      "BoatModelID": "ENDE-36-TR",
+      "FieldID": "WaterCapacity",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/trawlercat-36-1998-2005",
+      "AssertionState": "conflicts",
+      "SourceValue": 90,
+      "SourceUnit": "us_gal",
+      "NormalizedCandidateValue": 340.69,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "A surviving operations manual lists 115 US gal. Water capacity remains unresolved.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE36-layout",
+      "BoatModelID": "ENDE-36-TR",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/trawlercat-36-1998-2005",
+      "AssertionState": "supports",
+      "SourceValue": "single head with separate stall shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE44-loa",
+      "BoatModelID": "ENDE-44",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/44-trawlercat-2001-06",
+      "AssertionState": "supports",
+      "SourceValue": "43 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 13.2334,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE44-lwl",
+      "BoatModelID": "ENDE-44",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/44-trawlercat-2001-06",
+      "AssertionState": "supports",
+      "SourceValue": "41 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.4968,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE44-beam",
+      "BoatModelID": "ENDE-44",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/44-trawlercat-2001-06",
+      "AssertionState": "supports",
+      "SourceValue": "18 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 5.6896,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE44-draft",
+      "BoatModelID": "ENDE-44",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/44-trawlercat-2001-06",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE44-disp",
+      "BoatModelID": "ENDE-44",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/44-trawlercat-2001-06",
+      "AssertionState": "supports",
+      "SourceValue": 22800,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 10341.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE44-layout",
+      "BoatModelID": "ENDE-44",
+      "FieldID": "Cabins",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/44-trawlercat-2001-06",
+      "AssertionState": "supports",
+      "SourceValue": "three stateroom / two head layout",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 3,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ENDE44-power",
+      "BoatModelID": "ENDE-44",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/endeavour/44-trawlercat-2001-06",
+      "AssertionState": "supports",
+      "SourceValue": 240,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 178.97,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "HLMN38-loa",
+      "BoatModelID": "HLMN-38-CO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.jdpower.com/boats/1989/holiday-mansion",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 11.5824,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "HLMN38-disp",
+      "BoatModelID": "HLMN-38-CO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.jdpower.com/boats/1989/holiday-mansion",
+      "AssertionState": "supports",
+      "SourceValue": 14000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 6350.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "HLMN38-drive",
+      "BoatModelID": "HLMN-38-CO",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.jdpower.com/boats/1989/holiday-mansion",
+      "AssertionState": "supports",
+      "SourceValue": "Barracuda Coastal I/O",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.sterndrive",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "HLMN38-single-twin",
+      "BoatModelID": "HLMN-38-CO",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.jdpower.com/boats/1989/holiday-mansion",
+      "AssertionState": "unresolved",
+      "SourceValue": "catalog lists single I/O; surviving examples include twin I/O repowers/configurations",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "HLMN38-example-beam",
+      "BoatModelID": "HLMN-38-CO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.powerboatlistings.com/view/25067",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "HLMN38-example-draft",
+      "BoatModelID": "HLMN-38-CO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.powerboatlistings.com/view/25067",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.6858,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "HLMN38-year",
+      "BoatModelID": "HLMN-38-CO",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://www.powerboatlistings.com/view/25067",
+      "AssertionState": "supports",
+      "SourceValue": 1988,
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 1988,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NDST31-loa",
+      "BoatModelID": "NDST-31P",
+      "FieldID": "LOA",
+      "SourceRef": "https://nordstar.fi/nord-star-fleet/pilothouse-31-plus/",
+      "AssertionState": "supports",
+      "SourceValue": "10.05 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 10.05,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NDST31-beam",
+      "BoatModelID": "NDST-31P",
+      "FieldID": "Beam",
+      "SourceRef": "https://nordstar.fi/nord-star-fleet/pilothouse-31-plus/",
+      "AssertionState": "supports",
+      "SourceValue": "3.15 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.15,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NDST31-disp",
+      "BoatModelID": "NDST-31P",
+      "FieldID": "Displacement",
+      "SourceRef": "https://nordstar.fi/nord-star-fleet/pilothouse-31-plus/",
+      "AssertionState": "supports",
+      "SourceValue": "~5000 kg dry",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 5000,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NDST31-head",
+      "BoatModelID": "NDST-31P",
+      "FieldID": "Headroom",
+      "SourceRef": "https://nordstar.fi/nord-star-fleet/pilothouse-31-plus/",
+      "AssertionState": "supports",
+      "SourceValue": "1.94 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 1.94,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NDST31-hull",
+      "BoatModelID": "NDST-31P",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://nordstar.fi/nord-star-fleet/pilothouse-31-plus/",
+      "AssertionState": "supports",
+      "SourceValue": "18.3 degree stern V-angle; max speed 45 kn",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "NDST31-power",
+      "BoatModelID": "NDST-31P",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://nordstar.fi/nord-star-fleet/pilothouse-31-plus/",
+      "AssertionState": "unresolved",
+      "SourceValue": "factory publishes max rated power 550 kW but not one universal engine count",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "OCEA36-loa",
+      "BoatModelID": "OCEA-36-SE",
+      "FieldID": "LOA",
+      "SourceRef": "https://canadianboating.ca/boat-reviews/oceania-36-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "38.5 ft published overall spec",
+      "SourceUnit": "ft_decimal",
+      "NormalizedCandidateValue": 11.7348,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "OCEA36-beam",
+      "BoatModelID": "OCEA-36-SE",
+      "FieldID": "Beam",
+      "SourceRef": "https://canadianboating.ca/boat-reviews/oceania-36-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "12.5 ft",
+      "SourceUnit": "ft_decimal",
+      "NormalizedCandidateValue": 3.81,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "OCEA36-draft",
+      "BoatModelID": "OCEA-36-SE",
+      "FieldID": "Draft",
+      "SourceRef": "https://canadianboating.ca/boat-reviews/oceania-36-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "3.5 ft",
+      "SourceUnit": "ft_decimal",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "OCEA36-disp",
+      "BoatModelID": "OCEA-36-SE",
+      "FieldID": "Displacement",
+      "SourceRef": "https://canadianboating.ca/boat-reviews/oceania-36-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "19,000 lb",
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8618.3,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "OCEA36-hulllen",
+      "BoatModelID": "OCEA-36-SE",
+      "FieldID": "HullLength",
+      "SourceRef": "https://canadianboating.ca/boat-reviews/oceania-36-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 6 in on centerline",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 10.8204,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "OCEA36-engine",
+      "BoatModelID": "OCEA-36-SE",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://canadianboating.ca/boat-reviews/oceania-36-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "single 120 hp Ford-Lehman diesel",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 89.48,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "OCEA36-year",
+      "BoatModelID": "OCEA-36-SE",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://canadianboating.ca/boat-reviews/oceania-36-sedan/",
+      "AssertionState": "supports",
+      "SourceValue": "first imported/tested in Canada in 1980",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 1980,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PDQ34-loa",
+      "BoatModelID": "PDQB-34-PA",
+      "FieldID": "LOA",
+      "SourceRef": "https://yachtr.com/34-pdq-2005-2798853/",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.5156,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PDQ34-lwl",
+      "BoatModelID": "PDQB-34-PA",
+      "FieldID": "LWL",
+      "SourceRef": "https://yachtr.com/34-pdq-2005-2798853/",
+      "AssertionState": "supports",
+      "SourceValue": "33 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.3378,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PDQ34-beam",
+      "BoatModelID": "PDQB-34-PA",
+      "FieldID": "Beam",
+      "SourceRef": "https://yachtr.com/34-pdq-2005-2798853/",
+      "AssertionState": "supports",
+      "SourceValue": "16 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 5.1308,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PDQ34-draft",
+      "BoatModelID": "PDQB-34-PA",
+      "FieldID": "Draft",
+      "SourceRef": "https://yachtr.com/34-pdq-2005-2798853/",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.7112,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PDQ34-disp",
+      "BoatModelID": "PDQB-34-PA",
+      "FieldID": "Displacement",
+      "SourceRef": "https://yachtr.com/34-pdq-2005-2798853/",
+      "AssertionState": "supports",
+      "SourceValue": 12000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5443.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PDQ34-power",
+      "BoatModelID": "PDQB-34-PA",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://yachtr.com/34-pdq-2005-2798853/",
+      "AssertionState": "supports",
+      "SourceValue": 75,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 55.93,
+      "CanonicalUnit": "kW",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PDQ34-shower",
+      "BoatModelID": "PDQB-34-PA",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://yachtr.com/34-pdq-2005-2798853/",
+      "AssertionState": "supports",
+      "SourceValue": "separate shower compartment",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SAGA26-loa",
+      "BoatModelID": "SAGA-26-HT",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.boat.no/asp/boats/show.asp?id=16263&mid=90566",
+      "AssertionState": "supports",
+      "SourceValue": "803 cm",
+      "SourceUnit": "cm",
+      "NormalizedCandidateValue": 8.03,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SAGA26-beam",
+      "BoatModelID": "SAGA-26-HT",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.boat.no/asp/boats/show.asp?id=16263&mid=90566",
+      "AssertionState": "supports",
+      "SourceValue": "267 cm",
+      "SourceUnit": "cm",
+      "NormalizedCandidateValue": 2.67,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SAGA26-draft",
+      "BoatModelID": "SAGA-26-HT",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.boat.no/asp/boats/show.asp?id=16263&mid=90566",
+      "AssertionState": "supports",
+      "SourceValue": "105 cm",
+      "SourceUnit": "cm",
+      "NormalizedCandidateValue": 1.05,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SAGA26-disp",
+      "BoatModelID": "SAGA-26-HT",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.boat.no/asp/boats/show.asp?id=16263&mid=90566",
+      "AssertionState": "supports",
+      "SourceValue": "~2500 kg",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 2500,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SAGA26-hull",
+      "BoatModelID": "SAGA-26-HT",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.boat.no/asp/boats/show.asp?id=16263&mid=90566",
+      "AssertionState": "supports",
+      "SourceValue": "available in semi-planing and full-planing versions",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.semi_displacement",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Canonical code represents the common semi-planing cruiser behavior; variant-specific full-planing versions remain evidence.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SAGA26-years",
+      "BoatModelID": "SAGA-26-HT",
+      "FieldID": "ProductionYears",
+      "SourceRef": "https://www.svb24.se/ownersclub/saga-26-ht.html",
+      "AssertionState": "supports",
+      "SourceValue": "1990–2009",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G1-loa",
+      "BoatModelID": "SEAR-340-SU",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1984-89",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 11 in with platform",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.9474,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G1-hulllen",
+      "BoatModelID": "SEAR-340-SU",
+      "FieldID": "HullLength",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1984-89",
+      "AssertionState": "supports",
+      "SourceValue": "33 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.2362,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G1-beam",
+      "BoatModelID": "SEAR-340-SU",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1984-89",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.6322,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G1-draft",
+      "BoatModelID": "SEAR-340-SU",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1984-89",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.7366,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G1-disp",
+      "BoatModelID": "SEAR-340-SU",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1984-89",
+      "AssertionState": "supports",
+      "SourceValue": 12500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5669.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G1-hull",
+      "BoatModelID": "SEAR-340-SU",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1984-89",
+      "AssertionState": "supports",
+      "SourceValue": "deep-V, 21 degree aft deadrise",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G2-loa",
+      "BoatModelID": "SEAR-340-SU-99",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1999-2002",
+      "AssertionState": "supports",
+      "SourceValue": "33 ft 6 in published HMY length",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.2108,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G2-beam",
+      "BoatModelID": "SEAR-340-SU-99",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1999-2002",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.4798,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G2-draft",
+      "BoatModelID": "SEAR-340-SU-99",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1999-2002",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.7366,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G2-disp",
+      "BoatModelID": "SEAR-340-SU-99",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1999-2002",
+      "AssertionState": "supports",
+      "SourceValue": 13000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5896.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G2-lineage",
+      "BoatModelID": "SEAR-340-SU-99",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-1999-2002",
+      "AssertionState": "supports",
+      "SourceValue": "second in a series of distinct 340 Sundancer models; replaced by restyled 340 in 2003",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G3-loa",
+      "BoatModelID": "SEAR-340-SU-03",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-2003-08",
+      "AssertionState": "supports",
+      "SourceValue": "37 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.43,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G3-beam",
+      "BoatModelID": "SEAR-340-SU-03",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-2003-08",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G3-draft",
+      "BoatModelID": "SEAR-340-SU-03",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-2003-08",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 1 in drives down",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9398,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340G3-disp",
+      "BoatModelID": "SEAR-340-SU-03",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-2003-08",
+      "AssertionState": "supports",
+      "SourceValue": 15500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7030.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR340-split",
+      "BoatModelID": "SEAR-340-SU-03",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/340-sundancer-2003-08",
+      "AssertionState": "supports",
+      "SourceValue": "2003 model is wider with newly designed cockpit and increased deadrise; materially different from 1999–2002 predecessor",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR390-loa",
+      "BoatModelID": "SEAR-390-MO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/390-motor-yacht-40-motor-yacht-2003-07",
+      "AssertionState": "supports",
+      "SourceValue": "41 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.7254,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR390-beam",
+      "BoatModelID": "SEAR-390-MO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/390-motor-yacht-40-motor-yacht-2003-07",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.3434,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR390-draft",
+      "BoatModelID": "SEAR-390-MO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/390-motor-yacht-40-motor-yacht-2003-07",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.9144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR390-disp",
+      "BoatModelID": "SEAR-390-MO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/390-motor-yacht-40-motor-yacht-2003-07",
+      "AssertionState": "supports",
+      "SourceValue": 26500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 12020.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR390-air",
+      "BoatModelID": "SEAR-390-MO",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/390-motor-yacht-40-motor-yacht-2003-07",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1656,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR390-rename",
+      "BoatModelID": "SEAR-390-MO",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/390-motor-yacht-40-motor-yacht-2003-07",
+      "AssertionState": "supports",
+      "SourceValue": "called 390 Motor Yacht in 2003–05 and 40 Motor Yacht in 2006–07",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": [
+        "390 Motor Yacht",
+        "40 Motor Yacht"
+      ],
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAR390-fuel",
+      "BoatModelID": "SEAR-390-MO",
+      "FieldID": "FuelCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/sea-ray/390-motor-yacht-40-motor-yacht-2003-07",
+      "AssertionState": "unresolved",
+      "SourceValue": "370 hp gasoline standard; 446 hp Cummins diesel optional",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAL34-loa",
+      "BoatModelID": "SEAL-34-TC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.boatdealers.ca/boats-for-sale/542099/sealord-tricabin-hamilton-ontario",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 10.3632,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAL34-beam",
+      "BoatModelID": "SEAL-34-TC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.boatdealers.ca/boats-for-sale/542099/sealord-tricabin-hamilton-ontario",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.6576,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAL34-draft",
+      "BoatModelID": "SEAL-34-TC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.boatdealers.ca/boats-for-sale/542099/sealord-tricabin-hamilton-ontario",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAL34-disp",
+      "BoatModelID": "SEAL-34-TC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.boatdealers.ca/boats-for-sale/542099/sealord-tricabin-hamilton-ontario",
+      "AssertionState": "supports",
+      "SourceValue": 18000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8164.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAL34-engine",
+      "BoatModelID": "SEAL-34-TC",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.boatdealers.ca/boats-for-sale/542099/sealord-tricabin-hamilton-ontario",
+      "AssertionState": "supports",
+      "SourceValue": "twin Volvo Penta MD31A, 63 hp",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 46.98,
+      "CanonicalUnit": "kW",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAL34-builder",
+      "BoatModelID": "SEAL-34-TC",
+      "FieldID": "Builder",
+      "SourceRef": "https://www.boatdealers.ca/boats-for-sale/542099/sealord-tricabin-hamilton-ontario",
+      "AssertionState": "supports",
+      "SourceValue": "described as Sealord (Chien Hwa) trawler",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Chien Hwa",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Builder attribution remains HIN-verification dependent.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SHAN38-loa",
+      "BoatModelID": "SHAN-38-SRD",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.shannonyachts.com/shannon_defiance38_specs.html",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.3444,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SHAN38-hulllen",
+      "BoatModelID": "SHAN-38-SRD",
+      "FieldID": "HullLength",
+      "SourceRef": "https://www.shannonyachts.com/shannon_defiance38_specs.html",
+      "AssertionState": "supports",
+      "SourceValue": "38 ft 3 in LOD",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.6586,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SHAN38-lwl",
+      "BoatModelID": "SHAN-38-SRD",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.shannonyachts.com/shannon_defiance38_specs.html",
+      "AssertionState": "supports",
+      "SourceValue": "37 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.4554,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SHAN38-beam",
+      "BoatModelID": "SHAN-38-SRD",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.shannonyachts.com/shannon_defiance38_specs.html",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.9624,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SHAN38-draft",
+      "BoatModelID": "SHAN-38-SRD",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.shannonyachts.com/shannon_defiance38_specs.html",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.6096,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SHAN38-disp",
+      "BoatModelID": "SHAN-38-SRD",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.shannonyachts.com/shannon_defiance38_specs.html",
+      "AssertionState": "supports",
+      "SourceValue": 13500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 6123.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SHAN38-hull",
+      "BoatModelID": "SHAN-38-SRD",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://passagemaker.com/cruiser-reviews/shannon-srd/",
+      "AssertionState": "supports",
+      "SourceValue": "25-knot maximum with hydrodynamic lift; planing-speed SRD hull",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SHAN38-propvar",
+      "BoatModelID": "SHAN-38-SRD",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://passagemaker.com/cruiser-reviews/shannon-srd/",
+      "AssertionState": "unresolved",
+      "SourceValue": "twin conventional shafts, single conventional shaft and surface-piercing configurations documented",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SHAN38-shower-conflict",
+      "BoatModelID": "SHAN-38-SRD",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.shannonyachts.com/shannon_defiance38_specs.html",
+      "AssertionState": "supports",
+      "SourceValue": "builder equipment list specifies pull-out handheld shower in head",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.wet_head",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "A Passagemaker review describes a separate shower on a specific layout; builder-standard equipment is canonical.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV36-loa",
+      "BoatModelID": "UNIV-36-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.boatbid.com/boatbid_boat.php?a=1060&b=131163",
+      "AssertionState": "supports",
+      "SourceValue": "10.97 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 10.97,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV36-lwl",
+      "BoatModelID": "UNIV-36-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.boatbid.com/boatbid_boat.php?a=1060&b=131163",
+      "AssertionState": "supports",
+      "SourceValue": "10.97 m listing value",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 10.97,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV36-beam",
+      "BoatModelID": "UNIV-36-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.boatbid.com/boatbid_boat.php?a=1060&b=131163",
+      "AssertionState": "supports",
+      "SourceValue": "3.90 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 3.9,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV36-draft",
+      "BoatModelID": "UNIV-36-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.boatbid.com/boatbid_boat.php?a=1060&b=131163",
+      "AssertionState": "supports",
+      "SourceValue": "1.17 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 1.17,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV36-disp",
+      "BoatModelID": "UNIV-36-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.boatbid.com/boatbid_boat.php?a=1060&b=131163",
+      "AssertionState": "supports",
+      "SourceValue": "11,111 kg / 24,500 lb",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 11111,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV36-head",
+      "BoatModelID": "UNIV-36-TR",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.boatbid.com/boatbid_boat.php?a=1060&b=131163",
+      "AssertionState": "supports",
+      "SourceValue": "1.91 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 1.91,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV36-hull",
+      "BoatModelID": "UNIV-36-TR",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.boatbid.com/boatbid_boat.php?a=1060&b=131163",
+      "AssertionState": "supports",
+      "SourceValue": "full-displacement GRP trawler",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.displacement",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV36-engines",
+      "BoatModelID": "UNIV-36-TR",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.boatbid.com/boatbid_boat.php?a=1060&b=131163",
+      "AssertionState": "supports",
+      "SourceValue": "2 x Ford Lehman 120 hp diesels on documented 1977 hull",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 2,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV36-years",
+      "BoatModelID": "UNIV-36-TR",
+      "FieldID": "ProductionYears",
+      "SourceRef": "https://www.boatbid.com/boatbid_boat.php?a=1060&b=131163",
+      "AssertionState": "unresolved",
+      "SourceValue": "documented 1977 example; full production range not established",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV40-existence",
+      "BoatModelID": "UNIV-40-TR",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://www.boattrader.com/boats/make-american-tug/model-395/",
+      "AssertionState": "supports",
+      "SourceValue": "1977 Universal Marine Europa currently appears in marketplace inventory",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 1977,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Confirms model identity/year existence, but not a complete production run.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "UNIV40-conservative",
+      "BoatModelID": "UNIV-40-TR",
+      "FieldID": "CanonicalStatus",
+      "SourceRef": "https://www.boattrader.com/boats/make-american-tug/model-395/",
+      "AssertionState": "unresolved",
+      "SourceValue": "model-specific factory documentation remains insufficient for universal machinery, displacement or production end year",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    }
+  ]
+}

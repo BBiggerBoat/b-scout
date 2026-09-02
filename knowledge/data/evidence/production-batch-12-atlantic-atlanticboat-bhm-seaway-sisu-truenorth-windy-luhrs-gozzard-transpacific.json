@@ -1,0 +1,1061 @@
+{
+  "batchId": "production-12-atlantic-atlanticboat-bhm-seaway-sisu-truenorth-windy-luhrs-gozzard-transpacific",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-02",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "ATLB-37-loa",
+      "BoatModelID": "ATLB-37-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/atlantic/37-double-cabin-1982-92",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.1506,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-37-beam",
+      "BoatModelID": "ATLB-37-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/atlantic/37-double-cabin-1982-92",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.191,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-37-draft",
+      "BoatModelID": "ATLB-37-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/atlantic/37-double-cabin-1982-92",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-37-disp",
+      "BoatModelID": "ATLB-37-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/atlantic/37-double-cabin-1982-92",
+      "AssertionState": "supports",
+      "SourceValue": 22000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9979.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-37-air",
+      "BoatModelID": "ATLB-37-TR",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/atlantic/37-double-cabin-1982-92",
+      "AssertionState": "supports",
+      "SourceValue": "19 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 6.0198,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-37-headroom",
+      "BoatModelID": "ATLB-37-TR",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/atlantic/37-double-cabin-1982-92",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9558,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-37-lineage",
+      "BoatModelID": "ATLB-37-TR",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/atlantic/37-double-cabin-1982-92",
+      "AssertionState": "supports",
+      "SourceValue": "Atlantic acquired Prairie 36 molds/tooling and reintroduced the boat in 1982 as Atlantic 37 Double Cabin",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-37-shower",
+      "BoatModelID": "ATLB-37-TR",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/atlantic/37-double-cabin-1982-92",
+      "AssertionState": "supports",
+      "SourceValue": "separate stall showers in both heads",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-26-origin",
+      "BoatModelID": "ATLB-26-DU",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://maineboats.com/print/issue-178/atlantic-boat-finds-niche-building-launches",
+      "AssertionState": "supports",
+      "SourceValue": "Duffy 26 inception in 1986",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 1986,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Corrects legacy 1982 start year.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-26-hull",
+      "BoatModelID": "ATLB-26-DU",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://maineboats.com/print/issue-178/atlantic-boat-finds-niche-building-launches",
+      "AssertionState": "supports",
+      "SourceValue": "same Duffy 26 hull finished as lobsterboat, tow boat, charter boat, pleasure boat, launch and water taxi",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-26-example-loa",
+      "BoatModelID": "ATLB-26-DU",
+      "FieldID": "LOA",
+      "SourceRef": "https://marinesource.com/boat/duffy-26-2001-jamestown-24fab9b09-for-sale",
+      "AssertionState": "supports",
+      "SourceValue": "26 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 7.9248,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-26-example-beam",
+      "BoatModelID": "ATLB-26-DU",
+      "FieldID": "Beam",
+      "SourceRef": "https://marinesource.com/boat/duffy-26-2001-jamestown-24fab9b09-for-sale",
+      "AssertionState": "supports",
+      "SourceValue": "9.5 ft",
+      "SourceUnit": "ft_decimal",
+      "NormalizedCandidateValue": 2.8956,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-26-example-draft",
+      "BoatModelID": "ATLB-26-DU",
+      "FieldID": "Draft",
+      "SourceRef": "https://marinesource.com/boat/duffy-26-2001-jamestown-24fab9b09-for-sale",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft drive-up/listing figure",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.6096,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "ATLB-26-variability",
+      "BoatModelID": "ATLB-26-DU",
+      "FieldID": "Displacement",
+      "SourceRef": "https://maineboats.com/print/issue-178/atlantic-boat-finds-niche-building-launches",
+      "AssertionState": "unresolved",
+      "SourceValue": "commercial and yacht completions share hull but differ substantially in finish/power",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "BHM32-designer",
+      "BoatModelID": "BHMB-32",
+      "FieldID": "Designer",
+      "SourceRef": "https://www.breweryacht.com/listings/1993-bhm-32-flye-point-32/2794268",
+      "AssertionState": "supports",
+      "SourceValue": "Spencer Lincoln",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Spencer Lincoln",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "BHM32-builder",
+      "BoatModelID": "BHMB-32",
+      "FieldID": "Builder",
+      "SourceRef": "https://www.breweryacht.com/listings/1993-bhm-32-flye-point-32/2794268",
+      "AssertionState": "supports",
+      "SourceValue": "BHM, Maine",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "BHM",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "BHM32-power",
+      "BoatModelID": "BHMB-32",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.breweryacht.com/listings/1993-bhm-32-flye-point-32/2794268",
+      "AssertionState": "supports",
+      "SourceValue": "single 250 hp Cummins 6BTA example; 12-knot cruise at 5 gph",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 1,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Representative completed Flye Point 32; not promoted as universal engine make/power.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAW24-current-hull",
+      "BoatModelID": "SEAW-24-ST",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://easternboats.com/boats/seaway-24-sport-center-console/",
+      "AssertionState": "supports",
+      "SourceValue": "Seaway 24 hull continues as current 24 Sport platform under Eastern Boat Works",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAW24-current-loa",
+      "BoatModelID": "SEAW-24-ST",
+      "FieldID": "LOA",
+      "SourceRef": "https://easternboats.com/boats/seaway-24-sport-center-console/",
+      "AssertionState": "supports",
+      "SourceValue": "24 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 7.3152,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAW24-current-draft",
+      "BoatModelID": "SEAW-24-ST",
+      "FieldID": "Draft",
+      "SourceRef": "https://easternboats.com/boats/seaway-24-sport-center-console/",
+      "AssertionState": "supports",
+      "SourceValue": "14 in current 24 Sport hull",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.3556,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAW24-propvar",
+      "BoatModelID": "SEAW-24-ST",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.jdpower.com/boats/2008/seaway-boats-inc/25-coastal-cruiser-i-o/10252575/specs",
+      "AssertionState": "unresolved",
+      "SourceValue": "historic Seaway coastal family includes outboard and diesel I/O variants",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SEAW28-conservative",
+      "BoatModelID": "SEAW-28-CC",
+      "FieldID": "CanonicalStatus",
+      "SourceRef": "https://b-atlas.org/models/seaway-28-coastal-cruiser-coastal-cruiser/",
+      "AssertionState": "unresolved",
+      "SourceValue": "model-specific primary documentation not located in this pass; legacy dimensions retained at moderate confidence",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SISU22-history",
+      "BoatModelID": "SISU-22-CO",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://soundingsonline.com/boats/sisu-22/",
+      "AssertionState": "supports",
+      "SourceValue": "early Sisu 22s used inboard diesel; later Eastern-built Sisu 22 uses modern composite construction and outboard power",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SISU22-prop",
+      "BoatModelID": "SISU-22-CO",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://soundingsonline.com/boats/sisu-22/",
+      "AssertionState": "unresolved",
+      "SourceValue": "early inboard diesel; later outboard; repowered inboards also documented",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SISU26-loa",
+      "BoatModelID": "SISU-26-BA",
+      "FieldID": "LOA",
+      "SourceRef": "https://soundingsonline.com/news/used-boat-sisu-26/",
+      "AssertionState": "supports",
+      "SourceValue": "25 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.8994,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SISU26-beam",
+      "BoatModelID": "SISU-26-BA",
+      "FieldID": "Beam",
+      "SourceRef": "https://soundingsonline.com/news/used-boat-sisu-26/",
+      "AssertionState": "supports",
+      "SourceValue": "9 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.9464,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SISU26-draft",
+      "BoatModelID": "SISU-26-BA",
+      "FieldID": "Draft",
+      "SourceRef": "https://soundingsonline.com/news/used-boat-sisu-26/",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.8382,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SISU26-disp",
+      "BoatModelID": "SISU-26-BA",
+      "FieldID": "Displacement",
+      "SourceRef": "https://soundingsonline.com/news/used-boat-sisu-26/",
+      "AssertionState": "supports",
+      "SourceValue": 7200,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 3265.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SISU26-built",
+      "BoatModelID": "SISU-26-BA",
+      "FieldID": "TotalBuilt",
+      "SourceRef": "https://soundingsonline.com/news/used-boat-sisu-26/",
+      "AssertionState": "unresolved",
+      "SourceValue": "estimated 250–300 built by Portsmouth Boat Works",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Builder-family estimate, so not stored as an exact scalar.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "SISU26-fuel",
+      "BoatModelID": "SISU-26-BA",
+      "FieldID": "FuelCode",
+      "SourceRef": "https://www.boattrader.com/boat/1983-sisu-26-10046917/",
+      "AssertionState": "unresolved",
+      "SourceValue": "diesel examples common; gasoline direct-drive examples also documented",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TRUN34-origin",
+      "BoatModelID": "TRUN-34",
+      "FieldID": "FirstYear",
+      "SourceRef": "https://powerandmotoryacht.com/boats/boat-tests/true-north-34/",
+      "AssertionState": "supports",
+      "SourceValue": "introduced as True North 33 in 2003; later transom modification made it a 34",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 2003,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TRUN34-lineage",
+      "BoatModelID": "TRUN-34",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://powerandmotoryacht.com/boats/boat-tests/true-north-34/",
+      "AssertionState": "supports",
+      "SourceValue": "True North 33 → True North 34 by transom modification; original diesel design distinct from later outboard-generation True North 34",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TRUN34-diesel",
+      "BoatModelID": "TRUN-34",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://powerandmotoryacht.com/boats/boat-tests/true-north-34/",
+      "AssertionState": "supports",
+      "SourceValue": "standard 370 hp diesel; 435 hp optional",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 275.91,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "TRUN34-performance",
+      "BoatModelID": "TRUN-34",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://powerandmotoryacht.com/boats/boat-tests/true-north-34/",
+      "AssertionState": "supports",
+      "SourceValue": "22-knot cruise / 25-knot top with standard 370 hp diesel",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Corrects legacy semi-displacement normalization.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "WIND26-loa",
+      "BoatModelID": "WIND-26-SN",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.windyboats.com/company/previous-models/1980s/26-snekke/",
+      "AssertionState": "supports",
+      "SourceValue": "7.75 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 7.75,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "WIND26-beam",
+      "BoatModelID": "WIND-26-SN",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.windyboats.com/company/previous-models/1980s/26-snekke/",
+      "AssertionState": "supports",
+      "SourceValue": "2.93 m",
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.93,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "WIND26-disp",
+      "BoatModelID": "WIND-26-SN",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.windyboats.com/company/previous-models/1980s/26-snekke/",
+      "AssertionState": "supports",
+      "SourceValue": "from 2350 kg including engine",
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 2350,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "WIND26-designer",
+      "BoatModelID": "WIND-26-SN",
+      "FieldID": "Designer",
+      "SourceRef": "https://www.windyboats.com/company/previous-models/1980s/26-snekke/",
+      "AssertionState": "supports",
+      "SourceValue": "Windy Boats A/S / Kjell Jørgensen",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Windy Boats A/S / Kjell Jørgensen",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "WIND26-power",
+      "BoatModelID": "WIND-26-SN",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://canadianboating.ca/boat-reviews/windy-26-sn/",
+      "AssertionState": "supports",
+      "SourceValue": 65,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 48.47,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "WIND26-draft-conflict",
+      "BoatModelID": "WIND-26-SN",
+      "FieldID": "Draft",
+      "SourceRef": "https://ca.boats.com/power-boats/1986-windy-26-sn-10251694/",
+      "AssertionState": "conflicts",
+      "SourceValue": "1.01 m on a 1986 listing",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 1.01,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Official heritage page does not publish draft and B-Atlas legacy value was 0.72 m; model-wide draft is now left unresolved.",
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "LUHR30-loa",
+      "BoatModelID": "LUHR-30",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/luhrs/30-alura-1987-90",
+      "AssertionState": "supports",
+      "SourceValue": "30 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.144,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "LUHR30-lwl",
+      "BoatModelID": "LUHR-30",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/luhrs/30-alura-1987-90",
+      "AssertionState": "supports",
+      "SourceValue": "28 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 8.5344,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "LUHR30-beam",
+      "BoatModelID": "LUHR-30",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/luhrs/30-alura-1987-90",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.1242,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "LUHR30-draft",
+      "BoatModelID": "LUHR-30",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/luhrs/30-alura-1987-90",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.889,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "LUHR30-disp",
+      "BoatModelID": "LUHR-30",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/luhrs/30-alura-1987-90",
+      "AssertionState": "supports",
+      "SourceValue": 7800,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 3538.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "LUHR30-hull",
+      "BoatModelID": "LUHR-30",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/luhrs/30-alura-1987-90",
+      "AssertionState": "supports",
+      "SourceValue": "semi-displacement full-keel fishing boat",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.semi_displacement",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "LUHR30-phase",
+      "BoatModelID": "LUHR-30",
+      "FieldID": "ProductionPhase",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/luhrs/30-alura-1987-90",
+      "AssertionState": "supports",
+      "SourceValue": "keel redesigned in 1988 to reduce vibration",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PILGRIM40-loa",
+      "BoatModelID": "GOZZ-40-PI",
+      "FieldID": "LOA",
+      "SourceRef": "https://soundingsonline.com/boats/pilgrim-40/",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.192,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PILGRIM40-beam",
+      "BoatModelID": "GOZZ-40-PI",
+      "FieldID": "Beam",
+      "SourceRef": "https://soundingsonline.com/boats/pilgrim-40/",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.2672,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PILGRIM40-draft",
+      "BoatModelID": "GOZZ-40-PI",
+      "FieldID": "Draft",
+      "SourceRef": "https://soundingsonline.com/boats/pilgrim-40/",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PILGRIM40-disp",
+      "BoatModelID": "GOZZ-40-PI",
+      "FieldID": "Displacement",
+      "SourceRef": "https://soundingsonline.com/boats/pilgrim-40/",
+      "AssertionState": "supports",
+      "SourceValue": 22000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9979.0,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PILGRIM40-power",
+      "BoatModelID": "GOZZ-40-PI",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://soundingsonline.com/boats/pilgrim-40/",
+      "AssertionState": "supports",
+      "SourceValue": 100,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 74.57,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PILGRIM40-designer",
+      "BoatModelID": "GOZZ-40-PI",
+      "FieldID": "Designer",
+      "SourceRef": "https://sailboatdata.com/builder/gozzard-yachts-north-castle-marine-ltd/",
+      "AssertionState": "supports",
+      "SourceValue": "H. Ted Gozzard",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "H. Ted Gozzard",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "PILGRIM40-builder",
+      "BoatModelID": "GOZZ-40-PI",
+      "FieldID": "Builder",
+      "SourceRef": "https://sailboatdata.com/builder/gozzard-yachts-north-castle-marine-ltd/",
+      "AssertionState": "supports",
+      "SourceValue": "North Castle Marine Ltd. / Gozzard Yachts, Goderich, Ontario",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "North Castle Marine Ltd. / Gozzard Yachts",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "EAGLE32-loa",
+      "BoatModelID": "TPMC-32-EA",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/eagle/32-pilothouse-1985-98",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.7536,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "EAGLE32-lwl",
+      "BoatModelID": "TPMC-32-EA",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/eagle/32-pilothouse-1985-98",
+      "AssertionState": "supports",
+      "SourceValue": "28 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 8.5344,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "EAGLE32-beam",
+      "BoatModelID": "TPMC-32-EA",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/eagle/32-pilothouse-1985-98",
+      "AssertionState": "supports",
+      "SourceValue": "11 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.5052,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "EAGLE32-draft",
+      "BoatModelID": "TPMC-32-EA",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/eagle/32-pilothouse-1985-98",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.016,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "EAGLE32-disp",
+      "BoatModelID": "TPMC-32-EA",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/eagle/32-pilothouse-1985-98",
+      "AssertionState": "supports",
+      "SourceValue": 17000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 7711.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "EAGLE32-headroom",
+      "BoatModelID": "TPMC-32-EA",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/eagle/32-pilothouse-1985-98",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9304,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "EAGLE32-keel",
+      "BoatModelID": "TPMC-32-EA",
+      "FieldID": "RunningGearProtectionCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/eagle/32-pilothouse-1985-98",
+      "AssertionState": "supports",
+      "SourceValue": "full-length skeg/keel protects propeller and rudder",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "running_gear.keel_protected",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    },
+    {
+      "EvidenceAssertionID": "EAGLE32-shower",
+      "BoatModelID": "TPMC-32-EA",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/eagle/32-pilothouse-1985-98",
+      "AssertionState": "supports",
+      "SourceValue": "separate stall shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-02"
+    }
+  ]
+}

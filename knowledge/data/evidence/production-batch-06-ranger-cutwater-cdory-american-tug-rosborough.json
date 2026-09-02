@@ -1,0 +1,1469 @@
+{
+  "batchId": "production-06-ranger-cutwater-cdory-american-tug-rosborough",
+  "schemaVersion": "1.4",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "RNGR-21-CLASSIC-identity",
+      "BoatModelID": "RNGR-21-CLASSIC",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/past-models",
+      "AssertionState": "supports",
+      "SourceValue": "R-21",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-21",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Ranger Tugs primary past-model archive confirms this named historical model/edition.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-21-EC-identity",
+      "BoatModelID": "RNGR-21-EC",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/past-models",
+      "AssertionState": "supports",
+      "SourceValue": "R-21",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-21",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Ranger Tugs primary past-model archive confirms this named historical model/edition.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-25-CLASSIC-identity",
+      "BoatModelID": "RNGR-25-CLASSIC",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/past-models",
+      "AssertionState": "supports",
+      "SourceValue": "R-25",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-25",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Ranger Tugs primary past-model archive confirms this named historical model/edition.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-25-SC-identity",
+      "BoatModelID": "RNGR-25-SC",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/past-models",
+      "AssertionState": "supports",
+      "SourceValue": "R-25",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-25",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Ranger Tugs primary past-model archive confirms this named historical model/edition.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-27-RT-identity",
+      "BoatModelID": "RNGR-27-RT",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/past-models",
+      "AssertionState": "supports",
+      "SourceValue": "R-27",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-27",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Ranger Tugs primary past-model archive confirms this named historical model/edition.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-27-OB-identity",
+      "BoatModelID": "RNGR-27-OB",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/past-models",
+      "AssertionState": "supports",
+      "SourceValue": "R-27",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-27",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Ranger Tugs primary past-model archive confirms this named historical model/edition.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-29-CLASSIC-identity",
+      "BoatModelID": "RNGR-29-CLASSIC",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/past-models",
+      "AssertionState": "supports",
+      "SourceValue": "R-29",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-29",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Ranger Tugs primary past-model archive confirms this named historical model/edition.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-29-CB-identity",
+      "BoatModelID": "RNGR-29-CB",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/past-models",
+      "AssertionState": "supports",
+      "SourceValue": "R-29 CB",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-29 CB",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Ranger Tugs primary past-model archive confirms this named historical model/edition.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-31-CB-identity",
+      "BoatModelID": "RNGR-31-CB",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/past-models",
+      "AssertionState": "supports",
+      "SourceValue": "R-31 CB",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-31 CB",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Ranger Tugs primary past-model archive confirms this named historical model/edition.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-23-current",
+      "BoatModelID": "RNGR-R-23",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/models",
+      "AssertionState": "supports",
+      "SourceValue": "R-23",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-23",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-25-current",
+      "BoatModelID": "RNGR-R-25",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/models",
+      "AssertionState": "supports",
+      "SourceValue": "R-25",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-25",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-27-current",
+      "BoatModelID": "RNGR-R-27",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/models",
+      "AssertionState": "supports",
+      "SourceValue": "R-27",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-27",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-29-current",
+      "BoatModelID": "RNGR-R-29",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/models",
+      "AssertionState": "supports",
+      "SourceValue": "R-29 S",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-29 S",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-31-current",
+      "BoatModelID": "RNGR-R-31",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/models",
+      "AssertionState": "supports",
+      "SourceValue": "R-31 S",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-31 S",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-43-S-current",
+      "BoatModelID": "RNGR-43-S",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/models",
+      "AssertionState": "supports",
+      "SourceValue": "R-43 S",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-43 S",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-43-CB-current",
+      "BoatModelID": "RNGR-43-CB",
+      "FieldID": "Model",
+      "SourceRef": "https://www.rangertugs.com/models",
+      "AssertionState": "supports",
+      "SourceValue": "R-43 CB",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "R-43 CB",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-23-loa",
+      "BoatModelID": "RNGR-R-23",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-23",
+      "AssertionState": "supports",
+      "SourceValue": "28 ft 5 in motor down",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.6614,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-23-beam",
+      "BoatModelID": "RNGR-R-23",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-23",
+      "AssertionState": "supports",
+      "SourceValue": "8 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.5908,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-23-draft",
+      "BoatModelID": "RNGR-R-23",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-23",
+      "AssertionState": "supports",
+      "SourceValue": "30 in motor down",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.762,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-23-disp",
+      "BoatModelID": "RNGR-R-23",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-23",
+      "AssertionState": "supports",
+      "SourceValue": 6000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 2721.6,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-23-engine",
+      "BoatModelID": "RNGR-R-23",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-23",
+      "AssertionState": "supports",
+      "SourceValue": "Yamaha F200 outboard",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.outboard",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-27-loa",
+      "BoatModelID": "RNGR-R-27",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-27",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft 7 in motor down",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.6266,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-27-beam",
+      "BoatModelID": "RNGR-R-27",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-27",
+      "AssertionState": "supports",
+      "SourceValue": "8 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.5908,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-27-draft",
+      "BoatModelID": "RNGR-R-27",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-27",
+      "AssertionState": "supports",
+      "SourceValue": "34 in motor down",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.8636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-27-disp",
+      "BoatModelID": "RNGR-R-27",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-27",
+      "AssertionState": "supports",
+      "SourceValue": 8200,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 3719.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-27-engines",
+      "BoatModelID": "RNGR-R-27",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-27",
+      "AssertionState": "supports",
+      "SourceValue": "twin Yamaha F150",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 2,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Confirms current 2026 twin-outboard R-27 is materially distinct from prior single-outboard R-27 NW/LE.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-29-loa",
+      "BoatModelID": "RNGR-R-29",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-29-s",
+      "AssertionState": "supports",
+      "SourceValue": "33 ft rigged",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.0584,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-29-beam",
+      "BoatModelID": "RNGR-R-29",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-29-s",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.048,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-29-draft",
+      "BoatModelID": "RNGR-R-29",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-29-s",
+      "AssertionState": "supports",
+      "SourceValue": "30 in",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.762,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-29-disp",
+      "BoatModelID": "RNGR-R-29",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-29-s",
+      "AssertionState": "supports",
+      "SourceValue": 10500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 4762.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-31-loa",
+      "BoatModelID": "RNGR-R-31",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-31-s",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 10 in rigged",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.6172,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-31-beam",
+      "BoatModelID": "RNGR-R-31",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-31-s",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.048,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-31-draft",
+      "BoatModelID": "RNGR-R-31",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-31-s",
+      "AssertionState": "supports",
+      "SourceValue": "30 in",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.762,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-R-31-disp",
+      "BoatModelID": "RNGR-R-31",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-31-s",
+      "AssertionState": "supports",
+      "SourceValue": 12000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5443.1,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-31-CB-loa",
+      "BoatModelID": "RNGR-31-CB",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-31-cb",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 10 in rigged",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.6172,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-31-CB-beam",
+      "BoatModelID": "RNGR-31-CB",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-31-cb",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.048,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-31-CB-draft",
+      "BoatModelID": "RNGR-31-CB",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-31-cb",
+      "AssertionState": "supports",
+      "SourceValue": "30 in",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.762,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-31-CB-disp",
+      "BoatModelID": "RNGR-31-CB",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-31-cb",
+      "AssertionState": "supports",
+      "SourceValue": 12500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 5669.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-43-S-loa",
+      "BoatModelID": "RNGR-43-S",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-43-s",
+      "AssertionState": "supports",
+      "SourceValue": "46 ft 9 in rigged",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 14.2494,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-43-S-beam",
+      "BoatModelID": "RNGR-43-S",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-43-s",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.2672,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-43-S-draft",
+      "BoatModelID": "RNGR-43-S",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-43-s",
+      "AssertionState": "supports",
+      "SourceValue": "42 in",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-43-S-pods",
+      "BoatModelID": "RNGR-43-S",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-43-s",
+      "AssertionState": "supports",
+      "SourceValue": "twin Volvo IPS500 pod drives",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.pod",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-43-CB-loa",
+      "BoatModelID": "RNGR-43-CB",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-43-cb",
+      "AssertionState": "supports",
+      "SourceValue": "46 ft 9 in rigged",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 14.2494,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-43-CB-beam",
+      "BoatModelID": "RNGR-43-CB",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-43-cb",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.2672,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-43-CB-draft",
+      "BoatModelID": "RNGR-43-CB",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-43-cb",
+      "AssertionState": "supports",
+      "SourceValue": "42 in",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "RNGR-43-CB-pods",
+      "BoatModelID": "RNGR-43-CB",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.rangertugs.com/spec-sheets/r-43-cb",
+      "AssertionState": "supports",
+      "SourceValue": "twin Volvo IPS500 pod drives",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.pod",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CUTW-family",
+      "BoatModelID": "CUTW-28-P",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cutwater",
+      "AssertionState": "supports",
+      "SourceValue": "Cutwater is built by the same company as Ranger Tugs",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CUTW-28-P-loa",
+      "BoatModelID": "CUTW-28-P",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cutwater/28-2012-current",
+      "AssertionState": "supports",
+      "SourceValue": "28 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.636,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CUTW-28-P-beam",
+      "BoatModelID": "CUTW-28-P",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cutwater/28-2012-current",
+      "AssertionState": "supports",
+      "SourceValue": "8 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.5908,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CUTW-28-P-draft",
+      "BoatModelID": "CUTW-28-P",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cutwater/28-2012-current",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.7112,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CUTW-28-P-disp",
+      "BoatModelID": "CUTW-28-P",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cutwater/28-2012-current",
+      "AssertionState": "supports",
+      "SourceValue": 8000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 3628.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CUTW-28-hull",
+      "BoatModelID": "CUTW-28-P",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cutwater/28-2012-current",
+      "AssertionState": "supports",
+      "SourceValue": "modified-V stepped hull",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.planing",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CUTW-30-lineage",
+      "BoatModelID": "CUTW-30-C",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/cutwater",
+      "AssertionState": "supports",
+      "SourceValue": "30 Command Bridge is the same boat as 30 Sedan with retractable flybridge",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Separate B-Atlas bridge configuration remains useful, but this is shared-hull lineage.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-22-CR-family",
+      "BoatModelID": "CDRY-22-CR",
+      "FieldID": "Manufacturer",
+      "SourceRef": "https://www.c-dory.com/boats/",
+      "AssertionState": "supports",
+      "SourceValue": "C-Dory",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "C-Dory",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-25-CR-family",
+      "BoatModelID": "CDRY-25-CR",
+      "FieldID": "Manufacturer",
+      "SourceRef": "https://www.c-dory.com/boats/",
+      "AssertionState": "supports",
+      "SourceValue": "C-Dory",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "C-Dory",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-25-TC-family",
+      "BoatModelID": "CDRY-25-TC",
+      "FieldID": "Manufacturer",
+      "SourceRef": "https://www.c-dory.com/boats/",
+      "AssertionState": "supports",
+      "SourceValue": "C-Dory",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "C-Dory",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-26-PA-family",
+      "BoatModelID": "CDRY-26-PA",
+      "FieldID": "Manufacturer",
+      "SourceRef": "https://www.c-dory.com/boats/",
+      "AssertionState": "supports",
+      "SourceValue": "C-Dory",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "C-Dory",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-26-V-family",
+      "BoatModelID": "CDRY-26-V",
+      "FieldID": "Manufacturer",
+      "SourceRef": "https://www.c-dory.com/boats/",
+      "AssertionState": "supports",
+      "SourceValue": "C-Dory",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "C-Dory",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-25-TC-cat",
+      "BoatModelID": "CDRY-25-TC",
+      "FieldID": "HullConfigurationCode",
+      "SourceRef": "https://www.c-dory.com/boats/",
+      "AssertionState": "supports",
+      "SourceValue": "TomCat 255 power catamaran",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_configuration.catamaran",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-26-V-loa",
+      "BoatModelID": "CDRY-26-V",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.c-dory.com/boat/26-venture/",
+      "AssertionState": "supports",
+      "SourceValue": "25 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.8486,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-26-V-beam",
+      "BoatModelID": "CDRY-26-V",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.c-dory.com/boat/26-venture/",
+      "AssertionState": "supports",
+      "SourceValue": "8 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.5908,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-26-V-draft",
+      "BoatModelID": "CDRY-26-V",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.c-dory.com/boat/26-venture/",
+      "AssertionState": "supports",
+      "SourceValue": "14 in with fuel, less gear",
+      "SourceUnit": "in",
+      "NormalizedCandidateValue": 0.3556,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-26-V-disp",
+      "BoatModelID": "CDRY-26-V",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.c-dory.com/boat/26-venture/",
+      "AssertionState": "supports",
+      "SourceValue": 4120,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 1868.8,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-26-V-head",
+      "BoatModelID": "CDRY-26-V",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.c-dory.com/boat/26-venture/",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 4.5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9431,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-26-V-material",
+      "BoatModelID": "CDRY-26-V",
+      "FieldID": "HullMaterialCode",
+      "SourceRef": "https://www.c-dory.com/boat/26-venture/",
+      "AssertionState": "supports",
+      "SourceValue": "composite core and fiberglass",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_material.fiberglass_composite",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CDRY-26-PA-real",
+      "BoatModelID": "CDRY-26-PA",
+      "FieldID": "Model",
+      "SourceRef": "https://www.c-brats.com/threads/c-dory-sightings.540/page-81",
+      "AssertionState": "supports",
+      "SourceValue": "owner-reported 26 Pro Angler with HIN CD026021I405",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "26 Pro Angler",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "This reverses the earlier suspicion that the 26 Pro Angler might be fictitious. Multiple owner records identify real hulls; production details remain incomplete.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-34-365-lineage",
+      "BoatModelID": "AMTG-34",
+      "FieldID": "ModelLineage",
+      "SourceRef": "https://www.americantug.com/our-story/",
+      "AssertionState": "supports",
+      "SourceValue": "American Tug describes the founding model as the AT 34/365",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "34 and 365 are retained as searchable designations but explicitly linked as one core lineage.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-365-loa",
+      "BoatModelID": "AMTG-365",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.americantug.com/tour/at-365/",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.1252,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-365-lwl",
+      "BoatModelID": "AMTG-365",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.americantug.com/tour/at-365/",
+      "AssertionState": "supports",
+      "SourceValue": "32 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-365-beam",
+      "BoatModelID": "AMTG-365",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.americantug.com/tour/at-365/",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0386,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-365-draft",
+      "BoatModelID": "AMTG-365",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.americantug.com/tour/at-365/",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0414,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-365-disp",
+      "BoatModelID": "AMTG-365",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.americantug.com/tour/at-365/",
+      "AssertionState": "supports",
+      "SourceValue": 18700,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8482.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-365-hull",
+      "BoatModelID": "AMTG-365",
+      "FieldID": "HullBehaviourCode",
+      "SourceRef": "https://www.americantug.com/tour/at-365/",
+      "AssertionState": "supports",
+      "SourceValue": "semi-displacement hull; 6–17 knots",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "hull_behaviour.semi_displacement",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-395-loa",
+      "BoatModelID": "AMTG-395",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.americantug.com/tour/at-395/",
+      "AssertionState": "supports",
+      "SourceValue": "41 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.6492,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-395-lwl",
+      "BoatModelID": "AMTG-395",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.americantug.com/tour/at-395/",
+      "AssertionState": "supports",
+      "SourceValue": "37 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 11.2776,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-395-beam",
+      "BoatModelID": "AMTG-395",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.americantug.com/tour/at-395/",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0386,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-395-draft",
+      "BoatModelID": "AMTG-395",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.americantug.com/tour/at-395/",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0414,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-395-disp",
+      "BoatModelID": "AMTG-395",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.americantug.com/tour/at-395/",
+      "AssertionState": "supports",
+      "SourceValue": 21000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 9525.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "AMTG-395-power",
+      "BoatModelID": "AMTG-395",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.americantug.com/tour/at-395/",
+      "AssertionState": "supports",
+      "SourceValue": "380 hp standard; 550 hp optional Cummins",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": 283.37,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Canonical power records standard package; optional higher-output package remains evidence.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ROSB-246-WH-hull",
+      "BoatModelID": "ROSB-246-WH",
+      "FieldID": "HullLineage",
+      "SourceRef": "https://soundingsonline.com/news/used-boat-review-rosborough-rf-246/",
+      "AssertionState": "supports",
+      "SourceValue": "RF-246 Wheelhouse and Sedan Cruiser share the all-fiberglass modified-V RF-246 hull",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ROSB-246-LS-hull",
+      "BoatModelID": "ROSB-246-LS",
+      "FieldID": "HullLineage",
+      "SourceRef": "https://soundingsonline.com/news/used-boat-review-rosborough-rf-246/",
+      "AssertionState": "supports",
+      "SourceValue": "RF-246 Wheelhouse and Sedan Cruiser share the all-fiberglass modified-V RF-246 hull",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ROSB-246-hull",
+      "BoatModelID": "ROSB-246",
+      "FieldID": "HullLineage",
+      "SourceRef": "https://soundingsonline.com/news/used-boat-review-rosborough-rf-246/",
+      "AssertionState": "supports",
+      "SourceValue": "RF-246 Wheelhouse and Sedan Cruiser share the all-fiberglass modified-V RF-246 hull",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ROSB-246-WH-power",
+      "BoatModelID": "ROSB-246-WH",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://marinesource.com/boat/rosborough-rf-246-custom-wheelhouse-1996-washington-2224225d9-for-sale",
+      "AssertionState": "unresolved",
+      "SourceValue": "Volvo diesel/gas sterndrive; MerCruiser gas sterndrive; single/twin outboards all offered",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Propulsion is a hull/configuration fact, not one model-wide value.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ROSB-246-WH-fuel",
+      "BoatModelID": "ROSB-246-WH",
+      "FieldID": "FuelCapacity",
+      "SourceRef": "https://marinesource.com/boat/rosborough-rf-246-custom-wheelhouse-1996-washington-2224225d9-for-sale",
+      "AssertionState": "supports",
+      "SourceValue": 70,
+      "SourceUnit": "imperial_gal",
+      "NormalizedCandidateValue": 318.23,
+      "CanonicalUnit": "L",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Source explicitly identifies Imperial gallons, so conversion is safe.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ROSB-246-WH-water",
+      "BoatModelID": "ROSB-246-WH",
+      "FieldID": "WaterCapacity",
+      "SourceRef": "https://marinesource.com/boat/rosborough-rf-246-custom-wheelhouse-1996-washington-2224225d9-for-sale",
+      "AssertionState": "supports",
+      "SourceValue": 23,
+      "SourceUnit": "imperial_gal",
+      "NormalizedCandidateValue": 104.56,
+      "CanonicalUnit": "L",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ROSB-246-shower",
+      "BoatModelID": "ROSB-246-LS",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://soundingsonline.com/news/used-boat-review-rosborough-rf-246/",
+      "AssertionState": "supports",
+      "SourceValue": "enclosed head compartment with marine head, sink and shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.wet_head",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}

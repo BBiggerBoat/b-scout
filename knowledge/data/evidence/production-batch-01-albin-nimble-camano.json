@@ -1,0 +1,1599 @@
+{
+  "batchId": "production-01-albin-nimble-camano",
+  "schemaVersion": "1.3",
+  "validatedAt": "2026-09-01",
+  "assertions": [
+    {
+      "EvidenceAssertionID": "ALBN-25-loa",
+      "BoatModelID": "ALBN-25",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.albinballad.co.uk/wp-content/uploads/2013/03/Albin-Marketing.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 7.6,
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 7.6,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-25-lwl",
+      "BoatModelID": "ALBN-25",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.albinballad.co.uk/wp-content/uploads/2013/03/Albin-Marketing.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 6.75,
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 6.75,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-25-beam",
+      "BoatModelID": "ALBN-25",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.albinballad.co.uk/wp-content/uploads/2013/03/Albin-Marketing.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 2.6,
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 2.6,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-25-draft",
+      "BoatModelID": "ALBN-25",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.albinballad.co.uk/wp-content/uploads/2013/03/Albin-Marketing.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 0.7,
+      "SourceUnit": "m",
+      "NormalizedCandidateValue": 0.7,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-25-disp",
+      "BoatModelID": "ALBN-25",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.albinballad.co.uk/wp-content/uploads/2013/03/Albin-Marketing.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 1750,
+      "SourceUnit": "kg",
+      "NormalizedCandidateValue": 1750,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-25-power",
+      "BoatModelID": "ALBN-25",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.albinballad.co.uk/wp-content/uploads/2013/03/Albin-Marketing.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 26,
+      "SourceUnit": "kW",
+      "NormalizedCandidateValue": 26,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-25-designer",
+      "BoatModelID": "ALBN-25",
+      "FieldID": "Designer",
+      "SourceRef": "https://www.albin25.eu/images/_download/albin25manual.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "Per Brohall",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Per Brohäll",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-prod-loa",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "supports",
+      "SourceValue": "26 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.1534,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-prod-lwl",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "supports",
+      "SourceValue": "24 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.4168,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-prod-beam",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "supports",
+      "SourceValue": "9 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.9464,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-prod-draft",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.762,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-prod-disp",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "supports",
+      "SourceValue": 6500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 2948.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-designer",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "Designer",
+      "SourceRef": "https://albin27.com/albin-27-history/interview/",
+      "AssertionState": "supports",
+      "SourceValue": "Joe Puccia",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Joe Puccia",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-years-club",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "LastYear",
+      "SourceRef": "https://albin27.com/albin-27-history/",
+      "AssertionState": "conflicts",
+      "SourceValue": "approximately 1992",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "HMY/PowerBoat Guide lists 1983–95. Preserve conflict; do not silently rewrite production end.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-FC-tank-unit",
+      "BoatModelID": "ALBN-27-FC",
+      "FieldID": "FuelCapacity",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-family-cruiser-1983-95",
+      "AssertionState": "unresolved",
+      "SourceValue": 72,
+      "SourceUnit": "gal",
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "L",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Source does not explicitly identify US vs Imperial gallons, so no canonical litre conversion is made.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-SP-loa",
+      "BoatModelID": "ALBN-27-SP",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-sport-cruiser-1985-95",
+      "AssertionState": "supports",
+      "SourceValue": "26 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.1534,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-SP-lwl",
+      "BoatModelID": "ALBN-27-SP",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-sport-cruiser-1985-95",
+      "AssertionState": "supports",
+      "SourceValue": "24 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.4168,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-SP-beam",
+      "BoatModelID": "ALBN-27-SP",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-sport-cruiser-1985-95",
+      "AssertionState": "supports",
+      "SourceValue": "9 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.9464,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-SP-draft",
+      "BoatModelID": "ALBN-27-SP",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-sport-cruiser-1985-95",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.762,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-SP-disp",
+      "BoatModelID": "ALBN-27-SP",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-sport-cruiser-1985-95",
+      "AssertionState": "supports",
+      "SourceValue": 6750,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 3061.7,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-27-SP-shower",
+      "BoatModelID": "ALBN-27-SP",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/27-sport-cruiser-1985-95",
+      "AssertionState": "supports",
+      "SourceValue": "enclosed head with shower",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.wet_head",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "No evidence of a separate dedicated shower stall in the compact cabin.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-TE-EB-loa",
+      "BoatModelID": "ALBN-28-TE-EB",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/28-te-1993-2007",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.1186,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-TE-EB-beam",
+      "BoatModelID": "ALBN-28-TE-EB",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/28-te-1993-2007",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.048,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-TE-EB-draft",
+      "BoatModelID": "ALBN-28-TE-EB",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/28-te-1993-2007",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9652,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-TE-EB-disp",
+      "BoatModelID": "ALBN-28-TE-EB",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/28-te-1993-2007",
+      "AssertionState": "supports",
+      "SourceValue": 7500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 3401.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-TE-EB-variant",
+      "BoatModelID": "ALBN-28-TE-EB",
+      "FieldID": "Variant",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/28-te-1993-2007",
+      "AssertionState": "supports",
+      "SourceValue": "Engine box until 2003; flush-deck option from 2003",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Engine Box",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "The two B-Atlas records are intentionally retained as configuration variants of the same 28 TE hull family.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-FL-loa",
+      "BoatModelID": "ALBN-28-FL",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/28-te-1993-2007",
+      "AssertionState": "supports",
+      "SourceValue": "29 ft 11 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.1186,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-FL-beam",
+      "BoatModelID": "ALBN-28-FL",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/28-te-1993-2007",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.048,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-FL-draft",
+      "BoatModelID": "ALBN-28-FL",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/28-te-1993-2007",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9652,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-FL-disp",
+      "BoatModelID": "ALBN-28-FL",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/28-te-1993-2007",
+      "AssertionState": "supports",
+      "SourceValue": 7500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 3401.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-FL-variant",
+      "BoatModelID": "ALBN-28-FL",
+      "FieldID": "Variant",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/28-te-1993-2007",
+      "AssertionState": "supports",
+      "SourceValue": "Engine box until 2003; flush-deck option from 2003",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Flush Deck",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "The two B-Atlas records are intentionally retained as configuration variants of the same 28 TE hull family.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-FL-test",
+      "BoatModelID": "ALBN-28-FL",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://www.boatsales.com.au/editorial/details/albin-28-tournament-express-8687/",
+      "AssertionState": "supports",
+      "SourceValue": 315,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 234.9,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "example-configuration",
+        "notes": "tested flush-deck boat; not universal engine fit"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-28-FL-tanks",
+      "BoatModelID": "ALBN-28-FL",
+      "FieldID": "FuelCapacity",
+      "SourceRef": "https://www.boatsales.com.au/editorial/details/albin-28-tournament-express-8687/",
+      "AssertionState": "supports",
+      "SourceValue": 500,
+      "SourceUnit": "L",
+      "NormalizedCandidateValue": 500,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "tested/configuration example"
+      },
+      "Notes": "Australian test gives explicit litres, useful evidence but not promoted as universal model tankage.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-30-FC-loa",
+      "BoatModelID": "ALBN-30-FC",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/30-family-cruiser-2004-07",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft 5 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.5758,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-30-FC-lwl",
+      "BoatModelID": "ALBN-30-FC",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/30-family-cruiser-2004-07",
+      "AssertionState": "supports",
+      "SourceValue": "26 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 8.128,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-30-FC-beam",
+      "BoatModelID": "ALBN-30-FC",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/30-family-cruiser-2004-07",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 3.048,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-30-FC-draft",
+      "BoatModelID": "ALBN-30-FC",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/30-family-cruiser-2004-07",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9652,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-30-FC-disp",
+      "BoatModelID": "ALBN-30-FC",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/30-family-cruiser-2004-07",
+      "AssertionState": "supports",
+      "SourceValue": 9800,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 4445.2,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-30-FC-rudder",
+      "BoatModelID": "ALBN-30-FC",
+      "FieldID": "RudderTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/30-family-cruiser-2004-07",
+      "AssertionState": "supports",
+      "SourceValue": "skeg-mounted rudder",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "rudder.skeg_hung",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-30-FC-family",
+      "BoatModelID": "ALBN-30-FC",
+      "FieldID": "BoatFamilyCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/30-family-cruiser-2004-07",
+      "AssertionState": "supports",
+      "SourceValue": "family cruiser / modified-V diesel cruiser",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "boat_family.express_cruiser",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Replaces legacy Sportfisher classification, which is not supported by the model description.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-32-PL-loa",
+      "BoatModelID": "ALBN-32-PL",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/322-command-bridge-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": "36 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 11.2014,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-32-PL-beam",
+      "BoatModelID": "ALBN-32-PL",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/322-command-bridge-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.7084,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-32-PL-draft",
+      "BoatModelID": "ALBN-32-PL",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/322-command-bridge-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 10 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.1684,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-32-PL-disp",
+      "BoatModelID": "ALBN-32-PL",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/322-command-bridge-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": 15000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 6803.9,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-32-PL-engines",
+      "BoatModelID": "ALBN-32-PL",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/322-command-bridge-1989-2003",
+      "AssertionState": "unresolved",
+      "SourceValue": "single and twin installations",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "EngineCount deliberately remains unset at the model level.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-32-PL-name",
+      "BoatModelID": "ALBN-32-PL",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/322-command-bridge-1989-2003",
+      "AssertionState": "supports",
+      "SourceValue": "called 32 Sportfisher until 1997",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": [
+        "32 Sportfisher"
+      ],
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-36-CL-loa",
+      "BoatModelID": "ALBN-36-CL",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/36-trawler-1979-93",
+      "AssertionState": "supports",
+      "SourceValue": "35 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.8966,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-36-CL-lwl",
+      "BoatModelID": "ALBN-36-CL",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/36-trawler-1979-93",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 9.525,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-36-CL-beam",
+      "BoatModelID": "ALBN-36-CL",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/36-trawler-1979-93",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.0132,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-36-CL-draft",
+      "BoatModelID": "ALBN-36-CL",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/36-trawler-1979-93",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-36-CL-air",
+      "BoatModelID": "ALBN-36-CL",
+      "FieldID": "AirDraft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/36-trawler-1979-93",
+      "AssertionState": "supports",
+      "SourceValue": "12 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.7592,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-36-CL-disp",
+      "BoatModelID": "ALBN-36-CL",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/36-trawler-1979-93",
+      "AssertionState": "supports",
+      "SourceValue": 18500,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 8391.5,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-36-CL-engine-variation",
+      "BoatModelID": "ALBN-36-CL",
+      "FieldID": "EngineCount",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/36-trawler-1979-93",
+      "AssertionState": "unresolved",
+      "SourceValue": "single standard for many years; post-1990 twins available",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-36-CL-shower",
+      "BoatModelID": "ALBN-36-CL",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/36-trawler-1979-93",
+      "AssertionState": "supports",
+      "SourceValue": "tub/shower combination in aft head",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-40-TR-loa",
+      "BoatModelID": "ALBN-40-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/40-trawler-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "40 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 12.2682,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-40-TR-lwl",
+      "BoatModelID": "ALBN-40-TR",
+      "FieldID": "LWL",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/40-trawler-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "34 ft 2 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 10.414,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-40-TR-beam",
+      "BoatModelID": "ALBN-40-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/40-trawler-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "13 ft 8 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 4.1656,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-40-TR-draft",
+      "BoatModelID": "ALBN-40-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/40-trawler-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.0668,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-40-TR-disp",
+      "BoatModelID": "ALBN-40-TR",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/40-trawler-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": 26000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 11793.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-40-TR-headroom",
+      "BoatModelID": "ALBN-40-TR",
+      "FieldID": "Headroom",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/40-trawler-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "6 ft 4 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.9304,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "ALBN-40-TR-running",
+      "BoatModelID": "ALBN-40-TR",
+      "FieldID": "RunningGearProtectionCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/albin/40-trawler-1987-93",
+      "AssertionState": "supports",
+      "SourceValue": "deep skeg protects props and rudders",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "running_gear.skeg_protected",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-24-NO-design",
+      "BoatModelID": "NMBL-24-NO",
+      "FieldID": "Designer",
+      "SourceRef": "https://www.boats.com/reviews/nimble-nomad-used-boat-review/",
+      "AssertionState": "supports",
+      "SourceValue": "Ted Brewer",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "Ted Brewer",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-24-NO-loa",
+      "BoatModelID": "NMBL-24-NO",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.trawlerforum.com/threads/nimble-nomad-trawler.2596/",
+      "AssertionState": "supports",
+      "SourceValue": "24 ft 7 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 7.493,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Experienced hull #1 owner report; retained at moderate confidence.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-24-NO-beam",
+      "BoatModelID": "NMBL-24-NO",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.trawlerforum.com/threads/nimble-nomad-trawler.2596/",
+      "AssertionState": "supports",
+      "SourceValue": "8 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 2.5908,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Experienced hull #1 owner report; retained at moderate confidence.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-24-NO-draft",
+      "BoatModelID": "NMBL-24-NO",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.trawlerforum.com/threads/nimble-nomad-trawler.2596/",
+      "AssertionState": "supports",
+      "SourceValue": "2 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 0.6096,
+      "CanonicalUnit": "m",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Experienced hull #1 owner report; retained at moderate confidence.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-24-NO-disp",
+      "BoatModelID": "NMBL-24-NO",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.trawlerforum.com/threads/nimble-nomad-trawler.2596/",
+      "AssertionState": "supports",
+      "SourceValue": 4000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 1814.4,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Experienced hull #1 owner report; retained at moderate confidence.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-24-NO-power",
+      "BoatModelID": "NMBL-24-NO",
+      "FieldID": "MechanicalPropulsionCode",
+      "SourceRef": "https://www.boats.com/reviews/nimble-nomad-used-boat-review/",
+      "AssertionState": "supports",
+      "SourceValue": "outboard powered",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "mechanical_propulsion.outboard",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-24-NO-production",
+      "BoatModelID": "NMBL-24-NO",
+      "FieldID": "TotalBuilt",
+      "SourceRef": "https://www.trawlerforum.com/threads/nimble-nomad-trawler.2596/",
+      "AssertionState": "unresolved",
+      "SourceValue": "about 132",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "low",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Useful owner-history estimate but not promoted to canonical TotalBuilt.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "NMBL-32-WA-prod-source",
+      "BoatModelID": "NMBL-32-WA",
+      "FieldID": "VesselCategoryCode",
+      "SourceRef": "https://www.cruisingworld.com/sailboats/nimble-wanderer/",
+      "AssertionState": "supports",
+      "SourceValue": "motorsailer; mastless power configuration also offered",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "vessel.motorsailer",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Model-level category is motorsailer-capable; individual boats may be power-only.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-28-GN-prod-loa",
+      "BoatModelID": "CAMA-28-GN",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/camano",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft overall",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.4488,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-28-GN-prod-beam",
+      "BoatModelID": "CAMA-28-GN",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/camano",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.2004,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-28-GN-prod-draft",
+      "BoatModelID": "CAMA-28-GN",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/camano",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-28-GN-flybridge",
+      "BoatModelID": "CAMA-28-GN",
+      "FieldID": "FlybridgeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/camano",
+      "AssertionState": "supports",
+      "SourceValue": "Gnome no flybridge / Troll flybridge",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "availability.no",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-28-GN-name-history",
+      "BoatModelID": "CAMA-28-GN",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "Troll called Camano 28 then renamed 31; Gnome sistership discontinued early",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Keep 28/31 cross-era naming rather than manufacturing separate duplicate model identities.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-prod-loa",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "LOA",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/camano",
+      "AssertionState": "supports",
+      "SourceValue": "31 ft overall",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 9.4488,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-prod-beam",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "Beam",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/camano",
+      "AssertionState": "supports",
+      "SourceValue": "10 ft 6 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 3.2004,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-prod-draft",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "Draft",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/camano",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 3 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 0.9906,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-flybridge",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "FlybridgeCode",
+      "SourceRef": "https://www.hmy.com/yachting/powerboat-guide/camano",
+      "AssertionState": "supports",
+      "SourceValue": "Gnome no flybridge / Troll flybridge",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "availability.yes",
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-name-history",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "ModelAliases",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": "Troll called Camano 28 then renamed 31; Gnome sistership discontinued early",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": null,
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Keep 28/31 cross-era naming rather than manufacturing separate duplicate model identities.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-28-GN-fuel-handbook",
+      "BoatModelID": "CAMA-28-GN",
+      "FieldID": "FuelCapacity",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 92.4,
+      "SourceUnit": "us_gal",
+      "NormalizedCandidateValue": 349.77,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "notes": "earlier handbook standard; later Troll capacity increased"
+      },
+      "Notes": "Not promoted as a universal scalar because later production changed.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-28-GN-water-handbook",
+      "BoatModelID": "CAMA-28-GN",
+      "FieldID": "WaterCapacity",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 67,
+      "SourceUnit": "us_gal",
+      "NormalizedCandidateValue": 253.62,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "notes": "handbook standard"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-28-GN-holding-handbook",
+      "BoatModelID": "CAMA-28-GN",
+      "FieldID": "HoldingCapacity",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 14.5,
+      "SourceUnit": "us_gal",
+      "NormalizedCandidateValue": 54.89,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "notes": "handbook describes approximate capacity"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-fuel-handbook",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "FuelCapacity",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 92.4,
+      "SourceUnit": "us_gal",
+      "NormalizedCandidateValue": 349.77,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "notes": "earlier handbook standard; later Troll capacity increased"
+      },
+      "Notes": "Not promoted as a universal scalar because later production changed.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-water-handbook",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "WaterCapacity",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 67,
+      "SourceUnit": "us_gal",
+      "NormalizedCandidateValue": 253.62,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "notes": "handbook standard"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-31-TR-holding-handbook",
+      "BoatModelID": "CAMA-31-TR",
+      "FieldID": "HoldingCapacity",
+      "SourceRef": "https://www.camanopacific.com/documents/Camano31Handbook.pdf",
+      "AssertionState": "supports",
+      "SourceValue": 14.5,
+      "SourceUnit": "us_gal",
+      "NormalizedCandidateValue": 54.89,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "production-era",
+        "notes": "handbook describes approximate capacity"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-41-loa",
+      "BoatModelID": "CAMA-41",
+      "FieldID": "LOA",
+      "SourceRef": "https://powerandmotoryacht.com/boats/boat-tests/camano-41/",
+      "AssertionState": "supports",
+      "SourceValue": "41 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 12.4968,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-41-beam",
+      "BoatModelID": "CAMA-41",
+      "FieldID": "Beam",
+      "SourceRef": "https://powerandmotoryacht.com/boats/boat-tests/camano-41/",
+      "AssertionState": "supports",
+      "SourceValue": "14 ft",
+      "SourceUnit": "ft",
+      "NormalizedCandidateValue": 4.2672,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-41-draft",
+      "BoatModelID": "CAMA-41",
+      "FieldID": "Draft",
+      "SourceRef": "https://powerandmotoryacht.com/boats/boat-tests/camano-41/",
+      "AssertionState": "supports",
+      "SourceValue": "3 ft 9 in",
+      "SourceUnit": "ft_in",
+      "NormalizedCandidateValue": 1.143,
+      "CanonicalUnit": "m",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-41-disp",
+      "BoatModelID": "CAMA-41",
+      "FieldID": "Displacement",
+      "SourceRef": "https://www.boats.com/power-boats/2006-camano-41-10136527/",
+      "AssertionState": "supports",
+      "SourceValue": 28000,
+      "SourceUnit": "lb",
+      "NormalizedCandidateValue": 12700.6,
+      "CanonicalUnit": "kg",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-41-engine",
+      "BoatModelID": "CAMA-41",
+      "FieldID": "EnginePowerPerEngine",
+      "SourceRef": "https://powerandmotoryacht.com/boats/boat-tests/camano-41/",
+      "AssertionState": "supports",
+      "SourceValue": 440,
+      "SourceUnit": "hp",
+      "NormalizedCandidateValue": 328.11,
+      "CanonicalUnit": "kW",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "standard-power",
+        "notes": "480 hp optional; test boats/listings may differ"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-41-fuel",
+      "BoatModelID": "CAMA-41",
+      "FieldID": "FuelCapacity",
+      "SourceRef": "https://powerandmotoryacht.com/boats/boat-tests/camano-41/",
+      "AssertionState": "unresolved",
+      "SourceValue": 400,
+      "SourceUnit": "gal",
+      "NormalizedCandidateValue": null,
+      "CanonicalUnit": "L",
+      "Confidence": "high",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": "Magazine table does not explicitly label US vs Imperial gallons; do not convert.",
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-41-water",
+      "BoatModelID": "CAMA-41",
+      "FieldID": "WaterCapacity",
+      "SourceRef": "https://www.boats.com/power-boats/2006-camano-41-10136527/",
+      "AssertionState": "supports",
+      "SourceValue": 700,
+      "SourceUnit": "L",
+      "NormalizedCandidateValue": 700,
+      "CanonicalUnit": "L",
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "example-hull",
+        "notes": "2006 hull listing; confirms scale of factory tankage"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    },
+    {
+      "EvidenceAssertionID": "CAMA-41-shower",
+      "BoatModelID": "CAMA-41",
+      "FieldID": "ShowerTypeCode",
+      "SourceRef": "https://www.boats.com/power-boats/2006-camano-41-10136527/",
+      "AssertionState": "supports",
+      "SourceValue": "separate head and shower stall",
+      "SourceUnit": null,
+      "NormalizedCandidateValue": "shower.separate_stall",
+      "CanonicalUnit": null,
+      "Confidence": "moderate",
+      "Applicability": {
+        "scope": "model"
+      },
+      "Notes": null,
+      "CapturedAt": "2026-09-01"
+    }
+  ]
+}
