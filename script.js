@@ -552,6 +552,24 @@ function renderPreferenceMatchSummary(boat) {
     </div>`;
 }
 
+function formatCardMeasurement(boat, key, legacy = []) {
+    const formatted = window.BAtlasCanonical?.formatBoatMeasurement?.(boat, key, "length", legacy, "both");
+    if (formatted) return formatted;
+    // Last-resort display only. Avoid raw floating-point artifacts if legacy data is all that exists.
+    for (const item of legacy) {
+        const value = Number(boat?.[item.key]);
+        if (!Number.isFinite(value)) continue;
+        if (item.unit === "ft") {
+            const totalInches = Math.round(value * 12);
+            const feet = Math.floor(totalInches / 12);
+            const inches = totalInches - feet * 12;
+            const metres = value * 0.3048;
+            return `${feet}′ ${inches}″ / ${metres.toFixed(2).replace(/0+$/, "").replace(/\.$/, "")} m`;
+        }
+    }
+    return "Unknown";
+}
+
 function displayBoats(boats) {
 
 
@@ -688,10 +706,10 @@ ${window.BScoutIntelligenceLayer ? window.BScoutIntelligenceLayer.renderModelKno
 <hr>
 <strong>Specifications</strong>
 <p>
-Length: ${boat.LOA_ft || "Unknown"} ft<br>
-Beam: ${boat.Beam_ft || "Unknown"} ft<br>
-Draft: ${boat.Draft_ft || "Unknown"} ft<br>
-Air Draft: ${boat.AirDraft_ft || "Unknown"} ft
+Length: ${formatCardMeasurement(boat, "LOA", [{key:"LOA_ft",unit:"ft"},{key:"LengthFt",unit:"ft"}])}<br>
+Beam: ${formatCardMeasurement(boat, "Beam", [{key:"Beam_ft",unit:"ft"},{key:"BeamFt",unit:"ft"}])}<br>
+Draft: ${formatCardMeasurement(boat, "Draft", [{key:"Draft_ft",unit:"ft"},{key:"DraftFt",unit:"ft"}])}<br>
+Air Draft: ${formatCardMeasurement(boat, "AirDraft", [{key:"AirDraft_ft",unit:"ft"}])}
 </p>
 
 
