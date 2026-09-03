@@ -3167,3 +3167,12 @@ body{padding-top:82px!important;}
   letter-spacing:.035em;
   text-transform:uppercase;
 }
+
+/* B-Atlas v6.66.0 — Research Library contribution actions */
+.workspace-resource-library-heading .workspace-section-heading,
+.workspace-card .workspace-section-heading{align-items:flex-start;gap:16px}
+.workspace-resource-library-heading .workspace-section-heading p,
+.workspace-card .workspace-section-heading p{margin:4px 0 0}
+.workspace-add-resource{width:auto;min-width:max-content;background:#fff;color:var(--batlas-blue,#176fa8);border:1px solid #9fb9ca;border-radius:4px;padding:7px 10px;font-size:13px;font-weight:700}
+.workspace-add-resource:hover{background:#eef5f8;border-color:var(--batlas-blue,#176fa8)}
+@media(max-width:760px){.workspace-resource-library-heading .workspace-section-heading,.workspace-card .workspace-section-heading{display:block}.workspace-add-resource{margin-top:10px}}

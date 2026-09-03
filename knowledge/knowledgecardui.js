@@ -69,9 +69,31 @@
         return collectionPromise;
     }
 
+    function mergeResourceAdditions(base, additions) {
+        const rows = Array.isArray(base) ? base.map(r => ({...r})) : [];
+        const map = new Map(rows.map(r => [String(r.BoatModelID || ""), r]));
+        for (const add of Array.isArray(additions) ? additions : []) {
+            const id = String(add?.BoatModelID || "").trim();
+            if (!id || !add?.url) continue;
+            let row = map.get(id);
+            if (!row) { row = {BoatModelID:id,schemaVersion:2,documents:[],videos:[],ownerCommunities:[],images:[],sources:[],confidence:"Unknown"}; rows.push(row); map.set(id,row); }
+            const group = ["documents","videos","ownerCommunities"].includes(add.group) ? add.group : "documents";
+            row[group] = Array.isArray(row[group]) ? row[group] : [];
+            if (row[group].some(x => String(x?.url || "") === String(add.url))) continue;
+            row[group].push({title:add.title,url:add.url,sourceLabel:add.sourceLabel,resourceType:add.resourceType,verificationStatus:add.verificationStatus,scope:add.scope,confidence:add.confidence,notes:add.notes||""});
+        }
+        return rows;
+    }
+
     async function loadCuratedResources(fetchImpl) {
         if (!resourcePromise) {
-            resourcePromise = loadJson(RESOURCE_PATH, fetchImpl).catch(error => {
+            resourcePromise = loadJson(RESOURCE_PATH, fetchImpl).then(async rows => {
+                try {
+                    const api = typeof globalThis !== "undefined" ? globalThis.BScoutCommunityAPI : null;
+                    if (api?.publicOverlays) { const live = await api.publicOverlays(); return mergeResourceAdditions(rows, live?.resourceAdditions || []); }
+                } catch { /* Static resources remain authoritative fallback. */ }
+                return rows;
+            }).catch(error => {
                 resourcePromise = null;
                 throw error;
             });

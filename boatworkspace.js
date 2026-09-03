@@ -378,20 +378,23 @@
         const sections = ["documents", "ownerCommunities", "videos"];
         return sections.flatMap(type => arr(currentCard?.[type]).map(item => ({...item, group: type})));
     }
+    function resourceContributionButton(label="Add a resource", typeId="resource", resourceType="") {
+        return `<button type="button" class="workspace-add-resource" data-resource-contribution-type="${esc(typeId)}"${resourceType?` data-resource-subtype="${esc(resourceType)}"`:""}>${esc(label)}</button>`;
+    }
     function renderResources() {
         const resources = collectResources();
         const groups = [
-            ["documents", "Manuals & Documents"],
-            ["ownerCommunities", "Groups & Clubs"],
-            ["videos", "Videos & Virtual Tours"]
+            ["documents", "Manuals & Documents", "manual_document", "", "Add a manual or document"],
+            ["ownerCommunities", "Groups & Clubs", "resource", "association", "Add a group or association"],
+            ["videos", "Videos & Virtual Tours", "resource", "video", "Add a video"]
         ];
-        if (!resources.length) return `<section class="workspace-card"><h3>Owner Resource Library</h3><p class="workspace-empty">No verified owner resources have been attached yet. Missing resources remain unknown rather than inferred.</p></section>`;
-        const rendered = groups.map(([key,label]) => {
+        const heading = `<section class="workspace-card workspace-resource-library-heading"><div class="workspace-section-heading"><div><h3>Research Library</h3><p>${resources.length ? `${resources.length} curated resource${resources.length===1?"":"s"} attached to this model.` : "No verified resources have been attached to this model yet."} Owners and researchers can help expand this library.</p></div>${resourceContributionButton("Add a resource")}</div></section>`;
+        const rendered = groups.map(([key,label,typeId,subtype,emptyLabel]) => {
             const items=resources.filter(x=>x.group===key);
-            if(!items.length) return "";
-            return `<section class="workspace-card"><h3>${esc(label)}</h3><ul class="workspace-resource-list">${items.map(item=>{const url=safeUrl(item.url);return `<li><div>${url?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(item.title||item.label||"Resource")}</a>`:`<strong>${esc(item.title||item.label||"Resource")}</strong>`}<span>${esc(item.sourceLabel||item.resourceType||"Source not recorded")} · ${esc(item.verificationStatus||"Unverified")}</span></div></li>`}).join("")}</ul></section>`;
-        }).filter(Boolean).join("");
-        return `<div class="workspace-section-stack">${rendered}</div>`;
+            if(!items.length) return `<section class="workspace-card"><div class="workspace-section-heading"><div><h3>${esc(label)}</h3><p class="workspace-empty">None attached yet.</p></div>${resourceContributionButton(emptyLabel,typeId,subtype)}</div></section>`;
+            return `<section class="workspace-card"><div class="workspace-section-heading"><div><h3>${esc(label)}</h3><p>${items.length} verified or curated item${items.length===1?"":"s"}</p></div>${resourceContributionButton(emptyLabel,typeId,subtype)}</div><ul class="workspace-resource-list">${items.map(item=>{const url=safeUrl(item.url);return `<li><div>${url?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(item.title||item.label||"Resource")}</a>`:`<strong>${esc(item.title||item.label||"Resource")}</strong>`}<span>${esc(item.sourceLabel||item.resourceType||"Source not recorded")} · ${esc(item.verificationStatus||"Unverified")}</span></div></li>`}).join("")}</ul></section>`;
+        }).join("");
+        return `<div class="workspace-section-stack">${heading}${rendered}</div>`;
     }
 
     function renderEvidence() {
@@ -589,10 +592,8 @@
 
     function renderOwning() {
         const community=renderCommunityResources();
-        const curated=collectResources().length ? renderResources() : "";
-        const empty=!curated&&!community ? `<section class="workspace-card"><h3>Owner Resource Library</h3><p class="workspace-empty">No verified owner resources have been attached yet. Missing resources remain unknown rather than inferred.</p></section>` : "";
-        return `${sectionIntro("Owner Resources", "Model-specific manuals, documents, groups, forums, videos and virtual tours.")}
-            ${curated}${community}${empty}`;
+        return `${sectionIntro("Owner Resources", "Model-specific manuals, documents, groups, forums, videos and virtual tours. Missing categories are invitations to help build the shared research library.")}
+            ${renderResources()}${community}`;
     }
 
     function renderSelling() {
@@ -730,6 +731,17 @@
     if (typeof document !== "undefined") {
         document.addEventListener("click", event => {
             const tab = event.target.closest(".boat-workspace-tab"); if (tab) setTab(tab.dataset.workspaceTab);
+            const addResource = event.target.closest(".workspace-add-resource");
+            if (addResource && currentBoat && root.BScoutContributions?.open) {
+                event.preventDefault();
+                const typeId = addResource.dataset.resourceContributionType || "resource";
+                const subtype = addResource.dataset.resourceSubtype || "";
+                root.BScoutContributions.open({
+                    source:"guide", modelId:currentBoat.BoatModelID || "", manufacturer:currentBoat.Manufacturer || currentBoat.Make || "",
+                    model:currentBoat.Model || "", variant:currentBoat.Variant || "", guideName:boatName(currentBoat)
+                }, { typeId, resourceType:typeId === "resource" ? subtype : "", documentType:typeId === "manual_document" ? subtype : "" });
+                return;
+            }
             const missing = event.target.closest(".workspace-missing-contribution");
             if (missing && currentBoat && root.BScoutContributions?.open) {
                 event.preventDefault();

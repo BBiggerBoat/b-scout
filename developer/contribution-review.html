@@ -4,15 +4,15 @@
   <meta name="robots" content="noindex, nofollow">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>B-Atlas Contribution Review</title>
+<title>B-Atlas Contribution Management</title>
 <link rel="stylesheet" href="contribution-review.css">
 </head>
 <body>
 <header class="admin-header">
   <div>
     <p class="eyebrow">B-Atlas administration</p>
-    <h1>Contribution Review</h1>
-    <p class="subhead">Review community evidence before it changes canonical B-Atlas knowledge.</p>
+    <h1>Contribution Management</h1>
+    <p class="subhead">Review community submissions and B-Atlas research candidates before they change public knowledge.</p>
   </div>
   <a class="site-link" href="../index.html?developer=1">← B-Atlas test mode</a>
 </header>
@@ -26,7 +26,12 @@
   <a href="../index.html?developer=1#contribute">Create a test contribution →</a>
 </div>
 
-<main class="admin-layout">
+<nav class="review-mode-tabs" aria-label="Moderator review areas">
+  <button type="button" class="review-mode-tab is-active" data-review-mode="contributions">Community Contributions</button>
+  <button type="button" class="review-mode-tab" data-review-mode="resources">Resource Review <span id="resourcePendingBadge">185</span></button>
+</nav>
+
+<main class="admin-layout" id="contributionReviewLayout">
   <aside class="queue-panel">
     <div class="queue-toolbar">
       <div class="metric"><strong id="pendingCount">0</strong><span>Pending</span></div>
@@ -219,7 +224,63 @@
     </article>
   </section>
 </main>
-<script src="../communityapi.js?v=6.27.1"></script>
-<script src="contribution-review.js?v=6.28.4"></script>
+<main class="admin-layout resource-review-layout" id="resourceReviewLayout" hidden>
+  <aside class="queue-panel">
+    <div class="queue-toolbar">
+      <div class="metric"><strong id="resourcePendingCount">0</strong><span>Pending</span></div>
+      <div class="metric"><strong id="resourcePublishedCount">0</strong><span>Published</span></div>
+      <div class="metric"><strong id="resourceEvidenceCount">0</strong><span>Evidence only</span></div>
+      <div class="metric"><strong id="resourceRejectedCount">0</strong><span>Rejected</span></div>
+    </div>
+    <div class="filters">
+      <label>Status<select id="resourceStatusFilter"><option value="pending">Pending</option><option value="all">All</option><option value="published">Published</option><option value="evidence_only">Evidence only</option><option value="needs_replacement">Needs replacement</option><option value="rejected">Rejected</option></select></label>
+      <label>Category<select id="resourceCategoryFilter"><option value="all">All categories</option><option value="manufacturer_source">Manufacturer / factory</option><option value="manual_technical">Manual / technical</option><option value="brochure_spec">Brochure / specification</option><option value="independent_review">Independent review</option><option value="video">Video</option><option value="owner_community">Owner community</option><option value="parts_technical_support">Parts / technical support</option><option value="historical_archive">Historical / archive</option><option value="buying_inspection">Buying / inspection</option><option value="listing_derived">Listing-derived</option><option value="unclassified">Unclassified</option></select></label>
+      <label class="search-field">Search<input id="resourceQueueSearch" type="search" placeholder="Model, manufacturer, URL…"></label>
+    </div>
+    <div id="resourceQueueList" class="queue-list" aria-live="polite"></div>
+    <section class="shared-backend-box">
+      <h3>Resource queue</h3>
+      <p class="muted">Candidates discovered by B-Atlas research are separate from public submissions, but use the same moderator infrastructure.</p>
+      <div class="utility-buttons">
+        <button type="button" id="resourceSyncBtn">Sync resource queue</button>
+        <button type="button" id="resourcePublishBtn">Publish approved resources</button>
+        <button type="button" id="resourceExportBtn">Export resource review JSON</button>
+      </div>
+      <p id="resourceQueueMessage" class="utility-message" hidden></p>
+    </section>
+  </aside>
+  <section class="review-panel">
+    <div id="resourceEmptyReview" class="empty-review"><h2>Select a resource candidate</h2><p>Promote durable model knowledge. Keep transient evidence out of the public Resource Library.</p></div>
+    <article id="resourceReviewCard" class="review-card" hidden>
+      <header class="review-heading"><div><p class="eyebrow">B-Atlas research candidate</p><h2 id="resourceReviewTitle"></h2><p id="resourceReviewMeta" class="review-meta"></p></div><span id="resourceReviewStatus" class="status-pill"></span></header>
+      <section class="review-context" id="resourceReviewContext"></section>
+      <section class="review-source"><h3>Candidate source</h3><a id="resourceReviewUrl" target="_blank" rel="noopener noreferrer"></a></section>
+      <section class="moderation-box">
+        <h3>Resource decision</h3>
+        <div class="moderation-grid">
+          <label>Public title<input id="resourceTitle" type="text" maxlength="180" placeholder="Descriptive resource title"></label>
+          <label>Category<select id="resourceCategory"><option value="manufacturer_source">Manufacturer / factory source</option><option value="manual_technical">Manual / technical document</option><option value="brochure_spec">Brochure / specification sheet</option><option value="independent_review">Independent review / boat test</option><option value="video">Useful video / virtual tour</option><option value="owner_community">Owner association / community</option><option value="parts_technical_support">Parts / technical support</option><option value="historical_archive">Historical / archive</option><option value="buying_inspection">Buying / inspection guidance</option><option value="listing_derived">Listing-derived evidence</option><option value="unclassified">Unclassified</option></select></label>
+          <label>Source label<input id="resourceSourceLabel" type="text" maxlength="120" placeholder="Publisher, manufacturer, association…"></label>
+          <label>Resource type<input id="resourceType" type="text" maxlength="120" placeholder="Owner manual, model review, forum…"></label>
+          <label>Scope<select id="resourceScope"><option value="Model-specific">Model-specific</option><option value="Model-family">Model family</option><option value="Manufacturer-wide">Manufacturer-wide</option></select></label>
+          <label>Verification<select id="resourceVerification"><option value="Verified">Verified</option><option value="Reviewed">Reviewed</option><option value="Needs review">Needs review</option></select></label>
+          <label class="wide-control">Moderator notes<textarea id="resourceNotes" rows="4" maxlength="2000" placeholder="Why this belongs in the library, evidence limitations, replacement target…"></textarea></label>
+        </div>
+        <div class="resource-decision-actions">
+          <button type="button" class="primary" data-resource-decision="published">Publish to Resource Library</button>
+          <button type="button" data-resource-decision="evidence_only">Keep as evidence only</button>
+          <button type="button" data-resource-decision="needs_replacement">Needs replacement</button>
+          <button type="button" data-resource-decision="rejected">Reject</button>
+          <button type="button" data-resource-decision="pending">Return to pending</button>
+        </div>
+        <p class="canonical-warning"><strong>Quality rule:</strong> a source can support a fact without deserving a permanent public Resource Library link. Ordinary sale listings should normally remain evidence-only unless they provide enduring model-specific value.</p>
+      </section>
+    </article>
+  </section>
+</main>
+
+<script src="../communityapi.js?v=6.67.0"></script>
+<script src="contribution-review.js?v=6.67.0"></script>
+<script src="resource-review.js?v=6.67.0"></script>
 </body>
 </html>

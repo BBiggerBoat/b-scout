@@ -72811,10 +72811,16 @@
     "knownIssues": [],
     "similarModels": [],
     "missingInformation": [],
-    "sources": [],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Atlas Global Resource Coverage Audit v6.66",
+        "verificationStatus": "Resource-set created; no resources inferred"
+      }
+    ],
     "confidence": "Moderate",
     "coverage": {},
-    "updatedAt": "2026-08-07"
+    "updatedAt": "2026-09-03"
   },
   {
     "schemaVersion": 2,
@@ -73013,10 +73019,16 @@
     "knownIssues": [],
     "similarModels": [],
     "missingInformation": [],
-    "sources": [],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Atlas Global Resource Coverage Audit v6.66",
+        "verificationStatus": "Resource-set created; no resources inferred"
+      }
+    ],
     "confidence": "Moderate",
     "coverage": {},
-    "updatedAt": "2026-08-07"
+    "updatedAt": "2026-09-03"
   },
   {
     "schemaVersion": 2,
@@ -73213,10 +73225,16 @@
     "knownIssues": [],
     "similarModels": [],
     "missingInformation": [],
-    "sources": [],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Atlas Global Resource Coverage Audit v6.66",
+        "verificationStatus": "Resource-set created; no resources inferred"
+      }
+    ],
     "confidence": "Moderate",
     "coverage": {},
-    "updatedAt": "2026-08-07"
+    "updatedAt": "2026-09-03"
   },
   {
     "schemaVersion": 2,
@@ -73397,10 +73415,16 @@
     "knownIssues": [],
     "similarModels": [],
     "missingInformation": [],
-    "sources": [],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Atlas Global Resource Coverage Audit v6.66",
+        "verificationStatus": "Resource-set created; no resources inferred"
+      }
+    ],
     "confidence": "Moderate",
     "coverage": {},
-    "updatedAt": "2026-08-07"
+    "updatedAt": "2026-09-03"
   },
   {
     "schemaVersion": 2,
@@ -73609,10 +73633,16 @@
     "knownIssues": [],
     "similarModels": [],
     "missingInformation": [],
-    "sources": [],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Atlas Global Resource Coverage Audit v6.66",
+        "verificationStatus": "Resource-set created; no resources inferred"
+      }
+    ],
     "confidence": "Moderate",
     "coverage": {},
-    "updatedAt": "2026-08-07"
+    "updatedAt": "2026-09-03"
   },
   {
     "schemaVersion": 2,
@@ -73821,9 +73851,15 @@
     "knownIssues": [],
     "similarModels": [],
     "missingInformation": [],
-    "sources": [],
+    "sources": [
+      {
+        "type": "CuratedResourceSet",
+        "label": "B-Atlas Global Resource Coverage Audit v6.66",
+        "verificationStatus": "Resource-set created; no resources inferred"
+      }
+    ],
     "confidence": "Moderate",
     "coverage": {},
-    "updatedAt": "2026-08-07"
+    "updatedAt": "2026-09-03"
   }
 ]

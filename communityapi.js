@@ -17,7 +17,7 @@ async function submit(record,attachments=[]){return request("/api/contributions"
 async function adminSnapshot(){return request("/api/admin/snapshot",{admin:true})}
 async function saveAdminSnapshot(snapshot){return request("/api/admin/snapshot",{method:"PUT",admin:true,body:JSON.stringify(snapshot)})}
 async function publish(){return request("/api/admin/publish",{method:"POST",admin:true,body:"{}"})}
-async function publicOverlays(){try{return await request("/api/public/overlays")}catch{return {modelPatches:{},addedModels:[],addedManufacturers:[],reviewedContributions:[],knowledgeItems:[],knowledgeEvidence:[]}}}
+async function publicOverlays(){try{return await request("/api/public/overlays")}catch{return {modelPatches:{},addedModels:[],addedManufacturers:[],reviewedContributions:[],knowledgeItems:[],knowledgeEvidence:[],resourceAdditions:[]}}}
 async function promote(contribution){
   let baseline={models:[],manufacturers:[]};
   try{

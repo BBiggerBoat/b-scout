@@ -1079,6 +1079,14 @@
                 const fieldSelect = $("correctionField");
                 if (fieldSelect) { fieldSelect.value = options.fieldId; updateCorrectionCurrentValue(); }
             }
+            if (options.resourceType && options.typeId === "resource") {
+                const resourceSelect = $("resourceType");
+                if (resourceSelect) resourceSelect.value = options.resourceType;
+            }
+            if (options.documentType && options.typeId === "manual_document") {
+                const documentSelect = $("documentType");
+                if (documentSelect) documentSelect.value = options.documentType;
+            }
         }
         if (view) { const h=document.querySelector(".site-header")?.getBoundingClientRect().height||72; window.scrollTo({top:Math.max(0,view.getBoundingClientRect().top+window.scrollY-h-18),behavior:"smooth"}); }
     }

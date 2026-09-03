@@ -1,4 +1,4 @@
-const STATE_KEYS = ["pending", "reviewed", "knowledgeItems", "knowledgeEvidence", "published"];
+const STATE_KEYS = ["pending", "reviewed", "knowledgeItems", "knowledgeEvidence", "resourceReview", "published"];
 
 export function jsonResponse(value, status = 200, headers = {}) {
   return new Response(JSON.stringify(value), {
@@ -23,6 +23,7 @@ export function emptyPublished() {
     reviewedContributions: [],
     knowledgeItems: [],
     knowledgeEvidence: [],
+    resourceAdditions: [],
     updatedAt: null
   };
 }
@@ -44,11 +45,12 @@ export async function putJsonRow(db, key, value) {
 }
 
 export async function getSnapshot(db) {
-  const [pending, reviewed, knowledgeItems, knowledgeEvidence] = await Promise.all([
+  const [pending, reviewed, knowledgeItems, knowledgeEvidence, resourceReview] = await Promise.all([
     getJsonRow(db, "pending", []),
     getJsonRow(db, "reviewed", []),
     getJsonRow(db, "knowledgeItems", []),
-    getJsonRow(db, "knowledgeEvidence", [])
+    getJsonRow(db, "knowledgeEvidence", []),
+    getJsonRow(db, "resourceReview", [])
   ]);
   const stamp = await db.prepare("SELECT MAX(updated_at) AS updatedAt FROM bscout_state").first();
   return {
@@ -57,13 +59,14 @@ export async function getSnapshot(db) {
     reviewed: Array.isArray(reviewed) ? reviewed : [],
     knowledgeItems: Array.isArray(knowledgeItems) ? knowledgeItems : [],
     knowledgeEvidence: Array.isArray(knowledgeEvidence) ? knowledgeEvidence : [],
+    resourceReview: Array.isArray(resourceReview) ? resourceReview : [],
     updatedAt: stamp?.updatedAt || null
   };
 }
 
 export async function saveSnapshot(db, snapshot) {
   const now = new Date().toISOString();
-  const statements = STATE_KEYS.slice(0, 4).map(key => db.prepare(`
+  const statements = STATE_KEYS.slice(0, 5).map(key => db.prepare(`
     INSERT INTO bscout_state (key, json, updated_at)
     VALUES (?1, ?2, ?3)
     ON CONFLICT(key) DO UPDATE SET json = excluded.json, updated_at = excluded.updated_at

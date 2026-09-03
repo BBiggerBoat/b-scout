@@ -50,6 +50,16 @@ function publicReviewedRow(row) {
   return pub;
 }
 
+function resourceReviewPublicRow(row) {
+  return {
+    ResourceReviewID: row.ResourceReviewID, BoatModelID: row.BoatModelID, Manufacturer: row.Manufacturer || null, Model: row.Model || null, Variant: row.Variant || null,
+    title: row.Title || `${row.Manufacturer || ""} ${row.Model || ""} resource`.trim(), url: row.URL, sourceLabel: row.SourceLabel || "B-Atlas research",
+    resourceType: row.ResourceType || String(row.Category || "Resource").replace(/_/g, " "), verificationStatus: row.VerificationStatus || "Reviewed",
+    scope: row.Scope || "Model-specific", confidence: row.Confidence || "Unknown", notes: row.Notes || "",
+    group: row.Category === "video" ? "videos" : row.Category === "owner_community" ? "ownerCommunities" : "documents", category: row.Category || "unclassified"
+  };
+}
+
 async function publishCommunity(env) {
   const snapshot = await getSnapshot(env.BSCOUT_DB);
   const published = await getPublished(env.BSCOUT_DB);
@@ -71,19 +81,29 @@ async function publishCommunity(env) {
     canonicalCorrections++;
   }
 
-  if (canonicalCorrections) await saveSnapshot(env.BSCOUT_DB, snapshot);
+  const existingResourceIds = new Set((published.resourceAdditions || []).map(r => r.ResourceReviewID));
+  const resourceAdditions = [...(published.resourceAdditions || [])];
+  let newResourceAdditions = 0;
+  for (const row of snapshot.resourceReview || []) {
+    if (row.Status !== "published" || !row.BoatModelID || !row.URL || existingResourceIds.has(row.ResourceReviewID)) continue;
+    resourceAdditions.push(resourceReviewPublicRow(row)); existingResourceIds.add(row.ResourceReviewID); row.PublishedAt = row.PublishedAt || now; newResourceAdditions++;
+  }
+  if (canonicalCorrections || newResourceAdditions) await saveSnapshot(env.BSCOUT_DB, snapshot);
   const next = {
     ...published,
     modelPatches,
     reviewedContributions: reviewed.filter(r => r.ModerationStatus === "approved").map(publicReviewedRow),
     knowledgeItems: snapshot.knowledgeItems || [],
-    knowledgeEvidence: snapshot.knowledgeEvidence || []
+    knowledgeEvidence: snapshot.knowledgeEvidence || [],
+    resourceAdditions
   };
   await savePublished(env.BSCOUT_DB, next);
   return {
     knowledgeItems: next.knowledgeItems.length,
     knowledgeEvidence: next.knowledgeEvidence.length,
     reviewedContributions: next.reviewedContributions.length,
+    resourceAdditions: next.resourceAdditions.length,
+    newResourceAdditions,
     canonicalCorrections
   };
 }
@@ -202,7 +222,7 @@ export async function onRequest(context) {
         const payload = await readBody(request, 8 * 1024 * 1024);
         const current = await getSnapshot(env.BSCOUT_DB);
         const next = { ...current };
-        for (const key of ["pending", "reviewed", "knowledgeItems", "knowledgeEvidence"]) if (Array.isArray(payload[key])) next[key] = payload[key];
+        for (const key of ["pending", "reviewed", "knowledgeItems", "knowledgeEvidence", "resourceReview"]) if (Array.isArray(payload[key])) next[key] = payload[key];
         const updatedAt = await saveSnapshot(env.BSCOUT_DB, next);
         return jsonResponse({ ok: true, updatedAt });
       }
