@@ -108,6 +108,17 @@ async function publishCommunity(env) {
   };
 }
 
+function modelSlug(value) {
+  return String(value || '').toLowerCase().trim().replace(/&/g, ' and ').replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'model';
+}
+function permanentModelFields(manufacturer, model, variant, rows) {
+  const used = new Set((rows || []).map(x => String(x.CanonicalSlug || '')).filter(Boolean));
+  const base = modelSlug([manufacturer, model, variant].filter(Boolean).join(' '));
+  let slug = base, n = 2;
+  while (used.has(slug)) slug = `${base}-${n++}`;
+  return { CanonicalSlug: slug, CanonicalPath: `/models/${slug}/`, CanonicalURL: `https://b-atlas.org/models/${slug}/` };
+}
+
 async function promoteCanonical(env, row, baseline = {}) {
   if (!row?.CanonicalDraft) throw new Error("No moderator canonical draft supplied");
   const f = row.CanonicalDraft.Fields || {};
@@ -149,9 +160,10 @@ async function promoteCanonical(env, row, baseline = {}) {
     let id = `${code}-${slug}`, i = 2;
     while (allModels.some(x => x.BoatModelID === id)) id = `${code}-${slug}-${i++}`;
     const existingMfrModel = allModels.find(x => String(x.Manufacturer || "").toLowerCase() === manufacturer.toLowerCase());
+    const permanent = permanentModelFields(manufacturer, model, f.Variant, allModels);
     const rec = {
       ManufacturerID: existingMfrModel?.ManufacturerID || code, Manufacturer: manufacturer, Model: model,
-      Variant: f.Variant || null, Nickname: [manufacturer, model, f.Variant].filter(Boolean).join(" "),
+      Variant: f.Variant || null, Nickname: [manufacturer, model, f.Variant].filter(Boolean).join(" "), ...permanent,
       ImageURL: "images/boat-placeholder.svg", Active: true, FirstYear: f.YearStart ? Number(f.YearStart) : null,
       LastYear: f.YearEnd ? Number(f.YearEnd) : null, LOA_ft: f.LengthFt ? Number(f.LengthFt) : null,
       Beam_ft: f.BeamFt ? Number(f.BeamFt) : null, Draft_ft: f.DraftFt ? Number(f.DraftFt) : null,

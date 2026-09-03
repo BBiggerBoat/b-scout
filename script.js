@@ -117,9 +117,12 @@ function initializeBScoutApplication(data) {
         if (requestedModelId) {
             const requestedBoat = allBoats.find(b => String(b.BoatModelID) === String(requestedModelId));
             if (requestedBoat) {
-                window.setTimeout(() => {
-                    if (window.BScoutBoatWorkspace?.open) window.BScoutBoatWorkspace.open(requestedBoat, "overview");
-                    else showBoatDetails(requestedBoat);
+                window.setTimeout(async () => {
+                    if (window.BScoutBoatWorkspace?.open) {
+                        await window.BScoutBoatWorkspace.open(requestedBoat, "overview", { history:false });
+                        const path = window.BAtlasModelURLs?.pathForBoat?.(requestedBoat);
+                        if (path && window.history?.replaceState) window.history.replaceState({bscoutView:"guide",boatModelId:requestedBoat.BoatModelID,tab:"overview"}, "", path);
+                    } else showBoatDetails(requestedBoat);
                 }, 0);
             }
         }
@@ -2194,19 +2197,13 @@ let currentResearchBoatId = null;
 let notebookListingSearchCache = null;
 
 async function renderNotebookListingSearches(boatId) {
+    // v6.69: public marketplace/listing search is intentionally suppressed.
+    // Saved individual listings and Add Listing remain active elsewhere in the buying workflow.
     const container = document.getElementById("notebookListingSearches");
-    if (!container) return;
-    try {
-        if (!notebookListingSearchCache) {
-            const response = await fetch("knowledge/data/listingsearches.json");
-            notebookListingSearchCache = response.ok ? await response.json() : [];
-        }
-        const record = (notebookListingSearchCache || []).find(item => String(item?.identity?.boatModelId) === String(boatId));
-        const listings = Array.isArray(record?.listings) ? record.listings : [];
-        if (!listings.length) { container.textContent = "No model-specific listing searches are available."; return; }
-        container.innerHTML = `<ul class="notebook-link-list">${listings.map(item => `<li><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title || item.sourceLabel || "Listing search"}</a><span>${item.sourceLabel || "Marketplace"}</span></li>`).join("")}</ul>`;
-    } catch (error) {
-        container.textContent = "Listing searches could not be loaded.";
+    if (container) {
+        const section = container.closest(".legacy-listing-compatibility");
+        if (section) section.hidden = true;
+        container.textContent = "";
     }
 }
 

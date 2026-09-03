@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found | B-Atlas</title><meta name="robots" content="noindex"><style>body{font-family:Arial,sans-serif;margin:0;color:#152433;background:#f7f9fa}.wrap{max-width:760px;margin:12vh auto;padding:28px}.card{background:white;border:1px solid #d8e1e7;border-radius:12px;padding:28px}a{color:#075f9c}</style></head><body><div class="wrap"><div class="card"><h1 id="title">Finding this B-Atlas page…</h1><p id="message">Checking whether this is a newly published Boat Model Guide.</p><p><a href="/">Return to B-Atlas</a></p></div></div><script>
+(async()=>{
+ const match=location.pathname.match(/^\/models\/([^/]+)\/?$/i);if(!match){document.getElementById('title').textContent='Page not found';document.getElementById('message').textContent='This B-Atlas page does not exist.';return;}
+ const slug=decodeURIComponent(match[1]).toLowerCase();
+ try{
+  const r=await fetch('https://api.b-atlas.org/api/public/overlays',{cache:'no-store'});const data=r.ok?await r.json():{};
+  const boat=(data.addedModels||[]).find(x=>String(x.CanonicalSlug||'').toLowerCase()===slug);
+  if(boat?.BoatModelID){sessionStorage.setItem('b-atlas-canonical-path',location.pathname);location.replace('/?model='+encodeURIComponent(boat.BoatModelID));return;}
+ }catch(e){}
+ document.getElementById('title').textContent='Boat Model Guide not found';document.getElementById('message').textContent='This model URL is not currently available.';
+})();
+</script></body></html>

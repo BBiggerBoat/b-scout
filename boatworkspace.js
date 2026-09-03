@@ -444,40 +444,6 @@
     function renderBuyThisBoat() {
         const boat = currentBoat;
         const layer = root.BScoutIntelligenceLayer;
-        const discovery = layer && typeof layer.buildBrokerDiscovery === "function"
-            ? layer.buildBrokerDiscovery(boat)
-            : {query:boatName(boat), aliases:[], groups:[], sourceCount:0};
-
-        const searchGroups = arr(discovery.groups).map(group => {
-            const links = arr(group.links).filter(link => safeUrl(link.url));
-            if (!links.length) return "";
-            const brokers = links.filter(link => link.sourceType === "Broker");
-            const marketplaces = links.filter(link => link.sourceType === "Marketplace");
-            const rows = items => items.map(link => {
-                const statusMeta = {
-                    ListingLikely: { icon: "✓", label: "Listing likely", className: "is-viable" },
-                    NoListingIndicated: { icon: "—", label: "No listing indicated", className: "is-empty" },
-                    SourceUnavailable: { icon: "!", label: "Source unavailable", className: "is-unresponsive" },
-                    Inconclusive: { icon: "?", label: "Check inconclusive", className: "is-unknown" },
-                    CheckPending: { icon: "?", label: "Automated check pending", className: "is-unknown" },
-                    NotChecked: { icon: "?", label: "Automated check pending", className: "is-unknown" }
-                };
-                const meta = statusMeta[link.status] || statusMeta.NotChecked;
-                const action = link.status === "ListingLikely"
-                    ? "Open search"
-                    : (link.action === "Search model" ? "Search model" : "Browse inventory");
-                const title = [meta.label, link.message, link.lastChecked ? `Checked ${link.lastChecked}` : ""]
-                    .filter(Boolean).join(" · ");
-                const content = `<span class="broker-status-icon" aria-hidden="true">${meta.icon}</span><span class="broker-source-copy"><span class="broker-source-name">${esc(link.label)}</span><span class="broker-source-message">${esc(meta.label)}</span></span><span class="broker-source-action">${esc(link.status === "SourceUnavailable" ? "Unavailable" : action)}</span>`;
-                if (link.status === "SourceUnavailable") {
-                    return `<div class="broker-source-row ${meta.className} is-disabled" role="status" title="${esc(title)}">${content}</div>`;
-                }
-                return `<a class="broker-source-row ${meta.className}" href="${esc(safeUrl(link.url))}" target="_blank" rel="noopener noreferrer" title="${esc(title)}">${content}</a>`;
-            }).join("");
-            return `<section class="workspace-card market-source-group"><div class="market-group-heading"><h3>${esc(group.region)}</h3><span>${links.length} sources</span></div>${brokers.length ? `<div class="market-source-subgroup"><strong>Brokerages</strong>${rows(brokers)}</div>` : ""}${marketplaces.length ? `<div class="market-source-subgroup"><strong>Marketplaces</strong>${rows(marketplaces)}</div>` : ""}</section>`;
-        }).join("");
-
-        const aliases = arr(discovery.aliases).slice(0, 8);
         const summary = layer && typeof layer.buildModelKnowledgeSummary === "function" ? layer.buildModelKnowledgeSummary(boat) : null;
         const knownProblems = uniqueText(
             arr(currentCard?.knownIssues).map(item => typeof item === "string" ? item : (item.issue || item.label || item.description || "")),
@@ -491,24 +457,11 @@
             ["Exceptional", boat.ExceptionalPriceRangeCAD || boat.ExcellentPriceRangeCAD || boat.ExceptionalPriceRange]
         ].filter(([,value]) => known(value));
         const individual = renderIndividualListings({emptyText:"No boats saved for this model."});
-        const sourceCount = Number(discovery.sourceCount || 0);
-        const allSourceLinks = arr(discovery.groups)
-            .flatMap(group => arr(group.links));
-        const likelyListingSources = allSourceLinks.filter(link => link.status === "ListingLikely");
-        const completedSourceChecks = allSourceLinks.filter(link => !["NotChecked", "CheckPending"].includes(link.status));
 
         return `<div class="workspace-section-stack buy-this-boat-workspace">
             <section class="workspace-card buy-candidate-listings"><div class="workspace-section-heading"><div><h3>Saved Listings</h3><p>Individual boats for sale that you are tracking for this model.</p></div><button type="button" id="addWorkspaceListing">Add Listing</button></div><div class="workspace-listings-list">${individual.cards}</div></section>
 
-            <section class="market-coverage-strip" aria-label="Marketplace search coverage">
-                <div class="market-coverage-item"><span class="market-coverage-icon" aria-hidden="true">⌕</span><strong>${sourceCount}</strong><span>search sources</span></div>
-                <div class="market-coverage-item"><span class="market-coverage-icon" aria-hidden="true">${likelyListingSources.length ? "✓" : (completedSourceChecks.length ? "?" : "…")}</span><strong>${likelyListingSources.length || (completedSourceChecks.length ? "None confirmed" : "Pending")}</strong><span>${likelyListingSources.length === 1 ? "source with a likely listing" : (likelyListingSources.length ? "sources with a likely listing" : "automated source check") }</span></div>
-            </section>
-
             ${priceFields.length ? `<section class="workspace-card market-price-card"><div class="market-card-title"><span aria-hidden="true">$</span><h3>Typical Asking Price</h3></div><div class="workspace-fact-grid">${priceFields.map(([label,value])=>field(label,value)).join("")}</div><p class="workspace-note">Model guidance only.</p></section>` : ""}
-
-            <section class="workspace-section-heading buy-find-more-heading"><div><span class="workspace-label">Search</span><h3>Find This Model</h3><p>Direct searches open filtered model results. Other sources open their inventory.</p></div></section>
-            <div class="market-source-grid">${searchGroups}</div>
 
             <section class="workspace-card market-problems-card"><div class="market-card-title"><span aria-hidden="true">!</span><h3>Known Problems</h3></div>${knownProblems.length ? `<ul class="market-problem-list">${knownProblems.map(item=>`<li><span aria-hidden="true">!</span><span>${esc(item)}</span></li>`).join("")}</ul><p class="workspace-note">Model-wide reports only. Verify against the individual boat.</p>` : `<div class="market-empty-state"><span aria-hidden="true">?</span><p>No model-specific problems have been recorded.</p></div>`}</section>
         </div>`;
@@ -581,11 +534,11 @@
 
     function renderBuying() {
         const cc=communityGuideCounts();
-        const menu=[{id:"guide-buying-actions",label:"Listings & Buying Actions"},{id:"guide-buying-knowledge",label:"Inspection Look-outs"}];
+        const menu=[{id:"guide-buying-actions",label:"Saved Listings & Buying Actions"},{id:"guide-buying-knowledge",label:"Inspection Look-outs"}];
         if(cc.buyer) menu.push({id:"guide-community-inspection",label:"Owner Inspection Advice"});
-        return `${sectionIntro("Buy", "Move from model research to actual boats for sale: listings, seller conversations, inspection findings, pricing and offers.")}
+        return `${sectionIntro("Buy", "Move from model research to a specific purchase: save individual listings, record seller conversations, review inspection findings, pricing and offers.")}
             ${sectionMenu(menu)}${unknownPrinciple()}
-            ${progressiveSection("guide-buying-actions", "Listings and buying actions", renderBuyThisBoat(), true)}
+            ${progressiveSection("guide-buying-actions", "Saved listings and buying actions", renderBuyThisBoat(), true)}
             ${progressiveSection("guide-buying-knowledge", "Known concerns and inspection look-outs", renderIntelligence(), false)}
             ${cc.buyer?progressiveSection("guide-community-inspection", "Owner-informed inspection advice", renderCommunityBuyer(), false):""}`;
     }
@@ -693,13 +646,48 @@
         if (typeof root.updateBuyerWorkspaceCounts === "function") root.updateBuyerWorkspaceCounts();
     }
 
-    async function open(boat, tab) {
+    function guideShareURL() { return currentBoat ? (root.BAtlasModelURLs?.absoluteURL?.(currentBoat) || root.location?.href || "") : (root.location?.href || ""); }
+    function guideShareTitle() { return currentBoat ? `${boatName(currentBoat)} | B-Atlas` : "B-Atlas"; }
+    function guideSummary() {
+        if (!currentBoat) return "";
+        const length = root.BAtlasCanonical?.formatBoatMeasurement?.(currentBoat,"LOA","length",[{key:"LOA_ft",unit:"ft"},{key:"LengthFt",unit:"ft"}],"both") || "Unknown";
+        const beam = root.BAtlasCanonical?.formatBoatMeasurement?.(currentBoat,"Beam","length",[{key:"Beam_ft",unit:"ft"},{key:"BeamFt",unit:"ft"}],"both") || "Unknown";
+        const draft = root.BAtlasCanonical?.formatBoatMeasurement?.(currentBoat,"Draft","length",[{key:"Draft_ft",unit:"ft"},{key:"DraftFt",unit:"ft"}],"both") || "Unknown";
+        const fuel = currentBoat.NormalizedFuel || currentBoat.Fuel || "Fuel unknown";
+        const propulsion = currentBoat.NormalizedPropulsion || currentBoat.Propulsion || "Propulsion unknown";
+        const score = root.BAtlasModelKnowledgeScore?.scoreModel?.(currentBoat)?.score;
+        return [`${boatName(currentBoat)}`,`LOA: ${length}`,`Beam: ${beam}`,`Draft: ${draft}`,`${fuel} · ${propulsion}`,Number.isFinite(score)?`Model Knowledge Score: ${score}%`:"",`Full B-Atlas Model Guide: ${guideShareURL()}`].filter(Boolean).join("\n");
+    }
+    async function copyText(value, message) {
+        try { await navigator.clipboard.writeText(value); }
+        catch (_) { const area=document.createElement("textarea"); area.value=value; area.style.position="fixed"; area.style.opacity="0"; document.body.appendChild(area); area.select(); document.execCommand("copy"); area.remove(); }
+        const status=document.getElementById("boatWorkspaceStatus"); if(status){status.textContent=message;setTimeout(()=>{if(status.textContent===message)status.textContent="";},2200);}
+    }
+    function closeShareMenu() { const menu=document.getElementById("shareGuideMenu"),button=document.getElementById("shareGuideBtn"); if(menu)menu.hidden=true;if(button)button.setAttribute("aria-expanded","false"); }
+    function bindGuideShare() {
+        const button=document.getElementById("shareGuideBtn"),menu=document.getElementById("shareGuideMenu"); if(!button||!menu||button.dataset.bound)return; button.dataset.bound="true";
+        const nativeButton=document.getElementById("nativeShareGuide"); if(nativeButton) nativeButton.hidden=!navigator.share;
+        button.addEventListener("click",()=>{menu.hidden=!menu.hidden;button.setAttribute("aria-expanded",String(!menu.hidden));});
+        document.getElementById("nativeShareGuide")?.addEventListener("click",async()=>{closeShareMenu();if(navigator.share){try{await navigator.share({title:guideShareTitle(),text:`B-Atlas Model Guide: ${boatName(currentBoat)}`,url:guideShareURL()});}catch(_){}}else await copyText(guideShareURL(),"Model Guide link copied.");});
+        document.getElementById("copyGuideLink")?.addEventListener("click",()=>{closeShareMenu();copyText(guideShareURL(),"Model Guide link copied.");});
+        document.getElementById("copyGuideSummary")?.addEventListener("click",()=>{closeShareMenu();copyText(guideSummary(),"Model summary copied.");});
+        document.getElementById("emailGuideLink")?.addEventListener("click",()=>{closeShareMenu();root.location.href=`mailto:?subject=${encodeURIComponent(guideShareTitle())}&body=${encodeURIComponent(`${boatName(currentBoat)}\n\n${guideShareURL()}`)}`;});
+        document.getElementById("facebookGuideLink")?.addEventListener("click",()=>{closeShareMenu();root.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(guideShareURL())}`,"_blank","noopener,noreferrer");});
+        document.addEventListener("click",event=>{if(!menu.hidden&&!event.target.closest(".guide-share-wrap"))closeShareMenu();});
+    }
+
+    async function open(boat, tab, options = {}) {
         currentBoat = boat;
-        if (root.BScoutNavigation) root.BScoutNavigation.push("guide", { boatModelId: boat.BoatModelID, tab: tab || "" });
+        if (options.history !== false) {
+            const canonicalPath = root.BAtlasModelURLs?.pathForBoat?.(boat) || "";
+            if (root.BScoutNavigation) root.BScoutNavigation.push("guide", { boatModelId: boat.BoatModelID, tab: tab || "", url: canonicalPath });
+            else if (root.history?.pushState && canonicalPath) root.history.pushState({bscoutView:"guide",boatModelId:boat.BoatModelID,tab:tab||""}, "", canonicalPath);
+        }
         currentCard = null;
         const guide = document.getElementById("boatGuideView"); if (!guide) return;
         document.getElementById("modalTitle").textContent = boatName(boat);
         document.getElementById("workspaceIdentitySummary").textContent = `${boat.FirstYear || "?"}–${boat.LastYear || "?"} · ${boat.NormalizedStyle || boat.Style || "Style unknown"} · Model knowledge, not an individual listing`;
+        bindGuideShare();
         const contributeButton = document.getElementById("contributeToGuideBtn");
         if (contributeButton) {
             contributeButton.dataset.modelId = boat.BoatModelID || "";

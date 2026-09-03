@@ -25,7 +25,7 @@ async function promote(contribution){
       fetch("boatmodels.json",{cache:"no-store"}).then(r=>r.ok?r.json():[]),
       fetch("data/registry/manufacturers.json",{cache:"no-store"}).then(r=>r.ok?r.json():[])
     ]);
-    baseline={models:Array.isArray(models)?models.map(x=>({BoatModelID:x.BoatModelID,ManufacturerID:x.ManufacturerID,Manufacturer:x.Manufacturer,Model:x.Model,Variant:x.Variant})):[],manufacturers:Array.isArray(manufacturers)?manufacturers.map(x=>({ManufacturerCode:x.ManufacturerCode,CanonicalName:x.CanonicalName})):[]};
+    baseline={models:Array.isArray(models)?models.map(x=>({BoatModelID:x.BoatModelID,ManufacturerID:x.ManufacturerID,Manufacturer:x.Manufacturer,Model:x.Model,Variant:x.Variant,CanonicalSlug:x.CanonicalSlug,CanonicalPath:x.CanonicalPath,CanonicalURL:x.CanonicalURL})):[],manufacturers:Array.isArray(manufacturers)?manufacturers.map(x=>({ManufacturerCode:x.ManufacturerCode,CanonicalName:x.CanonicalName})):[]};
   }catch{}
   return request("/api/admin/promote",{method:"POST",admin:true,body:JSON.stringify({contribution,baseline})})
 }

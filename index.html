@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<base href="/">
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>B-Atlas | Boat Knowledge for Better Decisions</title>
 <meta content="B-Atlas is a community-powered boat knowledge and research resource for discovering cruising boat models, comparing specifications, understanding trade-offs and making better buying decisions." name="description"/>
@@ -16,7 +17,7 @@
 <meta content="https://b-atlas.org/images/batlas-logo.png" property="og:image"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"B-Atlas","url":"https://b-atlas.org/","description":"B-Atlas is a community-powered boat knowledge and research resource for discovering, comparing and researching cruising boat models and buyer trade-offs.","@id":"https://b-atlas.org/#website","inLanguage":"en"}</script>
-<link href="styles.css?v=6.68.0" rel="stylesheet"/>
+<link href="styles.css?v=6.69.0" rel="stylesheet"/>
 <link href="bscout-visual-standard.css?v=6.68.0" rel="stylesheet"/>
 <link href="guide-visual-standard.css?v=6.68.0" rel="stylesheet"/>
 <link href="home-visual-standard.css?v=6.68.0" rel="stylesheet"/>
@@ -471,6 +472,10 @@
     <a href="compare/">Compare Models</a>
     <a href="boats/">Find by Criteria</a>
     <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
+    <a href="boats/">Find by Criteria</a>
+    <a href="compare/">Compare Models</a>
 <a href="boats/">Find by Criteria</a>
 <a href="compare/">Compare Models</a>
 <a data-app-action="saved-models" href="#saved-models">Saved Models</a>
@@ -478,7 +483,7 @@
 <a data-app-action="privacy" href="#privacy">Privacy</a>
 <a class="moderator-access-link" hidden="" href="developer/contribution-review.html" id="moderatorAccessLink">Moderator</a>
 </nav>
-<span>Version 6.61.0</span>
+<span>Version 6.69.0</span>
 </footer>
 </main>
 </div>
@@ -495,6 +500,16 @@
 <p class="workspace-subtitle" id="workspaceIdentitySummary"></p>
 <div class="boat-guide-heading-actions">
 <button class="guide-contribute-action" data-contribution-source="guide" id="contributeToGuideBtn" type="button">Contribute to this Guide</button>
+<div class="guide-share-wrap">
+<button class="guide-share-action" id="shareGuideBtn" type="button" aria-haspopup="menu" aria-expanded="false">Share</button>
+<div class="guide-share-menu" id="shareGuideMenu" role="menu" hidden>
+<button type="button" id="nativeShareGuide" role="menuitem">Share…</button>
+<button type="button" id="copyGuideLink" role="menuitem">Copy link</button>
+<button type="button" id="emailGuideLink" role="menuitem">Email</button>
+<button type="button" id="facebookGuideLink" role="menuitem">Facebook</button>
+<button type="button" id="copyGuideSummary" role="menuitem">Copy model summary</button>
+</div>
+</div>
 </div>
 <div aria-live="polite" class="workspace-status-message" id="boatWorkspaceStatus"></div>
 </div>
@@ -503,7 +518,7 @@
 <div class="boat-guide-layout">
 <nav aria-label="Guide sections" class="boat-guide-stage-nav">
 <button aria-selected="true" class="boat-workspace-tab active" data-workspace-tab="research" type="button">Research<span>Understand the model</span></button>
-<button aria-selected="false" class="boat-workspace-tab" data-workspace-tab="buying" type="button">Buy<span>Listings and decisions</span></button>
+<button aria-selected="false" class="boat-workspace-tab" data-workspace-tab="buying" type="button">Buy<span>Saved listings and decisions</span></button>
 <button aria-selected="false" class="boat-workspace-tab" data-workspace-tab="owning" type="button">Owner Resources<span>Manuals, clubs and forums</span></button>
 <button aria-selected="false" class="boat-workspace-tab" data-workspace-tab="notebook" type="button">My Notes<span>Private research</span></button>
 </nav>
@@ -550,7 +565,7 @@
 <label style="display: block; font-weight: bold; margin-bottom: 5px;">Tags (comma-separated)</label>
 <input id="researchTags" placeholder="e.g. offshore, weekend, family" type="text"/>
 </div>
-<div class="modal-section legacy-listing-compatibility">
+<div class="modal-section legacy-listing-compatibility" hidden>
 <h3>Listing Discovery</h3>
 <p class="field-help">Marketplace discovery belongs in My Boats. These links are shown here only for compatibility with existing saved work.</p>
 <div class="notebook-listing-searches" id="notebookListingSearches">No model-specific listing searches are available.</div>
@@ -864,7 +879,8 @@ Engine manual — paper copy aboard..." rows="7"></textarea>
 <script src="searchstatemanager.js"></script>
 <script src="valuenormalizer.js"></script>
 <script src="searchprofilemanager.js"></script>
-<script src="canonicaldata.js?v=6.66.0"></script>
+<script src="canonicaldata.js?v=6.69.0"></script>
+<script src="modelurls.js?v=6.69.0"></script>
 <script src="filterengine.js?v=6.28.3"></script>
 <script src="searchorchestrator.js"></script>
 <script src="engine.js"></script>
@@ -884,11 +900,11 @@ Engine manual — paper copy aboard..." rows="7"></textarea>
 <script src="recommendationengine.js"></script>
 <script src="communityguide.js?v=6.27.2"></script>
 <script src="modelknowledgescore.js?v=6.66.0"></script>
-<script src="boatworkspace.js?v=6.67.0"></script>
-<script src="script.js?v=6.66.0"></script>
+<script src="boatworkspace.js?v=6.69.0"></script>
+<script src="script.js?v=6.69.0"></script>
 <script src="appbootstrap.js"></script>
 <script src="ownership.js"></script>
-<script src="applicationpolish.js?v=6.27.0"></script>
+<script src="applicationpolish.js?v=6.69.0"></script>
 <script src="communityapi.js?v=6.67.0"></script>
 <script src="contributionentry.js?v=6.66.0"></script>
 <script src="moderatoraccess.js"></script>

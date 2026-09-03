@@ -1,0 +1,2597 @@
+{
+  "schemaVersion": 1,
+  "baseURL": "https://b-atlas.org",
+  "generated": "2026-09-03",
+  "models": [
+    {
+      "BoatModelID": "ALBN-25",
+      "CanonicalSlug": "albin-25-motor-cruiser",
+      "CanonicalPath": "/models/albin-25-motor-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/albin-25-motor-cruiser/",
+      "Manufacturer": "Albin",
+      "Model": "25",
+      "Variant": "Motor Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ALBN-27-FC",
+      "CanonicalSlug": "albin-27-family-cruiser",
+      "CanonicalPath": "/models/albin-27-family-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/albin-27-family-cruiser/",
+      "Manufacturer": "Albin",
+      "Model": "27",
+      "Variant": "Family Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ALBN-27-SP",
+      "CanonicalSlug": "albin-27-sport-cruiser",
+      "CanonicalPath": "/models/albin-27-sport-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/albin-27-sport-cruiser/",
+      "Manufacturer": "Albin",
+      "Model": "27",
+      "Variant": "Sport Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ALBN-28-TE-EB",
+      "CanonicalSlug": "albin-28-tournament-express-engine-box",
+      "CanonicalPath": "/models/albin-28-tournament-express-engine-box/",
+      "CanonicalURL": "https://b-atlas.org/models/albin-28-tournament-express-engine-box/",
+      "Manufacturer": "Albin",
+      "Model": "28 Tournament Express",
+      "Variant": "Engine Box",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ALBN-28-FL",
+      "CanonicalSlug": "albin-28-tournament-express-flush-deck",
+      "CanonicalPath": "/models/albin-28-tournament-express-flush-deck/",
+      "CanonicalURL": "https://b-atlas.org/models/albin-28-tournament-express-flush-deck/",
+      "Manufacturer": "Albin",
+      "Model": "28 Tournament Express",
+      "Variant": "Flush Deck",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ALBN-30-FC",
+      "CanonicalSlug": "albin-30-family-cruiser",
+      "CanonicalPath": "/models/albin-30-family-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/albin-30-family-cruiser/",
+      "Manufacturer": "Albin",
+      "Model": "30",
+      "Variant": "Family Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ALBN-32-PL",
+      "CanonicalSlug": "albin-32-2-command-bridge",
+      "CanonicalPath": "/models/albin-32-2-command-bridge/",
+      "CanonicalURL": "https://b-atlas.org/models/albin-32-2-command-bridge/",
+      "Manufacturer": "Albin",
+      "Model": "32+2",
+      "Variant": "Command Bridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ALBN-36-CL",
+      "CanonicalSlug": "albin-36-trawler",
+      "CanonicalPath": "/models/albin-36-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/albin-36-trawler/",
+      "Manufacturer": "Albin",
+      "Model": "36",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ALBN-40-TR",
+      "CanonicalSlug": "albin-40-trawler",
+      "CanonicalPath": "/models/albin-40-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/albin-40-trawler/",
+      "Manufacturer": "Albin",
+      "Model": "40",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "AMTG-34",
+      "CanonicalSlug": "american-tug-34",
+      "CanonicalPath": "/models/american-tug-34/",
+      "CanonicalURL": "https://b-atlas.org/models/american-tug-34/",
+      "Manufacturer": "American Tug",
+      "Model": "34",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "AMTG-365",
+      "CanonicalSlug": "american-tug-365",
+      "CanonicalPath": "/models/american-tug-365/",
+      "CanonicalURL": "https://b-atlas.org/models/american-tug-365/",
+      "Manufacturer": "American Tug",
+      "Model": "365",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "AMTG-395",
+      "CanonicalSlug": "american-tug-395",
+      "CanonicalPath": "/models/american-tug-395/",
+      "CanonicalURL": "https://b-atlas.org/models/american-tug-395/",
+      "Manufacturer": "American Tug",
+      "Model": "395",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ATLB-37-TR",
+      "CanonicalSlug": "atlantic-37-double-cabin-double-cabin-trawler",
+      "CanonicalPath": "/models/atlantic-37-double-cabin-double-cabin-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/atlantic-37-double-cabin-double-cabin-trawler/",
+      "Manufacturer": "Atlantic",
+      "Model": "37",
+      "Variant": "Double Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ATLB-26-DU",
+      "CanonicalSlug": "atlantic-boat-26-downeast-lobsterboat-hull",
+      "CanonicalPath": "/models/atlantic-boat-26-downeast-lobsterboat-hull/",
+      "CanonicalURL": "https://b-atlas.org/models/atlantic-boat-26-downeast-lobsterboat-hull/",
+      "Manufacturer": "Atlantic Boat",
+      "Model": "Duffy 26",
+      "Variant": "Semi-Custom Downeast Hull",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BKCV-26",
+      "CanonicalSlug": "back-cove-26-downeast-cruiser",
+      "CanonicalPath": "/models/back-cove-26-downeast-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/back-cove-26-downeast-cruiser/",
+      "Manufacturer": "Back Cove",
+      "Model": "26",
+      "Variant": "Downeast Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BKCV-29",
+      "CanonicalSlug": "back-cove-29-downeast-cruiser",
+      "CanonicalPath": "/models/back-cove-29-downeast-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/back-cove-29-downeast-cruiser/",
+      "Manufacturer": "Back Cove",
+      "Model": "29",
+      "Variant": "Downeast Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BKCV-30",
+      "CanonicalSlug": "back-cove-30-downeast-cruiser",
+      "CanonicalPath": "/models/back-cove-30-downeast-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/back-cove-30-downeast-cruiser/",
+      "Manufacturer": "Back Cove",
+      "Model": "30",
+      "Variant": "Downeast Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BKCV-32",
+      "CanonicalSlug": "back-cove-32-downeast-cruiser",
+      "CanonicalPath": "/models/back-cove-32-downeast-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/back-cove-32-downeast-cruiser/",
+      "Manufacturer": "Back Cove",
+      "Model": "32",
+      "Variant": "Downeast Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BKCV-33",
+      "CanonicalSlug": "back-cove-33-downeast-cruiser",
+      "CanonicalPath": "/models/back-cove-33-downeast-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/back-cove-33-downeast-cruiser/",
+      "Manufacturer": "Back Cove",
+      "Model": "33",
+      "Variant": "Downeast Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BKCV-34",
+      "CanonicalSlug": "back-cove-34-downeast-cruiser",
+      "CanonicalPath": "/models/back-cove-34-downeast-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/back-cove-34-downeast-cruiser/",
+      "Manufacturer": "Back Cove",
+      "Model": "34",
+      "Variant": "Downeast Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BKCV-37",
+      "CanonicalSlug": "back-cove-37-downeast-cruiser",
+      "CanonicalPath": "/models/back-cove-37-downeast-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/back-cove-37-downeast-cruiser/",
+      "Manufacturer": "Back Cove",
+      "Model": "37",
+      "Variant": "Downeast Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BKCV-39O",
+      "CanonicalSlug": "back-cove-39o-outboard-salon-cruiser",
+      "CanonicalPath": "/models/back-cove-39o-outboard-salon-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/back-cove-39o-outboard-salon-cruiser/",
+      "Manufacturer": "Back Cove",
+      "Model": "39O",
+      "Variant": "Outboard Salon Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BKCV-41",
+      "CanonicalSlug": "back-cove-41-flagship-downeast-cruiser",
+      "CanonicalPath": "/models/back-cove-41-flagship-downeast-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/back-cove-41-flagship-downeast-cruiser/",
+      "Manufacturer": "Back Cove",
+      "Model": "41",
+      "Variant": "Flagship Downeast Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-2452",
+      "CanonicalSlug": "bayliner-2452-ciera-express-hardtop-cruiser",
+      "CanonicalPath": "/models/bayliner-2452-ciera-express-hardtop-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-2452-ciera-express-hardtop-cruiser/",
+      "Manufacturer": "Bayliner",
+      "Model": "2452 Ciera Express",
+      "Variant": "Hardtop Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-2855",
+      "CanonicalSlug": "bayliner-2855-ciera-sunbridge-multi-generation-sunbridge",
+      "CanonicalPath": "/models/bayliner-2855-ciera-sunbridge-multi-generation-sunbridge/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-2855-ciera-sunbridge-multi-generation-sunbridge/",
+      "Manufacturer": "Bayliner",
+      "Model": "2855 Ciera Sunbridge",
+      "Variant": "Multi-Generation Sunbridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-2859",
+      "CanonicalSlug": "bayliner-2859-ciera-express-hardtop-cruiser",
+      "CanonicalPath": "/models/bayliner-2859-ciera-express-hardtop-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-2859-ciera-express-hardtop-cruiser/",
+      "Manufacturer": "Bayliner",
+      "Model": "2859 Ciera Express",
+      "Variant": "Hardtop Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-3055",
+      "CanonicalSlug": "bayliner-3055-ciera-sunbridge-305-sb-express-cruiser",
+      "CanonicalPath": "/models/bayliner-3055-ciera-sunbridge-305-sb-express-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-3055-ciera-sunbridge-305-sb-express-cruiser/",
+      "Manufacturer": "Bayliner",
+      "Model": "3055 Ciera Sunbridge / 305 SB",
+      "Variant": "Express Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-3058",
+      "CanonicalSlug": "bayliner-3058-command-bridge-command-bridge-cruiser",
+      "CanonicalPath": "/models/bayliner-3058-command-bridge-command-bridge-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-3058-command-bridge-command-bridge-cruiser/",
+      "Manufacturer": "Bayliner",
+      "Model": "3058 Command Bridge",
+      "Variant": "Command Bridge Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-3218",
+      "CanonicalSlug": "bayliner-3218-motoryacht-flybridge-motor-yacht",
+      "CanonicalPath": "/models/bayliner-3218-motoryacht-flybridge-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-3218-motoryacht-flybridge-motor-yacht/",
+      "Manufacturer": "Bayliner",
+      "Model": "3218 Motoryacht",
+      "Variant": "Flybridge Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-3258",
+      "CanonicalSlug": "bayliner-3258-command-bridge-command-bridge-cruiser",
+      "CanonicalPath": "/models/bayliner-3258-command-bridge-command-bridge-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-3258-command-bridge-command-bridge-cruiser/",
+      "Manufacturer": "Bayliner",
+      "Model": "3258 Command Bridge",
+      "Variant": "Command Bridge Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-3288-MO",
+      "CanonicalSlug": "bayliner-3270-3288-motor-yacht-explorer-motor-yacht",
+      "CanonicalPath": "/models/bayliner-3270-3288-motor-yacht-explorer-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-3270-3288-motor-yacht-explorer-motor-yacht/",
+      "Manufacturer": "Bayliner",
+      "Model": "3270 / 3288 Motor Yacht",
+      "Variant": "Explorer / Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-3388",
+      "CanonicalSlug": "bayliner-3388-motor-yacht-flybridge-motor-yacht",
+      "CanonicalPath": "/models/bayliner-3388-motor-yacht-flybridge-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-3388-motor-yacht-flybridge-motor-yacht/",
+      "Manufacturer": "Bayliner",
+      "Model": "3388 Motor Yacht",
+      "Variant": "Flybridge Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-3788",
+      "CanonicalSlug": "bayliner-3788-motor-yacht-two-generation-flybridge-motor-yacht",
+      "CanonicalPath": "/models/bayliner-3788-motor-yacht-two-generation-flybridge-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-3788-motor-yacht-two-generation-flybridge-motor-yacht/",
+      "Manufacturer": "Bayliner",
+      "Model": "3788 Motor Yacht",
+      "Variant": "Two-Generation Flybridge Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-3888-MO",
+      "CanonicalSlug": "bayliner-3870-3888-motor-yacht-mid-cabin-flybridge-motor-yacht",
+      "CanonicalPath": "/models/bayliner-3870-3888-motor-yacht-mid-cabin-flybridge-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-3870-3888-motor-yacht-mid-cabin-flybridge-motor-yacht/",
+      "Manufacturer": "Bayliner",
+      "Model": "3870 / 3888 Motor Yacht",
+      "Variant": "Mid-Cabin Flybridge Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BAYL-4087",
+      "CanonicalSlug": "bayliner-4087-cockpit-motor-yacht-cockpit-motor-yacht",
+      "CanonicalPath": "/models/bayliner-4087-cockpit-motor-yacht-cockpit-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/bayliner-4087-cockpit-motor-yacht-cockpit-motor-yacht/",
+      "Manufacturer": "Bayliner",
+      "Model": "4087 Cockpit Motor Yacht",
+      "Variant": "Cockpit Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-ANT-11",
+      "CanonicalSlug": "beneteau-antares-11-coup",
+      "CanonicalPath": "/models/beneteau-antares-11-coup/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-antares-11-coup/",
+      "Manufacturer": "Beneteau",
+      "Model": "Antares 11",
+      "Variant": "Coupé",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-30-SW",
+      "CanonicalSlug": "beneteau-swift-trawler-30-flybridge",
+      "CanonicalPath": "/models/beneteau-swift-trawler-30-flybridge/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-30-flybridge/",
+      "Manufacturer": "Beneteau",
+      "Model": "Swift Trawler 30",
+      "Variant": "Flybridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-34-SW",
+      "CanonicalSlug": "beneteau-swift-trawler-34-flybridge-or-sedan",
+      "CanonicalPath": "/models/beneteau-swift-trawler-34-flybridge-or-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-34-flybridge-or-sedan/",
+      "Manufacturer": "Beneteau",
+      "Model": "Swift Trawler 34",
+      "Variant": "Flybridge or Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-35-SW",
+      "CanonicalSlug": "beneteau-swift-trawler-35-flybridge",
+      "CanonicalPath": "/models/beneteau-swift-trawler-35-flybridge/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-35-flybridge/",
+      "Manufacturer": "Beneteau",
+      "Model": "Swift Trawler 35",
+      "Variant": "Flybridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-47",
+      "CanonicalSlug": "beneteau-swift-trawler-47-flybridge",
+      "CanonicalPath": "/models/beneteau-swift-trawler-47-flybridge/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-47-flybridge/",
+      "Manufacturer": "Beneteau",
+      "Model": "Swift Trawler 47",
+      "Variant": "Flybridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-48",
+      "CanonicalSlug": "beneteau-swift-trawler-48-flybridge",
+      "CanonicalPath": "/models/beneteau-swift-trawler-48-flybridge/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-48-flybridge/",
+      "Manufacturer": "Beneteau",
+      "Model": "Swift Trawler 48",
+      "Variant": "Flybridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-52",
+      "CanonicalSlug": "beneteau-swift-trawler-52-flybridge-flagship",
+      "CanonicalPath": "/models/beneteau-swift-trawler-52-flybridge-flagship/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-52-flybridge-flagship/",
+      "Manufacturer": "Beneteau",
+      "Model": "Swift Trawler 52",
+      "Variant": "Flybridge Flagship",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-ANT-7",
+      "CanonicalSlug": "beneteau-antares-7-cruising-fishing",
+      "CanonicalPath": "/models/beneteau-antares-7-cruising-fishing/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-antares-7-cruising-fishing/",
+      "Manufacturer": "Beneteau",
+      "Model": "Antares 7",
+      "Variant": "Cruising / Fishing",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-ANT-8",
+      "CanonicalSlug": "beneteau-antares-8-cruising-fishing",
+      "CanonicalPath": "/models/beneteau-antares-8-cruising-fishing/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-antares-8-cruising-fishing/",
+      "Manufacturer": "Beneteau",
+      "Model": "Antares 8",
+      "Variant": "Cruising / Fishing",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-BAR-8",
+      "CanonicalSlug": "beneteau-barracuda-8-sport-fishing-pilothouse",
+      "CanonicalPath": "/models/beneteau-barracuda-8-sport-fishing-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-barracuda-8-sport-fishing-pilothouse/",
+      "Manufacturer": "Beneteau",
+      "Model": "Barracuda 8",
+      "Variant": "Sport-Fishing Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-ANT-9",
+      "CanonicalSlug": "beneteau-antares-9-series-1-series-2",
+      "CanonicalPath": "/models/beneteau-antares-9-series-1-series-2/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-antares-9-series-1-series-2/",
+      "Manufacturer": "Beneteau",
+      "Model": "Antares 9",
+      "Variant": "Generation 1",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-BAR-9",
+      "CanonicalSlug": "beneteau-barracuda-9-sport-fishing-pilothouse",
+      "CanonicalPath": "/models/beneteau-barracuda-9-sport-fishing-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-barracuda-9-sport-fishing-pilothouse/",
+      "Manufacturer": "Beneteau",
+      "Model": "Barracuda 9",
+      "Variant": "Sport-Fishing Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BHMB-32",
+      "CanonicalSlug": "bhm-32-downeast-flye-point",
+      "CanonicalPath": "/models/bhm-32-downeast-flye-point/",
+      "CanonicalURL": "https://b-atlas.org/models/bhm-32-downeast-flye-point/",
+      "Manufacturer": "BHM",
+      "Model": "32",
+      "Variant": "Flye Point / Semi-Custom Downeast",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CDRY-22-CR",
+      "CanonicalSlug": "c-dory-22-cruiser-cruiser",
+      "CanonicalPath": "/models/c-dory-22-cruiser-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/c-dory-22-cruiser-cruiser/",
+      "Manufacturer": "C-Dory",
+      "Model": "22 Cruiser",
+      "Variant": "Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CDRY-25-CR",
+      "CanonicalSlug": "c-dory-25-cruiser-cruiser",
+      "CanonicalPath": "/models/c-dory-25-cruiser-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/c-dory-25-cruiser-cruiser/",
+      "Manufacturer": "C-Dory",
+      "Model": "25 Cruiser",
+      "Variant": "Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CDRY-25-TC",
+      "CanonicalSlug": "c-dory-tomcat-255-power-catamaran",
+      "CanonicalPath": "/models/c-dory-tomcat-255-power-catamaran/",
+      "CanonicalURL": "https://b-atlas.org/models/c-dory-tomcat-255-power-catamaran/",
+      "Manufacturer": "C-Dory",
+      "Model": "TomCat 255",
+      "Variant": "Power Catamaran",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CDRY-26-PA",
+      "CanonicalSlug": "c-dory-26-pro-angler-walkaround-fishing",
+      "CanonicalPath": "/models/c-dory-26-pro-angler-walkaround-fishing/",
+      "CanonicalURL": "https://b-atlas.org/models/c-dory-26-pro-angler-walkaround-fishing/",
+      "Manufacturer": "C-Dory",
+      "Model": "26 Pro Angler",
+      "Variant": "Walkaround Fishing",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CDRY-26-V",
+      "CanonicalSlug": "c-dory-26-venture-venture-cruiser",
+      "CanonicalPath": "/models/c-dory-26-venture-venture-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/c-dory-26-venture-venture-cruiser/",
+      "Manufacturer": "C-Dory",
+      "Model": "26 Venture",
+      "Variant": "Venture Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CALF-34-TR",
+      "CanonicalSlug": "californian-34-lrc-long-range-cruiser",
+      "CanonicalPath": "/models/californian-34-lrc-long-range-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/californian-34-lrc-long-range-cruiser/",
+      "Manufacturer": "Californian",
+      "Model": "34 LRC",
+      "Variant": "Long Range Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CALF-38-TR",
+      "CanonicalSlug": "californian-38-lrc-sedan-long-range-cruiser-sedan",
+      "CanonicalPath": "/models/californian-38-lrc-sedan-long-range-cruiser-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/californian-38-lrc-sedan-long-range-cruiser-sedan/",
+      "Manufacturer": "Californian",
+      "Model": "38 LRC Sedan",
+      "Variant": "Long Range Cruiser Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CAMA-28-GN",
+      "CanonicalSlug": "camano-28-31-gnome",
+      "CanonicalPath": "/models/camano-28-31-gnome/",
+      "CanonicalURL": "https://b-atlas.org/models/camano-28-31-gnome/",
+      "Manufacturer": "Camano",
+      "Model": "28/31",
+      "Variant": "Gnome",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CAMA-31-TR",
+      "CanonicalSlug": "camano-28-31-troll",
+      "CanonicalPath": "/models/camano-28-31-troll/",
+      "CanonicalURL": "https://b-atlas.org/models/camano-28-31-troll/",
+      "Manufacturer": "Camano",
+      "Model": "28/31",
+      "Variant": "Troll",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CAMA-41",
+      "CanonicalSlug": "camano-41-trawler",
+      "CanonicalPath": "/models/camano-41-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/camano-41-trawler/",
+      "Manufacturer": "Camano",
+      "Model": "41",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CPDR-28-FB",
+      "CanonicalSlug": "cape-dory-28-flybridge-cruiser-flybridge-cruiser",
+      "CanonicalPath": "/models/cape-dory-28-flybridge-cruiser-flybridge-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/cape-dory-28-flybridge-cruiser-flybridge-cruiser/",
+      "Manufacturer": "Cape Dory",
+      "Model": "28",
+      "Variant": "Flybridge Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CPDR-28-OF",
+      "CanonicalSlug": "cape-dory-28-open-fisherman-open-fisherman",
+      "CanonicalPath": "/models/cape-dory-28-open-fisherman-open-fisherman/",
+      "CanonicalURL": "https://b-atlas.org/models/cape-dory-28-open-fisherman-open-fisherman/",
+      "Manufacturer": "Cape Dory",
+      "Model": "28",
+      "Variant": "Open Fisherman",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CPDR-28-CR",
+      "CanonicalSlug": "cape-dory-28-power-cruiser-power-cruiser",
+      "CanonicalPath": "/models/cape-dory-28-power-cruiser-power-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/cape-dory-28-power-cruiser-power-cruiser/",
+      "Manufacturer": "Cape Dory",
+      "Model": "28",
+      "Variant": "Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CPDR-30-FB",
+      "CanonicalSlug": "cape-dory-30-poweryacht-flybridge",
+      "CanonicalPath": "/models/cape-dory-30-poweryacht-flybridge/",
+      "CanonicalURL": "https://b-atlas.org/models/cape-dory-30-poweryacht-flybridge/",
+      "Manufacturer": "Cape Dory",
+      "Model": "30",
+      "Variant": "Flybridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CPDR-33-FB",
+      "CanonicalSlug": "cape-dory-33-poweryacht-flybridge",
+      "CanonicalPath": "/models/cape-dory-33-poweryacht-flybridge/",
+      "CanonicalURL": "https://b-atlas.org/models/cape-dory-33-poweryacht-flybridge/",
+      "Manufacturer": "Cape Dory",
+      "Model": "33",
+      "Variant": "Flybridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CPDR-36-TR",
+      "CanonicalSlug": "cape-dory-36-poweryacht-flybridge",
+      "CanonicalPath": "/models/cape-dory-36-poweryacht-flybridge/",
+      "CanonicalURL": "https://b-atlas.org/models/cape-dory-36-poweryacht-flybridge/",
+      "Manufacturer": "Cape Dory",
+      "Model": "36",
+      "Variant": "Flybridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CPDR-40-TR",
+      "CanonicalSlug": "cape-dory-40-explorer-explorer",
+      "CanonicalPath": "/models/cape-dory-40-explorer-explorer/",
+      "CanonicalURL": "https://b-atlas.org/models/cape-dory-40-explorer-explorer/",
+      "Manufacturer": "Cape Dory",
+      "Model": "40 Explorer",
+      "Variant": "Explorer",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CARV-28-V",
+      "CanonicalSlug": "carver-2827-voyager-2897-mariner-flybridge-cruiser",
+      "CanonicalPath": "/models/carver-2827-voyager-2897-mariner-flybridge-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/carver-2827-voyager-2897-mariner-flybridge-cruiser/",
+      "Manufacturer": "Carver",
+      "Model": "2827 Voyager / 2897 Mariner",
+      "Variant": "Flybridge Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CARV-32-AC",
+      "CanonicalSlug": "carver-3207-aft-cabin-aft-cabin",
+      "CanonicalPath": "/models/carver-3207-aft-cabin-aft-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/carver-3207-aft-cabin-aft-cabin/",
+      "Manufacturer": "Carver",
+      "Model": "3207 Aft Cabin",
+      "Variant": "Aft Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CARV-33-MAR",
+      "CanonicalSlug": "carver-3297-330-mariner-mariner",
+      "CanonicalPath": "/models/carver-3297-330-mariner-mariner/",
+      "CanonicalURL": "https://b-atlas.org/models/carver-3297-330-mariner-mariner/",
+      "Manufacturer": "Carver",
+      "Model": "3297 / 330 Mariner",
+      "Variant": "Mariner",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CARV-350-AF",
+      "CanonicalSlug": "carver-33-350-aft-cabin-aft-cabin-motor-yacht",
+      "CanonicalPath": "/models/carver-33-350-aft-cabin-aft-cabin-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/carver-33-350-aft-cabin-aft-cabin-motor-yacht/",
+      "Manufacturer": "Carver",
+      "Model": "33 / 350 Aft Cabin",
+      "Variant": "Aft Cabin Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CARV-356-AF",
+      "CanonicalSlug": "carver-355-356-motor-yacht-aft-cabin-motor-yacht",
+      "CanonicalPath": "/models/carver-355-356-motor-yacht-aft-cabin-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/carver-355-356-motor-yacht-aft-cabin-motor-yacht/",
+      "Manufacturer": "Carver",
+      "Model": "355 / 356 Motor Yacht",
+      "Variant": "Aft Cabin Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CARV-36-AC",
+      "CanonicalSlug": "carver-3607-aft-cabin-aft-cabin",
+      "CanonicalPath": "/models/carver-3607-aft-cabin-aft-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/carver-3607-aft-cabin-aft-cabin/",
+      "Manufacturer": "Carver",
+      "Model": "3607 Aft Cabin",
+      "Variant": "Aft Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CARV-36-MAR",
+      "CanonicalSlug": "carver-350-36-mariner-mariner",
+      "CanonicalPath": "/models/carver-350-36-mariner-mariner/",
+      "CanonicalURL": "https://b-atlas.org/models/carver-350-36-mariner-mariner/",
+      "Manufacturer": "Carver",
+      "Model": "350 / 36 Mariner",
+      "Variant": "Mariner",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CARV-40-AC",
+      "CanonicalSlug": "carver-3807-390-aft-cabin-aft-cabin-motor-yacht",
+      "CanonicalPath": "/models/carver-3807-390-aft-cabin-aft-cabin-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/carver-3807-390-aft-cabin-aft-cabin-motor-yacht/",
+      "Manufacturer": "Carver",
+      "Model": "3807 / 390 Aft Cabin",
+      "Variant": "Aft Cabin Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CARV-42-AC",
+      "CanonicalSlug": "carver-4207-aft-cabin-aft-cabin-motor-yacht",
+      "CanonicalPath": "/models/carver-4207-aft-cabin-aft-cabin-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/carver-4207-aft-cabin-aft-cabin-motor-yacht/",
+      "Manufacturer": "Carver",
+      "Model": "4207 Aft Cabin",
+      "Variant": "Aft Cabin Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CHBB-34-SE",
+      "CanonicalSlug": "chb-34-sedan",
+      "CanonicalPath": "/models/chb-34-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/chb-34-sedan/",
+      "Manufacturer": "CHB",
+      "Model": "34",
+      "Variant": "Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CHBB-34-TC",
+      "CanonicalSlug": "chb-34-tri-cabin",
+      "CanonicalPath": "/models/chb-34-tri-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/chb-34-tri-cabin/",
+      "Manufacturer": "CHB",
+      "Model": "34",
+      "Variant": "Tri-Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CHBY-34-SE",
+      "CanonicalSlug": "chb-34-double-cabin-double-cabin",
+      "CanonicalPath": "/models/chb-34-double-cabin-double-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/chb-34-double-cabin-double-cabin/",
+      "Manufacturer": "CHB",
+      "Model": "34",
+      "Variant": "Double Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CHBY-35",
+      "CanonicalSlug": "chb-35-sundeck-sundeck",
+      "CanonicalPath": "/models/chb-35-sundeck-sundeck/",
+      "CanonicalURL": "https://b-atlas.org/models/chb-35-sundeck-sundeck/",
+      "Manufacturer": "CHB",
+      "Model": "35",
+      "Variant": "Sundeck",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CHBY-40",
+      "CanonicalSlug": "chb-40-double-cabin-double-cabin",
+      "CanonicalPath": "/models/chb-40-double-cabin-double-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/chb-40-double-cabin-double-cabin/",
+      "Manufacturer": "CHB",
+      "Model": "40",
+      "Variant": "Double Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CHLY-28",
+      "CanonicalSlug": "cheoy-lee-28-sedan-trawler-sedan",
+      "CanonicalPath": "/models/cheoy-lee-28-sedan-trawler-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/cheoy-lee-28-sedan-trawler-sedan/",
+      "Manufacturer": "Cheoy Lee",
+      "Model": "28 Sedan Trawler",
+      "Variant": "Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CHLY-32",
+      "CanonicalSlug": "cheoy-lee-32-trawler-trawler",
+      "CanonicalPath": "/models/cheoy-lee-32-trawler-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/cheoy-lee-32-trawler-trawler/",
+      "Manufacturer": "Cheoy Lee",
+      "Model": "32 Trawler",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CHLY-35",
+      "CanonicalSlug": "cheoy-lee-35-trawler-trawler",
+      "CanonicalPath": "/models/cheoy-lee-35-trawler-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/cheoy-lee-35-trawler-trawler/",
+      "Manufacturer": "Cheoy Lee",
+      "Model": "35 Trawler",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CHLY-36-TR",
+      "CanonicalSlug": "cheoy-lee-36-trawler-trawler",
+      "CanonicalPath": "/models/cheoy-lee-36-trawler-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/cheoy-lee-36-trawler-trawler/",
+      "Manufacturer": "Cheoy Lee",
+      "Model": "36 Trawler",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CRUY-2980",
+      "CanonicalSlug": "cruisers-yachts-288-298-villa-vee-2980-esprit-flybridge-cruiser",
+      "CanonicalPath": "/models/cruisers-yachts-288-298-villa-vee-2980-esprit-flybridge-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-288-298-villa-vee-2980-esprit-flybridge-cruiser/",
+      "Manufacturer": "Cruisers Yachts",
+      "Model": "288 / 298 Villa Vee / 2980 Esprit",
+      "Variant": "Flybridge Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CRUY-320-EXP",
+      "CanonicalSlug": "cruisers-yachts-3275-320-express-express-cruiser",
+      "CanonicalPath": "/models/cruisers-yachts-3275-320-express-express-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3275-320-express-express-cruiser/",
+      "Manufacturer": "Cruisers Yachts",
+      "Model": "3275 / 320 Express",
+      "Variant": "Express Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CRUY-3280",
+      "CanonicalSlug": "cruisers-yachts-3260-3270-esprit-esprit",
+      "CanonicalPath": "/models/cruisers-yachts-3260-3270-esprit-esprit/",
+      "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3260-3270-esprit-esprit/",
+      "Manufacturer": "Cruisers Yachts",
+      "Model": "3270 Esprit",
+      "Variant": "Mid-Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CRUY-3375",
+      "CanonicalSlug": "cruisers-yachts-3375-esprit-express-cruiser",
+      "CanonicalPath": "/models/cruisers-yachts-3375-esprit-express-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3375-esprit-express-cruiser/",
+      "Manufacturer": "Cruisers Yachts",
+      "Model": "3375 Esprit",
+      "Variant": "Express Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CRUY-3470",
+      "CanonicalSlug": "cruisers-yachts-3470-340-express-express-cruiser",
+      "CanonicalPath": "/models/cruisers-yachts-3470-340-express-express-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3470-340-express-express-cruiser/",
+      "Manufacturer": "Cruisers Yachts",
+      "Model": "3470 / 340 Express",
+      "Variant": "Express Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CRUY-3650-AF",
+      "CanonicalSlug": "cruisers-yachts-3650-3750-375-motor-yacht-aft-cabin-motor-yacht",
+      "CanonicalPath": "/models/cruisers-yachts-3650-3750-375-motor-yacht-aft-cabin-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3650-3750-375-motor-yacht-aft-cabin-motor-yacht/",
+      "Manufacturer": "Cruisers Yachts",
+      "Model": "3650 / 3750 / 375 Motor Yacht",
+      "Variant": "Aft Cabin Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CRUY-3870",
+      "CanonicalSlug": "cruisers-yachts-3870-esprit-express-express-cruiser",
+      "CanonicalPath": "/models/cruisers-yachts-3870-esprit-express-express-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3870-esprit-express-express-cruiser/",
+      "Manufacturer": "Cruisers Yachts",
+      "Model": "3870 Esprit / Express",
+      "Variant": "Express Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CRUY-390-EXP",
+      "CanonicalSlug": "cruisers-yachts-390-sports-coupe-sports-coupe",
+      "CanonicalPath": "/models/cruisers-yachts-390-sports-coupe-sports-coupe/",
+      "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-390-sports-coupe-sports-coupe/",
+      "Manufacturer": "Cruisers Yachts",
+      "Model": "390 Sports Coupe",
+      "Variant": "Sports Coupe",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CRUY-4050",
+      "CanonicalSlug": "cruisers-yachts-4050-405-415-express-motor-yacht-express-motor-yacht",
+      "CanonicalPath": "/models/cruisers-yachts-4050-405-415-express-motor-yacht-express-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-4050-405-415-express-motor-yacht-express-motor-yacht/",
+      "Manufacturer": "Cruisers Yachts",
+      "Model": "4050 / 405 / 415 Express Motor Yacht",
+      "Variant": "Express Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CUTW-24",
+      "CanonicalSlug": "cutwater-c-24-c-coupe",
+      "CanonicalPath": "/models/cutwater-c-24-c-coupe/",
+      "CanonicalURL": "https://b-atlas.org/models/cutwater-c-24-c-coupe/",
+      "Manufacturer": "Cutwater",
+      "Model": "C-24 C",
+      "Variant": "Coupe",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CUTW-26",
+      "CanonicalSlug": "cutwater-c-26-cruiser",
+      "CanonicalPath": "/models/cutwater-c-26-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/cutwater-c-26-cruiser/",
+      "Manufacturer": "Cutwater",
+      "Model": "C-26",
+      "Variant": "Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CUTW-28-P",
+      "CanonicalSlug": "cutwater-c-28-cruiser",
+      "CanonicalPath": "/models/cutwater-c-28-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/cutwater-c-28-cruiser/",
+      "Manufacturer": "Cutwater",
+      "Model": "C-28",
+      "Variant": "Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CUTW-30-C",
+      "CanonicalSlug": "cutwater-c-30-cb-command-bridge",
+      "CanonicalPath": "/models/cutwater-c-30-cb-command-bridge/",
+      "CanonicalURL": "https://b-atlas.org/models/cutwater-c-30-cb-command-bridge/",
+      "Manufacturer": "Cutwater",
+      "Model": "C-30 CB",
+      "Variant": "Command Bridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CUTW-30-P",
+      "CanonicalSlug": "cutwater-c-30-s-sedan",
+      "CanonicalPath": "/models/cutwater-c-30-s-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/cutwater-c-30-s-sedan/",
+      "Manufacturer": "Cutwater",
+      "Model": "C-30 S",
+      "Variant": "Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CUTW-32",
+      "CanonicalSlug": "cutwater-c-32-cb-command-bridge",
+      "CanonicalPath": "/models/cutwater-c-32-cb-command-bridge/",
+      "CanonicalURL": "https://b-atlas.org/models/cutwater-c-32-cb-command-bridge/",
+      "Manufacturer": "Cutwater",
+      "Model": "C-32 CB",
+      "Variant": "Command Bridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DEFE-34-TR",
+      "CanonicalSlug": "defever-34-passagemaker-passagemaker",
+      "CanonicalPath": "/models/defever-34-passagemaker-passagemaker/",
+      "CanonicalURL": "https://b-atlas.org/models/defever-34-passagemaker-passagemaker/",
+      "Manufacturer": "DeFever",
+      "Model": "34 Passagemaker",
+      "Variant": "Passagemaker",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DEFE-38-TR",
+      "CanonicalSlug": "defever-38-passagemaker-wood-passagemaker",
+      "CanonicalPath": "/models/defever-38-passagemaker-wood-passagemaker/",
+      "CanonicalURL": "https://b-atlas.org/models/defever-38-passagemaker-wood-passagemaker/",
+      "Manufacturer": "DeFever",
+      "Model": "38 Passagemaker",
+      "Variant": "Wood Passagemaker",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DEFE-40-EURO",
+      "CanonicalSlug": "defever-40-offshore-cruiser-offshore-cruiser",
+      "CanonicalPath": "/models/defever-40-offshore-cruiser-offshore-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/defever-40-offshore-cruiser-offshore-cruiser/",
+      "Manufacturer": "DeFever",
+      "Model": "40 Offshore Cruiser",
+      "Variant": "Offshore Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DEFE-41",
+      "CanonicalSlug": "defever-41-trawler-trawler",
+      "CanonicalPath": "/models/defever-41-trawler-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/defever-41-trawler-trawler/",
+      "Manufacturer": "DeFever",
+      "Model": "41 Trawler",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DEFE-43",
+      "CanonicalSlug": "defever-43-trawler-flush-deck",
+      "CanonicalPath": "/models/defever-43-trawler-flush-deck/",
+      "CanonicalURL": "https://b-atlas.org/models/defever-43-trawler-flush-deck/",
+      "Manufacturer": "DeFever",
+      "Model": "43 Trawler",
+      "Variant": "Flush Deck",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DEFE-45",
+      "CanonicalSlug": "defever-45-pilothouse-pilothouse",
+      "CanonicalPath": "/models/defever-45-pilothouse-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/defever-45-pilothouse-pilothouse/",
+      "Manufacturer": "DeFever",
+      "Model": "45 Pilothouse",
+      "Variant": "Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DEFE-47",
+      "CanonicalSlug": "defever-47-poc-motor-yacht-performance-offshore-cruiser",
+      "CanonicalPath": "/models/defever-47-poc-motor-yacht-performance-offshore-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/defever-47-poc-motor-yacht-performance-offshore-cruiser/",
+      "Manufacturer": "DeFever",
+      "Model": "47 POC Motor Yacht",
+      "Variant": "Performance Offshore Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DEFE-49",
+      "CanonicalSlug": "defever-49-cockpit-motor-yacht-cockpit-motor-yacht",
+      "CanonicalPath": "/models/defever-49-cockpit-motor-yacht-cockpit-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/defever-49-cockpit-motor-yacht-cockpit-motor-yacht/",
+      "Manufacturer": "DeFever",
+      "Model": "49 Cockpit Motor Yacht",
+      "Variant": "Cockpit Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DUFF-29",
+      "CanonicalSlug": "duffy-29-downeast-hull",
+      "CanonicalPath": "/models/duffy-29-downeast-hull/",
+      "CanonicalURL": "https://b-atlas.org/models/duffy-29-downeast-hull/",
+      "Manufacturer": "Duffy",
+      "Model": "29",
+      "Variant": "Downeast Hull",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DUFF-31",
+      "CanonicalSlug": "duffy-31-downeast-lobsterboat-hull",
+      "CanonicalPath": "/models/duffy-31-downeast-lobsterboat-hull/",
+      "CanonicalURL": "https://b-atlas.org/models/duffy-31-downeast-lobsterboat-hull/",
+      "Manufacturer": "Duffy",
+      "Model": "31",
+      "Variant": "Downeast / Lobsterboat Hull",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DUFF-35",
+      "CanonicalSlug": "duffy-35-downeast-lobsterboat-hull",
+      "CanonicalPath": "/models/duffy-35-downeast-lobsterboat-hull/",
+      "CanonicalURL": "https://b-atlas.org/models/duffy-35-downeast-lobsterboat-hull/",
+      "Manufacturer": "Duffy",
+      "Model": "35",
+      "Variant": "Downeast / Lobsterboat Hull",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DUFF-37",
+      "CanonicalSlug": "duffy-37-downeast-lobsterboat-hull",
+      "CanonicalPath": "/models/duffy-37-downeast-lobsterboat-hull/",
+      "CanonicalURL": "https://b-atlas.org/models/duffy-37-downeast-lobsterboat-hull/",
+      "Manufacturer": "Duffy",
+      "Model": "37",
+      "Variant": "Downeast / Lobsterboat Hull",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DUFF-39",
+      "CanonicalSlug": "duffy-39-extended-duffy-37-custom-downeast",
+      "CanonicalPath": "/models/duffy-39-extended-duffy-37-custom-downeast/",
+      "CanonicalURL": "https://b-atlas.org/models/duffy-39-extended-duffy-37-custom-downeast/",
+      "Manufacturer": "Duffy",
+      "Model": "39",
+      "Variant": "Extended Duffy 37 / Custom Downeast",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "DUFF-42",
+      "CanonicalSlug": "duffy-42-downeast-lobsterboat-hull",
+      "CanonicalPath": "/models/duffy-42-downeast-lobsterboat-hull/",
+      "CanonicalURL": "https://b-atlas.org/models/duffy-42-downeast-lobsterboat-hull/",
+      "Manufacturer": "Duffy",
+      "Model": "42",
+      "Variant": "Downeast / Lobsterboat Hull",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ENDE-36-TR",
+      "CanonicalSlug": "endeavour-trawlercat-36-power-catamaran",
+      "CanonicalPath": "/models/endeavour-trawlercat-36-power-catamaran/",
+      "CanonicalURL": "https://b-atlas.org/models/endeavour-trawlercat-36-power-catamaran/",
+      "Manufacturer": "Endeavour",
+      "Model": "TrawlerCat 36",
+      "Variant": "Power Catamaran",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ENDE-44",
+      "CanonicalSlug": "endeavour-44-trawlercat-power-catamaran",
+      "CanonicalPath": "/models/endeavour-44-trawlercat-power-catamaran/",
+      "CanonicalURL": "https://b-atlas.org/models/endeavour-44-trawlercat-power-catamaran/",
+      "Manufacturer": "Endeavour",
+      "Model": "44 TrawlerCat",
+      "Variant": "Power Catamaran",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "FJRD-36",
+      "CanonicalSlug": "fjord-36-cruiser-enclosed-cruiser",
+      "CanonicalPath": "/models/fjord-36-cruiser-enclosed-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/fjord-36-cruiser-enclosed-cruiser/",
+      "Manufacturer": "Fjord",
+      "Model": "36 Cruiser",
+      "Variant": "Enclosed Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "FJRD-36-OPEN",
+      "CanonicalSlug": "fjord-36-open-walkaround-day-cruiser",
+      "CanonicalPath": "/models/fjord-36-open-walkaround-day-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/fjord-36-open-walkaround-day-cruiser/",
+      "Manufacturer": "Fjord",
+      "Model": "36 Open",
+      "Variant": "Walkaround Day Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "FJRD-40",
+      "CanonicalSlug": "fjord-40-cruiser-enclosed-cruiser",
+      "CanonicalPath": "/models/fjord-40-cruiser-enclosed-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/fjord-40-cruiser-enclosed-cruiser/",
+      "Manufacturer": "Fjord",
+      "Model": "40 Cruiser",
+      "Variant": "Enclosed Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "FJRD-40-OPEN",
+      "CanonicalSlug": "fjord-40-open-walkaround-day-cruiser",
+      "CanonicalPath": "/models/fjord-40-open-walkaround-day-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/fjord-40-open-walkaround-day-cruiser/",
+      "Manufacturer": "Fjord",
+      "Model": "40 Open",
+      "Variant": "Walkaround Day Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "FORT-26",
+      "CanonicalSlug": "fortier-26-bass-boat-downeast-cruiser",
+      "CanonicalPath": "/models/fortier-26-bass-boat-downeast-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/fortier-26-bass-boat-downeast-cruiser/",
+      "Manufacturer": "Fortier",
+      "Model": "26",
+      "Variant": "Bass Boat / Downeast Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "FORT-33",
+      "CanonicalSlug": "fortier-33-downeast-cruiser",
+      "CanonicalPath": "/models/fortier-33-downeast-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/fortier-33-downeast-cruiser/",
+      "Manufacturer": "Fortier",
+      "Model": "33",
+      "Variant": "Downeast Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GOZZ-40-PI",
+      "CanonicalSlug": "gozzard-pilgrim-40-gozzard-north-castle-motor-yacht",
+      "CanonicalPath": "/models/gozzard-pilgrim-40-gozzard-north-castle-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/gozzard-pilgrim-40-gozzard-north-castle-motor-yacht/",
+      "Manufacturer": "Gozzard",
+      "Model": "Pilgrim 40",
+      "Variant": "North Castle / Gozzard Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GRBK-32-CL",
+      "CanonicalSlug": "grand-banks-32-sedan",
+      "CanonicalPath": "/models/grand-banks-32-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/grand-banks-32-sedan/",
+      "Manufacturer": "Grand Banks",
+      "Model": "32",
+      "Variant": "Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GRBK-36-CL",
+      "CanonicalSlug": "grand-banks-36-classic",
+      "CanonicalPath": "/models/grand-banks-36-classic/",
+      "CanonicalURL": "https://b-atlas.org/models/grand-banks-36-classic/",
+      "Manufacturer": "Grand Banks",
+      "Model": "36",
+      "Variant": "Classic",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GRBK-36-EU",
+      "CanonicalSlug": "grand-banks-36-europa",
+      "CanonicalPath": "/models/grand-banks-36-europa/",
+      "CanonicalURL": "https://b-atlas.org/models/grand-banks-36-europa/",
+      "Manufacturer": "Grand Banks",
+      "Model": "36",
+      "Variant": "Europa",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GRBK-42-CL",
+      "CanonicalSlug": "grand-banks-42-classic",
+      "CanonicalPath": "/models/grand-banks-42-classic/",
+      "CanonicalURL": "https://b-atlas.org/models/grand-banks-42-classic/",
+      "Manufacturer": "Grand Banks",
+      "Model": "42",
+      "Variant": "Classic",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GRBK-46-CL",
+      "CanonicalSlug": "grand-banks-46-classic",
+      "CanonicalPath": "/models/grand-banks-46-classic/",
+      "CanonicalURL": "https://b-atlas.org/models/grand-banks-46-classic/",
+      "Manufacturer": "Grand Banks",
+      "Model": "46",
+      "Variant": "Classic",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GRBK-49-MY",
+      "CanonicalSlug": "grand-banks-49-motor-yacht",
+      "CanonicalPath": "/models/grand-banks-49-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/grand-banks-49-motor-yacht/",
+      "Manufacturer": "Grand Banks",
+      "Model": "49",
+      "Variant": "Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GRTH-GH37",
+      "CanonicalSlug": "great-harbour-gh37-raised-pilothouse-liveaboard-trawler",
+      "CanonicalPath": "/models/great-harbour-gh37-raised-pilothouse-liveaboard-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/great-harbour-gh37-raised-pilothouse-liveaboard-trawler/",
+      "Manufacturer": "Great Harbour",
+      "Model": "GH37",
+      "Variant": "Raised-Pilothouse Liveaboard Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GRTH-N37",
+      "CanonicalSlug": "great-harbour-n37-navigator-long-range-trawler",
+      "CanonicalPath": "/models/great-harbour-n37-navigator-long-range-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/great-harbour-n37-navigator-long-range-trawler/",
+      "Manufacturer": "Great Harbour",
+      "Model": "N37",
+      "Variant": "Navigator / Long-Range Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GRNL-33",
+      "CanonicalSlug": "greenline-33-diesel-hybrid-electric-sedan",
+      "CanonicalPath": "/models/greenline-33-diesel-hybrid-electric-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/greenline-33-diesel-hybrid-electric-sedan/",
+      "Manufacturer": "Greenline",
+      "Model": "33",
+      "Variant": "Diesel / Hybrid / Electric Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GRNL-39",
+      "CanonicalSlug": "greenline-39-diesel-hybrid-electric-sedan",
+      "CanonicalPath": "/models/greenline-39-diesel-hybrid-electric-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/greenline-39-diesel-hybrid-electric-sedan/",
+      "Manufacturer": "Greenline",
+      "Model": "39",
+      "Variant": "Diesel / Hybrid / Electric Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GULF-36-TR",
+      "CanonicalSlug": "gulfstar-36-trawler-trawler",
+      "CanonicalPath": "/models/gulfstar-36-trawler-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/gulfstar-36-trawler-trawler/",
+      "Manufacturer": "Gulfstar",
+      "Model": "36 Trawler",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GULF-43-TR",
+      "CanonicalSlug": "gulfstar-43-trawler-trawler",
+      "CanonicalPath": "/models/gulfstar-43-trawler-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/gulfstar-43-trawler-trawler/",
+      "Manufacturer": "Gulfstar",
+      "Model": "43 Trawler",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GULF-44-MC",
+      "CanonicalSlug": "gulfstar-44-motor-cruiser-motor-cruiser",
+      "CanonicalPath": "/models/gulfstar-44-motor-cruiser-motor-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/gulfstar-44-motor-cruiser-motor-cruiser/",
+      "Manufacturer": "Gulfstar",
+      "Model": "44 Motor Cruiser",
+      "Variant": "Motor Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "GULF-49-MC",
+      "CanonicalSlug": "gulfstar-49-motor-yacht-motor-yacht",
+      "CanonicalPath": "/models/gulfstar-49-motor-yacht-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/gulfstar-49-motor-yacht-motor-yacht/",
+      "Manufacturer": "Gulfstar",
+      "Model": "49 Motor Yacht",
+      "Variant": "Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "HELM-31-CA",
+      "CanonicalSlug": "helmsman-31-sedan-sedan",
+      "CanonicalPath": "/models/helmsman-31-sedan-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/helmsman-31-sedan-sedan/",
+      "Manufacturer": "Helmsman",
+      "Model": "31 Sedan",
+      "Variant": "Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "HELM-38E-TR",
+      "CanonicalSlug": "helmsman-38e-pilothouse-pilothouse",
+      "CanonicalPath": "/models/helmsman-38e-pilothouse-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/helmsman-38e-pilothouse-pilothouse/",
+      "Manufacturer": "Helmsman",
+      "Model": "38E Pilothouse",
+      "Variant": "Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "HELM-43-E",
+      "CanonicalSlug": "helmsman-43e-pilothouse-pilothouse",
+      "CanonicalPath": "/models/helmsman-43e-pilothouse-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/helmsman-43e-pilothouse-pilothouse/",
+      "Manufacturer": "Helmsman",
+      "Model": "43E Pilothouse",
+      "Variant": "Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "HELM-46-PH",
+      "CanonicalSlug": "helmsman-46-pilothouse-pilothouse",
+      "CanonicalPath": "/models/helmsman-46-pilothouse-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/helmsman-46-pilothouse-pilothouse/",
+      "Manufacturer": "Helmsman",
+      "Model": "46 Pilothouse",
+      "Variant": "Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "HLMN-38-CO",
+      "CanonicalSlug": "holiday-mansion-38-barracuda-coastal-coastal-houseboat-cruiser",
+      "CanonicalPath": "/models/holiday-mansion-38-barracuda-coastal-coastal-houseboat-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/holiday-mansion-38-barracuda-coastal-coastal-houseboat-cruiser/",
+      "Manufacturer": "Holiday Mansion",
+      "Model": "38 Barracuda Coastal",
+      "Variant": "Coastal Houseboat Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "HUNT-29",
+      "CanonicalSlug": "hunt-yachts-surfhunter-29-deep-v-express-cruiser",
+      "CanonicalPath": "/models/hunt-yachts-surfhunter-29-deep-v-express-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/hunt-yachts-surfhunter-29-deep-v-express-cruiser/",
+      "Manufacturer": "Hunt Yachts",
+      "Model": "Surfhunter 29",
+      "Variant": "Deep-V Express Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "HUNT-36",
+      "CanonicalSlug": "hunt-yachts-surfhunter-36-coupe-coupe",
+      "CanonicalPath": "/models/hunt-yachts-surfhunter-36-coupe-coupe/",
+      "CanonicalURL": "https://b-atlas.org/models/hunt-yachts-surfhunter-36-coupe-coupe/",
+      "Manufacturer": "Hunt Yachts",
+      "Model": "Surfhunter 36",
+      "Variant": "Coupe",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ISGY-32-EU",
+      "CanonicalSlug": "island-gypsy-32-europa-europa",
+      "CanonicalPath": "/models/island-gypsy-32-europa-europa/",
+      "CanonicalURL": "https://b-atlas.org/models/island-gypsy-32-europa-europa/",
+      "Manufacturer": "Island Gypsy",
+      "Model": "32 Europa",
+      "Variant": "Europa",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ISGY-32-FI",
+      "CanonicalSlug": "island-gypsy-32-fisherman-fisherman",
+      "CanonicalPath": "/models/island-gypsy-32-fisherman-fisherman/",
+      "CanonicalURL": "https://b-atlas.org/models/island-gypsy-32-fisherman-fisherman/",
+      "Manufacturer": "Island Gypsy",
+      "Model": "32 Fisherman",
+      "Variant": "Fisherman",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ISGY-32-SE",
+      "CanonicalSlug": "island-gypsy-32-sedan-sedan",
+      "CanonicalPath": "/models/island-gypsy-32-sedan-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/island-gypsy-32-sedan-sedan/",
+      "Manufacturer": "Island Gypsy",
+      "Model": "32 Sedan",
+      "Variant": "Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ISGY-36",
+      "CanonicalSlug": "island-gypsy-36-classic-classic",
+      "CanonicalPath": "/models/island-gypsy-36-classic-classic/",
+      "CanonicalURL": "https://b-atlas.org/models/island-gypsy-36-classic-classic/",
+      "Manufacturer": "Island Gypsy",
+      "Model": "36 Classic",
+      "Variant": "Classic",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ISGY-36EURO",
+      "CanonicalSlug": "island-gypsy-36-europa-europa",
+      "CanonicalPath": "/models/island-gypsy-36-europa-europa/",
+      "CanonicalURL": "https://b-atlas.org/models/island-gypsy-36-europa-europa/",
+      "Manufacturer": "Island Gypsy",
+      "Model": "36 Europa",
+      "Variant": "Europa",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ISGY-40",
+      "CanonicalSlug": "island-gypsy-40-classic-classic",
+      "CanonicalPath": "/models/island-gypsy-40-classic-classic/",
+      "CanonicalURL": "https://b-atlas.org/models/island-gypsy-40-classic-classic/",
+      "Manufacturer": "Island Gypsy",
+      "Model": "40 Classic",
+      "Variant": "Classic",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ISGY-44",
+      "CanonicalSlug": "island-gypsy-44-motor-cruiser-motor-cruiser",
+      "CanonicalPath": "/models/island-gypsy-44-motor-cruiser-motor-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/island-gypsy-44-motor-cruiser-motor-cruiser/",
+      "Manufacturer": "Island Gypsy",
+      "Model": "44 Motor Cruiser",
+      "Variant": "Motor Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "JEAU-1095",
+      "CanonicalSlug": "jeanneau-merry-fisher-1095-coup-coup",
+      "CanonicalPath": "/models/jeanneau-merry-fisher-1095-coup-coup/",
+      "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-1095-coup-coup/",
+      "Manufacturer": "Jeanneau",
+      "Model": "Merry Fisher 1095 Coupé",
+      "Variant": "Coupé",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "JEAU-1095-FLY",
+      "CanonicalSlug": "jeanneau-merry-fisher-1095-fly-flybridge",
+      "CanonicalPath": "/models/jeanneau-merry-fisher-1095-fly-flybridge/",
+      "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-1095-fly-flybridge/",
+      "Manufacturer": "Jeanneau",
+      "Model": "Merry Fisher 1095 Fly",
+      "Variant": "Flybridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "JEAU-605",
+      "CanonicalSlug": "jeanneau-merry-fisher-605-pilothouse-outboard",
+      "CanonicalPath": "/models/jeanneau-merry-fisher-605-pilothouse-outboard/",
+      "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-605-pilothouse-outboard/",
+      "Manufacturer": "Jeanneau",
+      "Model": "Merry Fisher 605",
+      "Variant": "Pilothouse Outboard",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "JEAU-635",
+      "CanonicalSlug": "jeanneau-merry-fisher-635-pilothouse",
+      "CanonicalPath": "/models/jeanneau-merry-fisher-635-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-635-pilothouse/",
+      "Manufacturer": "Jeanneau",
+      "Model": "Merry Fisher 635",
+      "Variant": "Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "JEAU-695",
+      "CanonicalSlug": "jeanneau-merry-fisher-695-series-1-series-2",
+      "CanonicalPath": "/models/jeanneau-merry-fisher-695-series-1-series-2/",
+      "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-695-series-1-series-2/",
+      "Manufacturer": "Jeanneau",
+      "Model": "Merry Fisher 695",
+      "Variant": "Series 1 / Series 2",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "JEAU-795",
+      "CanonicalSlug": "jeanneau-merry-fisher-795-series-1-series-2",
+      "CanonicalPath": "/models/jeanneau-merry-fisher-795-series-1-series-2/",
+      "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-795-series-1-series-2/",
+      "Manufacturer": "Jeanneau",
+      "Model": "Merry Fisher 795",
+      "Variant": "Series 1 / Series 2",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "JEAU-855",
+      "CanonicalSlug": "jeanneau-merry-fisher-855-twin-outboard-weekender",
+      "CanonicalPath": "/models/jeanneau-merry-fisher-855-twin-outboard-weekender/",
+      "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-855-twin-outboard-weekender/",
+      "Manufacturer": "Jeanneau",
+      "Model": "Merry Fisher 855",
+      "Variant": "Twin-Outboard Weekender",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "JEAU-895",
+      "CanonicalSlug": "jeanneau-merry-fisher-895-series-1-series-2",
+      "CanonicalPath": "/models/jeanneau-merry-fisher-895-series-1-series-2/",
+      "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-895-series-1-series-2/",
+      "Manufacturer": "Jeanneau",
+      "Model": "Merry Fisher 895",
+      "Variant": "Series 1 / Series 2",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "JEAU-895-SP",
+      "CanonicalSlug": "jeanneau-merry-fisher-895-sport-walkaround-sport-pilothouse",
+      "CanonicalPath": "/models/jeanneau-merry-fisher-895-sport-walkaround-sport-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-895-sport-walkaround-sport-pilothouse/",
+      "Manufacturer": "Jeanneau",
+      "Model": "Merry Fisher 895 Sport",
+      "Variant": "Walkaround Sport Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "KDKR-36-MA",
+      "CanonicalSlug": "kadey-krogen-36-manatee-manatee",
+      "CanonicalPath": "/models/kadey-krogen-36-manatee-manatee/",
+      "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-36-manatee-manatee/",
+      "Manufacturer": "Kadey-Krogen",
+      "Model": "36 Manatee",
+      "Variant": "Manatee",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "KDKR-39",
+      "CanonicalSlug": "kadey-krogen-39",
+      "CanonicalPath": "/models/kadey-krogen-39/",
+      "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-39/",
+      "Manufacturer": "Kadey-Krogen",
+      "Model": "39",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "KDKR-42",
+      "CanonicalSlug": "kadey-krogen-42",
+      "CanonicalPath": "/models/kadey-krogen-42/",
+      "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-42/",
+      "Manufacturer": "Kadey-Krogen",
+      "Model": "42",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "KDKR-44",
+      "CanonicalSlug": "kadey-krogen-44-trawler",
+      "CanonicalPath": "/models/kadey-krogen-44-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-44-trawler/",
+      "Manufacturer": "Kadey-Krogen",
+      "Model": "44",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "KDKR-48-NS",
+      "CanonicalSlug": "kadey-krogen-48-north-sea-north-sea",
+      "CanonicalPath": "/models/kadey-krogen-48-north-sea-north-sea/",
+      "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-48-north-sea-north-sea/",
+      "Manufacturer": "Kadey-Krogen",
+      "Model": "48 North Sea",
+      "Variant": "North Sea",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "LUHR-30",
+      "CanonicalSlug": "luhrs-30-alura-downeast-profile-fishing-cruiser",
+      "CanonicalPath": "/models/luhrs-30-alura-downeast-profile-fishing-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/luhrs-30-alura-downeast-profile-fishing-cruiser/",
+      "Manufacturer": "Luhrs",
+      "Model": "30 Alura",
+      "Variant": "Downeast-Profile Fishing Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MNSH-30-PI",
+      "CanonicalSlug": "mainship-30-pilot",
+      "CanonicalPath": "/models/mainship-30-pilot/",
+      "CanonicalURL": "https://b-atlas.org/models/mainship-30-pilot/",
+      "Manufacturer": "Mainship",
+      "Model": "30",
+      "Variant": "Pilot",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MNSH-34-MK2",
+      "CanonicalSlug": "mainship-34-mkii",
+      "CanonicalPath": "/models/mainship-34-mkii/",
+      "CanonicalURL": "https://b-atlas.org/models/mainship-34-mkii/",
+      "Manufacturer": "Mainship",
+      "Model": "34",
+      "Variant": "II",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MNSH-34-MK1",
+      "CanonicalSlug": "mainship-34-mki",
+      "CanonicalPath": "/models/mainship-34-mki/",
+      "CanonicalURL": "https://b-atlas.org/models/mainship-34-mki/",
+      "Manufacturer": "Mainship",
+      "Model": "34",
+      "Variant": "Diesel Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MNSH-350-TR",
+      "CanonicalSlug": "mainship-350-trawler",
+      "CanonicalPath": "/models/mainship-350-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/mainship-350-trawler/",
+      "Manufacturer": "Mainship",
+      "Model": "350",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MNSH-390-TR",
+      "CanonicalSlug": "mainship-390-trawler",
+      "CanonicalPath": "/models/mainship-390-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/mainship-390-trawler/",
+      "Manufacturer": "Mainship",
+      "Model": "390",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MNSH-400-TR",
+      "CanonicalSlug": "mainship-400-400-trawler-41-expedition-414-trawler",
+      "CanonicalPath": "/models/mainship-400-400-trawler-41-expedition-414-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/mainship-400-400-trawler-41-expedition-414-trawler/",
+      "Manufacturer": "Mainship",
+      "Model": "400",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MTRA-34-EU",
+      "CanonicalSlug": "marine-trader-34-europa",
+      "CanonicalPath": "/models/marine-trader-34-europa/",
+      "CanonicalURL": "https://b-atlas.org/models/marine-trader-34-europa/",
+      "Manufacturer": "Marine Trader",
+      "Model": "34",
+      "Variant": "Europa",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MTRA-34-SE",
+      "CanonicalSlug": "marine-trader-34-sedan",
+      "CanonicalPath": "/models/marine-trader-34-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/marine-trader-34-sedan/",
+      "Manufacturer": "Marine Trader",
+      "Model": "34",
+      "Variant": "Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MRTR-36-DO",
+      "CanonicalSlug": "marine-trader-36-double-cabin-double-cabin",
+      "CanonicalPath": "/models/marine-trader-36-double-cabin-double-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/marine-trader-36-double-cabin-double-cabin/",
+      "Manufacturer": "Marine Trader",
+      "Model": "36",
+      "Variant": "Double Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MRTR-38-SD",
+      "CanonicalSlug": "marine-trader-38-double-cabin-double-cabin",
+      "CanonicalPath": "/models/marine-trader-38-double-cabin-double-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/marine-trader-38-double-cabin-double-cabin/",
+      "Manufacturer": "Marine Trader",
+      "Model": "38",
+      "Variant": "Double Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MRTR-38-SD2",
+      "CanonicalSlug": "marine-trader-38-sundeck-sundeck",
+      "CanonicalPath": "/models/marine-trader-38-sundeck-sundeck/",
+      "CanonicalURL": "https://b-atlas.org/models/marine-trader-38-sundeck-sundeck/",
+      "Manufacturer": "Marine Trader",
+      "Model": "38",
+      "Variant": "Sundeck",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MRTR-40-DC",
+      "CanonicalSlug": "marine-trader-40-double-cabin-double-cabin",
+      "CanonicalPath": "/models/marine-trader-40-double-cabin-double-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/marine-trader-40-double-cabin-double-cabin/",
+      "Manufacturer": "Marine Trader",
+      "Model": "40",
+      "Variant": "Double Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MRTR-44-TC",
+      "CanonicalSlug": "marine-trader-44-tri-cabin-tri-cabin",
+      "CanonicalPath": "/models/marine-trader-44-tri-cabin-tri-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/marine-trader-44-tri-cabin-tri-cabin/",
+      "Manufacturer": "Marine Trader",
+      "Model": "44",
+      "Variant": "Tri-Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MERI-341-SE",
+      "CanonicalSlug": "meridian-341-sedan-flybridge-sedan",
+      "CanonicalPath": "/models/meridian-341-sedan-flybridge-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/meridian-341-sedan-flybridge-sedan/",
+      "Manufacturer": "Meridian",
+      "Model": "341 Sedan",
+      "Variant": "Flybridge Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MERI-381-SE",
+      "CanonicalSlug": "meridian-381-sedan-flybridge-sedan",
+      "CanonicalPath": "/models/meridian-381-sedan-flybridge-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/meridian-381-sedan-flybridge-sedan/",
+      "Manufacturer": "Meridian",
+      "Model": "381 Sedan",
+      "Variant": "Flybridge Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MONK-36-TR",
+      "CanonicalSlug": "monk-36-trawler-aft-cabin-trawler",
+      "CanonicalPath": "/models/monk-36-trawler-aft-cabin-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/monk-36-trawler-aft-cabin-trawler/",
+      "Manufacturer": "Monk",
+      "Model": "36",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NMBL-24-NO",
+      "CanonicalSlug": "nimble-nomad-pocket-trawler",
+      "CanonicalPath": "/models/nimble-nomad-pocket-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/nimble-nomad-pocket-trawler/",
+      "Manufacturer": "Nimble",
+      "Model": "Nomad",
+      "Variant": "Pocket Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NMBL-32-WA",
+      "CanonicalSlug": "nimble-wanderer-power-cruiser-optional-motorsailer",
+      "CanonicalPath": "/models/nimble-wanderer-power-cruiser-optional-motorsailer/",
+      "CanonicalURL": "https://b-atlas.org/models/nimble-wanderer-power-cruiser-optional-motorsailer/",
+      "Manufacturer": "Nimble",
+      "Model": "Wanderer",
+      "Variant": "Power Cruiser / Optional Motorsailer",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NMBS-3003",
+      "CanonicalSlug": "nimbus-3003-aft-cabin-coup",
+      "CanonicalPath": "/models/nimbus-3003-aft-cabin-coup/",
+      "CanonicalURL": "https://b-atlas.org/models/nimbus-3003-aft-cabin-coup/",
+      "Manufacturer": "Nimbus",
+      "Model": "3003",
+      "Variant": "Aft-Cabin Coupé",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NMBS-365-CO",
+      "CanonicalSlug": "nimbus-365-coup-sidewalk-coup-cruiser",
+      "CanonicalPath": "/models/nimbus-365-coup-sidewalk-coup-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/nimbus-365-coup-sidewalk-coup-cruiser/",
+      "Manufacturer": "Nimbus",
+      "Model": "365 Coupé",
+      "Variant": "Sidewalk Coupé Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NDST-31P",
+      "CanonicalSlug": "nord-star-31-all-weather-pilothouse",
+      "CanonicalPath": "/models/nord-star-31-all-weather-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/nord-star-31-all-weather-pilothouse/",
+      "Manufacturer": "Nord Star",
+      "Model": "31+",
+      "Variant": "All-Weather Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NRDH-40",
+      "CanonicalSlug": "nordhavn-40-ocean-passagemaker",
+      "CanonicalPath": "/models/nordhavn-40-ocean-passagemaker/",
+      "CanonicalURL": "https://b-atlas.org/models/nordhavn-40-ocean-passagemaker/",
+      "Manufacturer": "Nordhavn",
+      "Model": "40",
+      "Variant": "Ocean Passagemaker",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NDTG-26",
+      "CanonicalSlug": "nordic-tugs-26",
+      "CanonicalPath": "/models/nordic-tugs-26/",
+      "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-26/",
+      "Manufacturer": "Nordic Tugs",
+      "Model": "26",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NDTG-32",
+      "CanonicalSlug": "nordic-tugs-32",
+      "CanonicalPath": "/models/nordic-tugs-32/",
+      "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-32/",
+      "Manufacturer": "Nordic Tugs",
+      "Model": "32",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NDTG-34",
+      "CanonicalSlug": "nordic-tugs-34",
+      "CanonicalPath": "/models/nordic-tugs-34/",
+      "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-34/",
+      "Manufacturer": "Nordic Tugs",
+      "Model": "34",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NDTG-37",
+      "CanonicalSlug": "nordic-tugs-37",
+      "CanonicalPath": "/models/nordic-tugs-37/",
+      "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-37/",
+      "Manufacturer": "Nordic Tugs",
+      "Model": "37",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NDTG-39",
+      "CanonicalSlug": "nordic-tugs-39",
+      "CanonicalPath": "/models/nordic-tugs-39/",
+      "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-39/",
+      "Manufacturer": "Nordic Tugs",
+      "Model": "39",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NDTG-42",
+      "CanonicalSlug": "nordic-tugs-42",
+      "CanonicalPath": "/models/nordic-tugs-42/",
+      "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-42/",
+      "Manufacturer": "Nordic Tugs",
+      "Model": "42",
+      "Variant": null,
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NPAC-28",
+      "CanonicalSlug": "north-pacific-28-pilothouse-pilothouse",
+      "CanonicalPath": "/models/north-pacific-28-pilothouse-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/north-pacific-28-pilothouse-pilothouse/",
+      "Manufacturer": "North Pacific",
+      "Model": "28 Pilothouse",
+      "Variant": "Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "NPAC-38",
+      "CanonicalSlug": "north-pacific-38-sedan-europa-sedan",
+      "CanonicalPath": "/models/north-pacific-38-sedan-europa-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/north-pacific-38-sedan-europa-sedan/",
+      "Manufacturer": "North Pacific",
+      "Model": "38 Sedan",
+      "Variant": "Europa Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "OCEA-36-SE",
+      "CanonicalSlug": "oceania-yachts-36-sedan-sedan-trawler",
+      "CanonicalPath": "/models/oceania-yachts-36-sedan-sedan-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/oceania-yachts-36-sedan-sedan-trawler/",
+      "Manufacturer": "Oceania Yachts",
+      "Model": "36 Sedan",
+      "Variant": "Sedan Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "OCAL-39-SE",
+      "CanonicalSlug": "ocean-alexander-39-sedan-flybridge-sedan",
+      "CanonicalPath": "/models/ocean-alexander-39-sedan-flybridge-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/ocean-alexander-39-sedan-flybridge-sedan/",
+      "Manufacturer": "Ocean Alexander",
+      "Model": "39 Sedan",
+      "Variant": "Flybridge Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "PDQB-34-PA",
+      "CanonicalSlug": "pdq-34-powercat-power-catamaran",
+      "CanonicalPath": "/models/pdq-34-powercat-power-catamaran/",
+      "CanonicalURL": "https://b-atlas.org/models/pdq-34-powercat-power-catamaran/",
+      "Manufacturer": "PDQ",
+      "Model": "34 PowerCat",
+      "Variant": "Power Catamaran",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "PRAI-29-TR",
+      "CanonicalSlug": "prairie-29-coastal-cruiser-coastal-cruiser",
+      "CanonicalPath": "/models/prairie-29-coastal-cruiser-coastal-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/prairie-29-coastal-cruiser-coastal-cruiser/",
+      "Manufacturer": "Prairie",
+      "Model": "29 Coastal Cruiser",
+      "Variant": "Coastal Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "PRAI-36-TR",
+      "CanonicalSlug": "prairie-36-coastal-cruiser-double-cabin",
+      "CanonicalPath": "/models/prairie-36-coastal-cruiser-double-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/prairie-36-coastal-cruiser-double-cabin/",
+      "Manufacturer": "Prairie",
+      "Model": "36 Coastal Cruiser",
+      "Variant": "Double Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-21-CLASSIC",
+      "CanonicalSlug": "ranger-tugs-r-21-classic-diesel",
+      "CanonicalPath": "/models/ranger-tugs-r-21-classic-diesel/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-21-classic-diesel/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-21",
+      "Variant": "Classic diesel",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-21-EC",
+      "CanonicalSlug": "ranger-tugs-r-21-ec-diesel",
+      "CanonicalPath": "/models/ranger-tugs-r-21-ec-diesel/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-21-ec-diesel/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-21",
+      "Variant": "EC diesel",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-R-23",
+      "CanonicalSlug": "ranger-tugs-r-23-current-outboard",
+      "CanonicalPath": "/models/ranger-tugs-r-23-current-outboard/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-23-current-outboard/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-23",
+      "Variant": "Current outboard",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-25-CLASSIC",
+      "CanonicalSlug": "ranger-tugs-r-25-classic-diesel",
+      "CanonicalPath": "/models/ranger-tugs-r-25-classic-diesel/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-25-classic-diesel/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-25",
+      "Variant": "Classic diesel",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-R-25",
+      "CanonicalSlug": "ranger-tugs-r-25-current-outboard",
+      "CanonicalPath": "/models/ranger-tugs-r-25-current-outboard/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-25-current-outboard/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-25",
+      "Variant": "Current outboard",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-25-SC",
+      "CanonicalSlug": "ranger-tugs-r-25-sc-diesel",
+      "CanonicalPath": "/models/ranger-tugs-r-25-sc-diesel/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-25-sc-diesel/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-25",
+      "Variant": "SC diesel",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-27-RT",
+      "CanonicalSlug": "ranger-tugs-r-27-classic-diesel",
+      "CanonicalPath": "/models/ranger-tugs-r-27-classic-diesel/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-27-classic-diesel/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-27",
+      "Variant": "Classic diesel",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-R-27",
+      "CanonicalSlug": "ranger-tugs-r-27-current-twin-outboard",
+      "CanonicalPath": "/models/ranger-tugs-r-27-current-twin-outboard/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-27-current-twin-outboard/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-27",
+      "Variant": "Current twin-outboard",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-27-OB",
+      "CanonicalSlug": "ranger-tugs-r-27-single-outboard-nw-le",
+      "CanonicalPath": "/models/ranger-tugs-r-27-single-outboard-nw-le/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-27-single-outboard-nw-le/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-27",
+      "Variant": "Single-outboard NW/LE",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-29-CLASSIC",
+      "CanonicalSlug": "ranger-tugs-r-29-classic-diesel",
+      "CanonicalPath": "/models/ranger-tugs-r-29-classic-diesel/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-29-classic-diesel/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-29",
+      "Variant": "Classic diesel",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-29-CB",
+      "CanonicalSlug": "ranger-tugs-r-29-cb-command-bridge",
+      "CanonicalPath": "/models/ranger-tugs-r-29-cb-command-bridge/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-29-cb-command-bridge/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-29 CB",
+      "Variant": "Command Bridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-R-29",
+      "CanonicalSlug": "ranger-tugs-r-29-s-sedan",
+      "CanonicalPath": "/models/ranger-tugs-r-29-s-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-29-s-sedan/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-29 S",
+      "Variant": "Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-31-CB",
+      "CanonicalSlug": "ranger-tugs-r-31-cb-command-bridge",
+      "CanonicalPath": "/models/ranger-tugs-r-31-cb-command-bridge/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-31-cb-command-bridge/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-31 CB",
+      "Variant": "Command Bridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-R-31",
+      "CanonicalSlug": "ranger-tugs-r-31-s-sedan",
+      "CanonicalPath": "/models/ranger-tugs-r-31-s-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-31-s-sedan/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-31 S",
+      "Variant": "Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-43-CB",
+      "CanonicalSlug": "ranger-tugs-r-43-cb-command-bridge",
+      "CanonicalPath": "/models/ranger-tugs-r-43-cb-command-bridge/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-43-cb-command-bridge/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-43 CB",
+      "Variant": "Command Bridge",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "RNGR-43-S",
+      "CanonicalSlug": "ranger-tugs-r-43-s-sedan",
+      "CanonicalPath": "/models/ranger-tugs-r-43-s-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-43-s-sedan/",
+      "Manufacturer": "Ranger Tugs",
+      "Model": "R-43 S",
+      "Variant": "Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ROSB-246-WH",
+      "CanonicalSlug": "rosborough-rf-246-custom-wheelhouse",
+      "CanonicalPath": "/models/rosborough-rf-246-custom-wheelhouse/",
+      "CanonicalURL": "https://b-atlas.org/models/rosborough-rf-246-custom-wheelhouse/",
+      "Manufacturer": "Rosborough",
+      "Model": "RF-246",
+      "Variant": "Custom Wheelhouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ROSB-246-LS",
+      "CanonicalSlug": "rosborough-rf-246-legacy-sedan-cruiser-diesel",
+      "CanonicalPath": "/models/rosborough-rf-246-legacy-sedan-cruiser-diesel/",
+      "CanonicalURL": "https://b-atlas.org/models/rosborough-rf-246-legacy-sedan-cruiser-diesel/",
+      "Manufacturer": "Rosborough",
+      "Model": "RF-246",
+      "Variant": "Legacy Sedan Cruiser Diesel",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "ROSB-246",
+      "CanonicalSlug": "rosborough-246-yarmouth",
+      "CanonicalPath": "/models/rosborough-246-yarmouth/",
+      "CanonicalURL": "https://b-atlas.org/models/rosborough-246-yarmouth/",
+      "Manufacturer": "Rosborough",
+      "Model": "246",
+      "Variant": "Yarmouth",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SABR-34-EX",
+      "CanonicalSlug": "sabre-34-express-hardtop-express",
+      "CanonicalPath": "/models/sabre-34-express-hardtop-express/",
+      "CanonicalURL": "https://b-atlas.org/models/sabre-34-express-hardtop-express/",
+      "Manufacturer": "Sabre",
+      "Model": "34",
+      "Variant": "Hard Top Express",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SABR-38-SA",
+      "CanonicalSlug": "sabre-38-salon-express-salon-express",
+      "CanonicalPath": "/models/sabre-38-salon-express-salon-express/",
+      "CanonicalURL": "https://b-atlas.org/models/sabre-38-salon-express-salon-express/",
+      "Manufacturer": "Sabre",
+      "Model": "38 Salon Express",
+      "Variant": "Salon Express",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SAGA-26-HT",
+      "CanonicalSlug": "saga-26-ht-hardtop-cruiser",
+      "CanonicalPath": "/models/saga-26-ht-hardtop-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/saga-26-ht-hardtop-cruiser/",
+      "Manufacturer": "Saga",
+      "Model": "26 HT",
+      "Variant": "Hardtop Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SEAR-340-SU",
+      "CanonicalSlug": "sea-ray-340-sundancer-multi-generation-express-cruiser",
+      "CanonicalPath": "/models/sea-ray-340-sundancer-multi-generation-express-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/sea-ray-340-sundancer-multi-generation-express-cruiser/",
+      "Manufacturer": "Sea Ray",
+      "Model": "340 Sundancer",
+      "Variant": "Generation 1",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SEAR-390-MO",
+      "CanonicalSlug": "sea-ray-390-40-motor-yacht-flush-deck-motor-yacht",
+      "CanonicalPath": "/models/sea-ray-390-40-motor-yacht-flush-deck-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/sea-ray-390-40-motor-yacht-flush-deck-motor-yacht/",
+      "Manufacturer": "Sea Ray",
+      "Model": "390 / 40 Motor Yacht",
+      "Variant": "Flush-Deck Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SEAH-35-PH",
+      "CanonicalSlug": "seahorse-coot-35-steel-pocket-trawler",
+      "CanonicalPath": "/models/seahorse-coot-35-steel-pocket-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/seahorse-coot-35-steel-pocket-trawler/",
+      "Manufacturer": "Seahorse",
+      "Model": "Coot 35",
+      "Variant": "Steel Pocket Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SEAH-38-CO",
+      "CanonicalSlug": "seahorse-coot-38-steel-pocket-trawler",
+      "CanonicalPath": "/models/seahorse-coot-38-steel-pocket-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/seahorse-coot-38-steel-pocket-trawler/",
+      "Manufacturer": "Seahorse",
+      "Model": "Coot 38",
+      "Variant": "Steel Pocket Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SEAL-34-TC",
+      "CanonicalSlug": "sealord-34-double-cabin-trawler-tri-cabin-double-cabin",
+      "CanonicalPath": "/models/sealord-34-double-cabin-trawler-tri-cabin-double-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/sealord-34-double-cabin-trawler-tri-cabin-double-cabin/",
+      "Manufacturer": "Sealord",
+      "Model": "34 Double Cabin Trawler",
+      "Variant": "Tri-Cabin / Double Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SEAP-35",
+      "CanonicalSlug": "seapiper-35-narrow-beam-long-range-cruiser",
+      "CanonicalPath": "/models/seapiper-35-narrow-beam-long-range-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/seapiper-35-narrow-beam-long-range-cruiser/",
+      "Manufacturer": "SeaPiper",
+      "Model": "35",
+      "Variant": "Narrow-Beam Long-Range Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SSPT-24",
+      "CanonicalSlug": "sea-sport-xl-2400-long-cockpit-pilothouse",
+      "CanonicalPath": "/models/sea-sport-xl-2400-long-cockpit-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/sea-sport-xl-2400-long-cockpit-pilothouse/",
+      "Manufacturer": "Sea Sport",
+      "Model": "XL 2400",
+      "Variant": "Long-Cockpit Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SSPT-24-EX",
+      "CanonicalSlug": "sea-sport-explorer-2400-long-cabin-pilothouse",
+      "CanonicalPath": "/models/sea-sport-explorer-2400-long-cabin-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/sea-sport-explorer-2400-long-cabin-pilothouse/",
+      "Manufacturer": "Sea Sport",
+      "Model": "Explorer 2400",
+      "Variant": "Long-Cabin Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SSPT-27",
+      "CanonicalSlug": "sea-sport-27-seamaster-navigator-pilot",
+      "CanonicalPath": "/models/sea-sport-27-seamaster-navigator-pilot/",
+      "CanonicalURL": "https://b-atlas.org/models/sea-sport-27-seamaster-navigator-pilot/",
+      "Manufacturer": "Sea Sport",
+      "Model": "27",
+      "Variant": "Seamaster / Navigator / Pilot",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SEAW-24-ST",
+      "CanonicalSlug": "seaway-24-sport-trawler",
+      "CanonicalPath": "/models/seaway-24-sport-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/seaway-24-sport-trawler/",
+      "Manufacturer": "Seaway",
+      "Model": "24",
+      "Variant": "Sport Trawler / Coastal Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SEAW-28-CC",
+      "CanonicalSlug": "seaway-28-coastal-cruiser-coastal-cruiser",
+      "CanonicalPath": "/models/seaway-28-coastal-cruiser-coastal-cruiser/",
+      "CanonicalURL": "https://b-atlas.org/models/seaway-28-coastal-cruiser-coastal-cruiser/",
+      "Manufacturer": "Seaway",
+      "Model": "28 Coastal Cruiser",
+      "Variant": "Coastal Cruiser",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SHAN-38-SRD",
+      "CanonicalSlug": "shannon-38-srd-schulz-reverse-deadrise",
+      "CanonicalPath": "/models/shannon-38-srd-schulz-reverse-deadrise/",
+      "CanonicalURL": "https://b-atlas.org/models/shannon-38-srd-schulz-reverse-deadrise/",
+      "Manufacturer": "Shannon",
+      "Model": "38 SRD",
+      "Variant": "Schulz Reverse Deadrise",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SILV-34-MO",
+      "CanonicalSlug": "silverton-34-motor-yacht-aft-cabin-motor-yacht",
+      "CanonicalPath": "/models/silverton-34-motor-yacht-aft-cabin-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/silverton-34-motor-yacht-aft-cabin-motor-yacht/",
+      "Manufacturer": "Silverton",
+      "Model": "34 Motor Yacht",
+      "Variant": "Aft Cabin Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SILV-352-MO",
+      "CanonicalSlug": "silverton-352-motor-yacht-sidewalk-motor-yacht",
+      "CanonicalPath": "/models/silverton-352-motor-yacht-sidewalk-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/silverton-352-motor-yacht-sidewalk-motor-yacht/",
+      "Manufacturer": "Silverton",
+      "Model": "352 Motor Yacht",
+      "Variant": "SideWalk Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SILV-372",
+      "CanonicalSlug": "silverton-372-392-motor-yacht-sidewalk-motor-yacht",
+      "CanonicalPath": "/models/silverton-372-392-motor-yacht-sidewalk-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/silverton-372-392-motor-yacht-sidewalk-motor-yacht/",
+      "Manufacturer": "Silverton",
+      "Model": "372 / 392 Motor Yacht",
+      "Variant": "SideWalk Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SILV-40-AC",
+      "CanonicalSlug": "silverton-40-aft-cabin-double-cabin-motor-yacht",
+      "CanonicalPath": "/models/silverton-40-aft-cabin-double-cabin-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/silverton-40-aft-cabin-double-cabin-motor-yacht/",
+      "Manufacturer": "Silverton",
+      "Model": "40 Aft Cabin",
+      "Variant": "Double Cabin Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SISU-22-CO",
+      "CanonicalSlug": "sisu-22-bass-boat-lobsterboat",
+      "CanonicalPath": "/models/sisu-22-bass-boat-lobsterboat/",
+      "CanonicalURL": "https://b-atlas.org/models/sisu-22-bass-boat-lobsterboat/",
+      "Manufacturer": "Sisu",
+      "Model": "22",
+      "Variant": "Bass Boat / Lobsterboat",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SISU-26-BA",
+      "CanonicalSlug": "sisu-26-bass-boat-sedan-lobsterboat",
+      "CanonicalPath": "/models/sisu-26-bass-boat-sedan-lobsterboat/",
+      "CanonicalURL": "https://b-atlas.org/models/sisu-26-bass-boat-sedan-lobsterboat/",
+      "Manufacturer": "Sisu",
+      "Model": "26",
+      "Variant": "Bass Boat / Sedan / Lobsterboat",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "TOLL-34-SE",
+      "CanonicalSlug": "tollycraft-34-sport-sedan-sport-sedan",
+      "CanonicalPath": "/models/tollycraft-34-sport-sedan-sport-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/tollycraft-34-sport-sedan-sport-sedan/",
+      "Manufacturer": "Tollycraft",
+      "Model": "34 Sport Sedan",
+      "Variant": "Sport Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "TOLL-37-SE",
+      "CanonicalSlug": "tollycraft-37-sedan-flybridge-sedan",
+      "CanonicalPath": "/models/tollycraft-37-sedan-flybridge-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/tollycraft-37-sedan-flybridge-sedan/",
+      "Manufacturer": "Tollycraft",
+      "Model": "37 Sedan",
+      "Variant": "Flybridge Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "TPMC-32-EA",
+      "CanonicalSlug": "transpacific-marine-eagle-32-pilothouse-transpacific-marine-trawler",
+      "CanonicalPath": "/models/transpacific-marine-eagle-32-pilothouse-transpacific-marine-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/transpacific-marine-eagle-32-pilothouse-transpacific-marine-trawler/",
+      "Manufacturer": "Transpacific Marine",
+      "Model": "Eagle 32",
+      "Variant": "Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "TROJ-36-TR",
+      "CanonicalSlug": "trojan-f-36-tri-cabin-tri-cabin-motor-yacht",
+      "CanonicalPath": "/models/trojan-f-36-tri-cabin-tri-cabin-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/trojan-f-36-tri-cabin-tri-cabin-motor-yacht/",
+      "Manufacturer": "Trojan",
+      "Model": "F-36 Tri-Cabin",
+      "Variant": "Tri-Cabin Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "TRUN-34",
+      "CanonicalSlug": "true-north-34-original-diesel-inboard",
+      "CanonicalPath": "/models/true-north-34-original-diesel-inboard/",
+      "CanonicalURL": "https://b-atlas.org/models/true-north-34-original-diesel-inboard/",
+      "Manufacturer": "True North",
+      "Model": "34",
+      "Variant": "Original Diesel / Inboard",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "UNIF-36-DO",
+      "CanonicalSlug": "uniflite-36-double-cabin-aft-cabin-motor-yacht",
+      "CanonicalPath": "/models/uniflite-36-double-cabin-aft-cabin-motor-yacht/",
+      "CanonicalURL": "https://b-atlas.org/models/uniflite-36-double-cabin-aft-cabin-motor-yacht/",
+      "Manufacturer": "Uniflite",
+      "Model": "36 Double Cabin",
+      "Variant": "Aft Cabin Motor Yacht",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "UNIV-36-TR",
+      "CanonicalSlug": "universal-36-tri-cabin-trawler-tri-cabin",
+      "CanonicalPath": "/models/universal-36-tri-cabin-trawler-tri-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/universal-36-tri-cabin-trawler-tri-cabin/",
+      "Manufacturer": "Universal",
+      "Model": "36 Tri-Cabin Trawler",
+      "Variant": "Tri-Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "UNIV-40-TR",
+      "CanonicalSlug": "universal-40-europa-europa-trawler",
+      "CanonicalPath": "/models/universal-40-europa-europa-trawler/",
+      "CanonicalURL": "https://b-atlas.org/models/universal-40-europa-europa-trawler/",
+      "Manufacturer": "Universal",
+      "Model": "40 Europa",
+      "Variant": "Europa / Sedan Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "WILL-30-VO",
+      "CanonicalSlug": "willard-vega-30-voyager-raised-pilothouse",
+      "CanonicalPath": "/models/willard-vega-30-voyager-raised-pilothouse/",
+      "CanonicalURL": "https://b-atlas.org/models/willard-vega-30-voyager-raised-pilothouse/",
+      "Manufacturer": "Willard",
+      "Model": "Vega 30 Voyager",
+      "Variant": "Raised Pilothouse",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "WILL-36-TR",
+      "CanonicalSlug": "willard-vega-36-standard-cruiser-flybridge-sedan",
+      "CanonicalPath": "/models/willard-vega-36-standard-cruiser-flybridge-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/willard-vega-36-standard-cruiser-flybridge-sedan/",
+      "Manufacturer": "Willard",
+      "Model": "Vega 36 Standard Cruiser",
+      "Variant": "Flybridge Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "WILL-40-NO",
+      "CanonicalSlug": "willard-vega-40-nomad-widebody-flybridge-sedan",
+      "CanonicalPath": "/models/willard-vega-40-nomad-widebody-flybridge-sedan/",
+      "CanonicalURL": "https://b-atlas.org/models/willard-vega-40-nomad-widebody-flybridge-sedan/",
+      "Manufacturer": "Willard",
+      "Model": "Vega 40 Nomad",
+      "Variant": "Widebody Flybridge Sedan",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "WIND-26-SN",
+      "CanonicalSlug": "windy-26-sn-norwegian-pocket-trawler-snekke",
+      "CanonicalPath": "/models/windy-26-sn-norwegian-pocket-trawler-snekke/",
+      "CanonicalURL": "https://b-atlas.org/models/windy-26-sn-norwegian-pocket-trawler-snekke/",
+      "Manufacturer": "Windy",
+      "Model": "26 Snekke",
+      "Variant": "26 SN / Norwegian Snekke",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MNSH-34-MK3",
+      "CanonicalSlug": "mainship-34-mkiii",
+      "CanonicalPath": "/models/mainship-34-mkiii/",
+      "CanonicalURL": "https://b-atlas.org/models/mainship-34-mkiii/",
+      "Manufacturer": "Mainship",
+      "Model": "34",
+      "Variant": "III",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MNSH-34-TR",
+      "CanonicalSlug": "mainship-34t",
+      "CanonicalPath": "/models/mainship-34t/",
+      "CanonicalURL": "https://b-atlas.org/models/mainship-34t/",
+      "Manufacturer": "Mainship",
+      "Model": "34",
+      "Variant": "Trawler",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "KDKR-44-AE",
+      "CanonicalSlug": "kadey-krogen-44-ae-advanced-ergonomics",
+      "CanonicalPath": "/models/kadey-krogen-44-ae-advanced-ergonomics/",
+      "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-44-ae-advanced-ergonomics/",
+      "Manufacturer": "Kadey-Krogen",
+      "Model": "44 AE",
+      "Variant": "Advanced Ergonomics",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "MERI-341-SE-03",
+      "CanonicalSlug": "meridian-341-sedan-original-generation-bayliner-3488-lineage",
+      "CanonicalPath": "/models/meridian-341-sedan-original-generation-bayliner-3488-lineage/",
+      "CanonicalURL": "https://b-atlas.org/models/meridian-341-sedan-original-generation-bayliner-3488-lineage/",
+      "Manufacturer": "Meridian",
+      "Model": "341 Sedan",
+      "Variant": "Original Generation / Bayliner 3488 lineage",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "BENE-ANT-9-S2",
+      "CanonicalSlug": "beneteau-antares-9-generation-2",
+      "CanonicalPath": "/models/beneteau-antares-9-generation-2/",
+      "CanonicalURL": "https://b-atlas.org/models/beneteau-antares-9-generation-2/",
+      "Manufacturer": "Beneteau",
+      "Model": "Antares 9",
+      "Variant": "Generation 2",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "CRUY-3260",
+      "CanonicalSlug": "cruisers-yachts-3260-esprit-open-interior-no-mid-cabin",
+      "CanonicalPath": "/models/cruisers-yachts-3260-esprit-open-interior-no-mid-cabin/",
+      "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3260-esprit-open-interior-no-mid-cabin/",
+      "Manufacturer": "Cruisers Yachts",
+      "Model": "3260 Esprit",
+      "Variant": "Open Interior / No Mid-Cabin",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SEAR-340-SU-99",
+      "CanonicalSlug": "sea-ray-340-sundancer-generation-2",
+      "CanonicalPath": "/models/sea-ray-340-sundancer-generation-2/",
+      "CanonicalURL": "https://b-atlas.org/models/sea-ray-340-sundancer-generation-2/",
+      "Manufacturer": "Sea Ray",
+      "Model": "340 Sundancer",
+      "Variant": "Generation 2",
+      "LegacySlugs": []
+    },
+    {
+      "BoatModelID": "SEAR-340-SU-03",
+      "CanonicalSlug": "sea-ray-340-sundancer-generation-3",
+      "CanonicalPath": "/models/sea-ray-340-sundancer-generation-3/",
+      "CanonicalURL": "https://b-atlas.org/models/sea-ray-340-sundancer-generation-3/",
+      "Manufacturer": "Sea Ray",
+      "Model": "340 Sundancer",
+      "Variant": "Generation 3",
+      "LegacySlugs": []
+    }
+  ]
+}

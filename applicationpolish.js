@@ -20,10 +20,19 @@
             <p>No account or cloud synchronization is active in this build. Clearing browser storage or changing browsers/devices may remove locally saved work. Community contributions are separate and are submitted only when a user deliberately chooses to contribute.</p>`
     };
 
+    function viewURL(view, extra = {}) {
+        if (view === "guide" && extra.url) return extra.url;
+        if (view === "guided") return "/#find-your-boat";
+        if (view === "discover") return "/#boat-models";
+        if (view === "contribute") return "/#help-build-b-atlas";
+        if (view === "home") return "/";
+        return undefined;
+    }
     function updateHistory(view, extra = {}, replace = false) {
         const state = Object.assign({ bscoutView: view }, extra);
         const method = replace ? "replaceState" : "pushState";
-        if (window.history?.[method]) window.history[method](state, "");
+        const url = viewURL(view, extra);
+        if (window.history?.[method]) window.history[method](state, "", url);
     }
 
 
@@ -450,9 +459,19 @@
     document.getElementById("closeModal")?.addEventListener("click", () => showDiscover());
     document.getElementById("closeInformationModal")?.addEventListener("click", () => closeModal("informationModal"));
 
-    if (!window.history.state?.bscoutView) updateHistory("home", {}, true);
+    if (!window.history.state?.bscoutView) {
+        const requestedModel = new URLSearchParams(window.location.search).get("model");
+        if (requestedModel) window.history.replaceState({ bscoutView:"guide", boatModelId:requestedModel, pendingDeepLink:true }, "", window.location.href);
+        else updateHistory("home", {}, true);
+    }
     window.addEventListener("popstate", event => {
         const state = event.state || { bscoutView: "home" };
+        if (state.bscoutView === "guide") {
+            const boats = (typeof allBoats !== "undefined" && Array.isArray(allBoats)) ? allBoats : [];
+            const boat = boats.find(item => String(item.BoatModelID) === String(state.boatModelId || ""));
+            if (boat && window.BScoutBoatWorkspace?.open) window.BScoutBoatWorkspace.open(boat, state.tab || "research", { history: false });
+            return;
+        }
         if (state.bscoutView === "contribute") {
             window.BScoutContributions?.openGlobal({ history: false });
             return;

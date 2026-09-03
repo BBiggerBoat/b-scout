@@ -3183,3 +3183,6 @@ body{padding-top:82px!important;}
 body{padding-top:82px!important;}
 @media(max-width:980px){body{padding-top:76px!important;}}
 @media(max-width:760px){.site-header{position:sticky!important;}body{padding-top:0!important;}}
+
+/* v6.69 Model Guide sharing */
+.boat-guide-heading-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.guide-share-wrap{position:relative;display:inline-flex}.guide-share-action{background:#fff;color:#0e4f79;border:1px solid #9fb9ca;border-radius:7px;padding:10px 16px;font-weight:700;cursor:pointer}.guide-share-action:hover,.guide-share-action:focus-visible{border-color:#146ca4;background:#f7fbfd}.guide-share-menu{position:absolute;z-index:120;top:calc(100% + 7px);left:0;min-width:210px;background:#fff;border:1px solid #cbd9e2;border-radius:8px;box-shadow:0 10px 28px rgba(15,42,60,.14);padding:6px}.guide-share-menu[hidden]{display:none}.guide-share-menu button{display:block;width:100%;border:0;background:transparent;text-align:left;padding:9px 10px;border-radius:5px;color:#102536;font:inherit;cursor:pointer}.guide-share-menu button:hover,.guide-share-menu button:focus-visible{background:#eef5f9}.guide-share-menu button+button{margin-top:1px}

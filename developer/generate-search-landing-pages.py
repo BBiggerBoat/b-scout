@@ -41,7 +41,7 @@ def name(m):
     return ' '.join(str(x).strip() for x in parts if str(x or '').strip())
 
 def model_slug(m):
-    return slugify(name(m))
+    return str(m.get('CanonicalSlug') or '').strip() or slugify(name(m))
 
 def num(m,*keys):
     for k in keys:
@@ -75,6 +75,29 @@ def fmt(v, suffix=''):
     if v is None: return 'Unknown'
     if abs(v-round(v))<1e-8: return f'{int(round(v))}{suffix}'
     return f'{v:.2f}'.rstrip('0').rstrip('.')+suffix
+
+
+def fmt_length_dual(m, canonical_key, *legacy_ft_keys):
+    metres=None
+    v=m.get(canonical_key)
+    if isinstance(v,(int,float)):
+        metres=float(v)
+    elif v not in (None,''):
+        try: metres=float(v)
+        except Exception: metres=None
+    if metres is None:
+        for key in legacy_ft_keys:
+            raw=m.get(key)
+            try:
+                if raw not in (None,''):
+                    metres=float(raw)/FT_PER_M; break
+            except Exception: pass
+    if metres is None: return 'Unknown'
+    total_inches=round(metres*FT_PER_M*12)
+    feet=total_inches//12; inches=total_inches%12
+    imp=f"{feet}′" + (f" {inches}″" if inches else '')
+    metric=f"{metres:.2f}".rstrip('0').rstrip('.')+' m'
+    return f"{imp} / {metric}"
 
 def bool_yes(v): return v is True or str(v).strip().lower() in ('yes','true','1')
 def diesel(m): return 'diesel' in text(m,'NormalizedFuel','Fuel').lower()
@@ -117,13 +140,14 @@ STYLE='''
 :root{font-family:Arial,Helvetica,sans-serif;color:#16202a;background:#f5f7f8}*{box-sizing:border-box}body{margin:0}header,main,footer{max-width:1080px;margin:auto;padding:20px}header{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}a{color:#174e70}.brand{font-weight:800;text-decoration:none;color:#16202a;font-size:1.25rem}.hero,section,.card{background:#fff;border:1px solid #dce2e5;border-radius:12px}.hero{padding:24px;margin-bottom:18px}.eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:.75rem;color:#5c6973}h1{margin:.2rem 0 .5rem;font-size:clamp(2rem,4vw,3.1rem);line-height:1.06}h2{margin:.2rem 0 .8rem}h3{margin:.1rem 0 .4rem}p,li{line-height:1.55}.muted,.note{color:#626d75}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.card{padding:15px}.card a{font-weight:700}.specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:9px;margin:16px 0}.specs div{background:#fff;border:1px solid #dce2e5;border-radius:9px;padding:11px}dt{font-size:.77rem;color:#65717a}dd{margin:4px 0 0;font-weight:650}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.chip{display:inline-block;background:#eef3f5;border:1px solid #d8e1e5;border-radius:999px;padding:6px 10px;text-decoration:none;font-size:.9rem}.cta{display:inline-block;background:#143f56;color:#fff;text-decoration:none;padding:10px 15px;border-radius:8px;font-weight:700}section{padding:18px 22px;margin:16px 0}.compare{width:100%;border-collapse:collapse}.compare th,.compare td{text-align:left;padding:9px;border-bottom:1px solid #e2e7e9;vertical-align:top}.compare th:first-child{width:24%}.crumbs{font-size:.9rem;color:#65717a}.hero-img{max-width:360px;width:100%;max-height:260px;object-fit:cover;border-radius:10px}.hero-model{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(220px,.7fr);gap:22px}.model-list{columns:2;column-gap:28px}.model-list li{break-inside:avoid;margin:.45rem 0}footer{font-size:.9rem;color:#65717a}@media(max-width:700px){.hero-model{grid-template-columns:1fr}.model-list{columns:1}.compare{font-size:.9rem}}
 '''
 
-def head(title, desc, url, about=None):
+def head(title, desc, url, about=None, image=None):
     ld={"@context":"https://schema.org","@type":"WebPage","name":title,"url":url,"description":desc,"isPartOf":{"@type":"WebSite","name":"B-Atlas","url":BASE}}
     if about: ld['about']={"@type":"Thing","name":about}
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><meta name="robots" content="index, follow"><link rel="canonical" href="{esc(url)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:type" content="article"><meta property="og:url" content="{esc(url)}"><script type="application/ld+json">{json.dumps(ld,ensure_ascii=False)}</script><style>{STYLE}</style></head><body>'''
+    image_meta = f'<meta property="og:image" content="{esc(image)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{esc(image)}">' if image else '<meta name="twitter:card" content="summary">'
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><meta name="robots" content="index, follow"><link rel="canonical" href="{esc(url)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:type" content="article"><meta property="og:url" content="{esc(url)}">{image_meta}<meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}"><script type="application/ld+json">{json.dumps(ld,ensure_ascii=False)}</script><style>{STYLE}</style></head><body>'''
 
 def shell_open(crumb=''):
-    return f'<header><a class="brand" href="../../">B-Atlas</a><nav><a href="../../models/">Model Guides</a> · <a href="../../manufacturers/">Manufacturers</a> · <a href="../../boats/">Find by Criteria</a> · <a href="../../compare/">Compare</a></nav></header><main>{crumb}'
+    return f'<header><a class="brand" href="../../">B-Atlas</a><nav><a href="../../">Home</a> · <a href="../../#find-your-boat">Find Your Boat</a> · <a href="../../models/">Boat Models</a> · <a href="../../#saved-models">Saved Models</a> · <a href="../../#help-build-b-atlas">Help Build B-Atlas</a> · <a href="../../#about">About</a></nav></header><main>{crumb}'
 def shell_close():
     return '</main><footer><a href="../../">B-Atlas — Boat knowledge for better decisions</a><br><span>Known undesirable information eliminates. Missing information stays and reduces confidence.</span></footer></body></html>'
 
@@ -281,7 +305,7 @@ for m in models:
     desc=trunc(f'{nm}: specs, dimensions, hull and propulsion data, buyer trade-offs, inspection focus and model-specific concerns where evidence exists.')
     url=f'{BASE}models/{slug}/'
     specs=[]
-    for lab,v in [('LOA',fmt(num(m,'LengthFt','LOA_ft'),' ft')),('LWL',fmt(num(m,'LWL_ft'),' ft')),('Beam',fmt(num(m,'BeamFt','Beam_ft'),' ft')),('Draft',fmt(num(m,'DraftFt','Draft_ft'),' ft')),('Hull behaviour',text(m,'HullBehaviour','NormalizedHullType','HullType') or 'Unknown'),('Fuel',text(m,'NormalizedFuel','Fuel') or 'Unknown'),('Propulsion',text(m,'NormalizedPropulsion','Propulsion') or 'Unknown'),('Engine configuration',text(m,'EngineConfiguration') or 'Unknown'),('Boat family',text(m,'BoatFamily','NormalizedStyle','Style') or 'Unknown'),('Construction',text(m,'Construction') or 'Unknown')]:
+    for lab,v in [('LOA',fmt_length_dual(m,'LOA','LOA_ft','LengthFt')),('LWL',fmt_length_dual(m,'LWL','LWL_ft')),('Beam',fmt_length_dual(m,'Beam','Beam_ft','BeamFt')),('Draft',fmt_length_dual(m,'Draft','Draft_ft','DraftFt')),('Hull behaviour',text(m,'HullBehaviour','NormalizedHullType','HullType') or 'Unknown'),('Fuel',text(m,'NormalizedFuel','Fuel') or 'Unknown'),('Propulsion',text(m,'NormalizedPropulsion','Propulsion') or 'Unknown'),('Engine configuration',text(m,'EngineConfiguration') or 'Unknown'),('Boat family',text(m,'BoatFamily','NormalizedStyle','Style') or 'Unknown'),('Construction',text(m,'Construction') or 'Unknown')]:
         specs.append(f'<div><dt>{esc(lab)}</dt><dd>{esc(v)}</dd></div>')
     img=m.get('ImageURL')
     img_html=f'<img class="hero-img" src="../../{esc(img)}" alt="{esc(nm)}" loading="eager">' if img else ''
@@ -315,7 +339,8 @@ for m in models:
         if len(nav)>=4: break
     for cslug,other in comparison_links.get(mid,[])[:2]: nav.append(f'<a class="chip" href="../../compare/{cslug}/">Compare with {esc(other)}</a>')
     concern_sec=sec('Known concerns',concerns,'No model-specific concern has been promoted to B-Atlas’s evidence threshold. This does not mean the model has no age-, condition- or hull-specific risks.')
-    body=head(title,desc,url,nm)+shell_open(f'<p class="crumbs"><a href="../../">Home</a> › <a href="../">Model Guides</a> › {esc(nm)}</p>')+f'<article><div class="hero hero-model"><div><div class="eyebrow">B-Atlas Boat Guide · {esc(mid)}</div><h1>{esc(nm)}</h1><p><strong>{esc(year_text(m))}</strong></p><p>{esc(overview)}</p><p><a class="cta" href="../../?model={esc(mid)}">Open full interactive guide</a></p></div>{img_html}</div><dl class="specs">{"".join(specs)}</dl>{sec("Best for",m.get("BestFor") or m.get("Strengths"))}{sec("Trade-offs",m.get("TradeOffs") or m.get("Weaknesses"))}{concern_sec}{sec("Inspection focus",m.get("InspectionFocus") or m.get("CommonProblems"))}<section><h2>Continue researching</h2><div class="chips">{"".join(nav)}</div></section><section><h2>Related boat models</h2><div class="grid">{rel_cards}</div></section><section><h2>About this record</h2><p>B-Atlas preserves uncertainty: missing information remains unknown rather than being treated as a negative. Specifications and guidance describe the model record; individual boats can differ by year, equipment, refit and condition.</p></section></article>'+shell_close()
+    social_img=(BASE+str(img).lstrip('/')) if img else None
+    body=head(title,desc,url,nm,social_img)+shell_open(f'<p class="crumbs"><a href="../../">Home</a> › <a href="../">Model Guides</a> › {esc(nm)}</p>')+f'<article><div class="hero hero-model"><div><div class="eyebrow">B-Atlas Boat Guide · {esc(mid)}</div><h1>{esc(nm)}</h1><p><strong>{esc(year_text(m))}</strong></p><p>{esc(overview)}</p><p><a class="cta" href="../../?model={esc(mid)}">Open full interactive guide</a></p></div>{img_html}</div><dl class="specs">{"".join(specs)}</dl>{sec("Best for",m.get("BestFor") or m.get("Strengths"))}{sec("Trade-offs",m.get("TradeOffs") or m.get("Weaknesses"))}{concern_sec}{sec("Inspection focus",m.get("InspectionFocus") or m.get("CommonProblems"))}<section><h2>Continue researching</h2><div class="chips">{"".join(nav)}</div></section><section><h2>Related boat models</h2><div class="grid">{rel_cards}</div></section><section><h2>About this record</h2><p>B-Atlas preserves uncertainty: missing information remains unknown rather than being treated as a negative. Specifications and guidance describe the model record; individual boats can differ by year, equipment, refit and condition.</p></section></article>'+shell_close()
     (d/'index.html').write_text(body,encoding='utf-8')
 
 # Rebuild models index with manufacturer + buyer entry points.
@@ -328,6 +353,14 @@ idx=ROOT/'index.html'; s=idx.read_text(encoding='utf-8')
 s=s.replace('<a href="models/">Browse Model Guides</a>', '<a href="models/">Browse Model Guides</a>\n    <a href="boats/">Find by Criteria</a>\n    <a href="compare/">Compare Models</a>')
 pkg=json.loads((ROOT/'package.json').read_text(encoding='utf-8')); release=pkg.get('version',''); s=re.sub(r'Version [0-9]+\.[0-9]+\.[0-9]+[^<]*', f'Version {release}', s)
 idx.write_text(s,encoding='utf-8')
+
+
+# Permanent model URL registry. CanonicalSlug is immutable once published; model renames do not silently change URLs.
+permalink_payload={
+    'schemaVersion':1,'baseURL':BASE.rstrip('/'),'generated':TODAY,
+    'models':[{'BoatModelID':m.get('BoatModelID'),'CanonicalSlug':id_to_slug[m.get('BoatModelID')],'CanonicalPath':f"/models/{id_to_slug[m.get('BoatModelID')]}/",'CanonicalURL':f"{BASE}models/{id_to_slug[m.get('BoatModelID')]}/",'Manufacturer':m.get('Manufacturer'),'Model':m.get('Model'),'Variant':m.get('Variant'),'LegacySlugs':m.get('LegacySlugs',[])} for m in models]
+}
+(ROOT/'data'/'model-permalinks.json').write_text(json.dumps(permalink_payload,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
 
 # Sitemap: only stable, useful public pages.
 urls=[BASE,BASE+'models/',BASE+'manufacturers/',BASE+'boats/',BASE+'compare/']

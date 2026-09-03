@@ -270,7 +270,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "albin-25-motor-cruiser",
+    "CanonicalPath": "/models/albin-25-motor-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/albin-25-motor-cruiser/"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -549,7 +552,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "albin-27-family-cruiser",
+    "CanonicalPath": "/models/albin-27-family-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/albin-27-family-cruiser/"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -827,7 +833,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "albin-27-sport-cruiser",
+    "CanonicalPath": "/models/albin-27-sport-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/albin-27-sport-cruiser/"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -1151,7 +1160,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "albin-28-tournament-express-engine-box",
+    "CanonicalPath": "/models/albin-28-tournament-express-engine-box/",
+    "CanonicalURL": "https://b-atlas.org/models/albin-28-tournament-express-engine-box/"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -1451,7 +1463,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "albin-28-tournament-express-flush-deck",
+    "CanonicalPath": "/models/albin-28-tournament-express-flush-deck/",
+    "CanonicalURL": "https://b-atlas.org/models/albin-28-tournament-express-flush-deck/"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -1712,7 +1727,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "albin-30-family-cruiser",
+    "CanonicalPath": "/models/albin-30-family-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/albin-30-family-cruiser/"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -2015,7 +2033,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "albin-32-2-command-bridge",
+    "CanonicalPath": "/models/albin-32-2-command-bridge/",
+    "CanonicalURL": "https://b-atlas.org/models/albin-32-2-command-bridge/"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -2298,7 +2319,10 @@
     "FlybridgeCode": "availability.yes",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "albin-36-trawler",
+    "CanonicalPath": "/models/albin-36-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/albin-36-trawler/"
   },
   {
     "ManufacturerID": "ALBIN",
@@ -2585,7 +2609,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "albin-40-trawler",
+    "CanonicalPath": "/models/albin-40-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/albin-40-trawler/"
   },
   {
     "ManufacturerID": "AMERICAN",
@@ -2852,7 +2879,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "american-tug-34",
+    "CanonicalPath": "/models/american-tug-34/",
+    "CanonicalURL": "https://b-atlas.org/models/american-tug-34/"
   },
   {
     "ManufacturerID": "AMERICAN",
@@ -3120,7 +3150,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "american-tug-365",
+    "CanonicalPath": "/models/american-tug-365/",
+    "CanonicalURL": "https://b-atlas.org/models/american-tug-365/"
   },
   {
     "ManufacturerID": "AMERICAN",
@@ -3385,7 +3418,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "american-tug-395",
+    "CanonicalPath": "/models/american-tug-395/",
+    "CanonicalURL": "https://b-atlas.org/models/american-tug-395/"
   },
   {
     "ManufacturerID": "ATLANTIC",
@@ -3633,7 +3669,10 @@
     "Headroom_ft": 6.416666666666667,
     "FuelCapacityGal": 250,
     "WaterCapacityGal": 200,
-    "HoldingCapacityGal": 30
+    "HoldingCapacityGal": 30,
+    "CanonicalSlug": "atlantic-37-double-cabin-double-cabin-trawler",
+    "CanonicalPath": "/models/atlantic-37-double-cabin-double-cabin-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/atlantic-37-double-cabin-double-cabin-trawler/"
   },
   {
     "ManufacturerID": "ATLANTIC",
@@ -3882,7 +3921,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "atlantic-boat-26-downeast-lobsterboat-hull",
+    "CanonicalPath": "/models/atlantic-boat-26-downeast-lobsterboat-hull/",
+    "CanonicalURL": "https://b-atlas.org/models/atlantic-boat-26-downeast-lobsterboat-hull/"
   },
   {
     "ManufacturerID": "BACK",
@@ -4132,7 +4174,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "Displacement": 3855.5
+    "Displacement": 3855.5,
+    "CanonicalSlug": "back-cove-26-downeast-cruiser",
+    "CanonicalPath": "/models/back-cove-26-downeast-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/back-cove-26-downeast-cruiser/"
   },
   {
     "ManufacturerID": "BACK",
@@ -4382,7 +4427,10 @@
     "KeelConfigurationCode": "keel.full_long",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "back-cove-29-downeast-cruiser",
+    "CanonicalPath": "/models/back-cove-29-downeast-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/back-cove-29-downeast-cruiser/"
   },
   {
     "ManufacturerID": "BACK",
@@ -4632,7 +4680,10 @@
     "KeelConfigurationCode": "keel.pocket",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "back-cove-30-downeast-cruiser",
+    "CanonicalPath": "/models/back-cove-30-downeast-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/back-cove-30-downeast-cruiser/"
   },
   {
     "ManufacturerID": "BACK",
@@ -4882,7 +4933,10 @@
     "KeelConfigurationCode": "keel.pocket",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "back-cove-32-downeast-cruiser",
+    "CanonicalPath": "/models/back-cove-32-downeast-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/back-cove-32-downeast-cruiser/"
   },
   {
     "ManufacturerID": "BACK",
@@ -5147,7 +5201,10 @@
     "KeelConfigurationCode": "keel.full_long",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "back-cove-33-downeast-cruiser",
+    "CanonicalPath": "/models/back-cove-33-downeast-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/back-cove-33-downeast-cruiser/"
   },
   {
     "ManufacturerID": "BACK",
@@ -5400,7 +5457,10 @@
     "KeelConfigurationCode": "keel.pocket",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "back-cove-34-downeast-cruiser",
+    "CanonicalPath": "/models/back-cove-34-downeast-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/back-cove-34-downeast-cruiser/"
   },
   {
     "ManufacturerID": "BACK",
@@ -5650,7 +5710,10 @@
     "KeelConfigurationCode": "keel.pocket",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "back-cove-37-downeast-cruiser",
+    "CanonicalPath": "/models/back-cove-37-downeast-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/back-cove-37-downeast-cruiser/"
   },
   {
     "ManufacturerID": "BACKCOVE",
@@ -5905,7 +5968,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "back-cove-39o-outboard-salon-cruiser",
+    "CanonicalPath": "/models/back-cove-39o-outboard-salon-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/back-cove-39o-outboard-salon-cruiser/"
   },
   {
     "ManufacturerID": "BACKCOVE",
@@ -6160,7 +6226,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "Displacement": 13381.0
+    "Displacement": 13381.0,
+    "CanonicalSlug": "back-cove-41-flagship-downeast-cruiser",
+    "CanonicalPath": "/models/back-cove-41-flagship-downeast-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/back-cove-41-flagship-downeast-cruiser/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -6415,7 +6484,10 @@
     "Draft": 0.89,
     "AirDraft": 2.7432,
     "Displacement": 2118.3,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "bayliner-2452-ciera-express-hardtop-cruiser",
+    "CanonicalPath": "/models/bayliner-2452-ciera-express-hardtop-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-2452-ciera-express-hardtop-cruiser/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -6694,7 +6766,10 @@
     "Draft": 0.9906,
     "AirDraft": 3.048,
     "Displacement": 2952.9,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "bayliner-2855-ciera-sunbridge-multi-generation-sunbridge",
+    "CanonicalPath": "/models/bayliner-2855-ciera-sunbridge-multi-generation-sunbridge/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-2855-ciera-sunbridge-multi-generation-sunbridge/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -6958,7 +7033,10 @@
     "Draft": 0.9144,
     "AirDraft": 3.048,
     "Displacement": 3445.9,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "bayliner-2859-ciera-express-hardtop-cruiser",
+    "CanonicalPath": "/models/bayliner-2859-ciera-express-hardtop-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-2859-ciera-express-hardtop-cruiser/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -7212,7 +7290,10 @@
     "Draft": 0.8382,
     "AirDraft": 3.3528,
     "Displacement": 5378.2,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "bayliner-3055-ciera-sunbridge-305-sb-express-cruiser",
+    "CanonicalPath": "/models/bayliner-3055-ciera-sunbridge-305-sb-express-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-3055-ciera-sunbridge-305-sb-express-cruiser/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -7474,7 +7555,10 @@
     "Draft": 0.9144,
     "AirDraft": 3.3528,
     "Displacement": 4173.0,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "bayliner-3058-command-bridge-command-bridge-cruiser",
+    "CanonicalPath": "/models/bayliner-3058-command-bridge-command-bridge-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-3058-command-bridge-command-bridge-cruiser/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -7748,7 +7832,10 @@
     "Beam": 3.5052,
     "Draft": 0.89,
     "AirDraft": 3.6576,
-    "Displacement": 5715.3
+    "Displacement": 5715.3,
+    "CanonicalSlug": "bayliner-3218-motoryacht-flybridge-motor-yacht",
+    "CanonicalPath": "/models/bayliner-3218-motoryacht-flybridge-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-3218-motoryacht-flybridge-motor-yacht/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -8012,7 +8099,10 @@
     "Draft": 0.9906,
     "AirDraft": 3.5296,
     "Displacement": 4640.2,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "bayliner-3258-command-bridge-command-bridge-cruiser",
+    "CanonicalPath": "/models/bayliner-3258-command-bridge-command-bridge-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-3258-command-bridge-command-bridge-cruiser/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -8283,7 +8373,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 8.9611,
-    "AirDraft": 3.81
+    "AirDraft": 3.81,
+    "CanonicalSlug": "bayliner-3270-3288-motor-yacht-explorer-motor-yacht",
+    "CanonicalPath": "/models/bayliner-3270-3288-motor-yacht-explorer-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-3270-3288-motor-yacht-explorer-motor-yacht/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -8550,7 +8643,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 9.7536,
-    "AirDraft": 4.1148
+    "AirDraft": 4.1148,
+    "CanonicalSlug": "bayliner-3388-motor-yacht-flybridge-motor-yacht",
+    "CanonicalPath": "/models/bayliner-3388-motor-yacht-flybridge-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-3388-motor-yacht-flybridge-motor-yacht/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -8828,7 +8924,10 @@
       "Draft": "researched_unknown"
     },
     "Beam": null,
-    "Draft": null
+    "Draft": null,
+    "CanonicalSlug": "bayliner-3788-motor-yacht-two-generation-flybridge-motor-yacht",
+    "CanonicalPath": "/models/bayliner-3788-motor-yacht-two-generation-flybridge-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-3788-motor-yacht-two-generation-flybridge-motor-yacht/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -9100,7 +9199,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 10.607,
-    "AirDraft": 4.0234
+    "AirDraft": 4.0234,
+    "CanonicalSlug": "bayliner-3870-3888-motor-yacht-mid-cabin-flybridge-motor-yacht",
+    "CanonicalPath": "/models/bayliner-3870-3888-motor-yacht-mid-cabin-flybridge-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-3870-3888-motor-yacht-mid-cabin-flybridge-motor-yacht/"
   },
   {
     "ManufacturerID": "BAYLINER",
@@ -9367,7 +9469,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 11.2776,
-    "AirDraft": 4.7
+    "AirDraft": 4.7,
+    "CanonicalSlug": "bayliner-4087-cockpit-motor-yacht-cockpit-motor-yacht",
+    "CanonicalPath": "/models/bayliner-4087-cockpit-motor-yacht-cockpit-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/bayliner-4087-cockpit-motor-yacht-cockpit-motor-yacht/"
   },
   {
     "ManufacturerID": "BENE",
@@ -9604,7 +9709,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 9.7536,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "beneteau-antares-11-coup",
+    "CanonicalPath": "/models/beneteau-antares-11-coup/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-antares-11-coup/"
   },
   {
     "ManufacturerID": "BENE",
@@ -9841,7 +9949,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 9.5768,
     "Draft": 1.0424,
-    "AirDraft": 5.1511
+    "AirDraft": 5.1511,
+    "CanonicalSlug": "beneteau-swift-trawler-30-flybridge",
+    "CanonicalPath": "/models/beneteau-swift-trawler-30-flybridge/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-30-flybridge/"
   },
   {
     "ManufacturerID": "BENE",
@@ -10090,7 +10201,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 9.9578,
     "Draft": 0.9906,
-    "AirDraft": 3.6881
+    "AirDraft": 3.6881,
+    "CanonicalSlug": "beneteau-swift-trawler-34-flybridge-or-sedan",
+    "CanonicalPath": "/models/beneteau-swift-trawler-34-flybridge-or-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-34-flybridge-or-sedan/"
   },
   {
     "ManufacturerID": "BENE",
@@ -10329,7 +10443,10 @@
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "LWL": 10.7198
+    "LWL": 10.7198,
+    "CanonicalSlug": "beneteau-swift-trawler-35-flybridge",
+    "CanonicalPath": "/models/beneteau-swift-trawler-35-flybridge/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-35-flybridge/"
   },
   {
     "ManufacturerID": "BENE",
@@ -10570,7 +10687,10 @@
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "LWL": 13.1064
+    "LWL": 13.1064,
+    "CanonicalSlug": "beneteau-swift-trawler-47-flybridge",
+    "CanonicalPath": "/models/beneteau-swift-trawler-47-flybridge/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-47-flybridge/"
   },
   {
     "ManufacturerID": "BENE",
@@ -10810,7 +10930,10 @@
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "LWL": 13.4112
+    "LWL": 13.4112,
+    "CanonicalSlug": "beneteau-swift-trawler-48-flybridge",
+    "CanonicalPath": "/models/beneteau-swift-trawler-48-flybridge/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-48-flybridge/"
   },
   {
     "ManufacturerID": "BENE",
@@ -11052,7 +11175,10 @@
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "LWL": 14.6304
+    "LWL": 14.6304,
+    "CanonicalSlug": "beneteau-swift-trawler-52-flybridge-flagship",
+    "CanonicalPath": "/models/beneteau-swift-trawler-52-flybridge-flagship/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-swift-trawler-52-flybridge-flagship/"
   },
   {
     "ManufacturerID": "BENE",
@@ -11285,7 +11411,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 6.7056,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "beneteau-antares-7-cruising-fishing",
+    "CanonicalPath": "/models/beneteau-antares-7-cruising-fishing/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-antares-7-cruising-fishing/"
   },
   {
     "ManufacturerID": "BENE",
@@ -11519,7 +11648,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 7.3152,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "beneteau-antares-8-cruising-fishing",
+    "CanonicalPath": "/models/beneteau-antares-8-cruising-fishing/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-antares-8-cruising-fishing/"
   },
   {
     "ManufacturerID": "BENE",
@@ -11760,7 +11892,10 @@
     "Draft": 0.6706,
     "AirDraft": 2.8956,
     "Displacement": 2644.4,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "beneteau-barracuda-8-sport-fishing-pilothouse",
+    "CanonicalPath": "/models/beneteau-barracuda-8-sport-fishing-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-barracuda-8-sport-fishing-pilothouse/"
   },
   {
     "ManufacturerID": "BENE",
@@ -12020,7 +12155,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 7.9248,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "beneteau-antares-9-series-1-series-2",
+    "CanonicalPath": "/models/beneteau-antares-9-series-1-series-2/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-antares-9-series-1-series-2/"
   },
   {
     "ManufacturerID": "BENE",
@@ -12265,7 +12403,10 @@
     "LWL": 8.2296,
     "Draft": 0.701,
     "AirDraft": 3.2004,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "beneteau-barracuda-9-sport-fishing-pilothouse",
+    "CanonicalPath": "/models/beneteau-barracuda-9-sport-fishing-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-barracuda-9-sport-fishing-pilothouse/"
   },
   {
     "ManufacturerID": "BHM",
@@ -12525,7 +12666,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "bhm-32-downeast-flye-point",
+    "CanonicalPath": "/models/bhm-32-downeast-flye-point/",
+    "CanonicalURL": "https://b-atlas.org/models/bhm-32-downeast-flye-point/"
   },
   {
     "ManufacturerID": "CDORY",
@@ -12810,7 +12954,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "c-dory-22-cruiser-cruiser",
+    "CanonicalPath": "/models/c-dory-22-cruiser-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/c-dory-22-cruiser-cruiser/"
   },
   {
     "ManufacturerID": "CDORY",
@@ -13095,7 +13242,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "c-dory-25-cruiser-cruiser",
+    "CanonicalPath": "/models/c-dory-25-cruiser-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/c-dory-25-cruiser-cruiser/"
   },
   {
     "ManufacturerID": "CDORY",
@@ -13381,7 +13531,10 @@
       "Draft": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "c-dory-tomcat-255-power-catamaran",
+    "CanonicalPath": "/models/c-dory-tomcat-255-power-catamaran/",
+    "CanonicalURL": "https://b-atlas.org/models/c-dory-tomcat-255-power-catamaran/"
   },
   {
     "ManufacturerID": "CDORY",
@@ -13662,7 +13815,10 @@
     },
     "Beam": null,
     "Draft": null,
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "c-dory-26-pro-angler-walkaround-fishing",
+    "CanonicalPath": "/models/c-dory-26-pro-angler-walkaround-fishing/",
+    "CanonicalURL": "https://b-atlas.org/models/c-dory-26-pro-angler-walkaround-fishing/"
   },
   {
     "ManufacturerID": "CDORY",
@@ -13945,7 +14101,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "c-dory-26-venture-venture-cruiser",
+    "CanonicalPath": "/models/c-dory-26-venture-venture-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/c-dory-26-venture-venture-cruiser/"
   },
   {
     "ManufacturerID": "CALIFORNIAN",
@@ -14207,7 +14366,10 @@
     "FuelCapacityUnitStatus": "canonical_litres",
     "WaterCapacityUnitStatus": "canonical_litres",
     "HoldingCapacityUnitStatus": "canonical_litres",
-    "HoldingCapacityGal": 30
+    "HoldingCapacityGal": 30,
+    "CanonicalSlug": "californian-34-lrc-long-range-cruiser",
+    "CanonicalPath": "/models/californian-34-lrc-long-range-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/californian-34-lrc-long-range-cruiser/"
   },
   {
     "ManufacturerID": "CALIFORNIAN",
@@ -14474,7 +14636,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "californian-38-lrc-sedan-long-range-cruiser-sedan",
+    "CanonicalPath": "/models/californian-38-lrc-sedan-long-range-cruiser-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/californian-38-lrc-sedan-long-range-cruiser-sedan/"
   },
   {
     "ManufacturerID": "CAMANO",
@@ -14782,7 +14947,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "camano-28-31-gnome",
+    "CanonicalPath": "/models/camano-28-31-gnome/",
+    "CanonicalURL": "https://b-atlas.org/models/camano-28-31-gnome/"
   },
   {
     "ManufacturerID": "CAMANO",
@@ -15146,7 +15314,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "camano-28-31-troll",
+    "CanonicalPath": "/models/camano-28-31-troll/",
+    "CanonicalURL": "https://b-atlas.org/models/camano-28-31-troll/"
   },
   {
     "ManufacturerID": "CAMANO",
@@ -15449,7 +15620,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "camano-41-trawler",
+    "CanonicalPath": "/models/camano-41-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/camano-41-trawler/"
   },
   {
     "ManufacturerID": "CAPE",
@@ -15781,7 +15955,10 @@
     "AirDraft": 3.4036,
     "PlanCriticalStatus": {
       "FuelCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "cape-dory-28-flybridge-cruiser-flybridge-cruiser",
+    "CanonicalPath": "/models/cape-dory-28-flybridge-cruiser-flybridge-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/cape-dory-28-flybridge-cruiser-flybridge-cruiser/"
   },
   {
     "ManufacturerID": "CAPE",
@@ -16084,7 +16261,10 @@
     "AirDraft": 2.4384,
     "PlanCriticalStatus": {
       "FuelCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "cape-dory-28-open-fisherman-open-fisherman",
+    "CanonicalPath": "/models/cape-dory-28-open-fisherman-open-fisherman/",
+    "CanonicalURL": "https://b-atlas.org/models/cape-dory-28-open-fisherman-open-fisherman/"
   },
   {
     "ManufacturerID": "CAPE",
@@ -16416,7 +16596,10 @@
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown",
       "FuelCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "cape-dory-28-power-cruiser-power-cruiser",
+    "CanonicalPath": "/models/cape-dory-28-power-cruiser-power-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/cape-dory-28-power-cruiser-power-cruiser/"
   },
   {
     "ManufacturerID": "CAPE",
@@ -16712,7 +16895,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 3.7338
+    "AirDraft": 3.7338,
+    "CanonicalSlug": "cape-dory-30-poweryacht-flybridge",
+    "CanonicalPath": "/models/cape-dory-30-poweryacht-flybridge/",
+    "CanonicalURL": "https://b-atlas.org/models/cape-dory-30-poweryacht-flybridge/"
   },
   {
     "ManufacturerID": "CAPE",
@@ -17025,7 +17211,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 3.8608
+    "AirDraft": 3.8608,
+    "CanonicalSlug": "cape-dory-33-poweryacht-flybridge",
+    "CanonicalPath": "/models/cape-dory-33-poweryacht-flybridge/",
+    "CanonicalURL": "https://b-atlas.org/models/cape-dory-33-poweryacht-flybridge/"
   },
   {
     "ManufacturerID": "CAPE",
@@ -17341,7 +17530,10 @@
     "AirDraft": 3.9624,
     "PlanCriticalStatus": {
       "FuelCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "cape-dory-36-poweryacht-flybridge",
+    "CanonicalPath": "/models/cape-dory-36-poweryacht-flybridge/",
+    "CanonicalURL": "https://b-atlas.org/models/cape-dory-36-poweryacht-flybridge/"
   },
   {
     "ManufacturerID": "CAPE",
@@ -17650,7 +17842,10 @@
     "FuelCode": "fuel.diesel",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "cape-dory-40-explorer-explorer",
+    "CanonicalPath": "/models/cape-dory-40-explorer-explorer/",
+    "CanonicalURL": "https://b-atlas.org/models/cape-dory-40-explorer-explorer/"
   },
   {
     "ManufacturerID": "CARVER",
@@ -17907,7 +18102,10 @@
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 3.0226
+    "AirDraft": 3.0226,
+    "CanonicalSlug": "carver-2827-voyager-2897-mariner-flybridge-cruiser",
+    "CanonicalPath": "/models/carver-2827-voyager-2897-mariner-flybridge-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/carver-2827-voyager-2897-mariner-flybridge-cruiser/"
   },
   {
     "ManufacturerID": "CARVER",
@@ -18169,7 +18367,10 @@
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 3.5052000000000003
+    "AirDraft": 3.5052000000000003,
+    "CanonicalSlug": "carver-3207-aft-cabin-aft-cabin",
+    "CanonicalPath": "/models/carver-3207-aft-cabin-aft-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/carver-3207-aft-cabin-aft-cabin/"
   },
   {
     "ManufacturerID": "CARVER",
@@ -18429,7 +18630,10 @@
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 3.3020000000000005
+    "AirDraft": 3.3020000000000005,
+    "CanonicalSlug": "carver-3297-330-mariner-mariner",
+    "CanonicalPath": "/models/carver-3297-330-mariner-mariner/",
+    "CanonicalURL": "https://b-atlas.org/models/carver-3297-330-mariner-mariner/"
   },
   {
     "ManufacturerID": "CARVER",
@@ -18682,7 +18886,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "carver-33-350-aft-cabin-aft-cabin-motor-yacht",
+    "CanonicalPath": "/models/carver-33-350-aft-cabin-aft-cabin-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/carver-33-350-aft-cabin-aft-cabin-motor-yacht/"
   },
   {
     "ManufacturerID": "CARVER",
@@ -18948,7 +19155,10 @@
     "LOA": null,
     "PlanCriticalStatus": {
       "LOA": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "carver-355-356-motor-yacht-aft-cabin-motor-yacht",
+    "CanonicalPath": "/models/carver-355-356-motor-yacht-aft-cabin-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/carver-355-356-motor-yacht-aft-cabin-motor-yacht/"
   },
   {
     "ManufacturerID": "CARVER",
@@ -19210,7 +19420,10 @@
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 3.5814000000000004
+    "AirDraft": 3.5814000000000004,
+    "CanonicalSlug": "carver-3607-aft-cabin-aft-cabin",
+    "CanonicalPath": "/models/carver-3607-aft-cabin-aft-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/carver-3607-aft-cabin-aft-cabin/"
   },
   {
     "ManufacturerID": "CARVER",
@@ -19480,7 +19693,10 @@
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 4.318
+    "AirDraft": 4.318,
+    "CanonicalSlug": "carver-350-36-mariner-mariner",
+    "CanonicalPath": "/models/carver-350-36-mariner-mariner/",
+    "CanonicalURL": "https://b-atlas.org/models/carver-350-36-mariner-mariner/"
   },
   {
     "ManufacturerID": "CARVER",
@@ -19726,7 +19942,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "carver-3807-390-aft-cabin-aft-cabin-motor-yacht",
+    "CanonicalPath": "/models/carver-3807-390-aft-cabin-aft-cabin-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/carver-3807-390-aft-cabin-aft-cabin-motor-yacht/"
   },
   {
     "ManufacturerID": "CARVER",
@@ -19988,7 +20207,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "AirDraft": 6.096,
-    "KeelConfigurationCode": "keel.protective"
+    "KeelConfigurationCode": "keel.protective",
+    "CanonicalSlug": "carver-4207-aft-cabin-aft-cabin-motor-yacht",
+    "CanonicalPath": "/models/carver-4207-aft-cabin-aft-cabin-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/carver-4207-aft-cabin-aft-cabin-motor-yacht/"
   },
   {
     "ManufacturerID": "CHB",
@@ -20221,7 +20443,10 @@
     },
     "Beam": null,
     "Draft": null,
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "chb-34-sedan",
+    "CanonicalPath": "/models/chb-34-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/chb-34-sedan/"
   },
   {
     "ManufacturerID": "CHB",
@@ -20460,7 +20685,10 @@
     },
     "Beam": null,
     "Draft": null,
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "chb-34-tri-cabin",
+    "CanonicalPath": "/models/chb-34-tri-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/chb-34-tri-cabin/"
   },
   {
     "ManufacturerID": "CHB",
@@ -20774,7 +21002,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "chb-34-double-cabin-double-cabin",
+    "CanonicalPath": "/models/chb-34-double-cabin-double-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/chb-34-double-cabin-double-cabin/"
   },
   {
     "ManufacturerID": "CHB",
@@ -21056,7 +21287,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "chb-35-sundeck-sundeck",
+    "CanonicalPath": "/models/chb-35-sundeck-sundeck/",
+    "CanonicalURL": "https://b-atlas.org/models/chb-35-sundeck-sundeck/"
   },
   {
     "ManufacturerID": "CHB",
@@ -21324,7 +21558,10 @@
     },
     "Beam": null,
     "Draft": null,
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "chb-40-double-cabin-double-cabin",
+    "CanonicalPath": "/models/chb-40-double-cabin-double-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/chb-40-double-cabin-double-cabin/"
   },
   {
     "ManufacturerID": "CHEOY",
@@ -21582,7 +21819,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "cheoy-lee-28-sedan-trawler-sedan",
+    "CanonicalPath": "/models/cheoy-lee-28-sedan-trawler-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/cheoy-lee-28-sedan-trawler-sedan/"
   },
   {
     "ManufacturerID": "CHEOY",
@@ -21851,7 +22091,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "cheoy-lee-32-trawler-trawler",
+    "CanonicalPath": "/models/cheoy-lee-32-trawler-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/cheoy-lee-32-trawler-trawler/"
   },
   {
     "ManufacturerID": "CHEOY",
@@ -22119,7 +22362,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "cheoy-lee-35-trawler-trawler",
+    "CanonicalPath": "/models/cheoy-lee-35-trawler-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/cheoy-lee-35-trawler-trawler/"
   },
   {
     "ManufacturerID": "CHEOY",
@@ -22382,7 +22628,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "cheoy-lee-36-trawler-trawler",
+    "CanonicalPath": "/models/cheoy-lee-36-trawler-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/cheoy-lee-36-trawler-trawler/"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -22623,7 +22872,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "AirDraft": 3.3528,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "cruisers-yachts-288-298-villa-vee-2980-esprit-flybridge-cruiser",
+    "CanonicalPath": "/models/cruisers-yachts-288-298-villa-vee-2980-esprit-flybridge-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-288-298-villa-vee-2980-esprit-flybridge-cruiser/"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -22863,7 +23115,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 8.8392,
     "AirDraft": 3.6576,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "cruisers-yachts-3275-320-express-express-cruiser",
+    "CanonicalPath": "/models/cruisers-yachts-3275-320-express-express-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3275-320-express-express-cruiser/"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -23100,7 +23355,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 8.8392,
-    "AirDraft": 3.6576
+    "AirDraft": 3.6576,
+    "CanonicalSlug": "cruisers-yachts-3260-3270-esprit-esprit",
+    "CanonicalPath": "/models/cruisers-yachts-3260-3270-esprit-esprit/",
+    "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3260-3270-esprit-esprit/"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -23335,7 +23593,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 9.7536,
     "AirDraft": 3.81,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "cruisers-yachts-3375-esprit-express-cruiser",
+    "CanonicalPath": "/models/cruisers-yachts-3375-esprit-express-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3375-esprit-express-cruiser/"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -23576,7 +23837,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 10.0584,
     "AirDraft": 3.9624,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "cruisers-yachts-3470-340-express-express-cruiser",
+    "CanonicalPath": "/models/cruisers-yachts-3470-340-express-express-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3470-340-express-express-cruiser/"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -23830,7 +24094,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 10.3022,
     "AirDraft": 4.2672,
-    "Displacement": 9071.8
+    "Displacement": 9071.8,
+    "CanonicalSlug": "cruisers-yachts-3650-3750-375-motor-yacht-aft-cabin-motor-yacht",
+    "CanonicalPath": "/models/cruisers-yachts-3650-3750-375-motor-yacht-aft-cabin-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3650-3750-375-motor-yacht-aft-cabin-motor-yacht/"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -24071,7 +24338,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 10.9728,
-    "AirDraft": 4.2672
+    "AirDraft": 4.2672,
+    "CanonicalSlug": "cruisers-yachts-3870-esprit-express-express-cruiser",
+    "CanonicalPath": "/models/cruisers-yachts-3870-esprit-express-express-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3870-esprit-express-express-cruiser/"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -24308,7 +24578,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 10.9728,
-    "AirDraft": 4.2672
+    "AirDraft": 4.2672,
+    "CanonicalSlug": "cruisers-yachts-390-sports-coupe-sports-coupe",
+    "CanonicalPath": "/models/cruisers-yachts-390-sports-coupe-sports-coupe/",
+    "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-390-sports-coupe-sports-coupe/"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -24552,7 +24825,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 11.2776,
-    "AirDraft": 4.4196
+    "AirDraft": 4.4196,
+    "CanonicalSlug": "cruisers-yachts-4050-405-415-express-motor-yacht-express-motor-yacht",
+    "CanonicalPath": "/models/cruisers-yachts-4050-405-415-express-motor-yacht-express-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-4050-405-415-express-motor-yacht-express-motor-yacht/"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -24830,7 +25106,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "cutwater-c-24-c-coupe",
+    "CanonicalPath": "/models/cutwater-c-24-c-coupe/",
+    "CanonicalURL": "https://b-atlas.org/models/cutwater-c-24-c-coupe/"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -25112,7 +25391,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "cutwater-c-26-cruiser",
+    "CanonicalPath": "/models/cutwater-c-26-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/cutwater-c-26-cruiser/"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -25391,7 +25673,10 @@
     "FuelCapacityUnitStatus": "conflicting_legacy_capacity_values",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 2.7686
+    "AirDraft": 2.7686,
+    "CanonicalSlug": "cutwater-c-28-cruiser",
+    "CanonicalPath": "/models/cutwater-c-28-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/cutwater-c-28-cruiser/"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -25671,7 +25956,10 @@
     "Draft": 0.7366,
     "AirDraft": 2.9718,
     "Displacement": 4980.4,
-    "HullBehaviourCode": "hull_behaviour.planing"
+    "HullBehaviourCode": "hull_behaviour.planing",
+    "CanonicalSlug": "cutwater-c-30-cb-command-bridge",
+    "CanonicalPath": "/models/cutwater-c-30-cb-command-bridge/",
+    "CanonicalURL": "https://b-atlas.org/models/cutwater-c-30-cb-command-bridge/"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -25952,7 +26240,10 @@
     "LOA": null,
     "PlanCriticalStatus": {
       "LOA": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "cutwater-c-30-s-sedan",
+    "CanonicalPath": "/models/cutwater-c-30-s-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/cutwater-c-30-s-sedan/"
   },
   {
     "ManufacturerID": "CUTWATER",
@@ -26233,7 +26524,10 @@
     "Beam": 3.048,
     "Draft": 0.8382000000000001,
     "AirDraft": 2.9718,
-    "Displacement": 5488.5
+    "Displacement": 5488.5,
+    "CanonicalSlug": "cutwater-c-32-cb-command-bridge",
+    "CanonicalPath": "/models/cutwater-c-32-cb-command-bridge/",
+    "CanonicalURL": "https://b-atlas.org/models/cutwater-c-32-cb-command-bridge/"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -26504,7 +26798,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "defever-34-passagemaker-passagemaker",
+    "CanonicalPath": "/models/defever-34-passagemaker-passagemaker/",
+    "CanonicalURL": "https://b-atlas.org/models/defever-34-passagemaker-passagemaker/"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -26770,7 +27067,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "defever-38-passagemaker-wood-passagemaker",
+    "CanonicalPath": "/models/defever-38-passagemaker-wood-passagemaker/",
+    "CanonicalURL": "https://b-atlas.org/models/defever-38-passagemaker-wood-passagemaker/"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -27038,7 +27338,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "defever-40-offshore-cruiser-offshore-cruiser",
+    "CanonicalPath": "/models/defever-40-offshore-cruiser-offshore-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/defever-40-offshore-cruiser-offshore-cruiser/"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -27309,7 +27612,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "defever-41-trawler-trawler",
+    "CanonicalPath": "/models/defever-41-trawler-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/defever-41-trawler-trawler/"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -27580,7 +27886,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "defever-43-trawler-flush-deck",
+    "CanonicalPath": "/models/defever-43-trawler-flush-deck/",
+    "CanonicalURL": "https://b-atlas.org/models/defever-43-trawler-flush-deck/"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -27847,7 +28156,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "defever-45-pilothouse-pilothouse",
+    "CanonicalPath": "/models/defever-45-pilothouse-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/defever-45-pilothouse-pilothouse/"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -28116,7 +28428,10 @@
     "SideDecksCode": "side_decks.wide",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "defever-47-poc-motor-yacht-performance-offshore-cruiser",
+    "CanonicalPath": "/models/defever-47-poc-motor-yacht-performance-offshore-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/defever-47-poc-motor-yacht-performance-offshore-cruiser/"
   },
   {
     "ManufacturerID": "DEFEVER",
@@ -28389,7 +28704,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "defever-49-cockpit-motor-yacht-cockpit-motor-yacht",
+    "CanonicalPath": "/models/defever-49-cockpit-motor-yacht-cockpit-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/defever-49-cockpit-motor-yacht-cockpit-motor-yacht/"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -28644,7 +28962,10 @@
     },
     "Beam": null,
     "Draft": null,
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "duffy-29-downeast-hull",
+    "CanonicalPath": "/models/duffy-29-downeast-hull/",
+    "CanonicalURL": "https://b-atlas.org/models/duffy-29-downeast-hull/"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -28921,7 +29242,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "duffy-31-downeast-lobsterboat-hull",
+    "CanonicalPath": "/models/duffy-31-downeast-lobsterboat-hull/",
+    "CanonicalURL": "https://b-atlas.org/models/duffy-31-downeast-lobsterboat-hull/"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -29202,7 +29526,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "duffy-35-downeast-lobsterboat-hull",
+    "CanonicalPath": "/models/duffy-35-downeast-lobsterboat-hull/",
+    "CanonicalURL": "https://b-atlas.org/models/duffy-35-downeast-lobsterboat-hull/"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -29481,7 +29808,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 10.6426,
     "AirDraft": 4.5466,
-    "RudderTypeCode": "rudder.skeg_hung"
+    "RudderTypeCode": "rudder.skeg_hung",
+    "CanonicalSlug": "duffy-37-downeast-lobsterboat-hull",
+    "CanonicalPath": "/models/duffy-37-downeast-lobsterboat-hull/",
+    "CanonicalURL": "https://b-atlas.org/models/duffy-37-downeast-lobsterboat-hull/"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -29741,7 +30071,10 @@
     },
     "Beam": null,
     "Draft": null,
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "duffy-39-extended-duffy-37-custom-downeast",
+    "CanonicalPath": "/models/duffy-39-extended-duffy-37-custom-downeast/",
+    "CanonicalURL": "https://b-atlas.org/models/duffy-39-extended-duffy-37-custom-downeast/"
   },
   {
     "ManufacturerID": "DUFFY",
@@ -30023,7 +30356,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "duffy-42-downeast-lobsterboat-hull",
+    "CanonicalPath": "/models/duffy-42-downeast-lobsterboat-hull/",
+    "CanonicalURL": "https://b-atlas.org/models/duffy-42-downeast-lobsterboat-hull/"
   },
   {
     "ManufacturerID": "ENDEAVOUR",
@@ -30273,7 +30609,10 @@
     "WaterCapacity": 340.69,
     "WaterCapacityGal": 90,
     "WaterCapacityUnitStatus": "canonical_litres",
-    "HoldingCapacityGal": 30
+    "HoldingCapacityGal": 30,
+    "CanonicalSlug": "endeavour-trawlercat-36-power-catamaran",
+    "CanonicalPath": "/models/endeavour-trawlercat-36-power-catamaran/",
+    "CanonicalURL": "https://b-atlas.org/models/endeavour-trawlercat-36-power-catamaran/"
   },
   {
     "ManufacturerID": "ENDEAVOUR",
@@ -30547,7 +30886,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "endeavour-44-trawlercat-power-catamaran",
+    "CanonicalPath": "/models/endeavour-44-trawlercat-power-catamaran/",
+    "CanonicalURL": "https://b-atlas.org/models/endeavour-44-trawlercat-power-catamaran/"
   },
   {
     "ManufacturerID": "FJORD",
@@ -30787,7 +31129,10 @@
       "Draft": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "fjord-36-cruiser-enclosed-cruiser",
+    "CanonicalPath": "/models/fjord-36-cruiser-enclosed-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/fjord-36-cruiser-enclosed-cruiser/"
   },
   {
     "ManufacturerID": "FJORD",
@@ -31026,7 +31371,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "RudderTypeCode": "rudder.none_external_drive",
-    "AirDraft": 2.9
+    "AirDraft": 2.9,
+    "CanonicalSlug": "fjord-36-open-walkaround-day-cruiser",
+    "CanonicalPath": "/models/fjord-36-open-walkaround-day-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/fjord-36-open-walkaround-day-cruiser/"
   },
   {
     "ManufacturerID": "FJORD",
@@ -31266,7 +31614,10 @@
     "FuelCapacityUnitStatus": "canonical_litres",
     "WaterCapacityUnitStatus": "canonical_litres",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "fjord-40-cruiser-enclosed-cruiser",
+    "CanonicalPath": "/models/fjord-40-cruiser-enclosed-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/fjord-40-cruiser-enclosed-cruiser/"
   },
   {
     "ManufacturerID": "FJORD",
@@ -31507,7 +31858,10 @@
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "fjord-40-open-walkaround-day-cruiser",
+    "CanonicalPath": "/models/fjord-40-open-walkaround-day-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/fjord-40-open-walkaround-day-cruiser/"
   },
   {
     "ManufacturerID": "FORTIER",
@@ -31761,7 +32115,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "fortier-26-bass-boat-downeast-cruiser",
+    "CanonicalPath": "/models/fortier-26-bass-boat-downeast-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/fortier-26-bass-boat-downeast-cruiser/"
   },
   {
     "ManufacturerID": "FORTIER",
@@ -32016,7 +32373,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "fortier-33-downeast-cruiser",
+    "CanonicalPath": "/models/fortier-33-downeast-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/fortier-33-downeast-cruiser/"
   },
   {
     "ManufacturerID": "GOZZARD",
@@ -32270,7 +32630,10 @@
     "Headroom_ft": 6.333333333333333,
     "FuelCapacityGal": 142,
     "WaterCapacityGal": 240,
-    "HoldingCapacityGal": 100
+    "HoldingCapacityGal": 100,
+    "CanonicalSlug": "gozzard-pilgrim-40-gozzard-north-castle-motor-yacht",
+    "CanonicalPath": "/models/gozzard-pilgrim-40-gozzard-north-castle-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/gozzard-pilgrim-40-gozzard-north-castle-motor-yacht/"
   },
   {
     "ManufacturerID": "GRAND",
@@ -32604,7 +32967,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "grand-banks-32-sedan",
+    "CanonicalPath": "/models/grand-banks-32-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/grand-banks-32-sedan/"
   },
   {
     "ManufacturerID": "GRAND",
@@ -32910,7 +33276,10 @@
       "LOA": "researched_unknown",
       "Beam": "researched_unknown"
     },
-    "Beam": null
+    "Beam": null,
+    "CanonicalSlug": "grand-banks-36-classic",
+    "CanonicalPath": "/models/grand-banks-36-classic/",
+    "CanonicalURL": "https://b-atlas.org/models/grand-banks-36-classic/"
   },
   {
     "ManufacturerID": "GRAND",
@@ -33219,7 +33588,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "grand-banks-36-europa",
+    "CanonicalPath": "/models/grand-banks-36-europa/",
+    "CanonicalURL": "https://b-atlas.org/models/grand-banks-36-europa/"
   },
   {
     "ManufacturerID": "GRAND",
@@ -33514,7 +33886,10 @@
       "LOA": "researched_unknown",
       "Beam": "researched_unknown"
     },
-    "Beam": null
+    "Beam": null,
+    "CanonicalSlug": "grand-banks-42-classic",
+    "CanonicalPath": "/models/grand-banks-42-classic/",
+    "CanonicalURL": "https://b-atlas.org/models/grand-banks-42-classic/"
   },
   {
     "ManufacturerID": "GRAND",
@@ -33824,7 +34199,10 @@
     "SideDecksCode": "side_decks.wide",
     "FuelCapacityUnitStatus": "conflicting_legacy_capacity_values",
     "WaterCapacityUnitStatus": "conflicting_legacy_capacity_values",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "grand-banks-46-classic",
+    "CanonicalPath": "/models/grand-banks-46-classic/",
+    "CanonicalURL": "https://b-atlas.org/models/grand-banks-46-classic/"
   },
   {
     "ManufacturerID": "GRAND",
@@ -34134,7 +34512,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "grand-banks-49-motor-yacht",
+    "CanonicalPath": "/models/grand-banks-49-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/grand-banks-49-motor-yacht/"
   },
   {
     "ManufacturerID": "GREAT",
@@ -34392,7 +34773,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "great-harbour-gh37-raised-pilothouse-liveaboard-trawler",
+    "CanonicalPath": "/models/great-harbour-gh37-raised-pilothouse-liveaboard-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/great-harbour-gh37-raised-pilothouse-liveaboard-trawler/"
   },
   {
     "ManufacturerID": "GREAT",
@@ -34654,7 +35038,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "great-harbour-n37-navigator-long-range-trawler",
+    "CanonicalPath": "/models/great-harbour-n37-navigator-long-range-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/great-harbour-n37-navigator-long-range-trawler/"
   },
   {
     "ManufacturerID": "GREENLINE",
@@ -34919,7 +35306,10 @@
     "FuelCode": "fuel.diesel",
     "FuelCapacityGal": 132.09,
     "WaterCapacityGal": 79.25,
-    "HoldingCapacityGal": 16.64
+    "HoldingCapacityGal": 16.64,
+    "CanonicalSlug": "greenline-33-diesel-hybrid-electric-sedan",
+    "CanonicalPath": "/models/greenline-33-diesel-hybrid-electric-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/greenline-33-diesel-hybrid-electric-sedan/"
   },
   {
     "ManufacturerID": "GREENLINE",
@@ -35172,7 +35562,10 @@
     "FuelCode": "fuel.diesel",
     "FuelCapacityGal": 184.92,
     "WaterCapacityGal": 105.67,
-    "HoldingCapacityGal": 21.13
+    "HoldingCapacityGal": 21.13,
+    "CanonicalSlug": "greenline-39-diesel-hybrid-electric-sedan",
+    "CanonicalPath": "/models/greenline-39-diesel-hybrid-electric-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/greenline-39-diesel-hybrid-electric-sedan/"
   },
   {
     "ManufacturerID": "GULFSTAR",
@@ -35439,7 +35832,10 @@
     "FuelCode": "fuel.diesel",
     "FuelCapacityUnitStatus": "canonical_litres",
     "WaterCapacityUnitStatus": "canonical_litres",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "gulfstar-36-trawler-trawler",
+    "CanonicalPath": "/models/gulfstar-36-trawler-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/gulfstar-36-trawler-trawler/"
   },
   {
     "ManufacturerID": "GULFSTAR",
@@ -35706,7 +36102,10 @@
     "FuelCode": "fuel.diesel",
     "FuelCapacityUnitStatus": "canonical_litres",
     "WaterCapacityUnitStatus": "canonical_litres",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "gulfstar-43-trawler-trawler",
+    "CanonicalPath": "/models/gulfstar-43-trawler-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/gulfstar-43-trawler-trawler/"
   },
   {
     "ManufacturerID": "GULFSTAR",
@@ -35977,7 +36376,10 @@
     "FuelCapacityUnitStatus": "canonical_litres",
     "WaterCapacityUnitStatus": "canonical_litres",
     "HoldingCapacityUnitStatus": "canonical_litres",
-    "HoldingCapacityGal": 40
+    "HoldingCapacityGal": 40,
+    "CanonicalSlug": "gulfstar-44-motor-cruiser-motor-cruiser",
+    "CanonicalPath": "/models/gulfstar-44-motor-cruiser-motor-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/gulfstar-44-motor-cruiser-motor-cruiser/"
   },
   {
     "ManufacturerID": "GULFSTAR",
@@ -36244,7 +36646,10 @@
     "FuelCode": "fuel.diesel",
     "FuelCapacityUnitStatus": "canonical_litres",
     "WaterCapacityUnitStatus": "canonical_litres",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "gulfstar-49-motor-yacht-motor-yacht",
+    "CanonicalPath": "/models/gulfstar-49-motor-yacht-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/gulfstar-49-motor-yacht-motor-yacht/"
   },
   {
     "ManufacturerID": "HELMSMAN",
@@ -36501,7 +36906,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "helmsman-31-sedan-sedan",
+    "CanonicalPath": "/models/helmsman-31-sedan-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/helmsman-31-sedan-sedan/"
   },
   {
     "ManufacturerID": "HELMSMAN",
@@ -36761,7 +37169,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "helmsman-38e-pilothouse-pilothouse",
+    "CanonicalPath": "/models/helmsman-38e-pilothouse-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/helmsman-38e-pilothouse-pilothouse/"
   },
   {
     "ManufacturerID": "HELMSMAN",
@@ -37019,7 +37430,10 @@
     "AirDraft": 4.1148,
     "FuelCapacityGal": 600,
     "WaterCapacityGal": 200,
-    "HoldingCapacityGal": 60
+    "HoldingCapacityGal": 60,
+    "CanonicalSlug": "helmsman-43e-pilothouse-pilothouse",
+    "CanonicalPath": "/models/helmsman-43e-pilothouse-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/helmsman-43e-pilothouse-pilothouse/"
   },
   {
     "ManufacturerID": "HELMSMAN",
@@ -37281,7 +37695,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "helmsman-46-pilothouse-pilothouse",
+    "CanonicalPath": "/models/helmsman-46-pilothouse-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/helmsman-46-pilothouse-pilothouse/"
   },
   {
     "ManufacturerID": "HOLIDAY",
@@ -37512,7 +37929,10 @@
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown",
       "MechanicalPropulsionCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "holiday-mansion-38-barracuda-coastal-coastal-houseboat-cruiser",
+    "CanonicalPath": "/models/holiday-mansion-38-barracuda-coastal-coastal-houseboat-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/holiday-mansion-38-barracuda-coastal-coastal-houseboat-cruiser/"
   },
   {
     "ManufacturerID": "HUNT",
@@ -37760,7 +38180,10 @@
     "PlanCriticalStatus": {
       "FuelCode": "configuration_or_production_mixed",
       "MechanicalPropulsionCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "hunt-yachts-surfhunter-29-deep-v-express-cruiser",
+    "CanonicalPath": "/models/hunt-yachts-surfhunter-29-deep-v-express-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/hunt-yachts-surfhunter-29-deep-v-express-cruiser/"
   },
   {
     "ManufacturerID": "HUNT",
@@ -38010,7 +38433,10 @@
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown",
       "MechanicalPropulsionCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "hunt-yachts-surfhunter-36-coupe-coupe",
+    "CanonicalPath": "/models/hunt-yachts-surfhunter-36-coupe-coupe/",
+    "CanonicalURL": "https://b-atlas.org/models/hunt-yachts-surfhunter-36-coupe-coupe/"
   },
   {
     "ManufacturerID": "ISLANDGYPSY",
@@ -38271,7 +38697,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 3.7592
+    "AirDraft": 3.7592,
+    "CanonicalSlug": "island-gypsy-32-europa-europa",
+    "CanonicalPath": "/models/island-gypsy-32-europa-europa/",
+    "CanonicalURL": "https://b-atlas.org/models/island-gypsy-32-europa-europa/"
   },
   {
     "ManufacturerID": "ISLANDGYPSY",
@@ -38534,7 +38963,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "island-gypsy-32-fisherman-fisherman",
+    "CanonicalPath": "/models/island-gypsy-32-fisherman-fisherman/",
+    "CanonicalURL": "https://b-atlas.org/models/island-gypsy-32-fisherman-fisherman/"
   },
   {
     "ManufacturerID": "ISLANDGYPSY",
@@ -38799,7 +39231,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "island-gypsy-32-sedan-sedan",
+    "CanonicalPath": "/models/island-gypsy-32-sedan-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/island-gypsy-32-sedan-sedan/"
   },
   {
     "ManufacturerID": "ISLAND",
@@ -39063,7 +39498,10 @@
     "SideDecksCode": "side_decks.wide",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "island-gypsy-36-classic-classic",
+    "CanonicalPath": "/models/island-gypsy-36-classic-classic/",
+    "CanonicalURL": "https://b-atlas.org/models/island-gypsy-36-classic-classic/"
   },
   {
     "ManufacturerID": "ISLAND",
@@ -39321,7 +39759,10 @@
     "SideDecksCode": "side_decks.wide",
     "FuelCapacityUnitStatus": "conflicting_legacy_capacity_values",
     "WaterCapacityUnitStatus": "conflicting_legacy_capacity_values",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "island-gypsy-36-europa-europa",
+    "CanonicalPath": "/models/island-gypsy-36-europa-europa/",
+    "CanonicalURL": "https://b-atlas.org/models/island-gypsy-36-europa-europa/"
   },
   {
     "ManufacturerID": "ISLAND",
@@ -39587,7 +40028,10 @@
     "SideDecksCode": "side_decks.wide",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "island-gypsy-40-classic-classic",
+    "CanonicalPath": "/models/island-gypsy-40-classic-classic/",
+    "CanonicalURL": "https://b-atlas.org/models/island-gypsy-40-classic-classic/"
   },
   {
     "ManufacturerID": "ISLAND",
@@ -39850,7 +40294,10 @@
     "FlybridgeCode": "availability.yes",
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "island-gypsy-44-motor-cruiser-motor-cruiser",
+    "CanonicalPath": "/models/island-gypsy-44-motor-cruiser-motor-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/island-gypsy-44-motor-cruiser-motor-cruiser/"
   },
   {
     "ManufacturerID": "JEAU",
@@ -40101,7 +40548,10 @@
     "LWL": 9.7536,
     "Beam": 3.3711,
     "AirDraft": 3.5052,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "jeanneau-merry-fisher-1095-coup-coup",
+    "CanonicalPath": "/models/jeanneau-merry-fisher-1095-coup-coup/",
+    "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-1095-coup-coup/"
   },
   {
     "ManufacturerID": "JEAU",
@@ -40353,7 +40803,10 @@
     "LWL": 9.7536,
     "AirDraft": 3.5052,
     "Displacement": 5300.2,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "jeanneau-merry-fisher-1095-fly-flybridge",
+    "CanonicalPath": "/models/jeanneau-merry-fisher-1095-fly-flybridge/",
+    "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-1095-fly-flybridge/"
   },
   {
     "ManufacturerID": "JEAU",
@@ -40585,7 +41038,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 5.4864,
     "AirDraft": 2.1336,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "jeanneau-merry-fisher-605-pilothouse-outboard",
+    "CanonicalPath": "/models/jeanneau-merry-fisher-605-pilothouse-outboard/",
+    "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-605-pilothouse-outboard/"
   },
   {
     "ManufacturerID": "JEAU",
@@ -40820,7 +41276,10 @@
     "Beam": null,
     "PlanCriticalStatus": {
       "Beam": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "jeanneau-merry-fisher-635-pilothouse",
+    "CanonicalPath": "/models/jeanneau-merry-fisher-635-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-635-pilothouse/"
   },
   {
     "ManufacturerID": "JEAU",
@@ -41062,7 +41521,10 @@
     "LWL": 6.7056,
     "Draft": 0.4572,
     "AirDraft": 2.5908,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "jeanneau-merry-fisher-695-series-1-series-2",
+    "CanonicalPath": "/models/jeanneau-merry-fisher-695-series-1-series-2/",
+    "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-695-series-1-series-2/"
   },
   {
     "ManufacturerID": "JEAU",
@@ -41310,7 +41772,10 @@
       "LOA": "researched_unknown",
       "Draft": "researched_unknown"
     },
-    "Draft": null
+    "Draft": null,
+    "CanonicalSlug": "jeanneau-merry-fisher-795-series-1-series-2",
+    "CanonicalPath": "/models/jeanneau-merry-fisher-795-series-1-series-2/",
+    "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-795-series-1-series-2/"
   },
   {
     "ManufacturerID": "JEAU",
@@ -41545,7 +42010,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 7.9248,
     "AirDraft": 3.048,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "jeanneau-merry-fisher-855-twin-outboard-weekender",
+    "CanonicalPath": "/models/jeanneau-merry-fisher-855-twin-outboard-weekender/",
+    "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-855-twin-outboard-weekender/"
   },
   {
     "ManufacturerID": "JEAU",
@@ -41802,7 +42270,10 @@
     "LWL": 8.2296,
     "Beam": 2.9718,
     "AirDraft": 3.2004,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "jeanneau-merry-fisher-895-series-1-series-2",
+    "CanonicalPath": "/models/jeanneau-merry-fisher-895-series-1-series-2/",
+    "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-895-series-1-series-2/"
   },
   {
     "ManufacturerID": "JEAU",
@@ -42037,7 +42508,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 8.2296,
     "AirDraft": 3.2004,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "jeanneau-merry-fisher-895-sport-walkaround-sport-pilothouse",
+    "CanonicalPath": "/models/jeanneau-merry-fisher-895-sport-walkaround-sport-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/jeanneau-merry-fisher-895-sport-walkaround-sport-pilothouse/"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -42299,7 +42773,10 @@
     "FuelCapacityUnitStatus": "conflicting_legacy_capacity_values",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 4.2672
+    "AirDraft": 4.2672,
+    "CanonicalSlug": "kadey-krogen-36-manatee-manatee",
+    "CanonicalPath": "/models/kadey-krogen-36-manatee-manatee/",
+    "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-36-manatee-manatee/"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -42564,7 +43041,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "kadey-krogen-39",
+    "CanonicalPath": "/models/kadey-krogen-39/",
+    "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-39/"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -42829,7 +43309,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "kadey-krogen-42",
+    "CanonicalPath": "/models/kadey-krogen-42/",
+    "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-42/"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -43098,7 +43581,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "kadey-krogen-44-trawler",
+    "CanonicalPath": "/models/kadey-krogen-44-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-44-trawler/"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -43362,7 +43848,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "kadey-krogen-48-north-sea-north-sea",
+    "CanonicalPath": "/models/kadey-krogen-48-north-sea-north-sea/",
+    "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-48-north-sea-north-sea/"
   },
   {
     "ManufacturerID": "LUHRS",
@@ -43613,7 +44102,10 @@
     "Headroom_ft": 6.333333333333333,
     "FuelCapacityGal": 196,
     "WaterCapacityGal": 38,
-    "HoldingCapacityGal": 15
+    "HoldingCapacityGal": 15,
+    "CanonicalSlug": "luhrs-30-alura-downeast-profile-fishing-cruiser",
+    "CanonicalPath": "/models/luhrs-30-alura-downeast-profile-fishing-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/luhrs-30-alura-downeast-profile-fishing-cruiser/"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -43892,7 +44384,10 @@
       "Draft": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "mainship-30-pilot",
+    "CanonicalPath": "/models/mainship-30-pilot/",
+    "CanonicalURL": "https://b-atlas.org/models/mainship-30-pilot/"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -44195,7 +44690,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 4.1148
+    "AirDraft": 4.1148,
+    "CanonicalSlug": "mainship-34-mkii",
+    "CanonicalPath": "/models/mainship-34-mkii/",
+    "CanonicalURL": "https://b-atlas.org/models/mainship-34-mkii/"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -44517,7 +45015,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 4.1148
+    "AirDraft": 4.1148,
+    "CanonicalSlug": "mainship-34-mki",
+    "CanonicalPath": "/models/mainship-34-mki/",
+    "CanonicalURL": "https://b-atlas.org/models/mainship-34-mki/"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -44799,7 +45300,10 @@
     ],
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "mainship-350-trawler",
+    "CanonicalPath": "/models/mainship-350-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/mainship-350-trawler/"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -45081,7 +45585,10 @@
     ],
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "mainship-390-trawler",
+    "CanonicalPath": "/models/mainship-390-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/mainship-390-trawler/"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -45369,7 +45876,10 @@
     ],
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "mainship-400-400-trawler-41-expedition-414-trawler",
+    "CanonicalPath": "/models/mainship-400-400-trawler-41-expedition-414-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/mainship-400-400-trawler-41-expedition-414-trawler/"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -45601,7 +46111,10 @@
     },
     "Beam": null,
     "Draft": null,
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "marine-trader-34-europa",
+    "CanonicalPath": "/models/marine-trader-34-europa/",
+    "CanonicalURL": "https://b-atlas.org/models/marine-trader-34-europa/"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -45855,7 +46368,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 3.6576000000000004
+    "AirDraft": 3.6576000000000004,
+    "CanonicalSlug": "marine-trader-34-sedan",
+    "CanonicalPath": "/models/marine-trader-34-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/marine-trader-34-sedan/"
   },
   {
     "ManufacturerID": "MARINE",
@@ -46148,7 +46664,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "marine-trader-36-double-cabin-double-cabin",
+    "CanonicalPath": "/models/marine-trader-36-double-cabin-double-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/marine-trader-36-double-cabin-double-cabin/"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -46440,7 +46959,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "marine-trader-38-double-cabin-double-cabin",
+    "CanonicalPath": "/models/marine-trader-38-double-cabin-double-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/marine-trader-38-double-cabin-double-cabin/"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -46721,7 +47243,10 @@
     },
     "Beam": null,
     "Draft": null,
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "marine-trader-38-sundeck-sundeck",
+    "CanonicalPath": "/models/marine-trader-38-sundeck-sundeck/",
+    "CanonicalURL": "https://b-atlas.org/models/marine-trader-38-sundeck-sundeck/"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -47007,7 +47532,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "marine-trader-40-double-cabin-double-cabin",
+    "CanonicalPath": "/models/marine-trader-40-double-cabin-double-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/marine-trader-40-double-cabin-double-cabin/"
   },
   {
     "ManufacturerID": "MARINETRADER",
@@ -47341,7 +47869,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "marine-trader-44-tri-cabin-tri-cabin",
+    "CanonicalPath": "/models/marine-trader-44-tri-cabin-tri-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/marine-trader-44-tri-cabin-tri-cabin/"
   },
   {
     "ManufacturerID": "MERIDIAN",
@@ -47605,7 +48136,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 4.2926
+    "AirDraft": 4.2926,
+    "CanonicalSlug": "meridian-341-sedan-flybridge-sedan",
+    "CanonicalPath": "/models/meridian-341-sedan-flybridge-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/meridian-341-sedan-flybridge-sedan/"
   },
   {
     "ManufacturerID": "MERIDIAN",
@@ -47849,7 +48383,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 4.2926
+    "AirDraft": 4.2926,
+    "CanonicalSlug": "meridian-381-sedan-flybridge-sedan",
+    "CanonicalPath": "/models/meridian-381-sedan-flybridge-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/meridian-381-sedan-flybridge-sedan/"
   },
   {
     "ManufacturerID": "MONK",
@@ -48120,7 +48657,10 @@
     "FuelCapacityUnitStatus": "canonical_litres",
     "WaterCapacityUnitStatus": "canonical_litres",
     "HoldingCapacityUnitStatus": "canonical_litres",
-    "HoldingCapacityGal": 45
+    "HoldingCapacityGal": 45,
+    "CanonicalSlug": "monk-36-trawler-aft-cabin-trawler",
+    "CanonicalPath": "/models/monk-36-trawler-aft-cabin-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/monk-36-trawler-aft-cabin-trawler/"
   },
   {
     "ManufacturerID": "NIMBLE",
@@ -48379,7 +48919,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "nimble-nomad-pocket-trawler",
+    "CanonicalPath": "/models/nimble-nomad-pocket-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/nimble-nomad-pocket-trawler/"
   },
   {
     "ManufacturerID": "NIMBLE",
@@ -48656,7 +49199,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "nimble-wanderer-power-cruiser-optional-motorsailer",
+    "CanonicalPath": "/models/nimble-wanderer-power-cruiser-optional-motorsailer/",
+    "CanonicalURL": "https://b-atlas.org/models/nimble-wanderer-power-cruiser-optional-motorsailer/"
   },
   {
     "BoatModelID": "NMBS-3003",
@@ -48912,7 +49458,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "nimbus-3003-aft-cabin-coup",
+    "CanonicalPath": "/models/nimbus-3003-aft-cabin-coup/",
+    "CanonicalURL": "https://b-atlas.org/models/nimbus-3003-aft-cabin-coup/"
   },
   {
     "ManufacturerID": "NIMBUS",
@@ -49156,7 +49705,10 @@
     "HoldingCapacityUnitStatus": "canonical_litres",
     "FuelCapacityGal": 184.9,
     "WaterCapacityGal": 71.3,
-    "HoldingCapacityGal": 31.7
+    "HoldingCapacityGal": 31.7,
+    "CanonicalSlug": "nimbus-365-coup-sidewalk-coup-cruiser",
+    "CanonicalPath": "/models/nimbus-365-coup-sidewalk-coup-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/nimbus-365-coup-sidewalk-coup-cruiser/"
   },
   {
     "ManufacturerID": "NORD_STAR",
@@ -49409,7 +49961,10 @@
       "Draft": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "nord-star-31-all-weather-pilothouse",
+    "CanonicalPath": "/models/nord-star-31-all-weather-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/nord-star-31-all-weather-pilothouse/"
   },
   {
     "ManufacturerID": "NORDHAVN",
@@ -49671,7 +50226,10 @@
       "Draft": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "nordhavn-40-ocean-passagemaker",
+    "CanonicalPath": "/models/nordhavn-40-ocean-passagemaker/",
+    "CanonicalURL": "https://b-atlas.org/models/nordhavn-40-ocean-passagemaker/"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -49995,7 +50553,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "HeadroomSalon": 1.9304,
     "HeadroomHelm": 1.8796,
-    "HeadroomForwardCabin": 1.8288
+    "HeadroomForwardCabin": 1.8288,
+    "CanonicalSlug": "nordic-tugs-26",
+    "CanonicalPath": "/models/nordic-tugs-26/",
+    "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-26/"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -50267,7 +50828,10 @@
     "AirDraft": 3.2004,
     "FuelCapacityUnitStatus": "unit_unverified",
     "WaterCapacityUnitStatus": "unit_unverified",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "nordic-tugs-32",
+    "CanonicalPath": "/models/nordic-tugs-32/",
+    "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-32/"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -50567,7 +51131,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "nordic-tugs-34",
+    "CanonicalPath": "/models/nordic-tugs-34/",
+    "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-34/"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -50851,7 +51418,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "nordic-tugs-37",
+    "CanonicalPath": "/models/nordic-tugs-37/",
+    "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-37/"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -51140,7 +51710,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "nordic-tugs-39",
+    "CanonicalPath": "/models/nordic-tugs-39/",
+    "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-39/"
   },
   {
     "ManufacturerID": "NORDIC",
@@ -51440,7 +52013,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "nordic-tugs-42",
+    "CanonicalPath": "/models/nordic-tugs-42/",
+    "CanonicalURL": "https://b-atlas.org/models/nordic-tugs-42/"
   },
   {
     "ManufacturerID": "NORTH",
@@ -51698,7 +52274,10 @@
     "AirDraft": 3.5814000000000004,
     "PlanCriticalStatus": {
       "Draft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "north-pacific-28-pilothouse-pilothouse",
+    "CanonicalPath": "/models/north-pacific-28-pilothouse-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/north-pacific-28-pilothouse-pilothouse/"
   },
   {
     "ManufacturerID": "NORTH",
@@ -51958,7 +52537,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "north-pacific-38-sedan-europa-sedan",
+    "CanonicalPath": "/models/north-pacific-38-sedan-europa-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/north-pacific-38-sedan-europa-sedan/"
   },
   {
     "ManufacturerID": "OCEA",
@@ -52211,7 +52793,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "oceania-yachts-36-sedan-sedan-trawler",
+    "CanonicalPath": "/models/oceania-yachts-36-sedan-sedan-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/oceania-yachts-36-sedan-sedan-trawler/"
   },
   {
     "ManufacturerID": "OCEAN",
@@ -52464,7 +53049,10 @@
       "LOA": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "ocean-alexander-39-sedan-flybridge-sedan",
+    "CanonicalPath": "/models/ocean-alexander-39-sedan-flybridge-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/ocean-alexander-39-sedan-flybridge-sedan/"
   },
   {
     "ManufacturerID": "PDQ",
@@ -52703,7 +53291,10 @@
     "Headroom": 1.9812,
     "Headroom_ft": 6.5,
     "FuelCapacityGal": 184,
-    "WaterCapacityGal": 80
+    "WaterCapacityGal": 80,
+    "CanonicalSlug": "pdq-34-powercat-power-catamaran",
+    "CanonicalPath": "/models/pdq-34-powercat-power-catamaran/",
+    "CanonicalURL": "https://b-atlas.org/models/pdq-34-powercat-power-catamaran/"
   },
   {
     "ManufacturerID": "PRAIRIE",
@@ -52966,7 +53557,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "prairie-29-coastal-cruiser-coastal-cruiser",
+    "CanonicalPath": "/models/prairie-29-coastal-cruiser-coastal-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/prairie-29-coastal-cruiser-coastal-cruiser/"
   },
   {
     "ManufacturerID": "PRAIRIE",
@@ -53230,7 +53824,10 @@
     "FuelCapacityUnitStatus": "conflicting_legacy_capacity_values",
     "WaterCapacityUnitStatus": "conflicting_legacy_capacity_values",
     "HoldingCapacityUnitStatus": "canonical_litres",
-    "HoldingCapacityGal": 30
+    "HoldingCapacityGal": 30,
+    "CanonicalSlug": "prairie-36-coastal-cruiser-double-cabin",
+    "CanonicalPath": "/models/prairie-36-coastal-cruiser-double-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/prairie-36-coastal-cruiser-double-cabin/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -53484,7 +54081,10 @@
     "Draft": 0.6096,
     "AirDraft": 2.286,
     "Displacement": 1428.8,
-    "HullBehaviourCode": "hull_behaviour.planing"
+    "HullBehaviourCode": "hull_behaviour.planing",
+    "CanonicalSlug": "ranger-tugs-r-21-classic-diesel",
+    "CanonicalPath": "/models/ranger-tugs-r-21-classic-diesel/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-21-classic-diesel/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -53739,7 +54339,10 @@
     "Draft": 0.6096,
     "AirDraft": 2.4384,
     "Displacement": 1428.8,
-    "HullBehaviourCode": "hull_behaviour.planing"
+    "HullBehaviourCode": "hull_behaviour.planing",
+    "CanonicalSlug": "ranger-tugs-r-21-ec-diesel",
+    "CanonicalPath": "/models/ranger-tugs-r-21-ec-diesel/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-21-ec-diesel/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -54011,7 +54614,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "AirDraft": 2.5908,
     "HullBehaviourCode": "hull_behaviour.planing",
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "ranger-tugs-r-23-current-outboard",
+    "CanonicalPath": "/models/ranger-tugs-r-23-current-outboard/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-23-current-outboard/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -54270,7 +54876,10 @@
     "Draft": 0.6706,
     "AirDraft": 2.5908,
     "Displacement": 2494.8,
-    "HullBehaviourCode": "hull_behaviour.planing"
+    "HullBehaviourCode": "hull_behaviour.planing",
+    "CanonicalSlug": "ranger-tugs-r-25-classic-diesel",
+    "CanonicalPath": "/models/ranger-tugs-r-25-classic-diesel/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-25-classic-diesel/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -54542,7 +55151,10 @@
     "AirDraft": 2.5908,
     "Displacement": 2948.4,
     "HullBehaviourCode": "hull_behaviour.planing",
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "ranger-tugs-r-25-current-outboard",
+    "CanonicalPath": "/models/ranger-tugs-r-25-current-outboard/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-25-current-outboard/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -54807,7 +55419,10 @@
     "Draft": 0.6706,
     "AirDraft": 2.5908,
     "Displacement": 2812.3,
-    "HullBehaviourCode": "hull_behaviour.planing"
+    "HullBehaviourCode": "hull_behaviour.planing",
+    "CanonicalSlug": "ranger-tugs-r-25-sc-diesel",
+    "CanonicalPath": "/models/ranger-tugs-r-25-sc-diesel/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-25-sc-diesel/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -55073,7 +55688,10 @@
     "Draft": 0.6706,
     "AirDraft": 2.5908,
     "Displacement": 3175.1,
-    "HullBehaviourCode": "hull_behaviour.planing"
+    "HullBehaviourCode": "hull_behaviour.planing",
+    "CanonicalSlug": "ranger-tugs-r-27-classic-diesel",
+    "CanonicalPath": "/models/ranger-tugs-r-27-classic-diesel/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-27-classic-diesel/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -55345,7 +55963,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "AirDraft": 2.5908,
     "HullBehaviourCode": "hull_behaviour.planing",
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "ranger-tugs-r-27-current-twin-outboard",
+    "CanonicalPath": "/models/ranger-tugs-r-27-current-twin-outboard/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-27-current-twin-outboard/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -55606,7 +56227,10 @@
     "AirDraft": 2.5908,
     "Displacement": 3492.7,
     "HullBehaviourCode": "hull_behaviour.planing",
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "ranger-tugs-r-27-single-outboard-nw-le",
+    "CanonicalPath": "/models/ranger-tugs-r-27-single-outboard-nw-le/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-27-single-outboard-nw-le/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -55874,7 +56498,10 @@
     "Draft": 0.762,
     "AirDraft": 3.81,
     "Displacement": 4195.7,
-    "HullBehaviourCode": "hull_behaviour.semi_displacement"
+    "HullBehaviourCode": "hull_behaviour.semi_displacement",
+    "CanonicalSlug": "ranger-tugs-r-29-classic-diesel",
+    "CanonicalPath": "/models/ranger-tugs-r-29-classic-diesel/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-29-classic-diesel/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -56147,7 +56774,10 @@
     "AirDraft": 4.1148,
     "Displacement": 4762.7,
     "HullBehaviourCode": "hull_behaviour.semi_displacement",
-    "KeelConfigurationCode": "keel.protective"
+    "KeelConfigurationCode": "keel.protective",
+    "CanonicalSlug": "ranger-tugs-r-29-cb-command-bridge",
+    "CanonicalPath": "/models/ranger-tugs-r-29-cb-command-bridge/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-29-cb-command-bridge/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -56419,7 +57049,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 8.382,
     "AirDraft": 4.1148,
-    "HullBehaviourCode": "hull_behaviour.semi_displacement"
+    "HullBehaviourCode": "hull_behaviour.semi_displacement",
+    "CanonicalSlug": "ranger-tugs-r-29-s-sedan",
+    "CanonicalPath": "/models/ranger-tugs-r-29-s-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-29-s-sedan/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -56692,7 +57325,10 @@
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "AirDraft": 3.9624,
-    "HullBehaviourCode": "hull_behaviour.semi_displacement"
+    "HullBehaviourCode": "hull_behaviour.semi_displacement",
+    "CanonicalSlug": "ranger-tugs-r-31-cb-command-bridge",
+    "CanonicalPath": "/models/ranger-tugs-r-31-cb-command-bridge/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-31-cb-command-bridge/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -56966,7 +57602,10 @@
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "AirDraft": 3.048,
-    "HullBehaviourCode": "hull_behaviour.semi_displacement"
+    "HullBehaviourCode": "hull_behaviour.semi_displacement",
+    "CanonicalSlug": "ranger-tugs-r-31-s-sedan",
+    "CanonicalPath": "/models/ranger-tugs-r-31-s-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-31-s-sedan/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -57234,7 +57873,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "AirDraft": 5.4864,
     "Displacement": 14061.4,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "ranger-tugs-r-43-cb-command-bridge",
+    "CanonicalPath": "/models/ranger-tugs-r-43-cb-command-bridge/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-43-cb-command-bridge/"
   },
   {
     "ManufacturerID": "RANGER_TUGS",
@@ -57504,7 +58146,10 @@
     "HoldingCapacityUnitStatus": "unit_unverified",
     "AirDraft": 3.7582,
     "Displacement": 13607.8,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "ranger-tugs-r-43-s-sedan",
+    "CanonicalPath": "/models/ranger-tugs-r-43-s-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/ranger-tugs-r-43-s-sedan/"
   },
   {
     "ManufacturerID": "ROSBOROUGH",
@@ -57773,7 +58418,10 @@
       "Draft": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "rosborough-rf-246-custom-wheelhouse",
+    "CanonicalPath": "/models/rosborough-rf-246-custom-wheelhouse/",
+    "CanonicalURL": "https://b-atlas.org/models/rosborough-rf-246-custom-wheelhouse/"
   },
   {
     "ManufacturerID": "ROSBOROUGH",
@@ -58042,7 +58690,10 @@
       "Draft": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "rosborough-rf-246-legacy-sedan-cruiser-diesel",
+    "CanonicalPath": "/models/rosborough-rf-246-legacy-sedan-cruiser-diesel/",
+    "CanonicalURL": "https://b-atlas.org/models/rosborough-rf-246-legacy-sedan-cruiser-diesel/"
   },
   {
     "ManufacturerID": "ROSBOROUGH",
@@ -58313,7 +58964,10 @@
       "Draft": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "rosborough-246-yarmouth",
+    "CanonicalPath": "/models/rosborough-246-yarmouth/",
+    "CanonicalURL": "https://b-atlas.org/models/rosborough-246-yarmouth/"
   },
   {
     "ManufacturerID": "SABRE",
@@ -58561,7 +59215,10 @@
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "AirDraft": 3.8608,
-    "Displacement": 9071.8
+    "Displacement": 9071.8,
+    "CanonicalSlug": "sabre-34-express-hardtop-express",
+    "CanonicalPath": "/models/sabre-34-express-hardtop-express/",
+    "CanonicalURL": "https://b-atlas.org/models/sabre-34-express-hardtop-express/"
   },
   {
     "ManufacturerID": "SABRE",
@@ -58818,7 +59475,10 @@
     "HoldingCapacityGal": 40,
     "PlanCriticalStatus": {
       "MechanicalPropulsionCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "sabre-38-salon-express-salon-express",
+    "CanonicalPath": "/models/sabre-38-salon-express-salon-express/",
+    "CanonicalURL": "https://b-atlas.org/models/sabre-38-salon-express-salon-express/"
   },
   {
     "ManufacturerID": "SAGA",
@@ -59078,7 +59738,10 @@
       "MechanicalPropulsionCode": "configuration_or_production_mixed",
       "HullBehaviourCode": "configuration_dependent_or_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "saga-26-ht-hardtop-cruiser",
+    "CanonicalPath": "/models/saga-26-ht-hardtop-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/saga-26-ht-hardtop-cruiser/"
   },
   {
     "ManufacturerID": "SEA",
@@ -59356,7 +60019,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "sea-ray-340-sundancer-multi-generation-express-cruiser",
+    "CanonicalPath": "/models/sea-ray-340-sundancer-multi-generation-express-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/sea-ray-340-sundancer-multi-generation-express-cruiser/"
   },
   {
     "ManufacturerID": "SEA",
@@ -59617,7 +60283,10 @@
     "FuelCapacityUnitStatus": "canonical_litres_assumed_us_gal",
     "WaterCapacityUnitStatus": "canonical_litres_assumed_us_gal",
     "HoldingCapacityUnitStatus": "canonical_litres_assumed_us_gal",
-    "HoldingCapacityGal": 54
+    "HoldingCapacityGal": 54,
+    "CanonicalSlug": "sea-ray-390-40-motor-yacht-flush-deck-motor-yacht",
+    "CanonicalPath": "/models/sea-ray-390-40-motor-yacht-flush-deck-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/sea-ray-390-40-motor-yacht-flush-deck-motor-yacht/"
   },
   {
     "ManufacturerID": "SEAHORSE",
@@ -59855,7 +60524,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "seahorse-coot-35-steel-pocket-trawler",
+    "CanonicalPath": "/models/seahorse-coot-35-steel-pocket-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/seahorse-coot-35-steel-pocket-trawler/"
   },
   {
     "ManufacturerID": "SEAHORSE",
@@ -60093,7 +60765,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "seahorse-coot-38-steel-pocket-trawler",
+    "CanonicalPath": "/models/seahorse-coot-38-steel-pocket-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/seahorse-coot-38-steel-pocket-trawler/"
   },
   {
     "ManufacturerID": "SEALORD",
@@ -60337,7 +61012,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "sealord-34-double-cabin-trawler-tri-cabin-double-cabin",
+    "CanonicalPath": "/models/sealord-34-double-cabin-trawler-tri-cabin-double-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/sealord-34-double-cabin-trawler-tri-cabin-double-cabin/"
   },
   {
     "ManufacturerID": "SEAPIPER",
@@ -60595,7 +61273,10 @@
     "HoldingCapacityGal": 22,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "seapiper-35-narrow-beam-long-range-cruiser",
+    "CanonicalPath": "/models/seapiper-35-narrow-beam-long-range-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/seapiper-35-narrow-beam-long-range-cruiser/"
   },
   {
     "ManufacturerID": "SEASPORT",
@@ -60853,7 +61534,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "sea-sport-xl-2400-long-cockpit-pilothouse",
+    "CanonicalPath": "/models/sea-sport-xl-2400-long-cockpit-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/sea-sport-xl-2400-long-cockpit-pilothouse/"
   },
   {
     "ManufacturerID": "SEASPORT",
@@ -61114,7 +61798,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "sea-sport-explorer-2400-long-cabin-pilothouse",
+    "CanonicalPath": "/models/sea-sport-explorer-2400-long-cabin-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/sea-sport-explorer-2400-long-cabin-pilothouse/"
   },
   {
     "ManufacturerID": "SEASPORT",
@@ -61383,7 +62070,10 @@
       "Draft": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "sea-sport-27-seamaster-navigator-pilot",
+    "CanonicalPath": "/models/sea-sport-27-seamaster-navigator-pilot/",
+    "CanonicalURL": "https://b-atlas.org/models/sea-sport-27-seamaster-navigator-pilot/"
   },
   {
     "ManufacturerID": "SEAWAY",
@@ -61576,7 +62266,10 @@
       "FuelCode": "configuration_or_production_mixed",
       "MechanicalPropulsionCode": "configuration_or_production_mixed"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "seaway-24-sport-trawler",
+    "CanonicalPath": "/models/seaway-24-sport-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/seaway-24-sport-trawler/"
   },
   {
     "ManufacturerID": "SEAWAY",
@@ -61761,7 +62454,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "seaway-28-coastal-cruiser-coastal-cruiser",
+    "CanonicalPath": "/models/seaway-28-coastal-cruiser-coastal-cruiser/",
+    "CanonicalURL": "https://b-atlas.org/models/seaway-28-coastal-cruiser-coastal-cruiser/"
   },
   {
     "ManufacturerID": "SHANNON",
@@ -61983,7 +62679,10 @@
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown",
       "MechanicalPropulsionCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "shannon-38-srd-schulz-reverse-deadrise",
+    "CanonicalPath": "/models/shannon-38-srd-schulz-reverse-deadrise/",
+    "CanonicalURL": "https://b-atlas.org/models/shannon-38-srd-schulz-reverse-deadrise/"
   },
   {
     "ManufacturerID": "SILVERTON",
@@ -62234,7 +62933,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "silverton-34-motor-yacht-aft-cabin-motor-yacht",
+    "CanonicalPath": "/models/silverton-34-motor-yacht-aft-cabin-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/silverton-34-motor-yacht-aft-cabin-motor-yacht/"
   },
   {
     "ManufacturerID": "SILVERTON",
@@ -62481,7 +63183,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 4.9276
+    "AirDraft": 4.9276,
+    "CanonicalSlug": "silverton-352-motor-yacht-sidewalk-motor-yacht",
+    "CanonicalPath": "/models/silverton-352-motor-yacht-sidewalk-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/silverton-352-motor-yacht-sidewalk-motor-yacht/"
   },
   {
     "ManufacturerID": "SILVERTON",
@@ -62743,7 +63448,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 5.0038
+    "AirDraft": 5.0038,
+    "CanonicalSlug": "silverton-372-392-motor-yacht-sidewalk-motor-yacht",
+    "CanonicalPath": "/models/silverton-372-392-motor-yacht-sidewalk-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/silverton-372-392-motor-yacht-sidewalk-motor-yacht/"
   },
   {
     "ManufacturerID": "SILVERTON",
@@ -62991,7 +63699,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 4.1148
+    "AirDraft": 4.1148,
+    "CanonicalSlug": "silverton-40-aft-cabin-double-cabin-motor-yacht",
+    "CanonicalPath": "/models/silverton-40-aft-cabin-double-cabin-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/silverton-40-aft-cabin-double-cabin-motor-yacht/"
   },
   {
     "ManufacturerID": "SISU",
@@ -63247,7 +63958,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "sisu-22-bass-boat-lobsterboat",
+    "CanonicalPath": "/models/sisu-22-bass-boat-lobsterboat/",
+    "CanonicalURL": "https://b-atlas.org/models/sisu-22-bass-boat-lobsterboat/"
   },
   {
     "ManufacturerID": "SISU",
@@ -63506,7 +64220,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "sisu-26-bass-boat-sedan-lobsterboat",
+    "CanonicalPath": "/models/sisu-26-bass-boat-sedan-lobsterboat/",
+    "CanonicalURL": "https://b-atlas.org/models/sisu-26-bass-boat-sedan-lobsterboat/"
   },
   {
     "ManufacturerID": "TOLLYCRAFT",
@@ -63771,7 +64488,10 @@
     "FuelCode": "fuel.mixed",
     "PlanCriticalStatus": {
       "FuelCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "tollycraft-34-sport-sedan-sport-sedan",
+    "CanonicalPath": "/models/tollycraft-34-sport-sedan-sport-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/tollycraft-34-sport-sedan-sport-sedan/"
   },
   {
     "ManufacturerID": "TOLLYCRAFT",
@@ -64032,7 +64752,10 @@
     "FuelCode": "fuel.mixed",
     "PlanCriticalStatus": {
       "FuelCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "tollycraft-37-sedan-flybridge-sedan",
+    "CanonicalPath": "/models/tollycraft-37-sedan-flybridge-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/tollycraft-37-sedan-flybridge-sedan/"
   },
   {
     "ManufacturerID": "TRANSPACIFIC",
@@ -64290,7 +65013,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "transpacific-marine-eagle-32-pilothouse-transpacific-marine-trawler",
+    "CanonicalPath": "/models/transpacific-marine-eagle-32-pilothouse-transpacific-marine-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/transpacific-marine-eagle-32-pilothouse-transpacific-marine-trawler/"
   },
   {
     "ManufacturerID": "TROJAN",
@@ -64557,7 +65283,10 @@
     "PlanCriticalStatus": {
       "FuelCode": "configuration_or_production_mixed",
       "MechanicalPropulsionCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "trojan-f-36-tri-cabin-tri-cabin-motor-yacht",
+    "CanonicalPath": "/models/trojan-f-36-tri-cabin-tri-cabin-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/trojan-f-36-tri-cabin-tri-cabin-motor-yacht/"
   },
   {
     "ManufacturerID": "TRUE",
@@ -64827,7 +65556,10 @@
       "LOA": "researched_unknown",
       "AirDraft": "researched_unknown"
     },
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "true-north-34-original-diesel-inboard",
+    "CanonicalPath": "/models/true-north-34-original-diesel-inboard/",
+    "CanonicalURL": "https://b-atlas.org/models/true-north-34-original-diesel-inboard/"
   },
   {
     "ManufacturerID": "UNIFLITE",
@@ -65087,7 +65819,10 @@
     "LWL": 10.0584,
     "PlanCriticalStatus": {
       "FuelCode": "configuration_or_production_mixed"
-    }
+    },
+    "CanonicalSlug": "uniflite-36-double-cabin-aft-cabin-motor-yacht",
+    "CanonicalPath": "/models/uniflite-36-double-cabin-aft-cabin-motor-yacht/",
+    "CanonicalURL": "https://b-atlas.org/models/uniflite-36-double-cabin-aft-cabin-motor-yacht/"
   },
   {
     "ManufacturerID": "UNIVERSAL",
@@ -65342,7 +66077,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "universal-36-tri-cabin-trawler-tri-cabin",
+    "CanonicalPath": "/models/universal-36-tri-cabin-trawler-tri-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/universal-36-tri-cabin-trawler-tri-cabin/"
   },
   {
     "ManufacturerID": "UNIVERSAL",
@@ -65591,7 +66329,10 @@
     "AirDraft": 5.1816,
     "Displacement": 7711.1,
     "RudderTypeCode": "rudder.skeg_hung",
-    "HoldingCapacityGal": 50
+    "HoldingCapacityGal": 50,
+    "CanonicalSlug": "universal-40-europa-europa-trawler",
+    "CanonicalPath": "/models/universal-40-europa-europa-trawler/",
+    "CanonicalURL": "https://b-atlas.org/models/universal-40-europa-europa-trawler/"
   },
   {
     "ManufacturerID": "WILLARD",
@@ -65860,7 +66601,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "willard-vega-30-voyager-raised-pilothouse",
+    "CanonicalPath": "/models/willard-vega-30-voyager-raised-pilothouse/",
+    "CanonicalURL": "https://b-atlas.org/models/willard-vega-30-voyager-raised-pilothouse/"
   },
   {
     "ManufacturerID": "WILLARD",
@@ -66137,7 +66881,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "willard-vega-36-standard-cruiser-flybridge-sedan",
+    "CanonicalPath": "/models/willard-vega-36-standard-cruiser-flybridge-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/willard-vega-36-standard-cruiser-flybridge-sedan/"
   },
   {
     "ManufacturerID": "WILLARD",
@@ -66410,7 +67157,10 @@
       "AirDraft": "researched_unknown"
     },
     "Draft": null,
-    "AirDraft": null
+    "AirDraft": null,
+    "CanonicalSlug": "willard-vega-40-nomad-widebody-flybridge-sedan",
+    "CanonicalPath": "/models/willard-vega-40-nomad-widebody-flybridge-sedan/",
+    "CanonicalURL": "https://b-atlas.org/models/willard-vega-40-nomad-widebody-flybridge-sedan/"
   },
   {
     "ManufacturerID": "WINDY",
@@ -66678,7 +67428,10 @@
     "WaterCapacityUnitStatus": "conflicting_legacy_capacity_values",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "Draft": 0.72,
-    "AirDraft": 2.3
+    "AirDraft": 2.3,
+    "CanonicalSlug": "windy-26-sn-norwegian-pocket-trawler-snekke",
+    "CanonicalPath": "/models/windy-26-sn-norwegian-pocket-trawler-snekke/",
+    "CanonicalURL": "https://b-atlas.org/models/windy-26-sn-norwegian-pocket-trawler-snekke/"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -66998,7 +67751,10 @@
     "FuelCapacityUnitStatus": "conflicting_legacy_capacity_values",
     "WaterCapacityUnitStatus": "conflicting_legacy_capacity_values",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 4.1148
+    "AirDraft": 4.1148,
+    "CanonicalSlug": "mainship-34-mkiii",
+    "CanonicalPath": "/models/mainship-34-mkiii/",
+    "CanonicalURL": "https://b-atlas.org/models/mainship-34-mkiii/"
   },
   {
     "ManufacturerID": "MAINSHIP",
@@ -67315,7 +68071,10 @@
     "SideDecksCode": "side_decks.wide",
     "FuelCapacityUnitStatus": "conflicting_legacy_capacity_values",
     "WaterCapacityUnitStatus": "conflicting_legacy_capacity_values",
-    "HoldingCapacityUnitStatus": "unit_unverified"
+    "HoldingCapacityUnitStatus": "unit_unverified",
+    "CanonicalSlug": "mainship-34t",
+    "CanonicalPath": "/models/mainship-34t/",
+    "CanonicalURL": "https://b-atlas.org/models/mainship-34t/"
   },
   {
     "ManufacturerID": "KROGEN",
@@ -67581,7 +68340,10 @@
     "FuelCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "WaterCapacityUnitStatus": "legacy_gallon_basis_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
-    "AirDraft": 4.1656
+    "AirDraft": 4.1656,
+    "CanonicalSlug": "kadey-krogen-44-ae-advanced-ergonomics",
+    "CanonicalPath": "/models/kadey-krogen-44-ae-advanced-ergonomics/",
+    "CanonicalURL": "https://b-atlas.org/models/kadey-krogen-44-ae-advanced-ergonomics/"
   },
   {
     "ManufacturerID": "MERIDIAN",
@@ -67846,7 +68608,10 @@
     "WaterCapacityUnitStatus": "canonical_litres_assumed_us_gal",
     "HoldingCapacityUnitStatus": "canonical_litres_assumed_us_gal",
     "AirDraft": 4.1148,
-    "HoldingCapacityGal": 30
+    "HoldingCapacityGal": 30,
+    "CanonicalSlug": "meridian-341-sedan-original-generation-bayliner-3488-lineage",
+    "CanonicalPath": "/models/meridian-341-sedan-original-generation-bayliner-3488-lineage/",
+    "CanonicalURL": "https://b-atlas.org/models/meridian-341-sedan-original-generation-bayliner-3488-lineage/"
   },
   {
     "ManufacturerID": "BENE",
@@ -68107,7 +68872,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 7.9248,
-    "RudderTypeCode": "rudder.none_external_drive"
+    "RudderTypeCode": "rudder.none_external_drive",
+    "CanonicalSlug": "beneteau-antares-9-generation-2",
+    "CanonicalPath": "/models/beneteau-antares-9-generation-2/",
+    "CanonicalURL": "https://b-atlas.org/models/beneteau-antares-9-generation-2/"
   },
   {
     "ManufacturerID": "CRUISERS",
@@ -68344,7 +69112,10 @@
     "WaterCapacityUnitStatus": "unit_unverified",
     "HoldingCapacityUnitStatus": "unit_unverified",
     "LWL": 8.8392,
-    "AirDraft": 3.6576
+    "AirDraft": 3.6576,
+    "CanonicalSlug": "cruisers-yachts-3260-esprit-open-interior-no-mid-cabin",
+    "CanonicalPath": "/models/cruisers-yachts-3260-esprit-open-interior-no-mid-cabin/",
+    "CanonicalURL": "https://b-atlas.org/models/cruisers-yachts-3260-esprit-open-interior-no-mid-cabin/"
   },
   {
     "ManufacturerID": "SEA",
@@ -68623,7 +69394,10 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "sea-ray-340-sundancer-generation-2",
+    "CanonicalPath": "/models/sea-ray-340-sundancer-generation-2/",
+    "CanonicalURL": "https://b-atlas.org/models/sea-ray-340-sundancer-generation-2/"
   },
   {
     "ManufacturerID": "SEA",
@@ -68902,6 +69676,9 @@
     "AirDraft": null,
     "PlanCriticalStatus": {
       "AirDraft": "researched_unknown"
-    }
+    },
+    "CanonicalSlug": "sea-ray-340-sundancer-generation-3",
+    "CanonicalPath": "/models/sea-ray-340-sundancer-generation-3/",
+    "CanonicalURL": "https://b-atlas.org/models/sea-ray-340-sundancer-generation-3/"
   }
 ]
