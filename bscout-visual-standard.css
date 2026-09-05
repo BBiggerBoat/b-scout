@@ -463,3 +463,50 @@ body{color:var(--bs-text-primary)}
   #decisionWorkspaceModal,#boatWatchModal{top:0}
   #decisionWorkspaceModal .modal-content,#boatWatchModal .modal-content{margin:12px auto;max-height:calc(100vh - 24px)}
 }
+
+
+/* v6.71.3 — Chrome cache/overlay fix + Support visibility */
+#decisionWorkspaceModal,#boatWatchModal{
+  top:calc(var(--batlas-header-height, 62px) + 1px);
+}
+#decisionWorkspaceModal .modal-content,#boatWatchModal .modal-content{
+  margin:16px auto 28px;
+  max-height:calc(100dvh - var(--batlas-header-height, 62px) - 46px);
+}
+#decisionWorkspaceModal button:not(.modal-close):not(.context-back-button),
+#boatWatchModal .boat-watch-actions button,
+#createBoatWatchBtn,
+#compareWorkspaceSelectionBtn{
+  background:#176fa8!important;
+  border:1px solid #176fa8!important;
+  color:#fff!important;
+}
+#decisionWorkspaceModal button:not(.modal-close):not(.context-back-button) *,
+#boatWatchModal .boat-watch-actions button *{color:#fff!important}
+.contribution-support-card{
+  margin:18px 0 22px;
+  padding:18px 20px;
+  border:1px solid var(--bs-border-light);
+  border-left:4px solid var(--bs-accent,#176fa8);
+  border-radius:4px;
+  background:#fff;
+}
+.contribution-support-card h2{margin:0 0 6px;color:var(--bs-text-heading);font-size:var(--bs-font-section-title)}
+.contribution-support-card p{margin:0 0 12px;color:var(--bs-text-secondary)}
+.support-batlas-button,
+.information-section a.workspace-primary-action{
+  display:inline-block;
+  padding:9px 14px;
+  background:#176fa8!important;
+  border:1px solid #176fa8!important;
+  border-radius:4px;
+  color:#fff!important;
+  font-weight:700;
+  text-decoration:none;
+}
+.support-batlas-button:hover,
+.information-section a.workspace-primary-action:hover{filter:brightness(.93);color:#fff!important}
+@media(max-width:760px){
+  #decisionWorkspaceModal,#boatWatchModal{top:0}
+  #decisionWorkspaceModal .modal-content,#boatWatchModal .modal-content{max-height:calc(100dvh - 24px)}
+}
