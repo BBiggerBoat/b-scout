@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<base href="/">
+<base href="/"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>B-Atlas | Boat Knowledge for Better Decisions</title>
 <meta content="B-Atlas is a community-powered boat knowledge and research resource for discovering cruising boat models, comparing specifications, understanding trade-offs and making better buying decisions." name="description"/>
@@ -149,14 +149,14 @@
 <section aria-labelledby="guidedLengthHeading" class="guided-dimension-group">
 <h3 class="guided-dimension-heading" id="guidedLengthHeading">LENGTH</h3>
 <div class="guided-field-grid guided-dimension-fields">
-<label>Minimum <span>Use only when smaller models would not meet your needs. Unknown length remains a candidate.</span><input data-mirror-id="minLength" inputmode="decimal" data-unit-input="length" placeholder="Feet" type="number"/></label>
-<label>Maximum <span>Leave blank when flexible. Include swim platforms or pulpits when your marina measures overall length.</span><input data-mirror-id="maxLength" inputmode="decimal" data-unit-input="length" placeholder="Feet" type="number"/></label>
+<label>Minimum <span>Use only when smaller models would not meet your needs. Unknown length remains a candidate.</span><input data-mirror-id="minLength" data-unit-input="length" inputmode="decimal" placeholder="Feet" type="number"/></label>
+<label>Maximum <span>Leave blank when flexible. Include swim platforms or pulpits when your marina measures overall length.</span><input data-mirror-id="maxLength" data-unit-input="length" inputmode="decimal" placeholder="Feet" type="number"/></label>
 </div>
 </section>
 <section aria-labelledby="guidedBeamHeading" class="guided-dimension-group">
 <h3 class="guided-dimension-heading" id="guidedBeamHeading">BEAM</h3>
 <div class="guided-field-grid guided-dimension-fields">
-<label>Minimum <span>Use only when a narrower model would be unsuitable. Unknown beam remains a candidate.</span><input data-mirror-id="minBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" data-unit-input="length" placeholder="Feet, e.g. 9.5" type="text"/></label>
+<label>Minimum <span>Use only when a narrower model would be unsuitable. Unknown beam remains a candidate.</span><input data-mirror-id="minBeam" data-unit-input="length" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Feet, e.g. 9.5" type="text"/></label>
 <label>Maximum <span>Confirm the usable width of your slip—not only its advertised size.</span><input data-mirror-id="maxBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Feet, e.g. 10.5" type="text"/></label>
 </div>
 </section>
@@ -202,7 +202,18 @@
      SEARCH COLUMN
 ===================================================== -->
 <aside class="search-panel">
-<h2>Refine Model Matches</h2>
+<h2>Refine Model Matches</h2><div class="model-text-search-top">
+
+
+<section class="filter-section">
+<div class="search-input-group">
+<input id="textSearch" placeholder="Models, engines, strengths, features..." type="text"/>
+<button id="clearTextSearch" title="Clear search text" type="button">✕</button>
+</div>
+<div class="crew-guidance-note">Matching text improves preference ranking. It does not exclude boats.</div>
+</section>
+
+</div>
 <div class="buyer-workspace-container" style="margin-bottom: 20px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
 <h3 class="saved-models-sidebar-heading">Saved Models</h3>
 <button class="workspace-status-btn" id="viewFavoriteBoatsBtn" type="button">
@@ -223,7 +234,7 @@
 </button>
 <button class="workspace-primary-btn" id="openDecisionWorkspaceBtn" type="button">Open Saved Models</button>
 </div>
-<div class="filter-group active search-profile-group">
+<div class="filter-group search-profile-group">
 <button class="filter-header" type="button">
 <span>Search Profile</span>
 <span class="arrow-icon">▼</span>
@@ -258,42 +269,8 @@
 <small>of <span id="totalBoatsCount">0</span> models</small>
 </div>
 <h2 class="search-section-heading filters-heading">FILTERS</h2>
-<div class="filter-group active">
-<button class="filter-header" type="button">
-<span>Routes</span>
-<span class="arrow-icon">▼</span>
-</button>
-<div class="filter-content">
-<section class="filter-section">
-<h3>Routes</h3>
-<label>
-<input class="routeFilter" type="checkbox" value="RC"/> Rideau Canal
-            </label>
-<label>
-<input class="routeFilter" type="checkbox" value="TSW"/> Trent-Severn Waterway
-            </label>
-<label>
-<input class="routeFilter" type="checkbox" value="ICW"/> Intracoastal Waterway
-            </label>
-<label>
-<input class="routeFilter" type="checkbox" value="EC"/> Erie Canal
-            </label>
-<label>
-<input class="routeFilter" type="checkbox" value="HR"/> Hudson River
-            </label>
-<label>
-<input class="routeFilter" type="checkbox" value="MRS"/> Mississippi River System
-            </label>
-<label>
-<input class="routeFilter" type="checkbox" value="SLR"/> St. Lawrence River
-            </label>
-<label>
-<input class="routeFilter" type="checkbox" value="CSR"/> Columbia &amp; Snake Rivers
-            </label>
-</section>
-</div>
-</div>
-<div class="filter-group active">
+
+<div class="filter-group">
 <button class="filter-header" type="button">
 <span>Dimensions</span>
 <span class="arrow-icon">▼</span>
@@ -301,23 +278,23 @@
 <div class="filter-content">
 <section class="filter-section compact-number-row">
 <label for="minLength">Min Length (ft)</label>
-<input id="minLength" data-unit-input="length" inputmode="decimal" placeholder="24" type="number"/>
+<input data-unit-input="length" id="minLength" inputmode="decimal" placeholder="24" type="number"/>
 </section>
 <section class="filter-section compact-number-row">
 <label for="maxLength">Max Length (ft)</label>
-<input id="maxLength" data-unit-input="length" inputmode="decimal" placeholder="33" type="number"/>
+<input data-unit-input="length" id="maxLength" inputmode="decimal" placeholder="33" type="number"/>
 </section>
 <section class="filter-section compact-number-row">
 <label for="minBeam">Min Beam (ft)</label>
-<input id="minBeam" data-unit-input="length" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="9.5" type="text"/>
+<input data-unit-input="length" id="minBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="9.5" type="text"/>
 </section>
 <section class="filter-section compact-number-row">
 <label for="maxBeam">Max Beam (ft)</label>
-<input id="maxBeam" data-unit-input="length" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="10.5" type="text"/>
+<input data-unit-input="length" id="maxBeam" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="10.5" type="text"/>
 </section>
 </div>
 </div>
-<div class="filter-group active">
+<div class="filter-group">
 <button class="filter-header" type="button">
 <span>Characteristics</span>
 <span class="arrow-icon">▼</span>
@@ -377,7 +354,7 @@
 </div>
 </div>
 <h2 class="search-section-heading preferences-heading">PREFERENCES</h2>
-<div class="filter-group active preference-group">
+<div class="filter-group preference-group">
 <button class="filter-header" type="button">
 <span>Standard</span>
 <span class="arrow-icon">▼</span>
@@ -399,7 +376,7 @@
 </section>
 </div>
 </div>
-<div class="filter-group active preference-group">
+<div class="filter-group preference-group">
 <button class="filter-header" type="button">
 <span>Crew Fit</span>
 <span class="arrow-icon">▼</span>
@@ -413,22 +390,42 @@
 <div class="crew-guidance-note">Crew Fit preferences improve ranking when model data confirms a match. Unknown data does not exclude a boat.</div>
 </div>
 </div>
-<div class="filter-group active preference-group">
+
+<div class="filter-group">
 <button class="filter-header" type="button">
-<span>Text Search</span>
+<span>Routes</span>
 <span class="arrow-icon">▼</span>
 </button>
 <div class="filter-content">
 <section class="filter-section">
-<div class="search-input-group">
-<input id="textSearch" placeholder="Models, engines, strengths, features..." type="text"/>
-<button id="clearTextSearch" title="Clear search text" type="button">✕</button>
-</div>
-<div class="crew-guidance-note">Matching text improves preference ranking. It does not exclude boats.</div>
+<h3>Routes</h3>
+<label>
+<input class="routeFilter" type="checkbox" value="RC"/> Rideau Canal
+            </label>
+<label>
+<input class="routeFilter" type="checkbox" value="TSW"/> Trent-Severn Waterway
+            </label>
+<label>
+<input class="routeFilter" type="checkbox" value="ICW"/> Intracoastal Waterway
+            </label>
+<label>
+<input class="routeFilter" type="checkbox" value="EC"/> Erie Canal
+            </label>
+<label>
+<input class="routeFilter" type="checkbox" value="HR"/> Hudson River
+            </label>
+<label>
+<input class="routeFilter" type="checkbox" value="MRS"/> Mississippi River System
+            </label>
+<label>
+<input class="routeFilter" type="checkbox" value="SLR"/> St. Lawrence River
+            </label>
+<label>
+<input class="routeFilter" type="checkbox" value="CSR"/> Columbia &amp; Snake Rivers
+            </label>
 </section>
 </div>
-</div>
-</aside>
+</div></aside>
 <!-- =====================================================
      RESULTS AREA
 ===================================================== -->
@@ -448,42 +445,15 @@
 <a data-app-action="about" href="#about">About</a>
 <a data-app-action="research-models" href="#boat-guides">Research Models</a>
 <a href="models/">Browse Model Guides</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
-    <a href="boats/">Find by Criteria</a>
-    <a href="compare/">Compare Models</a>
 <a href="boats/">Find by Criteria</a>
 <a href="compare/">Compare Models</a>
 <a data-app-action="saved-models" href="#saved-models">Saved Models</a>
 <a data-app-action="contribute" href="#contribute">Help Build B-Atlas</a>
+<a href="https://ko-fi.com/batlas" target="_blank" rel="noopener noreferrer">Support B-Atlas</a>
 <a data-app-action="privacy" href="#privacy">Privacy</a>
 <a class="moderator-access-link" hidden="" href="developer/contribution-review.html" id="moderatorAccessLink">Moderator</a>
 </nav>
-<span>Version 6.69.0</span>
+<span>Version 6.71.0</span>
 </footer>
 </main>
 </div>
@@ -501,13 +471,13 @@
 <div class="boat-guide-heading-actions">
 <button class="guide-contribute-action" data-contribution-source="guide" id="contributeToGuideBtn" type="button">Contribute to this Guide</button>
 <div class="guide-share-wrap">
-<button class="guide-share-action" id="shareGuideBtn" type="button" aria-haspopup="menu" aria-expanded="false">Share</button>
-<div class="guide-share-menu" id="shareGuideMenu" role="menu" hidden>
-<button type="button" id="nativeShareGuide" role="menuitem">Share…</button>
-<button type="button" id="copyGuideLink" role="menuitem">Copy link</button>
-<button type="button" id="emailGuideLink" role="menuitem">Email</button>
-<button type="button" id="facebookGuideLink" role="menuitem">Facebook</button>
-<button type="button" id="copyGuideSummary" role="menuitem">Copy model summary</button>
+<button aria-expanded="false" aria-haspopup="menu" class="guide-share-action" id="shareGuideBtn" type="button">Share</button>
+<div class="guide-share-menu" hidden="" id="shareGuideMenu" role="menu">
+<button id="nativeShareGuide" role="menuitem" type="button">Share…</button>
+<button id="copyGuideLink" role="menuitem" type="button">Copy link</button>
+<button id="emailGuideLink" role="menuitem" type="button">Email</button>
+<button id="facebookGuideLink" role="menuitem" type="button">Facebook</button>
+<button id="copyGuideSummary" role="menuitem" type="button">Copy model summary</button>
 </div>
 </div>
 </div>
@@ -565,7 +535,7 @@
 <label style="display: block; font-weight: bold; margin-bottom: 5px;">Tags (comma-separated)</label>
 <input id="researchTags" placeholder="e.g. offshore, weekend, family" type="text"/>
 </div>
-<div class="modal-section legacy-listing-compatibility" hidden>
+<div class="modal-section legacy-listing-compatibility" hidden="">
 <h3>Listing Discovery</h3>
 <p class="field-help">Marketplace discovery belongs in My Boats. These links are shown here only for compatibility with existing saved work.</p>
 <div class="notebook-listing-searches" id="notebookListingSearches">No model-specific listing searches are available.</div>
@@ -580,7 +550,6 @@
 </div>
 </div>
 </div>
-
 <!-- =====================================================
      DECISION WORKSPACE MODAL
 ===================================================== -->
@@ -594,7 +563,7 @@
 <p id="decisionWorkspaceProfileName">Models and listings you are considering</p>
 </div>
 <button disabled="" id="compareWorkspaceSelectionBtn" type="button">Compare Selected (0)</button>
-</div>
+<button disabled="" id="createBoatWatchBtn" type="button">Create Boat Watch (0)</button></div>
 <div aria-label="Saved model status filters" class="decision-workspace-filters" role="group">
 <button class="decision-filter-btn active" data-status="All" type="button">All</button>
 <button class="decision-filter-btn" data-status="Interested" type="button">Interested</button>
@@ -626,7 +595,7 @@
 <div class="decision-workspace-layout">
 <div class="decision-workspace-table-wrapper">
 <table class="decision-workspace-table">
-<thead><tr><th>Compare</th><th>Boat Model</th><th>Stage</th><th>My Rating</th><th>Updated</th><th>Actions</th></tr></thead>
+<thead><tr><th>Watch</th><th>Compare</th><th>Boat Model</th><th>Stage</th><th>My Rating</th><th>Updated</th><th>Actions</th></tr></thead>
 <tbody id="decisionWorkspaceTableBody"></tbody>
 </table>
 </div>
@@ -636,7 +605,7 @@
 </aside>
 </div>
 </div>
-</div>
+</div><div class="modal" id="boatWatchModal"><div class="modal-content boat-watch-modal-content"><button class="modal-close" id="closeBoatWatchModal" type="button">×</button><p class="workspace-eyebrow">B-Atlas Boat Watch</p><h2>Create Boat Watch</h2><p class="field-help">B-Atlas prepares monitoring instructions from your selected models. ChatGPT can use them to create a recurring monitoring task; the same instructions can be copied for another AI.</p><label class="workspace-field-label">Search area<input id="boatWatchArea" type="text" value="Canada and the United States"/></label><label class="workspace-field-label">Maximum price (optional)<input id="boatWatchPrice" placeholder="e.g. CAD $90,000" type="text"/></label><label class="workspace-field-label">Additional requirements (optional)<textarea id="boatWatchRequirements" placeholder="e.g. Prefer diesel; trailer is a strong positive" rows="3"></textarea></label><label class="workspace-field-label">Monitoring instructions<textarea id="boatWatchPrompt" readonly="" rows="14"></textarea></label><div class="boat-watch-actions"><button id="boatWatchChatGPT" type="button">Copy &amp; Open ChatGPT</button><button id="boatWatchCopy" type="button">Copy for another AI</button></div><p class="field-help" id="boatWatchStatus">ChatGPT supports recurring monitoring tasks. After ChatGPT opens, paste the copied instructions and confirm the task schedule.</p></div></div>
 <!-- =====================================================
      LISTING WORKSPACE — INDIVIDUAL CANDIDATE BOAT
 ===================================================== -->
@@ -901,10 +870,10 @@ Engine manual — paper copy aboard..." rows="7"></textarea>
 <script src="communityguide.js?v=6.27.2"></script>
 <script src="modelknowledgescore.js?v=6.66.0"></script>
 <script src="boatworkspace.js?v=6.69.0"></script>
-<script src="script.js?v=6.69.0"></script>
+<script src="script.js?v=6.70.0"></script>
 <script src="appbootstrap.js"></script>
 <script src="ownership.js"></script>
-<script src="applicationpolish.js?v=6.69.0"></script>
+<script src="applicationpolish.js?v=6.71.0"></script>
 <script src="communityapi.js?v=6.67.0"></script>
 <script src="contributionentry.js?v=6.66.0"></script>
 <script src="moderatoraccess.js"></script>

@@ -2987,7 +2987,7 @@ function renderDecisionWorkspace() {
     if (profileLabel) profileLabel.textContent = currentSearchProfile?.ProfileName || "Saved Models";
     const rows = getDecisionWorkspaceRows();
     if (!rows.length) {
-        tbody.innerHTML = '<tr><td colspan="6" class="decision-workspace-empty">No boat models are saved at this stage.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="7" class="decision-workspace-empty">No boat models are saved at this stage.</td></tr>';
         renderDecisionTimeline(null);
         updateWorkspaceCompareButton();
         return;
@@ -2998,6 +2998,7 @@ function renderDecisionWorkspace() {
         const rating = rel.Research?.Rating ? "★".repeat(Number(rel.Research.Rating)) : "Unrated";
         const updated = rel.LastUpdated ? new Date(rel.LastUpdated).toLocaleDateString() : "Unknown";
         return `<tr class="${decisionWorkspaceSelectedBoatId === id ? "selected" : ""}" data-workspace-boat-id="${escapeWorkspaceHtml(id)}">
+            <td><input type="checkbox" class="workspace-watch-checkbox" data-id="${escapeWorkspaceHtml(id)}" ${boatWatchSelection.has(id) ? "checked" : ""} aria-label="Watch ${escapeWorkspaceHtml(title)} for sale"></td>
             <td><input type="checkbox" class="workspace-compare-checkbox" data-id="${escapeWorkspaceHtml(id)}" ${comparisonBoatIDs.includes(id) ? "checked" : ""} aria-label="Compare ${escapeWorkspaceHtml(title)}"></td>
             <td><button type="button" class="workspace-boat-link" data-id="${escapeWorkspaceHtml(id)}">${escapeWorkspaceHtml(title)}</button></td>
             <td><select class="workspace-status-select" data-id="${escapeWorkspaceHtml(id)}">
@@ -3027,6 +3028,11 @@ function renderDecisionWorkspace() {
             showResearchPanel(button.dataset.id);
         }
     }));
+    tbody.querySelectorAll(".workspace-watch-checkbox").forEach(input => input.addEventListener("change", () => {
+        if (input.checked) boatWatchSelection.add(String(input.dataset.id)); else boatWatchSelection.delete(String(input.dataset.id));
+        updateBoatWatchButton();
+    }));
+    updateBoatWatchButton();
     tbody.querySelectorAll(".workspace-compare-checkbox").forEach(input => input.addEventListener("change", () => {
         toggleCompareBoat(input.dataset.id);
         renderDecisionWorkspace();
@@ -3316,3 +3322,64 @@ if (typeof window !== "undefined") {
     window.getListingById = getListingById;
     window.saveListingWorkspaceRecord = saveListingWorkspaceRecord;
 }
+
+// =====================================================
+// v6.70 — B-ATLAS BOAT WATCH
+// =====================================================
+const boatWatchSelection = new Set();
+
+function getBoatWatchSelectedBoats() {
+    return Array.from(boatWatchSelection).map(id => allBoats.find(boat => String(boat.BoatModelID) === String(id))).filter(Boolean);
+}
+function updateBoatWatchButton() {
+    const button = document.getElementById("createBoatWatchBtn");
+    if (!button) return;
+    button.textContent = `Create Boat Watch (${boatWatchSelection.size})`;
+    button.disabled = boatWatchSelection.size === 0;
+}
+function buildBoatWatchPrompt() {
+    const boats = getBoatWatchSelectedBoats();
+    const area = document.getElementById("boatWatchArea")?.value.trim() || "Canada and the United States";
+    const price = document.getElementById("boatWatchPrice")?.value.trim();
+    const requirements = document.getElementById("boatWatchRequirements")?.value.trim();
+    const modelLines = boats.map(boat => {
+        const name = [boat.Manufacturer, boat.Model, boat.Variant].filter(Boolean).join(" ");
+        const url = window.BAtlasModelURLs?.absoluteURL ? window.BAtlasModelURLs.absoluteURL(boat) : (boat.CanonicalURL || "");
+        return `- ${name}${url ? ` — B-Atlas reference: ${url}` : ""}`;
+    }).join("\n");
+    return `Create a recurring Boat Watch for the following boat models and notify me when a genuinely new qualifying listing appears for sale.\n\nMODELS TO WATCH\n${modelLines}\n\nSEARCH AREA\n${area}\n${price ? `\nMAXIMUM PRICE\n${price}\n` : ""}${requirements ? `\nADDITIONAL REQUIREMENTS\n${requirements}\n` : ""}\nSEARCH INSTRUCTIONS\nSearch public dealer sites, brokerages, marketplaces, classifieds and other publicly accessible boat-for-sale sources. Account for reasonable model-name variations, aliases, punctuation and listings that omit a variant name when the boat can still reasonably be identified as one of the requested models.\n\nUse the B-Atlas model links above as identification references, not as listing sources. Do not reject a potentially relevant listing merely because specifications are missing. Missing information means unknown, not unsuitable. Reject only when known information clearly conflicts with the requested model or a stated hard requirement.\n\nDeduplicate listings that appear on multiple sites. Remember listings already reported and notify me only about genuinely new candidates or a meaningful change to an existing candidate, such as a substantial price reduction or relisting.\n\nFor each candidate report: model, year if known, asking price and currency, location, source, direct listing URL, date found, and a short note explaining any identification uncertainty or important missing information.\n\nRun this as a recurring monitoring task. Daily checking is sufficient unless I specify otherwise. If no new qualifying listing is found, do not notify me.`;
+}
+function refreshBoatWatchPrompt() {
+    const field = document.getElementById("boatWatchPrompt");
+    if (field) field.value = buildBoatWatchPrompt();
+}
+async function copyBoatWatchPrompt() {
+    refreshBoatWatchPrompt();
+    const prompt = document.getElementById("boatWatchPrompt")?.value || "";
+    try { await navigator.clipboard.writeText(prompt); return true; }
+    catch (_) {
+        const field = document.getElementById("boatWatchPrompt");
+        field?.focus(); field?.select();
+        return document.execCommand("copy");
+    }
+}
+function openBoatWatchModal() {
+    refreshBoatWatchPrompt();
+    const modal = document.getElementById("boatWatchModal");
+    if (modal) modal.style.display = "block";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("createBoatWatchBtn")?.addEventListener("click", openBoatWatchModal);
+    document.getElementById("closeBoatWatchModal")?.addEventListener("click", () => { document.getElementById("boatWatchModal").style.display = "none"; });
+    ["boatWatchArea","boatWatchPrice","boatWatchRequirements"].forEach(id => document.getElementById(id)?.addEventListener("input", refreshBoatWatchPrompt));
+    document.getElementById("boatWatchCopy")?.addEventListener("click", async () => {
+        const ok = await copyBoatWatchPrompt();
+        document.getElementById("boatWatchStatus").textContent = ok ? "Boat Watch instructions copied. Paste them into your preferred AI." : "Select and copy the monitoring instructions manually.";
+    });
+    document.getElementById("boatWatchChatGPT")?.addEventListener("click", async () => {
+        const ok = await copyBoatWatchPrompt();
+        document.getElementById("boatWatchStatus").textContent = ok ? "Instructions copied. Paste them into ChatGPT and confirm the recurring task." : "Copy the instructions, then paste them into ChatGPT.";
+        window.open("https://chatgpt.com/", "_blank", "noopener,noreferrer");
+    });
+});
